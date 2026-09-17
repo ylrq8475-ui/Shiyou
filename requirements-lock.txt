@@ -1,0 +1,20 @@
+# Verified on Windows with Python 3.13.7 on 2026-09-16.
+numpy==2.4.3
+pandas==2.3.3
+scikit-learn==1.9.1
+scipy==1.17.1
+joblib==1.6.0
+threadpoolctl==3.7.0
+PyYAML==6.0.3
+openpyxl==3.1.5
+et_xmlfile==2.0.0
+python-dateutil==2.9.0.post0
+six==1.17.0
+pytz==2026.3.post1
+tzdata==2026.4
+pytest==8.4.2
+iniconfig==2.1.0
+packaging==25.0
+pluggy==1.6.0
+Pygments==2.19.2
+colorama==0.4.6

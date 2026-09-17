@@ -1,0 +1,136 @@
+project:
+  name: chemical_flood_fracturing_uplift_prediction
+  random_seed: 20260916
+  allow_external_data: false
+  allow_pretrained_weights: false
+
+data:
+  input_dir: null
+  sources:
+    train:
+      history: []
+      layer: []
+      plan: []
+      template: []
+    test:
+      history: []
+      layer: []
+      plan: []
+      template: []
+  audit_output: artifacts/audit_report.json
+  csv: {encoding: utf-8-sig, delimiter: ","}
+  excel: {sheet_name: 0}
+
+schema:
+  mapping:
+    sample_id: WELL_ID
+    group_id: WELL_ID
+    event_time: NY
+    target: RCYL
+    sample_weight: null
+  strict_unique_sample_id: false
+  feature_columns: []
+  exclude_columns: [RCYL1, HS, YCYL1, YCYL, HSYCYL, NCYL, LJCYL, BZ]
+  datetime_columns: [NY]
+  categorical_columns: [CYFS]
+  numeric_columns: [SCTS, BJ, CC, CC1, PL, BX, YY, TY, LY, CMD, CCJHWND, CCJND, CCBHJND, CCYND, SXDL, XXDL]
+  aliases: {}
+  public_history_columns: [WELL_ID, NY, CYFS, SCTS, BJ, CC, CC1, PL, BX, YY, TY, LY, RCYL1, RCYL, HS, CMD, CCJHWND, CCJND, CCBHJND, CCYND, SXDL, XXDL, YCYL1, YCYL, HSYCYL, NCYL, LJCYL, CSLB, BZ]
+  public_layer_columns: [WELL_ID, XH, CW, YCZMC, XCH, XFCH, XB, SYDS, SYDS1, SYHD, YXHD, STL, DCXH, KXD, HSBHD, SFSBHD, CCCD, SYJSJG, SKQK]
+  public_first_plan_columns: [井号, 完工日期, 层位, 井段(喷枪深度), 砂岩射开厚度, 有效厚度, 渗透率, 上隔层厚度, 下隔层厚度, 目的层温度, 压裂方式, 石英砂用量]
+
+# 以下规则尚未得到正式答复。保持 false/null/空列表时，样本构造必须停止。
+anchors:
+  confirmed: false
+  rule_version: null
+  approval_id: null
+  evidence_level: null
+  event_semantics: null
+  well_column: WELL_ID
+  date_column: NY
+  event_column: CSLB
+  eligible_event_values: []
+  continuous_event_strategy: null
+  selection_strategy: null
+  same_month_tie_strategy: null
+  tie_break_columns: []
+  horizon_months: 12
+  first_forecast_month_offset: null
+  incomplete_training_window_strategy: null
+  require_complete_calendar_months: true
+
+features:
+  history_numeric_columns: [RCYL, SCTS, BJ, CC, CC1, PL, BX, YY, TY, LY, CMD, CCJHWND, CCJND, CCBHJND, CCYND, SXDL, XXDL]
+  history_categorical_columns: [CYFS]
+  target_lags: [1, 2, 3, 6, 12]
+  rolling_windows: [3, 6, 12]
+  trend_windows: [3, 6, 12]
+  layer_well_column: WELL_ID
+  layer_numeric_columns: [SYDS, SYDS1, SYHD, YXHD, STL, KXD, HSBHD, SFSBHD, CCCD]
+  plan_well_column: 井号
+  plan_date_column: 完工日期
+  plan_numeric_columns: [砂岩射开厚度, 有效厚度, 渗透率, 上隔层厚度, 下隔层厚度, 目的层温度, 石英砂用量]
+  plan_categorical_columns: [层位, 压裂方式]
+
+validation:
+  n_splits: 5
+  time_gap_rows: 0
+  purge_group_overlap: true
+  min_train_rows: 20
+  min_validation_rows: 12
+
+model:
+  primary: hist_gradient_boosting
+  feature_policy: all_v1
+  calibration_policy: legacy_non_nested_diagnostic
+  candidates: [recent_value, history_mean, decline_curve, median, hist_gradient_boosting, extra_trees]
+  params: {}
+  artifact_path: artifacts/model.joblib
+  metrics_output: artifacts/validation_metrics.json
+
+scoring:
+  confirmed: true
+  formula_version: official_12m_smape_v1
+  direction: maximize
+  horizon_months: 12
+  monthly_weight: inverse_power_of_two
+  well_aggregation: sum
+  across_wells: equal_mean
+  epsilon: 1.0e-6
+
+submission:
+  confirmed: true
+  layout: per_well_csv_zip
+  filename: result.zip
+  encoding: utf-8-sig
+  id_column: WELL_ID
+  key_columns: [WELL_ID, NY]
+  prediction_columns: [RCYL]
+  required_column_order: [WELL_ID, NY, RCYL]
+  allow_extra_columns: false
+  require_id_unique: false
+  require_key_unique: true
+  require_finite_predictions: true
+  require_reference_order: true
+  prediction_min: 0.0
+  prediction_max: null
+  decimal_places: 6
+  rows_per_well: 12
+  expected_rows: null
+  reference_ids_file: null
+  per_well_filename_template: "{WELL_ID}.csv"
+
+packaging:
+  include_manifest_in_result_zip: false
+  code_exclude_globs:
+    - ".git/**"
+    - ".venv/**"
+    - "__pycache__/**"
+    - ".pytest_cache/**"
+    - "artifacts/**"
+    - "deliverables/**"
+    - "data/**"
+    - "*.csv"
+    - "*.xlsx"
+    - "*.joblib"
+    - "*.zip"

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+*.py[cod]
+
+# Local configuration and credentials
+.env
+.env.*
+configs/local.yaml
+configs/private*.yaml
+
+# Competition data and derived private artifacts
+data/
+raw/
+processed/
+private_logs/
+models/
+submissions/
+deliverables/
+artifacts/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.joblib
+*.pkl
+*.pickle
+*.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
