@@ -19,6 +19,11 @@ models/
 submissions/
 deliverables/
 artifacts/
+runtime_tmp/
+**/runtime_tmp/
+**/reproduction_check/
+coordination/
+evidence_private/
 *.csv
 *.tsv
 *.xls

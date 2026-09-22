@@ -1,0 +1,100 @@
+request_id: A2B-013
+version: END_T1_CM1_NL
+approval: user_explicit_second_submission_once_after_local_gates
+created_local_date: 2026-09-22
+plan_rule: lock_before_any_candidate_score_or_test_prediction
+objective: train_and_submit_one_safe_information_boundary_model
+evidence_boundary:
+  official: target_RCYL_12_months_and_unnormalized_equal_well_metric
+  versioned_assumption: segment_end_anchor_and_next_natural_month_first_forecast
+  unresolved: forecast_generation_time_and_event_semantics_P0
+  leaderboard_first_round_80_5402_used_for_model_selection: false
+frozen_reference:
+  ledger: experiments/a2b013/FROZEN_BEFORE_AFTER_SHA256.txt
+  predecessor_config: configs/private_data_inferred_v7_safe_plus_layer.yaml
+  predecessor_model: models/data_inferred_latest_record_v7_safe_plus_layer.joblib
+  predecessor_metrics: private_logs/validation_metrics_data_inferred_v7_safe_plus_layer.json
+  first_result_zip: result.zip
+  first_submission_code_zip: submission_code.zip
+cohort:
+  train_source: only_declared_train_history_from_frozen_private_config
+  test_source: only_declared_test_history_and_template_from_frozen_private_config
+  raw_data: read_only_no_copy_move_rename_or_upload_outside_formal_submission
+  train_event: latest_contiguous_eligible_event_segment_per_well
+  event_segment: consecutive_eligible_calendar_months_merged_before_latest_selection
+  anchor: end_month_of_latest_event_segment
+  target_window: next_12_consecutive_natural_months
+  incomplete_train_window: exclude_with_aggregate_reason_counts
+  training_cohort: all_latest_events_with_complete_finite_nonnegative_12_month_targets
+  test_cohort: exact_template_keys_and_order_only
+  historical_event_augmentation: false
+  later_eligible_event_in_training_target_window: fail_if_present
+feature_boundary:
+  history_cutoff: strictly_before_anchor_month
+  dynamic_fields_at_or_after_anchor: never_used_for_features_or_target_scale
+  history_spec: frozen_v7_history_numeric_categorical_lags_rolling_trends
+  shared_fields: [horizon, forecast_step, history_month_count]
+  permitted_feature_prefix: history__
+  expected_feature_count: 325
+  layer_feature_count: 0
+  plan_first_feature_count: 0
+  external_data_or_pretrained_weights: false
+  test_fitted_statistics: false
+model:
+  family: ExtraTreesRegressor
+  name: extra_trees_log_ratio_last
+  random_seed: 20260916
+  params: {n_estimators: 400, min_samples_leaf: 6, max_features: 0.75, n_jobs: -1}
+  target_transform: unweighted_log1p_RCYL_divided_by_pre_anchor_last_RCYL
+  target_scale_fallback_if_missing_nonfinite_or_nonpositive: 1.0
+  preprocessing: median_numeric_imputation_with_missing_indicators_then_standard_scaling_and_categorical_train_only_encoding
+  preprocessing_fit_scope: current_training_fold_or_final_training_wells_only
+  calibration: none
+  blend: none
+  prediction_scale: 1.0
+validation:
+  split: deterministic_GroupKFold_5_by_WELL_ID
+  official_metric: equal_well_mean_of_100_times_one_minus_unnormalized_sum_2_power_minus_t_sMAPE
+  epsilon: 1.0e-6
+  oof: uncalibrated
+  report: [fixed_oof, five_fold_scores, worst_fold, fold_score_std, twelve_month_losses, months_1_2_loss, months_1_4_loss, invalid_prediction_counts, training_well_count, excluded_window_counts]
+  score_threshold_for_submission: none
+  no_score_or_leaderboard_based_adjustment: true
+training:
+  final_model: refit_same_frozen_pipeline_on_all_eligible_training_wells
+  no_historical_events_or_test_labels: true
+  no_target_weighting_or_robust_scale: true
+  no_grid_search_deep_learning_pseudolabels_or_third_party_statistics: true
+submission:
+  output_root: deliverables/a2b013_second_submission
+  result_zip: deliverables/a2b013_second_submission/result.zip
+  code_zip: deliverables/a2b013_second_submission/submission_code.zip
+  result_columns: [WELL_ID, NY, RCYL]
+  result_keys: exact_test_template_keys_and_order
+  result_layout: root_flat_one_csv_per_well_12_rows_each
+  result_predictions: finite_nonnegative_floats
+  code_package: complete_training_and_inference_with_configurable_data_and_output_paths
+  code_package_excludes: [raw_data, private_logs, labels, first_round_model, first_round_zip]
+  code_package_max_bytes: 5368709120
+  reproducibility: extracted_code_retrain_and_reinfer_result_zip_SHA256_must_match
+  local_gates_before_upload: [syntax, synthetic_tests, full_regression, anchor_and_time_cutoff, grouped_oof, metric, template_match, output_lint, extracted_reproduction, privacy_scan, frozen_hashes_before_after, package_hash_lock]
+platform:
+  authorized_attempts: 1
+  upload_only_if_all_local_gates_pass: true
+  only_files: [deliverables/a2b013_second_submission/result.zip, deliverables/a2b013_second_submission/submission_code.zip]
+  remark: A2B-013 safe boundary / END_T1_CM1_NL
+  record: [timestamp, both_SHA256, success_or_explicit_failure, total_score_if_available]
+  no_per_well_or_per_month_platform_labels: true
+  no_automatic_v7_replacement_or_resubmission: true
+  unavailable_platform: report_blocker_without_claiming_submission
+privacy:
+  reports_and_logs: aggregate_only_no_real_well_ids_raw_rows_row_level_targets_predictions_or_raw_candidate_values
+  row_level_oof_disk: false
+  formal_result_zip_exception: only_authorized_submit_artifact_may_contain_template_keys_and_predictions
+  output_scan: code_zip_and_all_non_submission_a2b013_text_for_identifiers_and_candidate_values
+stopping:
+  data_contract_or_template_mismatch: stop_without_upload
+  any_local_gate_failure: diagnose_and_fix_in_a2b013_only_then_rerun_before_upload
+  platform_success_or_explicit_failure: stop_after_single_attempt
+  no_model_upgrade_or_followup_tuning: true
+rollback: keep_v7_and_first_ZIPs_untouched;_second_round_artifacts_are_independent
