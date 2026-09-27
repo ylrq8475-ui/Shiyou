@@ -14,6 +14,26 @@
 
 锚点使用用户批准的数据推断规则 `data_inferred_latest_record_v1`：两个匿名候选取值按月度独立事件处理，选择最后一条候选记录所在月，预测从下一自然月开始。同月出现多条候选记录时程序会报错。该规则尚未得到主办方书面确认，应把它保留为独立版本因素。
 
+## 第三轮候选（S1 / S3，2026-09-27）
+
+本代码包的一键复现入口为 `reproduce_candidate.py`，默认变体写在 `submission_variant.json`。
+
+- **口径**（数据推断、用户批准，尚未获主办方书面确认）：连续合格候选月份视为一次持续事件，锚点取最后一段的末月，预测从次月开始连续 12 个自然月。信息边界与 A2B-013 相同：井史严格截止到锚点前一个完整月，不使用层位和首次方案。
+- **S1**：A2B-013 同口径 ExtraTrees（400 棵树、`min_samples_leaf=6`、`max_features=0.75`、种子 20260916，目标 `log1p(RCYL/锚点前一月RCYL)`）与全局滑窗时序模型（HistGradientBoosting，种子 0/1/2 取平均，以每口井每个月为预测起点构造约 5,268 个训练窗口，带压裂事件上下文特征）在对数空间按 0.7 / 0.3 几何融合。
+- **S3**：A2B-013 同口径 ExtraTrees 预测整体乘以 `exp(-0.15)≈0.861`，用于 A 榜整体水平探测。
+- **S4**：A2B-013 同口径 ExtraTrees 与“精简水平修正模型”在对数空间按 0.5 / 0.5 几何融合。精简模型为 ExtraTrees（500 棵树、`min_samples_leaf=10`、`max_features=0.5`、种子 0），只用 30 个特征：锚点前井史摘要、锚点月相对前一月和压前水平的增幅、锚点月生产天数与含水，以及测试输入中官方给出的目标月份生产天数、油压、套压、泵径、冲程、冲次、PL 相对锚点前一月的对数变化和备注/措施记录是否存在（不读取备注文本内容）。S4 依赖两条数据推断口径：锚点月在预测前已结束、其数据可用；测试输入中目标月份的上述字段可作为已知输入。两条均未获主办方书面确认。
+- 不使用外部数据、预训练权重或网络资源；不做测试集拟合。
+
+```powershell
+python -m pip install -r requirements-candidate-verified.txt
+python -m pip install -e .
+python -m pytest -q -p no:cacheprovider
+python reproduce_candidate.py --data-dir <官方数据目录> --output-dir reproduction_output --authorized
+# 指定变体：--variant S1 / S3 / S4
+```
+
+输出为 `reproduction_output/result.zip`：根目录逐井 CSV，每井 12 行，列为 `WELL_ID,NY,RCYL`，`NY` 逐字继承测试模板原字符串。候选结果在 Linux、Python 3.10.12 与 `requirements-candidate-verified.txt` 所列版本下验证可逐值复现；在其他版本（如 `requirements-lock.txt` 的 scikit-learn 1.9.1）下，树模型数值可能有微小差异。
+
 ## 环境安装
 
 已验证 Python 3.13.7。建议在代码包根目录创建独立环境：
