@@ -1,0 +1,138 @@
+{
+  "request_id": "B2A-017",
+  "audit_role": "ACCOUNT_A",
+  "audit_date": "2026-10-07",
+  "entry_exit_code": 0,
+  "interpreter": "D:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "python_version": "3.13.7",
+  "flags": [
+    "-E",
+    "-B"
+  ],
+  "entry": "C:\\Users\\Admin\\petroleum_uplift_prediction\\experiments\\a2b017\\review_only.py",
+  "entry_option": "--reproduce-A2B-017",
+  "instrumentation": "standard-library cProfile, sorted by ncalls; only anonymous JSON and selected function call summaries retained",
+  "review_entry_result": {
+    "formal_compliance_passed": false,
+    "independent_real_reproduction_executed": true,
+    "published_checks_do_not_independently_prove_row_level_invariance": true,
+    "published_file_checks_passed": true,
+    "raw_data_read": true,
+    "reproduction": {
+      "baseline_aggregates_exactly_matched": true,
+      "candidate_aggregates_and_coefficients_exactly_matched": true,
+      "confirmation_matched": null,
+      "deployment_matched": null,
+      "independent_main_fit_calls": 120,
+      "new_runtime_evidence_collected": true,
+      "raw_files_checked": 100,
+      "row_level_outputs_or_artifacts_written": false
+    },
+    "request_id": "B2A-017",
+    "research_eligible": {
+      "C1": false,
+      "C2": false
+    },
+    "selected_candidate": null,
+    "state": "no_candidate_passed_main_gates"
+  },
+  "observed_call_counts": {
+    "checked_fit": {
+      "calls": 120,
+      "cumulative_seconds": 440.508
+    },
+    "checked_preprocess": {
+      "calls": 120,
+      "cumulative_seconds": 6.31
+    },
+    "audited_fit_predict": {
+      "calls": 120,
+      "cumulative_seconds": 453.516
+    },
+    "_fit_pipeline": {
+      "calls": 120,
+      "cumulative_seconds": 440.553
+    },
+    "inner_oof": {
+      "calls": 30,
+      "cumulative_seconds": 317.096
+    },
+    "baseline_oof": {
+      "calls": 6,
+      "cumulative_seconds": 138.307
+    },
+    "nested_from_baseline": {
+      "calls": 6,
+      "cumulative_seconds": 325.378
+    }
+  },
+  "baseline_outer_fit_calls": 30,
+  "nested_inner_fit_calls": 90,
+  "actual_model_fit_calls": 120,
+  "actual_preprocess_fit_calls": 120,
+  "coefficient_fold_records_exactly_matched": 60,
+  "independent_artifact_audit_after": {
+    "S22_faults_recorded": 71,
+    "candidates": {
+      "C1": {
+        "coefficients_checked": 30,
+        "fallback_wells_max": 13,
+        "fallback_wells_min": 8,
+        "fixed_delta": 0.0956430943307538,
+        "numeric_gate_passed": false,
+        "positive_seeds": 4,
+        "repeated_mean_delta": 0.11589699545893098,
+        "structure_passed": true
+      },
+      "C2": {
+        "coefficients_checked": 30,
+        "fallback_wells_max": 13,
+        "fallback_wells_min": 8,
+        "fixed_delta": 0.11325914955369853,
+        "numeric_gate_passed": false,
+        "positive_seeds": 5,
+        "repeated_mean_delta": 0.1505003663191758,
+        "structure_passed": true
+      }
+    },
+    "frozen_files_checked": 61,
+    "manifest_entries": 34,
+    "privacy": {
+      "candidate_raw_values_scanned": true,
+      "files": 36,
+      "hits": 0,
+      "private_tokens": 100
+    },
+    "raw_files_checked": 100,
+    "synthetic_tests_recorded": 31
+  },
+  "B_project_before": {
+    "bytes": 152670212,
+    "files": 920,
+    "handoff_manifest_sha256": "542199411f76d93a8f228afcf7ead25de8d377744582454e69af67e47cf6fa9c",
+    "tree_sha256": "20f46b0ff2e9b7cdad050796164df80a35ab6d4f503ebcfa1e69cb501e964312"
+  },
+  "B_project_after": {
+    "bytes": 152670212,
+    "files": 920,
+    "handoff_manifest_sha256": "542199411f76d93a8f228afcf7ead25de8d377744582454e69af67e47cf6fa9c",
+    "tree_sha256": "20f46b0ff2e9b7cdad050796164df80a35ab6d4f503ebcfa1e69cb501e964312"
+  },
+  "B_project_byte_contents_unchanged": true,
+  "model_stage_calls": {
+    "confirmation": 0,
+    "deployment_calibration": 0,
+    "full_fit": 0,
+    "save": 0
+  },
+  "isolated_candidate_exists": false,
+  "unresolved_P0": [
+    "event_semantics",
+    "forecast_generation_time_and_first_month_mapping"
+  ],
+  "independent_algorithm_implementation": false,
+  "persistent_real_well_identifiers_or_rows": false,
+  "persistent_real_targets_or_predictions": false,
+  "ZIP_generated": false,
+  "platform_uploaded": false
+}

@@ -1,0 +1,55 @@
+{
+  "audit_id": "A-015-01-SELFVALIDATION-20261009",
+  "type": "read_only_boundary_audit_not_model_experiment",
+  "authorization": "user_20261009_continue_under_data_inferred_assumptions_and_prepare_review_handoff",
+  "hypothesis": "Latest-record and latest-segment-end interpretations are observationally equivalent for the existing output contract; this cannot identify physical event semantics.",
+  "falsification": "Any eligible well has different latest-record and segment-end anchors/windows, or the frozen template/cohort contract fails.",
+  "cohort": {
+    "train_history_wells": 88,
+    "complete_train_wells": 81,
+    "test_wells": 10,
+    "test_rows": 120,
+    "train_test_overlap": 0
+  },
+  "rules": {
+    "target_start": "latest eligible record month plus one",
+    "target_months": 12,
+    "current_history_cutoff": "latest segment end minus one month",
+    "sensitivity_history_cutoff": "latest segment start minus one month",
+    "rule_selection_uses_leaderboard": false,
+    "rule_selection_uses_target_values_or_OOF": false
+  },
+  "new_checks": [
+    "event interpretation observational equivalence on all declared history wells",
+    "calendar cutoff differences in frozen complete training and test cohorts"
+  ],
+  "existing_checks_reused": [
+    "A2B-006 four-rule date-alignment matrix",
+    "A independent P0 date audit",
+    "B2A-017 locked model reproduction and failed C1/C2 eligibility"
+  ],
+  "runtime": {
+    "real_audit_python": "3.13.7",
+    "external_inputs": false,
+    "raw_access": "authorized local declared CSV sources, read-only"
+  },
+  "constraints": {
+    "model_fit_calls": 0,
+    "model_saved": 0,
+    "ZIP_generated": 0,
+    "platform_uploads": 0,
+    "raw_identifiers_or_event_values_or_rows_persisted": false,
+    "cutoff_sensitivity_is_not_a_model_improvement_test": true,
+    "forecast_time_status": "UNKNOWN",
+    "event_semantics_status": "UNKNOWN",
+    "official_compliance_status": "NOT_PROVEN",
+    "auto_upgrade": false
+  },
+  "stopping": [
+    "Missing/deviant cohort, duplicate well-month, invalid month, missing template alignment: stop.",
+    "Never change the target dates to maximize a local or platform score.",
+    "Keep formal deployment and A2B-017 stop decisions unchanged."
+  ],
+  "report": "Anonymous counts and validation booleans only. No well IDs, raw rows, row-level targets/predictions, or private event values.",
+  "rollback": "Stop using these new audit documents; keep existing B artifacts and raw data unchanged."
+}

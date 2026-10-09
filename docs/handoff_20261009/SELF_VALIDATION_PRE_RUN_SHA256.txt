@@ -1,0 +1,4 @@
+# A-015-01 self-validation: plan and implementation locked before real-data audit.
+cd2ac3a61ee5ec55a0002fa9dbc7d1b82cb548d29ec1c7746347da45cd850141  SELF_VALIDATION_PLAN.json
+7ee6c5911f5b2f9fba73c6c7685495be5561166c5f53634f70c11eff8ec4a5f1  audit_boundary_assumptions.py
+8e87d866d4a27e394828844c9e878b87dffb1474642560f09de35c08f0c95704  test_boundary_assumptions.py

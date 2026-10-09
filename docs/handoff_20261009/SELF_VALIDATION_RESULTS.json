@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-09",
+  "registered_plan": "SELF_VALIDATION_PLAN.json",
+  "pre_run_lock": "SELF_VALIDATION_PRE_RUN_SHA256.txt",
+  "python": "3.13.7",
+  "synthetic_tests": {
+    "count": 16,
+    "passed": 16
+  },
+  "real_readonly_result": {
+    "ZIP_generated": false,
+    "audit_id": "A-015-01-SELFVALIDATION-20261009",
+    "candidate_model_saves": 0,
+    "checks_passed": true,
+    "cohort": {
+      "complete_train_wells": 81,
+      "test_rows": 120,
+      "test_wells": 10,
+      "train_history_wells": 88,
+      "train_test_overlap": 0
+    },
+    "cutoff_sensitivity": {
+      "test": {
+        "record_rows_between_segment_start_and_end": 4,
+        "wells_examined": 10,
+        "wells_with_stricter_segment_start_cutoff": 4
+      },
+      "train": {
+        "record_rows_between_segment_start_and_end": 31,
+        "wells_examined": 81,
+        "wells_with_stricter_segment_start_cutoff": 28
+      }
+    },
+    "data_inferred_output_rule": "latest eligible record month plus one, exact official template keys",
+    "event_semantics_status": "UNKNOWN",
+    "existing_rules_matrix_reused": true,
+    "forecast_time_status": "UNKNOWN",
+    "model_fit_calls": 0,
+    "observational_equivalence": {
+      "different_anchors_or_target_windows": 0,
+      "history_wells_checked": 98,
+      "interpretations_distinguished_by_monthly_data": false
+    },
+    "official_compliance_proven": false,
+    "platform_uploaded": false,
+    "row_level_outputs_written": false
+  }
+}

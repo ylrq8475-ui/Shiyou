@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-09",
+  "branch": "codex/model-handoff-20261009",
+  "prepared_files_checked": 11,
+  "private_markers_checked": 100,
+  "private_marker_hits": 0,
+  "privacy_passed": true,
+  "pre_run_lock_matched": 3,
+  "source_and_model_readonly": true,
+  "frozen_handoff_matches": 34,
+  "old_project_matches": 61,
+  "raw_file_matches": 100,
+  "new_synthetic_tests_passed": 16,
+  "new_model_fit_calls": 0,
+  "formal_ZIP_generated": false,
+  "platform_uploaded": false,
+  "existing_A2B_017_retrained": false,
+  "scope": "Prepared handoff files were scanned before adding this release metadata and checksum list. All final Git additions must also pass the 100-marker scan before publication.",
+  "official_event_semantics_proven": false,
+  "official_prediction_time_proven": false,
+  "final_checksum_file": "SHA256SUMS.txt"
+}

@@ -1,0 +1,2835 @@
+{
+  "baseline": {
+    "fixed": {
+      "early_signed_symmetric_relative_error_mean": 0.01664087825596644,
+      "early_weighted_loss_fraction": 0.7538975300162335,
+      "fold_score_std": 5.355071462864172,
+      "fold_scores": [
+        71.45331390948151,
+        77.536429088971,
+        75.12924056181328,
+        64.6268639962143,
+        79.96598872591244
+      ],
+      "groups": {
+        "fallback_score": 70.94723062402434,
+        "fallback_wells": 14,
+        "ordinary_score": 74.29226068196151,
+        "ordinary_wells": 67,
+        "status": "published"
+      },
+      "independent_metric_absolute_error": 0.0,
+      "inf_prediction_count": 0,
+      "month_1_loss": 0.13285967837214752,
+      "monthly_weighted_loss": [
+        0.13285967837214752,
+        0.06530901714475737,
+        0.033875651640929316,
+        0.015488100878629125,
+        0.008081648168156512,
+        0.0037547260728674216,
+        0.0016818952346042988,
+        0.0008641551988088326,
+        0.0005011950383167953,
+        0.0002507112878169938,
+        0.0001263052241636013,
+        6.584235265883033e-05
+      ],
+      "months_1_12_loss": 0.2628589266138566,
+      "months_1_2_loss": 0.19816869551690489,
+      "months_1_4_loss": 0.24753244803646332,
+      "nan_prediction_count": 0,
+      "negative_prediction_count": 0,
+      "official_oof": 73.71410733861434,
+      "worst_fold_number": 4,
+      "worst_fold_score": 64.6268639962143
+    },
+    "repeated": {
+      "mean": 72.66595303947287,
+      "months_1_2_losses": [
+        0.20263704038897237,
+        0.20863689565262933,
+        0.20905879846529718,
+        0.20981102750410457,
+        0.2019191810025464
+      ],
+      "per_seed": [
+        {
+          "early_signed_symmetric_relative_error_mean": 0.014858371347210715,
+          "early_weighted_loss_fraction": 0.7561759487907571,
+          "fold_score_std": 3.997577243590959,
+          "fold_scores": [
+            71.09362561370915,
+            73.47048655337163,
+            77.35593113515027,
+            66.83183562067691,
+            77.3918964888483
+          ],
+          "groups": {
+            "fallback_score": 70.11850259642472,
+            "fallback_wells": 14,
+            "ordinary_score": 73.84679098286362,
+            "ordinary_wells": 67,
+            "status": "published"
+          },
+          "independent_metric_absolute_error": 1.4210854715202004e-14,
+          "inf_prediction_count": 0,
+          "month_1_loss": 0.1348479629346384,
+          "monthly_weighted_loss": [
+            0.1348479629346384,
+            0.06778907745433396,
+            0.034440101010625786,
+            0.015467522068335335,
+            0.008270210207337498,
+            0.0037413097261608233,
+            0.0016080599413496742,
+            0.000857771085221767,
+            0.0005131192247401537,
+            0.0002502340542218901,
+            0.0001256621829477506,
+            6.501551727097163e-05
+          ],
+          "months_1_12_loss": 0.267976045407184,
+          "months_1_2_loss": 0.20263704038897237,
+          "months_1_4_loss": 0.2525446634679335,
+          "nan_prediction_count": 0,
+          "negative_prediction_count": 0,
+          "official_oof": 73.2023954592816,
+          "worst_fold_number": 4,
+          "worst_fold_score": 66.83183562067691
+        },
+        {
+          "early_signed_symmetric_relative_error_mean": 0.012323074902960201,
+          "early_weighted_loss_fraction": 0.7573223521342096,
+          "fold_score_std": 6.257911526106127,
+          "fold_scores": [
+            79.12246198498126,
+            67.96745309095667,
+            79.59505917377078,
+            71.61679202212193,
+            63.53482287411914
+          ],
+          "groups": {
+            "fallback_score": 67.10003304611246,
+            "fallback_wells": 14,
+            "ordinary_score": 73.56876754738212,
+            "ordinary_wells": 67,
+            "status": "published"
+          },
+          "independent_metric_absolute_error": 0.0,
+          "inf_prediction_count": 0,
+          "month_1_loss": 0.13841748432619788,
+          "monthly_weighted_loss": [
+            0.13841748432619788,
+            0.07021941132643143,
+            0.03519180072833877,
+            0.01580212900129509,
+            0.008414880147478546,
+            0.003885642182859026,
+            0.0016863540056775955,
+            0.0009022722655418841,
+            0.0005204104467146679,
+            0.00025809592858220485,
+            0.00012957977101824906,
+            6.479316366986949e-05
+          ],
+          "months_1_12_loss": 0.27549285329380524,
+          "months_1_2_loss": 0.20863689565262933,
+          "months_1_4_loss": 0.2596308253822632,
+          "nan_prediction_count": 0,
+          "negative_prediction_count": 0,
+          "official_oof": 72.45071467061948,
+          "worst_fold_number": 5,
+          "worst_fold_score": 63.53482287411914
+        },
+        {
+          "early_signed_symmetric_relative_error_mean": -0.00033641610582615364,
+          "early_weighted_loss_fraction": 0.7522468657254257,
+          "fold_score_std": 2.2460501417299934,
+          "fold_scores": [
+            68.66741559981374,
+            72.542805564321,
+            73.46173416001412,
+            75.37553317698583,
+            71.21760069032044
+          ],
+          "groups": {
+            "fallback_score": 65.07058631644063,
+            "fallback_wells": 14,
+            "ordinary_score": 73.70030797362577,
+            "ordinary_wells": 67,
+            "status": "published"
+          },
+          "independent_metric_absolute_error": 0.0,
+          "inf_prediction_count": 0,
+          "month_1_loss": 0.1375328913975322,
+          "monthly_weighted_loss": [
+            0.1375328913975322,
+            0.07152590706776499,
+            0.035941263719916676,
+            0.016524130437884806,
+            0.008677858370934587,
+            0.004102644838698682,
+            0.0017330345851984286,
+            0.000896358343484651,
+            0.0005224324018766408,
+            0.0002540045820914794,
+            0.00013461933638483963,
+            6.734347834368998e-05
+          ],
+          "months_1_12_loss": 0.27791248856011164,
+          "months_1_2_loss": 0.20905879846529718,
+          "months_1_4_loss": 0.2615241926230987,
+          "nan_prediction_count": 0,
+          "negative_prediction_count": 0,
+          "official_oof": 72.20875114398883,
+          "worst_fold_number": 1,
+          "worst_fold_score": 68.66741559981374
+        },
+        {
+          "early_signed_symmetric_relative_error_mean": 0.01351181370843159,
+          "early_weighted_loss_fraction": 0.75596293939277,
+          "fold_score_std": 3.1421550235686815,
+          "fold_scores": [
+            74.0606652427805,
+            73.47532895322747,
+            71.81831308514087,
+            66.37226107320761,
+            75.38929630168407
+          ],
+          "groups": {
+            "fallback_score": 67.16494421752152,
+            "fallback_wells": 14,
+            "ordinary_score": 73.30754150289742,
+            "ordinary_wells": 67,
+            "status": "published"
+          },
+          "independent_metric_absolute_error": 0.0,
+          "inf_prediction_count": 0,
+          "month_1_loss": 0.13888523505488215,
+          "monthly_weighted_loss": [
+            0.13888523505488215,
+            0.07092579244922241,
+            0.03566987705760748,
+            0.01619418431283897,
+            0.008452520626234328,
+            0.0038716454303182658,
+            0.0017138390397754319,
+            0.0008769735316032832,
+            0.0005073461104568009,
+            0.0002527191217367142,
+            0.0001260232882623215,
+            6.526376231751718e-05
+          ],
+          "months_1_12_loss": 0.27754141978525565,
+          "months_1_2_loss": 0.20981102750410457,
+          "months_1_4_loss": 0.261675088874551,
+          "nan_prediction_count": 0,
+          "negative_prediction_count": 0,
+          "official_oof": 72.24585802147443,
+          "worst_fold_number": 4,
+          "worst_fold_score": 66.37226107320761
+        },
+        {
+          "early_signed_symmetric_relative_error_mean": 0.017160464715188763,
+          "early_weighted_loss_fraction": 0.7540500676921669,
+          "fold_score_std": 4.917378977191291,
+          "fold_scores": [
+            77.82001030360779,
+            79.87447483081158,
+            67.25026694058111,
+            68.96066487237074,
+            71.91743978752822
+          ],
+          "groups": {
+            "fallback_score": 70.5705417858018,
+            "fallback_wells": 14,
+            "ordinary_score": 73.77609153822051,
+            "ordinary_wells": 67,
+            "status": "published"
+          },
+          "independent_metric_absolute_error": 0.0,
+          "inf_prediction_count": 0,
+          "month_1_loss": 0.13354361316991098,
+          "monthly_weighted_loss": [
+            0.13354361316991098,
+            0.06837556783263542,
+            0.0344976182032908,
+            0.015634232875660577,
+            0.008344607365266155,
+            0.003814666799150194,
+            0.0017006033497625696,
+            0.00088763763157626,
+            0.0005289335779285596,
+            0.00025540559278069443,
+            0.00013150376356557716,
+            6.515081847228166e-05
+          ],
+          "months_1_12_loss": 0.26777954098000006,
+          "months_1_2_loss": 0.2019191810025464,
+          "months_1_4_loss": 0.25205103208149776,
+          "nan_prediction_count": 0,
+          "negative_prediction_count": 0,
+          "official_oof": 73.22204590199999,
+          "worst_fold_number": 3,
+          "worst_fold_score": 67.25026694058111
+        }
+      ],
+      "scores": [
+        73.2023954592816,
+        72.45071467061948,
+        72.20875114398883,
+        72.24585802147443,
+        73.22204590199999
+      ],
+      "seeds": [
+        20260917,
+        20261031,
+        20261219,
+        20270107,
+        20270303
+      ],
+      "std": 0.45361893574493317,
+      "worst_score": 72.20875114398883,
+      "worst_seed": 20261219
+    }
+  },
+  "candidates": {
+    "C1": {
+      "calibration_selection": "unshrunk_grid_then_fixed_shrink_not_shrunk_loss_optimum",
+      "coefficients": [
+        {
+          "alpha": [
+            1.05,
+            1.125
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.1,
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "b54546e42b7d805064005ca3111f86727ce8d27de8874c2d5543a94bdbacbc6d",
+            "prediction_sha256": "0950600df193f896e1c99dd16e64158cd705f2342b1fdf3dc747549df8dc1dd0",
+            "row_sha256": "a8c884f1c9154a5d21302640519c09651053279f878578e1b945997b86699f1e",
+            "wells": 64
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.1585871913270429,
+              0.14519594612316294,
+              0.14196503827622614,
+              0.14151903364898538,
+              0.14358500333503307
+            ],
+            [
+              0.0819643230492197,
+              0.07777918011032607,
+              0.07605315682328964,
+              0.07463350477660297,
+              0.07273735984686827
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125,
+            1.125
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25,
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "e7cc0305e28acb2f7ea737c59d6beca4504d304af32b0f8d14488217c078e5c6",
+            "prediction_sha256": "b1ee936aa3a2f79fd0440deb5a08b94063f78b5a4b3d2412673bf994e223f7c2",
+            "row_sha256": "4ed6817c84cb667634c619d28c87193d48a7c040063b7b7ef9c29f4d944f66c9",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.16537166208843054,
+              0.1526340067347258,
+              0.14726398106088473,
+              0.14441746112829554,
+              0.14382440260612475
+            ],
+            [
+              0.07834994008945766,
+              0.0739764345217049,
+              0.07219538165726731,
+              0.07081476335154187,
+              0.06970213700608661
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.1,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "3f4a7f33798ade1b0f203a73bdaaddab33127cad213a1a11dbe7b1fac7911cb0",
+            "prediction_sha256": "77b9427f9bbb2f851731a00b8690baa4452d4755abe1897202bc53721019685d",
+            "row_sha256": "ee5b886ee8d471b7c04dec4eddca1f9ad06aa8b5cd746f79a9cc138fafce04b6",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.1669261944224256,
+              0.15098286668193267,
+              0.14753633352332712,
+              0.14694212799761702,
+              0.14893819750851217
+            ],
+            [
+              0.08000426549447114,
+              0.07446178669592637,
+              0.07235662788635991,
+              0.07116656656957021,
+              0.07182111083207218
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.0,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.0,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "6572f900d9f5b23070384a8b237367361d35d35b0bbcfb901893c378438cf299",
+            "prediction_sha256": "216fa9b398698c89622e4b22912805650c4beebf6733711b1f7fc5423daabaf8",
+            "row_sha256": "24d5a453aeb5c193fa6412893f3b4fe20e2d8a56f61549e3f8047d0a6b287a34",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.14312207013886183,
+              0.131345384083361,
+              0.12862973538333417,
+              0.1291760974661769,
+              0.1337654845780604
+            ],
+            [
+              0.07633060809868036,
+              0.07098729816280985,
+              0.06924097745562167,
+              0.0684592464654723,
+              0.06918643440296464
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 10,
+          "selected_a": [
+            1.1,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "4549d74aa67999ab5368ea0de2a2b507f439e0a995dab0129f79414fa65ee76b",
+            "prediction_sha256": "2c0043eb5005cd97655a9f2d0879f305e03463b8b74021234b7b990569ce58e3",
+            "row_sha256": "30c75a390bc49d965533ec3336b38dbb5cb90579c9f0cfb907d071f257a1934f",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.17324230747395586,
+              0.15936698118165632,
+              0.1546653847282074,
+              0.1530030853475339,
+              0.15323897300539832
+            ],
+            [
+              0.08580184127490675,
+              0.08185234999682904,
+              0.07985969956525522,
+              0.07892344617543809,
+              0.07912712346419638
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 9,
+          "selected_a": [
+            1.1,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "a617e40ed7e95e0f53d3a3a7748b2181f33b7ec0e05884a18c22970d0a5c9f79",
+            "prediction_sha256": "46b02a52ebc4312a7ac552939662e69822be6142049c52b95db880c9c9053016",
+            "row_sha256": "4d1276c5583150f03200626ca7087df9829a7a04fd009a3a06ade475495917be",
+            "wells": 64
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.15945921961739773,
+              0.14725708781285596,
+              0.14495410452357216,
+              0.14449466574191422,
+              0.14707844757620517
+            ],
+            [
+              0.08228536706600353,
+              0.07409935610231572,
+              0.0708596673526436,
+              0.0699700652818249,
+              0.0705234592174893
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.125
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.1,
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "d638769e8fdeb76077c09b3ca4a3df2cbd08cbbf958b25f6e0d500b2fb36dcfd",
+            "prediction_sha256": "867673f224239ecee9d201cfa85880a377486680ae7aa1675260530d3262b080",
+            "row_sha256": "d86a8db2292845bcb040280dc621c76c9418b27643812307dbf111c92703eabf",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.16478580013368435,
+              0.14925069513751338,
+              0.14476438702575797,
+              0.14271243227143476,
+              0.1453674921973636
+            ],
+            [
+              0.08257293254422658,
+              0.07956436350765973,
+              0.07882075026488292,
+              0.07817193122210095,
+              0.07813702473692874
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.1,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "d560ebb6ff74cc69dd1a3f79fe74cfd45b1ac3ee24414f514b8b1c6474efde13",
+            "prediction_sha256": "a4df46bf6d9918320fb0232f65cbeada2ab3d4bebf1642b9f8afd8471ebfcccb",
+            "row_sha256": "6af73ae201a673c295e0cf4570228f3cb52e8d5035f427a6e331b311c8f01692",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.15842344676727538,
+              0.14727882444183207,
+              0.14568166682646208,
+              0.1446659409874999,
+              0.14561134827800212
+            ],
+            [
+              0.07948148810336829,
+              0.07494397988414037,
+              0.07376655482239015,
+              0.0732668615679814,
+              0.07359208944387775
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.0,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.0,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "4e937e477429db6b2258239c4e64f7c2517faa8b78527751ddd7cafdd6cc988d",
+            "prediction_sha256": "299d7389a249a268926c00d0b85a156c8ebc71b2c130777403a28bfbda548908",
+            "row_sha256": "509849f324129a6d3086c8b1524f868b0f8a1f7e6b5c090a8aa51cd73148d87c",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.15760705045601328,
+              0.14545424946396976,
+              0.14384814179273897,
+              0.1442180169725074,
+              0.1461356739697599
+            ],
+            [
+              0.0772823488346404,
+              0.07186494519382543,
+              0.07067901277005947,
+              0.07009634423435414,
+              0.07110744402323495
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.0,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 13,
+          "selected_a": [
+            1.0,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "3bfaa14d6422f720042b65b30e10a526a4bb0f2540943eaa38344ff8d0392adf",
+            "prediction_sha256": "4fcf1ecb0b2ef93ca7711c37290ccb797744314ba667115681489f1961eae0cf",
+            "row_sha256": "14b35347cd238a3a3ff7edf35cd56cda664360b8009a5821ae35281bb117e077",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.15898482469020742,
+              0.14781601890856189,
+              0.14693120584399916,
+              0.1480295809550711,
+              0.15386347069749273
+            ],
+            [
+              0.07994230863449729,
+              0.07422379955612508,
+              0.07259797376416222,
+              0.07201986947397891,
+              0.07291111725278314
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.0,
+            1.0
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.0,
+            1.0
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "90a97d93cf9966ec2cc8f4993304e4bd7e583781414d03584a518fe00028b816",
+            "prediction_sha256": "b656c4b26fc37af1e82db004ee885a89cac0b249f424dc409683ae4ec67ce165",
+            "row_sha256": "8eb0bfa587e0f12ff9bbdf267377374910bc0dc0734b774d078cc8d314fa496c",
+            "wells": 64
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.15944391424568524,
+              0.15155991710661743,
+              0.15113224139985915,
+              0.1538718275867036,
+              0.1578915174884346
+            ],
+            [
+              0.08417282463661252,
+              0.0801439923613142,
+              0.07964380769412062,
+              0.07983836394691086,
+              0.08059826694096299
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.125
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.1,
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "ad4e75c74d7125ed8113c21465343211d9e669aa3d5bddc32c96e776a11a589f",
+            "prediction_sha256": "3c01b1ed2c8cfc6cfa42cdce249f39de03b124d4da05cbc2f3dd840269aa9276",
+            "row_sha256": "150524522803d53e381fccabb6d757f04f5f416775c479b4ee4b118c488b8a4a",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.16596170328643423,
+              0.1517696149332473,
+              0.1463635521281408,
+              0.14464226707360464,
+              0.14548320482471358
+            ],
+            [
+              0.08386990217394612,
+              0.07752841600948039,
+              0.07582816506287918,
+              0.07531298355221354,
+              0.07480210715795096
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.0,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.0,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "be1e70c2d840e04bce5fd1c7079d0782cc8d3614072bd70cd797609d834c4115",
+            "prediction_sha256": "50cd9dad0a315bc04fd1aeeffd8d6abc5844547e52947936eb7e046dcfb5cf45",
+            "row_sha256": "d11da1cced3be8cf12920e1a00c0047c4193669b70eb7e9f717ee042b5886abd",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.16868688758899134,
+              0.15449730493630207,
+              0.15279622136555812,
+              0.15297035802980335,
+              0.15464621312051827
+            ],
+            [
+              0.08170107581792742,
+              0.07506752002003123,
+              0.07289839046654654,
+              0.07241349822665921,
+              0.07312230688049921
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.125
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 10,
+          "selected_a": [
+            1.1,
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "397d78ee1753cf5624eb11675acee556e64919625dfadb9e004e9713c3e7ad14",
+            "prediction_sha256": "d366eefde31adcb6f599b290f7bed6b1b802ac77b6df6b938254efdd907feb1b",
+            "row_sha256": "1905605ea279292d493f294a8f22c72e80d201320d957cfe796e7ad7d1c6cf12",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.15533624307249588,
+              0.13969115750635192,
+              0.13547601826211766,
+              0.1345748341814578,
+              0.13636030554138476
+            ],
+            [
+              0.07751523711424337,
+              0.07110272843112818,
+              0.06824864653323252,
+              0.0665767523437516,
+              0.0664052505401235
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.0,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.0,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "4b3e1b4d85ff86cd7df6706e9b6026152f7ca9be42067d349c8147b9ef74f862",
+            "prediction_sha256": "03579b8085b8ee31bbada34616385b4f6f304e7176e11aa6984d0735be5f45de",
+            "row_sha256": "a9bb80d50c7250123e8026adb3a7337f4cb3376ac12a73bda63a618158061c17",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.14557596810047674,
+              0.13436859717771493,
+              0.13264434516644352,
+              0.13455119871945403,
+              0.1406058587253216
+            ],
+            [
+              0.07085164265246491,
+              0.06573558120951267,
+              0.06399488059919903,
+              0.0634435349733947,
+              0.06452265691424866
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.0
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.1,
+            1.0
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "c7715704198eae853e04c3540644149a6da6556fe851c70275c4109f3e8104b7",
+            "prediction_sha256": "2fa67c6ce001dd0a7647a838cf76e28e32a8bd48d87c770db5e375bbff1fbb26",
+            "row_sha256": "2e18f5757228b44507c44a50030ff8bed3669f141b46ff652e9faee6a52fbc00",
+            "wells": 64
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.15271709337640407,
+              0.14453693810256424,
+              0.14220026723378176,
+              0.1418072811498389,
+              0.14391768980383396
+            ],
+            [
+              0.07206441987934561,
+              0.06885323955199335,
+              0.0680902326945816,
+              0.06837736538814257,
+              0.06923221506993107
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 10,
+          "selected_a": [
+            1.1,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "3bc04b6887dff5591c323257fdfaba46517502a24b63c1ed1eac1c58d028291e",
+            "prediction_sha256": "2eb67778695686c4bb3eb2e236b7878e1b30f4354338cc863b66adf1caa4335f",
+            "row_sha256": "f432e2085fd3f24702a2b35289743cc9f1879f1e0bba8b21e0556014ab332419",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.1532024855203186,
+              0.14186431551762407,
+              0.14080286872479827,
+              0.1404357912874301,
+              0.143997979262827
+            ],
+            [
+              0.0811149083009126,
+              0.07692464595979195,
+              0.07582829111609553,
+              0.07571396864580311,
+              0.07626884819996084
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.0,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.0,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "c16df735d3438b405b0d21ea63ff76013482e2ecd6f06e3d9932cd7364765e98",
+            "prediction_sha256": "a1425ac38403bd3ff579dfb84115d17e623ec511a93348920699c29fbf1f1683",
+            "row_sha256": "245893930a4b1fe41fcaaa70e7d4afc2d2b04c31dcee24791a2654b879da5fc6",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.15804172320876347,
+              0.13965126507274228,
+              0.13489367039948724,
+              0.13539981244935648,
+              0.13913859888949937
+            ],
+            [
+              0.07703886906008078,
+              0.06970419835962907,
+              0.06822681435596199,
+              0.06767310772604603,
+              0.06814300955665901
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125,
+            1.125
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.25,
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "7828cebcdbf45386083b1cf67eb054bfb230b40421d9778e3c199ea9bba38fd7",
+            "prediction_sha256": "dd59d03157271b5f3708ef3716641339d50ddb51a7c4b09389f82d36224048a9",
+            "row_sha256": "a1fb1d3d5526c1c5427afc37dbd497157696b3366d5f244d69967abcbd551ac7",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.17116300466944936,
+              0.1525910744292862,
+              0.14871199593255807,
+              0.14676401327522792,
+              0.14613574977069188
+            ],
+            [
+              0.08052149023998663,
+              0.07503956390357204,
+              0.07306903384063183,
+              0.07186345484631178,
+              0.07083242551027638
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.125
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.1,
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "3905e337cdc6ff175312df00c70bbadd434c0ab842a3d6dec5e8c5d3db29efa8",
+            "prediction_sha256": "f4104b667182572b03b14f01b3ffa7d5e8258615b1619fa8c922229907586855",
+            "row_sha256": "3d379784b6bfa81575fe42d00979299c3d85eb4e8254f30f2f50684f9886bdca",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.156201299727272,
+              0.1466673427760145,
+              0.14524027939635623,
+              0.1451012549789804,
+              0.1472579509087737
+            ],
+            [
+              0.08215670692432608,
+              0.07744063108252576,
+              0.0753292435555459,
+              0.07353954294842947,
+              0.072191821026941
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.1,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "cca3c587cb3b863a93d1011e859f3afa67814a19b32f5b4cf11f526e5e50c21a",
+            "prediction_sha256": "a0172d404ff5fdaa2ca7ec2af128c1790fcf6a59da4a015edb7f41559cd87f45",
+            "row_sha256": "61cdc2fcda474219a6b2d7e3708420f82cb3373d280319fd7af54f4e10e1ae28",
+            "wells": 64
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.17756381021358514,
+              0.16042874984631506,
+              0.15631253285123223,
+              0.1560358833040328,
+              0.15760918391351672
+            ],
+            [
+              0.08319799438814576,
+              0.07574541426396865,
+              0.07301800768971406,
+              0.07187169975776683,
+              0.0722427570892974
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 8,
+          "selected_a": [
+            1.25,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "5b3a8e3a534a9daa4e0a7c0ddd298ac54a80e6df420f269b6ef7ef9ffb4ae30f",
+            "prediction_sha256": "e03c399ac62796a9a13e4e1757c233b968398ae82dff17a3eded97ba084bc70e",
+            "row_sha256": "175bbefcb46e54d2318d7f6af7efb200524ce08a200acf7f464db312021eefc5",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.16494994000962185,
+              0.150787690376073,
+              0.1478817310821044,
+              0.14638006916559246,
+              0.14572103839368
+            ],
+            [
+              0.07968588393026757,
+              0.07308690605972461,
+              0.07078620784232428,
+              0.07009165654467683,
+              0.0706249976111542
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.1,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "d09f635000e8bd94304a6b75e3c6015a8d32a25b93d7cbcab5adb676d39a6462",
+            "prediction_sha256": "e5544bf8b39a694f20fd4453f7f47abd3da1ac9e262bf8ec87608b8a9ceacb40",
+            "row_sha256": "fe72f5b5f9545d2c084c7cf2f2a5f20f488688b74fb10827c95a1ec95be129ee",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.15316648454198026,
+              0.1420154594604849,
+              0.14032606264592917,
+              0.13895897832354773,
+              0.14283633022780184
+            ],
+            [
+              0.0741407851083999,
+              0.0701126907121431,
+              0.06888742998999144,
+              0.06816255604219244,
+              0.06908629739437715
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.0,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 13,
+          "selected_a": [
+            1.0,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "0b148b34da910aae25a64208cf040220f0772cc72bf13b031c53cf7194f9e4e5",
+            "prediction_sha256": "036a45224b47e81830c4631497fa990593145bc5b3143f04d79c3112046968ec",
+            "row_sha256": "ecafe5f1292693884b762cc042b536f86d5a2a5a7b98e195564436b958736bf0",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.14390592364326832,
+              0.13494265087919402,
+              0.13404568635540443,
+              0.13438005106386375,
+              0.13553640459626523
+            ],
+            [
+              0.07776880460400591,
+              0.07142463366382346,
+              0.06969073253486607,
+              0.0689140393333348,
+              0.07024119377691491
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.125
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 13,
+          "selected_a": [
+            1.1,
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "f9d2fe443fe1c7c5c3592a93985b20b13a47b64d88f199395e2f4c23db59ef08",
+            "prediction_sha256": "1fd4af2503f9e7e243063d9ae15a2528e9af5aab3bb8dfca50953eff081dc987",
+            "row_sha256": "b20580ccec89dbd0971dbbddc365b88bcead7710ac88d8039eacd1a2fe32e0b3",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.16872664083361685,
+              0.1515844617136273,
+              0.14512162899260164,
+              0.14281407215271003,
+              0.1432299167649878
+            ],
+            [
+              0.08218172929872698,
+              0.07689153105380164,
+              0.07499011697425013,
+              0.07379374730698801,
+              0.07305628836939301
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "ea1102b5c63eca76e9258513b89fba1d3c0ef26060b987716c39f33e8318360a",
+            "prediction_sha256": "004168c9b732cddcc96492c229058948253b9f1a33f026318203b39f3ad113a4",
+            "row_sha256": "0adab6413e7381d163bf28dc7cabe390887e40c5199b6378c0fbe9d8ef748d36",
+            "wells": 64
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.16387861539203283,
+              0.1487799509457608,
+              0.1427886961088515,
+              0.13848501896112242,
+              0.13606468545757794
+            ],
+            [
+              0.08086110078365641,
+              0.07560273660206387,
+              0.074050482724284,
+              0.07343382335645723,
+              0.07375063932782644
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.125
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 9,
+          "selected_a": [
+            1.1,
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "af433125e87649390465b006c611a93900273b09e60d56e60d33d1ea9360ff4f",
+            "prediction_sha256": "86cb09d4d6b5180c689f38d94d2eff1470b0339e94a2f36a0373465100a4d8a2",
+            "row_sha256": "ea6fe97a1bc839681c96f8c999c57c7ebcecdf1f7e24666bba2dffd0a15d0074",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.17054819435369217,
+              0.15222995249802976,
+              0.14824093699777738,
+              0.14718346026786125,
+              0.14838070830687164
+            ],
+            [
+              0.07861796750341728,
+              0.07246237401339377,
+              0.07074109599799386,
+              0.06944755505654956,
+              0.06824344032418478
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05,
+            1.125
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.1,
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "92756055e6e86b41fd66662b621558480f50a9f3a210707d443d26cf9ac498f0",
+            "prediction_sha256": "98f9d2d452a51d1c26dd6c24da69761abdd7d2d1b0b0e534de03e484bb56d144",
+            "row_sha256": "9c04b9e5c87dddb04e9494a81ec176275444bdc00e681ad0ab4a7e35deaa4af3",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.157979128221311,
+              0.1387174907900045,
+              0.13205275292813054,
+              0.13162250608527915,
+              0.1336814082526746
+            ],
+            [
+              0.07945565525268682,
+              0.07125060237378181,
+              0.06736616645585622,
+              0.0653050698622819,
+              0.06397951680433372
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125,
+            1.05
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25,
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "10c9a002bacc3c904c003272ddf0fe55f4e8f8ff4ac50ffdf6c951aa34cb603e",
+            "prediction_sha256": "8756bacf09f034e755100de8b2845645aad78c9920a1bdb7719984f32ce2cb7a",
+            "row_sha256": "c717d74d9ca797cff30d7fb5dc1059af4c8afaad328da85f508e80ecd01be443",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.15685688289853542,
+              0.14253594725739138,
+              0.13791905750628475,
+              0.1346130434091791,
+              0.13372341379432273
+            ],
+            [
+              0.07472041330783044,
+              0.06769400900020289,
+              0.06608552847361866,
+              0.06559141951475081,
+              0.06641469171478723
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.0,
+            1.0
+          ],
+          "candidate_id": "C1",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.0,
+            1.0
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "4bb75872a43571b7b7e0a054a2481b988c688f149069c4ecc09832425302eef4",
+            "prediction_sha256": "e5572068f0f0aca8a7c4c736749cca748fed01298aaf9f515ff7b12655dbfb50",
+            "row_sha256": "64a34c83a6e78da3e152857ea8f9d770f96d55d88e3f539d381ac200809c3814",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.1563721766280645,
+              0.14637124343806232,
+              0.1434295542954101,
+              0.1444127542936096,
+              0.14917233411657782
+            ],
+            [
+              0.08063859335496655,
+              0.07602125617707903,
+              0.07491877689651552,
+              0.07496578325649834,
+              0.07684447046020527
+            ]
+          ]
+        }
+      ],
+      "comparison": {
+        "fixed_months_1_2_loss_delta": -0.0009564309433074125,
+        "fixed_oof_delta": 0.0956430943307538,
+        "fixed_worst_fold_delta": 0.11661022361639084,
+        "positive_repeated_seed_count": 4,
+        "repeated_mean_delta": 0.11589699545893098,
+        "repeated_mean_months_1_2_loss_delta": -0.0011589699545893673,
+        "repeated_months_1_2_loss_deltas": [
+          -0.0023364855145794616,
+          -0.0014741919077141397,
+          -0.0019571101318483497,
+          -0.0002132050635734739,
+          0.00018614284476858867
+        ],
+        "repeated_seed_deltas": [
+          0.23364855145793229,
+          0.14741919077141574,
+          0.19571101318483386,
+          0.021320506357341173,
+          -0.018614284476868193
+        ],
+        "worst_repeated_seed_delta": -0.018614284476868193
+      },
+      "fixed": {
+        "early_signed_symmetric_relative_error_mean": 0.045413576756370526,
+        "early_weighted_loss_fraction": 0.7529987985363589,
+        "fold_score_std": 5.401469548682953,
+        "fold_scores": [
+          71.4392792397438,
+          77.00384854613517,
+          75.48898440014966,
+          64.74347421983069,
+          80.52132020844118
+        ],
+        "groups": {
+          "fallback_score": 70.85738550760274,
+          "fallback_wells": 14,
+          "ordinary_score": 74.42666250689722,
+          "ordinary_wells": 67,
+          "status": "published"
+        },
+        "independent_metric_absolute_error": 1.4210854715202004e-14,
+        "inf_prediction_count": 0,
+        "month_1_loss": 0.13222940490518556,
+        "monthly_weighted_loss": [
+          0.13222940490518556,
+          0.0649828596684119,
+          0.033875651640929316,
+          0.015488100878629125,
+          0.008081648168156512,
+          0.0037547260728674216,
+          0.0016818952346042988,
+          0.0008641551988088326,
+          0.0005011950383167953,
+          0.0002507112878169938,
+          0.0001263052241636013,
+          6.584235265883033e-05
+        ],
+        "months_1_12_loss": 0.2619024956705492,
+        "months_1_2_loss": 0.19721226457359747,
+        "months_1_4_loss": 0.2465760170931559,
+        "nan_prediction_count": 0,
+        "negative_prediction_count": 0,
+        "official_oof": 73.8097504329451,
+        "worst_fold_number": 4,
+        "worst_fold_score": 64.74347421983069
+      },
+      "repeated": {
+        "mean": 72.78185003493181,
+        "months_1_2_losses": [
+          0.2003005548743929,
+          0.2071627037449152,
+          0.20710168833344883,
+          0.2095978224405311,
+          0.202105323847315
+        ],
+        "per_seed": [
+          {
+            "early_signed_symmetric_relative_error_mean": 0.03518593074082338,
+            "early_weighted_loss_fraction": 0.7540313459161445,
+            "fold_score_std": 4.08130046022828,
+            "fold_scores": [
+              71.4822840196241,
+              73.50643255364382,
+              78.09758670208593,
+              66.9018340880311,
+              77.31419268975749
+            ],
+            "groups": {
+              "fallback_score": 71.08305428705604,
+              "fallback_wells": 14,
+              "ordinary_score": 73.92771350524056,
+              "ordinary_wells": 67,
+              "status": "published"
+            },
+            "independent_metric_absolute_error": 1.4210854715202004e-14,
+            "inf_prediction_count": 0,
+            "month_1_loss": 0.1331510095942278,
+            "monthly_weighted_loss": [
+              0.1331510095942278,
+              0.0671495452801651,
+              0.034440101010625786,
+              0.015467522068335335,
+              0.008270210207337498,
+              0.0037413097261608233,
+              0.0016080599413496742,
+              0.000857771085221767,
+              0.0005131192247401537,
+              0.0002502340542218901,
+              0.0001256621829477506,
+              6.501551727097163e-05
+            ],
+            "months_1_12_loss": 0.26563955989260457,
+            "months_1_2_loss": 0.2003005548743929,
+            "months_1_4_loss": 0.25020817795335404,
+            "nan_prediction_count": 0,
+            "negative_prediction_count": 0,
+            "official_oof": 73.43604401073954,
+            "worst_fold_number": 4,
+            "worst_fold_score": 66.9018340880311
+          },
+          {
+            "early_signed_symmetric_relative_error_mean": 0.03063114030453599,
+            "early_weighted_loss_fraction": 0.7560167716206154,
+            "fold_score_std": 6.154316364941532,
+            "fold_scores": [
+              79.12246198498126,
+              69.21470071039899,
+              79.85596327025513,
+              70.68276356354713,
+              63.70700927004758
+            ],
+            "groups": {
+              "fallback_score": 67.41021093137114,
+              "fallback_wells": 14,
+              "ordinary_score": 73.68217745870845,
+              "ordinary_wells": 67,
+              "status": "published"
+            },
+            "independent_metric_absolute_error": 1.4210854715202004e-14,
+            "inf_prediction_count": 0,
+            "month_1_loss": 0.1383595960485297,
+            "monthly_weighted_loss": [
+              0.1383595960485297,
+              0.06880310769638547,
+              0.03519180072833877,
+              0.01580212900129509,
+              0.008414880147478546,
+              0.003885642182859026,
+              0.0016863540056775955,
+              0.0009022722655418841,
+              0.0005204104467146679,
+              0.00025809592858220485,
+              0.00012957977101824906,
+              6.479316366986949e-05
+            ],
+            "months_1_12_loss": 0.2740186613860911,
+            "months_1_2_loss": 0.2071627037449152,
+            "months_1_4_loss": 0.25815663347454904,
+            "nan_prediction_count": 0,
+            "negative_prediction_count": 0,
+            "official_oof": 72.59813386139089,
+            "worst_fold_number": 5,
+            "worst_fold_score": 63.70700927004758
+          },
+          {
+            "early_signed_symmetric_relative_error_mean": 0.025907588008502194,
+            "early_weighted_loss_fraction": 0.7504897694439628,
+            "fold_score_std": 2.5221186953747052,
+            "fold_scores": [
+              68.64280156996804,
+              72.99114115104207,
+              73.59232866987426,
+              76.10806368451813,
+              70.92307949716617
+            ],
+            "groups": {
+              "fallback_score": 65.89939869935355,
+              "fallback_wells": 14,
+              "ordinary_score": 73.76372914835996,
+              "ordinary_wells": 67,
+              "status": "published"
+            },
+            "independent_metric_absolute_error": 1.4210854715202004e-14,
+            "inf_prediction_count": 0,
+            "month_1_loss": 0.13592189375239194,
+            "monthly_weighted_loss": [
+              0.13592189375239194,
+              0.07117979458105689,
+              0.035941263719916676,
+              0.016524130437884806,
+              0.008677858370934587,
+              0.004102644838698682,
+              0.0017330345851984286,
+              0.000896358343484651,
+              0.0005224324018766408,
+              0.0002540045820914794,
+              0.00013461933638483963,
+              6.734347834368998e-05
+            ],
+            "months_1_12_loss": 0.2759553784282633,
+            "months_1_2_loss": 0.20710168833344883,
+            "months_1_4_loss": 0.2595670824912503,
+            "nan_prediction_count": 0,
+            "negative_prediction_count": 0,
+            "official_oof": 72.40446215717367,
+            "worst_fold_number": 1,
+            "worst_fold_score": 68.64280156996804
+          },
+          {
+            "early_signed_symmetric_relative_error_mean": 0.03904636067118005,
+            "early_weighted_loss_fraction": 0.7557753279841245,
+            "fold_score_std": 3.231893120557124,
+            "fold_scores": [
+              75.20970063878319,
+              73.10777910049612,
+              71.54699306800111,
+              66.33807865236693,
+              74.94943354757706
+            ],
+            "groups": {
+              "fallback_score": 67.72743008983318,
+              "fallback_wells": 14,
+              "ordinary_score": 73.21578267905535,
+              "ordinary_wells": 67,
+              "status": "published"
+            },
+            "independent_metric_absolute_error": 0.0,
+            "inf_prediction_count": 0,
+            "month_1_loss": 0.13919042899032363,
+            "monthly_weighted_loss": [
+              0.13919042899032363,
+              0.07040739345020748,
+              0.03566987705760748,
+              0.01619418431283897,
+              0.008452520626234328,
+              0.0038716454303182658,
+              0.0017138390397754319,
+              0.0008769735316032832,
+              0.0005073461104568009,
+              0.0002527191217367142,
+              0.0001260232882623215,
+              6.526376231751718e-05
+            ],
+            "months_1_12_loss": 0.27732821472168223,
+            "months_1_2_loss": 0.2095978224405311,
+            "months_1_4_loss": 0.26146188381097757,
+            "nan_prediction_count": 0,
+            "negative_prediction_count": 0,
+            "official_oof": 72.26717852783177,
+            "worst_fold_number": 4,
+            "worst_fold_score": 66.33807865236693
+          },
+          {
+            "early_signed_symmetric_relative_error_mean": 0.04586756230709036,
+            "early_weighted_loss_fraction": 0.7542209172555026,
+            "fold_score_std": 4.495671452395457,
+            "fold_scores": [
+              77.19744466476268,
+              79.28248243860092,
+              67.00043977518216,
+              70.3697256060892,
+              71.91743978752822
+            ],
+            "groups": {
+              "fallback_score": 70.70555026073075,
+              "fallback_wells": 14,
+              "ordinary_score": 73.72537697565885,
+              "ordinary_wells": 67,
+              "status": "published"
+            },
+            "independent_metric_absolute_error": 1.4210854715202004e-14,
+            "inf_prediction_count": 0,
+            "month_1_loss": 0.13337377071505477,
+            "monthly_weighted_loss": [
+              0.13337377071505477,
+              0.06873155313226023,
+              0.0344976182032908,
+              0.015634232875660577,
+              0.008344607365266155,
+              0.003814666799150194,
+              0.0017006033497625696,
+              0.00088763763157626,
+              0.0005289335779285596,
+              0.00025540559278069443,
+              0.00013150376356557716,
+              6.515081847228166e-05
+            ],
+            "months_1_12_loss": 0.26796568382476865,
+            "months_1_2_loss": 0.202105323847315,
+            "months_1_4_loss": 0.2522371749262664,
+            "nan_prediction_count": 0,
+            "negative_prediction_count": 0,
+            "official_oof": 73.20343161752312,
+            "worst_fold_number": 3,
+            "worst_fold_score": 67.00043977518216
+          }
+        ],
+        "scores": [
+          73.43604401073954,
+          72.59813386139089,
+          72.40446215717367,
+          72.26717852783177,
+          73.20343161752312
+        ],
+        "seeds": [
+          20260917,
+          20261031,
+          20261219,
+          20270107,
+          20270303
+        ],
+        "std": 0.45755017029463524,
+        "worst_score": 72.26717852783177,
+        "worst_seed": 20270107
+      }
+    },
+    "C2": {
+      "calibration_selection": "unshrunk_grid_then_fixed_shrink_not_shrunk_loss_optimum",
+      "coefficients": [
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "b54546e42b7d805064005ca3111f86727ce8d27de8874c2d5543a94bdbacbc6d",
+            "prediction_sha256": "0950600df193f896e1c99dd16e64158cd705f2342b1fdf3dc747549df8dc1dd0",
+            "row_sha256": "a8c884f1c9154a5d21302640519c09651053279f878578e1b945997b86699f1e",
+            "wells": 64
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.3025245731838195,
+              0.27487562197289456,
+              0.26102365296981683,
+              0.25073476925372346,
+              0.2369284052356394
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "e7cc0305e28acb2f7ea737c59d6beca4504d304af32b0f8d14488217c078e5c6",
+            "prediction_sha256": "b1ee936aa3a2f79fd0440deb5a08b94063f78b5a4b3d2412673bf994e223f7c2",
+            "row_sha256": "4ed6817c84cb667634c619d28c87193d48a7c040063b7b7ef9c29f4d944f66c9",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.3206550663314201,
+              0.291617713630918,
+              0.2759300984172399,
+              0.2624281728616445,
+              0.24777108505729692
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "3f4a7f33798ade1b0f203a73bdaaddab33127cad213a1a11dbe7b1fac7911cb0",
+            "prediction_sha256": "77b9427f9bbb2f851731a00b8690baa4452d4755abe1897202bc53721019685d",
+            "row_sha256": "ee5b886ee8d471b7c04dec4eddca1f9ad06aa8b5cd746f79a9cc138fafce04b6",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.2795691901668167,
+              0.25020413525382007,
+              0.23816177000618863,
+              0.22792626583449357,
+              0.2170367949461323
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "6572f900d9f5b23070384a8b237367361d35d35b0bbcfb901893c378438cf299",
+            "prediction_sha256": "216fa9b398698c89622e4b22912805650c4beebf6733711b1f7fc5423daabaf8",
+            "row_sha256": "24d5a453aeb5c193fa6412893f3b4fe20e2d8a56f61549e3f8047d0a6b287a34",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.24190056900823606,
+              0.2350189511205506,
+              0.2346460784121067,
+              0.23338028809117486,
+              0.230663618657419
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 10,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "4549d74aa67999ab5368ea0de2a2b507f439e0a995dab0129f79414fa65ee76b",
+            "prediction_sha256": "2c0043eb5005cd97655a9f2d0879f305e03463b8b74021234b7b990569ce58e3",
+            "row_sha256": "30c75a390bc49d965533ec3336b38dbb5cb90579c9f0cfb907d071f257a1934f",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.3200661839519471,
+              0.3046954523845345,
+              0.29431327000443597,
+              0.283999009013001,
+              0.2701311809687518
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 9,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "a617e40ed7e95e0f53d3a3a7748b2181f33b7ec0e05884a18c22970d0a5c9f79",
+            "prediction_sha256": "46b02a52ebc4312a7ac552939662e69822be6142049c52b95db880c9c9053016",
+            "row_sha256": "4d1276c5583150f03200626ca7087df9829a7a04fd009a3a06ade475495917be",
+            "wells": 64
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.3053787708612396,
+              0.2727971645566714,
+              0.2576107793819508,
+              0.24305198480770984,
+              0.22241364683025872
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "d638769e8fdeb76077c09b3ca4a3df2cbd08cbbf958b25f6e0d500b2fb36dcfd",
+            "prediction_sha256": "867673f224239ecee9d201cfa85880a377486680ae7aa1675260530d3262b080",
+            "row_sha256": "d86a8db2292845bcb040280dc621c76c9418b27643812307dbf111c92703eabf",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.2929885132319851,
+              0.2836318904591273,
+              0.28408655652651366,
+              0.28359936401098695,
+              0.28400775545588247
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "d560ebb6ff74cc69dd1a3f79fe74cfd45b1ac3ee24414f514b8b1c6474efde13",
+            "prediction_sha256": "a4df46bf6d9918320fb0232f65cbeada2ab3d4bebf1642b9f8afd8471ebfcccb",
+            "row_sha256": "6af73ae201a673c295e0cf4570228f3cb52e8d5035f427a6e331b311c8f01692",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.29742717911429356,
+              0.27680098445791984,
+              0.2664687720339334,
+              0.25624676120892026,
+              0.2413186925922088
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "4e937e477429db6b2258239c4e64f7c2517faa8b78527751ddd7cafdd6cc988d",
+            "prediction_sha256": "299d7389a249a268926c00d0b85a156c8ebc71b2c130777403a28bfbda548908",
+            "row_sha256": "509849f324129a6d3086c8b1524f868b0f8a1f7e6b5c090a8aa51cd73148d87c",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.26025825924964346,
+              0.23269203879363598,
+              0.21833308764389922,
+              0.20461688327379013,
+              0.19038109862898864
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 13,
+          "selected_a": [
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "3bfaa14d6422f720042b65b30e10a526a4bb0f2540943eaa38344ff8d0392adf",
+            "prediction_sha256": "4fcf1ecb0b2ef93ca7711c37290ccb797744314ba667115681489f1961eae0cf",
+            "row_sha256": "14b35347cd238a3a3ff7edf35cd56cda664360b8009a5821ae35281bb117e077",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.23845857872750742,
+              0.21548970116957047,
+              0.2060962500716896,
+              0.1991937882209003,
+              0.20073834171608435
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "90a97d93cf9966ec2cc8f4993304e4bd7e583781414d03584a518fe00028b816",
+            "prediction_sha256": "b656c4b26fc37af1e82db004ee885a89cac0b249f424dc409683ae4ec67ce165",
+            "row_sha256": "8eb0bfa587e0f12ff9bbdf267377374910bc0dc0734b774d078cc8d314fa496c",
+            "wells": 64
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.29999910238491323,
+              0.2832952390974526,
+              0.2755458880343043,
+              0.26762761485645564,
+              0.2582276694708806
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "ad4e75c74d7125ed8113c21465343211d9e669aa3d5bddc32c96e776a11a589f",
+            "prediction_sha256": "3c01b1ed2c8cfc6cfa42cdce249f39de03b124d4da05cbc2f3dd840269aa9276",
+            "row_sha256": "150524522803d53e381fccabb6d757f04f5f416775c479b4ee4b118c488b8a4a",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.28295987372050774,
+              0.27012801181413515,
+              0.2624746013096378,
+              0.25456944594436987,
+              0.2425372534129421
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "be1e70c2d840e04bce5fd1c7079d0782cc8d3614072bd70cd797609d834c4115",
+            "prediction_sha256": "50cd9dad0a315bc04fd1aeeffd8d6abc5844547e52947936eb7e046dcfb5cf45",
+            "row_sha256": "d11da1cced3be8cf12920e1a00c0047c4193669b70eb7e9f717ee042b5886abd",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.26161809752915555,
+              0.24071567424489765,
+              0.23294605662951062,
+              0.2310087128280568,
+              0.23307664402860054
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 10,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "397d78ee1753cf5624eb11675acee556e64919625dfadb9e004e9713c3e7ad14",
+            "prediction_sha256": "d366eefde31adcb6f599b290f7bed6b1b802ac77b6df6b938254efdd907feb1b",
+            "row_sha256": "1905605ea279292d493f294a8f22c72e80d201320d957cfe796e7ad7d1c6cf12",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.3168957663424073,
+              0.2815131167108254,
+              0.2596498483130894,
+              0.23907619494348128,
+              0.22033974255807082
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "4b3e1b4d85ff86cd7df6706e9b6026152f7ca9be42067d349c8147b9ef74f862",
+            "prediction_sha256": "03579b8085b8ee31bbada34616385b4f6f304e7176e11aa6984d0735be5f45de",
+            "row_sha256": "a9bb80d50c7250123e8026adb3a7337f4cb3376ac12a73bda63a618158061c17",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.3125496897248256,
+              0.29069535857368817,
+              0.28058026247715534,
+              0.27052828498952286,
+              0.2557491205789656
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "c7715704198eae853e04c3540644149a6da6556fe851c70275c4109f3e8104b7",
+            "prediction_sha256": "2fa67c6ce001dd0a7647a838cf76e28e32a8bd48d87c770db5e375bbff1fbb26",
+            "row_sha256": "2e18f5757228b44507c44a50030ff8bed3669f141b46ff652e9faee6a52fbc00",
+            "wells": 64
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.30753953866071837,
+              0.27338939580964466,
+              0.2521750654417944,
+              0.232144669379337,
+              0.20417497877687493
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.05
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 10,
+          "selected_a": [
+            1.1
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "3bc04b6887dff5591c323257fdfaba46517502a24b63c1ed1eac1c58d028291e",
+            "prediction_sha256": "2eb67778695686c4bb3eb2e236b7878e1b30f4354338cc863b66adf1caa4335f",
+            "row_sha256": "f432e2085fd3f24702a2b35289743cc9f1879f1e0bba8b21e0556014ab332419",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.2301083636966045,
+              0.21938183575529208,
+              0.21573728402813347,
+              0.21500636849063542,
+              0.21619875293782193
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "c16df735d3438b405b0d21ea63ff76013482e2ecd6f06e3d9932cd7364765e98",
+            "prediction_sha256": "a1425ac38403bd3ff579dfb84115d17e623ec511a93348920699c29fbf1f1683",
+            "row_sha256": "245893930a4b1fe41fcaaa70e7d4afc2d2b04c31dcee24791a2654b879da5fc6",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.27281856053342207,
+              0.24835073904111704,
+              0.2356953542286618,
+              0.2269091072988496,
+              0.2204815886192979
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "7828cebcdbf45386083b1cf67eb054bfb230b40421d9778e3c199ea9bba38fd7",
+            "prediction_sha256": "dd59d03157271b5f3708ef3716641339d50ddb51a7c4b09389f82d36224048a9",
+            "row_sha256": "a1fb1d3d5526c1c5427afc37dbd497157696b3366d5f244d69967abcbd551ac7",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.29241741261368764,
+              0.2644157856572164,
+              0.2521298781292361,
+              0.24018959029988823,
+              0.22619798826758564
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "3905e337cdc6ff175312df00c70bbadd434c0ab842a3d6dec5e8c5d3db29efa8",
+            "prediction_sha256": "f4104b667182572b03b14f01b3ffa7d5e8258615b1619fa8c922229907586855",
+            "row_sha256": "3d379784b6bfa81575fe42d00979299c3d85eb4e8254f30f2f50684f9886bdca",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.28094353853909615,
+              0.2624026107562825,
+              0.25027277064152925,
+              0.23947761158086203,
+              0.23074158524375807
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "cca3c587cb3b863a93d1011e859f3afa67814a19b32f5b4cf11f526e5e50c21a",
+            "prediction_sha256": "a0172d404ff5fdaa2ca7ec2af128c1790fcf6a59da4a015edb7f41559cd87f45",
+            "row_sha256": "61cdc2fcda474219a6b2d7e3708420f82cb3373d280319fd7af54f4e10e1ae28",
+            "wells": 64
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.27398649995112706,
+              0.2501222435433827,
+              0.24369665944216193,
+              0.23715191130957586,
+              0.22971002822456948
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 8,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "5b3a8e3a534a9daa4e0a7c0ddd298ac54a80e6df420f269b6ef7ef9ffb4ae30f",
+            "prediction_sha256": "e03c399ac62796a9a13e4e1757c233b968398ae82dff17a3eded97ba084bc70e",
+            "row_sha256": "175bbefcb46e54d2318d7f6af7efb200524ce08a200acf7f464db312021eefc5",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.26996999786071546,
+              0.25332222440277224,
+              0.24652700049448525,
+              0.24116728430263773,
+              0.23286951537607634
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "d09f635000e8bd94304a6b75e3c6015a8d32a25b93d7cbcab5adb676d39a6462",
+            "prediction_sha256": "e5544bf8b39a694f20fd4453f7f47abd3da1ac9e262bf8ec87608b8a9ceacb40",
+            "row_sha256": "fe72f5b5f9545d2c084c7cf2f2a5f20f488688b74fb10827c95a1ec95be129ee",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.2996288462843097,
+              0.27893204153289103,
+              0.27081076089403133,
+              0.26670006791978895,
+              0.2662566978924042
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 13,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "0b148b34da910aae25a64208cf040220f0772cc72bf13b031c53cf7194f9e4e5",
+            "prediction_sha256": "036a45224b47e81830c4631497fa990593145bc5b3143f04d79c3112046968ec",
+            "row_sha256": "ecafe5f1292693884b762cc042b536f86d5a2a5a7b98e195564436b958736bf0",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.26486074460582304,
+              0.2456497179191453,
+              0.23732319502779495,
+              0.22924496614329282,
+              0.21904695427512516
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 13,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "f9d2fe443fe1c7c5c3592a93985b20b13a47b64d88f199395e2f4c23db59ef08",
+            "prediction_sha256": "1fd4af2503f9e7e243063d9ae15a2528e9af5aab3bb8dfca50953eff081dc987",
+            "row_sha256": "b20580ccec89dbd0971dbbddc365b88bcead7710ac88d8039eacd1a2fe32e0b3",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.30430848504179886,
+              0.2717587451682288,
+              0.2514645948823445,
+              0.2378492564778224,
+              0.22078390090643685
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "ea1102b5c63eca76e9258513b89fba1d3c0ef26060b987716c39f33e8318360a",
+            "prediction_sha256": "004168c9b732cddcc96492c229058948253b9f1a33f026318203b39f3ad113a4",
+            "row_sha256": "0adab6413e7381d163bf28dc7cabe390887e40c5199b6378c0fbe9d8ef748d36",
+            "wells": 64
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.25397927837466056,
+              0.23269615721344603,
+              0.22356909249161075,
+              0.2147864378989326,
+              0.2051129988549277
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 9,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "af433125e87649390465b006c611a93900273b09e60d56e60d33d1ea9360ff4f",
+            "prediction_sha256": "86cb09d4d6b5180c689f38d94d2eff1470b0339e94a2f36a0373465100a4d8a2",
+            "row_sha256": "ea6fe97a1bc839681c96f8c999c57c7ebcecdf1f7e24666bba2dffd0a15d0074",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.3110550314795874,
+              0.28753846501739794,
+              0.27252091348425256,
+              0.2591281058265847,
+              0.24581508007547187
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 11,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "92756055e6e86b41fd66662b621558480f50a9f3a210707d443d26cf9ac498f0",
+            "prediction_sha256": "98f9d2d452a51d1c26dd6c24da69761abdd7d2d1b0b0e534de03e484bb56d144",
+            "row_sha256": "9c04b9e5c87dddb04e9494a81ec176275444bdc00e681ad0ab4a7e35deaa4af3",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.24480292407407192,
+              0.2155477509572992,
+              0.20080893909931,
+              0.19341607597013885,
+              0.19113080286713907
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "10c9a002bacc3c904c003272ddf0fe55f4e8f8ff4ac50ffdf6c951aa34cb603e",
+            "prediction_sha256": "8756bacf09f034e755100de8b2845645aad78c9920a1bdb7719984f32ce2cb7a",
+            "row_sha256": "c717d74d9ca797cff30d7fb5dc1059af4c8afaad328da85f508e80ecd01be443",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.28736752240138935,
+              0.25437555180116755,
+              0.23728972329817297,
+              0.22483675561229796,
+              0.20975497065318457
+            ]
+          ]
+        },
+        {
+          "alpha": [
+            1.125
+          ],
+          "candidate_id": "C2",
+          "deployment_or_outer_score_used": false,
+          "fallback_independent_wells": 12,
+          "selected_a": [
+            1.25
+          ],
+          "training_provenance": {
+            "folds": 3,
+            "label_sha256": "4bb75872a43571b7b7e0a054a2481b988c688f149069c4ecc09832425302eef4",
+            "prediction_sha256": "e5572068f0f0aca8a7c4c736749cca748fed01298aaf9f515ff7b12655dbfb50",
+            "row_sha256": "64a34c83a6e78da3e152857ea8f9d770f96d55d88e3f539d381ac200809c3814",
+            "wells": 65
+          },
+          "unshrunk_grid_losses": [
+            [
+              0.32440362708000836,
+              0.3085540861444109,
+              0.29781628295229007,
+              0.289345944430642,
+              0.2820037264193272
+            ]
+          ]
+        }
+      ],
+      "comparison": {
+        "fixed_months_1_2_loss_delta": -0.0011325914955370442,
+        "fixed_oof_delta": 0.11325914955369853,
+        "fixed_worst_fold_delta": 0.5732756105046093,
+        "positive_repeated_seed_count": 5,
+        "repeated_mean_delta": 0.1505003663191758,
+        "repeated_mean_months_1_2_loss_delta": -0.0015050036631917673,
+        "repeated_months_1_2_loss_deltas": [
+          -0.001543142822051341,
+          -0.0004051019573277914,
+          -0.00158711381985438,
+          -0.0025719683658936843,
+          -0.0014176913508316402
+        ],
+        "repeated_seed_deltas": [
+          0.1543142822051351,
+          0.0405101957327787,
+          0.15871138198544088,
+          0.2571968365893582,
+          0.14176913508316602
+        ],
+        "worst_repeated_seed_delta": 0.0405101957327787
+      },
+      "fixed": {
+        "early_signed_symmetric_relative_error_mean": 0.025462124123581634,
+        "early_weighted_loss_fraction": 0.7528325490527846,
+        "fold_score_std": 5.141154961671428,
+        "fold_scores": [
+          71.50667555236247,
+          77.04814621627504,
+          75.41954073631429,
+          65.2001396067189,
+          80.10737351265736
+        ],
+        "groups": {
+          "fallback_score": 71.60251570358507,
+          "fallback_wells": 14,
+          "ordinary_score": 74.29226068196151,
+          "ordinary_wells": 67,
+          "status": "published"
+        },
+        "independent_metric_absolute_error": 1.4210854715202004e-14,
+        "inf_prediction_count": 0,
+        "month_1_loss": 0.13284354034289964,
+        "monthly_weighted_loss": [
+          0.13284354034289964,
+          0.0641925636784682,
+          0.033875651640929316,
+          0.015488100878629125,
+          0.008081648168156512,
+          0.0037547260728674216,
+          0.0016818952346042988,
+          0.0008641551988088326,
+          0.0005011950383167953,
+          0.0002507112878169938,
+          0.0001263052241636013,
+          6.584235265883033e-05
+        ],
+        "months_1_12_loss": 0.26172633511831955,
+        "months_1_2_loss": 0.19703610402136784,
+        "months_1_4_loss": 0.24639985654092628,
+        "nan_prediction_count": 0,
+        "negative_prediction_count": 0,
+        "official_oof": 73.82736648816804,
+        "worst_fold_number": 4,
+        "worst_fold_score": 65.2001396067189
+      },
+      "repeated": {
+        "mean": 72.81645340579203,
+        "months_1_2_losses": [
+          0.20109389756692103,
+          0.20823179369530154,
+          0.2074716846454428,
+          0.2072390591382109,
+          0.20050148965171477
+        ],
+        "per_seed": [
+          {
+            "early_signed_symmetric_relative_error_mean": 0.02224580989318136,
+            "early_weighted_loss_fraction": 0.7547637533343539,
+            "fold_score_std": 4.1479091119024245,
+            "fold_scores": [
+              71.33521359185337,
+              73.80197353126322,
+              77.75783700182743,
+              66.58833702487507,
+              77.42653106696666
+            ],
+            "groups": {
+              "fallback_score": 71.01132094346869,
+              "fallback_wells": 14,
+              "ordinary_score": 73.84679098286362,
+              "ordinary_wells": 67,
+              "status": "published"
+            },
+            "independent_metric_absolute_error": 1.4210854715202004e-14,
+            "inf_prediction_count": 0,
+            "month_1_loss": 0.13438750798164087,
+            "monthly_weighted_loss": [
+              0.13438750798164087,
+              0.06670638958528016,
+              0.034440101010625786,
+              0.015467522068335335,
+              0.008270210207337498,
+              0.0037413097261608233,
+              0.0016080599413496742,
+              0.000857771085221767,
+              0.0005131192247401537,
+              0.0002502340542218901,
+              0.0001256621829477506,
+              6.501551727097163e-05
+            ],
+            "months_1_12_loss": 0.2664329025851327,
+            "months_1_2_loss": 0.20109389756692103,
+            "months_1_4_loss": 0.25100152064588216,
+            "nan_prediction_count": 0,
+            "negative_prediction_count": 0,
+            "official_oof": 73.35670974148674,
+            "worst_fold_number": 4,
+            "worst_fold_score": 66.58833702487507
+          },
+          {
+            "early_signed_symmetric_relative_error_mean": 0.019831995634562158,
+            "early_weighted_loss_fraction": 0.7569649782065356,
+            "fold_score_std": 6.252991296538962,
+            "fold_scores": [
+              78.99340137533093,
+              68.3003548518404,
+              79.87936201670543,
+              71.31402754760086,
+              63.562592508472505
+            ],
+            "groups": {
+              "fallback_score": 67.33441346428066,
+              "fallback_wells": 14,
+              "ordinary_score": 73.56876754738212,
+              "ordinary_wells": 67,
+              "status": "published"
+            },
+            "independent_metric_absolute_error": 1.4210854715202004e-14,
+            "inf_prediction_count": 0,
+            "month_1_loss": 0.13897265052178118,
+            "monthly_weighted_loss": [
+              0.13897265052178118,
+              0.06925914317352037,
+              0.03519180072833877,
+              0.01580212900129509,
+              0.008414880147478546,
+              0.003885642182859026,
+              0.0016863540056775955,
+              0.0009022722655418841,
+              0.0005204104467146679,
+              0.00025809592858220485,
+              0.00012957977101824906,
+              6.479316366986949e-05
+            ],
+            "months_1_12_loss": 0.27508775133647745,
+            "months_1_2_loss": 0.20823179369530154,
+            "months_1_4_loss": 0.2592257234249354,
+            "nan_prediction_count": 0,
+            "negative_prediction_count": 0,
+            "official_oof": 72.49122486635225,
+            "worst_fold_number": 5,
+            "worst_fold_score": 63.562592508472505
+          },
+          {
+            "early_signed_symmetric_relative_error_mean": 0.0069122412862708225,
+            "early_weighted_loss_fraction": 0.7508238606044192,
+            "fold_score_std": 2.3930591279175735,
+            "fold_scores": [
+              68.36441501303804,
+              72.872502575488,
+              73.46374812297616,
+              75.64899565886051,
+              71.73784172906717
+            ],
+            "groups": {
+              "fallback_score": 65.98884502649922,
+              "fallback_wells": 14,
+              "ordinary_score": 73.70030797362577,
+              "ordinary_wells": 67,
+              "status": "published"
+            },
+            "independent_metric_absolute_error": 1.4210854715202004e-14,
+            "inf_prediction_count": 0,
+            "month_1_loss": 0.13701268021338678,
+            "monthly_weighted_loss": [
+              0.13701268021338678,
+              0.07045900443205602,
+              0.035941263719916676,
+              0.016524130437884806,
+              0.008677858370934587,
+              0.004102644838698682,
+              0.0017330345851984286,
+              0.000896358343484651,
+              0.0005224324018766408,
+              0.0002540045820914794,
+              0.00013461933638483963,
+              6.734347834368998e-05
+            ],
+            "months_1_12_loss": 0.27632537474025726,
+            "months_1_2_loss": 0.2074716846454428,
+            "months_1_4_loss": 0.2599370788032443,
+            "nan_prediction_count": 0,
+            "negative_prediction_count": 0,
+            "official_oof": 72.36746252597428,
+            "worst_fold_number": 1,
+            "worst_fold_score": 68.36441501303804
+          },
+          {
+            "early_signed_symmetric_relative_error_mean": 0.022206811080427706,
+            "early_weighted_loss_fraction": 0.7536803018243142,
+            "fold_score_std": 3.123179799338849,
+            "fold_scores": [
+              74.3507546447713,
+              73.84377533252476,
+              72.59927925524016,
+              66.4571482410161,
+              75.14883558009745
+            ],
+            "groups": {
+              "fallback_score": 68.65301162921715,
+              "fallback_wells": 14,
+              "ordinary_score": 73.30754150289742,
+              "ordinary_wells": 67,
+              "status": "published"
+            },
+            "independent_metric_absolute_error": 0.0,
+            "inf_prediction_count": 0,
+            "month_1_loss": 0.13777331365563547,
+            "monthly_weighted_loss": [
+              0.13777331365563547,
+              0.06946574548257542,
+              0.03566987705760748,
+              0.01619418431283897,
+              0.008452520626234328,
+              0.0038716454303182658,
+              0.0017138390397754319,
+              0.0008769735316032832,
+              0.0005073461104568009,
+              0.0002527191217367142,
+              0.0001260232882623215,
+              6.526376231751718e-05
+            ],
+            "months_1_12_loss": 0.274969451419362,
+            "months_1_2_loss": 0.2072390591382109,
+            "months_1_4_loss": 0.25910312050865736,
+            "nan_prediction_count": 0,
+            "negative_prediction_count": 0,
+            "official_oof": 72.50305485806379,
+            "worst_fold_number": 4,
+            "worst_fold_score": 66.4571482410161
+          },
+          {
+            "early_signed_symmetric_relative_error_mean": 0.025932149484918995,
+            "early_weighted_loss_fraction": 0.7527410172697586,
+            "fold_score_std": 4.7484196937154035,
+            "fold_scores": [
+              77.81326709924173,
+              79.68761894442775,
+              67.51196094128633,
+              69.15111534994955,
+              72.37702209662551
+            ],
+            "groups": {
+              "fallback_score": 71.39077749592582,
+              "fallback_wells": 14,
+              "ordinary_score": 73.77609153822051,
+              "ordinary_wells": 67,
+              "status": "published"
+            },
+            "independent_metric_absolute_error": 1.4210854715202004e-14,
+            "inf_prediction_count": 0,
+            "month_1_loss": 0.13329642601425132,
+            "monthly_weighted_loss": [
+              0.13329642601425132,
+              0.06720506363746347,
+              0.0344976182032908,
+              0.015634232875660577,
+              0.008344607365266155,
+              0.003814666799150194,
+              0.0017006033497625696,
+              0.00088763763157626,
+              0.0005289335779285596,
+              0.00025540559278069443,
+              0.00013150376356557716,
+              6.515081847228166e-05
+            ],
+            "months_1_12_loss": 0.2663618496291685,
+            "months_1_2_loss": 0.20050148965171477,
+            "months_1_4_loss": 0.2506333407306662,
+            "nan_prediction_count": 0,
+            "negative_prediction_count": 0,
+            "official_oof": 73.36381503708316,
+            "worst_fold_number": 3,
+            "worst_fold_score": 67.51196094128633
+          }
+        ],
+        "scores": [
+          73.35670974148674,
+          72.49122486635225,
+          72.36746252597428,
+          72.50305485806379,
+          73.36381503708316
+        ],
+        "seeds": [
+          20260917,
+          20261031,
+          20261219,
+          20270107,
+          20270303
+        ],
+        "std": 0.44655721389577335,
+        "worst_score": 72.36746252597428,
+        "worst_seed": 20261219
+      }
+    }
+  },
+  "cohort_rows": 972,
+  "cohort_wells": 81,
+  "request_id": "A2B-017",
+  "row_level_outputs_persisted": false
+}

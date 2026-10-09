@@ -1,0 +1,160 @@
+{
+  "as_of": "2026-10-09",
+  "repository": "https://github.com/ylrq8475-ui/Shiyou",
+  "handoff_branch": "codex/model-handoff-20261009",
+  "baseline_branch": "codex/a2b013-safe-boundary",
+  "baseline_commit": "d8bc8f198a7acf6cac9cb8753406d6b15579e993",
+  "model": {
+    "id": "A2B-013-END_T1_CM1_NL",
+    "family": "ExtraTreesRegressor",
+    "trees": 400,
+    "min_samples_leaf": 6,
+    "max_features": 0.75,
+    "seed": 20260916,
+    "features_before_preprocessing": 325,
+    "history_features": 322,
+    "train_wells": 81,
+    "train_rows": 972,
+    "test_wells": 10,
+    "test_rows": 120,
+    "target_transform": "log1p(y/s); s=raw pre-anchor last RCYL if finite positive, otherwise 1",
+    "calibration": "none",
+    "blend": "none",
+    "fixed_OOF": 73.71410733861434,
+    "repeated_mean_OOF": 72.665953039473
+  },
+  "artifact": {
+    "bytes": 6975629,
+    "sha256": "3fc7689d35485804622799140f1c4b42394901394d3ab30aac7576b0a04d6d25"
+  },
+  "source_identity": {
+    "all_git_blobs_equal_local_bytes": true,
+    "all_normalized_equal": true,
+    "comparisons": [
+      {
+        "file": "src/oil_uplift/a2b013_safe.py",
+        "git_blob_equals_local_bytes": true,
+        "git_blob_sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+        "local_CRLF": 0,
+        "normalized_equal": true,
+        "worktree_CRLF": 478
+      },
+      {
+        "file": "src/oil_uplift/training.py",
+        "git_blob_equals_local_bytes": true,
+        "git_blob_sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+        "local_CRLF": 0,
+        "normalized_equal": true,
+        "worktree_CRLF": 481
+      },
+      {
+        "file": "src/oil_uplift/scoring.py",
+        "git_blob_equals_local_bytes": true,
+        "git_blob_sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235",
+        "local_CRLF": 0,
+        "normalized_equal": true,
+        "worktree_CRLF": 212
+      },
+      {
+        "file": "src/oil_uplift/multistep.py",
+        "git_blob_equals_local_bytes": true,
+        "git_blob_sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b",
+        "local_CRLF": 0,
+        "normalized_equal": true,
+        "worktree_CRLF": 466
+      },
+      {
+        "file": "experiments/a2b013/EXPERIMENT_PLAN.yaml",
+        "git_blob_equals_local_bytes": true,
+        "git_blob_sha256": "e3a7759dcb00bc5acde6ba8ef536227fc69bbc2d9dd700d13aa0823a5fd867cc",
+        "local_CRLF": 0,
+        "normalized_equal": true,
+        "worktree_CRLF": 100
+      }
+    ]
+  },
+  "platform": {
+    "score": 86.2003,
+    "source": "user_report_only",
+    "platform_package_hash_independently_verified": false,
+    "used_for_tuning": false
+  },
+  "a2b017": {
+    "status": "STOPPED_NO_UPGRADE",
+    "C1_repeated_delta": 0.11589699545893098,
+    "C2_repeated_delta": 0.1505003663191758,
+    "required_repeated_delta": 0.2,
+    "A_actual_model_fit_calls": 120,
+    "A_actual_preprocess_fit_calls": 120,
+    "fold_coefficient_records": 60,
+    "synthetic_tests": 31,
+    "subcases": 103,
+    "S22_fault_injections": 71,
+    "confirmation_calls": 0,
+    "deployment_calibration_calls": 0,
+    "full_fit_calls": 0,
+    "model_save_calls": 0,
+    "independent_execution": true,
+    "independent_algorithm_implementation": false,
+    "A_017_02": "CLOSED_CURRENT_LOCKED_VERSION_ONLY"
+  },
+  "current_self_validation": {
+    "ZIP_generated": false,
+    "audit_id": "A-015-01-SELFVALIDATION-20261009",
+    "candidate_model_saves": 0,
+    "checks_passed": true,
+    "cohort": {
+      "complete_train_wells": 81,
+      "test_rows": 120,
+      "test_wells": 10,
+      "train_history_wells": 88,
+      "train_test_overlap": 0
+    },
+    "cutoff_sensitivity": {
+      "test": {
+        "record_rows_between_segment_start_and_end": 4,
+        "wells_examined": 10,
+        "wells_with_stricter_segment_start_cutoff": 4
+      },
+      "train": {
+        "record_rows_between_segment_start_and_end": 31,
+        "wells_examined": 81,
+        "wells_with_stricter_segment_start_cutoff": 28
+      }
+    },
+    "data_inferred_output_rule": "latest eligible record month plus one, exact official template keys",
+    "event_semantics_status": "UNKNOWN",
+    "existing_rules_matrix_reused": true,
+    "forecast_time_status": "UNKNOWN",
+    "model_fit_calls": 0,
+    "observational_equivalence": {
+      "different_anchors_or_target_windows": 0,
+      "history_wells_checked": 98,
+      "interpretations_distinguished_by_monthly_data": false
+    },
+    "official_compliance_proven": false,
+    "platform_uploaded": false,
+    "row_level_outputs_written": false
+  },
+  "new_synthetic_tests": {
+    "tests": 16,
+    "passed": 16,
+    "competition_data_read": false
+  },
+  "frozen_readonly_checks": {
+    "checked_on": "2026-10-09",
+    "handoff_matched": 34,
+    "old_project_files_matched": 61,
+    "raw_files_matched": 100,
+    "raw_file_changes_allowed": false,
+    "new_model_training": false
+  },
+  "P0": {
+    "event_semantics": "UNKNOWN",
+    "forecast_generation_time": "UNKNOWN",
+    "official_compliance_proven": false,
+    "organizer_reply_unavailable_per_user": true
+  },
+  "recommendation": "Review a single information-cutoff sensitivity design, keeping label months/cohort/model/features/splits fixed; do not use score ranking to infer official semantics.",
+  "evidence_limits": "Published aggregates support arithmetic review. Real-data reproduction used B algorithms. Actual deployment branch was not exercised. This new branch adds no trained model."
+}
