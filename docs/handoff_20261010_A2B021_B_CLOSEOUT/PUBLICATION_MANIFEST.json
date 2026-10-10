@@ -1,0 +1,16 @@
+{
+  "account": "B",
+  "purpose": "A2B-021 receipt closeout only",
+  "files": {
+    "README.md": {
+      "bytes": 2691,
+      "sha256": "ab7fa255813814b5ad19528d2d935297a6d997e0774f7f7e874fb0f1c078f8f6"
+    },
+    "RECEIPT_VERIFICATION.json": {
+      "bytes": 5266,
+      "sha256": "a6babf56cd66da9592039db49fa413203e0a9bc5ba84bde22c23713088f83d79"
+    }
+  },
+  "manifest_excludes_itself": true,
+  "private_data_included": false
+}
