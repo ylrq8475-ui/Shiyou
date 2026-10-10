@@ -1,0 +1,52 @@
+{
+  "scope": "paired aggregate decomposition, not causal identification",
+  "groups": {
+    "raw_scale_fallback": {
+      "mean_wells": 14.0,
+      "mean_B0_group_loss": 0.3199507840753978,
+      "mean_C1_group_loss": 0.284663183371924,
+      "mean_group_score_delta": 3.5287600703473805,
+      "seed_net_score_contributions": [
+        0.47530892137944136,
+        1.0048281103085595,
+        1.044336742522645,
+        0.31084207772655786,
+        0.21422988786917443
+      ],
+      "mean_net_score_contribution": 0.6099091479612757,
+      "positive_seed_count": 5
+    },
+    "positive_scale_training_q25_low": {
+      "mean_wells": 17.0,
+      "mean_B0_group_loss": 0.24857860175402752,
+      "mean_C1_group_loss": 0.2489996147053087,
+      "mean_group_score_delta": -0.042101295128116,
+      "seed_net_score_contributions": [
+        -0.7521900370837246,
+        0.3318141472153558,
+        0.1326856735983051,
+        -0.20167850038625953,
+        0.35787696865837365
+      ],
+      "mean_net_score_contribution": -0.026298349599589925,
+      "positive_seed_count": 3
+    },
+    "other_positive_scale": {
+      "mean_wells": 50.0,
+      "mean_B0_group_loss": 0.26903501947693187,
+      "mean_C1_group_loss": 0.2868133123767042,
+      "mean_group_score_delta": -1.7778292899772405,
+      "seed_net_score_contributions": [
+        -1.0713467413949247,
+        -1.4991020288776142,
+        -1.2856221735947206,
+        -0.7701540201211743,
+        -0.8607582433018398
+      ],
+      "mean_net_score_contribution": -1.097396641458055,
+      "positive_seed_count": 0
+    }
+  },
+  "fixed_first2_score_contribution": -0.9995398840823316,
+  "repeat_first2_score_contribution": -0.5609820437978502
+}

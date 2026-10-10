@@ -1,0 +1,22 @@
+{
+  "actual": {
+    "cap": 63,
+    "pipeline_attempts": 60,
+    "selector_fit_calls": 0,
+    "preprocess_entered": 60,
+    "preprocess_completed": 60,
+    "model_entered": 60,
+    "model_completed": 60,
+    "runtime_retries": 0
+  },
+  "conditional_full_fits": 0,
+  "confirmation_fits": 0,
+  "models_saved": 0,
+  "synthetic_failed_attempts": 1,
+  "synthetic_failure_cases_before_fix": 3,
+  "real_fits_before_synthetic_fix": 0,
+  "identity_precomputation_not_learning_fit": 30,
+  "selector_learning_fits": 0,
+  "successful_budget_max": 61,
+  "entry_cap": 63
+}

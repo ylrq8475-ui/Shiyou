@@ -1,0 +1,12 @@
+{
+  "request": "A2B-023",
+  "bundle_files_checked": 243,
+  "synthetic_cases": 27,
+  "synthetic_passed": true,
+  "aggregate_check_count": 759,
+  "aggregate_passed": true,
+  "real_model_fits": 0,
+  "real_preprocess_fits": 0,
+  "private_data_read": false,
+  "scope": "Exact byte-bound allowlisted function AST plus original target core; no private loader evaluated; not real retraining"
+}

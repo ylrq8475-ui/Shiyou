@@ -1,0 +1,9 @@
+{
+  "checked_report_files": 207,
+  "private_token_hits": 0,
+  "passed": true,
+  "numeric_candidate_value_check": "raw candidate fields never serialized; numeric constants alone are not identifier evidence",
+  "all_bundle_files_scanned": true,
+  "private_markers_checked_in_memory": 100,
+  "no_raw_private_config_contents_weights_or_credentials": true
+}

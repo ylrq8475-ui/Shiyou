@@ -1,0 +1,70 @@
+{
+  "account": "B execution and delivery",
+  "request": "A2B-023",
+  "files": {
+    "A2B023_READONLY_REVIEW_BUNDLE_v1.zip": {
+      "bytes": 387598,
+      "sha256": "12fd0dd5caea33e71412356a1525c64b2b7375d89d95f8ab56b27481e81e0d04"
+    },
+    "A2B023_READONLY_REVIEW_BUNDLE_v1.zip.sha256": {
+      "bytes": 103,
+      "sha256": "ec396c4c2388a97b7502c8015cf58a7569b053983564a2de144a4e1bccffc5d4"
+    },
+    "B2A_023_REVIEW_REQUEST.md": {
+      "bytes": 938,
+      "sha256": "4acccdd657ae0c8cb4387adae21383174dfa2bbcd02f82009ccd05e07be49c93"
+    },
+    "ERROR_ATTRIBUTION.json": {
+      "bytes": 1748,
+      "sha256": "6dba43772e3563069fe3da643e07a42607d255668841bf25a89eca7d1bf91b46"
+    },
+    "FIT_ACCOUNTING.json": {
+      "bytes": 580,
+      "sha256": "afcb6b1ebfd797e5a781fc346b63f997af54d037e6f1f1f2eb1a72ced6d76124"
+    },
+    "HISTORY_LOOKUP.json": {
+      "bytes": 8180,
+      "sha256": "979063ea8e7c82ae8e5c619546e382cb7b78cf78505268e15e2cafbc37d3ee60"
+    },
+    "HISTORY_LOOKUP.md": {
+      "bytes": 3109,
+      "sha256": "759260a86cbd6822fe29f32c76e54924a11a50c6aaba7db3a9a2cecd7f0d34f4"
+    },
+    "IMPLEMENTATION_NOTE.md": {
+      "bytes": 1270,
+      "sha256": "55183d306905ac1c32ba67f5eb1752d33ff214ebcaf14c1230f8eee5ddd09938"
+    },
+    "INTEGRITY_AFTER.json": {
+      "bytes": 624,
+      "sha256": "474da537826772b24a8cd19911ff11b80cd20c3d74c5f7841869ac96ec37a9f7"
+    },
+    "MODEL_COMPARISON.json": {
+      "bytes": 17650,
+      "sha256": "67e6deec8f52d098493cbbb708fd71e8a56acc8290b79cc16d18f5892f0c4678"
+    },
+    "MODEL_REGISTRY.json": {
+      "bytes": 402,
+      "sha256": "342aa60167173d13148d930fb3e3214536c7c2a4b9037ec8dcc19e43cd3ce5a0"
+    },
+    "PACKAGED_RETEST.json": {
+      "bytes": 398,
+      "sha256": "44f896fab09a29caa8c40de33f4cad4fcc0e55a5f663b8b9a9d253268ae52373"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 362,
+      "sha256": "ecfe08475d9c2dd457e1e57ea4263c64d7d4c8f4e93e06366053ebcf8be945a0"
+    },
+    "README.md": {
+      "bytes": 669,
+      "sha256": "b2909f94e0114aaf098e96cd8af1219b067f92c79fb9a7099ae9114377464aab"
+    },
+    "REPORT_B.md": {
+      "bytes": 5206,
+      "sha256": "22403d081c9f3555670f1a0e6a15bd7bf224065972ec29b6419375d230bec98e"
+    }
+  },
+  "manifest_excludes_itself": true,
+  "A_review": "PENDING",
+  "models": 60,
+  "no_private_artifacts": true
+}

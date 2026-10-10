@@ -1,0 +1,18 @@
+{
+  "old_artifact_count": 1214,
+  "old_artifact_snapshot_sha256": "a48163f5cc3c081e7144f76e5e77d0ab4c15c016808a70b07d1a9408ff8c1752",
+  "old_artifacts_unchanged": true,
+  "source_and_input_unchanged": true,
+  "environment_unchanged": true,
+  "raw_data_after": {
+    "members": 100,
+    "archive_and_manifest_unchanged": true,
+    "raw_copied_or_extracted": false
+  },
+  "privacy_scan": {
+    "checked_report_files": 161,
+    "private_token_hits": 0,
+    "passed": true,
+    "numeric_candidate_value_check": "raw candidate fields never serialized; numeric constants alone are not identifier evidence"
+  }
+}

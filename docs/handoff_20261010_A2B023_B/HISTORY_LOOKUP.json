@@ -1,0 +1,131 @@
+{
+  "request": "A2B-023",
+  "scope": "authorized local migration inventory plus published numbered experiment ledgers through A2B-022 and pinned public code history",
+  "status": "NO_COMPLETED_EQUIVALENT_COMPARISON_IN_CHECKED_NUMBERED_HISTORY",
+  "training_eligible": true,
+  "equivalent_completed_result_found": false,
+  "missing_key_completion_record_for_an_identified_equivalent_candidate": false,
+  "evidence_limit": "Cannot certify undisclosed/off-ledger experiments. Early individual trial logs are not supplied; those earlier documented boundaries/inputs differ, so they are not reused as comparable evidence. Historical dtype remains UNKNOWN.",
+  "records": [
+    {
+      "experiment": "A2B-001/002/003/v6/v7",
+      "actual_transform_or_scope": "Earlier imported pipeline allows absolute log as a code option; prior model research uses different boundary and/or layer/first-plan/calibration scope.",
+      "comparability": "Not equivalent; an available code option does not prove a completed same-boundary experiment.",
+      "evidence": "historical coordination summaries and public original import",
+      "completion": "earlier-boundary completed research; individual early trial logs not supplied"
+    },
+    {
+      "experiment": "A2B-006/007",
+      "actual_transform_or_scope": "log-ratio only; official-horizon weights and two scale-floor policies; 362-column layered safe reference.",
+      "comparability": "Not equivalent: transform remains ratio and feature scope differs.",
+      "evidence": "STATUS_B sections006/007 and ExplicitCandidateSpec.validate",
+      "completion": "completed/stopped"
+    },
+    {
+      "experiment": "A2B-009 R2",
+      "actual_transform_or_scope": "Six models: three calendar features, unaugmented325-column control, two historical augmentation variants; inherited log_ratio_last.",
+      "comparability": "325-column control matches reference; no absolute-log candidate among recorded six.",
+      "evidence": "STATUS_B section009 and INTEGRATION_LOG row009",
+      "completion": "all six completed/stopped"
+    },
+    {
+      "experiment": "A2B-011 B2",
+      "actual_transform_or_scope": "only11 historical augmentation; log-ratio target;325 columns.",
+      "comparability": "Not equivalent: augmentation candidate, unchanged ratio target.",
+      "evidence": "STATUS_B section011; a2b011_training.transform_target imports ratio-only helper",
+      "completion": "completed; A real reproduction recorded"
+    },
+    {
+      "experiment": "A2B-013",
+      "actual_transform_or_scope": "END_T1_CM1_NL;325 columns; log1p(RCYL/s).",
+      "comparability": "Baseline only; no absolute-target comparison.",
+      "evidence": "original EXPERIMENT_PLAN plus d8bc8f1 public history",
+      "completion": "completed"
+    },
+    {
+      "experiment": "A2B-014/015",
+      "actual_transform_or_scope": "Frozen OOF diagnosis; trend abscissa repair and0.5blend; unchanged ratio target.",
+      "comparability": "Not equivalent: diagnosis or feature/blend experiments.",
+      "evidence": "STATUS_B sections014/015 and INTEGRATION_LOG",
+      "completion": "completed/stopped"
+    },
+    {
+      "experiment": "A2B-017",
+      "actual_transform_or_scope": "Same scaled-target base; two calibration candidates.",
+      "comparability": "Not equivalent: prediction calibration, no absolute-target candidate.",
+      "evidence": "EXPERIMENT_PLAN and EXECUTION_COMPLETED; A reproduction report",
+      "completion": "completed/stopped; never rerun"
+    },
+    {
+      "experiment": "A2B-019 T1",
+      "actual_transform_or_scope": "Same325 columns and scaled target; two history cutoffs.",
+      "comparability": "Not equivalent: information boundary candidate.",
+      "evidence": "T1 execution/FINAL_RESULT.json",
+      "completion": "completed/stopped"
+    },
+    {
+      "experiment": "A2B-020",
+      "actual_transform_or_scope": "Original early-two-month plan; user confirmed no fit/no running process.",
+      "comparability": "No completed result; cannot be treated as an absolute-log execution.",
+      "evidence": "A2B021 numbering clarification and PLAN.old_A2B020",
+      "completion": "not executed"
+    },
+    {
+      "experiment": "A2B-021",
+      "actual_transform_or_scope": "Early-two-month ET/HGB squared/HGB absolute_error and fixed blends; all log1p(RCYL/s).",
+      "comparability": "absolute_error is model loss, not absolute-log target.",
+      "evidence": "PLAN.unchanged and execution/FINAL_RESULT.json",
+      "completion": "completed/stopped"
+    },
+    {
+      "experiment": "A2B-022",
+      "actual_transform_or_scope": "Scaled target unchanged; C1 exact input simplification.",
+      "comparability": "Not equivalent: columns changed, transform unchanged.",
+      "evidence": "PLAN.transform and fixed B/A reports",
+      "completion": "completed/stopped; A limited review accepted"
+    }
+  ],
+  "public_report_bindings": [
+    {
+      "commit": "5867edc93916e4228791e3d20327ff48a960537d",
+      "path": "docs/handoff_20261010_A2B022_B/REPORT_B.md",
+      "sha256": "7b55ff976b575edc4f0ff3b47196334d7fe926157a1ca457cf8742e83e5a1bd2",
+      "matches_existing_frozen_local": true
+    },
+    {
+      "commit": "0fdbc4d99ac7d5883359c923ebd98b69d5241120",
+      "path": "docs/handoff_20261010_A2B022_A/REPORT_A.md",
+      "sha256": "5378e604b5ef6a9859048ee1e9590ed569e33d39e3ca52313c79d6e8966bb28c",
+      "matches_existing_frozen_local": true
+    },
+    {
+      "commit": "64c2d08ffbc4ea89dc008bae38e4001ac61f8973",
+      "path": "docs/handoff_20261010_A2B022_B_CLOSEOUT/README.md",
+      "sha256": "de545807606f266657f5fdf4f858423cb5c8698985f44ae5ef0e41f232faea90",
+      "matches_existing_frozen_local": true
+    }
+  ],
+  "public_baseline_branch_tip": "d8bc8f198a7acf6cac9cb8753406d6b15579e993",
+  "public_tracked_file_count": 45,
+  "local_source_sha256": {
+    "D:\\codex\\b-training-handoff-20261009-v2\\evidence\\sources\\STATUS_B.md": "bc7ff23d72d922d47c0c30afdf36b0224157a4395ff2b227b473a5b415aa8bcd",
+    "D:\\codex\\b-training-handoff-20261009-v2\\evidence\\sources\\INTEGRATION_LOG.md": "4974d1ee4e9590ba7afaa696ed1240c3f3789816bbef2581460a71c9ba99b9b7",
+    "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\src\\oil_uplift\\a2b006_training.py": "ee7c8514be47030e31ff730073a360ebda14b350122efaf42e5ab1caa35f7d0f",
+    "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\src\\oil_uplift\\training.py": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+    "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b013\\EXPERIMENT_PLAN.yaml": "e3a7759dcb00bc5acde6ba8ef536227fc69bbc2d9dd700d13aa0823a5fd867cc",
+    "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\EXECUTION_COMPLETED.json": "f36a40b6f4e9e2c5b1a0036fe645e449d52bde79bf54471d4bfc728b46dba7c0",
+    "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\EXPERIMENT_PLAN.yaml": "a28fc605760d091a8812873bb28542e94df7b9411d604d652eea62505824650f",
+    "D:\\codex\\A2B021_20261009_v1\\PLAN.json": "a99eb630f56c4c0ecf82e8fcc78ea210a08a13d897b9371b9ef042f9a9f82244",
+    "D:\\codex\\A2B021_20261009_v1\\execution\\FINAL_RESULT.json": "114047515ecb501009df3ca01ad2b7bdff774c3712808fe31572e2a7002a9abc",
+    "D:\\codex\\A2B019_T1_20261009_v1\\execution\\FINAL_RESULT.json": "2df113ca81901e15379209f1ced25dcaf92ddc9297427f311182678db06358d9",
+    "D:\\codex\\A2B022_20261010_v1\\PLAN.json": "a40e5f316cf6235be566a7f5cb008cb47c0e3d974257425df7db09a6958346fa",
+    "D:\\codex\\A2B022_20261010_v1\\execution\\FINAL_RESULT.json": "809eebfd9097b986aa4b7c434dc4337d9212ee662c75125d61623b64e40510ae"
+  },
+  "baseline_reuse": {
+    "used": false,
+    "reason": "Old B0 row-level OOF deliberately not persisted. This comparison needs paired per-state net contribution using the same live OOF; no complete reusable OOF evidence. Train fresh paired B0, not subtract historical score."
+  },
+  "fits": 0,
+  "private_data_read": false,
+  "no_missing_evidence_relabelled_PASS": true
+}
