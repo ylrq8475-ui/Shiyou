@@ -1,0 +1,15 @@
+{
+  "account": "B",
+  "files": {
+    "AGGREGATE_NOTE_VERIFICATION.json": {
+      "bytes": 2067,
+      "sha256": "a453006305ee6e305983a94b5667d2527b5f9e18eb9a0b36e9719256fd0557ab"
+    },
+    "SOURCE_AND_INTERPRETATION_NOTE.md": {
+      "bytes": 3306,
+      "sha256": "bbe482089a0e230a8534aede86c149f6d51d41e0ff282d71a22140b6e97b6da3"
+    }
+  },
+  "manifest_excludes_itself": true,
+  "privacy_review": "new public prose plus anonymous aggregate arithmetic; no raw data, config contents, well identifiers, predictions, models or credentials"
+}

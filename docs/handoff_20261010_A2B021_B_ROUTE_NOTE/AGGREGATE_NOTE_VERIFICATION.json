@@ -1,0 +1,53 @@
+{
+  "account": "B",
+  "request": "A2B-021 route R2 source and interpretation note",
+  "A_source_commit": "6dbbaaa32bd5a122da7772b5922c07fdb9e0c7d6",
+  "group_denominators_and_loss_shares_independently_recomputed_from_existing_B_aggregates": {
+    "raw_scale_fallback": {
+      "mean_wells_across_existing_five_repeats": 14.0,
+      "well_share": 0.1728395061728395,
+      "loss_share": 0.2023122869403971,
+      "loss_share_minus_well_share_percentage_points": 2.9472780767557607
+    },
+    "positive_scale_training_q25_low": {
+      "mean_wells_across_existing_five_repeats": 17.0,
+      "well_share": 0.20987654320987653,
+      "loss_share": 0.1902707448879861,
+      "loss_share_minus_well_share_percentage_points": -1.960579832189044
+    },
+    "other_positive_scale": {
+      "mean_wells_across_existing_five_repeats": 50.0,
+      "well_share": 0.6172839506172839,
+      "loss_share": 0.6074169681716167,
+      "loss_share_minus_well_share_percentage_points": -0.9866982445667194
+    }
+  },
+  "input_hashes": [
+    {
+      "name": "REPEAT_20260917.json",
+      "sha256": "8b5ee7a3edabe39e76ce5b2f7eb722ffe6dd29a56fb0cc2284075d84544f0b0f"
+    },
+    {
+      "name": "REPEAT_20261031.json",
+      "sha256": "ed99eb655606a81dc75a209572364b879b7f474c8edd3886cca5644670d190f2"
+    },
+    {
+      "name": "REPEAT_20261219.json",
+      "sha256": "9b64d2d3e540eb2dbbe8c5fcebc900b949abf124c07a01c5f8e843ac6c8b3dbc"
+    },
+    {
+      "name": "REPEAT_20270107.json",
+      "sha256": "54d76bfdb905833d1d8f877b58c2e31f788d9d0d6de2d487b8de0212da12bda1"
+    },
+    {
+      "name": "REPEAT_20270303.json",
+      "sha256": "20be0bca54cf440fdd9c2b79d702212cdb1f6e6251afeda403fde7d0b53402e9"
+    }
+  ],
+  "source_claim_evidence_level": "user-provided handoff background; not independently verified official statement",
+  "new_model_or_preprocess_fits": 0,
+  "new_input_diagnostic_started": false,
+  "original_results_or_files_changed": false,
+  "historical_dtype": "UNKNOWN",
+  "event_semantics_and_forecast_time_P0": "OPEN"
+}
