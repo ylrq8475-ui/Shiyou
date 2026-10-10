@@ -1,0 +1,2940 @@
+{
+  "source_commit": "5867edc93916e4228791e3d20327ff48a960537d",
+  "check_count": 705,
+  "all_passed": true,
+  "provided_prefit_bindings": 48,
+  "model_fits_by_A": 0,
+  "scope": "A independent aggregate arithmetic and synthetic metric; real fits and raw-window reconstruction NOT performed",
+  "private_or_historical_unprovided_evidence": "UNKNOWN; B integrity reports not independently verified on remote machine",
+  "fixed_delta": -0.4594973695633797,
+  "repeat_mean_delta": -0.14081811040747141,
+  "group_findings": {
+    "raw_scale_fallback": {
+      "seed_net_score_deltas": [
+        -0.13017821230701038,
+        -0.2886938552631176,
+        -0.10530584383533985,
+        -0.16082709071386028,
+        -0.09461840281948909
+      ],
+      "seed_group_score_deltas": [
+        -0.75317394263342,
+        -1.6703001625937464,
+        -0.6092695250473199,
+        -0.930499596273048,
+        -0.5474350448841822
+      ],
+      "seed_early_net_score_deltas": [
+        -0.10068653612754538,
+        -0.23372088106745334,
+        -0.08368152359143094,
+        -0.11840490669284404,
+        -0.08102536275667528
+      ],
+      "wells": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "mean_net_score_delta": -0.15592468098776344,
+      "positive_seeds": 0,
+      "mean_group_score_delta": -0.9021356542863432,
+      "mean_early_net_score_delta": -0.1235038420471898
+    },
+    "positive_scale_training_q25_low": {
+      "seed_net_score_deltas": [
+        -0.08048775357686505,
+        -0.018354337285170972,
+        -0.06447520374217634,
+        -0.05160721314530156,
+        -0.15051877803766095
+      ],
+      "seed_group_score_deltas": [
+        -0.34313200209084466,
+        -0.09291883250617901,
+        -0.30720538253625157,
+        -0.26126151654809304,
+        -0.7171777071206125
+      ],
+      "seed_early_net_score_deltas": [
+        -0.0730220507926718,
+        -0.012896521285872594,
+        -0.04804308460548827,
+        -0.01779050132686342,
+        -0.106138746218676
+      ],
+      "wells": [
+        19,
+        16,
+        17,
+        16,
+        17
+      ],
+      "mean_net_score_delta": -0.07308865715743497,
+      "positive_seeds": 0,
+      "mean_group_score_delta": -0.34433908816039616,
+      "mean_early_net_score_delta": -0.051578180845914416
+    },
+    "other_positive_scale": {
+      "seed_net_score_deltas": [
+        -0.044765466858523145,
+        0.16124627952932652,
+        0.08164541782628511,
+        0.06162247904007578,
+        0.18122742915146112
+      ],
+      "seed_group_score_deltas": [
+        -0.07554172532375462,
+        0.2560970321936387,
+        0.1322655768785819,
+        0.09787099612247518,
+        0.29358843522536593
+      ],
+      "seed_early_net_score_deltas": [
+        -0.013196422246051625,
+        0.16957988363647042,
+        0.09164113272163076,
+        0.06481669059807754,
+        0.14984642964899003
+      ],
+      "wells": [
+        48,
+        51,
+        50,
+        51,
+        50
+      ],
+      "mean_net_score_delta": 0.08819522773772508,
+      "positive_seeds": 4,
+      "mean_group_score_delta": 0.14085606301926143,
+      "mean_early_net_score_delta": 0.09253754287182342
+    }
+  },
+  "fixed_bad_folds": 4,
+  "fixed_months_worsened": 12,
+  "repeat_months_worsened": 11,
+  "checks": [
+    {
+      "check": "exact_manifest_coverage",
+      "passed": true
+    },
+    {
+      "check": "hash:B2A_022_REVIEW_REQUEST.md",
+      "passed": true
+    },
+    {
+      "check": "hash:ERROR_ATTRIBUTION.json",
+      "passed": true
+    },
+    {
+      "check": "hash:FIT_ACCOUNTING.json",
+      "passed": true
+    },
+    {
+      "check": "hash:INTEGRITY_AFTER.json",
+      "passed": true
+    },
+    {
+      "check": "hash:MECHANISM_LEDGER.md",
+      "passed": true
+    },
+    {
+      "check": "hash:MODEL_COMPARISON.json",
+      "passed": true
+    },
+    {
+      "check": "hash:MODEL_REGISTRY.json",
+      "passed": true
+    },
+    {
+      "check": "hash:PROVIDED_PRETRAIN_BINDINGS.json",
+      "passed": true
+    },
+    {
+      "check": "hash:README.md",
+      "passed": true
+    },
+    {
+      "check": "hash:REPORT_B.md",
+      "passed": true
+    },
+    {
+      "check": "hash:review_only.py",
+      "passed": true
+    },
+    {
+      "check": "hash:audit/aggregate_check.py",
+      "passed": true
+    },
+    {
+      "check": "hash:audit/AGGREGATE_CHECKS.json",
+      "passed": true
+    },
+    {
+      "check": "hash:audit/build_delivery.py",
+      "passed": true
+    },
+    {
+      "check": "hash:audit/DELIVERY_BUILD_LOG.json",
+      "passed": true
+    },
+    {
+      "check": "hash:diagnostic_v2/DIAGNOSTIC_PRE_DATA_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "hash:diagnostic_v2/INPUT_DIAGNOSTIC.json",
+      "passed": true
+    },
+    {
+      "check": "hash:diagnostic_v2/INTEGRITY.json",
+      "passed": true
+    },
+    {
+      "check": "hash:diagnostic_v2/PRIVACY_SCAN.json",
+      "passed": true
+    },
+    {
+      "check": "hash:diagnostic_v2/SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/FINAL_RESULT.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/FIXED_FIVE_FOLD.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/IMPLEMENTATION_PRETRAIN_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/PRE_RETENTION_PRIVACY_SCAN.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/PRIVACY_SCAN.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/REPEAT_20260917.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/REPEAT_20261031.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/REPEAT_20261219.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/REPEAT_20270107.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/REPEAT_20270303.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/RESEARCH_DECISION_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/STRUCTURAL_GATES.json",
+      "passed": true
+    },
+    {
+      "check": "hash:runtime/a2b022_core.py",
+      "passed": true
+    },
+    {
+      "check": "hash:runtime/bridge.py",
+      "passed": true
+    },
+    {
+      "check": "hash:runtime/diagnose_inputs.py",
+      "passed": true
+    },
+    {
+      "check": "hash:runtime/DIAGNOSTIC_PLAN.json",
+      "passed": true
+    },
+    {
+      "check": "hash:runtime/MECHANISM_DECISION.md",
+      "passed": true
+    },
+    {
+      "check": "hash:runtime/PLAN.json",
+      "passed": true
+    },
+    {
+      "check": "hash:runtime/PRE_FIT_DEBUG_LOG.json",
+      "passed": true
+    },
+    {
+      "check": "hash:runtime/run_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "hash:runtime/seal_pretrain.py",
+      "passed": true
+    },
+    {
+      "check": "hash:runtime/SYNTHETIC_TEST_RESULTS.json",
+      "passed": true
+    },
+    {
+      "check": "hash:runtime/test_contracts.py",
+      "passed": true
+    },
+    {
+      "check": "hash:runtime/USER_AUTHORIZATION.txt",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/a2b021/diagnostics.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/a2b021/experiment_core.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/a2b021/run_research.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/accepted/boundary_audit.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/t1/archive_adapter.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/t1/paired_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/t1/t1_core.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/a2b006_training.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/a2b009_training.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/a2b011_training.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/a2b013_safe.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/a2b014_diagnostics.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/a2b015_training.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/a2b016_gate.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/a2b017_core.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/a2b017_gate.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/audit.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/cli.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/config.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/exceptions.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/features.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/inference.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/io.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/labels.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/models.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/multistep.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/packaging.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/schema.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/scoring.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/submission.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/training.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/validation.py",
+      "passed": true
+    },
+    {
+      "check": "hash:upstream/project/src/oil_uplift/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0001.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0002.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0003.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0004.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0005.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0006.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0007.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0008.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0009.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0010.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0011.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0012.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0013.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0014.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0015.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0016.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0017.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0018.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0019.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0020.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0021.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0022.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0023.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0024.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0025.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0026.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0027.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0028.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0029.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0030.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0031.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0032.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0033.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0034.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0035.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0036.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0037.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0038.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0039.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0040.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0041.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0042.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0043.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0044.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0045.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0046.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0047.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0048.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0049.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0050.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0051.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0052.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0053.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0054.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0055.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0056.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0057.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0058.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0059.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0060.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0061.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0062.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0063.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0064.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0065.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0066.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0067.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0068.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0069.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0070.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0071.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0072.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0073.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0074.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0075.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0076.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0077.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0078.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0079.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0080.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0081.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0082.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0083.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0084.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0085.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0086.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0087.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0088.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0089.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0090.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0091.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0092.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0093.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0094.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0095.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0096.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0097.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0098.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0099.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0100.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0101.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0102.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0103.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0104.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0105.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0106.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0107.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0108.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0109.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0110.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0111.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0112.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0113.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0114.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0115.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0116.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0117.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0118.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0119.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0120.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0121.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0122.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0123.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0124.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0125.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0126.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0127.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0128.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0129.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0130.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0131.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0132.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0133.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0134.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0135.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0136.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0137.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0138.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0139.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0140.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0141.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0142.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0143.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0144.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0145.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0146.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0147.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0148.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0149.json",
+      "passed": true
+    },
+    {
+      "check": "hash:execution/events/0150.json",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:runtime/a2b022_core.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:runtime/bridge.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:runtime/diagnose_inputs.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:runtime/run_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:runtime/seal_pretrain.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:runtime/test_contracts.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:runtime/PLAN.json",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:runtime/DIAGNOSTIC_PLAN.json",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:runtime/USER_AUTHORIZATION.txt",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:runtime/MECHANISM_DECISION.md",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:runtime/SYNTHETIC_TEST_RESULTS.json",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:runtime/PRE_FIT_DEBUG_LOG.json",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:diagnostic_v2/INPUT_DIAGNOSTIC.json",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:diagnostic_v2/INTEGRITY.json",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:diagnostic_v2/SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/a2b006_training.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/a2b009_training.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/a2b011_training.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/a2b013_safe.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/a2b014_diagnostics.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/a2b015_training.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/a2b016_gate.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/a2b017_core.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/a2b017_gate.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/audit.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/cli.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/config.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/exceptions.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/features.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/inference.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/io.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/labels.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/models.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/multistep.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/packaging.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/schema.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/scoring.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/submission.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/training.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/project/src/oil_uplift/validation.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/t1/paired_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/t1/archive_adapter.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/t1/t1_core.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/a2b021/run_research.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/a2b021/experiment_core.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/a2b021/diagnostics.py",
+      "passed": true
+    },
+    {
+      "check": "actual_prefit_binding:upstream/accepted/boundary_audit.py",
+      "passed": true
+    },
+    {
+      "check": "150_event_counts",
+      "passed": true
+    },
+    {
+      "check": "synthetic_lock_fit_order",
+      "passed": true
+    },
+    {
+      "check": "model_fit_entered_exact_queue",
+      "passed": true
+    },
+    {
+      "check": "model_fit_entered_no_other_phase",
+      "passed": true
+    },
+    {
+      "check": "fit_completed_exact_queue",
+      "passed": true
+    },
+    {
+      "check": "fit_completed_no_other_phase",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "training_scope",
+      "passed": true
+    },
+    {
+      "check": "isolation_claim",
+      "passed": true
+    },
+    {
+      "check": "cohort_and_horizons",
+      "passed": true
+    },
+    {
+      "check": "official_score",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "equal_well_unequal_fold",
+      "passed": true
+    },
+    {
+      "check": "ddof0",
+      "passed": true
+    },
+    {
+      "check": "cohort_and_horizons",
+      "passed": true
+    },
+    {
+      "check": "official_score",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "equal_well_unequal_fold",
+      "passed": true
+    },
+    {
+      "check": "ddof0",
+      "passed": true
+    },
+    {
+      "check": "paired_delta",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_partition",
+      "passed": true
+    },
+    {
+      "check": "group_sum",
+      "passed": true
+    },
+    {
+      "check": "cohort_and_horizons",
+      "passed": true
+    },
+    {
+      "check": "official_score",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "equal_well_unequal_fold",
+      "passed": true
+    },
+    {
+      "check": "ddof0",
+      "passed": true
+    },
+    {
+      "check": "cohort_and_horizons",
+      "passed": true
+    },
+    {
+      "check": "official_score",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "equal_well_unequal_fold",
+      "passed": true
+    },
+    {
+      "check": "ddof0",
+      "passed": true
+    },
+    {
+      "check": "paired_delta",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_partition",
+      "passed": true
+    },
+    {
+      "check": "group_sum",
+      "passed": true
+    },
+    {
+      "check": "cohort_and_horizons",
+      "passed": true
+    },
+    {
+      "check": "official_score",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "equal_well_unequal_fold",
+      "passed": true
+    },
+    {
+      "check": "ddof0",
+      "passed": true
+    },
+    {
+      "check": "cohort_and_horizons",
+      "passed": true
+    },
+    {
+      "check": "official_score",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "equal_well_unequal_fold",
+      "passed": true
+    },
+    {
+      "check": "ddof0",
+      "passed": true
+    },
+    {
+      "check": "paired_delta",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_partition",
+      "passed": true
+    },
+    {
+      "check": "group_sum",
+      "passed": true
+    },
+    {
+      "check": "cohort_and_horizons",
+      "passed": true
+    },
+    {
+      "check": "official_score",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "equal_well_unequal_fold",
+      "passed": true
+    },
+    {
+      "check": "ddof0",
+      "passed": true
+    },
+    {
+      "check": "cohort_and_horizons",
+      "passed": true
+    },
+    {
+      "check": "official_score",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "equal_well_unequal_fold",
+      "passed": true
+    },
+    {
+      "check": "ddof0",
+      "passed": true
+    },
+    {
+      "check": "paired_delta",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_partition",
+      "passed": true
+    },
+    {
+      "check": "group_sum",
+      "passed": true
+    },
+    {
+      "check": "cohort_and_horizons",
+      "passed": true
+    },
+    {
+      "check": "official_score",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "equal_well_unequal_fold",
+      "passed": true
+    },
+    {
+      "check": "ddof0",
+      "passed": true
+    },
+    {
+      "check": "cohort_and_horizons",
+      "passed": true
+    },
+    {
+      "check": "official_score",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "equal_well_unequal_fold",
+      "passed": true
+    },
+    {
+      "check": "ddof0",
+      "passed": true
+    },
+    {
+      "check": "paired_delta",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_partition",
+      "passed": true
+    },
+    {
+      "check": "group_sum",
+      "passed": true
+    },
+    {
+      "check": "cohort_and_horizons",
+      "passed": true
+    },
+    {
+      "check": "official_score",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "equal_well_unequal_fold",
+      "passed": true
+    },
+    {
+      "check": "ddof0",
+      "passed": true
+    },
+    {
+      "check": "cohort_and_horizons",
+      "passed": true
+    },
+    {
+      "check": "official_score",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "month_weight",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "prefix",
+      "passed": true
+    },
+    {
+      "check": "equal_well_unequal_fold",
+      "passed": true
+    },
+    {
+      "check": "ddof0",
+      "passed": true
+    },
+    {
+      "check": "paired_delta",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_pairing",
+      "passed": true
+    },
+    {
+      "check": "group_contribution",
+      "passed": true
+    },
+    {
+      "check": "group_partition",
+      "passed": true
+    },
+    {
+      "check": "group_sum",
+      "passed": true
+    },
+    {
+      "check": "repeat_mean",
+      "passed": true
+    },
+    {
+      "check": "five_negative_seeds",
+      "passed": true
+    },
+    {
+      "check": "gate_fail",
+      "passed": true
+    },
+    {
+      "check": "no_retention_or_confirmation_fits",
+      "passed": true
+    },
+    {
+      "check": "synthetic_perfect",
+      "passed": true
+    },
+    {
+      "check": "synthetic_first_month_epsilon",
+      "passed": true
+    },
+    {
+      "check": "synthetic_unnormalized",
+      "passed": true
+    },
+    {
+      "check": "synthetic_equal_well",
+      "passed": true
+    },
+    {
+      "check": "A_B_synthetic_metric",
+      "passed": true
+    },
+    {
+      "check": "A_B_synthetic_metric",
+      "passed": true
+    },
+    {
+      "check": "A_B_synthetic_metric",
+      "passed": true
+    },
+    {
+      "check": "invalid_prediction_rejected",
+      "passed": true
+    },
+    {
+      "check": "invalid_prediction_rejected",
+      "passed": true
+    },
+    {
+      "check": "invalid_prediction_rejected",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_min",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_max",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_median",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_min",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_max",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_median",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_min",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_max",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_median",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_min",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_max",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_median",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_min",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_max",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_median",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_min",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_max",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_median",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_min",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_max",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_median",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_min",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_max",
+      "passed": true
+    },
+    {
+      "check": "diagnostic_median",
+      "passed": true
+    }
+  ]
+}

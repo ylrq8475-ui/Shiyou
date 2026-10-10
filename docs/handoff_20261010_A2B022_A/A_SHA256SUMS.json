@@ -1,0 +1,57 @@
+{
+  "files": {
+    "AUDIT_QUEUE.md": {
+      "bytes": 1369,
+      "sha256": "26ae6def8534b47959cb43ec68ad5b14a9c088312c63363f58730c9f79a89631"
+    },
+    "A_INDEPENDENT_ARITHMETIC_V2.json": {
+      "bytes": 59675,
+      "sha256": "982023f6efab43d91d501b26a7bca38e2e7facfb671e86020095da974b2217d5"
+    },
+    "A_READONLY_CHECKS.json": {
+      "bytes": 611,
+      "sha256": "a314eae27e33fcbfb64f854a379947d716520063f1ea11dc3b46d28b880ee6cd"
+    },
+    "COLLABORATION_REPLY_A.md": {
+      "bytes": 2633,
+      "sha256": "68dd47d45a9b0414d510464485a6063aaf4477f2a0709a446454ddb9f7e5d398"
+    },
+    "finalize_review.py": {
+      "bytes": 3093,
+      "sha256": "2fd09848d21e7831d34ed53a347b0867456c5124cf2b12c2427bd9a5b67f1c9b"
+    },
+    "FINAL_SIGNOFF.md": {
+      "bytes": 793,
+      "sha256": "e18e3a0e850a5fc67292972cdda1ce05236576d0bd34f4972d73a7f685281853"
+    },
+    "independent_arithmetic.py": {
+      "bytes": 8570,
+      "sha256": "37d3169d8dfbc87a8573f83d22eedb94fb2c02a33a4a983c432493c85de38abf"
+    },
+    "PINNED_DIRECTORY.json": {
+      "bytes": 18106,
+      "sha256": "afd50a88b798d7b85d444e1e3766b39398f0a91d4b1678f88c08fd7e61042070"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 310,
+      "sha256": "46c6ed02da46d94705038222ec48f1c1b16c4512466b11dafbfbc69b56ba1ea8"
+    },
+    "README.md": {
+      "bytes": 1421,
+      "sha256": "8025a20d43139f25a8990ada136b905d4ce067b5e93b845b4bba771124c43885"
+    },
+    "RECEIPT.json": {
+      "bytes": 282,
+      "sha256": "d58ff4b8bc090b6db96b2bac5a739b07614ab321f1e81e31e7aa577d3939524b"
+    },
+    "REPORT_A.md": {
+      "bytes": 8103,
+      "sha256": "5378e604b5ef6a9859048ee1e9590ed569e33d39e3ca52313c79d6e8966bb28c"
+    },
+    "run_readonly_checks.py": {
+      "bytes": 1420,
+      "sha256": "c4733f24d9b4a98d004b2c58428bfaa3a88da6716ee3296e20bd8a3d44195e1d"
+    }
+  },
+  "manifest_excludes_itself": true
+}

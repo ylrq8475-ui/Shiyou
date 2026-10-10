@@ -1,0 +1,15 @@
+{
+  "bundle_byte_files_checked": 228,
+  "synthetic_cases": 21,
+  "synthetic_passed": true,
+  "aggregate_check_count": 654,
+  "aggregate_checks_passed": true,
+  "real_model_fits": 0,
+  "real_preprocess_fits": 0,
+  "private_data_read": false,
+  "algorithm_source": "exact selected original function AST definitions plus original selector/core source; no private import paths evaluated",
+  "training_or_deployment_authorized_by_entry": false,
+  "A_no_fit_guard_triggered": [],
+  "A_bundle_unchanged": true,
+  "scope": "Independent execution of B synthetic and aggregate checks, not real retraining"
+}
