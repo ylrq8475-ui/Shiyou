@@ -1,0 +1,66 @@
+[
+  {
+    "name": "PUBLICATION_MANIFEST.json",
+    "path": "docs/handoff_20261010_A2B021_B_CLOSEOUT/PUBLICATION_MANIFEST.json",
+    "sha": "749aa5e0325fe577c9988b20aca2746364eb1b29",
+    "size": 446,
+    "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261010_A2B021_B_CLOSEOUT/PUBLICATION_MANIFEST.json?ref=2c677b28a9060874b872716bab3b389ae4f2dd7f",
+    "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/handoff_20261010_A2B021_B_CLOSEOUT/PUBLICATION_MANIFEST.json",
+    "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/749aa5e0325fe577c9988b20aca2746364eb1b29",
+    "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/handoff_20261010_A2B021_B_CLOSEOUT/PUBLICATION_MANIFEST.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261010_A2B021_B_CLOSEOUT/PUBLICATION_MANIFEST.json?ref=2c677b28a9060874b872716bab3b389ae4f2dd7f",
+      "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/749aa5e0325fe577c9988b20aca2746364eb1b29",
+      "html": "https://github.com/ylrq8475-ui/Shiyou/blob/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/handoff_20261010_A2B021_B_CLOSEOUT/PUBLICATION_MANIFEST.json"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "docs/handoff_20261010_A2B021_B_CLOSEOUT/README.md",
+    "sha": "3c478efd5b3543a543dc2f029c8f84503d578693",
+    "size": 2691,
+    "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261010_A2B021_B_CLOSEOUT/README.md?ref=2c677b28a9060874b872716bab3b389ae4f2dd7f",
+    "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/handoff_20261010_A2B021_B_CLOSEOUT/README.md",
+    "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/3c478efd5b3543a543dc2f029c8f84503d578693",
+    "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/handoff_20261010_A2B021_B_CLOSEOUT/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261010_A2B021_B_CLOSEOUT/README.md?ref=2c677b28a9060874b872716bab3b389ae4f2dd7f",
+      "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/3c478efd5b3543a543dc2f029c8f84503d578693",
+      "html": "https://github.com/ylrq8475-ui/Shiyou/blob/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/handoff_20261010_A2B021_B_CLOSEOUT/README.md"
+    }
+  },
+  {
+    "name": "RECEIPT_VERIFICATION.json",
+    "path": "docs/handoff_20261010_A2B021_B_CLOSEOUT/RECEIPT_VERIFICATION.json",
+    "sha": "7f3bac0e5355c65acf277c11b0341b1c9d2995db",
+    "size": 5266,
+    "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261010_A2B021_B_CLOSEOUT/RECEIPT_VERIFICATION.json?ref=2c677b28a9060874b872716bab3b389ae4f2dd7f",
+    "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/handoff_20261010_A2B021_B_CLOSEOUT/RECEIPT_VERIFICATION.json",
+    "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/7f3bac0e5355c65acf277c11b0341b1c9d2995db",
+    "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/handoff_20261010_A2B021_B_CLOSEOUT/RECEIPT_VERIFICATION.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261010_A2B021_B_CLOSEOUT/RECEIPT_VERIFICATION.json?ref=2c677b28a9060874b872716bab3b389ae4f2dd7f",
+      "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/7f3bac0e5355c65acf277c11b0341b1c9d2995db",
+      "html": "https://github.com/ylrq8475-ui/Shiyou/blob/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/handoff_20261010_A2B021_B_CLOSEOUT/RECEIPT_VERIFICATION.json"
+    }
+  },
+  {
+    "name": "HANDOFF_DELIVERY_RULES_V1.md",
+    "path": "docs/coordination_B/HANDOFF_DELIVERY_RULES_V1.md",
+    "sha": "0641063194c338d1b596509cf7eb2413a1949db1",
+    "size": 3571,
+    "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/coordination_B/HANDOFF_DELIVERY_RULES_V1.md?ref=2c677b28a9060874b872716bab3b389ae4f2dd7f",
+    "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/coordination_B/HANDOFF_DELIVERY_RULES_V1.md",
+    "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/0641063194c338d1b596509cf7eb2413a1949db1",
+    "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/coordination_B/HANDOFF_DELIVERY_RULES_V1.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/coordination_B/HANDOFF_DELIVERY_RULES_V1.md?ref=2c677b28a9060874b872716bab3b389ae4f2dd7f",
+      "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/0641063194c338d1b596509cf7eb2413a1949db1",
+      "html": "https://github.com/ylrq8475-ui/Shiyou/blob/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/coordination_B/HANDOFF_DELIVERY_RULES_V1.md"
+    }
+  }
+]

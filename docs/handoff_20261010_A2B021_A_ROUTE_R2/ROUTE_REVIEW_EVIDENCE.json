@@ -1,0 +1,36 @@
+{
+  "account": "A",
+  "reviewed_B_commit": "2c677b28a9060874b872716bab3b389ae4f2dd7f",
+  "delivery_type": "A2B021_RECEIPT_CLOSEOUT_NOT_NEW_TRAINING",
+  "B_public_files_verified": 4,
+  "B_closeout_manifest_entries_verified": 2,
+  "B_receipt_matches_A_original_files": 21,
+  "B_new_model_fits": 0,
+  "A_new_model_or_preprocess_fits": 0,
+  "prior_tests_not_rerun": true,
+  "forecast_state_loss_and_population_comparison": {
+    "raw_scale_fallback": {
+      "mean_wells_across_existing_five_repeats": 14,
+      "well_share": 0.1728395061728395,
+      "loss_share": 0.20231228694039716,
+      "loss_share_minus_well_share_percentage_points": 2.947278076755766
+    },
+    "positive_scale_training_q25_low": {
+      "mean_wells_across_existing_five_repeats": 17,
+      "well_share": 0.20987654320987653,
+      "loss_share": 0.1902707448879861,
+      "loss_share_minus_well_share_percentage_points": -1.960579832189044
+    },
+    "other_positive_scale": {
+      "mean_wells_across_existing_five_repeats": 50,
+      "well_share": 0.6172839506172839,
+      "loss_share": 0.6074169681716168,
+      "loss_share_minus_well_share_percentage_points": -0.9866982445667083
+    }
+  },
+  "independent_wells_still": 81,
+  "five_repeats_are_not_405_independent_wells": true,
+  "event_and_forecast_time_P0": "OPEN",
+  "historical_dtype": "UNKNOWN",
+  "status": "PASS_LIMITED_CLOSEOUT_REVIEW"
+}

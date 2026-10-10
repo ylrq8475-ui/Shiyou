@@ -1,0 +1,41 @@
+{
+  "files": {
+    "COLLABORATION_REPLY_A.md": {
+      "bytes": 2665,
+      "sha256": "216943d5bb0c5d6a5abfa5a9ca94ade60edd82134b8889a83f9be0f1449cd85c"
+    },
+    "finalize_route.py": {
+      "bytes": 3016,
+      "sha256": "b899d4cf17337df912789a4a0e4abb47a48eb8d58ce3773cb2e242e3f85f67cb"
+    },
+    "NEXT_DIAGNOSTIC_SPEC.md": {
+      "bytes": 2873,
+      "sha256": "f8dd9adbaf593419179dbcb8296881b34a9c98a9e927323955fbbdb7c51758f4"
+    },
+    "PINNED_SOURCES.json": {
+      "bytes": 5243,
+      "sha256": "4661a2b33aee7a5c37db2f6b964448c6317dad7da9d9bf12aa0b7864c624cfee"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 312,
+      "sha256": "0ca166f326ab1471635c549e8c6f51271069c1d0826a2001a5335823c1c02480"
+    },
+    "README.md": {
+      "bytes": 1511,
+      "sha256": "a4c9aeb9a9f61a4f1355c5aa26c15bc7c48568ed1efd87c34affac4ccabb7281"
+    },
+    "review_closeout.py": {
+      "bytes": 3666,
+      "sha256": "fc9fe7b83d5120589035ef554365d847d123cd2b498a699701532ce81f1e48fc"
+    },
+    "ROUTE_REVIEW_A.md": {
+      "bytes": 8241,
+      "sha256": "1440cd8915f8bd223c2a3b0be496c1593e62205d5d5c0ef29ba57fec5c102771"
+    },
+    "ROUTE_REVIEW_EVIDENCE.json": {
+      "bytes": 1373,
+      "sha256": "f9583155b674a156f86f68caf64cb083f16d88cddf992dfb9801f32c33bd6369"
+    }
+  },
+  "manifest_excludes_itself": true
+}
