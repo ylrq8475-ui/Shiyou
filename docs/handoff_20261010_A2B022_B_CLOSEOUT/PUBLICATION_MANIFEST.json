@@ -1,0 +1,18 @@
+{
+  "account": "B execution and delivery",
+  "request": "A2B-022 closeout",
+  "files": {
+    "README.md": {
+      "bytes": 2271,
+      "sha256": "de545807606f266657f5fdf4f858423cb5c8698985f44ae5ef0e41f232faea90"
+    },
+    "RECEIPT_VERIFICATION.json": {
+      "bytes": 4488,
+      "sha256": "f84f61d67b23515970fc38d8b4c33a92523c0b929278312d74c9d2016100eccb"
+    }
+  },
+  "privacy_scan": "explicit three-file allowlist; public evidence metadata and aggregate only; credential/path/raw-row pattern checks passed",
+  "new_model_fits": 0,
+  "new_preprocessor_fits": 0,
+  "manifest_excludes_itself": true
+}
