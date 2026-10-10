@@ -1,0 +1,22 @@
+{
+  "request": "A2B-022",
+  "actual": {
+    "cap": 90,
+    "pipeline_attempts": 60,
+    "selector_fit_calls": 30,
+    "preprocess_entered": 60,
+    "preprocess_completed": 60,
+    "model_entered": 60,
+    "model_completed": 60,
+    "runtime_retries": 0
+  },
+  "diagnostic_model_and_preprocess_fits": 0,
+  "pretrain_selector_identity_evaluations": 30,
+  "runtime_selector_rule_evaluations": 30,
+  "total_training_fold_selector_rule_evaluations": 60,
+  "conditional_full_research_fits": 0,
+  "confirmation_fits": 0,
+  "models_saved": 0,
+  "planned_model_entries": 60,
+  "unused_budget_not_used_for_search": true
+}

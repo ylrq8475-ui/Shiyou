@@ -1,0 +1,19 @@
+{
+  "request": "A2B-022",
+  "registry": {
+    "B0": {
+      "role": "fresh paired research control",
+      "artifact_saved": false
+    },
+    "C1": {
+      "status": "NO_UPGRADE_SIGNAL",
+      "research_gate_pass": false,
+      "artifact_saved": false,
+      "deployment_approved": false
+    }
+  },
+  "candidate_records_preserved": true,
+  "retained_private_artifacts": {},
+  "deployment_approved": false,
+  "A_independent_review": "PENDING"
+}

@@ -1,0 +1,62 @@
+{
+  "account": "B execution and delivery",
+  "request": "A2B-022",
+  "files": {
+    "A2B022_READONLY_REVIEW_BUNDLE_v1.zip": {
+      "bytes": 341988,
+      "sha256": "bde52e806557aa7d50016f82a83b15ece1c7ed40b5d4d10cf3ca055a8502b3cc"
+    },
+    "A2B022_READONLY_REVIEW_BUNDLE_v1.zip.sha256": {
+      "bytes": 103,
+      "sha256": "368931934cc78ae2c937cee212c596d1e79596576e50b1422adb5c481158d1b5"
+    },
+    "B2A_022_REVIEW_REQUEST.md": {
+      "bytes": 1238,
+      "sha256": "b647c4184268771e213e193f94624a91b7b3f416492c5e254f70f7f1a0beca3a"
+    },
+    "ERROR_ATTRIBUTION.json": {
+      "bytes": 937,
+      "sha256": "eced9bc67119fa20ce2a7131bf51f968056e805c3acd98c87aa91fb7dc0df0b1"
+    },
+    "FIT_ACCOUNTING.json": {
+      "bytes": 634,
+      "sha256": "47b7a419c68c26d2f506d0177caf2a2730f84b5f334846b70eb4f31cbdd09b31"
+    },
+    "INTEGRITY_AFTER.json": {
+      "bytes": 689,
+      "sha256": "bed91b7462c81e804989cda98a97adf16bf8af4c225f0f244c09de4496738799"
+    },
+    "MECHANISM_LEDGER.md": {
+      "bytes": 998,
+      "sha256": "f508fd60039e2c66ff02c940c597792eb0e2e48746f4338463c12e77a4d8cd41"
+    },
+    "MODEL_COMPARISON.json": {
+      "bytes": 5995,
+      "sha256": "34675388751ba4cff655d0e3f60fdafe9b30b70e11ec2cd86eed65e200a4f9e5"
+    },
+    "MODEL_REGISTRY.json": {
+      "bytes": 463,
+      "sha256": "69a74efa82652fe7aecef12b769047528330fcb94f5c63649c4e13769e40583e"
+    },
+    "PACKAGED_RETEST.json": {
+      "bytes": 453,
+      "sha256": "b023bb30637e7abc0ecf9820c9331a6b0dc88cae411093f194a15340cd0f4889"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 553,
+      "sha256": "c5a288d258c0273ea21ad6b7d688d16cccbad2be558840119537a6ecb838d4f1"
+    },
+    "README.md": {
+      "bytes": 1170,
+      "sha256": "5b4cdab94b7a0e0f84828a8951039e68e55e40f2ed6caf001cdf040e4ed5789b"
+    },
+    "REPORT_B.md": {
+      "bytes": 4562,
+      "sha256": "7b55ff976b575edc4f0ff3b47196334d7fe926157a1ca457cf8742e83e5a1bd2"
+    }
+  },
+  "manifest_excludes_itself": true,
+  "A_review": "PENDING",
+  "model_fit_count": 60,
+  "no_private_artifacts_included": true
+}

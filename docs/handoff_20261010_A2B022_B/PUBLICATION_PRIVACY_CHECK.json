@@ -1,0 +1,11 @@
+{
+  "checked_report_files": 196,
+  "private_token_hits": 0,
+  "passed": true,
+  "numeric_candidate_value_check": "raw candidate fields never serialized; numeric constants alone are not identifier evidence",
+  "private_well_tokens_checked_in_memory": 98,
+  "all_bundle_source_files_checked": true,
+  "raw_files_or_private_configuration_contents_or_weights_included": false,
+  "generic_credential_scan_passed": true,
+  "scope": "explicit allowlist; fresh local well/event tokens plus structural checks, not proof against unknown identifiers"
+}

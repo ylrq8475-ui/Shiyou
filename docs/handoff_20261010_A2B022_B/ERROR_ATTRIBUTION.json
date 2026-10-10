@@ -1,0 +1,25 @@
+{
+  "scope": "paired aggregate loss decomposition, not causal identification",
+  "fixed_score_loss_contribution_first2": -0.32722950815091134,
+  "repeat_score_loss_contribution_first2": -0.08254448002128212,
+  "repeat_prediction_state_groups": {
+    "raw_scale_fallback": {
+      "mean_wells": 14.0,
+      "mean_B0_group_loss": 0.3199507840753978,
+      "mean_C1_group_loss": 0.3289721406182612,
+      "mean_net_score_contribution": -0.15592468098776302
+    },
+    "positive_scale_training_q25_low": {
+      "mean_wells": 17.0,
+      "mean_B0_group_loss": 0.24857860175402746,
+      "mean_C1_group_loss": 0.2520219926356314,
+      "mean_net_score_contribution": -0.0730886571574348
+    },
+    "other_positive_scale": {
+      "mean_wells": 50.0,
+      "mean_B0_group_loss": 0.26903501947693187,
+      "mean_C1_group_loss": 0.26762645884673925,
+      "mean_net_score_contribution": 0.08819522773772587
+    }
+  }
+}
