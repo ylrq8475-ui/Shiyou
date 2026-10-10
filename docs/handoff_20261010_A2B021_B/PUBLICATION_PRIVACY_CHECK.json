@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-10 Asia/Shanghai",
+  "executor": "ACCOUNT_B",
+  "text_files_checked": 367,
+  "private_identifier_or_credential_hits": 0,
+  "passed": true,
+  "raw_tables_private_config_contents_per_well_outputs_OOF_model_weights_excluded": true,
+  "original_bundle_sha256_matches": true,
+  "original_frozen_manifest_matches": true,
+  "training_or_model_loading_performed_for_publication": false
+}

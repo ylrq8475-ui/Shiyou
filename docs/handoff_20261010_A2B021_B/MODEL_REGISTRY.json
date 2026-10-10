@@ -1,0 +1,57 @@
+{
+  "request": "A2B-021",
+  "models": {
+    "C1": {
+      "status": "NO_UPGRADE_SIGNAL",
+      "research_pass": false,
+      "confirmation_evaluated": false,
+      "artifact_saved": false,
+      "independent_qualification": false,
+      "deployment_approved": false
+    },
+    "C2": {
+      "status": "NO_UPGRADE_SIGNAL",
+      "research_pass": false,
+      "confirmation_evaluated": false,
+      "artifact_saved": false,
+      "independent_qualification": false,
+      "deployment_approved": false
+    },
+    "C3": {
+      "status": "NO_UPGRADE_SIGNAL",
+      "research_pass": false,
+      "confirmation_evaluated": false,
+      "artifact_saved": false,
+      "independent_qualification": false,
+      "deployment_approved": false
+    },
+    "F12": {
+      "status": "NO_UPGRADE_SIGNAL",
+      "research_pass": false,
+      "confirmation_evaluated": false,
+      "artifact_saved": false,
+      "independent_qualification": false,
+      "deployment_approved": false
+    },
+    "F13": {
+      "status": "NO_UPGRADE_SIGNAL",
+      "research_pass": false,
+      "confirmation_evaluated": false,
+      "artifact_saved": false,
+      "independent_qualification": false,
+      "deployment_approved": false
+    },
+    "F23": {
+      "status": "NO_UPGRADE_SIGNAL",
+      "research_pass": false,
+      "confirmation_evaluated": false,
+      "artifact_saved": false,
+      "independent_qualification": false,
+      "deployment_approved": false
+    }
+  },
+  "private_artifacts": {},
+  "B0": "shared research control only; no deployment approval",
+  "deployment_approved": false,
+  "A_independent_review": "PENDING"
+}

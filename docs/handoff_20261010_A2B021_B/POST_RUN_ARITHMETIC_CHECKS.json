@@ -1,0 +1,2123 @@
+{
+  "scope": "read-only post-score arithmetic; not independent real training reproduction",
+  "checks": [
+    {
+      "check": "SIX_RESEARCH_FAMILIES_COMPLETE",
+      "passed": true
+    },
+    {
+      "check": "EXACT_120_FITS_NO_FAILURES_OR_RETRIES",
+      "passed": true
+    },
+    {
+      "check": "EVENT_FIT_COUNTS_MATCH",
+      "passed": true
+    },
+    {
+      "check": "ACTUAL_TRAINING_ROW_SCOPES",
+      "passed": true
+    },
+    {
+      "check": "OBSERVED_PREPROCESS_MODEL_CALL_COUNTS",
+      "passed": true
+    },
+    {
+      "check": "PRESCORE_SOURCE_AND_INPUT_HASHES_UNCHANGED",
+      "passed": true
+    },
+    {
+      "check": "END_OF_EXECUTION_ORIGINAL_MANIFEST_MATCHES",
+      "passed": true
+    },
+    {
+      "check": "ONLY_PREREGISTERED_RESEARCH_SEEDS",
+      "passed": true
+    },
+    {
+      "check": "B0_C1_SAME_MODEL_PARAMETERS",
+      "passed": true
+    },
+    {
+      "check": "C2_C3_ONLY_LOSS_DIFFERS",
+      "passed": true
+    },
+    {
+      "check": "None_OOF_WELL_COUNTS",
+      "passed": true
+    },
+    {
+      "check": "None_B0_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "None_B0_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "None_B0_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "None_B0_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "None_B0_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "None_B0_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "None_B0_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "None_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_C1_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "None_C1_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "None_C1_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "None_C1_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "None_C1_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "None_C1_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "None_C1_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "None_C1_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "None_C1_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "None_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_C2_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "None_C2_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "None_C2_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "None_C2_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "None_C2_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "None_C2_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "None_C2_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "None_C2_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "None_C2_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "None_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_C3_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "None_C3_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "None_C3_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "None_C3_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "None_C3_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "None_C3_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "None_C3_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "None_C3_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "None_C3_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "None_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_F12_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "None_F12_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "None_F12_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "None_F12_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "None_F12_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "None_F12_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "None_F12_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "None_F12_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "None_F12_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "None_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_F13_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "None_F13_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "None_F13_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "None_F13_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "None_F13_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "None_F13_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "None_F13_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "None_F13_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "None_F13_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "None_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_F23_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "None_F23_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "None_F23_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "None_F23_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "None_F23_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "None_F23_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "None_F23_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "None_F23_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "None_F23_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "None_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "None_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_OOF_WELL_COUNTS",
+      "passed": true
+    },
+    {
+      "check": "20260917_B0_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20260917_B0_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20260917_B0_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20260917_B0_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20260917_B0_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20260917_B0_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20260917_B0_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20260917_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_C1_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20260917_C1_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20260917_C1_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20260917_C1_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20260917_C1_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20260917_C1_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20260917_C1_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20260917_C1_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20260917_C1_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20260917_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_C2_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20260917_C2_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20260917_C2_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20260917_C2_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20260917_C2_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20260917_C2_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20260917_C2_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20260917_C2_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20260917_C2_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20260917_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_C3_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20260917_C3_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20260917_C3_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20260917_C3_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20260917_C3_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20260917_C3_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20260917_C3_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20260917_C3_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20260917_C3_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20260917_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_F12_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20260917_F12_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20260917_F12_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20260917_F12_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20260917_F12_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20260917_F12_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20260917_F12_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20260917_F12_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20260917_F12_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20260917_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_F13_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20260917_F13_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20260917_F13_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20260917_F13_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20260917_F13_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20260917_F13_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20260917_F13_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20260917_F13_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20260917_F13_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20260917_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_F23_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20260917_F23_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20260917_F23_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20260917_F23_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20260917_F23_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20260917_F23_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20260917_F23_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20260917_F23_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20260917_F23_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20260917_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20260917_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_OOF_WELL_COUNTS",
+      "passed": true
+    },
+    {
+      "check": "20261031_B0_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261031_B0_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261031_B0_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261031_B0_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261031_B0_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261031_B0_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261031_B0_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261031_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_C1_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261031_C1_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261031_C1_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261031_C1_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261031_C1_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261031_C1_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261031_C1_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261031_C1_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20261031_C1_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20261031_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_C2_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261031_C2_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261031_C2_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261031_C2_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261031_C2_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261031_C2_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261031_C2_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261031_C2_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20261031_C2_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20261031_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_C3_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261031_C3_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261031_C3_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261031_C3_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261031_C3_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261031_C3_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261031_C3_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261031_C3_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20261031_C3_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20261031_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_F12_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261031_F12_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261031_F12_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261031_F12_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261031_F12_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261031_F12_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261031_F12_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261031_F12_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20261031_F12_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20261031_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_F13_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261031_F13_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261031_F13_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261031_F13_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261031_F13_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261031_F13_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261031_F13_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261031_F13_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20261031_F13_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20261031_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_F23_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261031_F23_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261031_F23_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261031_F23_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261031_F23_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261031_F23_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261031_F23_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261031_F23_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20261031_F23_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20261031_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261031_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_OOF_WELL_COUNTS",
+      "passed": true
+    },
+    {
+      "check": "20261219_B0_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261219_B0_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261219_B0_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261219_B0_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261219_B0_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261219_B0_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261219_B0_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261219_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_C1_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261219_C1_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261219_C1_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261219_C1_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261219_C1_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261219_C1_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261219_C1_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261219_C1_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20261219_C1_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20261219_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_C2_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261219_C2_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261219_C2_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261219_C2_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261219_C2_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261219_C2_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261219_C2_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261219_C2_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20261219_C2_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20261219_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_C3_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261219_C3_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261219_C3_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261219_C3_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261219_C3_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261219_C3_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261219_C3_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261219_C3_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20261219_C3_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20261219_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_F12_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261219_F12_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261219_F12_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261219_F12_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261219_F12_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261219_F12_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261219_F12_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261219_F12_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20261219_F12_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20261219_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_F13_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261219_F13_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261219_F13_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261219_F13_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261219_F13_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261219_F13_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261219_F13_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261219_F13_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20261219_F13_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20261219_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_F23_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20261219_F23_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20261219_F23_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20261219_F23_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20261219_F23_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20261219_F23_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20261219_F23_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20261219_F23_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20261219_F23_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20261219_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20261219_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_OOF_WELL_COUNTS",
+      "passed": true
+    },
+    {
+      "check": "20270107_B0_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270107_B0_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270107_B0_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270107_B0_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270107_B0_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270107_B0_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270107_B0_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270107_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_C1_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270107_C1_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270107_C1_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270107_C1_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270107_C1_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270107_C1_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270107_C1_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270107_C1_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20270107_C1_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20270107_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_C2_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270107_C2_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270107_C2_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270107_C2_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270107_C2_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270107_C2_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270107_C2_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270107_C2_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20270107_C2_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20270107_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_C3_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270107_C3_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270107_C3_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270107_C3_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270107_C3_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270107_C3_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270107_C3_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270107_C3_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20270107_C3_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20270107_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_F12_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270107_F12_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270107_F12_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270107_F12_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270107_F12_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270107_F12_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270107_F12_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270107_F12_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20270107_F12_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20270107_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_F13_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270107_F13_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270107_F13_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270107_F13_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270107_F13_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270107_F13_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270107_F13_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270107_F13_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20270107_F13_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20270107_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_F23_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270107_F23_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270107_F23_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270107_F23_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270107_F23_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270107_F23_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270107_F23_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270107_F23_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20270107_F23_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20270107_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270107_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_OOF_WELL_COUNTS",
+      "passed": true
+    },
+    {
+      "check": "20270303_B0_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270303_B0_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270303_B0_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270303_B0_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270303_B0_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270303_B0_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270303_B0_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270303_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_B0_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_C1_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270303_C1_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270303_C1_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270303_C1_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270303_C1_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270303_C1_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270303_C1_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270303_C1_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20270303_C1_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20270303_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_C1_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_C2_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270303_C2_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270303_C2_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270303_C2_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270303_C2_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270303_C2_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270303_C2_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270303_C2_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20270303_C2_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20270303_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_C2_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_C3_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270303_C3_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270303_C3_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270303_C3_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270303_C3_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270303_C3_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270303_C3_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270303_C3_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20270303_C3_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20270303_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_C3_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_F12_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270303_F12_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270303_F12_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270303_F12_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270303_F12_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270303_F12_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270303_F12_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270303_F12_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20270303_F12_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20270303_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_F12_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_F13_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270303_F13_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270303_F13_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270303_F13_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270303_F13_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270303_F13_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270303_F13_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270303_F13_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20270303_F13_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20270303_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_F13_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_F23_SCORE_FROM_MONTHLY_LOSS",
+      "passed": true
+    },
+    {
+      "check": "20270303_F23_UNNORMALIZED_MONTH_WEIGHTS",
+      "passed": true
+    },
+    {
+      "check": "20270303_F23_PREFIX_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "20270303_F23_OOF_WELL_WEIGHTED_FOLD_SCORE",
+      "passed": true
+    },
+    {
+      "check": "20270303_F23_FOLD_STATISTICS",
+      "passed": true
+    },
+    {
+      "check": "20270303_F23_PAIRED_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "20270303_F23_PAIRED_FOLD_DELTAS",
+      "passed": true
+    },
+    {
+      "check": "20270303_F23_LATE_MONTH_LOSSES_IDENTICAL",
+      "passed": true
+    },
+    {
+      "check": "20270303_F23_LATE_NET_CHANGE_ZERO",
+      "passed": true
+    },
+    {
+      "check": "20270303_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "20270303_F23_STATE_PRIVACY",
+      "passed": true
+    },
+    {
+      "check": "C1_REPEAT_GATE_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "C1_PREREGISTERED_GATE_DECISION",
+      "passed": true
+    },
+    {
+      "check": "C2_REPEAT_GATE_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "C2_PREREGISTERED_GATE_DECISION",
+      "passed": true
+    },
+    {
+      "check": "C3_REPEAT_GATE_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "C3_PREREGISTERED_GATE_DECISION",
+      "passed": true
+    },
+    {
+      "check": "F12_REPEAT_GATE_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "F12_FIXED_REFERENCE_AND_EXTRA_GAIN",
+      "passed": true
+    },
+    {
+      "check": "F12_PREREGISTERED_GATE_DECISION",
+      "passed": true
+    },
+    {
+      "check": "F13_REPEAT_GATE_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "F13_FIXED_REFERENCE_AND_EXTRA_GAIN",
+      "passed": true
+    },
+    {
+      "check": "F13_PREREGISTERED_GATE_DECISION",
+      "passed": true
+    },
+    {
+      "check": "F23_REPEAT_GATE_ARITHMETIC",
+      "passed": true
+    },
+    {
+      "check": "F23_FIXED_REFERENCE_AND_EXTRA_GAIN",
+      "passed": true
+    },
+    {
+      "check": "F23_PREREGISTERED_GATE_DECISION",
+      "passed": true
+    },
+    {
+      "check": "STOP_WITHOUT_CONFIRMATION_OR_MODELS",
+      "passed": true
+    },
+    {
+      "check": "INTEGRITY_FINAL_GATES",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "count": 525,
+  "timing": {
+    "total_elapsed_seconds": 112.932765,
+    "six_family_seconds": [
+      12.604248000017833,
+      12.808957200031728,
+      12.890267699956894,
+      12.815424799977336,
+      13.007469700009096,
+      12.971943100041244
+    ],
+    "active_model_fits": 1,
+    "ExtraTrees_n_jobs": -1,
+    "BLAS_OpenMP_threads": 1,
+    "fold_parallelism": false,
+    "speedup_vs_old_machine": "NOT_MEASURED"
+  }
+}

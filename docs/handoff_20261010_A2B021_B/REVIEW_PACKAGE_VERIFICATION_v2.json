@@ -1,0 +1,16 @@
+{
+  "package": "D:\\codex\\A2B021_20261009_v1\\delivery\\A2B021_READONLY_REVIEW_BUNDLE_v2.zip",
+  "sha256": "94ce5a9c3f3fc0e18b0fec7fcdf8c21dc094cad967cf59b480ba842abffcb7ef",
+  "bytes": 456533,
+  "manifest_files": 352,
+  "private_token_hits": 0,
+  "exact_byte_checks_passed": true,
+  "post_run_arithmetic_checks": 525,
+  "packaged_synthetic_tests": 30,
+  "upstream_runtime_py_files": 26,
+  "real_fits_added": 0,
+  "account_A_independent_review": "PENDING",
+  "pretrain_source_inputs_unchanged": true,
+  "old_T1_136_files_unchanged": true,
+  "excludes_raw_data_private_config_OOF_labels_and_weights": true
+}

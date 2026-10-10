@@ -1,0 +1,14 @@
+{
+  "old_T1": {
+    "manifest_sha256": "0dd298a0811128a83fca04cd9c3dba5a098e7a8e4606bb9645f49e8b9bbf78e4",
+    "files_checked": 136,
+    "all_match": true
+  },
+  "original_inputs_unchanged": true,
+  "environment_unchanged": true,
+  "raw_data": {
+    "archive_and_manifest_unchanged": true,
+    "files": 100
+  },
+  "pretrain_lock_sha256": "22b341e198b75937d079eb3343f02f6107dafe9fdc59a0b003f39f21e68099d1"
+}

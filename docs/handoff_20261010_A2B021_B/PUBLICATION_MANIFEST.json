@@ -1,0 +1,76 @@
+{
+  "executor": "ACCOUNT_B",
+  "A_review": "PENDING",
+  "repository": "https://github.com/ylrq8475-ui/Shiyou",
+  "planned_branch": "codex/a2b021-handoff-20261010",
+  "planned_directory": "docs/handoff_20261010_A2B021_B",
+  "source_bundle_sha256": "94ce5a9c3f3fc0e18b0fec7fcdf8c21dc094cad967cf59b480ba842abffcb7ef",
+  "files": {
+    "A2B021_READONLY_REVIEW_BUNDLE_v2.zip": {
+      "bytes": 456533,
+      "sha256": "94ce5a9c3f3fc0e18b0fec7fcdf8c21dc094cad967cf59b480ba842abffcb7ef"
+    },
+    "A2B021_READONLY_REVIEW_BUNDLE_v2.zip.sha256": {
+      "bytes": 104,
+      "sha256": "99bce1b23507aab75f751a1c0acbcfe677af0f5eb1f35a96db1c3e4ab4797272"
+    },
+    "ANONYMOUS_DIAGNOSTIC_PROFILE.json": {
+      "bytes": 8359,
+      "sha256": "c5d4136bd43f6cf9aa9c77b01f81896201f77bcfe5cae4e129b51c1ec1c8579f"
+    },
+    "B2A_021_REVIEW_REQUEST.md": {
+      "bytes": 1754,
+      "sha256": "f58990ffdbb3849e62e28c2ad2e0c1b5df4b67a0b0296dc07eea4465858c6c63"
+    },
+    "DIAGNOSTIC_INTERPRETATION.md": {
+      "bytes": 1478,
+      "sha256": "41aef21c29ae8e1de17335b26a9a4e566326d1cabfede051b91a96bb888c7957"
+    },
+    "FIT_ACCOUNTING.json": {
+      "bytes": 454,
+      "sha256": "90599ddae7c527fa7dfe3c2e566e8070641ebff522654edf021b4fa7ed026a1b"
+    },
+    "INTEGRITY_AFTER.json": {
+      "bytes": 419,
+      "sha256": "178f39d7a63d1aabde206d1b11d70cee1a803ef942a174fb975e5154bb10b503"
+    },
+    "MECHANISM_LEDGER.md": {
+      "bytes": 2510,
+      "sha256": "d7e7bd15eeba9deab78e5979cebc7131fd6d5ff58f61c9a04665fe46ece05dd8"
+    },
+    "MODEL_COMPARISON.json": {
+      "bytes": 14416,
+      "sha256": "51001b89597879181dc15b4448118fd2fab1b85686d378fcc72c1f920874ad7d"
+    },
+    "MODEL_REGISTRY.json": {
+      "bytes": 1661,
+      "sha256": "bd70f52ef26256905a0468f18d494422cee8ebdf006b48c1a55115376e4565dd"
+    },
+    "PACKAGED_SYNTHETIC_RETEST.json": {
+      "bytes": 4849,
+      "sha256": "4bdbf7e662101bac83dec4bb905597286987012f7aa9d65953c13eef49294bae"
+    },
+    "POST_RUN_ARITHMETIC_CHECKS.json": {
+      "bytes": 46673,
+      "sha256": "7fac69bd253d7895d33d403658c18240543869876f4d7e17be3bafafde9d99fb"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 410,
+      "sha256": "78070463c94e09b139ae85478ad8e75f598cf77ff1e600381d0c4e84566a4f0e"
+    },
+    "README.md": {
+      "bytes": 2761,
+      "sha256": "6837d286f7a0414c6c87ea5103a989f44bfa8832e95be8b983f84c5932c16c72"
+    },
+    "REPORT_B.md": {
+      "bytes": 2808,
+      "sha256": "4c25fa3ccd1141b5df9c67f7fcc6493ee41343be2612d3bf510da9e4ec489b83"
+    },
+    "REVIEW_PACKAGE_VERIFICATION_v2.json": {
+      "bytes": 622,
+      "sha256": "558803bb0efbbe8d5b6b96ae0242dade255b3de75b1c29055d3644294cedddae"
+    }
+  },
+  "manifest_excludes_itself": true,
+  "source_original_bytes_preserved": true
+}

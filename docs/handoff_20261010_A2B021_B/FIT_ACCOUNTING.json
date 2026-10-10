@@ -1,0 +1,18 @@
+{
+  "budget": {
+    "pipeline_attempts": 120,
+    "preprocess_entered": 120,
+    "preprocess_completed": 120,
+    "model_entered": 120,
+    "model_completed": 120,
+    "retries_used": 0
+  },
+  "successful_model_fits_by_stage": {
+    "research": 120
+  },
+  "failed_entries": [],
+  "runtime_retries": [],
+  "no_real_fits_in_synthetic_checks": true,
+  "no_OOF_or_well_mapping_persisted": true,
+  "no_model_weights_in_review_package": true
+}
