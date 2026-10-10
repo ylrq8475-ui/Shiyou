@@ -1,0 +1,82 @@
+{
+  "manifest_resources": 352,
+  "prefit_bindings_available": 44,
+  "prefit_private_or_historical_files_not_in_package": 75,
+  "B_event_counts": {
+    "model_fit_entered": 120,
+    "fit_completed": 120,
+    "fold_completed": 30
+  },
+  "B_successful_model_fits": 120,
+  "B_preprocess_fits": 120,
+  "B_confirmation_or_full_fit": 0,
+  "aggregate_checks": 4141,
+  "all_aggregate_checks_pass": true,
+  "candidate_table": [
+    {
+      "arm": "C1",
+      "fixed_score": 72.9501609147363,
+      "repeat_mean_delta": -0.030325361249677486,
+      "positive_repeats": 3,
+      "worst_repeat_delta": -0.884974228672192,
+      "qualified": false
+    },
+    {
+      "arm": "C2",
+      "fixed_score": 70.40408294604536,
+      "repeat_mean_delta": -2.0774005515834517,
+      "positive_repeats": 0,
+      "worst_repeat_delta": -3.3434489412014443,
+      "qualified": false
+    },
+    {
+      "arm": "C3",
+      "fixed_score": 72.1022187191343,
+      "repeat_mean_delta": -1.6582107607302106,
+      "positive_repeats": 0,
+      "worst_repeat_delta": -1.9994011555124445,
+      "qualified": false
+    },
+    {
+      "arm": "F12",
+      "fixed_score": 72.39018610152816,
+      "repeat_mean_delta": -0.43332514619000617,
+      "positive_repeats": 2,
+      "worst_repeat_delta": -1.2693625481853985,
+      "qualified": false
+    },
+    {
+      "arm": "F13",
+      "fixed_score": 73.10513669454322,
+      "repeat_mean_delta": -0.32763047844136395,
+      "positive_repeats": 1,
+      "worst_repeat_delta": -0.9108229051049364,
+      "qualified": false
+    },
+    {
+      "arm": "F23",
+      "fixed_score": 71.7376059584532,
+      "repeat_mean_delta": -1.5349525487431748,
+      "positive_repeats": 0,
+      "worst_repeat_delta": -2.267158406561819,
+      "qualified": false
+    }
+  ],
+  "scope": "independent aggregate arithmetic and source review; B real-fit events are not an A real reproduction",
+  "historical_dtype": "UNKNOWN",
+  "event_semantics_and_forecast_time_P0": "OPEN",
+  "synthetic": {
+    "test_cases": 40,
+    "B_packaged_synthetic_cases": 30,
+    "A_independent_oracle_cases": 10,
+    "failures": 0,
+    "errors": 0,
+    "passed": true,
+    "blocked_real_fit_attempts": 0,
+    "blocked_completed_execution_entries": 0,
+    "real_fits": 0
+  },
+  "B_evidence_files_unchanged": 353,
+  "A_real_fit_count": 0,
+  "A_training_or_deployment_authorization": false
+}

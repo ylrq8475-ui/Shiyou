@@ -1,0 +1,45 @@
+test_budget_144_successes_and_bounded_preprocess (test_contracts.SyntheticContracts.test_budget_144_successes_and_bounded_preprocess) ... ok
+test_components_are_shared_and_nonqualified_can_be_needed (test_contracts.SyntheticContracts.test_components_are_shared_and_nonqualified_can_be_needed) ... ok
+test_confirm_strict_baseline_and_nonstrict_reference (test_contracts.SyntheticContracts.test_confirm_strict_baseline_and_nonstrict_reference) ... ok
+test_direction_state_suppression_and_late_zero_loss_change (test_contracts.SyntheticContracts.test_direction_state_suppression_and_late_zero_loss_change) ... ok
+test_early_stitch_and_fixed_original_unit_fusion (test_contracts.SyntheticContracts.test_early_stitch_and_fixed_original_unit_fusion) ... ok
+test_fusion_constant_residual_is_undefined_not_evidence (test_contracts.SyntheticContracts.test_fusion_constant_residual_is_undefined_not_evidence) ... ok
+test_fusion_reference_ties_locked_by_component_order (test_contracts.SyntheticContracts.test_fusion_reference_ties_locked_by_component_order) ... ok
+test_fusion_requires_extra_gain (test_contracts.SyntheticContracts.test_fusion_requires_extra_gain) ... ok
+test_late_drift_and_nonfinite_component_block (test_contracts.SyntheticContracts.test_late_drift_and_nonfinite_component_block) ... ok
+test_leaf_support_counts_wells_not_repeated_rows (test_contracts.SyntheticContracts.test_leaf_support_counts_wells_not_repeated_rows) ... ok
+test_linear_independent_well_quantile_and_equal_threshold (test_contracts.SyntheticContracts.test_linear_independent_well_quantile_and_equal_threshold) ... ok
+test_model_before_preprocess_is_blocked (test_contracts.SyntheticContracts.test_model_before_preprocess_is_blocked) ... ok
+test_no_positive_quantile_blocks (test_contracts.SyntheticContracts.test_no_positive_quantile_blocks) ... ok
+test_official_unnormalized_epsilon_months (test_contracts.SyntheticContracts.test_official_unnormalized_epsilon_months) ... ok
+test_privacy_requires_group_and_complement_five (test_contracts.SyntheticContracts.test_privacy_requires_group_and_complement_five) ... ok
+test_raw_one_is_not_fallback (test_contracts.SyntheticContracts.test_raw_one_is_not_fallback) ... ok
+test_research_not_fixed_fold_early_elimination (test_contracts.SyntheticContracts.test_research_not_fixed_fold_early_elimination) ... ok
+test_two_clear_retries_but_not_successful_fit_or_policy_fault (test_contracts.SyntheticContracts.test_two_clear_retries_but_not_successful_fit_or_policy_fault) ... ok
+test_well_order_permutation_and_duplicate_horizon (test_contracts.SyntheticContracts.test_well_order_permutation_and_duplicate_horizon) ... ok
+test_B0_all_twelve_and_independent_well_leaf_support (test_harness.HarnessContracts.test_B0_all_twelve_and_independent_well_leaf_support) ... ok
+test_clear_failed_model_retries_once_and_counts (test_harness.HarnessContracts.test_clear_failed_model_retries_once_and_counts) ... ok
+test_early_scopes_and_wrappers_removed (test_harness.HarnessContracts.test_early_scopes_and_wrappers_removed) ... ok
+test_failed_preprocess_retry_is_bounded_and_recorded (test_harness.HarnessContracts.test_failed_preprocess_retry_is_bounded_and_recorded) ... ok
+test_identity_change_after_fit_blocks_prediction (test_harness.HarnessContracts.test_identity_change_after_fit_blocks_prediction) ... ok
+test_policy_failure_is_not_retried (test_harness.HarnessContracts.test_policy_failure_is_not_retried) ... ok
+test_state_threshold_uses_independent_training_wells (test_harness.HarnessContracts.test_state_threshold_uses_independent_training_wells) ... ok
+test_successful_model_prediction_failure_never_refits (test_harness.HarnessContracts.test_successful_model_prediction_failure_never_refits) ... ok
+test_validation_preprocess_scope_blocks_before_entry (test_harness.HarnessContracts.test_validation_preprocess_scope_blocks_before_entry) ... ok
+test_validation_well_overlap_blocks_before_fit (test_harness.HarnessContracts.test_validation_well_overlap_blocks_before_fit) ... ok
+test_wrong_transformed_target_blocks (test_harness.HarnessContracts.test_wrong_transformed_target_blocks) ... ok
+test_all_zero_is_100 (__main__.IndependentOracleTests.test_all_zero_is_100) ... ok
+test_epsilon_at_small_scale (__main__.IndependentOracleTests.test_epsilon_at_small_scale) ... ok
+test_first_four_weights_are_not_normalized (__main__.IndependentOracleTests.test_first_four_weights_are_not_normalized) ... ok
+test_incomplete_and_duplicate_block (__main__.IndependentOracleTests.test_incomplete_and_duplicate_block) ... ok
+test_independent_exact_zero_prediction (__main__.IndependentOracleTests.test_independent_exact_zero_prediction) ... ok
+test_invalid_predictions_block (__main__.IndependentOracleTests.test_invalid_predictions_block) ... ok
+test_late_prediction_drift_blocks (__main__.IndependentOracleTests.test_late_prediction_drift_blocks) ... ok
+test_official_B_against_independent_oracle (__main__.IndependentOracleTests.test_official_B_against_independent_oracle) ... ok
+test_per_well_equal_weight (__main__.IndependentOracleTests.test_per_well_equal_weight) ... ok
+test_permutation_is_not_month_reversal (__main__.IndependentOracleTests.test_permutation_is_not_month_reversal) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.191s
+
+OK

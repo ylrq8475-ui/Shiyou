@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "B_commit": "f3764bcc58337f9a4d86def44d5d6da9fc87ab95",
+  "public_files": 17,
+  "archive_files": 353,
+  "archive_sha256": "94ce5a9c3f3fc0e18b0fec7fcdf8c21dc094cad967cf59b480ba842abffcb7ef",
+  "private_markers_checked": 100,
+  "privacy_hits": 0,
+  "fits": 0,
+  "original_data_copied": false,
+  "Git_blob_and_publication_hashes_match": true
+}

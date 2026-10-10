@@ -1,0 +1,14 @@
+{
+  "account": "A independent audit and delivery",
+  "date": "2026-10-10",
+  "source_text_files_checked": 16,
+  "private_markers_checked": 100,
+  "private_marker_hits": 0,
+  "credential_pattern_hits": 0,
+  "raw_data_copied": false,
+  "raw_tables_private_config_per_well_labels_predictions_OOF_weights_included": false,
+  "real_fits_for_review_or_publication": 0,
+  "public_file_allowlist_enforced": true,
+  "scope": "known local private markers plus common credential patterns; not proof against every unknown sensitive value",
+  "passed": true
+}

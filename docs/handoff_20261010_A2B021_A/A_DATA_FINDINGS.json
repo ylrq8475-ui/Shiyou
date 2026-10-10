@@ -1,0 +1,68 @@
+{
+  "scope": "independent post-score arithmetic; no causal identification or training",
+  "first2_actual_weighted_loss_share": 0.7551482914359101,
+  "first2_mean_unweighted_relative_error": 0.27617973982878763,
+  "month3_4_mean_unweighted_relative_error": 0.26798804648944724,
+  "prediction_known_state_groups": {
+    "raw_scale_fallback": {
+      "status": "RELEASED",
+      "group_well_count_range": [
+        14,
+        14
+      ],
+      "repeat_mean_group_weighted_loss": 0.3199507840753978,
+      "repeat_mean_global_loss_contribution": 0.055300135519204555,
+      "share_of_repeat_mean_total_loss": 0.2023122869403971,
+      "definition": "fallback and training-fold q25; mutually exclusive groups, not label routing"
+    },
+    "positive_scale_training_q25_low": {
+      "status": "RELEASED",
+      "group_well_count_range": [
+        16,
+        19
+      ],
+      "repeat_mean_group_weighted_loss": 0.24857860175402752,
+      "repeat_mean_global_loss_contribution": 0.0520086947598269,
+      "share_of_repeat_mean_total_loss": 0.19027074488798607,
+      "definition": "fallback and training-fold q25; mutually exclusive groups, not label routing"
+    },
+    "other_positive_scale": {
+      "status": "RELEASED",
+      "group_well_count_range": [
+        48,
+        51
+      ],
+      "repeat_mean_group_weighted_loss": 0.2690350194769318,
+      "repeat_mean_global_loss_contribution": 0.16603163932623988,
+      "share_of_repeat_mean_total_loss": 0.6074169681716167,
+      "definition": "fallback and training-fold q25; mutually exclusive groups, not label routing"
+    }
+  },
+  "first2_directional_global_loss": {
+    "over": 0.10856514656641696,
+    "under": 0.09784744203629302
+  },
+  "leaf_support_all_six_families": {
+    "B0": {
+      "mean_independent_training_well_support": 1.8458770576131687,
+      "fraction_support_below_5": 0.9759850823045267
+    },
+    "C1": {
+      "mean_independent_training_well_support": 3.9386805555555555,
+      "fraction_support_below_5": 0.7236574074074074
+    }
+  },
+  "C3_minus_C2_repeat_mean": 0.4191897908532411,
+  "C3_minus_C2_positive_repeats": 4,
+  "B0_top10percent_repeat_mean_loss_share": 0.2820163180945748,
+  "largest_repairable_causal_mechanism": "NOT_IDENTIFIED",
+  "label_based_routing": false,
+  "no_additional_training_authorized": true,
+  "input_files_sha256": {
+    "REPEAT_20260917.json": "8b5ee7a3edabe39e76ce5b2f7eb722ffe6dd29a56fb0cc2284075d84544f0b0f",
+    "REPEAT_20261031.json": "ed99eb655606a81dc75a209572364b879b7f474c8edd3886cca5644670d190f2",
+    "REPEAT_20261219.json": "9b64d2d3e540eb2dbbe8c5fcebc900b949abf124c07a01c5f8e843ac6c8b3dbc",
+    "REPEAT_20270107.json": "54d76bfdb905833d1d8f877b58c2e31f788d9d0d6de2d487b8de0212da12bda1",
+    "REPEAT_20270303.json": "20be0bca54cf440fdd9c2b79d702212cdb1f6e6251afeda403fde7d0b53402e9"
+  }
+}
