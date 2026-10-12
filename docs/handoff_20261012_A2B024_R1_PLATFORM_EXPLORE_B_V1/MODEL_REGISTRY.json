@@ -1,0 +1,13 @@
+{
+  "system": "R1",
+  "status": "LOCAL_DEPLOYMENT_ACCEPTANCE_PASSED_PLATFORM_EXPLORATION",
+  "model_sha256": "b92c199bd873f742437398f5154dea4d8dff029829b0edc9036c4e691d3ce045",
+  "user_selected_exploration_exception": true,
+  "original_A24_retention_condition_passed": false,
+  "new_model_fits": 2,
+  "new_preprocessor_fits": 2,
+  "existing_model_replaced": false,
+  "A_review_required": false,
+  "A_deployment_review_performed": false,
+  "platform_uploaded": false
+}

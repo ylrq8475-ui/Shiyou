@@ -1,0 +1,11 @@
+{
+  "system": "R1",
+  "full_fit_and_save": true,
+  "accept_original_confirmation_failed_for_platform_exploration": true,
+  "basis": "User explicitly replied R1探索 after the retention exception was explained",
+  "A_review_required": false,
+  "CV_reruns": 0,
+  "new_candidates": 0,
+  "existing_model_upgrade": false,
+  "platform_upload": false
+}

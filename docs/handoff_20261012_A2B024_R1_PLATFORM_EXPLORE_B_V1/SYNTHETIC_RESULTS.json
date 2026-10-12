@@ -1,0 +1,22 @@
+{
+  "tests": 31,
+  "root_exit_code": 0,
+  "extracted_formal_code_exit_code": 0,
+  "command": "python -E -B -m unittest test_deployment test_platform_contract",
+  "real_fits": 0,
+  "coverage": [
+    "fixed positive/fallback routing",
+    "positive one",
+    "inverse nonfinite guards",
+    "complete-well keys",
+    "ZIP date and precision contract",
+    "duplicate/missing keys",
+    "input directory root variants",
+    "original ZIP wrapper",
+    "training CSV not read",
+    "changed input hashes",
+    "path escape",
+    "no-fit guards"
+  ],
+  "pre_final_synthetic_issue": "Integer fabricated predictions were rejected by float precision check; changed synthetic fixture to floats, production prediction unchanged"
+}

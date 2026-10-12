@@ -1,0 +1,15 @@
+{
+  "initial_failure": "SAVE_RELOAD_PREDICTION_DRIFT",
+  "model_fits_already_completed": 2,
+  "preprocessor_fits_already_completed": 2,
+  "training_retry_or_repeat": 0,
+  "parallel_repeat_max_abs_difference": 8.881784197001252e-15,
+  "parallel_vs_sequential_max_abs_difference": 8.881784197001252e-15,
+  "parallel_repeats_equal_at_six_decimals": true,
+  "sequential_repeat_exact": true,
+  "each_arm_sequential_repeat_exact": {
+    "B0": true,
+    "C1": true
+  },
+  "repair": "Use sequential prediction backend without changing fitted parameters or retraining; keep original attempt evidence"
+}

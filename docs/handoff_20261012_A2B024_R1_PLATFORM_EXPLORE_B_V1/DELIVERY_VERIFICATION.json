@@ -1,0 +1,17 @@
+{
+  "account": "账户B执行与交付",
+  "local_acceptance_passed": true,
+  "anonymous_bundle_sha256": "c7415aece02ea6cc360121f7498dd728d077bf71433aaee50937bbe89a499e4d",
+  "anonymous_bundle_bytes": 54885,
+  "anonymous_bundle_members": 37,
+  "privacy": {
+    "files_checked": 37,
+    "private_token_hits": 0,
+    "credential_hits": 0,
+    "passed": true
+  },
+  "formal_packages_excluded": true,
+  "A_review_required": false,
+  "platform_uploaded": false,
+  "remote_original_bytes_verification": "Required after actual publication; see B final commit receipt"
+}

@@ -1,0 +1,24 @@
+{
+  "basis": "User-supplied current rules; two original images downloaded and inspected",
+  "images": {
+    "rule_1.png": "383779451069842d77ee5cdca50edd0dc50e78910fab6313ad176780eab6276e",
+    "rule_2.png": "b2e1d9fc8138b67682531ea023d479ffe763df8cbc68854d5c113ffe44b13163"
+  },
+  "signed_URLs_not_published": true,
+  "output_columns": [
+    "WELL_ID",
+    "NY",
+    "RCYL"
+  ],
+  "root_flat_per_well_csv": true,
+  "NY": "YYYY/MM/DD",
+  "RCYL": "finite nonnegative, six decimals",
+  "code_root": [
+    "README.md",
+    "predict.py",
+    "requirements.txt"
+  ],
+  "code_contains_complete_trained_system": true,
+  "runtime_command_two_inputs_only": true,
+  "formal_package_local_only": true
+}
