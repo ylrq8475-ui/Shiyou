@@ -1,0 +1,35 @@
+{
+  "signature": "账户A（替代接手）独立审核与交付",
+  "suites": [
+    {
+      "suite": "A_authored",
+      "tests": 14,
+      "passed": true,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "B_contract_rerun",
+      "tests": 26,
+      "passed": true,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "B_route_rerun",
+      "tests": 19,
+      "passed": true,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "python": "3.13.7",
+  "numpy": "2.4.3",
+  "pandas": "2.3.3",
+  "bundle_bytes_unchanged": true,
+  "training_modules_imported": [],
+  "real_model_fits": 0,
+  "real_preprocessor_fits": 0,
+  "private_data_read": false,
+  "B_18_entry_tests": "NOT_EXECUTED; B original D:/codex dependency chain absent from portable suite"
+}

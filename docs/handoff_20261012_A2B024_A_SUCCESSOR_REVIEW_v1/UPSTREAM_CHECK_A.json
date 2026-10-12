@@ -1,0 +1,213 @@
+{
+  "source_commit": "4ea326798ca1da0736cde4bc41f33b7ff8b58cf9",
+  "archive_path": "docs/handoff_20261010_A2B023_B/A2B023_READONLY_REVIEW_BUNDLE_v1.zip",
+  "archive_sha256": "12fd0dd5caea33e71412356a1525c64b2b7375d89d95f8ab56b27481e81e0d04",
+  "archive_manifest_entries": 243,
+  "imported_source_matches": [
+    {
+      "path": "runtime/a2b023_core.py",
+      "sha256": "93798a808be59dd5b597c0e6acbc4fc975017218ccb0c3f8750fd10d01bd5223",
+      "bytes": 4500
+    },
+    {
+      "path": "runtime/bridge.py",
+      "sha256": "84c7a6931e62060ac0aa8fde802f727aaf769a44ba9d8f7bf50088372244bdd9",
+      "bytes": 5237
+    },
+    {
+      "path": "runtime/create_runtime.py",
+      "sha256": "a35724b9bcbff0c53919ad98f634ec137ee6f8bca937cad9f42414593d3b5439",
+      "bytes": 10539
+    },
+    {
+      "path": "runtime/prepare_history.py",
+      "sha256": "61815dd35566b0f35f0ce4372c0b0974600981e3eb87cd4d5db443b1a9fc6349",
+      "bytes": 8560
+    },
+    {
+      "path": "runtime/run_experiment.py",
+      "sha256": "a2ba0bcf99a6ec42cf4a140ac43dc09d2ef7b4a55585379b7bfe1292b4a720aa",
+      "bytes": 16892
+    },
+    {
+      "path": "runtime/seal_pretrain.py",
+      "sha256": "84dbfe6760787a9294a57199113d06c8b40185a497e1ff035bc5f9946361e8a9",
+      "bytes": 1318
+    },
+    {
+      "path": "runtime/test_contracts.py",
+      "sha256": "00ba7fafa1b1703afcf5d94a02e86f039197166b38a63d79f7973318b9be0cfc",
+      "bytes": 6259
+    },
+    {
+      "path": "upstream/a2b021/diagnostics.py",
+      "sha256": "41519672177a31d73c2817e15b8b9174288b8a6fc4be9d1555c9cf12357b8a03",
+      "bytes": 7169
+    },
+    {
+      "path": "upstream/a2b021/experiment_core.py",
+      "sha256": "9856e3bad69d5d8d7209e2774c80fa369103342d3b64467a5b068da1edc6904e",
+      "bytes": 11165
+    },
+    {
+      "path": "upstream/a2b021/run_research.py",
+      "sha256": "e2c5b6baf79260fdb2d59704e6110991718bdacaed3d6639f0d754d00e27b572",
+      "bytes": 25576
+    },
+    {
+      "path": "upstream/accepted/boundary_audit.py",
+      "sha256": "753762da9a7e0a7c7f734587a458b961dbdd00d9eb4e4f489d1cbb0a659ddf67",
+      "bytes": 16134
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/__init__.py",
+      "sha256": "b14e51df20e0d8c8e2abc3646d6cac8e26e015a797f3fa5138fb1f2c20bde30c",
+      "bytes": 82
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/a2b006_training.py",
+      "sha256": "ee7c8514be47030e31ff730073a360ebda14b350122efaf42e5ab1caa35f7d0f",
+      "bytes": 5893
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/a2b009_training.py",
+      "sha256": "2f4931a926e2d78ac42ab21eb7f42d5851e7a3c54398f12c19ecb0bf5153df40",
+      "bytes": 6511
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/a2b011_training.py",
+      "sha256": "df813be652828a3d569ab68a45543b284ae3d58d561726d263512800b7b20a3d",
+      "bytes": 11620
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/a2b013_safe.py",
+      "sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+      "bytes": 24524
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/a2b014_diagnostics.py",
+      "sha256": "3eef39f435b5e2b27df28c3b1efd397cdfd9f38b868291607b3a3bcc9ac5bff2",
+      "bytes": 29078
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/a2b015_training.py",
+      "sha256": "afdef765214b8b6e9e5d0fa9b1c2071bff8a2d90de4a0f2aaa5462bbc0ef089f",
+      "bytes": 19795
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/a2b016_gate.py",
+      "sha256": "77a7383338064e372a9cd6c758311ea57ba064e8db2767118cb9bf9900887cd5",
+      "bytes": 33274
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/a2b017_core.py",
+      "sha256": "5af0b83d74d5e438508ae028ec1bc3e85cd0269d0ac8f8bfc900e28a338a4331",
+      "bytes": 17341
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/a2b017_gate.py",
+      "sha256": "25c3483cdf7dd66c89efdfa261481cee264085df1140e3f904b55aad8a9f83aa",
+      "bytes": 11999
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/audit.py",
+      "sha256": "ae53436673a16231dd369efcffa64a8e3c4174fe30561605629915c6796a186e",
+      "bytes": 2832
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/cli.py",
+      "sha256": "ddd0adbbbc7f3aa6ede42b0905d0095c834fbd0b44987bfae2a02b53e414a586",
+      "bytes": 4106
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/config.py",
+      "sha256": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68",
+      "bytes": 2549
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/exceptions.py",
+      "sha256": "2b3aef27c352bad4558d98ca964d21f4881468e6a63c4bc3ff7bc919a7ad26c9",
+      "bytes": 548
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/features.py",
+      "sha256": "c5de3716c20bdeaace0a39fbccdc8dfbddb2c7e4d870b434646bd7cf10733a31",
+      "bytes": 2620
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/inference.py",
+      "sha256": "0e86aad755d07e7b2e5417c27a34cf06551ba57c81aaa1e445fb480089f1e550",
+      "bytes": 2986
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/io.py",
+      "sha256": "cf788f19399b7a867260a5a4f84bb630735a639410fc17092244ebcb9bcd18c3",
+      "bytes": 4910
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/labels.py",
+      "sha256": "c846986c476b5f6237fffa78887406246c88a913b97aeeb5df0db22192fd2331",
+      "bytes": 4112
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/models.py",
+      "sha256": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02",
+      "bytes": 3013
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/multistep.py",
+      "sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b",
+      "bytes": 22790
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/packaging.py",
+      "sha256": "cba1b708a8ffd5a27aadd98f8375f79996864e766af7548bca18e14088db0bab",
+      "bytes": 5386
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/schema.py",
+      "sha256": "e934320d2960c0ce583df11bc88b279250e21e4b5a94866bae0df14014bc7898",
+      "bytes": 4507
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/scoring.py",
+      "sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235",
+      "bytes": 9223
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/submission.py",
+      "sha256": "d39b25ce75b452a9bf7dcb439aa1a68bdc3bbb822b9e9a2f56cd0565f1502612",
+      "bytes": 5778
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/training.py",
+      "sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+      "bytes": 19812
+    },
+    {
+      "path": "upstream/project/src/oil_uplift/validation.py",
+      "sha256": "c4d5355962a64b169aff736ebe846c53bda80e8159c8f383c7739d62e4a49a7e",
+      "bytes": 5114
+    },
+    {
+      "path": "upstream/t1/archive_adapter.py",
+      "sha256": "7ba0012d5df27cf951da42f643b8d76086f2d1cc8a5bd3d41b93cfdac86866a5",
+      "bytes": 4716
+    },
+    {
+      "path": "upstream/t1/paired_experiment.py",
+      "sha256": "728b4e39191b8019f008df263e14083451a591f282f53850da78b54f5631dad5",
+      "bytes": 23974
+    },
+    {
+      "path": "upstream/t1/t1_core.py",
+      "sha256": "ab2a7a1c93f84cc1fcd86f001ba36ef5871dd36def95aaade071d2ec86adc161",
+      "bytes": 4399
+    }
+  ],
+  "matched_current_and_upstream_distinct_hashes": 48,
+  "A23_fixed_replay_comparisons": 64,
+  "A23_fixed_replay_max_error": 1.4210854715202004e-14,
+  "remaining_source_inputs_without_matching_public_bytes": 100,
+  "scope": "Byte identity and aggregate replay consistency; no upstream module execution or private input reading"
+}

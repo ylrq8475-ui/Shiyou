@@ -1,0 +1,408 @@
+{
+  "signature": "账户A（替代接手）独立审核与交付",
+  "total_locked_inputs": 148,
+  "matched_distinct_hashes": 48,
+  "unrecovered": [
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\analyze_a2b014_oof_errors.py",
+      "sha256": "7e5847346dc056d44c640b7fc1fbe592f36fac8ee1c310f2fc09fa95efbffa5b"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\analyze_anchor_candidates.py",
+      "sha256": "5a152542f1a37d61414f6a8464591f031071b4300e58de1971ce4d574c92aae5"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\prepare_private_runtime_config.py",
+      "sha256": "aeacf3103117d206bbd4449eb400e22b37f3511118349ab4240f998502440ef4"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\run_a2b002_experiments.py",
+      "sha256": "374be33fab1abc03010379d0f28bfbfd6580083912ccb09ed32660d636d2f15a"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\run_a2b006_controlled_experiments.py",
+      "sha256": "92abcf49af9192989605efa26f6c88422da2339280d10a4ca38d0f4847c2340e"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\run_a2b009_experiments.py",
+      "sha256": "c795a6bbc6f95cc678f50519041a7652af5aaa34f73fec77bd7e51b1056bc0f3"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\run_a2b011_b2_only11.py",
+      "sha256": "a5e0a3851147bc5f0eb18be58845efe66effe2fcaadeeb1cb00c5b61cbab55cb"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\run_a2b011_experiment.py",
+      "sha256": "dafa8ebfd37334359afaca0618b4bcc4a36cd332837e437a3962979de878954e"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\run_a2b013_safe_submission.py",
+      "sha256": "dc74d5c0ea3f23f4b3b996a01252ba86293e538b5bd8a591481c81f3083df6fe"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\run_a2b015_experiment.py",
+      "sha256": "5d3e31b814a80cddccf0d16da48833f23e54eb5d9fac12783461931029aeae14"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\run_a2b016_gate_regression.py",
+      "sha256": "deb5cbbb18f5553998fcce6fb7c3e4c47f9395802f4075ce6e23d7f5faaf4c85"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\secure_local_audit.py",
+      "sha256": "dfe7c55ea4946f1cd31b9a4c11b0494d8b3dd24a3c5c5ef4e496d79b4d55f6ff"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\simulate_submission_check.py",
+      "sha256": "173c85cffb6b3af479c47a6579836acf190a1ac2dec449b41a303772c511d32e"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\tune_private_extra_trees.py",
+      "sha256": "f1151a55b71df8d1d268d299ff1b6e2f8ad2cdf7b742a58870bc2938b59ec27f"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\scripts\\validate_private_runtime_panels.py",
+      "sha256": "5fd830ab3c5f47952887f300fdc65e2892b8e62eb40a7b4cf63606ed561c2f2b"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\tests\\test_a2b017.py",
+      "sha256": "451407ab1da2317b91e954d245c9d668e29253aebf378a7793e0678002d9cbc7"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\finalize_handoff.py",
+      "sha256": "b2c7e245fe40dbd9654246ee4062635411774e5d6ed6b0bac0fd6f4d46f2c8db"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\review_only.py",
+      "sha256": "f6ba8be75d920ff973d8f84593a05930667133b59c68475a192755c9504cc773"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\run_controlled.py",
+      "sha256": "0d867749d01b7a54010f1b8de4a8858500290afa823e703ba8ab4893065ac8ca"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\configs\\private_data_inferred_v7_safe_plus_layer.yaml",
+      "sha256": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\private_logs\\raw_manifest_20260916.json",
+      "sha256": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\private_logs\\raw_manifest_20260916.json.sha256",
+      "sha256": "52d0cb01a60b38f259013301e77e840aa84cb76709851131eaf9ee62a17b6fa8"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\shiyou-boundary-20261009\\PLAN.json",
+      "sha256": "90a5eef2948696a5645a668d3c72a5b5552594fc39eefb54145c3e0db68b2665"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\shiyou-boundary-20261009\\SOURCE_LOCK.json",
+      "sha256": "8b675400389957160be3804bf1557d0b02ef4f6aafdff0f0d20a40efcfc771cf"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\requirements-lock.txt",
+      "sha256": "9be24dde98ddc40f68e2d3a747074f7b183afdde26316ffb7fec99bb37fb9b94"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\IMPLEMENTATION_PRETRAIN_LOCK.json",
+      "sha256": "d86f49dd8bb7cd4255f94e0aa354ab17a62f9a8f4611a68658f56370dd8278af"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B019_T1_20261009_v1\\prepare_t1.py",
+      "sha256": "d4c1b40944ec9048ad8ee2031a6257c47246e6b4783f28bfade5151aafc98cc4"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B019_T1_20261009_v1\\test_feature_boundary.py",
+      "sha256": "cc12d0f16b56a4d0a21c1029a50e0178f5fc557011931b8f3918c6924a969a23"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B019_T1_20261009_v1\\test_t1_contracts.py",
+      "sha256": "807df37ed0458ddbb1166cffbdaae36a458dd8baa429fbae83c5e031eedcb027"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B019_T1_20261009_v1\\T1_SUPPLEMENT_PLAN.json",
+      "sha256": "d29fff5a0e41ab3f3c565cd4b4296bb2924a0cc63752723777ccd02f92e3675d"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B019_T1_20261009_v1\\PREPARATION_LOCK.json",
+      "sha256": "4818385af64a778b044a172ca69280333c623cdbe61df1d2031dafe70dbb6880"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B019_T1_20261009_v1\\PREPARATION_LOCK_v2.json",
+      "sha256": "b882e08dbf3cb7f1375a37f6101f6dd795178b853e2b7c714ab54c73748e5430"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\PACKAGE_MANIFEST.json",
+      "sha256": "52d0ed37dfec40f6d0e39fc50a5c9b2329ee09ff643bde464c5b4f0d3c2e0ffb"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\audit\\A2B017_LOCKED_RUNTIME_REPRODUCTION.md",
+      "sha256": "94b0aded94b41f55acc2191f4ceea765b62b8bac444fdf64924f96a465e41271"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\audit\\A2B019_FOLLOWUP_REPLY.md",
+      "sha256": "de1d059dc391bfa8178d1d43239511923ba8a7b2a5600f4cdb181426741c1bfa"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\audit\\A2B019_IDENTITY_ASSESSMENT.json",
+      "sha256": "21ec42992442c6e9f011ffec6917e0729d058bdc1dfbdc5617c3c4227be6e3cf"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\audit\\A2B019_IDENTITY_COMPARISONS.json",
+      "sha256": "4189303dcb1cf0e3314231c3306077209d729dc68beb9ec7f51f0f0dc47014cf"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\audit\\A2B019_LOCAL_REVIEW_FOLLOWUP.md",
+      "sha256": "68fbb2774d49af1f5deb05c9436f94b62d8bcf1f7fb39c94c993029dcdbdfcb2"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\audit\\A_ACCEPTANCE_STATUS_20261009.md",
+      "sha256": "213b2de11ddaf77b33ae8952f443372852e4afe32d4d357c1f9226a4e98b2d0a"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\audit\\README_TRANSFER.md",
+      "sha256": "4b54b22e7e2f3cf029f163475b78227d4c385ada48f62f67f7cd0aca6306ec63"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\pyproject.toml",
+      "sha256": "903b658a5256c59f2d61e8f920c2f8c9bb3554bab04eacfa3aaf90b5e293609f"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\requirements.txt",
+      "sha256": "35b4c08c6bc944983f9a2cfbc8e6dfecffe06580a23e131e57e9ff4ffa964b2b"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\configs\\default.yaml",
+      "sha256": "d173824f12171929348892503c5cf7dfcf2d35e17b14180463112b8add83b228"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b013\\EXPERIMENT_PLAN.yaml",
+      "sha256": "e3a7759dcb00bc5acde6ba8ef536227fc69bbc2d9dd700d13aa0823a5fd867cc"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\BASELINE_REPRODUCTION.json",
+      "sha256": "ac9f7c33485ea166e85756cd1007bf3c9c99159f353aaa9c07183cfd38433d45"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\CONFIRMATION_SELECTION.json",
+      "sha256": "8969ad84904786b4b676f6a54717e79153d826f5c1a95b6cf4a2e4dda1e0bac6"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\EXECUTION_COMPLETED.json",
+      "sha256": "f36a40b6f4e9e2c5b1a0036fe645e449d52bde79bf54471d4bfc728b46dba7c0"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\EXECUTION_STARTED.json",
+      "sha256": "606d8fee78eed7df6677bfe25bfa397d160a489dbc43f55d197c45640526e12b"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\EXPERIMENT_PLAN.yaml",
+      "sha256": "a28fc605760d091a8812873bb28542e94df7b9411d604d652eea62505824650f"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\FROZEN_BEFORE_AFTER_SHA256.json",
+      "sha256": "4b9690fac13c7422942e474385eea87b08526ecf91ce88c9863581a4d1817ce0"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\PLAN_LOCK_SHA256.txt",
+      "sha256": "7ebf5b73e5eb6e3a0e1b5c4e9d5b9a560f792ece0069650ac8fd36113e085789"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\PRETRAIN_EXECUTION_NOTE.md",
+      "sha256": "1f9c14216407004f6369f4b4265b053727d76008e1f983f710cefe9d237f9f86"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\PRE_SCORE_CLARIFICATIONS.md",
+      "sha256": "a02785088feae6e24c36f431008311a91788c2de77bfa0a63c19f50df3751ee7"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\PRIVACY_SCAN.json",
+      "sha256": "95fd71ffc971749262bbb7db0292fe23724107f0720fd77993d90a1c035a7085"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\PRIVACY_SCAN_FINAL.json",
+      "sha256": "914bef73dc2052259730337db4730aa82306570dee2ff73977dd1a183b391a97"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\RAW_INTEGRITY_AFTER.json",
+      "sha256": "d58fd700bba4cf7cba3c5361df13810c3ee8d23fab059fe46c927be0fa7a1fb7"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\READ_ONLY_HANDOFF_VERIFICATION.json",
+      "sha256": "9a52586530b9d28386009f6abcf49b5252f89af3be3fa8141a7569763957a74b"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\REGRESSION_RESULTS.json",
+      "sha256": "f7c477c5a26a29b3a2fe072454417df25d3a78949b1fe43bb721578a11cfd51d"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\S22_ADDENDUM_LOCK_SHA256.txt",
+      "sha256": "566757ea4cb78afa4dd801da0d98f7c55898349019e3cce3af888c6c6cffa12b"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\S22_PRE_SCORE_ADDENDUM.md",
+      "sha256": "ed0404707e2931747b021243da0d65fba19f39099a78b646f3ea3ef338a7d08b"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\S22_PRE_SCORE_ADDENDUM.yaml",
+      "sha256": "c24fde7916cc0ac8471fbb6f6dafb4f2f687de93c296639009ef7b304410a592"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\SHA256_MANIFEST.txt",
+      "sha256": "542199411f76d93a8f228afcf7ead25de8d377744582454e69af67e47cf6fa9c"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\SOURCE_METRICS_LOCK.json",
+      "sha256": "942e2dfdd998d1e7a02e351f550bb5f933d8df9fceee915d760c7b381bfe2715"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\SOURCE_SNAPSHOT.json",
+      "sha256": "f135cf5d6567a32f93f8bdc617b3410722c53a23c20bfd31b60cb59b021050e3"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\STRUCTURED_GATE_EVIDENCE.json",
+      "sha256": "50521ea18ec25ed3214d11613c8e20b2216ac679a62c544d45b870782c9b8031"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\SYNTHETIC_TEST_RESULTS.json",
+      "sha256": "13aebe0d3bbfda3c001b3d5e86080bbcd223be1e69cd37febcae7467fbffd51f"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\SYNTHETIC_TEST_RESULTS_v2.json",
+      "sha256": "e7425838fb0c385b22128a63630d4172e80d8a8d352054c046b0c8520971b6ae"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\Shiyou_B_private_handoff_20261009_v1\\payload\\project\\experiments\\a2b017\\SYNTHETIC_TEST_SPEC.yaml",
+      "sha256": "3d895a03e9c8ff5458234eface7bf65df9f32b21ad182706f825d3f41de5991f"
+    },
+    {
+      "locked_public_source_reference": "D:\\weichat\\xwechat_files\\wxid_0icxdm6epwnr22_a5ae\\msg\\file\\2026-10\\data (1).zip",
+      "sha256": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\shiyou-boundary-20261009\\PRE_DATA_LOCK.json",
+      "sha256": "4dac9327108078b8f65b10ae7c48947358090941bdf9c009495cd73ea56c3720"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\b-runtime-20261009-py3137\\venv\\Scripts\\python.exe",
+      "sha256": "926f48e34093c6a5c63982f26cb2bcdfb1c428aa47794b2145ee66cbb846aff1"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\b-runtime-20261009-py3137\\python\\cpython-3.13.7-windows-x86_64-none\\python.exe",
+      "sha256": "b20c54ca28d15b4254105a31a09615e3e1fc6f5f41f76553b9627b5df57b3d44"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\b-runtime-20261009-py3137\\python\\cpython-3.13.7-windows-x86_64-none\\python313.dll",
+      "sha256": "2a02a2d7f9736a57dd1b3bf33b9521dc73551b3f4d319795c7b97a2f5c1895b6"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\b-runtime-20261009-py3137\\venv\\Lib\\site-packages\\sklearn\\svm\\_libsvm.cp313-win_amd64.pyd",
+      "sha256": "c6219b62c17483d64efd01d6558a31fce0910f358ace96b8daaebd13e5ddbe9e"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B021_20261009_v1\\deliver_review.py",
+      "sha256": "d7087f95f25a92514f88e9f3f8b485afec74336b2dfbbb9792cba68f730882db"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B021_20261009_v1\\seal_preparation.py",
+      "sha256": "f06a70692136a5d679b53fd68e1aae598074571c9088a3b81c44ed6a104b31e4"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B021_20261009_v1\\test_contracts.py",
+      "sha256": "eb441d9e09bd343f49239946850005d8c5fa46aaa68a4d6fbe5143385942b29b"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B021_20261009_v1\\test_harness.py",
+      "sha256": "5a1a627f6ea2d0fe3eb40025f9e7e8ef1bbdef7c719f3215691a63bc56530825"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B021_20261009_v1\\PLAN.json",
+      "sha256": "a99eb630f56c4c0ecf82e8fcc78ea210a08a13d897b9371b9ef042f9a9f82244"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B021_20261009_v1\\USER_AUTHORIZATION_REVISED.txt",
+      "sha256": "5d56e04b5d8470b9bb9e7e479becc487348f7ca1ac198f7a04f101f84a3be3fc"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B021_20261009_v1\\NUMBERING_AND_EXECUTION_CLARIFICATION.json",
+      "sha256": "dca5ca0d7dc8afd1c22e6924c7c343abe7743ed7b5a4800b89378b60500cf007"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B021_20261009_v1\\ORIGINAL_PREPARATION_REFERENCE.json",
+      "sha256": "0c0ef8dc5e9ef0ea41c84a2f4280480cfd4bdeffb84ccd7f310f71cebd52d361"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B021_20261009_v1\\PRE_FIT_DEBUG_LOG.json",
+      "sha256": "5060c765ef8a7e3f39fb0de5da6c78a87ece636772c567abb90df7a33e3cc733"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B021_20261009_v1\\SYNTHETIC_TEST_RESULTS.json",
+      "sha256": "3842c22d5d5cff4e93304947bbc7ceeadc91583d29a24c6ba18ada7da89d42b5"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B021_20261009_v1\\EXECUTION_SUPPLEMENT.json",
+      "sha256": "5f5a60367dd8ac573a383837839b39f73885926764c0d641c8cee8c64184142f"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B019_T1_20261009_v1\\delivery_20261009_v2\\SHA256SUMS_T1_FINAL_v2.json",
+      "sha256": "0dd298a0811128a83fca04cd9c3dba5a098e7a8e4606bb9645f49e8b9bbf78e4"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B023_20261010_v1\\USER_AUTHORIZATION.md",
+      "sha256": "b87cbb981f1ab3677eaf5f6e246f4383ab30c60f37d881b411523089cfac588f"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B023_20261010_v1\\HISTORY_LOOKUP.json",
+      "sha256": "979063ea8e7c82ae8e5c619546e382cb7b78cf78505268e15e2cafbc37d3ee60"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B023_20261010_v1\\HISTORY_LOOKUP.md",
+      "sha256": "759260a86cbd6822fe29f32c76e54924a11a50c6aaba7db3a9a2cecd7f0d34f4"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B023_20261010_v1\\MECHANISM_DECISION.md",
+      "sha256": "cb3ccc452d5567c4f5ba0fe8b430c0ad39e78d9a2f25c9ecc0573697a2cb84f3"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B023_20261010_v1\\PLAN.json",
+      "sha256": "780b031596d1084338657cd2a823d986b5c030eb65ce8dea13cde1522df22c11"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B023_20261010_v1\\SYNTHETIC_TEST_RESULTS.json",
+      "sha256": "908c78fc1e71597dc2c9b4b74040a293eec200e8832e3cabf205b1d849aa2f35"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B024_20261012_v1\\EXECUTION_SUPPLEMENT.json",
+      "sha256": "8d0ccf7ef9cede38ed3d44d254d9f3eee599e2dc963b4496750e3b494c6918ef"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B024_20261012_v1\\IMPORT_CHECK.json",
+      "sha256": "a79191513ed4c9ed0f285df3d317982a08e9273d57adb2726504f02781dbb4eb"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B024_20261012_v1\\PLAN_R2.json",
+      "sha256": "f77e2dd7e66697e428806c514cabdc4a780ab3b18aac85867b66606eead00804"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B024_20261012_v1\\PREFIT_DEBUG_LOG.json",
+      "sha256": "f58bc28739803ee048d00c11e5c7880a035e40a052bce4d08c6690a7b4f1e865"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B024_20261012_v1\\PROCESS_CHECK.json",
+      "sha256": "f69f86130e9c09947a868179d78a2a56fbffdfa3e96538ca98832f5c89eefc8c"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B024_20261012_v1\\SEED_HISTORY_REVIEW.json",
+      "sha256": "e7f078dcb6193dca192c1e96c93519faa9c889fcae0d62f0bc1ba46715c1bfc3"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B024_20261012_v1\\SYNTHETIC_RESULTS.json",
+      "sha256": "4813df60f36584455e95c3c3b1b0ae712afbfc11b03a86693f50423da3126249"
+    },
+    {
+      "locked_public_source_reference": "D:\\codex\\A2B024_20261012_v1\\USER_AUTHORIZATION.md",
+      "sha256": "72e66960e916efbf30886dfb793862772bb50c2b652036b844de23927944e96f"
+    }
+  ],
+  "scope": "Missing public-byte coverage only; not evidence those files were absent or unexecuted"
+}

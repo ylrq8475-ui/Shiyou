@@ -1,0 +1,29 @@
+{
+  "signature": "账户A（替代接手）独立审核与交付",
+  "passed": true,
+  "explicit_allowlist": true,
+  "recursive_embedded_B_zip_crc_and_paths": true,
+  "scanned_text_files": 233,
+  "hits": [],
+  "forbidden_extensions": [
+    ".csv",
+    ".joblib",
+    ".npy",
+    ".npz",
+    ".onnx",
+    ".parquet",
+    ".pickle",
+    ".pkl",
+    ".pt",
+    ".pth",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "source": "Only pinned public anonymous evidence and A-authored aggregate reports/code; no private data/config access",
+  "manual_review": "No real-well mapping, raw rows, per-well labels/predictions or OOF arrays in released schemas; synthetic fixtures have INVENTED_/SYNTHETIC_ prefixes",
+  "known_real_identifier_dictionary_scan": "NOT_EXECUTED: no private identifier dictionary accessed; do not interpret pattern scan as universal anonymity proof",
+  "B_prior_private_marker_scan": "B record only",
+  "actual_model_fits": 0,
+  "actual_preprocessor_fits": 0
+}
