@@ -1,0 +1,18 @@
+{
+  "source_commit": "65115714d49d17122989195910b119264bd93880",
+  "archive_sha256": "c26a1c87c0fdb4d96b4a3251aa13702ab7aeb258517edd2614029cf0d2393d50",
+  "anonymous_members": 218,
+  "readonly_check": {
+    "passed": true,
+    "check_count": 829,
+    "real_fits": 0,
+    "private_data_access": false,
+    "scope": "original-byte manifest, aggregate arithmetic, journal counts, stage stop, source AST; no independent real training"
+  },
+  "model_and_preprocessor_fits": 0,
+  "private_data_read": false,
+  "installed_packages": false,
+  "uploaded_files": false,
+  "account_A_review_status": "NOT_YET_PERFORMED",
+  "note": "B evidence consistency check only; new A must independently review and rewrite key arithmetic"
+}

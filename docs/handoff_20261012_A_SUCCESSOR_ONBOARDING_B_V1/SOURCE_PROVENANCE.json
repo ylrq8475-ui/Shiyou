@@ -1,0 +1,129 @@
+{
+  "account": "账户B整理与交付；供替代账户A接手",
+  "source_files": [
+    {
+      "local_path": "history/A013_MODEL_DETAILS.md",
+      "source_commit": "4464061826607b40acdeac2e0ff4700641dd4272",
+      "repository_path": "docs/handoff_20261009/MODEL_DETAILS.md",
+      "source_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/4464061826607b40acdeac2e0ff4700641dd4272/docs/handoff_20261009/MODEL_DETAILS.md",
+      "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/4464061826607b40acdeac2e0ff4700641dd4272/docs/handoff_20261009/MODEL_DETAILS.md",
+      "bytes": 9783,
+      "sha256": "ea6d10777ed094a8e28d11fb356424f2f30fe5952b68e8d7bf48488d5a40704a",
+      "pinned_remote_bytes_checked": true
+    },
+    {
+      "local_path": "history/A021_B_CLOSEOUT.md",
+      "source_commit": "2c677b28a9060874b872716bab3b389ae4f2dd7f",
+      "repository_path": "docs/handoff_20261010_A2B021_B_CLOSEOUT/README.md",
+      "source_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/handoff_20261010_A2B021_B_CLOSEOUT/README.md",
+      "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/2c677b28a9060874b872716bab3b389ae4f2dd7f/docs/handoff_20261010_A2B021_B_CLOSEOUT/README.md",
+      "bytes": 2691,
+      "sha256": "ab7fa255813814b5ad19528d2d935297a6d997e0774f7f7e874fb0f1c078f8f6",
+      "pinned_remote_bytes_checked": true
+    },
+    {
+      "local_path": "history/A022_B_REPORT.md",
+      "source_commit": "5867edc93916e4228791e3d20327ff48a960537d",
+      "repository_path": "docs/handoff_20261010_A2B022_B/REPORT_B.md",
+      "source_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/5867edc93916e4228791e3d20327ff48a960537d/docs/handoff_20261010_A2B022_B/REPORT_B.md",
+      "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/5867edc93916e4228791e3d20327ff48a960537d/docs/handoff_20261010_A2B022_B/REPORT_B.md",
+      "bytes": 4562,
+      "sha256": "7b55ff976b575edc4f0ff3b47196334d7fe926157a1ca457cf8742e83e5a1bd2",
+      "pinned_remote_bytes_checked": true
+    },
+    {
+      "local_path": "history/A022_A_REPORT.md",
+      "source_commit": "0fdbc4d99ac7d5883359c923ebd98b69d5241120",
+      "repository_path": "docs/handoff_20261010_A2B022_A/REPORT_A.md",
+      "source_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/0fdbc4d99ac7d5883359c923ebd98b69d5241120/docs/handoff_20261010_A2B022_A/REPORT_A.md",
+      "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/0fdbc4d99ac7d5883359c923ebd98b69d5241120/docs/handoff_20261010_A2B022_A/REPORT_A.md",
+      "bytes": 8103,
+      "sha256": "5378e604b5ef6a9859048ee1e9590ed569e33d39e3ca52313c79d6e8966bb28c",
+      "pinned_remote_bytes_checked": true
+    },
+    {
+      "local_path": "history/A023_A_REPORT.md",
+      "source_commit": "f127a575a0f24dfc369c0ab9b8ea51f93fae4d33",
+      "repository_path": "docs/handoff_20261012_A2B023_A/REPORT_A.md",
+      "source_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/f127a575a0f24dfc369c0ab9b8ea51f93fae4d33/docs/handoff_20261012_A2B023_A/REPORT_A.md",
+      "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/f127a575a0f24dfc369c0ab9b8ea51f93fae4d33/docs/handoff_20261012_A2B023_A/REPORT_A.md",
+      "bytes": 9018,
+      "sha256": "e3063e0b4cb8f759941b9fd152295de00ab673c93eb5046a194397e87ccecbcb",
+      "pinned_remote_bytes_checked": true
+    },
+    {
+      "local_path": "history/A023_A_SIGNOFF.md",
+      "source_commit": "f127a575a0f24dfc369c0ab9b8ea51f93fae4d33",
+      "repository_path": "docs/handoff_20261012_A2B023_A/FINAL_SIGNOFF.md",
+      "source_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/f127a575a0f24dfc369c0ab9b8ea51f93fae4d33/docs/handoff_20261012_A2B023_A/FINAL_SIGNOFF.md",
+      "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/f127a575a0f24dfc369c0ab9b8ea51f93fae4d33/docs/handoff_20261012_A2B023_A/FINAL_SIGNOFF.md",
+      "bytes": 738,
+      "sha256": "3665fdef5436a28fed1bf58feea443d9e16d5174467a1465a1dd62502204a0a4",
+      "pinned_remote_bytes_checked": true
+    },
+    {
+      "local_path": "history/A023_B_CLOSEOUT.md",
+      "source_commit": "57c78bde28f877212d3a711d92352a299a5f558c",
+      "repository_path": "docs/handoff_20261012_A2B023_B_CLOSEOUT/REPORT_B.md",
+      "source_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/57c78bde28f877212d3a711d92352a299a5f558c/docs/handoff_20261012_A2B023_B_CLOSEOUT/REPORT_B.md",
+      "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/57c78bde28f877212d3a711d92352a299a5f558c/docs/handoff_20261012_A2B023_B_CLOSEOUT/REPORT_B.md",
+      "bytes": 4019,
+      "sha256": "8cf60da8f49d6eb516b388edc538bab7869076ca69f43674ffb02537588d7f98",
+      "pinned_remote_bytes_checked": true
+    },
+    {
+      "local_path": "history/A024_OLD_A_PLAN_REPORT.md",
+      "source_commit": "3272d3b86e2e7c0433b137ced6ee35b7cfb3aaca",
+      "repository_path": "docs/handoff_20261012_A2B024_R2_A/REPORT_A.md",
+      "source_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3272d3b86e2e7c0433b137ced6ee35b7cfb3aaca/docs/handoff_20261012_A2B024_R2_A/REPORT_A.md",
+      "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3272d3b86e2e7c0433b137ced6ee35b7cfb3aaca/docs/handoff_20261012_A2B024_R2_A/REPORT_A.md",
+      "bytes": 5734,
+      "sha256": "d4b64970edb89d19f62c132ab3fd7d1dfded18281f746d31684e9e85faceee96",
+      "pinned_remote_bytes_checked": true
+    },
+    {
+      "local_path": "history/A024_OLD_A_PLAN_CHECKS.json",
+      "source_commit": "3272d3b86e2e7c0433b137ced6ee35b7cfb3aaca",
+      "repository_path": "docs/handoff_20261012_A2B024_R2_A/A_PLAN_CHECKS.json",
+      "source_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3272d3b86e2e7c0433b137ced6ee35b7cfb3aaca/docs/handoff_20261012_A2B024_R2_A/A_PLAN_CHECKS.json",
+      "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3272d3b86e2e7c0433b137ced6ee35b7cfb3aaca/docs/handoff_20261012_A2B024_R2_A/A_PLAN_CHECKS.json",
+      "bytes": 1339,
+      "sha256": "5bca91860eb7aedb4f81299e15960fe98d8f6eb0e1b6f2918d62d0446fd34eaa",
+      "pinned_remote_bytes_checked": true
+    },
+    {
+      "local_path": "history/B_DELIVERY_RULES_V1.md",
+      "source_commit": "ff0f6b44ed543dc689d1b9c12a9112877adb9801",
+      "repository_path": "docs/coordination_B/HANDOFF_DELIVERY_RULES_V1.md",
+      "source_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/ff0f6b44ed543dc689d1b9c12a9112877adb9801/docs/coordination_B/HANDOFF_DELIVERY_RULES_V1.md",
+      "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/ff0f6b44ed543dc689d1b9c12a9112877adb9801/docs/coordination_B/HANDOFF_DELIVERY_RULES_V1.md",
+      "bytes": 3571,
+      "sha256": "541ac9d75aa2e73cd134f8b1e440abe52bbb455748d207bec5a0de4e17687366",
+      "pinned_remote_bytes_checked": true
+    },
+    {
+      "local_path": "history/A024_B_REPORT.md",
+      "source_commit": "65115714d49d17122989195910b119264bd93880",
+      "repository_path": "docs/handoff_20261012_A2B024_B/REPORT_B.md",
+      "source_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/REPORT_B.md",
+      "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/REPORT_B.md",
+      "bytes": 10692,
+      "sha256": "46478118674beefb0d9aecd82140cdff7a592c6fcc49ee65c6a2adf8b5f99524",
+      "pinned_remote_bytes_checked": true
+    },
+    {
+      "local_path": "history/A024_B_REVIEW_REQUEST.md",
+      "source_commit": "65115714d49d17122989195910b119264bd93880",
+      "repository_path": "docs/handoff_20261012_A2B024_B/REQUEST_TO_A.md",
+      "source_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/REQUEST_TO_A.md",
+      "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/REQUEST_TO_A.md",
+      "bytes": 1612,
+      "sha256": "e9c210063eb2b4d2ddbbd90f34d628be529c6bfc9423abf6cc429ecafcdbec1d",
+      "pinned_remote_bytes_checked": true
+    }
+  ],
+  "current_experiment_commit": "65115714d49d17122989195910b119264bd93880",
+  "original_A024_anonymous_zip_sha256": "c26a1c87c0fdb4d96b4a3251aa13702ab7aeb258517edd2614029cf0d2393d50",
+  "A024_original_bundle_copied_bytes_unchanged": true,
+  "new_A_review_performed": false
+}

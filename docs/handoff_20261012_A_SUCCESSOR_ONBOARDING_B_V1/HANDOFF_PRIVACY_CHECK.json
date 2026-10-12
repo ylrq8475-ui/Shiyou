@@ -1,0 +1,11 @@
+{
+  "checked_report_files": 225,
+  "private_token_hits": 0,
+  "passed": true,
+  "numeric_candidate_value_check": "raw candidate fields never serialized; numeric constants alone are not identifier evidence",
+  "source_inclusive_private_hits": 0,
+  "credential_hits": 0,
+  "explicit_allowlist": true,
+  "new_model_or_preprocessor_fits": 0,
+  "new_A_review_performed": false
+}

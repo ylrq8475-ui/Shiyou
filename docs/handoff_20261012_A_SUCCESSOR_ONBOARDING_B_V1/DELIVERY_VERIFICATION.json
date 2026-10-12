@@ -1,0 +1,34 @@
+{
+  "account": "账户B执行与交付；接手资料整理，非账户A审计",
+  "source_pins_remote_checked": 12,
+  "source_bytes_unchanged": true,
+  "new_A_acceptance": "PENDING",
+  "new_model_or_preprocessor_fits": 0,
+  "anonymous_A024_retest": {
+    "passed": true,
+    "check_count": 829,
+    "real_fits": 0,
+    "private_data_access": false,
+    "scope": "original-byte manifest, aggregate arithmetic, journal counts, stage stop, source AST; no independent real training"
+  },
+  "zip_members": 241,
+  "zip_crc_and_members_passed": true,
+  "zip_bytes": 286868,
+  "zip_sha256": "d535bb964e6e10e1223605b00b59df02ad652ca6224f23fe6ec12bfd8f7b413e",
+  "privacy": {
+    "checked_report_files": 225,
+    "private_token_hits": 0,
+    "passed": true,
+    "numeric_candidate_value_check": "raw candidate fields never serialized; numeric constants alone are not identifier evidence",
+    "source_inclusive_private_hits": 0,
+    "credential_hits": 0,
+    "explicit_allowlist": true,
+    "new_model_or_preprocessor_fits": 0,
+    "new_A_review_performed": false
+  },
+  "release": 2,
+  "unpublished_first_draft_retained": true,
+  "bootstrap_network_restore_actually_passed": true,
+  "bootstrap_retest_checks": 829,
+  "prior_published_experiments_unchanged": true
+}
