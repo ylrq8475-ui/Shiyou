@@ -1,0 +1,56 @@
+test_budget_successful_identity_no_rerun (test_pretrain_contracts.ContractTests.test_budget_successful_identity_no_rerun) ... ok
+test_cannot_complete_model_before_preprocessor (test_pretrain_contracts.ContractTests.test_cannot_complete_model_before_preprocessor) ... ok
+test_common_source_mismatch_rejected (test_pretrain_contracts.ContractTests.test_common_source_mismatch_rejected) ... ok
+test_environment_mismatch_rejected (test_pretrain_contracts.ContractTests.test_environment_mismatch_rejected) ... ok
+test_failed_identity_requires_retry_flag (test_pretrain_contracts.ContractTests.test_failed_identity_requires_retry_flag) ... ok
+test_false_retry_rejected (test_pretrain_contracts.ContractTests.test_false_retry_rejected) ... ok
+test_fold_counterexample (test_pretrain_contracts.ContractTests.test_fold_counterexample) ... ok
+test_fold_empty (test_pretrain_contracts.ContractTests.test_fold_empty) ... ok
+test_fold_length_mismatch (test_pretrain_contracts.ContractTests.test_fold_length_mismatch) ... ok
+test_fold_nonfinite (test_pretrain_contracts.ContractTests.test_fold_nonfinite) ... ok
+test_max_attempts_and_preprocessing_74 (test_pretrain_contracts.ContractTests.test_max_attempts_and_preprocessing_74) ... ok
+test_max_success_72 (test_pretrain_contracts.ContractTests.test_max_success_72) ... ok
+test_model_failure_keeps_successful_preprocessor_count (test_pretrain_contracts.ContractTests.test_model_failure_keeps_successful_preprocessor_count) ... ok
+test_negative_predictions_rejected (test_pretrain_contracts.ContractTests.test_negative_predictions_rejected) ... ok
+test_no_overlapping_pipeline_attempt (test_pretrain_contracts.ContractTests.test_no_overlapping_pipeline_attempt) ... ok
+test_nonfinite_predictions_rejected (test_pretrain_contracts.ContractTests.test_nonfinite_predictions_rejected) ... ok
+test_only_c1_month_permutation_rejected (test_pretrain_contracts.ContractTests.test_only_c1_month_permutation_rejected) ... ok
+test_only_c1_well_permutation_rejected (test_pretrain_contracts.ContractTests.test_only_c1_well_permutation_rejected) ... ok
+test_only_raw_permutation_rejected (test_pretrain_contracts.ContractTests.test_only_raw_permutation_rejected) ... ok
+test_positive_complement_exact (test_pretrain_contracts.ContractTests.test_positive_complement_exact) ... ok
+test_prediction_length_rejected (test_pretrain_contracts.ContractTests.test_prediction_length_rejected) ... ok
+test_preprocessor_failure_separate_entry_completion (test_pretrain_contracts.ContractTests.test_preprocessor_failure_separate_entry_completion) ... ok
+test_raw_values_changed_without_keys_rejected (test_pretrain_contracts.ContractTests.test_raw_values_changed_without_keys_rejected) ... ok
+test_same_shape_different_fold_rejected (test_pretrain_contracts.ContractTests.test_same_shape_different_fold_rejected) ... ok
+test_third_retry_rejected (test_pretrain_contracts.ContractTests.test_third_retry_rejected) ... ok
+test_valid_aligned_whole_well_route (test_pretrain_contracts.ContractTests.test_valid_aligned_whole_well_route) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.002s
+
+OK
+test_b0_perturbation_only_affects_positive (test_route.RouterTests.test_b0_perturbation_only_affects_positive) ... ok
+test_c1_perturbation_only_affects_fallback (test_route.RouterTests.test_c1_perturbation_only_affects_fallback) ... ok
+test_fallback_all_months_equal_c1 (test_route.RouterTests.test_fallback_all_months_equal_c1) ... ok
+test_joint_permutation (test_route.RouterTests.test_joint_permutation) ... ok
+test_label_changes_cannot_enter_router (test_route.RouterTests.test_label_changes_cannot_enter_router) ... ok
+test_no_label_argument (test_route.RouterTests.test_no_label_argument) ... ok
+test_no_mutation (test_route.RouterTests.test_no_mutation) ... ok
+test_official_denominator_and_unscaled_weights (test_route.RouterTests.test_official_denominator_and_unscaled_weights) ... ok
+test_official_whole_well_contribution_identity (test_route.RouterTests.test_official_whole_well_contribution_identity) ... ok
+test_positive_all_months_equal_b0 (test_route.RouterTests.test_positive_all_months_equal_b0) ... ok
+test_positive_one_is_b0 (test_route.RouterTests.test_positive_one_is_b0) ... ok
+test_raw_states (test_route.RouterTests.test_raw_states) ... ok
+test_reject_empty (test_route.RouterTests.test_reject_empty) ... ok
+test_reject_misaligned_shape (test_route.RouterTests.test_reject_misaligned_shape) ... ok
+test_reject_negative_prediction (test_route.RouterTests.test_reject_negative_prediction) ... ok
+test_reject_nonfinite_prediction (test_route.RouterTests.test_reject_nonfinite_prediction) ... ok
+test_reject_raw_matrix (test_route.RouterTests.test_reject_raw_matrix) ... ok
+test_reject_wrong_month_count (test_route.RouterTests.test_reject_wrong_month_count) ... ok
+test_same_arms_identity (test_route.RouterTests.test_same_arms_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.147s
+
+OK
+{"check_count": 90, "all_passed": true, "new_model_fits": 0, "new_preprocessor_fits": 0, "private_data_read": false, "scope": "B independently compares anonymous A claims to frozen B aggregates; route values remain post-hoc algebra, not new performance"}

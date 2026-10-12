@@ -1,0 +1,42 @@
+{
+  "source_commit": "1866c13e6872930b9418248a5feaa517401e1711",
+  "bundle_manifest_verified": 20,
+  "B_synthetic_results": [
+    {
+      "module": "test_pretrain_contracts",
+      "tests": 26,
+      "passed": true
+    },
+    {
+      "module": "test_route",
+      "tests": 19,
+      "passed": true
+    }
+  ],
+  "aggregate_checks": 90,
+  "A_additional_checks": [
+    "cross_year_whole_well_route",
+    "independent_official_group_identity",
+    "unnormalized_weight_mass",
+    "nonconsecutive_calendar_rejection",
+    "post_failure_stage_blocking"
+  ],
+  "all_passed": true,
+  "bundle_unchanged": true,
+  "old_aggregate_source_bytes_match": true,
+  "new_model_or_preprocess_fits": 0,
+  "new_performance_evidence": false,
+  "runtime_implementation_accepted": false,
+  "plan_and_pure_contracts_accepted": true,
+  "entry_sha256": {
+    "pretrain_contracts.py": "38fdbc60d92266357f4581bdeb9a3d462c137f1f7c690d35a0b13c98c6765102",
+    "route_core.py": "2bebcdfe6e7e7f060e1c305cf64cf6322a2694806818b4389db643cfc1c246de",
+    "PLAN_R2.json": "f77e2dd7e66697e428806c514cabdc4a780ab3b18aac85867b66606eead00804"
+  },
+  "limits": [
+    "no actual training entry in bundle",
+    "remote seed inventory not independently rescanned",
+    "no real-data numerical rerun",
+    "no formal submission approval"
+  ]
+}
