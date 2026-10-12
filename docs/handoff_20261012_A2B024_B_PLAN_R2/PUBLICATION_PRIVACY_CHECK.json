@@ -1,0 +1,33 @@
+{
+  "account": "账户B执行与交付",
+  "passed": true,
+  "hits": [],
+  "top_allowlist": [
+    "README.md",
+    "REPORT_B.md",
+    "NEXT_BATCH_PROPOSAL_R2.md",
+    "PLAN_R2.json",
+    "CHANGE_RESOLUTION.json",
+    "EXECUTION_AUTHORIZATION_DRAFT.md",
+    "SEED_HISTORY_REVIEW.json",
+    "PRETRAIN_SYNTHETIC_RESULTS.json",
+    "RECEIPT_VERIFICATION.json"
+  ],
+  "bundle_extra_allowlist": [
+    "pretrain_contracts.py",
+    "test_pretrain_contracts.py",
+    "route_core.py",
+    "test_route.py",
+    "verify_evidence.py",
+    "B_AGGREGATE_EVIDENCE.json",
+    "A_ARITHMETIC_SUMMARY.json",
+    "A_ROUTE_SIGNAL.json",
+    "AGGREGATE_RECEIPT_CHECKS.json",
+    "ROUTE_SYNTHETIC_RESULTS.json"
+  ],
+  "raw_or_private_config_read": false,
+  "model_weight_read": false,
+  "private_marker_scan_reexecuted": false,
+  "scan_basis": "explicit public-source field allowlist and manual review; credential, local-path and raw-row pattern checks",
+  "historical_local_bindings_not_uploaded": true
+}

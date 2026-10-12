@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "new_pretrain_synthetic_tests": 26,
+  "previous_route_tests": 19,
+  "previous_aggregate_checks": 90,
+  "zip_manifest_entries": 20,
+  "zip_files": 21,
+  "zip_crc_passed": true,
+  "copied_bundle_bytes_unchanged": true,
+  "actual_model_fits": 0,
+  "actual_preprocessor_fits": 0,
+  "raw_data_read": false
+}

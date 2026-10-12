@@ -1,0 +1,149 @@
+{
+  "task": "A2B-024 proposed seeds",
+  "scope_date": "2026-10-12",
+  "account": "账户B执行与交付",
+  "status": "NO_COMPLETED_SCORED_USE_FOUND_IN_CHECKED_RECORDS_NOT_GLOBAL_UNUSED_CERTIFICATE",
+  "seeds": [
+    {
+      "seed": 20261012,
+      "role": "later_split",
+      "completed_scored_use_found": false,
+      "text_mentions": 35,
+      "known_mentions_not_execution_proof": true
+    },
+    {
+      "seed": 20261013,
+      "role": "later_split",
+      "completed_scored_use_found": false,
+      "text_mentions": 8,
+      "known_mentions_not_execution_proof": true
+    },
+    {
+      "seed": 20261014,
+      "role": "later_split",
+      "completed_scored_use_found": false,
+      "text_mentions": 8,
+      "known_mentions_not_execution_proof": true
+    },
+    {
+      "seed": 20261015,
+      "role": "later_split",
+      "completed_scored_use_found": false,
+      "text_mentions": 8,
+      "known_mentions_not_execution_proof": true
+    },
+    {
+      "seed": 20261016,
+      "role": "later_split",
+      "completed_scored_use_found": false,
+      "text_mentions": 8,
+      "known_mentions_not_execution_proof": true
+    },
+    {
+      "seed": 20271012,
+      "role": "conditional_confirmation",
+      "completed_scored_use_found": false,
+      "text_mentions": 8,
+      "known_mentions_not_execution_proof": true
+    }
+  ],
+  "local_scope_counts": [
+    {
+      "scope": "T1_local",
+      "text_files_scanned": 137
+    },
+    {
+      "scope": "A21_local",
+      "text_files_scanned": 324
+    },
+    {
+      "scope": "A22_local",
+      "text_files_scanned": 669
+    },
+    {
+      "scope": "A23_local",
+      "text_files_scanned": 705
+    },
+    {
+      "scope": "migration_experiments",
+      "text_files_scanned": 29
+    },
+    {
+      "scope": "migration_ledgers",
+      "text_files_scanned": 3
+    },
+    {
+      "scope": "coordination_and_received_public",
+      "text_files_scanned": 245
+    }
+  ],
+  "local_text_files": 2112,
+  "completed_result_records": [
+    {
+      "scope": "T1_local",
+      "sha256": "2df113ca81901e15379209f1ced25dcaf92ddc9297427f311182678db06358d9",
+      "observed_completed_research_seeds": [
+        null
+      ],
+      "confirmation_executed": false
+    },
+    {
+      "scope": "A21_local",
+      "sha256": "114047515ecb501009df3ca01ad2b7bdff774c3712808fe31572e2a7002a9abc",
+      "observed_completed_research_seeds": [
+        null,
+        20260917,
+        20261031,
+        20261219,
+        20270107,
+        20270303
+      ],
+      "confirmation_executed": false
+    },
+    {
+      "scope": "A22_local",
+      "sha256": "809eebfd9097b986aa4b7c434dc4337d9212ee662c75125d61623b64e40510ae",
+      "observed_completed_research_seeds": [
+        null,
+        20260917,
+        20261031,
+        20261219,
+        20270107,
+        20270303
+      ],
+      "confirmation_executed": false
+    },
+    {
+      "scope": "A23_local",
+      "sha256": "3fdf4da5733b0cdfbd1b27d114bab6348f12e596af6af2b532be9f120081ecea",
+      "observed_completed_research_seeds": [
+        null,
+        20260917,
+        20261031,
+        20261219,
+        20270107,
+        20270303
+      ],
+      "confirmation_executed": false
+    }
+  ],
+  "pinned_public_baseline": {
+    "commit": "d8bc8f198a7acf6cac9cb8753406d6b15579e993",
+    "text_files_scanned": 44,
+    "seed_text_mentions": {
+      "20261012": 0,
+      "20261013": 0,
+      "20261014": 0,
+      "20261015": 0,
+      "20261016": 0,
+      "20271012": 0
+    }
+  },
+  "source_binding_set_sha256": "a07cdc9e8d7d924cc0a70941bc19acc87b56714902ba0586c17cdc582734ff9f",
+  "uncovered": "Remote account-A machine after migration and undisclosed/off-ledger activity not independently inspected. Earlier ledger summaries do not replace missing detailed run records.",
+  "interpretation": "Dates/proposal occurrences are not scored seed use. These remain same-81-well later splits with selection bias, not independent test data. No request for user to recall all history.",
+  "policy_if_conflict_before_new_scores": "Stop dependent stage, resolve identity and version revised plan before any score. Never swap seeds after results.",
+  "new_model_fits": 0,
+  "new_preprocessor_fits": 0,
+  "raw_data_read": false
+}

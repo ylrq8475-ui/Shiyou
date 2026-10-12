@@ -1,0 +1,10 @@
+{
+  "test_count": 26,
+  "all_passed": true,
+  "failures": 0,
+  "errors": 0,
+  "actual_model_or_preprocessor_fits": 0,
+  "synthetic_budget_transitions_are_not_fits": true,
+  "scope": "synthetic keyed adapter and budget only, not integrated real training or historical identity proof",
+  "private_data_read": false
+}

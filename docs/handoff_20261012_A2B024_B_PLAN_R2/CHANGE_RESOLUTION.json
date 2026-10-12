@@ -1,0 +1,32 @@
+{
+  "source_A_commit": "186697bbf8e7b6b94cd135dccbd0468eeaa8874b",
+  "new_training_authorized": false,
+  "changes": [
+    {
+      "id": "A24-PLAN-01",
+      "issue": "difference of minima is not minimum paired fold delta",
+      "action": "confirmation additionally requires min paired delta >= -1.00; minima reported separately",
+      "status": "SPECIFIED_AND_SYNTHETIC_TESTED"
+    },
+    {
+      "id": "A24-PLAN-02",
+      "issue": "fixed replay not new validation",
+      "action": "engineering replay only, later split/confirmation separately named",
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "A24-PLAN-03",
+      "issue": "shape cannot prove well/date/raw/fold alignment",
+      "action": "keyed adapter with four required fault injections and downstream guard",
+      "status": "SYNTHETIC_ADAPTER_TESTED_INTEGRATED_ENTRY_NOT_YET_IMPLEMENTED"
+    },
+    {
+      "id": "A24-PLAN-04",
+      "issue": "successful preprocessing may exceed successful model count on retries",
+      "action": "model success <=72, pipeline/model/preprocessing entries/completions <=74 as applicable; retries <=2",
+      "status": "SPECIFIED_AND_SYNTHETIC_TESTED"
+    }
+  ],
+  "A_signoff_not_fabricated": "A supports direction; new B adapter and plan R2 not claimed independently accepted by A",
+  "no_repeat_receipt_requested": true
+}

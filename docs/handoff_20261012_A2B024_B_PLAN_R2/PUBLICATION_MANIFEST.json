@@ -1,0 +1,60 @@
+{
+  "account": "账户B执行与交付",
+  "task": "A2B-024 plan R2",
+  "files": {
+    "A2B024_PLAN_R2_READONLY_BUNDLE_20261012.zip": {
+      "bytes": 29323,
+      "sha256": "376d69288ca7bea87276ee957fa66fd6f820f2eae71ad55341aefe8d28820002"
+    },
+    "A2B024_PLAN_R2_READONLY_BUNDLE_20261012.zip.sha256": {
+      "bytes": 111,
+      "sha256": "b63e5c007415b6b01af434b2d03c2c637ccc8628159d7a17cbb069d03b291903"
+    },
+    "CHANGE_RESOLUTION.json": {
+      "bytes": 1361,
+      "sha256": "5ff9cb300f9ce69efb517f1f6e6c746056f96cc60ff3fa224729133feb0aa231"
+    },
+    "EXECUTION_AUTHORIZATION_DRAFT.md": {
+      "bytes": 1430,
+      "sha256": "6a5027712ed5403ef7d87fed5e46b0aebee8b4951fe8459dc42199a4d9e6e460"
+    },
+    "NEXT_BATCH_PROPOSAL_R2.md": {
+      "bytes": 6984,
+      "sha256": "87a1eaedb9dbda5209b315d4d106dd71ed99905d81c717bd4e98ebe38d548b63"
+    },
+    "PACKAGED_RETEST.json": {
+      "bytes": 338,
+      "sha256": "9eda2bccb44eb93d1e3010df3251c0e8dea7769512f341af3d64ad994025a8c4"
+    },
+    "PLAN_R2.json": {
+      "bytes": 4514,
+      "sha256": "f77e2dd7e66697e428806c514cabdc4a780ab3b18aac85867b66606eead00804"
+    },
+    "PRETRAIN_SYNTHETIC_RESULTS.json": {
+      "bytes": 325,
+      "sha256": "b40d0829b83e4c080db05b798676f58976a96308f17a535d0f4d77d18a0700c5"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 1015,
+      "sha256": "c3dd6be19e8031e8f63d73afd47edfb5c60cd3f99232f2ce2eef65c5004a7ca4"
+    },
+    "README.md": {
+      "bytes": 519,
+      "sha256": "d198a9debaefab65af36598239a766ccf1521ebd08a7193963fb548310aa891b"
+    },
+    "RECEIPT_VERIFICATION.json": {
+      "bytes": 2936,
+      "sha256": "d1c3e010b3c322ab48912add49ff5e745ebc05183000467707c65bc365b43477"
+    },
+    "REPORT_B.md": {
+      "bytes": 2480,
+      "sha256": "f81ec022ae727f7a551353ead6a1e0e69be9a754793954b350ab762b9b9c26ed"
+    },
+    "SEED_HISTORY_REVIEW.json": {
+      "bytes": 4333,
+      "sha256": "e7f078dcb6193dca192c1e96c93519faa9c889fcae0d62f0bc1ba46715c1bfc3"
+    }
+  },
+  "manifest_excludes_itself": true,
+  "zip_sha256": "376d69288ca7bea87276ee957fa66fd6f820f2eae71ad55341aefe8d28820002"
+}
