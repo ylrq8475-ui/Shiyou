@@ -1,0 +1,13 @@
+{
+  "task": "A2B-024 R2",
+  "account": "账户B执行与交付",
+  "index_revision": 2,
+  "research_source_commit": "ca3e0560099a1f408fd0da7e847fbb59e3dac416",
+  "purpose": "Add working public links and an authorization excerpt without overwriting original delivered materials; evidence paths in original README refer to archive-internal layout.",
+  "research_result_changed": false,
+  "model_or_preprocessor_fits_added": 0,
+  "zip_changed": false,
+  "existing_files_overwritten": false,
+  "original_public_files_remote_bytes_verified": 13,
+  "A_result_review": "PENDING"
+}
