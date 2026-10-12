@@ -1,0 +1,21 @@
+{
+  "task": "A2B-024 R2",
+  "account": "账户B执行与交付",
+  "user_authorized": true,
+  "authorized_stages": ["fixed_replay", "five_later_splits", "conditional_confirmation", "conditional_private_full_fit"],
+  "success_cap": 72,
+  "entry_and_pipeline_cap": 74,
+  "fault_retry_cap": 2,
+  "preprocessing_entered_and_completed_cap_each": 74,
+  "candidate_count": 1,
+  "prior_scores_reused": false,
+  "historical_dtype": "UNKNOWN",
+  "official_unique_explanation_blocking": false,
+  "actual_leakage_target_and_isolation_gates_required": true,
+  "A_plan_review_commit": "3272d3b86e2e7c0433b137ced6ee35b7cfb3aaca",
+  "A_experiment_review": "PENDING",
+  "new_independent_directory": "D:/codex/A2B024_20261012_v1",
+  "deployment_upgrade_official_submission_authorized": false,
+  "raw_data_readonly_no_copy": true,
+  "only_anonymous_aggregates_persisted": true
+}

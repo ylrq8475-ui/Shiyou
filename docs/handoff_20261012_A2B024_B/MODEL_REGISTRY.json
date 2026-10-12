@@ -1,0 +1,10 @@
+{
+  "task": "A2B-024 R2",
+  "candidate": "R1",
+  "status": "NOT_RETAINED_CONFIRMATION_FAILED",
+  "full_real_model_fits": 0,
+  "real_artifacts_saved": 0,
+  "A_result_review": "PENDING",
+  "existing_model_replaced": false,
+  "deployment_authorized": false
+}

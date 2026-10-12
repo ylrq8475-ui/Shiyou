@@ -1,0 +1,50 @@
+{
+  "A2B024_R2_B_ANONYMOUS_REVIEW_BUNDLE.zip": {
+    "sha256": "c26a1c87c0fdb4d96b4a3251aa13702ab7aeb258517edd2614029cf0d2393d50",
+    "bytes": 211883
+  },
+  "BUNDLE_SHA256SUMS.json": {
+    "sha256": "df70f1c7d3dca433c083b9405d9753901a5b43f21042cfadf74568cf0c50f912",
+    "bytes": 21680
+  },
+  "DELIVERY_VERIFICATION.json": {
+    "sha256": "23b561b03dae9768a76bcf57e56b2b7e897a7adaf379d99a77c45c47d8a78ae2",
+    "bytes": 986
+  },
+  "EXECUTION_SUPPLEMENT.json": {
+    "sha256": "8d0ccf7ef9cede38ed3d44d254d9f3eee599e2dc963b4496750e3b494c6918ef",
+    "bytes": 860
+  },
+  "FINAL_RESULT.json": {
+    "sha256": "e564d3eb68c429eb7cb09b814fca6ee6b7ded4f149d335c08da0ff2fceb4d0d5",
+    "bytes": 194883
+  },
+  "IMPLEMENTATION_PRETRAIN_LOCK.json": {
+    "sha256": "252f47707455bef88bb9c1aa052cd3b48309d36f1d1ebd42e2296768759fde67",
+    "bytes": 65176
+  },
+  "MODEL_REGISTRY.json": {
+    "sha256": "4d27e0f73770944bf237374ef7fec2d00a91e7c518c35172765083c3d3e5553f",
+    "bytes": 266
+  },
+  "PLAN_R2.json": {
+    "sha256": "f77e2dd7e66697e428806c514cabdc4a780ab3b18aac85867b66606eead00804",
+    "bytes": 4514
+  },
+  "PUBLICATION_PRIVACY_CHECK.json": {
+    "sha256": "2ca2487572bacf4a69298481af5ed0c16db5461ac7a77127388e34c6d04adf0d",
+    "bytes": 426
+  },
+  "README.md": {
+    "sha256": "203945f18beec0019e01717619e096f4e53dd759195c9b24f3956813742b695c",
+    "bytes": 1427
+  },
+  "REPORT_B.md": {
+    "sha256": "46478118674beefb0d9aecd82140cdff7a592c6fcc49ee65c6a2adf8b5f99524",
+    "bytes": 10692
+  },
+  "REQUEST_TO_A.md": {
+    "sha256": "e9c210063eb2b4d2ddbbd90f34d628be529c6bfc9423abf6cc429ecafcdbec1d",
+    "bytes": 1612
+  }
+}

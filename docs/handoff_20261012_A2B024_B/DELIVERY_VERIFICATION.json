@@ -1,0 +1,27 @@
+{
+  "task": "A2B-024 R2",
+  "account": "账户B执行与交付",
+  "zip_sha256": "c26a1c87c0fdb4d96b4a3251aa13702ab7aeb258517edd2614029cf0d2393d50",
+  "zip_bytes": 211883,
+  "zip_members": 218,
+  "crc_and_member_hashes": true,
+  "anonymous_retest": {
+    "passed": true,
+    "check_count": 829,
+    "real_fits": 0,
+    "private_data_access": false,
+    "scope": "original-byte manifest, aggregate arithmetic, journal counts, stage stop, source AST; no independent real training"
+  },
+  "privacy": {
+    "checked_report_files": 202,
+    "private_token_hits": 0,
+    "passed": true,
+    "numeric_candidate_value_check": "raw candidate fields never serialized; numeric constants alone are not identifier evidence",
+    "all_text_source_and_report_files": 215,
+    "source_inclusive_private_well_hits": 0,
+    "credential_pattern_hits": 0,
+    "explicit_allowlist_only": true,
+    "no_raw_csv_config_weights_or_row_artifacts": true
+  },
+  "A_review": "PENDING"
+}

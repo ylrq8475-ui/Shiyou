@@ -1,0 +1,109 @@
+{
+  "task": "A2B-024",
+  "revision": 2,
+  "status": "PREPARED_PENDING_USER_BATCH_AUTHORIZATION",
+  "account": "账户B执行与交付",
+  "A_review_commit": "186697bbf8e7b6b94cd135dccbd0468eeaa8874b",
+  "supersedes_proposal_commit": "57c78bde28f877212d3a711d92352a299a5f558c",
+  "candidate_count": 1,
+  "candidate": "R1 fixed whole-well fallback state router; all-training-well B0/C1 arms",
+  "boundary_policy_version": 2,
+  "current_anchor_or_cutoff_changed": false,
+  "historical_dtype": "UNKNOWN",
+  "official_metric": "100*(1-mean_wells(sum_t(2**(-t)*abs(pred-truth)/(abs(pred)+abs(truth)+1e-6))))",
+  "wells": 81,
+  "rows": 972,
+  "preprocessing_features": 325,
+  "model": {
+    "n_estimators": 400,
+    "min_samples_leaf": 6,
+    "max_features": 0.75,
+    "random_state": 20260916,
+    "other_params": "unchanged complete A23 direct ExtraTrees config; bind exact actual configuration before fit",
+    "n_jobs": -1,
+    "parallelism": "one active model, BLAS/OpenMP1, no fold/arm parallelism"
+  },
+  "stages": [
+    {
+      "stage": "fixed_replay",
+      "model_fits": 10,
+      "role": "implementation/reproduction of already observed fixed split, not new generalization evidence",
+      "score_delta_min": 0.0,
+      "first2_score_delta_min": -0.02,
+      "difference_of_minima_min": -1.0,
+      "minimum_paired_fold_delta": "report only; do not label replay new confirmation"
+    },
+    {
+      "stage": "five_later_splits",
+      "model_fits": 50,
+      "seeds": [
+        20261012,
+        20261013,
+        20261014,
+        20261015,
+        20261016
+      ],
+      "mean_delta_min": 0.2,
+      "strict_positive_count_min": 4,
+      "min_group_delta_min": -0.2,
+      "mean_first2_delta_min": 0.0,
+      "nonnegative_first2_count_min": 4,
+      "finish_all_five": true
+    },
+    {
+      "stage": "conditional_confirmation",
+      "model_fits": 10,
+      "seed": 20271012,
+      "requires": "fixed replay engineering checks and later-split screening all pass",
+      "score_delta_min": 0.2,
+      "first2_score_delta_min": 0.0,
+      "difference_of_minima_min": -1.0,
+      "minimum_paired_fold_delta_min": -1.0
+    },
+    {
+      "stage": "conditional_private_full_fit",
+      "model_fits": 2,
+      "requires": "all preceding gates pass; full system save included in future user authorization",
+      "status_label": "PENDING_A_REVIEW",
+      "replace_existing": false
+    }
+  ],
+  "budgets": {
+    "research_model_successes_max": 60,
+    "confirmation_model_successes_max": 10,
+    "full_model_successes_max": 2,
+    "total_model_successes_max": 72,
+    "total_model_entries_max": 74,
+    "pipeline_attempts_max": 74,
+    "failure_retries_max": 2,
+    "preprocessor_entries_max": 74,
+    "preprocessor_completions_max": 74,
+    "import_failures": "separately counted, never model fit entries",
+    "preprocessor_model_counter_separate": true
+  },
+  "structure_requirements": [
+    "before arrays bind well keys, month/order, cohort, raw-state digest, common features, outer-fold, environment/source/config and information boundary",
+    "C1-only well permutation, C1-only month permutation, raw-order/value changes and wrong-fold identity block before scoring",
+    "identity failure blocks confirmation, full fit and save",
+    "positive complement exactly equals live B0; fallback exactly live C1",
+    "per-month and whole score delta equals fallback contribution",
+    "all learned preprocessing is outer-training-fold only",
+    "real leakage/target alignment/well isolation/official metric failure blocks before scoring"
+  ],
+  "seed_evidence": "scoped metadata review found no completed scored use; uncovered remote/off-ledger history retained; not an independent dataset or global unused certificate",
+  "prefit_lock_requirements": [
+    "explicit user approval for task/revision/stages/budget",
+    "actual environment/build/dependencies",
+    "actual source and configuration/data identity",
+    "cohort/feature and row order",
+    "split identity",
+    "dtype summary",
+    "gate definitions and stop rules",
+    "no duplicate active job"
+  ],
+  "stopping": "any registered gate fails: keep negative result and stop dependent stages; no seed/parameter/threshold changes after scores; no extra candidates",
+  "actual_new_model_fits": 0,
+  "actual_new_preprocessor_fits": 0,
+  "integrated_training_entry_implemented": false,
+  "deployment_or_formal_submission_authorized": false
+}

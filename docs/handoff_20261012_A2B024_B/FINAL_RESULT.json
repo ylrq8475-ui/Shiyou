@@ -1,0 +1,4798 @@
+{
+  "task": "A2B-024 R2",
+  "account": "账户B执行与交付",
+  "started": "2026-10-12T15:39:12.323985+08:00",
+  "research": [
+    {
+      "stage": "fixed_replay",
+      "seed": null,
+      "split_sha256": "beadb191d075afdd138d6463f0b3a0e03999a76e07641f56ea24ec77e5e4d5f8",
+      "seconds": 5.13277900009416,
+      "structure_passed": true,
+      "routing_checks": [
+        {
+          "fold": 1,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "586542ea46cd76e89cfdc508784baf7b2433ae27f5ffcadd0669b6693de7f44c"
+        },
+        {
+          "fold": 2,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "6c08dfe39b252faf1ef7ea26a37e58a7e8847919c6b05286d121d686105cbdf9"
+        },
+        {
+          "fold": 3,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "b2d9a8a0526fe61631a06117faec07061f6b24e550441d111b1dcd32a96142b9"
+        },
+        {
+          "fold": 4,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "27f0346b079c4e8b7413b4545702396a57209a27d571a1b8e5e4d7cbfb97247a"
+        },
+        {
+          "fold": 5,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "a1a9694acaded3e4ccc3b03dabf955eb155f927bbb5003eab9e0c5c676748502"
+        }
+      ],
+      "arms": {
+        "B0": {
+          "official_score": 73.71410733861434,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.265719356744295,
+            0.2612360685790295,
+            0.2710052131274345,
+            0.24780961405806604,
+            0.2586127413810084,
+            0.24030246866351515,
+            0.21528259002935024,
+            0.22122373089506123,
+            0.2566118596181992,
+            0.2567283587246017,
+            0.25867309908705544,
+            0.2696902764905691
+          ],
+          "monthly_official_weighted_loss": [
+            0.1328596783721475,
+            0.06530901714475737,
+            0.03387565164092931,
+            0.015488100878629127,
+            0.008081648168156513,
+            0.0037547260728674242,
+            0.0016818952346042988,
+            0.0008641551988088329,
+            0.0005011950383167953,
+            0.00025071128781699385,
+            0.0001263052241636013,
+            6.584235265883034e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.1328596783721475,
+            "2": 0.1981686955169049,
+            "4": 0.2475324480364633,
+            "12": 0.2628589266138566
+          },
+          "fold_scores": [
+            71.45331390948151,
+            77.53642908897099,
+            75.12924056181326,
+            64.6268639962143,
+            79.96598872591245
+          ],
+          "worst_fold": 64.6268639962143,
+          "fold_std_ddof0": 5.3550714628641725,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.29052769375975657,
+                "early_mean_weighted_loss": 0.22069673051016347,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 15,
+                "complement_wells": 66,
+                "full_mean_weighted_loss": 0.2473576126407113,
+                "early_mean_weighted_loss": 0.1828969940258742,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 52,
+                "complement_wells": 29,
+                "full_mean_weighted_loss": 0.2598811760283678,
+                "early_mean_weighted_loss": 0.19650875383344024,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.3787036504546014,
+                "early_mean_weighted_loss": 0.30604007292749164,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 35,
+                  "complement_count": 46,
+                  "proportion": 0.43209876543209874,
+                  "official_weighted_loss_contribution_all_wells": 0.07266210739744906
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 46,
+                  "complement_count": 35,
+                  "proportion": 0.5679012345679012,
+                  "official_weighted_loss_contribution_all_wells": 0.06019757097469844
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 34,
+                  "complement_count": 47,
+                  "proportion": 0.41975308641975306,
+                  "official_weighted_loss_contribution_all_wells": 0.033698594030682635
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 47,
+                  "complement_count": 34,
+                  "proportion": 0.5802469135802469,
+                  "official_weighted_loss_contribution_all_wells": 0.031610423114074734
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.1063607014281317
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 56,
+                  "complement_count": 25,
+                  "proportion": 0.691358024691358,
+                  "official_weighted_loss_contribution_all_wells": 0.09180799408877319
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.2945680802224714,
+              "B0_loss_share_B0_top_wells": 0.2945680802224714,
+              "net_score_delta_contribution_from_B0_top_wells": 0.0
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "negative_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "net_score_delta": 0.0,
+              "gross_improvement_concentration": "SUPPRESSED"
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        },
+        "C1": {
+          "official_score": 72.74343505304994,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.2791266055868684,
+            0.27440316625717537,
+            0.2767808681625285,
+            0.2424953089602184,
+            0.24486528695887486,
+            0.2381445195140652,
+            0.19404129576541979,
+            0.20844526657388818,
+            0.2574606411217598,
+            0.257946594397539,
+            0.25597874251840014,
+            0.2662854438770332
+          ],
+          "monthly_official_weighted_loss": [
+            0.1395633027934342,
+            0.06860079156429384,
+            0.03459760852031606,
+            0.01515595681001365,
+            0.007652040217464839,
+            0.003721008117407269,
+            0.001515947623167342,
+            0.0008142393225542507,
+            0.0005028528146909371,
+            0.00025190097109134666,
+            0.00012498962037031257,
+            6.50110946965413e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.13956330279343426,
+            "2": 0.2081640943577281,
+            "4": 0.25791765968805785,
+            "12": 0.2725656494695007
+          },
+          "fold_scores": [
+            72.17753641729698,
+            72.27500864460626,
+            74.14730666129373,
+            66.84687069825573,
+            78.30582150853157
+          ],
+          "worst_fold": 66.84687069825573,
+          "fold_std_ddof0": 3.6937754165724153,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.2896029761985212,
+                "early_mean_weighted_loss": 0.22072205510784665,
+                "score_delta_vs_B0_in_group": 0.09247175612352909,
+                "net_loss_change_contribution_all_wells": -0.00015982772663326015,
+                "early_net_loss_change_contribution_all_wells": 4.3770909575917915e-06
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 15,
+                "complement_wells": 66,
+                "full_mean_weighted_loss": 0.2522212111855723,
+                "early_mean_weighted_loss": 0.1842694086119115,
+                "score_delta_vs_B0_in_group": -0.4863598544860946,
+                "net_loss_change_contribution_all_wells": 0.0009006663971964714,
+                "early_net_loss_change_contribution_all_wells": 0.0002541508492661608
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 52,
+                "complement_wells": 29,
+                "full_mean_weighted_loss": 0.2738472648551283,
+                "early_mean_weighted_loss": 0.2116758027362971,
+                "score_delta_vs_B0_in_group": -1.3966088826760505,
+                "net_loss_change_contribution_all_wells": 0.008965884185080817,
+                "early_net_loss_change_contribution_all_wells": 0.009736870900599458
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.3777653041474993,
+                "early_mean_weighted_loss": 0.3070478030410032,
+                "score_delta_vs_B0_in_group": 0.09383463071020726,
+                "net_loss_change_contribution_all_wells": -5.792261154951065e-05,
+                "early_net_loss_change_contribution_all_wells": 6.220556256244006e-05
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 37,
+                  "complement_count": 44,
+                  "proportion": 0.4567901234567901,
+                  "official_weighted_loss_contribution_all_wells": 0.07202603248591061
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.06753727030752368
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 37,
+                  "complement_count": 44,
+                  "proportion": 0.4567901234567901,
+                  "official_weighted_loss_contribution_all_wells": 0.03325034532630951
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.03535044623798432
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.1052763778122201
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 51,
+                  "complement_count": 30,
+                  "proportion": 0.6296296296296297,
+                  "official_weighted_loss_contribution_all_wells": 0.10288771654550802
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.28464649677714277,
+              "B0_loss_share_B0_top_wells": 0.2945680802224714,
+              "net_score_delta_contribution_from_B0_top_wells": 0.9794242308525921
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 39,
+                "complement_count": 42,
+                "proportion": 0.48148148148148145
+              },
+              "negative_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 42,
+                "complement_count": 39,
+                "proportion": 0.5185185185185185
+              },
+              "net_score_delta": -0.9706722855644027,
+              "top10percent_share_of_gross_positive_improvement": 0.5855420170743121
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              0.00670362442128675,
+              0.0032917744195364545,
+              0.0007219568793867474,
+              -0.00033214406861546773,
+              -0.0004296079506916739,
+              -3.3717955460155075e-05,
+              -0.00016594761143695654,
+              -4.991587625458182e-05,
+              1.657776374141833e-06,
+              1.1896832743528037e-06,
+              -1.315603793288713e-06,
+              -8.312579622890214e-07
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        },
+        "R1": {
+          "official_score": 73.73009011127766,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.26458846855203383,
+            0.2635153533273822,
+            0.2745000880677453,
+            0.2433770778507929,
+            0.2507997366316734,
+            0.23895570258810114,
+            0.2103634821703964,
+            0.21623940083092497,
+            0.25631169720126007,
+            0.25716835193965565,
+            0.25502653957759996,
+            0.273813458009469
+          ],
+          "monthly_official_weighted_loss": [
+            0.13229423427601691,
+            0.06587883833184555,
+            0.03431251100846816,
+            0.015211067365674557,
+            0.007837491769739793,
+            0.0037336828529390804,
+            0.001643464704456222,
+            0.0008446851594958006,
+            0.0005006087835962111,
+            0.00025114096869106997,
+            0.00012452467752812498,
+            6.684898877184302e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.13229423427601691,
+            "2": 0.1981730726078625,
+            "4": 0.24769665098200522,
+            "12": 0.2626990988872233
+          },
+          "fold_scores": [
+            71.80670193997783,
+            77.72767947742203,
+            75.70443345964296,
+            65.22337057899944,
+            78.30847686105233
+          ],
+          "worst_fold": 65.22337057899944,
+          "fold_std_ddof0": 4.8353115041931805,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.2896029761985212,
+                "early_mean_weighted_loss": 0.22072205510784665,
+                "score_delta_vs_B0_in_group": 0.09247175612352909,
+                "net_loss_change_contribution_all_wells": -0.00015982772663326015,
+                "early_net_loss_change_contribution_all_wells": 4.3770909575917915e-06
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 15,
+                "complement_wells": 66,
+                "full_mean_weighted_loss": 0.2473576126407113,
+                "early_mean_weighted_loss": 0.1828969940258742,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 52,
+                "complement_wells": 29,
+                "full_mean_weighted_loss": 0.2598811760283678,
+                "early_mean_weighted_loss": 0.19650875383344024,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.38192553054854184,
+                "early_mean_weighted_loss": 0.3076116443966403,
+                "score_delta_vs_B0_in_group": -0.3221880093940477,
+                "net_loss_change_contribution_all_wells": 0.00019888148728027636,
+                "early_net_loss_change_contribution_all_wells": 9.701058451534721e-05
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 33,
+                  "complement_count": 48,
+                  "proportion": 0.4074074074074074,
+                  "official_weighted_loss_contribution_all_wells": 0.06808841071187698
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 48,
+                  "complement_count": 33,
+                  "proportion": 0.5925925925925926,
+                  "official_weighted_loss_contribution_all_wells": 0.06420582356413997
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 34,
+                  "complement_count": 47,
+                  "proportion": 0.41975308641975306,
+                  "official_weighted_loss_contribution_all_wells": 0.03194641318196863
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 47,
+                  "complement_count": 34,
+                  "proportion": 0.5802469135802469,
+                  "official_weighted_loss_contribution_all_wells": 0.033932425149876905
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 43,
+                  "complement_count": 38,
+                  "proportion": 0.5308641975308642,
+                  "official_weighted_loss_contribution_all_wells": 0.1000348238938456
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 57,
+                  "complement_count": 24,
+                  "proportion": 0.7037037037037037,
+                  "official_weighted_loss_contribution_all_wells": 0.09813824871401687
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.2882248875692837,
+              "B0_loss_share_B0_top_wells": 0.2945680802224714,
+              "net_score_delta_contribution_from_B0_top_wells": 0.3959831165661501
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 7,
+                "complement_count": 74,
+                "proportion": 0.08641975308641975
+              },
+              "negative_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 7,
+                "complement_count": 74,
+                "proportion": 0.08641975308641975
+              },
+              "net_score_delta": 0.015982772663326032,
+              "top10percent_share_of_gross_positive_improvement": 1.0
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              -0.0005654440961305754,
+              0.0005698211870881669,
+              0.000436859367538855,
+              -0.0002770335129545647,
+              -0.00024415639841671383,
+              -2.104321992834404e-05,
+              -3.843053014807707e-05,
+              -1.9470039313032232e-05,
+              -5.862547205843727e-07,
+              4.296808740761531e-07,
+              -1.7805466354763144e-06,
+              1.0066361130126725e-06
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        }
+      },
+      "delta_vs_B0": 0.015982772663321043,
+      "first2_score_delta": -0.00043770909575746586,
+      "fold_risk": {
+        "difference_of_minima": 0.596506582785139,
+        "minimum_paired_fold_delta": -1.6575118648601261
+      },
+      "paired_fold_deltas": [
+        0.35338803049631906,
+        0.1912503884510386,
+        0.5751928978296945,
+        0.596506582785139,
+        -1.6575118648601261
+      ],
+      "contribution_identity": {
+        "positive_complement_exact_zero": true,
+        "all_months_equal_fallback_net_contribution": true,
+        "monthly_score_delta": [
+          0.05654440961305754,
+          -0.056982118708816684,
+          -0.0436859367538855,
+          0.027703351295456473,
+          0.02441563984167138,
+          0.002104321992834404,
+          0.003843053014807707,
+          0.0019470039313032232,
+          5.8625472058437264e-05,
+          -4.296808740761531e-05,
+          0.00017805466354763145,
+          -0.00010066361130126725
+        ],
+        "annual_score_delta": 0.015982772663325727,
+        "fallback_well_count": 14
+      }
+    },
+    {
+      "stage": "five_later_splits",
+      "seed": 20261012,
+      "split_sha256": "76c46b45060bea7d1d1689120227e57b2dadfb4da87409b4058bb9b7d45cd030",
+      "seconds": 5.09255459997803,
+      "structure_passed": true,
+      "routing_checks": [
+        {
+          "fold": 1,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "b2d9a8a0526fe61631a06117faec07061f6b24e550441d111b1dcd32a96142b9"
+        },
+        {
+          "fold": 2,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "6c08dfe39b252faf1ef7ea26a37e58a7e8847919c6b05286d121d686105cbdf9"
+        },
+        {
+          "fold": 3,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "b0016d0bd484b28554a57c707d37557b5f49642d672a7b1fb977bd6b53ff2513"
+        },
+        {
+          "fold": 4,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "2bbd8990db36a7e467f4d379a0a09bbdf59ce84f809dd2b55f56a2b9d2240c77"
+        },
+        {
+          "fold": 5,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "924a9f5d7064f60f3aceebb2fca8bdc3d0b469f9355fe515c434600a456bed1e"
+        }
+      ],
+      "arms": {
+        "B0": {
+          "official_score": 72.7740676627031,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.26945677694254766,
+            0.28287335821771814,
+            0.28144393032318826,
+            0.254722502302901,
+            0.2650256019788299,
+            0.25003285248408696,
+            0.21661015103451295,
+            0.22323967206991457,
+            0.26173349879105967,
+            0.26070728130323034,
+            0.26462629164596224,
+            0.26144873005716823
+          ],
+          "monthly_official_weighted_loss": [
+            0.13472838847127383,
+            0.07071833955442954,
+            0.03518049129039853,
+            0.015920156393931312,
+            0.008282050061838435,
+            0.003906763320063859,
+            0.0016922668049571324,
+            0.0008720299690231038,
+            0.0005111982398262884,
+            0.0002545969543976859,
+            0.000129212056467755,
+            6.383025636161334e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.13472838847127375,
+            "2": 0.2054467280257033,
+            "4": 0.2565473757100331,
+            "12": 0.272259323372969
+          },
+          "fold_scores": [
+            76.7704101088762,
+            71.98795528344621,
+            72.76139786972071,
+            68.12948126815874,
+            73.97132238042781
+          ],
+          "worst_fold": 68.12948126815874,
+          "fold_std_ddof0": 2.8136101587931726,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.3128713083704343,
+                "early_mean_weighted_loss": 0.23964792416928513,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 17,
+                "complement_wells": 64,
+                "full_mean_weighted_loss": 0.24772548301526326,
+                "early_mean_weighted_loss": 0.1822399989895786,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 50,
+                "complement_wells": 31,
+                "full_mean_weighted_loss": 0.2692294732952986,
+                "early_mean_weighted_loss": 0.20376068097778272,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.37866982117191955,
+                "early_mean_weighted_loss": 0.3009851629378052,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 42,
+                  "complement_count": 39,
+                  "proportion": 0.5185185185185185,
+                  "official_weighted_loss_contribution_all_wells": 0.07418456331798874
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 39,
+                  "complement_count": 42,
+                  "proportion": 0.48148148148148145,
+                  "official_weighted_loss_contribution_all_wells": 0.060543825153285005
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 40,
+                  "complement_count": 41,
+                  "proportion": 0.49382716049382713,
+                  "official_weighted_loss_contribution_all_wells": 0.03659488645222951
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 41,
+                  "complement_count": 40,
+                  "proportion": 0.5061728395061729,
+                  "official_weighted_loss_contribution_all_wells": 0.034123453102200024
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 48,
+                  "complement_count": 33,
+                  "proportion": 0.5925925925925926,
+                  "official_weighted_loss_contribution_all_wells": 0.11077944977021828
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 47,
+                  "complement_count": 34,
+                  "proportion": 0.5802469135802469,
+                  "official_weighted_loss_contribution_all_wells": 0.09466727825548503
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.28836836155234646,
+              "B0_loss_share_B0_top_wells": 0.28836836155234646,
+              "net_score_delta_contribution_from_B0_top_wells": 0.0
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "negative_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "net_score_delta": 0.0,
+              "gross_improvement_concentration": "SUPPRESSED"
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        },
+        "C1": {
+          "official_score": 71.52433253741339,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.2862788076180842,
+            0.28839330100537014,
+            0.29651708222430756,
+            0.2610568477043446,
+            0.26968608208676753,
+            0.25686060231090074,
+            0.22306287264213326,
+            0.23788287654907084,
+            0.2775754903988032,
+            0.2850527399780009,
+            0.278883365827097,
+            0.28068530596011504
+          ],
+          "monthly_official_weighted_loss": [
+            0.1431394038090421,
+            0.07209832525134253,
+            0.037064635278038445,
+            0.01631605298152154,
+            0.008427690065211485,
+            0.004013446911107824,
+            0.001742678692516666,
+            0.000929229986519808,
+            0.0005421396296851625,
+            0.0002783718163847665,
+            0.0001361735184702622,
+            6.852668602541871e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.14313940380904208,
+            "2": 0.21523772906038463,
+            "4": 0.26861841731994457,
+            "12": 0.284756674625866
+          },
+          "fold_scores": [
+            76.08649501463259,
+            70.93933669085993,
+            69.73073976397848,
+            65.98596063973719,
+            74.59399542303262
+          ],
+          "worst_fold": 65.98596063973719,
+          "fold_std_ddof0": 3.590338556263566,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.28907385582972495,
+                "early_mean_weighted_loss": 0.21956613488280494,
+                "score_delta_vs_B0_in_group": 2.3797452540709347,
+                "net_loss_change_contribution_all_wells": -0.004113139945307789,
+                "early_net_loss_change_contribution_all_wells": -0.003470926543342255
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 17,
+                "complement_wells": 64,
+                "full_mean_weighted_loss": 0.27771874477076824,
+                "early_mean_weighted_loss": 0.2004070265492416,
+                "score_delta_vs_B0_in_group": -2.9993261755504945,
+                "net_loss_change_contribution_all_wells": 0.006294882096834371,
+                "early_net_loss_change_contribution_all_wells": 0.003812832944620637
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 50,
+                "complement_wells": 31,
+                "full_mean_weighted_loss": 0.28594076003951874,
+                "early_mean_weighted_loss": 0.21906821428389556,
+                "score_delta_vs_B0_in_group": -1.6711286744220084,
+                "net_loss_change_contribution_all_wells": 0.010315609101370422,
+                "early_net_loss_change_contribution_all_wells": 0.009449094633402972
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.4168912070137207,
+                "early_mean_weighted_loss": 0.32937672663342243,
+                "score_delta_vs_B0_in_group": -3.8221385841801103,
+                "net_loss_change_contribution_all_wells": 0.002359344805049451,
+                "early_net_loss_change_contribution_all_wells": 0.0017525656602232925
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 38,
+                  "complement_count": 43,
+                  "proportion": 0.4691358024691358,
+                  "official_weighted_loss_contribution_all_wells": 0.07815137787624338
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 43,
+                  "complement_count": 38,
+                  "proportion": 0.5308641975308642,
+                  "official_weighted_loss_contribution_all_wells": 0.0649880259327987
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 38,
+                  "complement_count": 43,
+                  "proportion": 0.4691358024691358,
+                  "official_weighted_loss_contribution_all_wells": 0.03712700649479093
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 43,
+                  "complement_count": 38,
+                  "proportion": 0.5308641975308642,
+                  "official_weighted_loss_contribution_all_wells": 0.03497131875655164
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 46,
+                  "complement_count": 35,
+                  "proportion": 0.5679012345679012,
+                  "official_weighted_loss_contribution_all_wells": 0.11527838437103428
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 51,
+                  "complement_count": 30,
+                  "proportion": 0.6296296296296297,
+                  "official_weighted_loss_contribution_all_wells": 0.09995934468935033
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.2757444055947224,
+              "B0_loss_share_B0_top_wells": 0.28836836155234646,
+              "net_score_delta_contribution_from_B0_top_wells": 0.8165531441342025
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 39,
+                "complement_count": 42,
+                "proportion": 0.48148148148148145
+              },
+              "negative_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 42,
+                "complement_count": 39,
+                "proportion": 0.5185185185185185
+              },
+              "net_score_delta": -1.2497351252897004,
+              "top10percent_share_of_gross_positive_improvement": 0.5627007889031153
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              0.00841101533776832,
+              0.0013799856969130362,
+              0.0018841439876398978,
+              0.00039589658759022004,
+              0.00014564000337304785,
+              0.00010668359104396587,
+              5.0411887559533426e-05,
+              5.720001749670337e-05,
+              3.094138985887401e-05,
+              2.377486198708045e-05,
+              6.9614620025071646e-06,
+              4.696429663805387e-06
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        },
+        "R1": {
+          "official_score": 73.18538165723388,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.26602917143233296,
+            0.2758448630647783,
+            0.2800922736665705,
+            0.25028809470582325,
+            0.26046455096510407,
+            0.24677694647002127,
+            0.2160583581166872,
+            0.2227946693642922,
+            0.26155394685476796,
+            0.26137868751849064,
+            0.2662549955512151,
+            0.27066250278276666
+          ],
+          "monthly_official_weighted_loss": [
+            0.13301458571616648,
+            0.06896121576619457,
+            0.035011534208321315,
+            0.015643005919113953,
+            0.008139517217659502,
+            0.0038558897885940823,
+            0.0016879559227866187,
+            0.0008702916772042664,
+            0.0005108475524507187,
+            0.000255252624529776,
+            0.00013000732204649176,
+            6.607971259344889e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.13301458571616645,
+            "2": 0.201975801482361,
+            "4": 0.25263034160979625,
+            "12": 0.2681461834276613
+          },
+          "fold_scores": [
+            76.7704101088762,
+            72.7395930213067,
+            74.16486668481292,
+            67.4436506648147,
+            74.58432352813121
+          ],
+          "worst_fold": 67.4436506648147,
+          "fold_std_ddof0": 3.128099090935562,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.28907385582972495,
+                "early_mean_weighted_loss": 0.21956613488280494,
+                "score_delta_vs_B0_in_group": 2.3797452540709347,
+                "net_loss_change_contribution_all_wells": -0.004113139945307789,
+                "early_net_loss_change_contribution_all_wells": -0.003470926543342255
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 17,
+                "complement_wells": 64,
+                "full_mean_weighted_loss": 0.24772548301526326,
+                "early_mean_weighted_loss": 0.1822399989895786,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 50,
+                "complement_wells": 31,
+                "full_mean_weighted_loss": 0.2692294732952986,
+                "early_mean_weighted_loss": 0.20376068097778272,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.40586437085137383,
+                "early_mean_weighted_loss": 0.32126996785527895,
+                "score_delta_vs_B0_in_group": -2.7194549679454316,
+                "net_loss_change_contribution_all_wells": 0.0016786759061391554,
+                "early_net_loss_change_contribution_all_wells": 0.001252148451695912
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 40,
+                  "complement_count": 41,
+                  "proportion": 0.49382716049382713,
+                  "official_weighted_loss_contribution_all_wells": 0.07183462810431981
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 41,
+                  "complement_count": 40,
+                  "proportion": 0.5061728395061729,
+                  "official_weighted_loss_contribution_all_wells": 0.06117995761184663
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 39,
+                  "complement_count": 42,
+                  "proportion": 0.48148148148148145,
+                  "official_weighted_loss_contribution_all_wells": 0.03517343282372248
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 42,
+                  "complement_count": 39,
+                  "proportion": 0.5185185185185185,
+                  "official_weighted_loss_contribution_all_wells": 0.0337877829424721
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 47,
+                  "complement_count": 34,
+                  "proportion": 0.5802469135802469,
+                  "official_weighted_loss_contribution_all_wells": 0.10700806092804231
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 49,
+                  "complement_count": 32,
+                  "proportion": 0.6049382716049383,
+                  "official_weighted_loss_contribution_all_wells": 0.09496774055431872
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.2837926736755862,
+              "B0_loss_share_B0_top_wells": 0.28836836155234646,
+              "net_score_delta_contribution_from_B0_top_wells": 0.417274425437389
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 7,
+                "complement_count": 74,
+                "proportion": 0.08641975308641975
+              },
+              "negative_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 7,
+                "complement_count": 74,
+                "proportion": 0.08641975308641975
+              },
+              "net_score_delta": 0.4113139945307789,
+              "top10percent_share_of_gross_positive_improvement": 1.0
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              -0.001713802755107302,
+              -0.0017571237882349525,
+              -0.00016895708207721142,
+              -0.0002771504748173571,
+              -0.00014253284417893214,
+              -5.0873531469777176e-05,
+              -4.310882170513309e-06,
+              -1.73829181883723e-06,
+              -3.50687375569851e-07,
+              6.556701320901581e-07,
+              7.952655787367991e-07,
+              2.2494562318355742e-06
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        }
+      },
+      "delta_vs_B0": 0.4113139945307722,
+      "first2_score_delta": 0.3470926543342301,
+      "fold_risk": {
+        "difference_of_minima": -0.6858306033440442,
+        "minimum_paired_fold_delta": -0.6858306033440442
+      },
+      "paired_fold_deltas": [
+        0.0,
+        0.7516377378604915,
+        1.4034688150922108,
+        -0.6858306033440442,
+        0.6130011477034003
+      ],
+      "contribution_identity": {
+        "positive_complement_exact_zero": true,
+        "all_months_equal_fallback_net_contribution": true,
+        "monthly_score_delta": [
+          0.1713802755107302,
+          0.17571237882349525,
+          0.01689570820772114,
+          0.027715047481735706,
+          0.014253284417893215,
+          0.0050873531469777175,
+          0.0004310882170513309,
+          0.000173829181883723,
+          3.5068737556985095e-05,
+          -6.556701320901581e-05,
+          -7.95265578736799e-05,
+          -0.00022494562318355743
+        ],
+        "annual_score_delta": 0.411313994530779,
+        "fallback_well_count": 14
+      }
+    },
+    {
+      "stage": "five_later_splits",
+      "seed": 20261013,
+      "split_sha256": "be2c8df7dbe275ed76f952293a60490c9af7cd837612af7a836a48436c245493",
+      "seconds": 5.081422300077975,
+      "structure_passed": true,
+      "routing_checks": [
+        {
+          "fold": 1,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "796441601fe5088ee66fbe4ae3febd7149c4bb53056e6562c4beff64e6b92af5"
+        },
+        {
+          "fold": 2,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "6c08dfe39b252faf1ef7ea26a37e58a7e8847919c6b05286d121d686105cbdf9"
+        },
+        {
+          "fold": 3,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "6c08dfe39b252faf1ef7ea26a37e58a7e8847919c6b05286d121d686105cbdf9"
+        },
+        {
+          "fold": 4,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "6c08dfe39b252faf1ef7ea26a37e58a7e8847919c6b05286d121d686105cbdf9"
+        },
+        {
+          "fold": 5,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "924a9f5d7064f60f3aceebb2fca8bdc3d0b469f9355fe515c434600a456bed1e"
+        }
+      ],
+      "arms": {
+        "B0": {
+          "official_score": 72.76179359240496,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.2729636824273941,
+            0.2762806252112687,
+            0.2818672061146329,
+            0.25347954314604204,
+            0.26671598745531677,
+            0.24726793501900127,
+            0.21563173285388607,
+            0.23080526168109963,
+            0.26503898387082503,
+            0.2617141749920563,
+            0.26577498688844026,
+            0.2725676329417501
+          ],
+          "monthly_official_weighted_loss": [
+            0.13648184121369705,
+            0.06907015630281718,
+            0.03523340076432911,
+            0.015842471446627628,
+            0.008334874607978649,
+            0.003863561484671895,
+            0.0016846229129209849,
+            0.0009015830534417954,
+            0.0005176542653727051,
+            0.00025558024901567997,
+            0.00012977294281662122,
+            6.654483226116946e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.13648184121369702,
+            "2": 0.20555199751651415,
+            "4": 0.25662786972747087,
+            "12": 0.2723820640759504
+          },
+          "fold_scores": [
+            78.22501726299609,
+            77.07728734099123,
+            68.00170259698149,
+            66.27346094466883,
+            73.89004833697523
+          ],
+          "worst_fold": 66.27346094466883,
+          "fold_std_ddof0": 4.784911011658867,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.29440035905593487,
+                "early_mean_weighted_loss": 0.22532987713495692,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 16,
+                "complement_wells": 65,
+                "full_mean_weighted_loss": 0.2557435117551283,
+                "early_mean_weighted_loss": 0.18716195436152727,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 51,
+                "complement_wells": 30,
+                "full_mean_weighted_loss": 0.2715577642213106,
+                "early_mean_weighted_loss": 0.20589220096399638,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.40179685280232447,
+                "early_mean_weighted_loss": 0.3154016832758699,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 39,
+                  "complement_count": 42,
+                  "proportion": 0.48148148148148145,
+                  "official_weighted_loss_contribution_all_wells": 0.07563872640350004
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 42,
+                  "complement_count": 39,
+                  "proportion": 0.5185185185185185,
+                  "official_weighted_loss_contribution_all_wells": 0.060843114810196955
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 39,
+                  "complement_count": 42,
+                  "proportion": 0.48148148148148145,
+                  "official_weighted_loss_contribution_all_wells": 0.03613534078122549
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 42,
+                  "complement_count": 39,
+                  "proportion": 0.5185185185185185,
+                  "official_weighted_loss_contribution_all_wells": 0.03293481552159168
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 47,
+                  "complement_count": 34,
+                  "proportion": 0.5802469135802469,
+                  "official_weighted_loss_contribution_all_wells": 0.11177406718472553
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 50,
+                  "complement_count": 31,
+                  "proportion": 0.6172839506172839,
+                  "official_weighted_loss_contribution_all_wells": 0.09377793033178863
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.2907610531269436,
+              "B0_loss_share_B0_top_wells": 0.2907610531269436,
+              "net_score_delta_contribution_from_B0_top_wells": 0.0
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "negative_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "net_score_delta": 0.0,
+              "gross_improvement_concentration": "SUPPRESSED"
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        },
+        "C1": {
+          "official_score": 72.25147420137692,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.28344099060323225,
+            0.2762942098532123,
+            0.28369338647372766,
+            0.25519453298807027,
+            0.25277754552965276,
+            0.24731267083041558,
+            0.2087037517590562,
+            0.22414874869926335,
+            0.27617343640168196,
+            0.2761854046751204,
+            0.2697384080085287,
+            0.2843400246467614
+          ],
+          "monthly_official_weighted_loss": [
+            0.14172049530161612,
+            0.06907355246330307,
+            0.03546167330921596,
+            0.01594965831175439,
+            0.007899298297801649,
+            0.0038642604817252435,
+            0.0016304980606176266,
+            0.0008755810496064975,
+            0.0005394012429720351,
+            0.0002697123092530473,
+            0.0001317082070354144,
+            6.941895132977573e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.14172049530161612,
+            "2": 0.21079404776491922,
+            "4": 0.2622053793858896,
+            "12": 0.27748525798623086
+          },
+          "fold_scores": [
+            78.34238902863537,
+            71.90060228193454,
+            70.09047882693729,
+            68.53068582900276,
+            72.01253286367096
+          ],
+          "worst_fold": 68.53068582900276,
+          "fold_std_ddof0": 3.339599701642307,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.27689968222772493,
+                "early_mean_weighted_loss": 0.2112771964344183,
+                "score_delta_vs_B0_in_group": 1.7500676828209927,
+                "net_loss_change_contribution_all_wells": -0.003024808340678259,
+                "early_net_loss_change_contribution_all_wells": -0.002428858392685685
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 16,
+                "complement_wells": 65,
+                "full_mean_weighted_loss": 0.25189315804864476,
+                "early_mean_weighted_loss": 0.1815143627070004,
+                "score_delta_vs_B0_in_group": 0.38503537064835563,
+                "net_loss_change_contribution_all_wells": -0.000760563695107863,
+                "early_net_loss_change_contribution_all_wells": -0.0011155736601534622
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 51,
+                "complement_wells": 30,
+                "full_mean_weighted_loss": 0.2856748983709458,
+                "early_mean_weighted_loss": 0.2198472022659724,
+                "score_delta_vs_B0_in_group": -1.411713414963518,
+                "net_loss_change_contribution_all_wells": 0.008888565946066594,
+                "early_net_loss_change_contribution_all_wells": 0.008786482301244212
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.3929099282551345,
+                "early_mean_weighted_loss": 0.3142111087765677,
+                "score_delta_vs_B0_in_group": 0.8886924547189996,
+                "net_loss_change_contribution_all_wells": -0.0005485755893327157,
+                "early_net_loss_change_contribution_all_wells": -7.349225304334427e-05
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 37,
+                  "complement_count": 44,
+                  "proportion": 0.4567901234567901,
+                  "official_weighted_loss_contribution_all_wells": 0.0741228650123155
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.06759763028930064
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 35,
+                  "complement_count": 46,
+                  "proportion": 0.43209876543209874,
+                  "official_weighted_loss_contribution_all_wells": 0.03416096107366854
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 46,
+                  "complement_count": 35,
+                  "proportion": 0.5679012345679012,
+                  "official_weighted_loss_contribution_all_wells": 0.03491259138963455
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.10828382608598405
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 53,
+                  "complement_count": 28,
+                  "proportion": 0.654320987654321,
+                  "official_weighted_loss_contribution_all_wells": 0.1025102216789352
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.2807665892749365,
+              "B0_loss_share_B0_top_wells": 0.2907610531269436,
+              "net_score_delta_contribution_from_B0_top_wells": 1.0659407671857881
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 40,
+                "complement_count": 41,
+                "proportion": 0.49382716049382713
+              },
+              "negative_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 41,
+                "complement_count": 40,
+                "proportion": 0.5061728395061729
+              },
+              "net_score_delta": -0.5103193910280474,
+              "top10percent_share_of_gross_positive_improvement": 0.557231762904533
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              0.00523865408791914,
+              3.396160485920795e-06,
+              0.00022827254488686128,
+              0.0001071868651267697,
+              -0.00043557631017700275,
+              6.989970533487829e-07,
+              -5.412485230335857e-05,
+              -2.6002003835297927e-05,
+              2.1746977599330394e-05,
+              1.4132060237367253e-05,
+              1.9352642187931806e-06,
+              2.874119068606297e-06
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        },
+        "R1": {
+          "official_score": 73.06427442647279,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.2706235766711896,
+            0.27124540315293516,
+            0.2809019060727455,
+            0.2492773932382127,
+            0.26177104419736447,
+            0.2448028058331573,
+            0.21281141731100064,
+            0.22642780563985695,
+            0.26968941517734835,
+            0.26851536564525524,
+            0.26816043869536244,
+            0.2833719260801258
+          ],
+          "monthly_official_weighted_loss": [
+            0.1353117883355948,
+            0.06781135078823379,
+            0.03511273825909319,
+            0.015579837077388295,
+            0.00818034513116764,
+            0.003825043841143083,
+            0.0016625891977421925,
+            0.0008844836157806912,
+            0.0005267371390182585,
+            0.0002622220367629446,
+            0.00013093771420671994,
+            6.918259914065571e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.13531178833559473,
+            "2": 0.20312313912382848,
+            "4": 0.2538157144603099,
+            "12": 0.2693572557352721
+          },
+          "fold_scores": [
+            80.55782820742284,
+            75.73070344115945,
+            66.6221684985086,
+            68.25152627928955,
+            73.69079859467412
+          ],
+          "worst_fold": 66.6221684985086,
+          "fold_std_ddof0": 5.06507903598131,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.27689968222772493,
+                "early_mean_weighted_loss": 0.2112771964344183,
+                "score_delta_vs_B0_in_group": 1.7500676828209927,
+                "net_loss_change_contribution_all_wells": -0.003024808340678259,
+                "early_net_loss_change_contribution_all_wells": -0.002428858392685685
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 16,
+                "complement_wells": 65,
+                "full_mean_weighted_loss": 0.2557435117551283,
+                "early_mean_weighted_loss": 0.18716195436152727,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 51,
+                "complement_wells": 30,
+                "full_mean_weighted_loss": 0.2715577642213106,
+                "early_mean_weighted_loss": 0.20589220096399638,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.4064591390076184,
+                "early_mean_weighted_loss": 0.31843397144544894,
+                "score_delta_vs_B0_in_group": -0.46622862052938857,
+                "net_loss_change_contribution_all_wells": 0.00028779544477122753,
+                "early_net_loss_change_contribution_all_wells": 0.00018717828207277917
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 37,
+                  "complement_count": 44,
+                  "proportion": 0.4567901234567901,
+                  "official_weighted_loss_contribution_all_wells": 0.07168587464606181
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.0636259136895329
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 37,
+                  "complement_count": 44,
+                  "proportion": 0.4567901234567901,
+                  "official_weighted_loss_contribution_all_wells": 0.03412338674836793
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.03368796403986584
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 45,
+                  "complement_count": 36,
+                  "proportion": 0.5555555555555556,
+                  "official_weighted_loss_contribution_all_wells": 0.10580926139442975
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 52,
+                  "complement_count": 29,
+                  "proportion": 0.6419753086419753,
+                  "official_weighted_loss_contribution_all_wells": 0.09731387772939874
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.28685232054608234,
+              "B0_loss_share_B0_top_wells": 0.2907610531269436,
+              "net_score_delta_contribution_from_B0_top_wells": 0.5896512465575608
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 7,
+                "complement_count": 74,
+                "proportion": 0.08641975308641975
+              },
+              "negative_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 7,
+                "complement_count": 74,
+                "proportion": 0.08641975308641975
+              },
+              "net_score_delta": 0.3024808340678259,
+              "top10percent_share_of_gross_positive_improvement": 1.0
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              -0.001170052878102293,
+              -0.0012588055145833924,
+              -0.00012066250523591889,
+              -0.0002626343692393352,
+              -0.0001545294768110098,
+              -3.851764352881177e-05,
+              -2.203371517879283e-05,
+              -1.7099437661104223e-05,
+              9.082873645553508e-06,
+              6.641787747264691e-06,
+              1.1647713900987105e-06,
+              2.6377668794862547e-06
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        }
+      },
+      "delta_vs_B0": 0.3024808340678362,
+      "first2_score_delta": 0.24288583926856677,
+      "fold_risk": {
+        "difference_of_minima": 0.34870755383977325,
+        "minimum_paired_fold_delta": -1.379534098472888
+      },
+      "paired_fold_deltas": [
+        2.332810944426754,
+        -1.346583899831785,
+        -1.379534098472888,
+        1.978065334620723,
+        -0.19924974230110593
+      ],
+      "contribution_identity": {
+        "positive_complement_exact_zero": true,
+        "all_months_equal_fallback_net_contribution": true,
+        "monthly_score_delta": [
+          0.11700528781022929,
+          0.12588055145833923,
+          0.01206625052359189,
+          0.02626343692393352,
+          0.01545294768110098,
+          0.003851764352881177,
+          0.002203371517879283,
+          0.0017099437661104223,
+          -0.0009082873645553508,
+          -0.0006641787747264691,
+          -0.00011647713900987105,
+          -0.0002637766879486255
+        ],
+        "annual_score_delta": 0.3024808340678255,
+        "fallback_well_count": 14
+      }
+    },
+    {
+      "stage": "five_later_splits",
+      "seed": 20261014,
+      "split_sha256": "ee03f41b81a89d8908f33d6c8ea81639fb507d135da8243832671842d734d78c",
+      "seconds": 5.010976399993524,
+      "structure_passed": true,
+      "routing_checks": [
+        {
+          "fold": 1,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "89003bb5e551b4f0def46aacf044b8e76a4e41bd86681e55cee7ada66871d370"
+        },
+        {
+          "fold": 2,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "796441601fe5088ee66fbe4ae3febd7149c4bb53056e6562c4beff64e6b92af5"
+        },
+        {
+          "fold": 3,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "a3d2a2e980f7bff2d3bc8696d24da84a25e9c1e9857f6501b7bdbcad9fed4be0"
+        },
+        {
+          "fold": 4,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "ac7108a3406458ca5098572e9b9bab1a36e0663576e8f2f9c8f8306614f92495"
+        },
+        {
+          "fold": 5,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "2bbd8990db36a7e467f4d379a0a09bbdf59ce84f809dd2b55f56a2b9d2240c77"
+        }
+      ],
+      "arms": {
+        "B0": {
+          "official_score": 72.35110451067632,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.2780505525007636,
+            0.2820839284547214,
+            0.2805593345611146,
+            0.2554455971096097,
+            0.26691097369044803,
+            0.251899401624408,
+            0.22240348934802345,
+            0.22988314097183954,
+            0.27552110786738476,
+            0.2687578557659155,
+            0.2671017095173056,
+            0.26222087208575817
+          ],
+          "monthly_official_weighted_loss": [
+            0.1390252762503818,
+            0.07052098211368035,
+            0.035069916820139324,
+            0.015965349819350605,
+            0.008340967927826501,
+            0.003935928150381375,
+            0.0017375272605314332,
+            0.0008979810194212482,
+            0.0005381271638034859,
+            0.00026245884352140184,
+            0.00013042075660024688,
+            6.401876759906205e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.1390252762503818,
+            "2": 0.20954625836406213,
+            "4": 0.26058152500355203,
+            "12": 0.2764889548932368
+          },
+          "fold_scores": [
+            74.03970763347117,
+            74.3660321011968,
+            65.3391437898865,
+            72.47746869915181,
+            75.42763263450064
+          ],
+          "worst_fold": 65.3391437898865,
+          "fold_std_ddof0": 3.620985291741541,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.33601586400287164,
+                "early_mean_weighted_loss": 0.2556196306560083,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 19,
+                "complement_wells": 62,
+                "full_mean_weighted_loss": 0.23527616421826938,
+                "early_mean_weighted_loss": 0.17484484240447862,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 48,
+                "complement_wells": 33,
+                "full_mean_weighted_loss": 0.27544033604510126,
+                "early_mean_weighted_loss": 0.20984416859624636,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.3852525753112604,
+                "early_mean_weighted_loss": 0.30376664265290865,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 36,
+                  "complement_count": 45,
+                  "proportion": 0.4444444444444444,
+                  "official_weighted_loss_contribution_all_wells": 0.07392465895603473
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 45,
+                  "complement_count": 36,
+                  "proportion": 0.5555555555555556,
+                  "official_weighted_loss_contribution_all_wells": 0.06510061729434709
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 38,
+                  "complement_count": 43,
+                  "proportion": 0.4691358024691358,
+                  "official_weighted_loss_contribution_all_wells": 0.03522677235845905
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 43,
+                  "complement_count": 38,
+                  "proportion": 0.5308641975308642,
+                  "official_weighted_loss_contribution_all_wells": 0.03529420975522129
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.10915143131449377
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 51,
+                  "complement_count": 30,
+                  "proportion": 0.6296296296296297,
+                  "official_weighted_loss_contribution_all_wells": 0.10039482704956837
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.2793407002565636,
+              "B0_loss_share_B0_top_wells": 0.2793407002565636,
+              "net_score_delta_contribution_from_B0_top_wells": 0.0
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "negative_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "net_score_delta": 0.0,
+              "gross_improvement_concentration": "SUPPRESSED"
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        },
+        "C1": {
+          "official_score": 71.3926247487729,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.28656706087034034,
+            0.29550100931529344,
+            0.295253925305099,
+            0.25792479829898024,
+            0.2659952779029673,
+            0.2529066659185326,
+            0.21309384979013585,
+            0.2312697298152672,
+            0.2895681197766036,
+            0.2882373996153774,
+            0.2847726151247145,
+            0.2851771205764732
+          ],
+          "monthly_official_weighted_loss": [
+            0.14328353043517017,
+            0.07387525232882336,
+            0.03690674066313737,
+            0.016120299893686265,
+            0.008312352434467728,
+            0.003951666654977072,
+            0.0016647957014854363,
+            0.0009033973820908875,
+            0.000565562733938679,
+            0.000281481835561892,
+            0.0001390491284788645,
+            6.962332045324053e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.14328353043517017,
+            "2": 0.21715878276399353,
+            "4": 0.27018582332081714,
+            "12": 0.28607375251227096
+          },
+          "fold_scores": [
+            74.73586337362462,
+            70.83825085132219,
+            66.9594695696699,
+            67.82347011991273,
+            76.39711741528184
+          ],
+          "worst_fold": 66.9594695696699,
+          "fold_std_ddof0": 3.712479472117546,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.2860769065308052,
+                "early_mean_weighted_loss": 0.21712839292443206,
+                "score_delta_vs_B0_in_group": 4.993895747206644,
+                "net_loss_change_contribution_all_wells": -0.008631424748258397,
+                "early_net_loss_change_contribution_all_wells": -0.006652806521506997
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 19,
+                "complement_wells": 62,
+                "full_mean_weighted_loss": 0.25002400517532225,
+                "early_mean_weighted_loss": 0.18142953874600318,
+                "score_delta_vs_B0_in_group": -1.4747840957052791,
+                "net_loss_change_contribution_all_wells": 0.0034593701010370743,
+                "early_net_loss_change_contribution_all_wells": 0.0015445584010983604
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 48,
+                "complement_wells": 33,
+                "full_mean_weighted_loss": 0.3003425242444074,
+                "early_mean_weighted_loss": 0.23131047222432013,
+                "score_delta_vs_B0_in_group": -2.4902188199306066,
+                "net_loss_change_contribution_all_wells": 0.014756852266255446,
+                "early_net_loss_change_contribution_all_wells": 0.012720772520340007
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.37716180604781546,
+                "early_mean_weighted_loss": 0.2933729900359493,
+                "score_delta_vs_B0_in_group": 0.8090769263444948,
+                "net_loss_change_contribution_all_wells": -0.000499430201447219,
+                "early_net_loss_change_contribution_all_wells": -0.0006415834948740318
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 37,
+                  "complement_count": 44,
+                  "proportion": 0.4567901234567901,
+                  "official_weighted_loss_contribution_all_wells": 0.0747654482335082
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.06851808220166197
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 37,
+                  "complement_count": 44,
+                  "proportion": 0.4567901234567901,
+                  "official_weighted_loss_contribution_all_wells": 0.03647645349820358
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.03739879883061977
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 43,
+                  "complement_count": 38,
+                  "proportion": 0.5308641975308642,
+                  "official_weighted_loss_contribution_all_wells": 0.11124190173171178
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 50,
+                  "complement_count": 31,
+                  "proportion": 0.6172839506172839,
+                  "official_weighted_loss_contribution_all_wells": 0.10591688103228175
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.27220048449600126,
+              "B0_loss_share_B0_top_wells": 0.2793407002565636,
+              "net_score_delta_contribution_from_B0_top_wells": 1.014115298596588
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 34,
+                "complement_count": 47,
+                "proportion": 0.41975308641975306
+              },
+              "negative_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 47,
+                "complement_count": 34,
+                "proportion": 0.5802469135802469
+              },
+              "net_score_delta": -0.9584797619034127,
+              "top10percent_share_of_gross_positive_improvement": 0.6419144458159327
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              0.004258254184788349,
+              0.0033542702151430175,
+              0.001836823842998039,
+              0.00015495007433566227,
+              -2.8615493358777442e-05,
+              1.5738504595699304e-05,
+              -7.273155904599794e-05,
+              5.416362669638842e-06,
+              2.743557013519323e-05,
+              1.9022992040490223e-05,
+              8.628371878617657e-06,
+              5.6045528541784715e-06
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        },
+        "R1": {
+          "official_score": 73.21424698550216,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.2696337427016373,
+            0.27230632196694615,
+            0.273571061318326,
+            0.2460286909388056,
+            0.2579488758650389,
+            0.24423282440597402,
+            0.21226624180482703,
+            0.2194609844594861,
+            0.2744092869024532,
+            0.27243685078224233,
+            0.26706806895904467,
+            0.26972625332835015
+          ],
+          "monthly_official_weighted_loss": [
+            0.13481687135081866,
+            0.06807658049173654,
+            0.03419638266479075,
+            0.01537679318367535,
+            0.008060902370782465,
+            0.003816137881343344,
+            0.0016583300141002112,
+            0.0008572694705448676,
+            0.0005359556384813539,
+            0.00026605161209203353,
+            0.00013040433054640853,
+            6.585113606649174e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.13481687135081866,
+            "2": 0.2028934518425552,
+            "4": 0.2524666276910213,
+            "12": 0.2678575301449785
+          },
+          "fold_scores": [
+            74.56604306275321,
+            74.2155673645683,
+            65.57159556916955,
+            72.06675953476092,
+            79.56678214143062
+          ],
+          "worst_fold": 65.57159556916955,
+          "fold_std_ddof0": 4.536741529892251,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.2860769065308052,
+                "early_mean_weighted_loss": 0.21712839292443206,
+                "score_delta_vs_B0_in_group": 4.993895747206644,
+                "net_loss_change_contribution_all_wells": -0.008631424748258397,
+                "early_net_loss_change_contribution_all_wells": -0.006652806521506997
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 19,
+                "complement_wells": 62,
+                "full_mean_weighted_loss": 0.23527616421826938,
+                "early_mean_weighted_loss": 0.17484484240447862,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 48,
+                "complement_wells": 33,
+                "full_mean_weighted_loss": 0.27544033604510126,
+                "early_mean_weighted_loss": 0.20984416859624636,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.39188865109379883,
+                "early_mean_weighted_loss": 0.308345557289074,
+                "score_delta_vs_B0_in_group": -0.6636075782538442,
+                "net_loss_change_contribution_all_wells": 0.00040963430756410133,
+                "early_net_loss_change_contribution_all_wells": 0.00028264905161514466
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 35,
+                  "complement_count": 46,
+                  "proportion": 0.43209876543209874,
+                  "official_weighted_loss_contribution_all_wells": 0.06937689474437239
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 46,
+                  "complement_count": 35,
+                  "proportion": 0.5679012345679012,
+                  "official_weighted_loss_contribution_all_wells": 0.06543997660644628
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 38,
+                  "complement_count": 43,
+                  "proportion": 0.4691358024691358,
+                  "official_weighted_loss_contribution_all_wells": 0.03312216612027581
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 43,
+                  "complement_count": 38,
+                  "proportion": 0.5308641975308642,
+                  "official_weighted_loss_contribution_all_wells": 0.03495441437146069
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.1024990608646482
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 52,
+                  "complement_count": 29,
+                  "proportion": 0.6419753086419753,
+                  "official_weighted_loss_contribution_all_wells": 0.10039439097790698
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.277957187623572,
+              "B0_loss_share_B0_top_wells": 0.2793407002565636,
+              "net_score_delta_contribution_from_B0_top_wells": 0.7126425151382102
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 7,
+                "complement_count": 74,
+                "proportion": 0.08641975308641975
+              },
+              "negative_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 7,
+                "complement_count": 74,
+                "proportion": 0.08641975308641975
+              },
+              "net_score_delta": 0.8631424748258396,
+              "top10percent_share_of_gross_positive_improvement": 0.9999999999999998
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              -0.0042084048995631625,
+              -0.002444401621943834,
+              -0.0008735341553485741,
+              -0.0005885566356752525,
+              -0.000280065557044034,
+              -0.00011979026903803,
+              -7.919724643122186e-05,
+              -4.071154887638081e-05,
+              -2.171525322131906e-06,
+              3.592768570631698e-06,
+              -1.642605383838054e-08,
+              1.8323684674296673e-06
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        }
+      },
+      "delta_vs_B0": 0.8631424748258354,
+      "first2_score_delta": 0.6652806521506932,
+      "fold_risk": {
+        "difference_of_minima": 0.23245177928303917,
+        "minimum_paired_fold_delta": -0.41070916439089444
+      },
+      "paired_fold_deltas": [
+        0.5263354292820424,
+        -0.1504647366284928,
+        0.23245177928303917,
+        -0.41070916439089444,
+        4.139149506929982
+      ],
+      "contribution_identity": {
+        "positive_complement_exact_zero": true,
+        "all_months_equal_fallback_net_contribution": true,
+        "monthly_score_delta": [
+          0.42084048995631623,
+          0.2444401621943834,
+          0.08735341553485741,
+          0.05885566356752525,
+          0.028006555704403403,
+          0.011979026903803,
+          0.007919724643122185,
+          0.0040711548876380815,
+          0.0002171525322131906,
+          -0.0003592768570631698,
+          1.642605383838054e-06,
+          -0.00018323684674296674
+        ],
+        "annual_score_delta": 0.86314247482584,
+        "fallback_well_count": 14
+      }
+    },
+    {
+      "stage": "five_later_splits",
+      "seed": 20261015,
+      "split_sha256": "71152bfc11eede7e7bd72c807245b4c461ce4900a859cf28c7652a0d0669498d",
+      "seconds": 4.996267899987288,
+      "structure_passed": true,
+      "routing_checks": [
+        {
+          "fold": 1,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "6c08dfe39b252faf1ef7ea26a37e58a7e8847919c6b05286d121d686105cbdf9"
+        },
+        {
+          "fold": 2,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "6c08dfe39b252faf1ef7ea26a37e58a7e8847919c6b05286d121d686105cbdf9"
+        },
+        {
+          "fold": 3,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "a1a9694acaded3e4ccc3b03dabf955eb155f927bbb5003eab9e0c5c676748502"
+        },
+        {
+          "fold": 4,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "9c659a0cbfff84c32caa98df4afbf38dc75e2630553e19483eb7b6c43869e7ac"
+        },
+        {
+          "fold": 5,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "450bdc2bab2bd7d18eda8de755a8c3fec39d8b7babd01ed2c950e78628960f39"
+        }
+      ],
+      "arms": {
+        "B0": {
+          "official_score": 73.49081244450626,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.2654635947542009,
+            0.26946618943821504,
+            0.2714840061975765,
+            0.24736822514946805,
+            0.2668891332775899,
+            0.24313034235396955,
+            0.21111618566575285,
+            0.2214098741856341,
+            0.25772723330773484,
+            0.25386822067745085,
+            0.26041410731994935,
+            0.2688795579941728
+          ],
+          "monthly_official_weighted_loss": [
+            0.13273179737710045,
+            0.06736654735955376,
+            0.033935500774697064,
+            0.015460514071841753,
+            0.008340285414924684,
+            0.003798911599280774,
+            0.0016493452005136942,
+            0.0008648823210376332,
+            0.0005033735025541696,
+            0.0002479181842553231,
+            0.00012715532583981902,
+            6.564442333842109e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.13273179737710047,
+            "2": 0.2000983447366542,
+            "4": 0.249494359583193,
+            "12": 0.26509187555493746
+          },
+          "fold_scores": [
+            71.80317406643891,
+            72.00443387585972,
+            70.51885765656397,
+            74.5511144742639,
+            78.68195954803394
+          ],
+          "worst_fold": 70.51885765656397,
+          "fold_std_ddof0": 2.8968943147611848,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.2849022528961566,
+                "early_mean_weighted_loss": 0.21589925423404033,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 17,
+                "complement_wells": 64,
+                "full_mean_weighted_loss": 0.24662913649350132,
+                "early_mean_weighted_loss": 0.18088138788379365,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 50,
+                "complement_wells": 31,
+                "full_mean_weighted_loss": 0.2658223011802845,
+                "early_mean_weighted_loss": 0.20220785540735867,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.3851592044846579,
+                "early_mean_weighted_loss": 0.3047029209215436,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 39,
+                  "complement_count": 42,
+                  "proportion": 0.48148148148148145,
+                  "official_weighted_loss_contribution_all_wells": 0.07196786660133725
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 42,
+                  "complement_count": 39,
+                  "proportion": 0.5185185185185185,
+                  "official_weighted_loss_contribution_all_wells": 0.060763930775763225
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 38,
+                  "complement_count": 43,
+                  "proportion": 0.4691358024691358,
+                  "official_weighted_loss_contribution_all_wells": 0.03443785642522891
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 43,
+                  "complement_count": 38,
+                  "proportion": 0.5308641975308642,
+                  "official_weighted_loss_contribution_all_wells": 0.03292869093432482
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 48,
+                  "complement_count": 33,
+                  "proportion": 0.5925925925925926,
+                  "official_weighted_loss_contribution_all_wells": 0.10640572302656616
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 52,
+                  "complement_count": 29,
+                  "proportion": 0.6419753086419753,
+                  "official_weighted_loss_contribution_all_wells": 0.09369262171008805
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.29357423937827665,
+              "B0_loss_share_B0_top_wells": 0.29357423937827665,
+              "net_score_delta_contribution_from_B0_top_wells": 0.0
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "negative_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "net_score_delta": 0.0,
+              "gross_improvement_concentration": "SUPPRESSED"
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        },
+        "C1": {
+          "official_score": 72.39412640999096,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.28333237538882894,
+            0.27331599848267407,
+            0.28040203641871075,
+            0.2520738012950652,
+            0.25418839735126836,
+            0.24575016845004616,
+            0.20661085941530324,
+            0.22344696872256606,
+            0.26907492775740777,
+            0.2711859932236085,
+            0.2673119994513653,
+            0.2767671898009592
+          ],
+          "monthly_official_weighted_loss": [
+            0.14166618769441447,
+            0.06832899962066852,
+            0.035050254552338844,
+            0.015754612580941574,
+            0.007943387417227136,
+            0.0038398463820319712,
+            0.0016141473391820566,
+            0.0008728397215725237,
+            0.000525536968276187,
+            0.00026483007150743016,
+            0.00013052343723211196,
+            6.757011469749981e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.14166618769441444,
+            "2": 0.209995187315083,
+            "4": 0.2608000544483634,
+            "12": 0.27605873590009034
+          },
+          "fold_scores": [
+            71.25558198993353,
+            73.02109796217684,
+            67.46968852404628,
+            75.88998346364943,
+            74.40543913640235
+          ],
+          "worst_fold": 67.46968852404628,
+          "fold_std_ddof0": 2.9053346766889434,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.27948519883706774,
+                "early_mean_weighted_loss": 0.21349672133875494,
+                "score_delta_vs_B0_in_group": 0.5417054059088875,
+                "net_loss_change_contribution_all_wells": -0.0009362809484844969,
+                "early_net_loss_change_contribution_all_wells": -0.00041525259918513333
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 17,
+                "complement_wells": 64,
+                "full_mean_weighted_loss": 0.27893156416076126,
+                "early_mean_weighted_loss": 0.20371845133569147,
+                "score_delta_vs_B0_in_group": -3.230242766725999,
+                "net_loss_change_contribution_all_wells": 0.006779521856091603,
+                "early_net_loss_change_contribution_all_wells": 0.00479296393434892
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 50,
+                "complement_wells": 31,
+                "full_mean_weighted_loss": 0.27412256466910856,
+                "early_mean_weighted_loss": 0.21114884802144795,
+                "score_delta_vs_B0_in_group": -0.8300263488824041,
+                "net_loss_change_contribution_all_wells": 0.005123619437545705,
+                "early_net_loss_change_contribution_all_wells": 0.0055191312432650115
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.36685116430160475,
+                "early_mean_weighted_loss": 0.29143666855377576,
+                "score_delta_vs_B0_in_group": 1.8308040183053134,
+                "net_loss_change_contribution_all_wells": -0.001130125937225502,
+                "early_net_loss_change_contribution_all_wells": -0.0008189044671461599
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 36,
+                  "complement_count": 45,
+                  "proportion": 0.4444444444444444,
+                  "official_weighted_loss_contribution_all_wells": 0.07468622768532392
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 45,
+                  "complement_count": 36,
+                  "proportion": 0.5555555555555556,
+                  "official_weighted_loss_contribution_all_wells": 0.06697996000909053
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 38,
+                  "complement_count": 43,
+                  "proportion": 0.4691358024691358,
+                  "official_weighted_loss_contribution_all_wells": 0.0340300430600457
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 43,
+                  "complement_count": 38,
+                  "proportion": 0.5308641975308642,
+                  "official_weighted_loss_contribution_all_wells": 0.03429895656062283
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 45,
+                  "complement_count": 36,
+                  "proportion": 0.5555555555555556,
+                  "official_weighted_loss_contribution_all_wells": 0.10871627074536962
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 52,
+                  "complement_count": 29,
+                  "proportion": 0.6419753086419753,
+                  "official_weighted_loss_contribution_all_wells": 0.10127891656971337
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.2806561792065703,
+              "B0_loss_share_B0_top_wells": 0.29357423937827665,
+              "net_score_delta_contribution_from_B0_top_wells": 0.8289861736329931
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 43,
+                "complement_count": 38,
+                "proportion": 0.5308641975308642
+              },
+              "negative_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 38,
+                "complement_count": 43,
+                "proportion": 0.4691358024691358
+              },
+              "net_score_delta": -1.0966860345152813,
+              "top10percent_share_of_gross_positive_improvement": 0.5360806014320209
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              0.008934390317314,
+              0.0009624522611147934,
+              0.0011147537776418027,
+              0.00029409850909981993,
+              -0.00039689799769754584,
+              4.093478275119833e-05,
+              -3.519786133163767e-05,
+              7.957400534890472e-06,
+              2.2163465722017237e-05,
+              1.6911887252107103e-05,
+              3.3681113922929898e-06,
+              1.9256913590786904e-06
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        },
+        "R1": {
+          "official_score": 73.58444053935469,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.2648986769260228,
+            0.26893501469783054,
+            0.27133429782720137,
+            0.24289175948189137,
+            0.26006313723919816,
+            0.24159733322052343,
+            0.21124997334446824,
+            0.21961983009617242,
+            0.2631468062346822,
+            0.25964606843076,
+            0.2641084375716752,
+            0.27971627803058335
+          ],
+          "monthly_official_weighted_loss": [
+            0.1324493384630114,
+            0.06723375367445764,
+            0.03391678722840017,
+            0.01518073496761821,
+            0.008126973038724943,
+            0.0037749583315706786,
+            0.0016503904167536581,
+            0.0008578899613131735,
+            0.0005139586059271136,
+            0.00025356061370191405,
+            0.00012895919803304452,
+            6.829010694106039e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.13244933846301146,
+            "2": 0.1996830921374691,
+            "4": 0.24878061433348742,
+            "12": 0.26415559460645305
+          },
+          "fold_scores": [
+            72.25259033667044,
+            73.06198649442854,
+            69.71980139848766,
+            74.9023313111917,
+            78.06873379366291
+          ],
+          "worst_fold": 69.71980139848766,
+          "fold_std_ddof0": 2.7866307669638175,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.27948519883706774,
+                "early_mean_weighted_loss": 0.21349672133875494,
+                "score_delta_vs_B0_in_group": 0.5417054059088875,
+                "net_loss_change_contribution_all_wells": -0.0009362809484844969,
+                "early_net_loss_change_contribution_all_wells": -0.00041525259918513333
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 17,
+                "complement_wells": 64,
+                "full_mean_weighted_loss": 0.24662913649350132,
+                "early_mean_weighted_loss": 0.18088138788379365,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 50,
+                "complement_wells": 31,
+                "full_mean_weighted_loss": 0.2658223011802845,
+                "early_mean_weighted_loss": 0.20220785540735867,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.39734947816926475,
+                "early_mean_weighted_loss": 0.312835035360297,
+                "score_delta_vs_B0_in_group": -1.219027368460689,
+                "net_loss_change_contribution_all_wells": 0.0007524860299140055,
+                "early_net_loss_change_contribution_all_wells": 0.0005019823727625584
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 37,
+                  "complement_count": 44,
+                  "proportion": 0.4567901234567901,
+                  "official_weighted_loss_contribution_all_wells": 0.06866926481082168
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 44,
+                  "complement_count": 37,
+                  "proportion": 0.5432098765432098,
+                  "official_weighted_loss_contribution_all_wells": 0.06378007365218977
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 38,
+                  "complement_count": 43,
+                  "proportion": 0.4691358024691358,
+                  "official_weighted_loss_contribution_all_wells": 0.03293939429752467
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 43,
+                  "complement_count": 38,
+                  "proportion": 0.5308641975308642,
+                  "official_weighted_loss_contribution_all_wells": 0.034294359376932954
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 47,
+                  "complement_count": 34,
+                  "proportion": 0.5802469135802469,
+                  "official_weighted_loss_contribution_all_wells": 0.10160865910834635
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 53,
+                  "complement_count": 28,
+                  "proportion": 0.654320987654321,
+                  "official_weighted_loss_contribution_all_wells": 0.09807443302912272
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.2895550005014578,
+              "B0_loss_share_B0_top_wells": 0.29357423937827665,
+              "net_score_delta_contribution_from_B0_top_wells": 0.5502696623017281
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 7,
+                "complement_count": 74,
+                "proportion": 0.08641975308641975
+              },
+              "negative_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 7,
+                "complement_count": 74,
+                "proportion": 0.08641975308641975
+              },
+              "net_score_delta": 0.09362809484844972,
+              "top10percent_share_of_gross_positive_improvement": 1.0
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              -0.0002824589140890164,
+              -0.00013279368509611775,
+              -1.8713546296888747e-05,
+              -0.0002797791042235408,
+              -0.00021331237619974107,
+              -2.3953267710094814e-05,
+              1.0452162399644037e-06,
+              -6.992359724459722e-06,
+              1.0585103372943987e-05,
+              5.6424294465909485e-06,
+              1.8038721932255393e-06,
+              2.645683602639297e-06
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        }
+      },
+      "delta_vs_B0": 0.09362809484842671,
+      "first2_score_delta": 0.04152525991850953,
+      "fold_risk": {
+        "difference_of_minima": -0.7990562580763054,
+        "minimum_paired_fold_delta": -0.7990562580763054
+      },
+      "paired_fold_deltas": [
+        0.44941627023152364,
+        1.0575526185688204,
+        -0.7990562580763054,
+        0.35121683692780437,
+        -0.6132257543710296
+      ],
+      "contribution_identity": {
+        "positive_complement_exact_zero": true,
+        "all_months_equal_fallback_net_contribution": true,
+        "monthly_score_delta": [
+          0.02824589140890164,
+          0.013279368509611774,
+          0.0018713546296888746,
+          0.027977910422354077,
+          0.021331237619974106,
+          0.0023953267710094812,
+          -0.00010452162399644037,
+          0.0006992359724459723,
+          -0.0010585103372943987,
+          -0.0005642429446590948,
+          -0.00018038721932255394,
+          -0.00026456836026392966
+        ],
+        "annual_score_delta": 0.0936280948484495,
+        "fallback_well_count": 14
+      }
+    },
+    {
+      "stage": "five_later_splits",
+      "seed": 20261016,
+      "split_sha256": "037abe89d2feadc102658e7b5a37fa865fa77b43c2a61dc2d0f2d16575ef84ab",
+      "seconds": 5.062334700021893,
+      "structure_passed": true,
+      "routing_checks": [
+        {
+          "fold": 1,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "8f1f1926fa30329da49e1bbf2514487dbd8501b347d69a8326d5c9b7ba1824f7"
+        },
+        {
+          "fold": 2,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "6c08dfe39b252faf1ef7ea26a37e58a7e8847919c6b05286d121d686105cbdf9"
+        },
+        {
+          "fold": 3,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "6c08dfe39b252faf1ef7ea26a37e58a7e8847919c6b05286d121d686105cbdf9"
+        },
+        {
+          "fold": 4,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "924a9f5d7064f60f3aceebb2fca8bdc3d0b469f9355fe515c434600a456bed1e"
+        },
+        {
+          "fold": 5,
+          "full_well_12_month_identity": true,
+          "independently_derived_arm_metadata": true,
+          "positive_exact_B0": true,
+          "fallback_exact_C1": true,
+          "train_threshold_sha256": "6c08dfe39b252faf1ef7ea26a37e58a7e8847919c6b05286d121d686105cbdf9"
+        }
+      ],
+      "arms": {
+        "B0": {
+          "official_score": 72.12554298467437,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.28004886874636714,
+            0.283364366960084,
+            0.28756318565606537,
+            0.2563095186110391,
+            0.2695323244188947,
+            0.25332921258141383,
+            0.22039913887765886,
+            0.21936845670303187,
+            0.25888631673253143,
+            0.25814909156713023,
+            0.26420687382465835,
+            0.2770010377792918
+          ],
+          "monthly_official_weighted_loss": [
+            0.14002443437318357,
+            0.070841091740021,
+            0.03594539820700817,
+            0.016019344913189945,
+            0.008422885138090459,
+            0.003958268946584591,
+            0.0017218682724817098,
+            0.0008569080339962183,
+            0.0005056373373682254,
+            0.0002520987222335256,
+            0.00012900726260969646,
+            6.762720648908491e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.14002443437318357,
+            "2": 0.21086552611320453,
+            "4": 0.2628302692334027,
+            "12": 0.2787445701532562
+          },
+          "fold_scores": [
+            66.78678484415286,
+            66.65207496148268,
+            80.24366833455609,
+            76.09883916132635,
+            71.18002000563651
+          ],
+          "worst_fold": 66.65207496148268,
+          "fold_std_ddof0": 5.310818743651959,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.3512332233357238,
+                "early_mean_weighted_loss": 0.26759471298215837,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 18,
+                "complement_wells": 63,
+                "full_mean_weighted_loss": 0.24804169644936946,
+                "early_mean_weighted_loss": 0.18409540826844947,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 49,
+                "complement_wells": 32,
+                "full_mean_weighted_loss": 0.26931213305357077,
+                "early_mean_weighted_loss": 0.20449110784871963,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.39773799130753507,
+                "early_mean_weighted_loss": 0.31582447634217525,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 40,
+                  "complement_count": 41,
+                  "proportion": 0.49382716049382713,
+                  "official_weighted_loss_contribution_all_wells": 0.07526024658546174
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 41,
+                  "complement_count": 40,
+                  "proportion": 0.5061728395061729,
+                  "official_weighted_loss_contribution_all_wells": 0.06476418778772182
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 42,
+                  "complement_count": 39,
+                  "proportion": 0.5185185185185185,
+                  "official_weighted_loss_contribution_all_wells": 0.035792676574778
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 39,
+                  "complement_count": 42,
+                  "proportion": 0.48148148148148145,
+                  "official_weighted_loss_contribution_all_wells": 0.035048415165242985
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 49,
+                  "complement_count": 32,
+                  "proportion": 0.6049382716049383,
+                  "official_weighted_loss_contribution_all_wells": 0.11105292316023975
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 48,
+                  "complement_count": 33,
+                  "proportion": 0.5925925925925926,
+                  "official_weighted_loss_contribution_all_wells": 0.0998126029529648
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.2818170932652012,
+              "B0_loss_share_B0_top_wells": 0.2818170932652012,
+              "net_score_delta_contribution_from_B0_top_wells": 0.0
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "negative_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "net_score_delta": 0.0,
+              "gross_improvement_concentration": "SUPPRESSED"
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        },
+        "C1": {
+          "official_score": 72.33073576603124,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.2801927877803863,
+            0.2808450943391712,
+            0.2816392107367958,
+            0.2504650605510222,
+            0.25555359595238314,
+            0.25505256379563196,
+            0.2126234266723141,
+            0.22789589495847035,
+            0.27607412276571136,
+            0.27056997276460476,
+            0.2700927856833768,
+            0.2789588652904719
+          ],
+          "monthly_official_weighted_loss": [
+            0.14009639389019315,
+            0.0702112735847928,
+            0.03520490134209948,
+            0.015654066284438887,
+            0.007986049873511973,
+            0.003985196309306749,
+            0.0016611205208774539,
+            0.0008902183396815248,
+            0.00053920727102678,
+            0.00026422848902793434,
+            0.00013188124300946133,
+            6.810519172130662e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.14009639389019313,
+            "2": 0.21030766747498597,
+            "4": 0.2611666351015244,
+            "12": 0.27669264233968754
+          },
+          "fold_scores": [
+            71.62367081818178,
+            66.37733595644063,
+            76.18968715450279,
+            77.45022147286707,
+            70.05695498740458
+          ],
+          "worst_fold": 66.37733595644063,
+          "fold_std_ddof0": 4.054953472109493,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.309468798152686,
+                "early_mean_weighted_loss": 0.23513420959965076,
+                "score_delta_vs_B0_in_group": 4.176442518303781,
+                "net_loss_change_contribution_all_wells": -0.007218542624228757,
+                "early_net_loss_change_contribution_all_wells": -0.005610457374754398
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 18,
+                "complement_wells": 63,
+                "full_mean_weighted_loss": 0.25300518638073266,
+                "early_mean_weighted_loss": 0.18510387889662447,
+                "score_delta_vs_B0_in_group": -0.49634899313631503,
+                "net_loss_change_contribution_all_wells": 0.0011029977625251445,
+                "early_net_loss_change_contribution_all_wells": 0.0002241045840388951
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 49,
+                "complement_wells": 32,
+                "full_mean_weighted_loss": 0.2760295408270183,
+                "early_mean_weighted_loss": 0.212472904304888,
+                "score_delta_vs_B0_in_group": -0.6717407773447541,
+                "net_loss_change_contribution_all_wells": 0.004063617048134932,
+                "early_net_loss_change_contribution_all_wells": 0.004828494152496919
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.3886364045382075,
+                "early_mean_weighted_loss": 0.3116807654496151,
+                "score_delta_vs_B0_in_group": 0.9101586769327596,
+                "net_loss_change_contribution_all_wells": -0.0005618263437856541,
+                "early_net_loss_change_contribution_all_wells": -0.0002557846229975354
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 38,
+                  "complement_count": 43,
+                  "proportion": 0.4691358024691358,
+                  "official_weighted_loss_contribution_all_wells": 0.07535590686631595
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 43,
+                  "complement_count": 38,
+                  "proportion": 0.5308641975308642,
+                  "official_weighted_loss_contribution_all_wells": 0.06474048702387719
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 36,
+                  "complement_count": 45,
+                  "proportion": 0.4444444444444444,
+                  "official_weighted_loss_contribution_all_wells": 0.03549369412685555
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 45,
+                  "complement_count": 36,
+                  "proportion": 0.5555555555555556,
+                  "official_weighted_loss_contribution_all_wells": 0.03471757945793728
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 45,
+                  "complement_count": 36,
+                  "proportion": 0.5555555555555556,
+                  "official_weighted_loss_contribution_all_wells": 0.1108496009931715
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 52,
+                  "complement_count": 29,
+                  "proportion": 0.6419753086419753,
+                  "official_weighted_loss_contribution_all_wells": 0.09945806648181447
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.2795985224595169,
+              "B0_loss_share_B0_top_wells": 0.2818170932652012,
+              "net_score_delta_contribution_from_B0_top_wells": 0.9102386048897615
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 42,
+                "complement_count": 39,
+                "proportion": 0.5185185185185185
+              },
+              "negative_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 39,
+                "complement_count": 42,
+                "proportion": 0.48148148148148145
+              },
+              "net_score_delta": 0.2051927813568678,
+              "top10percent_share_of_gross_positive_improvement": 0.5243815066203994
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              7.195951700957181e-05,
+              -0.0006298181552281581,
+              -0.0007404968649087045,
+              -0.0003652786287510616,
+              -0.0004368352645784827,
+              2.6927362722156474e-05,
+              -6.074775160425617e-05,
+              3.331030568530638e-05,
+              3.356993365855489e-05,
+              1.212976679440879e-05,
+              2.873980399764895e-06,
+              4.779852322217062e-07
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        },
+        "R1": {
+          "official_score": 72.84739724709726,
+          "well_count": 81,
+          "monthly_unweighted_relative_error": [
+            0.2726810605577863,
+            0.27565815383822817,
+            0.28235532736170194,
+            0.24728238008999134,
+            0.2611836987809856,
+            0.24908940356081635,
+            0.21392666478689965,
+            0.21549924693234873,
+            0.25835994596210826,
+            0.25935208179388325,
+            0.26282509271743926,
+            0.27881571771124136
+          ],
+          "monthly_official_weighted_loss": [
+            0.13634053027889315,
+            0.06891453845955704,
+            0.03529441592021274,
+            0.015455148755624459,
+            0.0081619905869058,
+            0.0038920219306377555,
+            0.0016713020686476535,
+            0.0008417939333294872,
+            0.0005046092694572427,
+            0.0002532735173768391,
+            0.00012833256480343714,
+            6.807024358184604e-05
+          ],
+          "official_weighted_prefix_loss": {
+            "1": 0.13634053027889312,
+            "2": 0.20525506873845017,
+            "4": 0.25600463341428736,
+            "12": 0.27152602752902744
+          },
+          "fold_scores": [
+            68.62870647946946,
+            65.62007600333527,
+            80.74178337196871,
+            77.23615100746095,
+            72.27393754622864
+          ],
+          "worst_fold": 65.62007600333527,
+          "fold_std_ddof0": 5.512331046998226,
+          "diagnostics": {
+            "prediction_state_groups": {
+              "raw_scale_fallback": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 14,
+                "complement_wells": 67,
+                "full_mean_weighted_loss": 0.309468798152686,
+                "early_mean_weighted_loss": 0.23513420959965076,
+                "score_delta_vs_B0_in_group": 4.176442518303781,
+                "net_loss_change_contribution_all_wells": -0.007218542624228757,
+                "early_net_loss_change_contribution_all_wells": -0.005610457374754398
+              },
+              "positive_scale_training_q25_low": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 18,
+                "complement_wells": 63,
+                "full_mean_weighted_loss": 0.24804169644936946,
+                "early_mean_weighted_loss": 0.18409540826844947,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              },
+              "other_positive_scale": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 49,
+                "complement_wells": 32,
+                "full_mean_weighted_loss": 0.26931213305357077,
+                "early_mean_weighted_loss": 0.20449110784871963,
+                "score_delta_vs_B0_in_group": 0.0,
+                "net_loss_change_contribution_all_wells": 0.0,
+                "early_net_loss_change_contribution_all_wells": 0.0
+              }
+            },
+            "retrospective_target_slices": {
+              "any_true_zero_first2": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "true_month2_at_most_half_month1_positive": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "group_wells": 5,
+                "complement_wells": 76,
+                "full_mean_weighted_loss": 0.3957709997623435,
+                "early_mean_weighted_loss": 0.31361101476720105,
+                "score_delta_vs_B0_in_group": 0.1966991545191599,
+                "net_loss_change_contribution_all_wells": -0.00012141923118466658,
+                "early_net_loss_change_contribution_all_wells": -0.00013663343055396067
+              }
+            },
+            "early_directional_losses": {
+              "month1": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 39,
+                  "complement_count": 42,
+                  "proportion": 0.48148148148148145,
+                  "official_weighted_loss_contribution_all_wells": 0.0720177053071416
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 42,
+                  "complement_count": 39,
+                  "proportion": 0.5185185185185185,
+                  "official_weighted_loss_contribution_all_wells": 0.06432282497175151
+                }
+              },
+              "month2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 41,
+                  "complement_count": 40,
+                  "proportion": 0.5061728395061729,
+                  "official_weighted_loss_contribution_all_wells": 0.0342756421945795
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 40,
+                  "complement_count": 41,
+                  "proportion": 0.49382716049382713,
+                  "official_weighted_loss_contribution_all_wells": 0.034638896264977535
+                }
+              },
+              "first2": {
+                "over": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 48,
+                  "complement_count": 33,
+                  "proportion": 0.5925925925925926,
+                  "official_weighted_loss_contribution_all_wells": 0.10629334750172109
+                },
+                "under": {
+                  "status": "RELEASED",
+                  "privacy_gate_passed": true,
+                  "well_count": 49,
+                  "complement_count": 32,
+                  "proportion": 0.6049382716049383,
+                  "official_weighted_loss_contribution_all_wells": 0.09896172123672906
+                }
+              }
+            },
+            "loss_concentration": {
+              "status": "RELEASED",
+              "top_well_count": 9,
+              "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+              "own_loss_share_top_wells": 0.27933655174388505,
+              "B0_loss_share_B0_top_wells": 0.2818170932652012,
+              "net_score_delta_contribution_from_B0_top_wells": 0.5412171632648523
+            },
+            "improvement_distribution": {
+              "positive_wells": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 11,
+                "complement_count": 70,
+                "proportion": 0.13580246913580246
+              },
+              "negative_wells": {
+                "status": "SUPPRESSED",
+                "privacy_gate_passed": false
+              },
+              "net_score_delta": 0.7218542624228756,
+              "top10percent_share_of_gross_positive_improvement": 0.9760520228717046
+            },
+            "monthly_net_weighted_loss_change_vs_B0": [
+              -0.0036839040942904496,
+              -0.0019265532804639465,
+              -0.000650982286795426,
+              -0.0005641961575654876,
+              -0.00026089455118465533,
+              -6.6247015946836e-05,
+              -5.0566203834056496e-05,
+              -1.5114100666731073e-05,
+              -1.0280679109826662e-06,
+              1.1747951433134837e-06,
+              -6.746978062593434e-07,
+              4.4303709276110454e-07
+            ],
+            "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+            "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+          }
+        }
+      },
+      "delta_vs_B0": 0.7218542624228945,
+      "first2_score_delta": 0.5610457374754352,
+      "fold_risk": {
+        "difference_of_minima": -1.0319989581474118,
+        "minimum_paired_fold_delta": -1.0319989581474118
+      },
+      "paired_fold_deltas": [
+        1.841921635316595,
+        -1.0319989581474118,
+        0.4981150374126173,
+        1.137311846134594,
+        1.0939175405921304
+      ],
+      "contribution_identity": {
+        "positive_complement_exact_zero": true,
+        "all_months_equal_fallback_net_contribution": true,
+        "monthly_score_delta": [
+          0.36839040942904494,
+          0.19265532804639465,
+          0.0650982286795426,
+          0.056419615756548754,
+          0.026089455118465534,
+          0.0066247015946836,
+          0.00505662038340565,
+          0.0015114100666731073,
+          0.00010280679109826662,
+          -0.00011747951433134838,
+          6.746978062593435e-05,
+          -4.430370927611045e-05
+        ],
+        "annual_score_delta": 0.7218542624228755,
+        "fallback_well_count": 14
+      }
+    }
+  ],
+  "confirmation": {
+    "stage": "conditional_confirmation",
+    "seed": 20271012,
+    "split_sha256": "8e88a0f3bfb04caa0f3c57f3ca226a7d4c86144ce13b4419ee69800aa447a1f2",
+    "seconds": 5.048305300064385,
+    "structure_passed": true,
+    "routing_checks": [
+      {
+        "fold": 1,
+        "full_well_12_month_identity": true,
+        "independently_derived_arm_metadata": true,
+        "positive_exact_B0": true,
+        "fallback_exact_C1": true,
+        "train_threshold_sha256": "6c08dfe39b252faf1ef7ea26a37e58a7e8847919c6b05286d121d686105cbdf9"
+      },
+      {
+        "fold": 2,
+        "full_well_12_month_identity": true,
+        "independently_derived_arm_metadata": true,
+        "positive_exact_B0": true,
+        "fallback_exact_C1": true,
+        "train_threshold_sha256": "e040aafde8e8c48d160853ff93ccbe3c5ac2d96102c7541d7b01369e2a43cf25"
+      },
+      {
+        "fold": 3,
+        "full_well_12_month_identity": true,
+        "independently_derived_arm_metadata": true,
+        "positive_exact_B0": true,
+        "fallback_exact_C1": true,
+        "train_threshold_sha256": "6c08dfe39b252faf1ef7ea26a37e58a7e8847919c6b05286d121d686105cbdf9"
+      },
+      {
+        "fold": 4,
+        "full_well_12_month_identity": true,
+        "independently_derived_arm_metadata": true,
+        "positive_exact_B0": true,
+        "fallback_exact_C1": true,
+        "train_threshold_sha256": "41ee15c697e289ab5114a6ffd6b4ebe548353daf50a37c4d8ab8b752e4b6f808"
+      },
+      {
+        "fold": 5,
+        "full_well_12_month_identity": true,
+        "independently_derived_arm_metadata": true,
+        "positive_exact_B0": true,
+        "fallback_exact_C1": true,
+        "train_threshold_sha256": "df4f04c855072f3f63f5f7608437050f05dc051f83d47acef5c204f9d207eeb1"
+      }
+    ],
+    "arms": {
+      "B0": {
+        "official_score": 74.13243072263947,
+        "well_count": 81,
+        "monthly_unweighted_relative_error": [
+          0.25730890300282605,
+          0.2644408324324514,
+          0.2669913979579261,
+          0.24232796213385413,
+          0.26389977512171164,
+          0.23840283479916402,
+          0.20839766042994134,
+          0.21640586961606625,
+          0.2590578196630717,
+          0.2556368689070596,
+          0.25888609211191504,
+          0.2630838718471746
+        ],
+        "monthly_official_weighted_loss": [
+          0.12865445150141303,
+          0.06611020810811286,
+          0.03337392474474076,
+          0.015145497633365883,
+          0.008246867972553489,
+          0.003725044293736938,
+          0.0016281067221089168,
+          0.0008453354281877588,
+          0.0005059723040294369,
+          0.0002496453797920504,
+          0.00012640922466402102,
+          6.42294609001891e-05
+        ],
+        "official_weighted_prefix_loss": {
+          "1": 0.12865445150141305,
+          "2": 0.19476465960952596,
+          "4": 0.2432840819876326,
+          "12": 0.2586756927736054
+        },
+        "fold_scores": [
+          65.0154297215554,
+          79.37709159775903,
+          76.04981177520065,
+          75.7260381672741,
+          75.06359491397588
+        ],
+        "worst_fold": 65.0154297215554,
+        "fold_std_ddof0": 4.850654372701243,
+        "diagnostics": {
+          "prediction_state_groups": {
+            "raw_scale_fallback": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "group_wells": 14,
+              "complement_wells": 67,
+              "full_mean_weighted_loss": 0.2974922707466237,
+              "early_mean_weighted_loss": 0.2252260685407411,
+              "score_delta_vs_B0_in_group": 0.0,
+              "net_loss_change_contribution_all_wells": 0.0,
+              "early_net_loss_change_contribution_all_wells": 0.0
+            },
+            "positive_scale_training_q25_low": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "group_wells": 16,
+              "complement_wells": 65,
+              "full_mean_weighted_loss": 0.2388174172302222,
+              "early_mean_weighted_loss": 0.17553011595318724,
+              "score_delta_vs_B0_in_group": 0.0,
+              "net_loss_change_contribution_all_wells": 0.0,
+              "early_net_loss_change_contribution_all_wells": 0.0
+            },
+            "other_positive_scale": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "group_wells": 51,
+              "complement_wells": 30,
+              "full_mean_weighted_loss": 0.2542502087946225,
+              "early_mean_weighted_loss": 0.19243707085392606,
+              "score_delta_vs_B0_in_group": 0.0,
+              "net_loss_change_contribution_all_wells": 0.0,
+              "early_net_loss_change_contribution_all_wells": 0.0
+            }
+          },
+          "retrospective_target_slices": {
+            "any_true_zero_first2": {
+              "status": "SUPPRESSED",
+              "privacy_gate_passed": false
+            },
+            "true_month2_at_most_half_month1_positive": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "group_wells": 5,
+              "complement_wells": 76,
+              "full_mean_weighted_loss": 0.3849960277690944,
+              "early_mean_weighted_loss": 0.3025683953209235,
+              "score_delta_vs_B0_in_group": 0.0,
+              "net_loss_change_contribution_all_wells": 0.0,
+              "early_net_loss_change_contribution_all_wells": 0.0
+            }
+          },
+          "early_directional_losses": {
+            "month1": {
+              "over": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 39,
+                "complement_count": 42,
+                "proportion": 0.48148148148148145,
+                "official_weighted_loss_contribution_all_wells": 0.07157193294833093
+              },
+              "under": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 42,
+                "complement_count": 39,
+                "proportion": 0.5185185185185185,
+                "official_weighted_loss_contribution_all_wells": 0.057082518553082134
+              }
+            },
+            "month2": {
+              "over": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 38,
+                "complement_count": 43,
+                "proportion": 0.4691358024691358,
+                "official_weighted_loss_contribution_all_wells": 0.0347263937844222
+              },
+              "under": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 43,
+                "complement_count": 38,
+                "proportion": 0.5308641975308642,
+                "official_weighted_loss_contribution_all_wells": 0.03138381432369068
+              }
+            },
+            "first2": {
+              "over": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 48,
+                "complement_count": 33,
+                "proportion": 0.5925925925925926,
+                "official_weighted_loss_contribution_all_wells": 0.10629832673275313
+              },
+              "under": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 52,
+                "complement_count": 29,
+                "proportion": 0.6419753086419753,
+                "official_weighted_loss_contribution_all_wells": 0.08846633287677282
+              }
+            }
+          },
+          "loss_concentration": {
+            "status": "RELEASED",
+            "top_well_count": 9,
+            "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+            "own_loss_share_top_wells": 0.2969821525843512,
+            "B0_loss_share_B0_top_wells": 0.2969821525843512,
+            "net_score_delta_contribution_from_B0_top_wells": 0.0
+          },
+          "improvement_distribution": {
+            "positive_wells": {
+              "status": "SUPPRESSED",
+              "privacy_gate_passed": false
+            },
+            "negative_wells": {
+              "status": "SUPPRESSED",
+              "privacy_gate_passed": false
+            },
+            "net_score_delta": 0.0,
+            "gross_improvement_concentration": "SUPPRESSED"
+          },
+          "monthly_net_weighted_loss_change_vs_B0": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+          "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+        }
+      },
+      "C1": {
+        "official_score": 71.8838692158089,
+        "well_count": 81,
+        "monthly_unweighted_relative_error": [
+          0.2852363385770597,
+          0.28787290880323746,
+          0.28154724691746413,
+          0.25167976489423843,
+          0.2603315686420359,
+          0.2527655600272305,
+          0.21208216875764824,
+          0.2281135375363265,
+          0.2803053948510202,
+          0.27649706404084756,
+          0.2720938294179348,
+          0.28012496291047456
+        ],
+        "monthly_official_weighted_loss": [
+          0.14261816928852986,
+          0.07196822720080936,
+          0.03519340586468302,
+          0.015729985305889902,
+          0.008135361520063621,
+          0.0039494618754254765,
+          0.0016568919434191269,
+          0.0008910685060012753,
+          0.0005474714743183988,
+          0.0002700166641023902,
+          0.00013285831514547598,
+          6.838988352306508e-05
+        ],
+        "official_weighted_prefix_loss": {
+          "1": 0.14261816928852986,
+          "2": 0.2145863964893392,
+          "4": 0.2655097876599121,
+          "12": 0.28116130784191096
+        },
+        "fold_scores": [
+          65.52962813521246,
+          73.57744430653452,
+          74.58316669380064,
+          73.37541634644361,
+          72.75083066459057
+        ],
+        "worst_fold": 65.52962813521246,
+        "fold_std_ddof0": 3.270338640657501,
+        "diagnostics": {
+          "prediction_state_groups": {
+            "raw_scale_fallback": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "group_wells": 14,
+              "complement_wells": 67,
+              "full_mean_weighted_loss": 0.2948289345887312,
+              "early_mean_weighted_loss": 0.22591970974877182,
+              "score_delta_vs_B0_in_group": 0.2663336157892526,
+              "net_loss_change_contribution_all_wells": -0.00046032970630241184,
+              "early_net_loss_change_contribution_all_wells": 0.00011988860385715059
+            },
+            "positive_scale_training_q25_low": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "group_wells": 16,
+              "complement_wells": 65,
+              "full_mean_weighted_loss": 0.24176453709767068,
+              "early_mean_weighted_loss": 0.17377630526855237,
+              "score_delta_vs_B0_in_group": -0.2947119867448467,
+              "net_loss_change_contribution_all_wells": 0.0005821471343108083,
+              "early_net_loss_change_contribution_all_wells": -0.00034643174017479105
+            },
+            "other_positive_scale": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "group_wells": 51,
+              "complement_wells": 30,
+              "full_mean_weighted_loss": 0.28976918151744746,
+              "early_mean_weighted_loss": 0.2242784567618987,
+              "score_delta_vs_B0_in_group": -3.5518972722824893,
+              "net_loss_change_contribution_all_wells": 0.022363797640297153,
+              "early_net_loss_change_contribution_all_wells": 0.020048280016130897
+            }
+          },
+          "retrospective_target_slices": {
+            "any_true_zero_first2": {
+              "status": "SUPPRESSED",
+              "privacy_gate_passed": false
+            },
+            "true_month2_at_most_half_month1_positive": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "group_wells": 5,
+              "complement_wells": 76,
+              "full_mean_weighted_loss": 0.36577139980360956,
+              "early_mean_weighted_loss": 0.29256871172522975,
+              "score_delta_vs_B0_in_group": 1.9224627965484826,
+              "net_loss_change_contribution_all_wells": -0.001186705429968199,
+              "early_net_loss_change_contribution_all_wells": -0.0006172644194872679
+            }
+          },
+          "early_directional_losses": {
+            "month1": {
+              "over": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 36,
+                "complement_count": 45,
+                "proportion": 0.4444444444444444,
+                "official_weighted_loss_contribution_all_wells": 0.07351436378461218
+              },
+              "under": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 45,
+                "complement_count": 36,
+                "proportion": 0.5555555555555556,
+                "official_weighted_loss_contribution_all_wells": 0.06910380550391769
+              }
+            },
+            "month2": {
+              "over": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 37,
+                "complement_count": 44,
+                "proportion": 0.4567901234567901,
+                "official_weighted_loss_contribution_all_wells": 0.03509313737541313
+              },
+              "under": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 44,
+                "complement_count": 37,
+                "proportion": 0.5432098765432098,
+                "official_weighted_loss_contribution_all_wells": 0.03687508982539621
+              }
+            },
+            "first2": {
+              "over": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 45,
+                "complement_count": 36,
+                "proportion": 0.5555555555555556,
+                "official_weighted_loss_contribution_all_wells": 0.10860750116002531
+              },
+              "under": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 53,
+                "complement_count": 28,
+                "proportion": 0.654320987654321,
+                "official_weighted_loss_contribution_all_wells": 0.1059788953293139
+              }
+            }
+          },
+          "loss_concentration": {
+            "status": "RELEASED",
+            "top_well_count": 9,
+            "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+            "own_loss_share_top_wells": 0.27258702424393716,
+            "B0_loss_share_B0_top_wells": 0.2969821525843512,
+            "net_score_delta_contribution_from_B0_top_wells": 0.6231913056223443
+          },
+          "improvement_distribution": {
+            "positive_wells": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "well_count": 37,
+              "complement_count": 44,
+              "proportion": 0.4567901234567901
+            },
+            "negative_wells": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "well_count": 44,
+              "complement_count": 37,
+              "proportion": 0.5432098765432098
+            },
+            "net_score_delta": -2.248561506830555,
+            "top10percent_share_of_gross_positive_improvement": 0.5713451242818396
+          },
+          "monthly_net_weighted_loss_change_vs_B0": [
+            0.0139637177871168,
+            0.005858019092696459,
+            0.0018194811199422486,
+            0.0005844876725240169,
+            -0.00011150645248986848,
+            0.00022441758168853935,
+            2.8785221310210005e-05,
+            4.573307781351661e-05,
+            4.1499170288961795e-05,
+            2.0371284310339837e-05,
+            6.449090481454965e-06,
+            4.1604226228759855e-06
+          ],
+          "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+          "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+        }
+      },
+      "R1": {
+        "official_score": 74.1784636932697,
+        "well_count": 81,
+        "monthly_unweighted_relative_error": [
+          0.25724296701909133,
+          0.26505225881534966,
+          0.26740875672489023,
+          0.23715827412656962,
+          0.2555721294545767,
+          0.2366753751412459,
+          0.20534041920404328,
+          0.21411492451056566,
+          0.262371381866221,
+          0.2591827192762584,
+          0.2566930558695387,
+          0.27093919241231684
+        ],
+        "monthly_official_weighted_loss": [
+          0.12862148350954566,
+          0.06626306470383742,
+          0.03342609459061128,
+          0.014822392132910601,
+          0.007986629045455522,
+          0.003698052736581967,
+          0.0016042220250315881,
+          0.0008363864238693971,
+          0.0005124441052074629,
+          0.0002531081242932211,
+          0.0001253384061862982,
+          6.614726377253829e-05
+        ],
+        "official_weighted_prefix_loss": {
+          "1": 0.1286214835095457,
+          "2": 0.19488454821338308,
+          "4": 0.243133034936905,
+          "12": 0.25821536306730297
+        },
+        "fold_scores": [
+          64.46468484513834,
+          78.5987554082547,
+          77.37502018486795,
+          75.33431023859512,
+          75.72665896750061
+        ],
+        "worst_fold": 64.46468484513834,
+        "fold_std_ddof0": 5.055168143730679,
+        "diagnostics": {
+          "prediction_state_groups": {
+            "raw_scale_fallback": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "group_wells": 14,
+              "complement_wells": 67,
+              "full_mean_weighted_loss": 0.2948289345887312,
+              "early_mean_weighted_loss": 0.22591970974877182,
+              "score_delta_vs_B0_in_group": 0.2663336157892526,
+              "net_loss_change_contribution_all_wells": -0.00046032970630241184,
+              "early_net_loss_change_contribution_all_wells": 0.00011988860385715059
+            },
+            "positive_scale_training_q25_low": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "group_wells": 16,
+              "complement_wells": 65,
+              "full_mean_weighted_loss": 0.2388174172302222,
+              "early_mean_weighted_loss": 0.17553011595318724,
+              "score_delta_vs_B0_in_group": 0.0,
+              "net_loss_change_contribution_all_wells": 0.0,
+              "early_net_loss_change_contribution_all_wells": 0.0
+            },
+            "other_positive_scale": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "group_wells": 51,
+              "complement_wells": 30,
+              "full_mean_weighted_loss": 0.2542502087946225,
+              "early_mean_weighted_loss": 0.19243707085392606,
+              "score_delta_vs_B0_in_group": 0.0,
+              "net_loss_change_contribution_all_wells": 0.0,
+              "early_net_loss_change_contribution_all_wells": 0.0
+            }
+          },
+          "retrospective_target_slices": {
+            "any_true_zero_first2": {
+              "status": "SUPPRESSED",
+              "privacy_gate_passed": false
+            },
+            "true_month2_at_most_half_month1_positive": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "group_wells": 5,
+              "complement_wells": 76,
+              "full_mean_weighted_loss": 0.40341174487071935,
+              "early_mean_weighted_loss": 0.31607475578056765,
+              "score_delta_vs_B0_in_group": -1.8415717101624918,
+              "net_loss_change_contribution_all_wells": 0.0011367726605941307,
+              "early_net_loss_change_contribution_all_wells": 0.0008337259542990231
+            }
+          },
+          "early_directional_losses": {
+            "month1": {
+              "over": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 38,
+                "complement_count": 43,
+                "proportion": 0.4691358024691358,
+                "official_weighted_loss_contribution_all_wells": 0.06834842935940712
+              },
+              "under": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 43,
+                "complement_count": 38,
+                "proportion": 0.5308641975308642,
+                "official_weighted_loss_contribution_all_wells": 0.060273054150138554
+              }
+            },
+            "month2": {
+              "over": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 38,
+                "complement_count": 43,
+                "proportion": 0.4691358024691358,
+                "official_weighted_loss_contribution_all_wells": 0.033241122947622874
+              },
+              "under": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 43,
+                "complement_count": 38,
+                "proportion": 0.5308641975308642,
+                "official_weighted_loss_contribution_all_wells": 0.033021941756214535
+              }
+            },
+            "first2": {
+              "over": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 48,
+                "complement_count": 33,
+                "proportion": 0.5925925925925926,
+                "official_weighted_loss_contribution_all_wells": 0.10158955230702998
+              },
+              "under": {
+                "status": "RELEASED",
+                "privacy_gate_passed": true,
+                "well_count": 53,
+                "complement_count": 28,
+                "proportion": 0.654320987654321,
+                "official_weighted_loss_contribution_all_wells": 0.0932949959063531
+              }
+            }
+          },
+          "loss_concentration": {
+            "status": "RELEASED",
+            "top_well_count": 9,
+            "top_fraction_definition": "ceil(0.10*N); stable cohort order for ties",
+            "own_loss_share_top_wells": 0.29043825238286963,
+            "B0_loss_share_B0_top_wells": 0.2969821525843512,
+            "net_score_delta_contribution_from_B0_top_wells": 0.43782384059220164
+          },
+          "improvement_distribution": {
+            "positive_wells": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "well_count": 7,
+              "complement_count": 74,
+              "proportion": 0.08641975308641975
+            },
+            "negative_wells": {
+              "status": "RELEASED",
+              "privacy_gate_passed": true,
+              "well_count": 7,
+              "complement_count": 74,
+              "proportion": 0.08641975308641975
+            },
+            "net_score_delta": 0.046032970630241185,
+            "top10percent_share_of_gross_positive_improvement": 1.0
+          },
+          "monthly_net_weighted_loss_change_vs_B0": [
+            -3.296799186738101e-05,
+            0.00015285659572453076,
+            5.216984587051922e-05,
+            -0.00032310550045528004,
+            -0.0002602389270979646,
+            -2.699155715497006e-05,
+            -2.3884697077328088e-05,
+            -8.949004318361356e-06,
+            6.471801178025905e-06,
+            3.4627445011706702e-06,
+            -1.0708184777228139e-06,
+            1.9178028723491753e-06
+          ],
+          "overlapping_slice_warning": "do not add shares from overlapping retrospective/directional slices",
+          "state_thresholds": "computed only from training-fold independent raw positive well scales; numeric thresholds not published"
+        }
+      }
+    },
+    "delta_vs_B0": 0.046032970630236036,
+    "first2_score_delta": -0.011988860385711564,
+    "fold_risk": {
+      "difference_of_minima": -0.5507448764170704,
+      "minimum_paired_fold_delta": -0.7783361895043299
+    },
+    "paired_fold_deltas": [
+      -0.5507448764170704,
+      -0.7783361895043299,
+      1.3252084096672974,
+      -0.391727928678975,
+      0.6630640535247352
+    ],
+    "contribution_identity": {
+      "positive_complement_exact_zero": true,
+      "all_months_equal_fallback_net_contribution": true,
+      "monthly_score_delta": [
+        0.003296799186738101,
+        -0.015285659572453076,
+        -0.005216984587051922,
+        0.032310550045528005,
+        0.02602389270979646,
+        0.0026991557154970062,
+        0.002388469707732809,
+        0.0008949004318361357,
+        -0.0006471801178025905,
+        -0.00034627445011706703,
+        0.00010708184777228139,
+        -0.00019178028723491753
+      ],
+      "annual_score_delta": 0.04603297063024123,
+      "fallback_well_count": 14
+    }
+  },
+  "model_registry": {},
+  "completed": true,
+  "historical_dtype": "UNKNOWN",
+  "official_unique_boundary_not_blocking": true,
+  "deployment_approved": false,
+  "prior_scores_reused": false,
+  "A23_fixed_reproduction": {
+    "B0": true,
+    "C1": true
+  },
+  "fixed_gate": {
+    "checks": {
+      "structure": true,
+      "total": true,
+      "first2": true,
+      "difference_of_minima": true
+    },
+    "passed": true
+  },
+  "later_gate": {
+    "mean_delta": 0.478483932139153,
+    "strict_positive_count": 5,
+    "min_group_delta": 0.09362809484842671,
+    "mean_first2_delta": 0.37156602862948696,
+    "nonnegative_first2_count": 5,
+    "checks": {
+      "structure": true,
+      "mean_delta": true,
+      "strict_positive_count": true,
+      "min_group_delta": true,
+      "mean_first2_delta": true,
+      "nonnegative_first2_count": true
+    },
+    "passed": true
+  },
+  "confirmation_gate": {
+    "checks": {
+      "structure": true,
+      "total": false,
+      "first2": false,
+      "difference_of_minima": true,
+      "minimum_paired_fold_delta": true
+    },
+    "passed": false
+  },
+  "status": "COMPLETED_STOPPED_AT_REGISTERED_GATE",
+  "finished": "2026-10-12T15:39:49.045493+08:00",
+  "budget": {
+    "attempts": 70,
+    "retries": 0,
+    "prep_entered": 70,
+    "prep_completed": 70,
+    "model_entered": 70,
+    "model_completed": 70,
+    "stage_successes": {
+      "fixed_replay": 10,
+      "five_later_splits": 50,
+      "conditional_confirmation": 10,
+      "conditional_private_full_fit": 0
+    }
+  },
+  "source_inputs_unchanged": true,
+  "environment_unchanged": true,
+  "old_artifacts_unchanged": true,
+  "raw_integrity": {
+    "verified_members": 100,
+    "unchanged": true,
+    "copied_or_extracted": false
+  }
+}
