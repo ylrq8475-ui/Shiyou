@@ -1,0 +1,69 @@
+{
+  "files": {
+    "AUDIT_QUEUE.md": {
+      "bytes": 1568,
+      "sha256": "946b0dd0f010ce80932526c385dcb16487973c8f1ff504bda24af7d03ea6cf08"
+    },
+    "A_INDEPENDENT_ARITHMETIC.json": {
+      "bytes": 59376,
+      "sha256": "49e3bd757910ff555014ac397b206f4c325812d54333d1ec49d02bf8ed25f78e"
+    },
+    "A_READONLY_CHECKS.json": {
+      "bytes": 423,
+      "sha256": "a2be83b25ff6abd9b7e7e354bc3b3d4cfe12499aa3a8b0249c5e8609d440c8c4"
+    },
+    "A_ROUTE_SIGNAL.json": {
+      "bytes": 3717,
+      "sha256": "d5eac7f1f7599500a39de1c180ed27252e23f3151f99c4a012339a1b52148d4e"
+    },
+    "COLLABORATION_REPLY_A.md": {
+      "bytes": 2845,
+      "sha256": "9e48c7ee032669113fda71d7ce662c0f910c09d034c28b1a53893fe471b33bf8"
+    },
+    "derive_route_signal.py": {
+      "bytes": 3752,
+      "sha256": "96695dec9f502bd7f9c4262fafdb059fdb5a082d1e3d4a22e2896576fbdc3b7a"
+    },
+    "finalize_review.py": {
+      "bytes": 3158,
+      "sha256": "4b995de253bcc1e2f5dbc3f64bcade59ee36e0344fb4d1fefbfa5907b9440796"
+    },
+    "FINAL_SIGNOFF.md": {
+      "bytes": 738,
+      "sha256": "3665fdef5436a28fed1bf58feea443d9e16d5174467a1465a1dd62502204a0a4"
+    },
+    "independent_arithmetic.py": {
+      "bytes": 8297,
+      "sha256": "c3e1f079c40c83cbb0487184236101d823ddcfafea8366b6172f489cfbc559e8"
+    },
+    "NEXT_STEP_PROPOSAL.md": {
+      "bytes": 3500,
+      "sha256": "7f8c8f0cc32dc9cade15b9b11315966d06765dfc19f07364dde537e1a5dcb932"
+    },
+    "PINNED_DIRECTORY.json": {
+      "bytes": 20648,
+      "sha256": "bfb7c8dcbf769921d7045a7a6548b2c4defe64ac23d4ca58314aa62c580073da"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 310,
+      "sha256": "d222b9e4d5285e77820f1569ef15c798e717bebf2551e060ed07a63d3f1d9b19"
+    },
+    "README.md": {
+      "bytes": 1338,
+      "sha256": "2911bc4babe8784ec12ef5c5dd447bf99c0c19471d536d20154a4130395f61c0"
+    },
+    "RECEIPT.json": {
+      "bytes": 282,
+      "sha256": "bec5ffbe765f576dc71525a38e1881f1aac1579f2c98344e2bdd448c4d03e323"
+    },
+    "REPORT_A.md": {
+      "bytes": 9018,
+      "sha256": "e3063e0b4cb8f759941b9fd152295de00ab673c93eb5046a194397e87ccecbcb"
+    },
+    "run_readonly_checks.py": {
+      "bytes": 1420,
+      "sha256": "c4733f24d9b4a98d004b2c58428bfaa3a88da6716ee3296e20bd8a3d44195e1d"
+    }
+  },
+  "manifest_excludes_itself": true
+}

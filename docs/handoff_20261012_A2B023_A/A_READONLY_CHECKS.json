@@ -1,0 +1,14 @@
+{
+  "request": "A2B-023",
+  "bundle_files_checked": 243,
+  "synthetic_cases": 27,
+  "synthetic_passed": true,
+  "aggregate_check_count": 759,
+  "aggregate_passed": true,
+  "real_model_fits": 0,
+  "real_preprocess_fits": 0,
+  "private_data_read": false,
+  "scope": "Independent execution of B synthetic and aggregate checks, not real retraining",
+  "A_no_fit_guard_triggered": [],
+  "A_bundle_unchanged": true
+}
