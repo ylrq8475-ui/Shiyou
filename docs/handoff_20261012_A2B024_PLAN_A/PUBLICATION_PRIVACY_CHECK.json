@@ -1,0 +1,11 @@
+{
+  "account": "A",
+  "known_private_markers_checked": 100,
+  "private_marker_hits": 0,
+  "credential_pattern_hits": 0,
+  "source_files_checked": 8,
+  "raw_data_or_private_config_or_per_well_outputs_included": false,
+  "new_model_or_preprocess_fits": 0,
+  "B_synthetic_tests_executed": 19,
+  "passed": true
+}

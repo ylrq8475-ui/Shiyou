@@ -1,0 +1,22 @@
+{
+  "source_commit": "57c78bde28f877212d3a711d92352a299a5f558c",
+  "bundle_manifest_files": 14,
+  "A_previous_delivery_hashes_matched": 20,
+  "six_families_bound_to_A_received_original_B": true,
+  "B_synthetic_tests_executed": 19,
+  "B_aggregate_checks_executed": 90,
+  "all_passed": true,
+  "received_bundle_unchanged": true,
+  "new_model_or_preprocess_fits": 0,
+  "new_performance_result": false,
+  "private_training_data_read_for_checks": false,
+  "synthetic_worst_fold_counterexample": {
+    "difference_of_minima": 1.0,
+    "minimum_paired_delta": -5.0
+  },
+  "interpretation": "Plan review only. Pure router shape checks do not demonstrate real well/date alignment or integrated training correctness.",
+  "logs": {
+    "test_route.py": "...................\n----------------------------------------------------------------------\nRan 19 tests in 0.113s\n\nOK\n",
+    "verify_evidence.py": "{\"check_count\": 90, \"all_passed\": true, \"new_model_fits\": 0, \"new_preprocessor_fits\": 0, \"private_data_read\": false, \"scope\": \"B independently compares anonymous A claims to frozen B aggregates; route values remain post-hoc algebra, not new performance\"}\n"
+  }
+}

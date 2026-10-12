@@ -1,0 +1,57 @@
+{
+  "account": "A independent audit and delivery",
+  "B_reviewed_commit": "57c78bde28f877212d3a711d92352a299a5f558c",
+  "files": {
+    "A2B023_CLOSEOUT_A_REVIEW_20261012.zip": {
+      "bytes": 13853,
+      "sha256": "e916e06829f64ea9cfc6f3bf6a28e7f3ab7aacdb4b987fd4d25d5b580941e1c6"
+    },
+    "A2B023_CLOSEOUT_A_REVIEW_20261012.zip.sha256": {
+      "bytes": 104,
+      "sha256": "768bd39e675c45977eb9043548e27014e4dbbc440fa2964602fe06fc033e6b2c"
+    },
+    "A_CLOSEOUT_CHECKS.json": {
+      "bytes": 1194,
+      "sha256": "6c7af59ba4d990d2f08e35c60fc926c7ab4307b9ac17f9a9987d6cf04f5edb9d"
+    },
+    "A_SHA256SUMS.json": {
+      "bytes": 1308,
+      "sha256": "7f7d06f33648126af222d37b9a9da1292f1b0d68120c48c1d2e92107bf4dac92"
+    },
+    "check_closeout.py": {
+      "bytes": 2969,
+      "sha256": "5e380be9e93be9991098716b8fa117c0698c99df99ba7d9f1a8994fd2477eacd"
+    },
+    "COLLABORATION_REPLY_A.md": {
+      "bytes": 2536,
+      "sha256": "9659c048e31e2dcdafc0f86b01058a578f7c82e2543be2a7a2d708ebc4932489"
+    },
+    "finalize_review.py": {
+      "bytes": 2988,
+      "sha256": "c46b5d7dd794b1d1bf76b8f323cd6e42b236f04a0802519323890ef3b45b7c3b"
+    },
+    "PINNED_DIRECTORY.json": {
+      "bytes": 24323,
+      "sha256": "d28e33360982b72d079ae84946f35cbfbd943ba3a837c475bcea63d679a9e23a"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 309,
+      "sha256": "e586ef8ee2c586da3059224285dc2c3d1d7c84d7bbcd54b77c86e2aeb3310e25"
+    },
+    "README.md": {
+      "bytes": 1066,
+      "sha256": "4b9451f9813165fbca72c480b1b32af5892b4f316a6c5b24cd412fc4f159e28f"
+    },
+    "RECEIPT.json": {
+      "bytes": 281,
+      "sha256": "0a3b9c8cc1229fadfe9ae728ffffbece7d06ee9960a2522dc27d66e108b0d380"
+    },
+    "REPORT_A.md": {
+      "bytes": 7172,
+      "sha256": "1a65df8a4a5123f323b1d4020e61e04741df7fa3c711093010c4db1daa3c4bb1"
+    }
+  },
+  "manifest_excludes_itself": true,
+  "new_training_or_upgrade": false,
+  "only_new_A_directory": true
+}
