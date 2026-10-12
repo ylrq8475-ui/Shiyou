@@ -1,0 +1,370 @@
+{
+  "checks": [
+    {
+      "check": "same_B_commit",
+      "passed": true
+    },
+    {
+      "check": "six_families",
+      "passed": true
+    },
+    {
+      "check": "family_0_same_seed",
+      "passed": true
+    },
+    {
+      "check": "family_0_baseline",
+      "passed": true
+    },
+    {
+      "check": "family_0_fallback_denominator",
+      "passed": true
+    },
+    {
+      "check": "family_0_fallback_count",
+      "passed": true
+    },
+    {
+      "check": "family_0_route_gain",
+      "passed": true
+    },
+    {
+      "check": "family_0_route_score",
+      "passed": true
+    },
+    {
+      "check": "family_0_early_route_gain",
+      "passed": true
+    },
+    {
+      "check": "family_0_month_decomposition",
+      "passed": true
+    },
+    {
+      "check": "family_0_group_to_total",
+      "passed": true
+    },
+    {
+      "check": "family_0_B0_12_months",
+      "passed": true
+    },
+    {
+      "check": "family_0_B0_official_score",
+      "passed": true
+    },
+    {
+      "check": "family_0_C1_12_months",
+      "passed": true
+    },
+    {
+      "check": "family_0_C1_official_score",
+      "passed": true
+    },
+    {
+      "check": "fixed_original_delta",
+      "passed": true
+    },
+    {
+      "check": "family_1_same_seed",
+      "passed": true
+    },
+    {
+      "check": "family_1_baseline",
+      "passed": true
+    },
+    {
+      "check": "family_1_fallback_denominator",
+      "passed": true
+    },
+    {
+      "check": "family_1_fallback_count",
+      "passed": true
+    },
+    {
+      "check": "family_1_route_gain",
+      "passed": true
+    },
+    {
+      "check": "family_1_route_score",
+      "passed": true
+    },
+    {
+      "check": "family_1_early_route_gain",
+      "passed": true
+    },
+    {
+      "check": "family_1_month_decomposition",
+      "passed": true
+    },
+    {
+      "check": "family_1_group_to_total",
+      "passed": true
+    },
+    {
+      "check": "family_1_B0_12_months",
+      "passed": true
+    },
+    {
+      "check": "family_1_B0_official_score",
+      "passed": true
+    },
+    {
+      "check": "family_1_C1_12_months",
+      "passed": true
+    },
+    {
+      "check": "family_1_C1_official_score",
+      "passed": true
+    },
+    {
+      "check": "family_2_same_seed",
+      "passed": true
+    },
+    {
+      "check": "family_2_baseline",
+      "passed": true
+    },
+    {
+      "check": "family_2_fallback_denominator",
+      "passed": true
+    },
+    {
+      "check": "family_2_fallback_count",
+      "passed": true
+    },
+    {
+      "check": "family_2_route_gain",
+      "passed": true
+    },
+    {
+      "check": "family_2_route_score",
+      "passed": true
+    },
+    {
+      "check": "family_2_early_route_gain",
+      "passed": true
+    },
+    {
+      "check": "family_2_month_decomposition",
+      "passed": true
+    },
+    {
+      "check": "family_2_group_to_total",
+      "passed": true
+    },
+    {
+      "check": "family_2_B0_12_months",
+      "passed": true
+    },
+    {
+      "check": "family_2_B0_official_score",
+      "passed": true
+    },
+    {
+      "check": "family_2_C1_12_months",
+      "passed": true
+    },
+    {
+      "check": "family_2_C1_official_score",
+      "passed": true
+    },
+    {
+      "check": "family_3_same_seed",
+      "passed": true
+    },
+    {
+      "check": "family_3_baseline",
+      "passed": true
+    },
+    {
+      "check": "family_3_fallback_denominator",
+      "passed": true
+    },
+    {
+      "check": "family_3_fallback_count",
+      "passed": true
+    },
+    {
+      "check": "family_3_route_gain",
+      "passed": true
+    },
+    {
+      "check": "family_3_route_score",
+      "passed": true
+    },
+    {
+      "check": "family_3_early_route_gain",
+      "passed": true
+    },
+    {
+      "check": "family_3_month_decomposition",
+      "passed": true
+    },
+    {
+      "check": "family_3_group_to_total",
+      "passed": true
+    },
+    {
+      "check": "family_3_B0_12_months",
+      "passed": true
+    },
+    {
+      "check": "family_3_B0_official_score",
+      "passed": true
+    },
+    {
+      "check": "family_3_C1_12_months",
+      "passed": true
+    },
+    {
+      "check": "family_3_C1_official_score",
+      "passed": true
+    },
+    {
+      "check": "family_4_same_seed",
+      "passed": true
+    },
+    {
+      "check": "family_4_baseline",
+      "passed": true
+    },
+    {
+      "check": "family_4_fallback_denominator",
+      "passed": true
+    },
+    {
+      "check": "family_4_fallback_count",
+      "passed": true
+    },
+    {
+      "check": "family_4_route_gain",
+      "passed": true
+    },
+    {
+      "check": "family_4_route_score",
+      "passed": true
+    },
+    {
+      "check": "family_4_early_route_gain",
+      "passed": true
+    },
+    {
+      "check": "family_4_month_decomposition",
+      "passed": true
+    },
+    {
+      "check": "family_4_group_to_total",
+      "passed": true
+    },
+    {
+      "check": "family_4_B0_12_months",
+      "passed": true
+    },
+    {
+      "check": "family_4_B0_official_score",
+      "passed": true
+    },
+    {
+      "check": "family_4_C1_12_months",
+      "passed": true
+    },
+    {
+      "check": "family_4_C1_official_score",
+      "passed": true
+    },
+    {
+      "check": "family_5_same_seed",
+      "passed": true
+    },
+    {
+      "check": "family_5_baseline",
+      "passed": true
+    },
+    {
+      "check": "family_5_fallback_denominator",
+      "passed": true
+    },
+    {
+      "check": "family_5_fallback_count",
+      "passed": true
+    },
+    {
+      "check": "family_5_route_gain",
+      "passed": true
+    },
+    {
+      "check": "family_5_route_score",
+      "passed": true
+    },
+    {
+      "check": "family_5_early_route_gain",
+      "passed": true
+    },
+    {
+      "check": "family_5_month_decomposition",
+      "passed": true
+    },
+    {
+      "check": "family_5_group_to_total",
+      "passed": true
+    },
+    {
+      "check": "family_5_B0_12_months",
+      "passed": true
+    },
+    {
+      "check": "family_5_B0_official_score",
+      "passed": true
+    },
+    {
+      "check": "family_5_C1_12_months",
+      "passed": true
+    },
+    {
+      "check": "family_5_C1_official_score",
+      "passed": true
+    },
+    {
+      "check": "repeat_original_delta",
+      "passed": true
+    },
+    {
+      "check": "original_repeat_zero_positive",
+      "passed": true
+    },
+    {
+      "check": "route_repeat_mean",
+      "passed": true
+    },
+    {
+      "check": "route_repeat_min",
+      "passed": true
+    },
+    {
+      "check": "route_early_mean",
+      "passed": true
+    },
+    {
+      "check": "route_positive_5",
+      "passed": true
+    },
+    {
+      "check": "A_only_readonly",
+      "passed": true
+    },
+    {
+      "check": "posthoc_not_validation",
+      "passed": true
+    },
+    {
+      "check": "historical_dtype_not_filled",
+      "passed": true
+    }
+  ],
+  "check_count": 90,
+  "all_passed": true,
+  "new_model_fits": 0,
+  "new_preprocessor_fits": 0,
+  "private_data_read": false,
+  "scope": "B independently compares anonymous A claims to frozen B aggregates; route values remain post-hoc algebra, not new performance"
+}

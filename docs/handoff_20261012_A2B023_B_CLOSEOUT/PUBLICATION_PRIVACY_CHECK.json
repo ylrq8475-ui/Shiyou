@@ -1,0 +1,25 @@
+{
+  "account": "账户B执行与交付",
+  "explicit_allowlist": [
+    "REPORT_B.md",
+    "README.md",
+    "BOUNDARY_POLICY_V2.md",
+    "NEXT_BATCH_PROPOSAL.md",
+    "RECEIPT_VERIFICATION.json",
+    "B_AGGREGATE_EVIDENCE.json",
+    "A_ARITHMETIC_SUMMARY.json",
+    "A_ROUTE_SIGNAL.json",
+    "AGGREGATE_RECEIPT_CHECKS.json",
+    "ROUTE_SYNTHETIC_RESULTS.json",
+    "route_core.py",
+    "test_route.py",
+    "verify_evidence.py"
+  ],
+  "hits": [],
+  "passed": true,
+  "basis": "public A evidence and previously published B aggregate inputs; explicit field selection, manual review and credential/path/raw-row pattern checks",
+  "raw_or_private_config_read_for_this_closeout": false,
+  "private_marker_scan_reexecuted": false,
+  "not_claiming_new_raw_data_or_old_artifact_integrity_rehash": true,
+  "prepublication_debug": "Initial path regex falsely matched https:/ in public links. No upload occurred; draft preserved, Windows drive path detector corrected before final packaging. Synthetic-only auxiliary loss initially omitted prediction from denominator; corrected to official symmetric denominator and added analytic regression case, with no real scores or fits affected."
+}

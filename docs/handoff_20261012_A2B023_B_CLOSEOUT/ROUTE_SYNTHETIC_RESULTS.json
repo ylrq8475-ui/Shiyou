@@ -1,0 +1,10 @@
+{
+  "scope": "invented numbers, pure inference router only; no fitted arm or real-data route tested",
+  "tests": 19,
+  "failures": 0,
+  "errors": 0,
+  "all_passed": true,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "private_data_read": false
+}

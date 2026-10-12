@@ -1,0 +1,80 @@
+{
+  "status": "POSTHOC_RESEARCH_SIGNAL_ONLY",
+  "source_commit": "4ea326798ca1da0736cde4bc41f33b7ff8b58cf9",
+  "new_fit_or_candidate_execution": false,
+  "posthoc_derivation_not_preregistered_validation": true,
+  "derivation": "Whole-well route uses C1 only when raw last RCYL is nonfinite or <=0, otherwise B0; equal-well loss makes aggregate score change equal existing fallback-group contribution. No row predictions reconstructed.",
+  "selection_bias": "Hypothesis selected after observing these outcomes. Same 81 wells and reused splits; scores cannot be called fresh confirmation or significance.",
+  "family_observations": [
+    {
+      "seed": null,
+      "baseline_score": 73.71410733861434,
+      "posthoc_fallback_only_delta": 0.015982772663324353,
+      "posthoc_fallback_only_score": 73.73009011127766,
+      "posthoc_first2_score_delta": -0.0004377090957607554,
+      "posthoc_months3_12_score_delta": 0.016420481759085108,
+      "group_score_delta": 0.09247175612351947,
+      "group_wells": 14
+    },
+    {
+      "seed": 20260917,
+      "baseline_score": 73.2023954592816,
+      "posthoc_fallback_only_delta": 0.47530892137944136,
+      "posthoc_fallback_only_score": 73.67770438066104,
+      "posthoc_first2_score_delta": 0.3182282243706626,
+      "posthoc_months3_12_score_delta": 0.15708069700877875,
+      "group_score_delta": 2.7500016165524825,
+      "group_wells": 14
+    },
+    {
+      "seed": 20261031,
+      "baseline_score": 72.45071467061948,
+      "posthoc_fallback_only_delta": 1.0048281103085595,
+      "posthoc_fallback_only_score": 73.45554278092804,
+      "posthoc_first2_score_delta": 0.7547020931272047,
+      "posthoc_months3_12_score_delta": 0.25012601718135474,
+      "group_score_delta": 5.8136483524995235,
+      "group_wells": 14
+    },
+    {
+      "seed": 20261219,
+      "baseline_score": 72.20875114398883,
+      "posthoc_fallback_only_delta": 1.044336742522645,
+      "posthoc_fallback_only_score": 73.25308788651148,
+      "posthoc_first2_score_delta": 0.8053364779711281,
+      "posthoc_months3_12_score_delta": 0.23900026455151702,
+      "group_score_delta": 6.04223401030959,
+      "group_wells": 14
+    },
+    {
+      "seed": 20270107,
+      "baseline_score": 72.24585802147443,
+      "posthoc_fallback_only_delta": 0.31084207772655786,
+      "posthoc_fallback_only_score": 72.556700099201,
+      "posthoc_first2_score_delta": 0.21494397175083002,
+      "posthoc_months3_12_score_delta": 0.09589810597572784,
+      "group_score_delta": 1.798443449703656,
+      "group_wells": 14
+    },
+    {
+      "seed": 20270303,
+      "baseline_score": 73.22204590199999,
+      "posthoc_fallback_only_delta": 0.21422988786917443,
+      "posthoc_fallback_only_score": 73.43627578986917,
+      "posthoc_first2_score_delta": 0.16640873034844306,
+      "posthoc_months3_12_score_delta": 0.04782115752073138,
+      "group_score_delta": 1.2394729226716519,
+      "group_wells": 14
+    }
+  ],
+  "repeat_mean_posthoc_score": 73.27586218743414,
+  "repeat_mean_posthoc_delta": 0.6099091479612756,
+  "repeat_min_posthoc_delta": 0.21422988786917443,
+  "repeat_positive_deltas": 5,
+  "repeat_mean_early_delta": 0.4519238995136537,
+  "synthetic_fallback_target_equality": true,
+  "synthetic_fallback_inverse_equality_given_same_z": true,
+  "interpretation": "Fallback rows have identical numeric targets and inverse mapping in both arms. Prediction changes arise from the globally different training target geometry and fitted trees, not from changing fallback1 itself.",
+  "ordinary_rows_unchanged_is_design_requirement_not_executed_router_evidence": true,
+  "not_authorization_for_training_or_deployment": true
+}

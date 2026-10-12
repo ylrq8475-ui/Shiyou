@@ -1,0 +1,14 @@
+{
+  "source_commit": "4ea326798ca1da0736cde4bc41f33b7ff8b58cf9",
+  "check_count": 696,
+  "all_passed": true,
+  "provided_prefit_bindings": 48,
+  "model_fits_by_A": 0,
+  "scope": "A independent aggregate arithmetic and synthetic metric; real fits and raw-window reconstruction NOT performed",
+  "private_or_historical_unprovided_evidence": "UNKNOWN; B integrity reports not independently verified on remote machine",
+  "fixed_delta": -0.9706722855644045,
+  "repeat_mean_delta": -0.5137858430963661,
+  "fixed_bad_folds": 3,
+  "fixed_months_worsened": 5,
+  "repeat_months_worsened": 7
+}

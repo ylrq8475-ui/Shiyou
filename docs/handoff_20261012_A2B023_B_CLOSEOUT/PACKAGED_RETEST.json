@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "router_synthetic_tests": 19,
+  "aggregate_checks": 90,
+  "zip_files": 15,
+  "bundle_manifest_entries": 14,
+  "zip_crc_passed": true,
+  "copied_bundle_bytes_unchanged": true,
+  "new_model_fits": 0,
+  "new_preprocessor_fits": 0,
+  "private_data_read": false
+}

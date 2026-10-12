@@ -1,0 +1,76 @@
+{
+  "account": "账户B执行与交付",
+  "task": "A2B-023 closeout and next proposal",
+  "files": {
+    "A2B023_B_CLOSEOUT_RETEST_20261012_v1.zip": {
+      "bytes": 21260,
+      "sha256": "cdd6485efb322e7e378c29554ff0c60d898ec29bda70b8d344b775695fe50c40"
+    },
+    "A2B023_B_CLOSEOUT_RETEST_20261012_v1.zip.sha256": {
+      "bytes": 108,
+      "sha256": "2c1bfefe599d374323804ba0faa4df138e707a1ad9b1e15b646efa1afb98ba46"
+    },
+    "A_ARITHMETIC_SUMMARY.json": {
+      "bytes": 598,
+      "sha256": "6b4c9e3bb90ad2f5b26e13e830f6eb5614d32b6d9798407f46f9037a27162028"
+    },
+    "A_ROUTE_SIGNAL.json": {
+      "bytes": 3717,
+      "sha256": "d5eac7f1f7599500a39de1c180ed27252e23f3151f99c4a012339a1b52148d4e"
+    },
+    "AGGREGATE_RECEIPT_CHECKS.json": {
+      "bytes": 7427,
+      "sha256": "b465d39a508c64bd6090d0d52922ed39a95537b23d108d645ba0aba337f42a28"
+    },
+    "B_AGGREGATE_EVIDENCE.json": {
+      "bytes": 8917,
+      "sha256": "a0d32e48dedc4fc029e887714a13d375f6d527ec348644883cdd57d3fc15c298"
+    },
+    "BOUNDARY_POLICY_V2.md": {
+      "bytes": 1775,
+      "sha256": "314a50851b4df9e91bf49ab7ea1a008e9dbb0f5d7361c41f243b0e13e164508c"
+    },
+    "NEXT_BATCH_PROPOSAL.md": {
+      "bytes": 4817,
+      "sha256": "0b28ccbeee43f4f502b95a52c178d4eb276ed90b6dfae32330cc5eb91fe19c86"
+    },
+    "PACKAGED_RETEST.json": {
+      "bytes": 293,
+      "sha256": "59352481b4e9f4dd6cc17a0bed40ef6e0c86ea6f080b562cfe8d3ed580d0e466"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 1204,
+      "sha256": "c9a80c1ee9bcf7078637a99cab3160ec152625044deea7e96659b04115bdf802"
+    },
+    "README.md": {
+      "bytes": 659,
+      "sha256": "137ad288c68514f34313fd5b4334d390137350f99ede42a10234522a020e80b7"
+    },
+    "RECEIPT_VERIFICATION.json": {
+      "bytes": 4361,
+      "sha256": "fffd11c409912f29b4f05f4d2b7f1abb486d5f1b16f68f81bdef1bdbeee2c14a"
+    },
+    "REPORT_B.md": {
+      "bytes": 4019,
+      "sha256": "8cf60da8f49d6eb516b388edc538bab7869076ca69f43674ffb02537588d7f98"
+    },
+    "route_core.py": {
+      "bytes": 1103,
+      "sha256": "2bebcdfe6e7e7f060e1c305cf64cf6322a2694806818b4389db643cfc1c246de"
+    },
+    "ROUTE_SYNTHETIC_RESULTS.json": {
+      "bytes": 257,
+      "sha256": "ca40f8202bb457ab6b4fb6657be81e8353db82782d4f8a72c145f1d372af76c4"
+    },
+    "test_route.py": {
+      "bytes": 5341,
+      "sha256": "e93193f06c79b815a6d62a77ef0d7e72e2ddf435c869d3d4a1b5299c1e6ef81a"
+    },
+    "verify_evidence.py": {
+      "bytes": 3646,
+      "sha256": "f684cb159c4274dc9416e1a70d1e89f9b829eecc1a6bfd87b2ad8910647afdb1"
+    }
+  },
+  "manifest_excludes_itself": true,
+  "zip_sha256": "cdd6485efb322e7e378c29554ff0c60d898ec29bda70b8d344b775695fe50c40"
+}
