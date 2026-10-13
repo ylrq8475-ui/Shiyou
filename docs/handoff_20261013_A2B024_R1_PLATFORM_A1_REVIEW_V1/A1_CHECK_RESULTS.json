@@ -1,0 +1,137 @@
+{
+ "author": "账户A（新接手）独立审核与交付",
+ "real_fits": 0,
+ "real_data_read": 0,
+ "checks": [
+  {
+   "name": "metric_matches_project_function",
+   "passed": true,
+   "abs_diff": 0.0
+  },
+  {
+   "name": "metric_zero_zero_month_no_loss",
+   "passed": true
+  },
+  {
+   "name": "metric_unnormalized_weights",
+   "passed": true,
+   "score_all_wrong": 0.024514037985945425
+  },
+  {
+   "name": "metric_equal_well_average",
+   "passed": true
+  },
+  {
+   "name": "old_A013_inverse_equals_R1_B0_inverse",
+   "passed": true,
+   "cases": 8
+  },
+  {
+   "name": "old_A013_target_equals_B0_definition",
+   "passed": true
+  },
+  {
+   "name": "route_independent_equals_deployment",
+   "passed": true,
+   "wells": 6
+  },
+  {
+   "name": "route_positive_one_uses_B0",
+   "passed": true
+  },
+  {
+   "name": "all_positive_test_R1_exactly_equals_B0",
+   "passed": true
+  },
+  {
+   "name": "same_data_seed_same_predictions_across_n_jobs",
+   "passed": true,
+   "max_abs": 4.440892098500626e-16
+  },
+  {
+   "name": "six_decimal_lexemes_equal",
+   "passed": true
+  },
+  {
+   "name": "extratrees_row_order_invariant_synthetic",
+   "passed": true,
+   "max_abs": 4.440892098500626e-16
+  },
+  {
+   "name": "groupkfold_row_order_invariant_synthetic",
+   "passed": true,
+   "wells_with_changed_fold_mates": 0
+  },
+  {
+   "name": "zero_padding_preserves_date_semantics",
+   "passed": true
+  },
+  {
+   "name": "A024_later_mean_delta",
+   "passed": true,
+   "value": 0.478483932139153
+  },
+  {
+   "name": "A024_later_5of5_positive",
+   "passed": true
+  },
+  {
+   "name": "A024_confirm_delta_below_0p20",
+   "passed": true,
+   "value": 0.046032970630236036
+  },
+  {
+   "name": "A024_confirm_first2_below_0",
+   "passed": true,
+   "value": -0.01198886038571989
+  },
+  {
+   "name": "A024_confirmation_FAILED_maintained",
+   "passed": true
+  },
+  {
+   "name": "ceiling_flat_error_profile",
+   "passed": true,
+   "ratio": 1.2811631253781885,
+   "note": "误差在12个月近乎平坦：主要是井级产量水平误差，不是衰减形状"
+  }
+ ],
+ "passed": 20,
+ "total": 20,
+ "ceiling_arithmetic": {
+  "86.2003": {
+   "mean_weighted_loss": 0.13799700000000004,
+   "uniform_relative_error_r": 0.13803069890109892,
+   "allowed_ratio_band": [
+    0.7574218357476936,
+    1.320268247894971
+   ]
+  },
+  "90.0": {
+   "mean_weighted_loss": 0.09999999999999998,
+   "uniform_relative_error_r": 0.10002442002442,
+   "allowed_ratio_band": [
+    0.8181414554011455,
+    1.2222825202149021
+   ]
+  },
+  "95.0": {
+   "mean_weighted_loss": 0.050000000000000044,
+   "uniform_relative_error_r": 0.050012210012210054,
+   "allowed_ratio_band": [
+    0.9047397553374575,
+    1.105290216441314
+   ]
+  },
+  "confirm_B0_monthly_relative_error_min_max": [
+   0.20839766042994134,
+   0.2669913979579261
+  ],
+  "B0_oof_range_7_splits": [
+   72.12554298467437,
+   74.13243072263947
+  ],
+  "needed_platform_loss_reduction_to_95": 0.6376732827525233,
+  "equivalent_OOF_if_same_relative_loss_cut": 90.62748854056228
+ }
+}

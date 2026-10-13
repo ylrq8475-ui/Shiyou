@@ -1,0 +1,77 @@
+{
+ "author": "账户A（新接手）独立审核与交付",
+ "recorded": "2026-10-13 Asia/Shanghai",
+ "note": "用户本轮直接提供给A1的四个私有ZIP；原文件不公开。下列仅为摘要与匿名计数。",
+ "user_supplied_artifacts": {
+  "old_result.zip": {
+   "bytes": 2525,
+   "sha256": "b11a03a386ff91c6353ecb5ead7552162c5590a0c76ca021d4e65ac67e6fcd41",
+   "matches": "A2B-013锁定result.zip（d8bc8f1分支报告）"
+  },
+  "old_submission_code.zip": {
+   "bytes": 38458,
+   "sha256": "cafe3d04221b7c9ea05e75bd69d941bac5907c901143c77d9f362b527ecb4a8e",
+   "matches": "A2B-013锁定submission_code.zip"
+  },
+  "new_result.zip": {
+   "bytes": 2541,
+   "sha256": "e41463cac0ec58827f240293a6a35385b27745a3354197efdcfa3d78ad72f796",
+   "matches": "B记录R1 result.zip e41463…"
+  },
+  "new_submission_code.zip": {
+   "bytes": 5156971,
+   "sha256": "540ace087ed37affc57a2d08774e163de4a14f0dec7f671c1a659f9bab7046eb",
+   "matches": "B记录R1 submission_code.zip 540ace…"
+  }
+ },
+ "old_vs_new_result_comparison_A1_executed": {
+  "old": {
+   "members": 10,
+   "bom": 10,
+   "crlf": 10,
+   "padded_dates": 0,
+   "rows": 120
+  },
+  "new": {
+   "members": 10,
+   "bom": 10,
+   "crlf": 10,
+   "padded_dates": 120,
+   "rows": 120
+  },
+  "same_key_set_after_date_parsing": true,
+  "same_row_order_after_date_parsing": true,
+  "rcyl_lexeme_equal_rows": 120,
+  "rcyl_max_abs_diff": 0.0,
+  "canonical_prediction_digest_old": "57597118b1043bc254443c5e6fc271413b771b672eb81e508ba2350ed9390dda",
+  "canonical_prediction_digest_new": "57597118b1043bc254443c5e6fc271413b771b672eb81e508ba2350ed9390dda",
+  "predictions_identical": true
+ },
+ "new_code_package": {
+  "integrity_json_files": 19,
+  "integrity_mismatches": 0,
+  "public_bundle_source_equal": true,
+  "model_sha256": "b92c199bd873f742437398f5154dea4d8dff029829b0edc9036c4e691d3ce045",
+  "model_loaded_with_allowlisted_unpickler": true,
+  "mode": "R1",
+  "arms": [
+   "B0",
+   "C1"
+  ],
+  "trees_per_arm": 400,
+  "features": 325,
+  "params_equal_registered_lock": true,
+  "synthetic_tests_in_extracted_copy": "31/31 OK"
+ },
+ "old_code_vs_new_code": {
+  "src/oil_uplift_10_files_byte_identical": true
+ },
+ "platform_binding": {
+  "score_86_2003_bound_to_either_package_by_platform_record": "UNVERIFIED",
+  "missing": [
+   "平台提交编号",
+   "实际提交时间",
+   "平台侧上传文件名/大小或哈希回执"
+  ]
+ }
+}

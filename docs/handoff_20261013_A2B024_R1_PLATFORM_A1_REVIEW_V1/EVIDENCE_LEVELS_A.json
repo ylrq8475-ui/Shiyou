@@ -1,0 +1,35 @@
+{
+ "author": "账户A（新接手）独立审核与交付",
+ "role": "A1",
+ "date": "2026-10-13",
+ "levels": {
+  "A1_VERIFIED": "A1 本轮亲自执行：字节摘要、源码审阅、合成测试、聚合算术、私有ZIP逐值比对（仅输出匿名计数）",
+  "B_RECORDED": "B 执行记录，A1 只核对一致性",
+  "INHERITED": "此前 A 或交接文档的结论，按原有范围保留",
+  "USER_REPORTED": "用户报告，未独立核验",
+  "UNVERIFIED": "缺证据",
+  "A1_INFERENCE": "A1 基于已验证算术的推断"
+ },
+ "items": [
+  {"item": "最新平台成绩 86.2003", "level": "USER_REPORTED", "date": "2026-10-13"},
+  {"item": "早先平台成绩 86.2003（A2B-013）", "level": "USER_REPORTED", "first_repo_record": "4464061826607b40acdeac2e0ff4700641dd4272"},
+  {"item": "第一轮 v7 平台成绩 80.5402", "level": "USER_REPORTED"},
+  {"item": "86.2003 与具体上传包的平台侧绑定", "level": "UNVERIFIED"},
+  {"item": "旧/新 result 与 submission_code 的哈希身份", "level": "A1_VERIFIED"},
+  {"item": "新旧 120 个预测值逐字节相同，仅 NY 补零不同", "level": "A1_VERIFIED"},
+  {"item": "10 口测试井全部走 B0（R1 测试输出 = A2B-013 B0 输出）", "level": "A1_VERIFIED", "basis": "实物预测相同 + 源码路由"},
+  {"item": "旧 A2B-013 目标/逆变换 = R1 B0 臂", "level": "A1_VERIFIED"},
+  {"item": "新代码包 19 文件完整性、模型元数据与锁一致", "level": "A1_VERIFIED"},
+  {"item": "31 项纯合成测试（匿名包与正式包副本）", "level": "A1_VERIFIED", "environment": "Linux Python 3.13.16"},
+  {"item": "A1 自编 20 项独立检查", "level": "A1_VERIFIED"},
+  {"item": "A024 R2 确认失败、全量保存 0", "level": "A1_VERIFIED", "basis": "公开 FINAL_RESULT 复算"},
+  {"item": "R1 双臂全量拟合各 1 次、计数闭合", "level": "B_RECORDED"},
+  {"item": "并行舍入差 8.88e-15 与顺序推理修复", "level": "B_RECORDED"},
+  {"item": "真实 ZIP 端到端推理、独立进程访问审计", "level": "B_RECORDED"},
+  {"item": "原始 100 文件 / 1,668 旧工件完整性", "level": "B_RECORDED"},
+  {"item": "用户另行授权 R1 探索", "level": "B_RECORDED", "note": "用户本轮消息重申：后续 R1 探索部署由用户另行明确授权"},
+  {"item": "A2B-017/021/022/023 审核结论", "level": "INHERITED"},
+  {"item": "历史 dtype 身份", "level": "UNVERIFIED", "status": "UNKNOWN"},
+  {"item": "当前框架几乎无法到 95+", "level": "A1_INFERENCE", "note": "算术由 A1 完成并可复算；结论是基于聚合证据的推断，不是证明"}
+ ]
+}
