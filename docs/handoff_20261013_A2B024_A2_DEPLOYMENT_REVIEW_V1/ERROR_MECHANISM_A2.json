@@ -1,0 +1,85 @@
+{
+  "signature": "账户A（新接手）独立审核与交付",
+  "observations": [
+    {
+      "stage": "fixed_replay",
+      "seed": null,
+      "positive_state_loss_share": 0.8089672518798031,
+      "first2_loss_share": 0.7538975300162335,
+      "positive_state_first2_loss_share_lower_bound": 0.5628647818960366,
+      "positive_state_first2_loss_share_upper_bound": 0.7538975300162335,
+      "bound_not_measured_intersection": true
+    },
+    {
+      "stage": "five_later_splits",
+      "seed": 20261012,
+      "positive_state_loss_share": 0.8013786203372123,
+      "first2_loss_share": 0.7545994219057875,
+      "positive_state_first2_loss_share_lower_bound": 0.5559780422429998,
+      "positive_state_first2_loss_share_upper_bound": 0.7545994219057875,
+      "bound_not_measured_intersection": true
+    },
+    {
+      "stage": "five_later_splits",
+      "seed": 20261013,
+      "positive_state_loss_share": 0.813188827799814,
+      "first2_loss_share": 0.7546458619213582,
+      "positive_state_first2_loss_share_lower_bound": 0.5678346897211721,
+      "positive_state_first2_loss_share_upper_bound": 0.7546458619213582,
+      "bound_not_measured_intersection": true
+    },
+    {
+      "stage": "five_later_splits",
+      "seed": 20261014,
+      "positive_state_loss_share": 0.7899488750900663,
+      "first2_loss_share": 0.7578829268061581,
+      "positive_state_first2_loss_share_lower_bound": 0.5478318018962245,
+      "positive_state_first2_loss_share_upper_bound": 0.7578829268061581,
+      "bound_not_measured_intersection": true
+    },
+    {
+      "stage": "five_later_splits",
+      "seed": 20261015,
+      "positive_state_loss_share": 0.8142441574453452,
+      "first2_loss_share": 0.7548263948782766,
+      "positive_state_first2_loss_share_lower_bound": 0.5690705523236219,
+      "positive_state_first2_loss_share_upper_bound": 0.7548263948782766,
+      "bound_not_measured_intersection": true
+    },
+    {
+      "stage": "five_later_splits",
+      "seed": 20261016,
+      "positive_state_loss_share": 0.7822128809918559,
+      "first2_loss_share": 0.7564829908516921,
+      "positive_state_first2_loss_share_lower_bound": 0.5386958718435482,
+      "positive_state_first2_loss_share_upper_bound": 0.7564829908516921,
+      "bound_not_measured_intersection": true
+    },
+    {
+      "stage": "conditional_confirmation",
+      "seed": 20271012,
+      "positive_state_loss_share": 0.8012243956331654,
+      "first2_loss_share": 0.7529298849891752,
+      "positive_state_first2_loss_share_lower_bound": 0.5541542806223405,
+      "positive_state_first2_loss_share_upper_bound": 0.7529298849891752,
+      "bound_not_measured_intersection": true
+    }
+  ],
+  "five_screen_lower_bound_range": [
+    0.5386958718435482,
+    0.5690705523236219
+  ],
+  "derivation": "Nonnegative loss mass: share(A intersection B) >= share(A)+share(B)-1; <= min(share(A),share(B))",
+  "test_C1_branch_coverage_B_record": 0,
+  "test_prediction_changes_A_observed": 0,
+  "priority": "Test a mechanism that can change B0 predictions for positive-state wells, concentrating diagnosis on first two months",
+  "single_future_hypothesis": "Same scaled-log target, full 12-month pooled ExtraTrees; replace squared_error split/leaf criterion with absolute_error only, after checking candidate ledger",
+  "hypothesis_not_proven": true,
+  "state_by_direction_intersection_missing": true,
+  "must_not_infer_uniform_overprediction": true,
+  "current_test_labels_not_known": true,
+  "cannot_identify_largest_repairable_true_test_error": true,
+  "new_training_authorized_or_started": false,
+  "software_method_reference": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesRegressor.html",
+  "external_datasets_or_fitted_state_used": false
+}

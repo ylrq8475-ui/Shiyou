@@ -1,0 +1,9 @@
+{
+  "tests": 15,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "real_fits": 0,
+  "real_model_loads": 0,
+  "only_synthetic_values_used": true
+}

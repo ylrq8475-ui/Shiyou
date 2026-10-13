@@ -1,0 +1,1077 @@
+[
+  {
+    "tag": "score",
+    "commit": "b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477",
+    "path": "docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1",
+    "entries": [
+      {
+        "name": "PLATFORM_SCORE_REPORT_B.json",
+        "path": "docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/PLATFORM_SCORE_REPORT_B.json",
+        "sha": "037e3567e4def73a43bc2e71d86f7e18edccbe8d",
+        "size": 1491,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/PLATFORM_SCORE_REPORT_B.json?ref=b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/PLATFORM_SCORE_REPORT_B.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/037e3567e4def73a43bc2e71d86f7e18edccbe8d",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/PLATFORM_SCORE_REPORT_B.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/PLATFORM_SCORE_REPORT_B.json?ref=b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/037e3567e4def73a43bc2e71d86f7e18edccbe8d",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/PLATFORM_SCORE_REPORT_B.json"
+        }
+      },
+      {
+        "name": "PROMPT_FOR_NEW_ACCOUNT_A.md",
+        "path": "docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/PROMPT_FOR_NEW_ACCOUNT_A.md",
+        "sha": "9aa0535894f97d6ffb4d2c00d89bd2f2edacb707",
+        "size": 9046,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/PROMPT_FOR_NEW_ACCOUNT_A.md?ref=b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/PROMPT_FOR_NEW_ACCOUNT_A.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/9aa0535894f97d6ffb4d2c00d89bd2f2edacb707",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/PROMPT_FOR_NEW_ACCOUNT_A.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/PROMPT_FOR_NEW_ACCOUNT_A.md?ref=b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/9aa0535894f97d6ffb4d2c00d89bd2f2edacb707",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/PROMPT_FOR_NEW_ACCOUNT_A.md"
+        }
+      },
+      {
+        "name": "README.md",
+        "path": "docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/README.md",
+        "sha": "3b27e843d02800c3c4c7c74ca85d0e8192b5465c",
+        "size": 1363,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/README.md?ref=b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/README.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/3b27e843d02800c3c4c7c74ca85d0e8192b5465c",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/README.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/README.md?ref=b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/3b27e843d02800c3c4c7c74ca85d0e8192b5465c",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/README.md"
+        }
+      },
+      {
+        "name": "SHA256SUMS.json",
+        "path": "docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/SHA256SUMS.json",
+        "sha": "b896e63973d19086c74af5bee1f45e8cc3e28d49",
+        "size": 384,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/SHA256SUMS.json?ref=b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/SHA256SUMS.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/b896e63973d19086c74af5bee1f45e8cc3e28d49",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/SHA256SUMS.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/SHA256SUMS.json?ref=b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/b896e63973d19086c74af5bee1f45e8cc3e28d49",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/SHA256SUMS.json"
+        }
+      },
+      {
+        "name": "SOURCE_AND_SCOPE.json",
+        "path": "docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/SOURCE_AND_SCOPE.json",
+        "sha": "d04a99818cfe7e8e359c9526c8d8d4a4c25e2fe5",
+        "size": 2748,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/SOURCE_AND_SCOPE.json?ref=b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/SOURCE_AND_SCOPE.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/d04a99818cfe7e8e359c9526c8d8d4a4c25e2fe5",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/SOURCE_AND_SCOPE.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/SOURCE_AND_SCOPE.json?ref=b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/d04a99818cfe7e8e359c9526c8d8d4a4c25e2fe5",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/b5e54cb8b5c0408a5eb620ac3026ce7fe71e7477/docs/handoff_20261013_A2B024_PLATFORM_SCORE_B_TO_NEW_A_V1/SOURCE_AND_SCOPE.json"
+        }
+      }
+    ]
+  },
+  {
+    "tag": "deploy",
+    "commit": "519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+    "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1",
+    "entries": [
+      {
+        "name": "ANONYMOUS_REVIEW_BUNDLE.zip",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/ANONYMOUS_REVIEW_BUNDLE.zip",
+        "sha": "012dcf9dfa67cb52cb94589a307c3c56322ac1cb",
+        "size": 54885,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/ANONYMOUS_REVIEW_BUNDLE.zip?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/ANONYMOUS_REVIEW_BUNDLE.zip",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/012dcf9dfa67cb52cb94589a307c3c56322ac1cb",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/ANONYMOUS_REVIEW_BUNDLE.zip",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/ANONYMOUS_REVIEW_BUNDLE.zip?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/012dcf9dfa67cb52cb94589a307c3c56322ac1cb",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/ANONYMOUS_REVIEW_BUNDLE.zip"
+        }
+      },
+      {
+        "name": "AUTHORIZATION_SELECTION.json",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/AUTHORIZATION_SELECTION.json",
+        "sha": "32f7147a2b53c7ed1adccea232c2bbea9477ae49",
+        "size": 347,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/AUTHORIZATION_SELECTION.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/AUTHORIZATION_SELECTION.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/32f7147a2b53c7ed1adccea232c2bbea9477ae49",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/AUTHORIZATION_SELECTION.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/AUTHORIZATION_SELECTION.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/32f7147a2b53c7ed1adccea232c2bbea9477ae49",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/AUTHORIZATION_SELECTION.json"
+        }
+      },
+      {
+        "name": "DELIVERY_VERIFICATION.json",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DELIVERY_VERIFICATION.json",
+        "sha": "008dab6050c953abe5bd7e63a165a47545485c3c",
+        "size": 580,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DELIVERY_VERIFICATION.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DELIVERY_VERIFICATION.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/008dab6050c953abe5bd7e63a165a47545485c3c",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DELIVERY_VERIFICATION.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DELIVERY_VERIFICATION.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/008dab6050c953abe5bd7e63a165a47545485c3c",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DELIVERY_VERIFICATION.json"
+        }
+      },
+      {
+        "name": "DEPLOYMENT_ACCEPTANCE_B.json",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_ACCEPTANCE_B.json",
+        "sha": "84aa70799d7edf787b68937bac9676ba81e7a3d3",
+        "size": 3041,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_ACCEPTANCE_B.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_ACCEPTANCE_B.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/84aa70799d7edf787b68937bac9676ba81e7a3d3",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_ACCEPTANCE_B.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_ACCEPTANCE_B.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/84aa70799d7edf787b68937bac9676ba81e7a3d3",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_ACCEPTANCE_B.json"
+        }
+      },
+      {
+        "name": "DEPLOYMENT_DEBUG_LOG.json",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_DEBUG_LOG.json",
+        "sha": "d872ca582d115b959ae5452fb4d8a64eb63f26ee",
+        "size": 607,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_DEBUG_LOG.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_DEBUG_LOG.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/d872ca582d115b959ae5452fb4d8a64eb63f26ee",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_DEBUG_LOG.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_DEBUG_LOG.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/d872ca582d115b959ae5452fb4d8a64eb63f26ee",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_DEBUG_LOG.json"
+        }
+      },
+      {
+        "name": "DEPLOYMENT_PLAN.json",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_PLAN.json",
+        "sha": "974537e383b1d414d00f2b48f4c408c553d4c549",
+        "size": 2250,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_PLAN.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_PLAN.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/974537e383b1d414d00f2b48f4c408c553d4c549",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_PLAN.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_PLAN.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/974537e383b1d414d00f2b48f4c408c553d4c549",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/DEPLOYMENT_PLAN.json"
+        }
+      },
+      {
+        "name": "FORMAT_RULES_CHECK.json",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/FORMAT_RULES_CHECK.json",
+        "sha": "6cf4e5a554061b3c9392200f978bf2af8b737a98",
+        "size": 716,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/FORMAT_RULES_CHECK.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/FORMAT_RULES_CHECK.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/6cf4e5a554061b3c9392200f978bf2af8b737a98",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/FORMAT_RULES_CHECK.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/FORMAT_RULES_CHECK.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/6cf4e5a554061b3c9392200f978bf2af8b737a98",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/FORMAT_RULES_CHECK.json"
+        }
+      },
+      {
+        "name": "MODEL_REGISTRY.json",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/MODEL_REGISTRY.json",
+        "sha": "14d86fdcfb1ee9836d3fea457d95ec5dec87bb8d",
+        "size": 481,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/MODEL_REGISTRY.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/MODEL_REGISTRY.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/14d86fdcfb1ee9836d3fea457d95ec5dec87bb8d",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/MODEL_REGISTRY.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/MODEL_REGISTRY.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/14d86fdcfb1ee9836d3fea457d95ec5dec87bb8d",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/MODEL_REGISTRY.json"
+        }
+      },
+      {
+        "name": "README.md",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/README.md",
+        "sha": "913a2bb4d22620d14d4d44ff8d6b82527f4c5108",
+        "size": 1211,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/README.md?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/README.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/913a2bb4d22620d14d4d44ff8d6b82527f4c5108",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/README.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/README.md?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/913a2bb4d22620d14d4d44ff8d6b82527f4c5108",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/README.md"
+        }
+      },
+      {
+        "name": "REPORT_B.md",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/REPORT_B.md",
+        "sha": "d792f6b66b6789260e78bdf890b668e587a279d4",
+        "size": 4629,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/REPORT_B.md?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/REPORT_B.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/d792f6b66b6789260e78bdf890b668e587a279d4",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/REPORT_B.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/REPORT_B.md?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/d792f6b66b6789260e78bdf890b668e587a279d4",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/REPORT_B.md"
+        }
+      },
+      {
+        "name": "STANDALONE_ACCESS_AUDIT.json",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/STANDALONE_ACCESS_AUDIT.json",
+        "sha": "5ff4295e34fb3be006090f2c5a5884962157b495",
+        "size": 185,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/STANDALONE_ACCESS_AUDIT.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/STANDALONE_ACCESS_AUDIT.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5ff4295e34fb3be006090f2c5a5884962157b495",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/STANDALONE_ACCESS_AUDIT.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/STANDALONE_ACCESS_AUDIT.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5ff4295e34fb3be006090f2c5a5884962157b495",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/STANDALONE_ACCESS_AUDIT.json"
+        }
+      },
+      {
+        "name": "SYNTHETIC_RESULTS.json",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/SYNTHETIC_RESULTS.json",
+        "sha": "46d73892a8dda3582b4fd30f3a16fabe4ce765b5",
+        "size": 743,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/SYNTHETIC_RESULTS.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/SYNTHETIC_RESULTS.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/46d73892a8dda3582b4fd30f3a16fabe4ce765b5",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/SYNTHETIC_RESULTS.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/SYNTHETIC_RESULTS.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/46d73892a8dda3582b4fd30f3a16fabe4ce765b5",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/SYNTHETIC_RESULTS.json"
+        }
+      },
+      {
+        "name": "UPLOAD_SHA256SUMS.json",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/UPLOAD_SHA256SUMS.json",
+        "sha": "6af527980dd0c047a2947c7cc0a5b19fa1d3c057",
+        "size": 1267,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/UPLOAD_SHA256SUMS.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/UPLOAD_SHA256SUMS.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/6af527980dd0c047a2947c7cc0a5b19fa1d3c057",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/UPLOAD_SHA256SUMS.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/UPLOAD_SHA256SUMS.json?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/6af527980dd0c047a2947c7cc0a5b19fa1d3c057",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/UPLOAD_SHA256SUMS.json"
+        }
+      },
+      {
+        "name": "USER_AUTHORIZATION.md",
+        "path": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/USER_AUTHORIZATION.md",
+        "sha": "cbe094543bbb35dfa513191367686835c0a7ccbd",
+        "size": 1650,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/USER_AUTHORIZATION.md?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/USER_AUTHORIZATION.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/cbe094543bbb35dfa513191367686835c0a7ccbd",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/USER_AUTHORIZATION.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/USER_AUTHORIZATION.md?ref=519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/cbe094543bbb35dfa513191367686835c0a7ccbd",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1/USER_AUTHORIZATION.md"
+        }
+      }
+    ]
+  },
+  {
+    "tag": "history",
+    "commit": "e71c3e17e1c411ee0144d89a50ea394352c21f66",
+    "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1",
+    "entries": [
+      {
+        "name": "A2B024_REVIEW_CHECKLIST.md",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/A2B024_REVIEW_CHECKLIST.md",
+        "sha": "674eaa34c50ebfa73d849c7cf86e641be0b08158",
+        "size": 3695,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/A2B024_REVIEW_CHECKLIST.md?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/A2B024_REVIEW_CHECKLIST.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/674eaa34c50ebfa73d849c7cf86e641be0b08158",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/A2B024_REVIEW_CHECKLIST.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/A2B024_REVIEW_CHECKLIST.md?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/674eaa34c50ebfa73d849c7cf86e641be0b08158",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/A2B024_REVIEW_CHECKLIST.md"
+        }
+      },
+      {
+        "name": "BOOTSTRAP_SMOKE_RESULT.json",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/BOOTSTRAP_SMOKE_RESULT.json",
+        "sha": "e0d2af64a49c66b4329cbfca5a46e4f41a9fe213",
+        "size": 734,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/BOOTSTRAP_SMOKE_RESULT.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/BOOTSTRAP_SMOKE_RESULT.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/e0d2af64a49c66b4329cbfca5a46e4f41a9fe213",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/BOOTSTRAP_SMOKE_RESULT.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/BOOTSTRAP_SMOKE_RESULT.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/e0d2af64a49c66b4329cbfca5a46e4f41a9fe213",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/BOOTSTRAP_SMOKE_RESULT.json"
+        }
+      },
+      {
+        "name": "CONTEXT_AND_HISTORY.md",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/CONTEXT_AND_HISTORY.md",
+        "sha": "b6f8c69af1896ae59de2e15acf0e618e7a4aad5e",
+        "size": 6043,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/CONTEXT_AND_HISTORY.md?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/CONTEXT_AND_HISTORY.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/b6f8c69af1896ae59de2e15acf0e618e7a4aad5e",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/CONTEXT_AND_HISTORY.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/CONTEXT_AND_HISTORY.md?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/b6f8c69af1896ae59de2e15acf0e618e7a4aad5e",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/CONTEXT_AND_HISTORY.md"
+        }
+      },
+      {
+        "name": "DELIVERY_VERIFICATION.json",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/DELIVERY_VERIFICATION.json",
+        "sha": "5f970de795f049b72bb93ca37a0d5e1693970f77",
+        "size": 1291,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/DELIVERY_VERIFICATION.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/DELIVERY_VERIFICATION.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5f970de795f049b72bb93ca37a0d5e1693970f77",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/DELIVERY_VERIFICATION.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/DELIVERY_VERIFICATION.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5f970de795f049b72bb93ca37a0d5e1693970f77",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/DELIVERY_VERIFICATION.json"
+        }
+      },
+      {
+        "name": "GITHUB_DELIVERY_RULES_A_V1.md",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/GITHUB_DELIVERY_RULES_A_V1.md",
+        "sha": "5765b7ff0f1978d296c4bba6b37cc9da45709779",
+        "size": 2974,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/GITHUB_DELIVERY_RULES_A_V1.md?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/GITHUB_DELIVERY_RULES_A_V1.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5765b7ff0f1978d296c4bba6b37cc9da45709779",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/GITHUB_DELIVERY_RULES_A_V1.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/GITHUB_DELIVERY_RULES_A_V1.md?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5765b7ff0f1978d296c4bba6b37cc9da45709779",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/GITHUB_DELIVERY_RULES_A_V1.md"
+        }
+      },
+      {
+        "name": "HANDOFF_PRIVACY_CHECK.json",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_PRIVACY_CHECK.json",
+        "sha": "61e2a56c60c3a227f375180395210933bec462f1",
+        "size": 385,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_PRIVACY_CHECK.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_PRIVACY_CHECK.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/61e2a56c60c3a227f375180395210933bec462f1",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_PRIVACY_CHECK.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_PRIVACY_CHECK.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/61e2a56c60c3a227f375180395210933bec462f1",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_PRIVACY_CHECK.json"
+        }
+      },
+      {
+        "name": "HANDOFF_SHA256SUMS.json",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_SHA256SUMS.json",
+        "sha": "2ec958362dfaba0cd7359514c3e446dabf38b5eb",
+        "size": 27464,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_SHA256SUMS.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_SHA256SUMS.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/2ec958362dfaba0cd7359514c3e446dabf38b5eb",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_SHA256SUMS.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_SHA256SUMS.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/2ec958362dfaba0cd7359514c3e446dabf38b5eb",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_SHA256SUMS.json"
+        }
+      },
+      {
+        "name": "HANDOFF_STATE.json",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_STATE.json",
+        "sha": "088d36fb2fb96b5fd095051b61635c6e38497f7c",
+        "size": 767,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_STATE.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_STATE.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/088d36fb2fb96b5fd095051b61635c6e38497f7c",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_STATE.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_STATE.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/088d36fb2fb96b5fd095051b61635c6e38497f7c",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/HANDOFF_STATE.json"
+        }
+      },
+      {
+        "name": "PROMPT_FOR_NEW_ACCOUNT_A.md",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/PROMPT_FOR_NEW_ACCOUNT_A.md",
+        "sha": "1eb637d779cb568ed719363df325b089b3589fd4",
+        "size": 7669,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/PROMPT_FOR_NEW_ACCOUNT_A.md?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/PROMPT_FOR_NEW_ACCOUNT_A.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/1eb637d779cb568ed719363df325b089b3589fd4",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/PROMPT_FOR_NEW_ACCOUNT_A.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/PROMPT_FOR_NEW_ACCOUNT_A.md?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/1eb637d779cb568ed719363df325b089b3589fd4",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/PROMPT_FOR_NEW_ACCOUNT_A.md"
+        }
+      },
+      {
+        "name": "PUBLICATION_MANIFEST.json",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/PUBLICATION_MANIFEST.json",
+        "sha": "43edafc4302e96e7fed4db4acbdbe75824a462d3",
+        "size": 1968,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/PUBLICATION_MANIFEST.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/PUBLICATION_MANIFEST.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/43edafc4302e96e7fed4db4acbdbe75824a462d3",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/PUBLICATION_MANIFEST.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/PUBLICATION_MANIFEST.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/43edafc4302e96e7fed4db4acbdbe75824a462d3",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/PUBLICATION_MANIFEST.json"
+        }
+      },
+      {
+        "name": "README.md",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/README.md",
+        "sha": "2116ddea82fd11feb0c01f2497fa8f209a53a279",
+        "size": 2565,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/README.md?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/README.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/2116ddea82fd11feb0c01f2497fa8f209a53a279",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/README.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/README.md?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/2116ddea82fd11feb0c01f2497fa8f209a53a279",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/README.md"
+        }
+      },
+      {
+        "name": "ROLE_AND_SCOPE.md",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/ROLE_AND_SCOPE.md",
+        "sha": "ec6281e5d294b7ee3e6f99e782b6fd639e5f0976",
+        "size": 1914,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/ROLE_AND_SCOPE.md?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/ROLE_AND_SCOPE.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/ec6281e5d294b7ee3e6f99e782b6fd639e5f0976",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/ROLE_AND_SCOPE.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/ROLE_AND_SCOPE.md?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/ec6281e5d294b7ee3e6f99e782b6fd639e5f0976",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/ROLE_AND_SCOPE.md"
+        }
+      },
+      {
+        "name": "SOURCE_PROVENANCE.json",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/SOURCE_PROVENANCE.json",
+        "sha": "5082dd07788fb4d25866376daffb020da3bb9e88",
+        "size": 8505,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/SOURCE_PROVENANCE.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/SOURCE_PROVENANCE.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5082dd07788fb4d25866376daffb020da3bb9e88",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/SOURCE_PROVENANCE.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/SOURCE_PROVENANCE.json?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5082dd07788fb4d25866376daffb020da3bb9e88",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/SOURCE_PROVENANCE.json"
+        }
+      },
+      {
+        "name": "bootstrap_readonly.py",
+        "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/bootstrap_readonly.py",
+        "sha": "dce6d38c1d7c4aaa65c28f5edd9d8076c221020c",
+        "size": 3870,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/bootstrap_readonly.py?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/bootstrap_readonly.py",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/dce6d38c1d7c4aaa65c28f5edd9d8076c221020c",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/bootstrap_readonly.py",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/bootstrap_readonly.py?ref=e71c3e17e1c411ee0144d89a50ea394352c21f66",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/dce6d38c1d7c4aaa65c28f5edd9d8076c221020c",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/bootstrap_readonly.py"
+        }
+      }
+    ]
+  },
+  {
+    "tag": "research",
+    "commit": "65115714d49d17122989195910b119264bd93880",
+    "path": "docs/handoff_20261012_A2B024_B",
+    "entries": [
+      {
+        "name": "A2B024_R2_B_ANONYMOUS_REVIEW_BUNDLE.zip",
+        "path": "docs/handoff_20261012_A2B024_B/A2B024_R2_B_ANONYMOUS_REVIEW_BUNDLE.zip",
+        "sha": "02a9349a6e3b4d8a76c1c11ef2e62e23858be771",
+        "size": 211883,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/A2B024_R2_B_ANONYMOUS_REVIEW_BUNDLE.zip?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/A2B024_R2_B_ANONYMOUS_REVIEW_BUNDLE.zip",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/02a9349a6e3b4d8a76c1c11ef2e62e23858be771",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/A2B024_R2_B_ANONYMOUS_REVIEW_BUNDLE.zip",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/A2B024_R2_B_ANONYMOUS_REVIEW_BUNDLE.zip?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/02a9349a6e3b4d8a76c1c11ef2e62e23858be771",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/A2B024_R2_B_ANONYMOUS_REVIEW_BUNDLE.zip"
+        }
+      },
+      {
+        "name": "BUNDLE_SHA256SUMS.json",
+        "path": "docs/handoff_20261012_A2B024_B/BUNDLE_SHA256SUMS.json",
+        "sha": "2411591ca30d1c529cff51e2bb9975751ae70607",
+        "size": 21680,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/BUNDLE_SHA256SUMS.json?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/BUNDLE_SHA256SUMS.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/2411591ca30d1c529cff51e2bb9975751ae70607",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/BUNDLE_SHA256SUMS.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/BUNDLE_SHA256SUMS.json?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/2411591ca30d1c529cff51e2bb9975751ae70607",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/BUNDLE_SHA256SUMS.json"
+        }
+      },
+      {
+        "name": "DELIVERY_VERIFICATION.json",
+        "path": "docs/handoff_20261012_A2B024_B/DELIVERY_VERIFICATION.json",
+        "sha": "c09e77326f3c5959be8a0b1b7cf4acfa3b16b884",
+        "size": 986,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/DELIVERY_VERIFICATION.json?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/DELIVERY_VERIFICATION.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/c09e77326f3c5959be8a0b1b7cf4acfa3b16b884",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/DELIVERY_VERIFICATION.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/DELIVERY_VERIFICATION.json?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/c09e77326f3c5959be8a0b1b7cf4acfa3b16b884",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/DELIVERY_VERIFICATION.json"
+        }
+      },
+      {
+        "name": "EXECUTION_SUPPLEMENT.json",
+        "path": "docs/handoff_20261012_A2B024_B/EXECUTION_SUPPLEMENT.json",
+        "sha": "9e721b6d2231e43482010e7026e0239b27d32190",
+        "size": 860,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/EXECUTION_SUPPLEMENT.json?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/EXECUTION_SUPPLEMENT.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/9e721b6d2231e43482010e7026e0239b27d32190",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/EXECUTION_SUPPLEMENT.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/EXECUTION_SUPPLEMENT.json?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/9e721b6d2231e43482010e7026e0239b27d32190",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/EXECUTION_SUPPLEMENT.json"
+        }
+      },
+      {
+        "name": "FINAL_RESULT.json",
+        "path": "docs/handoff_20261012_A2B024_B/FINAL_RESULT.json",
+        "sha": "6dc4af8fbb21424fd1529803a202a0fb58c2ee15",
+        "size": 194883,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/FINAL_RESULT.json?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/FINAL_RESULT.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/6dc4af8fbb21424fd1529803a202a0fb58c2ee15",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/FINAL_RESULT.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/FINAL_RESULT.json?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/6dc4af8fbb21424fd1529803a202a0fb58c2ee15",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/FINAL_RESULT.json"
+        }
+      },
+      {
+        "name": "IMPLEMENTATION_PRETRAIN_LOCK.json",
+        "path": "docs/handoff_20261012_A2B024_B/IMPLEMENTATION_PRETRAIN_LOCK.json",
+        "sha": "52ced24d0d806c3988525eb56d346f7ed6f3a41f",
+        "size": 65176,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/IMPLEMENTATION_PRETRAIN_LOCK.json?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/IMPLEMENTATION_PRETRAIN_LOCK.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/52ced24d0d806c3988525eb56d346f7ed6f3a41f",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/IMPLEMENTATION_PRETRAIN_LOCK.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/IMPLEMENTATION_PRETRAIN_LOCK.json?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/52ced24d0d806c3988525eb56d346f7ed6f3a41f",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/IMPLEMENTATION_PRETRAIN_LOCK.json"
+        }
+      },
+      {
+        "name": "MODEL_REGISTRY.json",
+        "path": "docs/handoff_20261012_A2B024_B/MODEL_REGISTRY.json",
+        "sha": "06f8d9327d6cc71a3c859b8b7875b0f1bc79b15f",
+        "size": 266,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/MODEL_REGISTRY.json?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/MODEL_REGISTRY.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/06f8d9327d6cc71a3c859b8b7875b0f1bc79b15f",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/MODEL_REGISTRY.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/MODEL_REGISTRY.json?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/06f8d9327d6cc71a3c859b8b7875b0f1bc79b15f",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/MODEL_REGISTRY.json"
+        }
+      },
+      {
+        "name": "PLAN_R2.json",
+        "path": "docs/handoff_20261012_A2B024_B/PLAN_R2.json",
+        "sha": "d4b5181a46394f0a5686c5b44707ff890c89f2ec",
+        "size": 4514,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/PLAN_R2.json?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/PLAN_R2.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/d4b5181a46394f0a5686c5b44707ff890c89f2ec",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/PLAN_R2.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/PLAN_R2.json?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/d4b5181a46394f0a5686c5b44707ff890c89f2ec",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/PLAN_R2.json"
+        }
+      },
+      {
+        "name": "PUBLICATION_PRIVACY_CHECK.json",
+        "path": "docs/handoff_20261012_A2B024_B/PUBLICATION_PRIVACY_CHECK.json",
+        "sha": "7f06f122b3f15a28599f52f6c64bcfe1d7531768",
+        "size": 426,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/PUBLICATION_PRIVACY_CHECK.json?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/PUBLICATION_PRIVACY_CHECK.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/7f06f122b3f15a28599f52f6c64bcfe1d7531768",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/PUBLICATION_PRIVACY_CHECK.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/PUBLICATION_PRIVACY_CHECK.json?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/7f06f122b3f15a28599f52f6c64bcfe1d7531768",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/PUBLICATION_PRIVACY_CHECK.json"
+        }
+      },
+      {
+        "name": "README.md",
+        "path": "docs/handoff_20261012_A2B024_B/README.md",
+        "sha": "5bf48bd2160bee41cd62bed352462ae4667344f3",
+        "size": 1427,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/README.md?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/README.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5bf48bd2160bee41cd62bed352462ae4667344f3",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/README.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/README.md?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5bf48bd2160bee41cd62bed352462ae4667344f3",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/README.md"
+        }
+      },
+      {
+        "name": "REPORT_B.md",
+        "path": "docs/handoff_20261012_A2B024_B/REPORT_B.md",
+        "sha": "2eb316405ed7c75cf96f43c361f48844be8d1b14",
+        "size": 10692,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/REPORT_B.md?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/REPORT_B.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/2eb316405ed7c75cf96f43c361f48844be8d1b14",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/REPORT_B.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/REPORT_B.md?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/2eb316405ed7c75cf96f43c361f48844be8d1b14",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/REPORT_B.md"
+        }
+      },
+      {
+        "name": "REQUEST_TO_A.md",
+        "path": "docs/handoff_20261012_A2B024_B/REQUEST_TO_A.md",
+        "sha": "7854305e1fac8d62a7c37fe826eb7b83aec73408",
+        "size": 1612,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/REQUEST_TO_A.md?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/REQUEST_TO_A.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/7854305e1fac8d62a7c37fe826eb7b83aec73408",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/REQUEST_TO_A.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/REQUEST_TO_A.md?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/7854305e1fac8d62a7c37fe826eb7b83aec73408",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/REQUEST_TO_A.md"
+        }
+      },
+      {
+        "name": "UPLOAD_SHA256SUMS.json",
+        "path": "docs/handoff_20261012_A2B024_B/UPLOAD_SHA256SUMS.json",
+        "sha": "c1ae949ba58188a3bb3cff6e749a969b5212c8cb",
+        "size": 1670,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/UPLOAD_SHA256SUMS.json?ref=65115714d49d17122989195910b119264bd93880",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/UPLOAD_SHA256SUMS.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/c1ae949ba58188a3bb3cff6e749a969b5212c8cb",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/UPLOAD_SHA256SUMS.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_B/UPLOAD_SHA256SUMS.json?ref=65115714d49d17122989195910b119264bd93880",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/c1ae949ba58188a3bb3cff6e749a969b5212c8cb",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B/UPLOAD_SHA256SUMS.json"
+        }
+      }
+    ]
+  },
+  {
+    "tag": "priorA",
+    "commit": "3b38c63514f6da6ef9469da54030c1eac40e1abd",
+    "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1",
+    "entries": [
+      {
+        "name": "ALLOWLIST_A.json",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/ALLOWLIST_A.json",
+        "sha": "c668818e19cd0faea03539bf56c6cbfa11450f43",
+        "size": 8831,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/ALLOWLIST_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/ALLOWLIST_A.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/c668818e19cd0faea03539bf56c6cbfa11450f43",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/ALLOWLIST_A.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/ALLOWLIST_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/c668818e19cd0faea03539bf56c6cbfa11450f43",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/ALLOWLIST_A.json"
+        }
+      },
+      {
+        "name": "COLLABORATION_REPLY_A.md",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/COLLABORATION_REPLY_A.md",
+        "sha": "4be4dec821d7f2d1e4698035618ca5e5191b1a28",
+        "size": 3082,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/COLLABORATION_REPLY_A.md?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/COLLABORATION_REPLY_A.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/4be4dec821d7f2d1e4698035618ca5e5191b1a28",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/COLLABORATION_REPLY_A.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/COLLABORATION_REPLY_A.md?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/4be4dec821d7f2d1e4698035618ca5e5191b1a28",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/COLLABORATION_REPLY_A.md"
+        }
+      },
+      {
+        "name": "INDEPENDENT_RESULT_A.json",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/INDEPENDENT_RESULT_A.json",
+        "sha": "3dca6c0b662b4b829b40ee98d95487712f04d535",
+        "size": 31995,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/INDEPENDENT_RESULT_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/INDEPENDENT_RESULT_A.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/3dca6c0b662b4b829b40ee98d95487712f04d535",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/INDEPENDENT_RESULT_A.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/INDEPENDENT_RESULT_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/3dca6c0b662b4b829b40ee98d95487712f04d535",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/INDEPENDENT_RESULT_A.json"
+        }
+      },
+      {
+        "name": "INNER_SHA256SUMS.json",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/INNER_SHA256SUMS.json",
+        "sha": "295ed428b4bb4d36d83abc2530346e9f6061f96d",
+        "size": 2474,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/INNER_SHA256SUMS.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/INNER_SHA256SUMS.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/295ed428b4bb4d36d83abc2530346e9f6061f96d",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/INNER_SHA256SUMS.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/INNER_SHA256SUMS.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/295ed428b4bb4d36d83abc2530346e9f6061f96d",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/INNER_SHA256SUMS.json"
+        }
+      },
+      {
+        "name": "PRIVACY_CHECK_A.json",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/PRIVACY_CHECK_A.json",
+        "sha": "3e3f357221ebc54eee529e5539b4bdb5e2869005",
+        "size": 1001,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/PRIVACY_CHECK_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/PRIVACY_CHECK_A.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/3e3f357221ebc54eee529e5539b4bdb5e2869005",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/PRIVACY_CHECK_A.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/PRIVACY_CHECK_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/3e3f357221ebc54eee529e5539b4bdb5e2869005",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/PRIVACY_CHECK_A.json"
+        }
+      },
+      {
+        "name": "README.md",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/README.md",
+        "sha": "7ac5094e0dc60d81cf30b6649fe818d01d484f09",
+        "size": 2407,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/README.md?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/README.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/7ac5094e0dc60d81cf30b6649fe818d01d484f09",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/README.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/README.md?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/7ac5094e0dc60d81cf30b6649fe818d01d484f09",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/README.md"
+        }
+      },
+      {
+        "name": "REPORT_A.md",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/REPORT_A.md",
+        "sha": "f1d0a5a056c7fd5bd94f67cccafab70429146576",
+        "size": 8520,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/REPORT_A.md?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/REPORT_A.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/f1d0a5a056c7fd5bd94f67cccafab70429146576",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/REPORT_A.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/REPORT_A.md?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/f1d0a5a056c7fd5bd94f67cccafab70429146576",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/REPORT_A.md"
+        }
+      },
+      {
+        "name": "SOURCE_INPUT_COVERAGE_A.json",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_INPUT_COVERAGE_A.json",
+        "sha": "68b799b3e2338297948a0eca20c26f5557d46119",
+        "size": 23291,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_INPUT_COVERAGE_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_INPUT_COVERAGE_A.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/68b799b3e2338297948a0eca20c26f5557d46119",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_INPUT_COVERAGE_A.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_INPUT_COVERAGE_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/68b799b3e2338297948a0eca20c26f5557d46119",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_INPUT_COVERAGE_A.json"
+        }
+      },
+      {
+        "name": "SOURCE_RECEIPT_A.json",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_RECEIPT_A.json",
+        "sha": "e3afc378a5fe56c059092ceaa4918836fa9db6c9",
+        "size": 12503,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_RECEIPT_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_RECEIPT_A.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/e3afc378a5fe56c059092ceaa4918836fa9db6c9",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_RECEIPT_A.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_RECEIPT_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/e3afc378a5fe56c059092ceaa4918836fa9db6c9",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_RECEIPT_A.json"
+        }
+      },
+      {
+        "name": "SOURCE_REVIEW_A.md",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_REVIEW_A.md",
+        "sha": "9b702d585effe4b7396372a57f0032d7c1f1f11b",
+        "size": 5545,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_REVIEW_A.md?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_REVIEW_A.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/9b702d585effe4b7396372a57f0032d7c1f1f11b",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_REVIEW_A.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_REVIEW_A.md?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/9b702d585effe4b7396372a57f0032d7c1f1f11b",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SOURCE_REVIEW_A.md"
+        }
+      },
+      {
+        "name": "SYNTHETIC_LOG_A.txt",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SYNTHETIC_LOG_A.txt",
+        "sha": "5b0df1c98fd53561ae0c06cc9e0750f2b48d1d11",
+        "size": 7072,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SYNTHETIC_LOG_A.txt?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SYNTHETIC_LOG_A.txt",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5b0df1c98fd53561ae0c06cc9e0750f2b48d1d11",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SYNTHETIC_LOG_A.txt",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SYNTHETIC_LOG_A.txt?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5b0df1c98fd53561ae0c06cc9e0750f2b48d1d11",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SYNTHETIC_LOG_A.txt"
+        }
+      },
+      {
+        "name": "SYNTHETIC_RESULT_A.json",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SYNTHETIC_RESULT_A.json",
+        "sha": "21b50d7660095446ae45fc1977005554f1910095",
+        "size": 816,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SYNTHETIC_RESULT_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SYNTHETIC_RESULT_A.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/21b50d7660095446ae45fc1977005554f1910095",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SYNTHETIC_RESULT_A.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SYNTHETIC_RESULT_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/21b50d7660095446ae45fc1977005554f1910095",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/SYNTHETIC_RESULT_A.json"
+        }
+      },
+      {
+        "name": "UNVERIFIED_ITEMS_A.md",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UNVERIFIED_ITEMS_A.md",
+        "sha": "40b8d38ebd3e497b57b34d11245a8a5b41ed361c",
+        "size": 2602,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UNVERIFIED_ITEMS_A.md?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UNVERIFIED_ITEMS_A.md",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/40b8d38ebd3e497b57b34d11245a8a5b41ed361c",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UNVERIFIED_ITEMS_A.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UNVERIFIED_ITEMS_A.md?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/40b8d38ebd3e497b57b34d11245a8a5b41ed361c",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UNVERIFIED_ITEMS_A.md"
+        }
+      },
+      {
+        "name": "UPLOAD_SHA256SUMS.json",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UPLOAD_SHA256SUMS.json",
+        "sha": "a56b12a0b6411c3b4d25111590180fc02c58f89f",
+        "size": 2772,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UPLOAD_SHA256SUMS.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UPLOAD_SHA256SUMS.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/a56b12a0b6411c3b4d25111590180fc02c58f89f",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UPLOAD_SHA256SUMS.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UPLOAD_SHA256SUMS.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/a56b12a0b6411c3b4d25111590180fc02c58f89f",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UPLOAD_SHA256SUMS.json"
+        }
+      },
+      {
+        "name": "UPSTREAM_CHECK_A.json",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UPSTREAM_CHECK_A.json",
+        "sha": "0ca97158a8f502ce5f031f7c0c91d351aaf321d6",
+        "size": 7798,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UPSTREAM_CHECK_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UPSTREAM_CHECK_A.json",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/0ca97158a8f502ce5f031f7c0c91d351aaf321d6",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UPSTREAM_CHECK_A.json",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UPSTREAM_CHECK_A.json?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/0ca97158a8f502ce5f031f7c0c91d351aaf321d6",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/UPSTREAM_CHECK_A.json"
+        }
+      },
+      {
+        "name": "check_upstream_a.py",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/check_upstream_a.py",
+        "sha": "a0af791582194ab98c013ea384f1d02a26165909",
+        "size": 3038,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/check_upstream_a.py?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/check_upstream_a.py",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/a0af791582194ab98c013ea384f1d02a26165909",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/check_upstream_a.py",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/check_upstream_a.py?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/a0af791582194ab98c013ea384f1d02a26165909",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/check_upstream_a.py"
+        }
+      },
+      {
+        "name": "independent_audit.py",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/independent_audit.py",
+        "sha": "abc63aa6a3dd87794582fb3e5f140fd9be693cab",
+        "size": 15700,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/independent_audit.py?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/independent_audit.py",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/abc63aa6a3dd87794582fb3e5f140fd9be693cab",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/independent_audit.py",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/independent_audit.py?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/abc63aa6a3dd87794582fb3e5f140fd9be693cab",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/independent_audit.py"
+        }
+      },
+      {
+        "name": "retest_a.py",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/retest_a.py",
+        "sha": "2af8e97bb05b42d6fe6a5efbfd79c675b1d8cc90",
+        "size": 2429,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/retest_a.py?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/retest_a.py",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/2af8e97bb05b42d6fe6a5efbfd79c675b1d8cc90",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/retest_a.py",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/retest_a.py?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/2af8e97bb05b42d6fe6a5efbfd79c675b1d8cc90",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/retest_a.py"
+        }
+      },
+      {
+        "name": "synthetic_checks_a.py",
+        "path": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/synthetic_checks_a.py",
+        "sha": "adf289c391dccb5873c62a39913aa505b66d6ef5",
+        "size": 8268,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/synthetic_checks_a.py?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+        "html_url": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/synthetic_checks_a.py",
+        "git_url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/adf289c391dccb5873c62a39913aa505b66d6ef5",
+        "download_url": "https://raw.githubusercontent.com/ylrq8475-ui/Shiyou/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/synthetic_checks_a.py",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/ylrq8475-ui/Shiyou/contents/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/synthetic_checks_a.py?ref=3b38c63514f6da6ef9469da54030c1eac40e1abd",
+          "git": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/adf289c391dccb5873c62a39913aa505b66d6ef5",
+          "html": "https://github.com/ylrq8475-ui/Shiyou/blob/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1/synthetic_checks_a.py"
+        }
+      }
+    ]
+  }
+]

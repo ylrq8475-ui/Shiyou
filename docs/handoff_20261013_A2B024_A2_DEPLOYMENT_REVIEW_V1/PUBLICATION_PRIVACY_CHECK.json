@@ -1,0 +1,17 @@
+{
+  "signature": "账户A（新接手）独立审核与交付",
+  "account": "A2",
+  "passed": true,
+  "manual_review_complete": true,
+  "known_marker_scan_executed": true,
+  "known_markers_checked": 10,
+  "known_marker_hits": 0,
+  "known_marker_origin": "authorized attached result ZIP identifiers in memory only",
+  "full_training_well_or_private_candidate_value_inventory_scanned": false,
+  "credential_pattern_hits": 0,
+  "source_scope": "explicit A2 anonymous reports and programs; no attached archives or weights included",
+  "raw_data_private_config_weights_per_well_values_included": false,
+  "private_models_loaded": 0,
+  "real_model_or_preprocessor_fits": 0,
+  "audit_does_not_claim_complete_detection_of_all_unknown_private_values": true
+}

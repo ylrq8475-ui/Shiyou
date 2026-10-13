@@ -1,0 +1,36 @@
+test_B0_alone (test_deployment.Checks.test_B0_alone) ... ok
+test_corrupt_feature_identity (test_deployment.Checks.test_corrupt_feature_identity) ... ok
+test_duplicate_keys_rejected (test_deployment.Checks.test_duplicate_keys_rejected) ... ok
+test_fitted_feature_order_rejected (test_deployment.Checks.test_fitted_feature_order_rejected) ... ok
+test_incomplete_well_rejected (test_deployment.Checks.test_incomplete_well_rejected) ... ok
+test_invalid_inverse_rejected (test_deployment.Checks.test_invalid_inverse_rejected) ... ok
+test_label_is_rejected (test_deployment.Checks.test_label_is_rejected) ... ok
+test_missing_arm_rejected (test_deployment.Checks.test_missing_arm_rejected) ... ok
+test_nan_uses_C1 (test_deployment.Checks.test_nan_uses_C1) ... ok
+test_nonnegative_inverse (test_deployment.Checks.test_nonnegative_inverse) ... ok
+test_positive_one_uses_B0 (test_deployment.Checks.test_positive_one_uses_B0) ... ok
+test_positive_scale_inverse (test_deployment.Checks.test_positive_scale_inverse) ... ok
+test_raw_state_changes_within_well_rejected (test_deployment.Checks.test_raw_state_changes_within_well_rejected) ... ok
+test_wrong_parameters_rejected (test_deployment.Checks.test_wrong_parameters_rejected) ... ok
+test_zero_negative_infinity_use_C1 (test_deployment.Checks.test_zero_negative_infinity_use_C1) ... ok
+test_zip_extra_root_member_rejected (test_deployment.Checks.test_zip_extra_root_member_rejected) ... ok
+test_zip_lexemes_and_determinism (test_deployment.Checks.test_zip_lexemes_and_determinism) ... ok
+test_zip_wrong_lexeme_rejected (test_deployment.Checks.test_zip_wrong_lexeme_rejected) ... ok
+test_archive_path_escape_rejected (test_platform_contract.PlatformChecks.test_archive_path_escape_rejected) ... ok
+test_archive_root_wrapper_and_skip_train (test_platform_contract.PlatformChecks.test_archive_root_wrapper_and_skip_train) ... ok
+test_changed_content_rejected (test_platform_contract.PlatformChecks.test_changed_content_rejected) ... ok
+test_date_padding_preserves_semantics (test_platform_contract.PlatformChecks.test_date_padding_preserves_semantics) ... ok
+test_directory_data_root (test_platform_contract.PlatformChecks.test_directory_data_root) ... ok
+test_directory_full_root (test_platform_contract.PlatformChecks.test_directory_full_root) ... ok
+test_directory_test_root (test_platform_contract.PlatformChecks.test_directory_test_root) ... ok
+test_duplicate_content_rejected (test_platform_contract.PlatformChecks.test_duplicate_content_rejected) ... ok
+test_invalid_calendar_rejected (test_platform_contract.PlatformChecks.test_invalid_calendar_rejected) ... ok
+test_missing_file_rejected (test_platform_contract.PlatformChecks.test_missing_file_rejected) ... ok
+test_model_fit_guard (test_platform_contract.PlatformChecks.test_model_fit_guard) ... ok
+test_normalized_duplicate_rejected (test_platform_contract.PlatformChecks.test_normalized_duplicate_rejected) ... ok
+test_preprocess_fit_guard (test_platform_contract.PlatformChecks.test_preprocess_fit_guard) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.595s
+
+OK

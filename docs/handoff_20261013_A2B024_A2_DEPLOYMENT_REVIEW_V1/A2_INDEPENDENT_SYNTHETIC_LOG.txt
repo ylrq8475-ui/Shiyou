@@ -1,0 +1,20 @@
+test_anchor_and_future_values_excluded (__main__.IndependentTests.test_anchor_and_future_values_excluded) ... ok
+test_date_padding_semantics_and_collision (__main__.IndependentTests.test_date_padding_semantics_and_collision) ... ok
+test_duplicate_well_month_rejected (__main__.IndependentTests.test_duplicate_well_month_rejected) ... ok
+test_first_month_epsilon_hand_calculation (__main__.IndependentTests.test_first_month_epsilon_hand_calculation) ... ok
+test_invalid_raw_arms_route_all_months (__main__.IndependentTests.test_invalid_raw_arms_route_all_months) ... ok
+test_inverse_fallback_labels_same_given_z (__main__.IndependentTests.test_inverse_fallback_labels_same_given_z) ... ok
+test_mixed_groups_score_contribution_identity (__main__.IndependentTests.test_mixed_groups_score_contribution_identity) ... ok
+test_nan_inf_rejected (__main__.IndependentTests.test_nan_inf_rejected) ... ok
+test_positive_arms_route_all_months (__main__.IndependentTests.test_positive_arms_route_all_months) ... ok
+test_segment_end_across_year_and_leap_month (__main__.IndependentTests.test_segment_end_across_year_and_leap_month) ... ok
+test_train_window_next_12_natural_months (__main__.IndependentTests.test_train_window_next_12_natural_months) ... ok
+test_unnormalized_constant_ratio (__main__.IndependentTests.test_unnormalized_constant_ratio) ... ok
+test_well_equal_aggregation_and_row_shuffle (__main__.IndependentTests.test_well_equal_aggregation_and_row_shuffle) ... ok
+test_wrong_epsilon_rejected (__main__.IndependentTests.test_wrong_epsilon_rejected) ... ok
+test_zero_zero (__main__.IndependentTests.test_zero_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.132s
+
+OK

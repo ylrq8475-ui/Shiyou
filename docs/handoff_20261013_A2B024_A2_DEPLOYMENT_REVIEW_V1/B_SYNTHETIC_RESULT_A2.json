@@ -1,0 +1,10 @@
+{
+  "tests": 31,
+  "passed": true,
+  "public_python_source_bytes_unchanged": true,
+  "model_or_preprocessor_fits": 0,
+  "real_model_loads": 0,
+  "rejected_synthetic_fit_attempts": 2,
+  "synthetic_file_writes_only_in_A_sandbox": true,
+  "signature": "账户A（新接手）独立审核与交付"
+}

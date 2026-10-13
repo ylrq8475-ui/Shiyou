@@ -1,0 +1,15 @@
+{
+  "signature": "账户A（新接手）独立审核与交付",
+  "records": [
+    {"role":"earlier platform score report","score":86.2003,"reported_date":"earlier message; precise submission time unknown","evidence":"USER_REPORTED","platform_record_independently_read":false,"historical_platform_uploaded_package":"UNVERIFIED"},
+    {"role":"latest platform score report","score":86.2003,"reported_date":"2026-10-13","evidence":"USER_REPORTED_LATEST","platform_record_independently_read":false,"platform_uploaded_package":"UNVERIFIED","A_observed_local_result_sha256":"e41463cac0ec58827f240293a6a35385b27745a3354197efdcfa3d78ad72f796","A_observed_local_code_sha256":"540ace087ed37affc57a2d08774e163de4a14f0dec7f671c1a659f9bab7046eb","local_artifact_to_B_delivery":"VERIFIED"}
+  ],
+  "same_numeric_score_does_not_prove_same_package":true,
+  "actual_old_new_attached_predictions_compared_independently":true,
+  "serialized_predicted_rows_compared":120,
+  "serialized_predicted_values_changed":0,
+  "independent_platform_score_computation_possible":false,
+  "test_labels_available":false,
+  "original_research_confirmation":"FAILED_UNCHANGED",
+  "later_exploration_scope":"SEPARATELY_USER_AUTHORIZED"
+}

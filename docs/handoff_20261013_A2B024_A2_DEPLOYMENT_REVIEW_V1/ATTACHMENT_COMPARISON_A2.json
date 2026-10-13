@@ -1,0 +1,110 @@
+{
+  "signature": "账户A（新接手）独立审核与交付",
+  "old_code_user_confirmed_previous_version": true,
+  "old_result_user_confirmed_previous_version": true,
+  "old_code": {
+    "archive_sha256": "cafe3d04221b7c9ea05e75bd69d941bac5907c901143c77d9f362b527ecb4a8e",
+    "bytes": 38458,
+    "members": 17,
+    "CRC_passed": true
+  },
+  "new_code": {
+    "archive_sha256": "540ace087ed37affc57a2d08774e163de4a14f0dec7f671c1a659f9bab7046eb",
+    "bytes": 5156971,
+    "members": 20,
+    "CRC_passed": true
+  },
+  "old_result": {
+    "archive_sha256": "b11a03a386ff91c6353ecb5ead7552162c5590a0c76ca021d4e65ac67e6fcd41",
+    "bytes": 2525,
+    "members": 10,
+    "CRC_passed": true,
+    "wells": 10,
+    "rows": 120,
+    "root_flat": true,
+    "columns_correct": true,
+    "all_values_finite_nonnegative": true,
+    "all_windows_12_contiguous_months": true,
+    "canonical_padded_dates": false,
+    "per_well_or_per_value_outputs_saved": false
+  },
+  "new_result": {
+    "archive_sha256": "e41463cac0ec58827f240293a6a35385b27745a3354197efdcfa3d78ad72f796",
+    "bytes": 2541,
+    "members": 10,
+    "CRC_passed": true,
+    "wells": 10,
+    "rows": 120,
+    "root_flat": true,
+    "columns_correct": true,
+    "all_values_finite_nonnegative": true,
+    "all_windows_12_contiguous_months": true,
+    "canonical_padded_dates": true,
+    "per_well_or_per_value_outputs_saved": false
+  },
+  "new_code_matches_B_delivered_archive": true,
+  "new_result_matches_B_delivered_archive": true,
+  "new_code_model_members": 1,
+  "new_model_bytes_match_B_identity": true,
+  "attached_models_deserialized_or_executed": false,
+  "attached_new_python_matches_reviewed_public_files": [
+    "deployment_core.py",
+    "input_reader.py",
+    "predict.py",
+    "runtime_guard.py",
+    "src/oil_uplift/__init__.py",
+    "src/oil_uplift/a2b013_safe.py",
+    "src/oil_uplift/config.py",
+    "src/oil_uplift/exceptions.py",
+    "src/oil_uplift/io.py",
+    "src/oil_uplift/models.py",
+    "src/oil_uplift/multistep.py",
+    "src/oil_uplift/scoring.py",
+    "src/oil_uplift/submission.py",
+    "src/oil_uplift/training.py",
+    "test_deployment.py",
+    "test_platform_contract.py"
+  ],
+  "attached_new_python_mismatches_reviewed_public_files": [],
+  "code_change_summary": {
+    "old_python_files": 12,
+    "new_python_files": 16,
+    "same_python_paths": 10,
+    "unchanged_shared_python_paths": [
+      "src/oil_uplift/__init__.py",
+      "src/oil_uplift/a2b013_safe.py",
+      "src/oil_uplift/config.py",
+      "src/oil_uplift/exceptions.py",
+      "src/oil_uplift/io.py",
+      "src/oil_uplift/models.py",
+      "src/oil_uplift/multistep.py",
+      "src/oil_uplift/scoring.py",
+      "src/oil_uplift/submission.py",
+      "src/oil_uplift/training.py"
+    ],
+    "changed_shared_python_paths": [],
+    "new_python_paths": [
+      "deployment_core.py",
+      "input_reader.py",
+      "predict.py",
+      "runtime_guard.py",
+      "test_deployment.py",
+      "test_platform_contract.py"
+    ]
+  },
+  "prediction_comparison": {
+    "same_well_sets": true,
+    "same_semantic_date_keys": true,
+    "same_lexical_date_keys": false,
+    "comparable_rows": 120,
+    "changed_prediction_rows": 0,
+    "max_abs_prediction_change": 0.0,
+    "same_per_well_row_order_and_semantic_dates": true,
+    "unchanged_csv_bytes_count": 0,
+    "same_result_zip_bytes": false,
+    "individual_identifiers_values_or_hashes_not_reported": true
+  },
+  "known_private_identifiers_available_for_scan": 10,
+  "actual_original_data_access": false,
+  "real_fits": 0
+}

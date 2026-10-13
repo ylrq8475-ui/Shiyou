@@ -1,0 +1,30 @@
+{
+  "code_integrity_manifest_members_verified": 19,
+  "code_has_root_contract": true,
+  "code_under_5GB": true,
+  "runtime_enforced_by_source": {
+    "python_version": "3.13.7",
+    "versions": {
+      "numpy": "2.4.3",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.1",
+      "pandas": "2.3.3",
+      "joblib": "1.6.0",
+      "threadpoolctl": "3.7.0",
+      "PyYAML": "6.0.3"
+    }
+  },
+  "runtime_server_compatibility_verified": false,
+  "old_training_entry_in_new_package": false,
+  "root_CLI_entries": [
+    "predict.py"
+  ],
+  "dual_arm_full_training_CLI_detected": false,
+  "generic_training_library_included": true,
+  "changed_date_lexemes_rows": 120,
+  "changed_prediction_lexemes_rows": 0,
+  "old_to_new_CSV_field_difference_only_date_padding": true,
+  "private_contents_or_model_values_saved": false,
+  "model_deserializations": 0,
+  "real_fits": 0
+}

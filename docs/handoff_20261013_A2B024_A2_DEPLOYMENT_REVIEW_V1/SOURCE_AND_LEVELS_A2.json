@@ -1,0 +1,19 @@
+{
+  "signature":"账户A（新接手）独立审核与交付",
+  "logical_identity":"A2",
+  "as_of":"2026-10-13",
+  "verified_by_A2":["fixed public Git blobs and anonymous manifests","old/new attached ZIP CRC and whole hashes","19 actual new code integrity hashes","16 attached Python sources equal reviewed public source","model file bytes equal B SHA256, no object load","120 serialized old/new prediction values and strings equal","semantic dates and per-well row order equal","1198 independent aggregate and identity checks","31 B synthetic and 15 A synthetic tests"],
+  "B_execution_records_only":["two full model and preprocessing fits","all 10 test wells positive raw scale","current R1 internal arrays equal current full B0","real original-ZIP standalone inference and private path guard","raw 100 files and 1668 old artifacts unchanged","sequential saved/reloaded real model predictions exactly equal"],
+  "user_reported":["latest platform score 86.2003","earlier separate platform score 86.2003","old attachment role and new attachment role","separate exploration authorization","organizer says boundary must be understood and explored"],
+  "not_executed_by_A2":["real fit","real model object loading or inference","original competition file access","platform record lookup","server code execution","formal packaging","platform upload"],
+  "current_rules":"RCYL, official unnormalized weights and epsilon, well isolation, cutoff, template; missing unique semantics not standalone P0",
+  "research_failure":"FAILED_UNCHANGED",
+  "separate_exploration":"USER_AUTHORIZED",
+  "historical_dtype":"UNKNOWN",
+  "local_new_files_to_B_delivery":"VERIFIED",
+  "platform_uploaded_files_to_score":"UNVERIFIED",
+  "P0_new":0,
+  "P1_open_in_this_review":1,
+  "privacy_known_marker_scan_scope":"10 distinct identifiers observed in authorized attached result ZIPs only; no raw-data identifier inventory scanned",
+  "next_training_started_or_authorized":false
+}
