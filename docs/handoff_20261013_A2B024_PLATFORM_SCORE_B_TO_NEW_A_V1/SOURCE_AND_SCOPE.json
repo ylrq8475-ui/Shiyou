@@ -1,0 +1,64 @@
+{
+  "author": "账户B执行与交付",
+  "sources": [
+    {
+      "role": "new A context onboarding, authored by B",
+      "commit": "e71c3e17e1c411ee0144d89a50ea394352c21f66",
+      "directory": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1",
+      "read": [
+        "README.md",
+        "CONTEXT_AND_HISTORY.md",
+        "GITHUB_DELIVERY_RULES_A_V1.md",
+        "SOURCE_PROVENANCE.json"
+      ],
+      "directory_url": "https://github.com/ylrq8475-ui/Shiyou/tree/e71c3e17e1c411ee0144d89a50ea394352c21f66/docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1"
+    },
+    {
+      "role": "original A2B-024 R2 executed research, before exploration exception",
+      "commit": "65115714d49d17122989195910b119264bd93880",
+      "directory": "docs/handoff_20261012_A2B024_B",
+      "read": [
+        "REPORT_B.md",
+        "PLAN_R2.json",
+        "FINAL_RESULT.json",
+        "MODEL_REGISTRY.json",
+        "EXECUTION_SUPPLEMENT.json"
+      ],
+      "directory_url": "https://github.com/ylrq8475-ui/Shiyou/tree/65115714d49d17122989195910b119264bd93880/docs/handoff_20261012_A2B024_B"
+    },
+    {
+      "role": "previous successor A limited readonly review of original research; not deployment signoff",
+      "commit": "3b38c63514f6da6ef9469da54030c1eac40e1abd",
+      "directory": "docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1",
+      "read": [
+        "REPORT_A.md",
+        "COLLABORATION_REPLY_A.md"
+      ],
+      "directory_url": "https://github.com/ylrq8475-ui/Shiyou/tree/3b38c63514f6da6ef9469da54030c1eac40e1abd/docs/handoff_20261012_A2B024_A_SUCCESSOR_REVIEW_v1"
+    },
+    {
+      "role": "latest B exploration deployment, actual two full fits and formal local packages",
+      "commit": "519b00da7dc29bae0448c797ee2e74e3e3cc35b3",
+      "directory": "docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1",
+      "read": [
+        "README.md",
+        "REPORT_B.md",
+        "USER_AUTHORIZATION.md",
+        "DEPLOYMENT_PLAN.json",
+        "AUTHORIZATION_SELECTION.json",
+        "DEPLOYMENT_ACCEPTANCE_B.json",
+        "DEPLOYMENT_DEBUG_LOG.json",
+        "MODEL_REGISTRY.json",
+        "FORMAT_RULES_CHECK.json",
+        "STANDALONE_ACCESS_AUDIT.json",
+        "SYNTHETIC_RESULTS.json",
+        "UPLOAD_SHA256SUMS.json",
+        "ANONYMOUS_REVIEW_BUNDLE.zip"
+      ],
+      "directory_url": "https://github.com/ylrq8475-ui/Shiyou/tree/519b00da7dc29bae0448c797ee2e74e3e3cc35b3/docs/handoff_20261012_A2B024_R1_PLATFORM_EXPLORE_B_V1"
+    }
+  ],
+  "source_paths_checked_at_fixed_commits": true,
+  "scope": "context, user-reported score provenance, independent readonly A audit and anonymous delivery",
+  "not_authorized": "real fitting, new candidates, score-guided changes, model upgrade, formal packaging or platform submission"
+}

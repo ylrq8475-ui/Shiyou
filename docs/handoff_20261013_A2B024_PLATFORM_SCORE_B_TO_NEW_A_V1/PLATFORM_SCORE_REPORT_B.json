@@ -1,0 +1,32 @@
+{
+  "task": "A2B-024 latest platform score and successor A handoff",
+  "author": "账户B执行与交付",
+  "recorded_date": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "score": 86.2003,
+  "evidence_level": "USER_REPORTED_LATEST_PLATFORM_SCORE",
+  "user_statement": "当前最新结果86.2003",
+  "platform_record_independently_observed": false,
+  "platform_submission_id": null,
+  "platform_submission_time": null,
+  "actual_uploaded_zip_hashes_independently_verified": false,
+  "reported_score_bound_to_B_delivered_artifacts": "UNVERIFIED",
+  "latest_B_delivered_artifacts_sha256": {
+    "result.zip": "e41463cac0ec58827f240293a6a35385b27745a3354197efdcfa3d78ad72f796",
+    "submission_code.zip": "540ace087ed37affc57a2d08774e163de4a14f0dec7f671c1a659f9bab7046eb"
+  },
+  "same_numeric_score_as_earlier_report": true,
+  "same_score_proves_same_model_or_package": false,
+  "new_local_OOF": false,
+  "original_research_confirmation": "FAILED_UNCHANGED",
+  "exploration_deployment": "USER_AUTHORIZED_SEPARATE_STAGE; B_LOCAL_ACCEPTANCE_PASSED",
+  "latest_deployment_A_review": "NOT_EXECUTED/PENDING_NEW_A",
+  "test_wells": 10,
+  "test_rows": 120,
+  "test_fallback_wells": 0,
+  "test_R1_exactly_equals_this_full_B0": "B_RECORDED; TO_BE_REVIEWED",
+  "new_model_fits_this_handoff": 0,
+  "new_preprocessor_fits_this_handoff": 0,
+  "new_platform_uploads_by_B_this_handoff": 0,
+  "historical_20261012_no_platform_upload_record": "VALID_AS_OF_THAT_RECORD; not a denial of later user submission"
+}
