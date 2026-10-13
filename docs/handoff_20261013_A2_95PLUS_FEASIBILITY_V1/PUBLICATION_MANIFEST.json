@@ -1,0 +1,42 @@
+{
+  "account": "A independent audit and delivery",
+  "files": {
+    "ACCOUNT_A_REVIEW.zip": {
+      "bytes": 10387,
+      "sha256": "58a2abdb47498aa6c46ec66270f8a7dddfc5bf19332e561578fded02c7605feb"
+    },
+    "ACCOUNT_A_REVIEW.zip.sha256": {
+      "bytes": 87,
+      "sha256": "697664af3c8db8993075464cc910be886342aba625fd0c1956da5a0af3b0c416"
+    },
+    "A_SHA256SUMS.json": {
+      "bytes": 898,
+      "sha256": "8921fb446419d045ba301bca50cd8fc77665aae780fa52e44bb1d462e66fe283"
+    },
+    "calculate_95_budget.py": {
+      "bytes": 3167,
+      "sha256": "087b008a98b6953e35278863e59fa9ae3904dc1b43393085dab32a52773eeba9"
+    },
+    "COLLABORATION_REPLY_A.md": {
+      "bytes": 2410,
+      "sha256": "2be97577930c3418e46060aedc4e6aba160d71a0e79bc63f298eedec34636ad3"
+    },
+    "LOSS_BUDGET_95_A2.json": {
+      "bytes": 5797,
+      "sha256": "57ff1098da5808ee7389bb89f68c777ff18de8aa95c8f4ef11546b8baeaac9d6"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 471,
+      "sha256": "ab9eb6b3333e4d78ef7c77c99e533649d93f58e6dbe97ee12a4ad458f4696d73"
+    },
+    "README.md": {
+      "bytes": 766,
+      "sha256": "6168f0ca96474bd208da36264d97cf4050b8276b60819c35bd0ff837a0d2b55c"
+    },
+    "REPORT_A.md": {
+      "bytes": 6251,
+      "sha256": "1254829907604a2ecb8997a8c03d3f0951f49c2ac7d05e90b5106576692d104c"
+    }
+  },
+  "manifest_excludes_itself": true
+}
