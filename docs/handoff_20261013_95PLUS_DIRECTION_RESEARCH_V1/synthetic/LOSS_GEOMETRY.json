@@ -1,0 +1,40 @@
+{
+ "identity_max_abs_err": 8.663192149205301e-07,
+ "identity": "|p-y|/(p+y) = tanh(|ln(p/y)|/2)，epsilon 可忽略时成立",
+ "model": "各月对数误差 z~N(0,σ²) 同分布时，Score = 100·(1 − ΣW·E[tanh(|z|/2)])，ΣW=1−2^-12",
+ "equivalent_log_error_sigma": {
+  "B0_OOF_fixed": 0.7103737578048208,
+  "platform_reported": 0.353546702503016,
+  "target_95": 0.12588913302206434,
+  "level_oracle_OOF": 0.49721457750970777,
+  "shape_oracle_OOF": 0.4895429207240617,
+  "best_scalar_oracle_OOF": 0.30128238509685734
+ },
+ "independent_additive_check": {
+  "sigma_shape_residual_from_level_oracle": 0.49721457750970777,
+  "sigma_level_residual_from_shape_oracle": 0.4895429207240617,
+  "sqrt_sum_squares": 0.6977640054625934,
+  "sigma_total_B0": 0.7103737578048208,
+  "ratio": 0.982249129836674,
+  "note": "比值接近1说明“水平+形状独立相加”的近似可用；只是量级模型，不是分解定理"
+ },
+ "target95_max_sigma_shape_given_sigma_level": {
+  "sigma_level=0.0": 0.12588913302206434,
+  "sigma_level=0.05": 0.11553386435607098,
+  "sigma_level=0.08": 0.09720120273457016,
+  "sigma_level=0.1": 0.07647269978918625,
+  "sigma_level=0.12": 0.03805356505042608
+ },
+ "reduction_needed_platform_to_95_in_sigma": 0.6439250256591196,
+ "score_if_sigma": {
+  "0.1": 96.02441660153832,
+  "0.125": 95.03513169045964,
+  "0.15": 94.04888767844466,
+  "0.2": 92.08780857956589,
+  "0.25": 90.14557025334105,
+  "0.3": 88.22623024327358,
+  "0.35": 86.33346409219162,
+  "0.5": 80.84508643003288,
+  "0.7": 74.04897487968563
+ }
+}

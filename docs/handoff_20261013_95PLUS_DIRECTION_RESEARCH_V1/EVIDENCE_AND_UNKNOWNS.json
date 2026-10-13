@@ -1,0 +1,54 @@
+{
+ "signature": "独立方案研究账户：95+方向评估",
+ "date": "2026-10-13",
+ "not_A2_review_or_B_execution": true,
+ "real_fits_this_round": 0,
+ "real_data_read_this_round": 0,
+ "levels": {
+  "VERIFIED_BY_THIS_ACCOUNT": "本账户亲自执行的纯合成推导与参考实现测试",
+  "A2_REVIEWED": "A2 在固定快照 2535e371 中的审核结论",
+  "B_RECORDED": "B 执行记录",
+  "USER_REPORTED": "用户报告，未独立核验",
+  "HYPOTHESIS": "尚未检验的机制假设",
+  "UNKNOWN": "缺数据"
+ },
+ "evidence": [
+  {"item": "官方单月损失 = tanh(|ln(p/y)|/2)", "level": "VERIFIED_BY_THIS_ACCOUNT", "basis": "synthetic/LOSS_GEOMETRY.json，最大误差 8.7e-7"},
+  {"item": "水平与形状误差近似独立相加（√(σS²+σL²)/σ_B0 = 0.982）", "level": "VERIFIED_BY_THIS_ACCOUNT", "basis": "高斯近似下对 A2B-025 三个神谕值的推导；输入为 B 记录"},
+  {"item": "95 所需等效对数误差 σ≈0.126；平台当前 ≈0.354", "level": "VERIFIED_BY_THIS_ACCOUNT", "note": "高斯近似"},
+  {"item": "真值为0时正预测损失≈1，最优零判据 P(y=0)>(1−ℓ+)/(2−ℓ+)", "level": "VERIFIED_BY_THIS_ACCOUNT", "basis": "synthetic/ZERO_DECISION.json，含蒙特卡洛"},
+  {"item": "诊断参考实现 12 项合成测试通过", "level": "VERIFIED_BY_THIS_ACCOUNT"},
+  {"item": "86.2003 → 95 需移除 63.77% 损失", "level": "A2_REVIEWED"},
+  {"item": "正尺度井占损失约 78–81%，前两月约 75%", "level": "A2_REVIEWED"},
+  {"item": "当前 R1 测试预测与 A2B-013 完全相同", "level": "A2_REVIEWED"},
+  {"item": "B0 固定 OOF 73.71410733861434", "level": "B_RECORDED"},
+  {"item": "level/shape/best_scalar 神谕 80.944/81.218/88.177", "level": "B_RECORDED", "binding": "B 交付 zip SHA256 28dca8e38aa708b34d2a1c7c2e24a83121f1a74840c6fb8fbbdc482d0d3a220f；B 尚未发布到 GitHub；早先 A1 只读复核见提交 14e26d25577d0feff19e68f050c01f2f1b28ee1e"},
+  {"item": "M 月 RCYL 有限且>0：测试 10/10，完整训练 75/81", "level": "B_RECORDED"},
+  {"item": "v7 OOF 76.41 / 平台 80.54", "level": "USER_REPORTED", "note": "OOF 为历史记录，平台分为用户报告；与层位等因素混杂"},
+  {"item": "平台 86.2003", "level": "USER_REPORTED"}
+ ],
+ "hypotheses": [
+  {"id": "H_A", "text": "锚点月 M 的产量含措施后水平信息，截止移到 M 可显著降低水平误差", "test": "D2（零拟合），然后阶段 1"},
+  {"id": "H_B", "text": "目标窗口中的停产月占相当比例的损失，且可由预测前信息识别", "test": "D1（零拟合），然后另立实验"},
+  {"id": "H_C", "text": "absolute_error 叶中位数改善正尺度井", "status": "暂缓"}
+ ],
+ "unknowns": [
+  "目标窗口零值月占比及其在各月的分布",
+  "形状误差中可预测结构与不可约月度噪声的比例（D4 回答上限）",
+  "M 月记录的业务含义（措施月、半月产量或停机）及其在真实预测时点是否可得",
+  "测试井目标窗口中是否有停产月",
+  "平台测试井与训练井的误差分布差异（平台 σ≈0.35，OOF σ≈0.71）",
+  "v7 平台下降的原因（层位、锚点月或抽样）",
+  "台账外是否存在同条件的截止 M 实验"
+ ],
+ "conclusions": {
+  "credible_95_path_exists": false,
+  "95_proven_impossible": false,
+  "primary_route": "A 锚点月信息锚定（先过 D0/D2）",
+  "alternative_route": "B 停产月两段式（先过 D1）",
+  "deferred": ["C ExtraTrees absolute_error"],
+  "first_resource_step": "阶段 0 零拟合诊断 D0–D4",
+  "no_score_or_probability_promised": true
+ },
+ "training_authorized": false
+}

@@ -1,0 +1,118 @@
+{
+ "signature": "独立方案研究账户：95+方向评估",
+ "files": [
+  {
+   "commit": "2535e371e0608d6792f6389be9106c0fb09c3544",
+   "path": "docs/handoff_20261013_A2_95PLUS_FEASIBILITY_V1/REPORT_A.md",
+   "bytes": 6251,
+   "sha256": "1254829907604a2ecb8997a8c03d3f0951f49c2ac7d05e90b5106576692d104c"
+  },
+  {
+   "commit": "2535e371e0608d6792f6389be9106c0fb09c3544",
+   "path": "docs/handoff_20261013_A2_95PLUS_FEASIBILITY_V1/LOSS_BUDGET_95_A2.json",
+   "bytes": 5797,
+   "sha256": "57ff1098da5808ee7389bb89f68c777ff18de8aa95c8f4ef11546b8baeaac9d6"
+  },
+  {
+   "commit": "2535e371e0608d6792f6389be9106c0fb09c3544",
+   "path": "docs/handoff_20261013_A2_95PLUS_FEASIBILITY_V1/COLLABORATION_REPLY_A.md",
+   "bytes": 2410,
+   "sha256": "2be97577930c3418e46060aedc4e6aba160d71a0e79bc63f298eedec34636ad3"
+  },
+  {
+   "commit": "2535e371e0608d6792f6389be9106c0fb09c3544",
+   "path": "docs/handoff_20261013_A2B024_A2_DEPLOYMENT_REVIEW_V1/REPORT_A.md",
+   "bytes": 11885,
+   "sha256": "adb78b9144a62eb001490f0882f10252ab3d56cb75743db636af369c73fb252a"
+  },
+  {
+   "commit": "2535e371e0608d6792f6389be9106c0fb09c3544",
+   "path": "docs/handoff_20261013_A2B024_A2_DEPLOYMENT_REVIEW_V1/ERROR_MECHANISM_A2.json",
+   "bytes": 3827,
+   "sha256": "7601ed0217518cd00412c0cdb8bebf8b5bcd2bc95fdb3da1fec2f378e4b05cd9"
+  },
+  {
+   "commit": "2535e371e0608d6792f6389be9106c0fb09c3544",
+   "path": "docs/handoff_20261013_A2B024_A2_DEPLOYMENT_REVIEW_V1/SOURCE_AND_LEVELS_A2.json",
+   "bytes": 1955,
+   "sha256": "cc2c34f8806e060f3e0d37e1df4d01f2fe2da3243fc75f786b54dbf46e7be0bc"
+  },
+  {
+   "commit": "2535e371e0608d6792f6389be9106c0fb09c3544",
+   "path": "docs/handoff_20261010_A2B021_B/MECHANISM_LEDGER.md",
+   "bytes": 2510,
+   "sha256": "d7e7bd15eeba9deab78e5979cebc7131fd6d5ff58f61c9a04665fe46ece05dd8"
+  },
+  {
+   "commit": "2535e371e0608d6792f6389be9106c0fb09c3544",
+   "path": "docs/handoff_20261010_A2B021_B/REPORT_B.md",
+   "bytes": 2808,
+   "sha256": "4c25fa3ccd1141b5df9c67f7fcc6493ee41343be2612d3bf510da9e4ec489b83"
+  },
+  {
+   "commit": "2535e371e0608d6792f6389be9106c0fb09c3544",
+   "path": "docs/handoff_20261010_A2B022_B/MECHANISM_LEDGER.md",
+   "bytes": 998,
+   "sha256": "f508fd60039e2c66ff02c940c597792eb0e2e48746f4338463c12e77a4d8cd41"
+  },
+  {
+   "commit": "2535e371e0608d6792f6389be9106c0fb09c3544",
+   "path": "docs/handoff_20261010_A2B023_B/HISTORY_LOOKUP.md",
+   "bytes": 3109,
+   "sha256": "759260a86cbd6822fe29f32c76e54924a11a50c6aaba7db3a9a2cecd7f0d34f4"
+  },
+  {
+   "commit": "e71c3e17e1c411ee0144d89a50ea394352c21f66",
+   "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/CONTEXT_AND_HISTORY.md",
+   "bytes": 6043,
+   "sha256": "bca64f59a75b2b800d03c4f238da18a17b2bce82a2b75347bdfedfaeda05e187"
+  },
+  {
+   "commit": "e71c3e17e1c411ee0144d89a50ea394352c21f66",
+   "path": "docs/handoff_20261012_A_SUCCESSOR_ONBOARDING_B_V1/SOURCE_PROVENANCE.json",
+   "bytes": 8505,
+   "sha256": "5d2e1e7086da1225ecdc946e5d5370a838c8a747b7e8c058f5671b7696cc3895"
+  },
+  {
+   "commit": "65115714d49d17122989195910b119264bd93880",
+   "path": "docs/handoff_20261012_A2B024_B/REPORT_B.md",
+   "bytes": 10692,
+   "sha256": "46478118674beefb0d9aecd82140cdff7a592c6fcc49ee65c6a2adf8b5f99524"
+  },
+  {
+   "commit": "65115714d49d17122989195910b119264bd93880",
+   "path": "docs/handoff_20261012_A2B024_B/PLAN_R2.json",
+   "bytes": 4514,
+   "sha256": "f77e2dd7e66697e428806c514cabdc4a780ab3b18aac85867b66606eead00804"
+  },
+  {
+   "commit": "65115714d49d17122989195910b119264bd93880",
+   "path": "docs/handoff_20261012_A2B024_B/FINAL_RESULT.json",
+   "bytes": 194883,
+   "sha256": "e564d3eb68c429eb7cb09b814fca6ee6b7ded4f149d335c08da0ff2fceb4d0d5"
+  },
+  {
+   "commit": "4464061826607b40acdeac2e0ff4700641dd4272",
+   "path": "docs/handoff_20261009/MODEL_DETAILS.md",
+   "bytes": 9783,
+   "sha256": "ea6d10777ed094a8e28d11fb356424f2f30fe5952b68e8d7bf48488d5a40704a"
+  },
+  {
+   "commit": "d8bc8f198a7acf6cac9cb8753406d6b15579e993",
+   "path": "reports/a2b013_safe_submission.md",
+   "bytes": 5585,
+   "sha256": "31ccda628baa6e1539f635a575f52cbe200ea70630bcb8454ca379cfd8d9a6f2"
+  },
+  {
+   "commit": "14e26d25577d0feff19e68f050c01f2f1b28ee1e",
+   "path": "docs/handoff_20261013_A2B025_A1_REVIEW_V1/REVIEW_A2B025_A1.md",
+   "bytes": 7352,
+   "sha256": "70f105ffc271572209ad88b7ef6102c6f8d36c2ae3369ee31a33ed3f78cbad63"
+  },
+  {
+   "non_git_input": "A2B025_B_COMPLETE_HANDOFF_20261013_v1.zip (user-forwarded B delivery; not republished)",
+   "sha256": "28dca8e38aa708b34d2a1c7c2e24a83121f1a74840c6fb8fbbdc482d0d3a220f",
+   "bytes": 181854
+  }
+ ]
+}

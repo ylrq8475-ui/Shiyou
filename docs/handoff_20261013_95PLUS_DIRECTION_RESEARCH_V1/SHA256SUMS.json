@@ -1,0 +1,54 @@
+{
+ "EVIDENCE_AND_UNKNOWNS.json": {
+  "bytes": 3631,
+  "sha256": "ca071c54b47c4d241d18b5ada629d263e4ba80748fcd4e9fed4cb5b0fb7455d7"
+ },
+ "PRIMARY_EXPERIMENT_DRAFT.md": {
+  "bytes": 6065,
+  "sha256": "e36c77692ca27e80c44e3424a76cd253f74c1ddbcab3c2c6b977a46ed6d29d15"
+ },
+ "PRIOR_EXPERIMENT_COMPARISON.md": {
+  "bytes": 4089,
+  "sha256": "7946bfb25e21a1d424e02fd297b0ca14023e123a2522c86c3d8c20808345f445"
+ },
+ "PROMPT_FOR_ACCOUNT_B_PENDING_APPROVAL.md": {
+  "bytes": 3301,
+  "sha256": "27bbb40f4dbbe888c023bcd0cb2ccb8ddc9e03ec3ea0524f7b89b8b7c375e3e2"
+ },
+ "README.md": {
+  "bytes": 1792,
+  "sha256": "6e917d0faf549d36832e9add6da749e330e2d14c5f3be0cd5bc8d2b2ee39eb30"
+ },
+ "RESEARCH_DIRECTION_REVIEW.md": {
+  "bytes": 11826,
+  "sha256": "eb4bde3eb5bceb09d67084fc33e828f33f6fc3be30d2b41dbda1f2c0c86cc9c2"
+ },
+ "SOURCE_RECEIPT.json": {
+  "bytes": 4536,
+  "sha256": "b874493ebeaa6dddde29778455a978420fe01c4e88d73138b363e9bb8cd69431"
+ },
+ "reference/diagnostics_reference.py": {
+  "bytes": 5149,
+  "sha256": "4fd23c81a3493a354720efc85995ae0ed57ba205056a52d072538dfb0d5f437c"
+ },
+ "reference/test_diagnostics_reference.py": {
+  "bytes": 3973,
+  "sha256": "e45d3bc15a4a20f825a552a68de361c59b306d0345d5bcbffd4f824128a3fab5"
+ },
+ "synthetic/LOSS_GEOMETRY.json": {
+  "bytes": 1538,
+  "sha256": "67c1019dd25bf55dda0a8631adc2423760e6783d1ac3af3fdd579f69421ed81e"
+ },
+ "synthetic/ZERO_DECISION.json": {
+  "bytes": 1813,
+  "sha256": "4eccdadec0283eddf0a17fd96fe17ab11cde62f0ba8a89cb0a0527928d733fa7"
+ },
+ "synthetic/loss_geometry.py": {
+  "bytes": 2986,
+  "sha256": "db65dc84a13bf008a3c6195474d7874202c702c7446d8bda9e05997f9921bff1"
+ },
+ "synthetic/zero_decision_synthetic.py": {
+  "bytes": 2328,
+  "sha256": "6872eec4c60f497f6a3e1fae1489ec90aca9bed2f29d3841215118bee0024df1"
+ }
+}
