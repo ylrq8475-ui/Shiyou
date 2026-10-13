@@ -1,0 +1,22 @@
+{
+ "PLAN_A2B025.json": {
+  "bytes": 4558,
+  "sha256": "e3021e14a547da9d5278b3ebbe0d26b4bdc8d732e27e0c706ad2f3a3ae31fdf4"
+ },
+ "PROMPT_FOR_ACCOUNT_B.md": {
+  "bytes": 5175,
+  "sha256": "994382e807a37c55cb2b9633e30b1d5ff90547d2378fc1b3aec0509cb15ce864"
+ },
+ "README.md": {
+  "bytes": 724,
+  "sha256": "6f5ff3607b80f7bbffe2b27cd312ceb492260b7fda1f8aa7ee9cc99f5aa399c5"
+ },
+ "reference/a2b025_oracle.py": {
+  "bytes": 3339,
+  "sha256": "704fbf4dc6cdd452525d8eb9016e01c0bf224fb554975b7f45d586a04f8a3959"
+ },
+ "reference/test_a2b025_oracle.py": {
+  "bytes": 3599,
+  "sha256": "b6c72236d2f22f432a912b3fac22b1ce181a2f1c0b65bae29c8558c0f4a76d79"
+ }
+}

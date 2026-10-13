@@ -1,0 +1,59 @@
+{
+ "task": "A2B-025",
+ "title": "井级水平误差上限诊断（不是候选模型实验）",
+ "drafted_by": "账户A1（Claude）——账户A（新接手）独立审核与交付",
+ "executor": "账户B执行与交付",
+ "date": "2026-10-13",
+ "timezone": "Asia/Shanghai",
+ "user_authorization": "用户2026-10-13 11:03消息：先做不训练的只读统计（锚点月M有有效产量的训练井/测试井数），再在固定B0五折上重跑并计算“每口井产量水平完全猜对”时的OOF；判断标准在训练前锁定。",
+ "correction_vs_A1_earlier_text": "固定B0五折只需5次模型拟合；A1此前写的“10次”是B0+C1两臂的数量，本诊断不拟合C1。",
+ "purpose": "回答当前数据与特征边界下95+是否可能：若井级水平完全正确，OOF能否达到90。",
+ "not_a_candidate": true,
+ "stage_0_readonly_count": {
+  "fits": 0,
+  "anchor_rule": "沿用A2B-013 segment_end_anchors：最后连续候选段末月M，不改",
+  "cohorts": ["训练侧全部有锚点的候选井（报告总数，预期88）", "其中完整12月窗口的训练井（预期81）", "测试模板10口井"],
+  "per_cohort_counts": ["wells", "M月有记录", "M月RCYL有限", "M月RCYL有限且>0"],
+  "reference_function": "reference/a2b025_oracle.py::anchor_month_counts",
+  "outputs": "只写匿名计数，不写井号、月份或取值",
+  "gating": "仅报告，不阻断阶段1；不得据此改锚点、截止或特征"
+ },
+ "stage_1_fixed_B0_replay": {
+  "model": "A2B-013 / END_T1_CM1_NL B0，完全沿用A24实际锁：ExtraTrees 400、min_samples_leaf 6、max_features 0.75、random_state 20260916、n_jobs -1、325特征、81井972行、log1p(RCYL/scale)、scale为未经填补last RCYL非有限或非正回退1",
+  "split": "A2B-013固定GroupKFold(5)切分，与A2B-024固定回放同一split身份",
+  "budget": {"model_successes": 5, "model_entries_max": 6, "preprocessor_successes": 5, "preprocessor_entries_max": 6, "fault_retries_max": 1, "C1_fits": 0, "full_fits": 0},
+  "reproduction_gate": {
+   "official_oof": 73.71410733861434,
+   "abs_tolerance": 1e-9,
+   "fold_scores_6dp": [71.453314, 77.536429, 75.129241, 64.626864, 79.965989],
+   "on_fail": "停止，不计算神谕，不重跑成功折，报告差异"
+  }
+ },
+ "stage_2_oracle_diagnosis": {
+  "fits": 0,
+  "input": "阶段1内存中的81井×12月OOF预测与真值",
+  "primary": "level_oracle：保持预测月度形状，整条预测乘以 sum(真值)/sum(预测)；预测和为0时用真值年均值",
+  "secondary_report_only": ["best_scalar_oracle：每井在[0.05,20]对数网格4001点选最优单一倍数", "shape_oracle：保持预测年均水平，换成真实月度形状"],
+  "metric": "100*(1-mean_wells(sum_t 2^-t*|p-y|/(|p|+|y|+1e-6)))，未归一化，先单井再井等权",
+  "reference_implementation": "reference/a2b025_oracle.py::diagnose",
+  "decision_rule": {
+   "threshold": 90.0,
+   "level_oracle_oof_lt_90": "CEILING_BELOW_95_KEEP_CURRENT_MODEL：在本数据和现有信息下视为到不了95，维持现有冻结模型，停止模型侧追分",
+   "level_oracle_oof_ge_90": "MAY_OPEN_NEW_PREREGISTRATION：瓶颈在井级水平；可另立预注册研究水平信息来源，并先审查其预测时点可用性",
+   "secondary_metrics_do_not_change_decision": true
+  },
+  "threshold_basis": "平台86.2003到95需加权损失降64%；B0确认组OOF 74.13按同比例约等于OOF 90.6，取整锁定90"
+ },
+ "outputs": ["阶段0匿名计数", "阶段1 OOF、五折分数、复现差值、计数事件", "阶段2四个OOF聚合数与决定", "环境/源码/数据摘要（沿用A24锁格式）"],
+ "forbidden": ["保存逐行OOF或逐井值到磁盘", "保存模型权重", "改锚点/截止/特征/参数/种子/切分", "新增候选或调参", "用神谕结果选模型或部署", "正式打包", "平台提交", "替换现有冻结模型"],
+ "interpretation_limits": [
+  "神谕用了真实标签，只是上限分析，不是可部署方法",
+  "相同81井的OOF不是平台测试集；OOF与平台分可能方向相反（v7先例）",
+  "即使≥90，也只说明“若能知道水平则有空间”，不说明能获得该信息",
+  "锚点月M的计数只描述数据可得性，不证明M月数据在真实预测时点可用"
+ ],
+ "historical_dtype": "UNKNOWN",
+ "official_unique_explanation_blocking": false,
+ "hard_gates": ["真实未来信息泄漏", "目标或行错位", "按井隔离失败", "官方指标错误"],
+ "review": "B交付后由账户A只读复核；本计划不要求A预先再签"
+}
