@@ -1,0 +1,22 @@
+{
+ "A1_A2B025_CHECKS.json": {
+  "bytes": 2918,
+  "sha256": "119d956beae051a32c6fe858b92da3246014c474e8217c85f52e7656d32c161d"
+ },
+ "COLLABORATION_REPLY_A1_A2B025.md": {
+  "bytes": 2203,
+  "sha256": "31a0ec0fac61eb44667d968c19b5dc2a4fffa0a6d91d336c7e94da8eed93e5b7"
+ },
+ "README.md": {
+  "bytes": 914,
+  "sha256": "b70c641190c5078f7f43b84e6761c1637be9a0d0d4c094d2e61a69c2788d492d"
+ },
+ "REVIEW_A2B025_A1.md": {
+  "bytes": 7352,
+  "sha256": "70f105ffc271572209ad88b7ef6102c6f8d36c2ae3369ee31a33ed3f78cbad63"
+ },
+ "a1_check_a2b025.py": {
+  "bytes": 6132,
+  "sha256": "fcebb96d6857f44ddc05e9f189797ed350f11130bb0f4baca19bd04870fadf25"
+ }
+}
