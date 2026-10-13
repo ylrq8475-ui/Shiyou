@@ -1,0 +1,16 @@
+{
+  "official_oof": 73.71410733861434,
+  "expected_oof": 73.71410733861434,
+  "absolute_difference": 0.0,
+  "fold_scores": [
+    71.45331390948151,
+    77.536429088971,
+    75.12924056181325,
+    64.62686399621427,
+    79.96598872591245
+  ],
+  "fold_std_ddof0": 5.355071462864183,
+  "worst_fold": 64.62686399621427,
+  "split_sha256": "beadb191d075afdd138d6463f0b3a0e03999a76e07641f56ea24ec77e5e4d5f8",
+  "reproduction_gate_passed": true
+}

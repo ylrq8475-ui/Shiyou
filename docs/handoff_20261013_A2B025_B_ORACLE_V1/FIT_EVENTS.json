@@ -1,0 +1,224 @@
+[
+  {
+    "sequence": 1,
+    "time": "2026-10-13T13:35:27.314894+08:00",
+    "event": "execution_started",
+    "prefit_lock_sha256": "5df157c0de5e272c7957cb9e5f9e081a206e08c5c790128f844a041f89eaf365",
+    "budget": {
+      "preprocessor_entered": 0,
+      "preprocessor_completed": 0,
+      "model_entered": 0,
+      "model_completed": 0,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  },
+  {
+    "sequence": 2,
+    "time": "2026-10-13T13:35:27.416436+08:00",
+    "event": "model_fit_entered",
+    "fold": 1,
+    "training_wells": 64,
+    "validation_wells": 17,
+    "budget": {
+      "preprocessor_entered": 1,
+      "preprocessor_completed": 1,
+      "model_entered": 1,
+      "model_completed": 0,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  },
+  {
+    "sequence": 3,
+    "time": "2026-10-13T13:35:27.762181+08:00",
+    "event": "fold_completed",
+    "fold": 1,
+    "official_score": 71.45331390948151,
+    "budget": {
+      "preprocessor_entered": 1,
+      "preprocessor_completed": 1,
+      "model_entered": 1,
+      "model_completed": 1,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  },
+  {
+    "sequence": 4,
+    "time": "2026-10-13T13:35:27.922949+08:00",
+    "event": "model_fit_entered",
+    "fold": 2,
+    "training_wells": 65,
+    "validation_wells": 16,
+    "budget": {
+      "preprocessor_entered": 2,
+      "preprocessor_completed": 2,
+      "model_entered": 2,
+      "model_completed": 1,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  },
+  {
+    "sequence": 5,
+    "time": "2026-10-13T13:35:28.261209+08:00",
+    "event": "fold_completed",
+    "fold": 2,
+    "official_score": 77.536429088971,
+    "budget": {
+      "preprocessor_entered": 2,
+      "preprocessor_completed": 2,
+      "model_entered": 2,
+      "model_completed": 2,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  },
+  {
+    "sequence": 6,
+    "time": "2026-10-13T13:35:28.386728+08:00",
+    "event": "model_fit_entered",
+    "fold": 3,
+    "training_wells": 65,
+    "validation_wells": 16,
+    "budget": {
+      "preprocessor_entered": 3,
+      "preprocessor_completed": 3,
+      "model_entered": 3,
+      "model_completed": 2,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  },
+  {
+    "sequence": 7,
+    "time": "2026-10-13T13:35:28.728925+08:00",
+    "event": "fold_completed",
+    "fold": 3,
+    "official_score": 75.12924056181325,
+    "budget": {
+      "preprocessor_entered": 3,
+      "preprocessor_completed": 3,
+      "model_entered": 3,
+      "model_completed": 3,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  },
+  {
+    "sequence": 8,
+    "time": "2026-10-13T13:35:28.822904+08:00",
+    "event": "model_fit_entered",
+    "fold": 4,
+    "training_wells": 65,
+    "validation_wells": 16,
+    "budget": {
+      "preprocessor_entered": 4,
+      "preprocessor_completed": 4,
+      "model_entered": 4,
+      "model_completed": 3,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  },
+  {
+    "sequence": 9,
+    "time": "2026-10-13T13:35:29.166671+08:00",
+    "event": "fold_completed",
+    "fold": 4,
+    "official_score": 64.62686399621427,
+    "budget": {
+      "preprocessor_entered": 4,
+      "preprocessor_completed": 4,
+      "model_entered": 4,
+      "model_completed": 4,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  },
+  {
+    "sequence": 10,
+    "time": "2026-10-13T13:35:29.267327+08:00",
+    "event": "model_fit_entered",
+    "fold": 5,
+    "training_wells": 65,
+    "validation_wells": 16,
+    "budget": {
+      "preprocessor_entered": 5,
+      "preprocessor_completed": 5,
+      "model_entered": 5,
+      "model_completed": 4,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  },
+  {
+    "sequence": 11,
+    "time": "2026-10-13T13:35:29.608203+08:00",
+    "event": "fold_completed",
+    "fold": 5,
+    "official_score": 79.96598872591245,
+    "budget": {
+      "preprocessor_entered": 5,
+      "preprocessor_completed": 5,
+      "model_entered": 5,
+      "model_completed": 5,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  },
+  {
+    "sequence": 12,
+    "time": "2026-10-13T13:35:29.679384+08:00",
+    "event": "reproduction_gate_passed",
+    "budget": {
+      "preprocessor_entered": 5,
+      "preprocessor_completed": 5,
+      "model_entered": 5,
+      "model_completed": 5,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  },
+  {
+    "sequence": 13,
+    "time": "2026-10-13T13:35:31.612272+08:00",
+    "event": "oracle_diagnosis_completed",
+    "decision": "CEILING_BELOW_95_KEEP_CURRENT_MODEL",
+    "budget": {
+      "preprocessor_entered": 5,
+      "preprocessor_completed": 5,
+      "model_entered": 5,
+      "model_completed": 5,
+      "fault_retries": 0,
+      "C1_fits": 0,
+      "full_fits": 0,
+      "saved_models": 0
+    }
+  }
+]

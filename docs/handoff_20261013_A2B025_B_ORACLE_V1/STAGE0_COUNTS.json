@@ -1,0 +1,37 @@
+{
+  "task": "A2B-025",
+  "phase": "stage_0_readonly_count",
+  "anchor_rule": "A2B-013 segment_end_anchors; count raw RCYL at each original M",
+  "fits": 0,
+  "cohorts": {
+    "anchor_positive_train": {
+      "wells": 88,
+      "record_present": 88,
+      "finite": 88,
+      "finite_positive": 82
+    },
+    "complete_12m_train": {
+      "wells": 81,
+      "record_present": 81,
+      "finite": 81,
+      "finite_positive": 75
+    },
+    "test_template": {
+      "wells": 10,
+      "record_present": 10,
+      "finite": 10,
+      "finite_positive": 10
+    }
+  },
+  "reader": {
+    "manifest_verified_files": 100,
+    "roles": {
+      "train_history": 88,
+      "test_history": 10,
+      "test_template": 10
+    },
+    "archive_extracted_or_copied": false
+  },
+  "raw_unchanged_after_read": true,
+  "persisted_identifiers_months_or_values": false
+}

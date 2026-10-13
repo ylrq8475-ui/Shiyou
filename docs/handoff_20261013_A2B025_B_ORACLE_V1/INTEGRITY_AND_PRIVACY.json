@@ -1,0 +1,23 @@
+{
+  "task": "A2B-025",
+  "executor": "Account B",
+  "passed": true,
+  "private_identifier_hits": 0,
+  "credential_or_private_user_path_hits": 0,
+  "text_payloads_including_zip_checked": 52,
+  "known_well_identifiers_checked": 98,
+  "raw_data_or_models_in_payload": false,
+  "allowed_bundle_extensions": [
+    ".json",
+    ".md",
+    ".py"
+  ],
+  "original_data_files_verified": 100,
+  "frozen_files_checked": 2905,
+  "frozen_files_unchanged": true,
+  "prefit_source_inputs_unchanged": true,
+  "private_config_content_in_payload": false,
+  "anonymous_bundle_sha256": "e9a79a0ad84ffd5dade9696332cbd9f2a0cb9cc1e52dce906c2a3d6137223953",
+  "privacy_scan_scope": "explicit publication payload and every ZIP member; not arbitrary unrelated machine contents",
+  "time": "2026-10-13T13:41:49.212347+08:00"
+}

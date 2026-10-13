@@ -1,0 +1,62 @@
+{
+  "AUTHORIZATION_AND_INTERPRETATION.md": {
+    "sha256": "13c552995c48e52bef45b58b7457562c3a1bca4385ffd79db8c2c67f9a9b77f6",
+    "bytes": 2746
+  },
+  "FINAL_RESULT.json": {
+    "sha256": "adfe8a7d29031fc7eb321749423c3275cdc88ca38f7085b7b59c621f1425a661",
+    "bytes": 1572
+  },
+  "FIT_EVENTS.json": {
+    "sha256": "8bef12e5a0588f1ceafd1463f82e861090313fbbb81c544c6ce00aa5f79da0f6",
+    "bytes": 5502
+  },
+  "INTEGRITY_AND_PRIVACY.json": {
+    "sha256": "3d3a0fdeea9d10519c4181190c8bf9c11b6464f4e1f1392f0f0aae8b47ecb0cf",
+    "bytes": 823
+  },
+  "PLAN_A2B025.json": {
+    "sha256": "e3021e14a547da9d5278b3ebbe0d26b4bdc8d732e27e0c706ad2f3a3ae31fdf4",
+    "bytes": 4558
+  },
+  "PREFIT_LOCK.json": {
+    "sha256": "5df157c0de5e272c7957cb9e5f9e081a206e08c5c790128f844a041f89eaf365",
+    "bytes": 61784
+  },
+  "README.md": {
+    "sha256": "ea382b433c77e60bbb53e9b959c3b923f9d4ff196a6b6b066dcf772500a4403d",
+    "bytes": 805
+  },
+  "REPORT_B.md": {
+    "sha256": "7a9dbb9db606faed127f4d242f0eaa334edb673a3dde30557e62d26bb515d2d4",
+    "bytes": 6564
+  },
+  "REVIEW_BUNDLE.zip": {
+    "sha256": "e9a79a0ad84ffd5dade9696332cbd9f2a0cb9cc1e52dce906c2a3d6137223953",
+    "bytes": 154382
+  },
+  "REVIEW_REQUEST_A1.md": {
+    "sha256": "d369442bd08df583e6d3655bcb8869e47bbcadf505cab56289771d1b9aba7dfe",
+    "bytes": 2130
+  },
+  "SOURCE_ENVIRONMENT_SUMMARY.json": {
+    "sha256": "39d1905c389b400288ff432dac2348ef665d79a854bbaa62b72552cfd9dc0b8c",
+    "bytes": 3467
+  },
+  "STAGE0_COUNTS.json": {
+    "sha256": "b6b7e4831dbe4946f08f00f5f62a693d3a708094a51f912bba78556025f01ef0",
+    "bytes": 885
+  },
+  "STAGE1_REPLAY.json": {
+    "sha256": "21e3fad09af87aa7cdbc12c9cdeb5bf71de4f01407e05c9de0bf7fdba90fa8a5",
+    "bytes": 455
+  },
+  "STAGE2_ORACLE.json": {
+    "sha256": "96e5fd5338c5306c9cced680b8d258019190d36a9b34677595c24bf970d8ceb2",
+    "bytes": 276
+  },
+  "SYNTHETIC_RESULTS.json": {
+    "sha256": "fab9bd4a63bbe5b88236c5c9d575b2e1fe415d7721018fefbebe3248cd2e7db8",
+    "bytes": 144
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "wells": 81,
+  "baseline_oof": 73.71410733861434,
+  "level_oracle_oof": 80.94413529978314,
+  "best_scalar_oracle_oof": 88.17733827575375,
+  "shape_oracle_oof": 81.21752992148006,
+  "decision_threshold": 90.0,
+  "decision": "CEILING_BELOW_95_KEEP_CURRENT_MODEL"
+}

@@ -1,0 +1,89 @@
+{
+  "environment": {
+    "executable": "b-runtime-20261009-py3137/venv/Scripts/python.exe",
+    "python": "3.13.7",
+    "build": [
+      "main",
+      "Sep 18 2025 19:43:45"
+    ],
+    "compiler": "MSC v.1944 64 bit (AMD64)",
+    "versions": {
+      "PyYAML": "6.0.3",
+      "Pygments": "2.19.2",
+      "cloudpickle": "3.1.2",
+      "colorama": "0.4.6",
+      "et_xmlfile": "2.0.0",
+      "iniconfig": "2.1.0",
+      "joblib": "1.6.0",
+      "narwhals": "2.26.0",
+      "numpy": "2.4.3",
+      "openpyxl": "3.1.5",
+      "packaging": "25.0",
+      "pandas": "2.3.3",
+      "pluggy": "1.6.0",
+      "pytest": "8.4.2",
+      "python-dateutil": "2.9.0.post0",
+      "pytz": "2026.3.post1",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.17.1",
+      "six": "1.17.0",
+      "threadpoolctl": "3.7.0",
+      "tzdata": "2026.4"
+    },
+    "native_files": {
+      "b-runtime-20261009-py3137/venv/Scripts/python.exe": "926f48e34093c6a5c63982f26cb2bcdfb1c428aa47794b2145ee66cbb846aff1",
+      "b-runtime-20261009-py3137/python/cpython-3.13.7-windows-x86_64-none/python.exe": "b20c54ca28d15b4254105a31a09615e3e1fc6f5f41f76553b9627b5df57b3d44",
+      "b-runtime-20261009-py3137/python/cpython-3.13.7-windows-x86_64-none/python313.dll": "2a02a2d7f9736a57dd1b3bf33b9521dc73551b3f4d319795c7b97a2f5c1895b6",
+      "b-runtime-20261009-py3137/venv/Lib/site-packages/sklearn/svm/_libsvm.cp313-win_amd64.pyd": "c6219b62c17483d64efd01d6558a31fce0910f358ace96b8daaebd13e5ddbe9e"
+    },
+    "logical_cpu_count": 20
+  },
+  "source_files": 144,
+  "source_input_manifest_sha256": "587fc8323b624e663fb09338b8600c9af566689eb6f483148ae9a51c1070581a",
+  "panel_identity": {
+    "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+    "feature_dtype_sha256": "a34b2599e3202d8cfac13ba50ffa2d57c5631225b553fef66207de6eb35d102a",
+    "feature_frame_sha256": "af964b79e581fb87bcb736e6eb3e2cab21f878612882c7fd782778f744f44cb7",
+    "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+  },
+  "cohort_order_sha256": "e999a556706e5aa680ff452f7a71c7c5f4ae742c87f7ef06d891320e57cc8093",
+  "execution_config_sha256": "2ff1e5b07270971062320ee87498088ba9bb4f12817d111598e36cb6cacd1155",
+  "model_parameters": {
+    "bootstrap": false,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": null,
+    "max_features": 0.75,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 6,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 400,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 20260916,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "future_invariance_checks": {
+    "train": {
+      "events_checked": 81,
+      "feature_values_checked": 29079,
+      "future_sensitive_feature_count": 0
+    },
+    "test": {
+      "events_checked": 10,
+      "feature_values_checked": 3590,
+      "future_sensitive_feature_count": 0
+    }
+  },
+  "A24_current_identity_checks_passed": true,
+  "historical_dtype": "UNKNOWN",
+  "frozen_files_checked": 2905,
+  "frozen_artifacts_unchanged": true,
+  "raw_members_verified": 100,
+  "launcher_warning": "Failed to find real location warning observed; executable/base executable exist; imports pass; binary/version hashes equal A24 actual environment."
+}

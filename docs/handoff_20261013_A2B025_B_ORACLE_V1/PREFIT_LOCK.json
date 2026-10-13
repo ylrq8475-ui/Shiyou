@@ -1,0 +1,1903 @@
+{
+  "task": "A2B-025",
+  "executor": "Account B",
+  "time": "2026-10-13T13:34:17.209184+08:00",
+  "before_first_real_fit_and_new_score": true,
+  "contract": {
+    "environment": {
+      "executable": "b-runtime-20261009-py3137/venv/Scripts/python.exe",
+      "python": "3.13.7",
+      "build": [
+        "main",
+        "Sep 18 2025 19:43:45"
+      ],
+      "compiler": "MSC v.1944 64 bit (AMD64)",
+      "versions": {
+        "PyYAML": "6.0.3",
+        "Pygments": "2.19.2",
+        "cloudpickle": "3.1.2",
+        "colorama": "0.4.6",
+        "et_xmlfile": "2.0.0",
+        "iniconfig": "2.1.0",
+        "joblib": "1.6.0",
+        "narwhals": "2.26.0",
+        "numpy": "2.4.3",
+        "openpyxl": "3.1.5",
+        "packaging": "25.0",
+        "pandas": "2.3.3",
+        "pluggy": "1.6.0",
+        "pytest": "8.4.2",
+        "python-dateutil": "2.9.0.post0",
+        "pytz": "2026.3.post1",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.17.1",
+        "six": "1.17.0",
+        "threadpoolctl": "3.7.0",
+        "tzdata": "2026.4"
+      },
+      "native_files": {
+        "b-runtime-20261009-py3137/venv/Scripts/python.exe": "926f48e34093c6a5c63982f26cb2bcdfb1c428aa47794b2145ee66cbb846aff1",
+        "b-runtime-20261009-py3137/python/cpython-3.13.7-windows-x86_64-none/python.exe": "b20c54ca28d15b4254105a31a09615e3e1fc6f5f41f76553b9627b5df57b3d44",
+        "b-runtime-20261009-py3137/python/cpython-3.13.7-windows-x86_64-none/python313.dll": "2a02a2d7f9736a57dd1b3bf33b9521dc73551b3f4d319795c7b97a2f5c1895b6",
+        "b-runtime-20261009-py3137/venv/Lib/site-packages/sklearn/svm/_libsvm.cp313-win_amd64.pyd": "c6219b62c17483d64efd01d6558a31fce0910f358ace96b8daaebd13e5ddbe9e"
+      },
+      "logical_cpu_count": 20
+    },
+    "source_inputs": {
+      "A2B019_T1_20261009_v1/PREPARATION_LOCK.json": "4818385af64a778b044a172ca69280333c623cdbe61df1d2031dafe70dbb6880",
+      "A2B019_T1_20261009_v1/PREPARATION_LOCK_v2.json": "b882e08dbf3cb7f1375a37f6101f6dd795178b853e2b7c714ab54c73748e5430",
+      "A2B019_T1_20261009_v1/T1_SUPPLEMENT_PLAN.json": "d29fff5a0e41ab3f3c565cd4b4296bb2924a0cc63752723777ccd02f92e3675d",
+      "A2B019_T1_20261009_v1/accepted_entry/received_20261009_v1/payload/audit_payload/migration_acceptance_20261009_r1/boundary_audit.py": "753762da9a7e0a7c7f734587a458b961dbdd00d9eb4e4f489d1cbb0a659ddf67",
+      "A2B019_T1_20261009_v1/archive_adapter.py": "7ba0012d5df27cf951da42f643b8d76086f2d1cc8a5bd3d41b93cfdac86866a5",
+      "A2B019_T1_20261009_v1/delivery_20261009_v2/SHA256SUMS_T1_FINAL_v2.json": "0dd298a0811128a83fca04cd9c3dba5a098e7a8e4606bb9645f49e8b9bbf78e4",
+      "A2B019_T1_20261009_v1/paired_experiment.py": "728b4e39191b8019f008df263e14083451a591f282f53850da78b54f5631dad5",
+      "A2B019_T1_20261009_v1/prepare_t1.py": "d4c1b40944ec9048ad8ee2031a6257c47246e6b4783f28bfade5151aafc98cc4",
+      "A2B019_T1_20261009_v1/t1_core.py": "ab2a7a1c93f84cc1fcd86f001ba36ef5871dd36def95aaade071d2ec86adc161",
+      "A2B019_T1_20261009_v1/test_feature_boundary.py": "cc12d0f16b56a4d0a21c1029a50e0178f5fc557011931b8f3918c6924a969a23",
+      "A2B019_T1_20261009_v1/test_t1_contracts.py": "807df37ed0458ddbb1166cffbdaae36a458dd8baa429fbae83c5e031eedcb027",
+      "A2B021_20261009_v1/EXECUTION_SUPPLEMENT.json": "5f5a60367dd8ac573a383837839b39f73885926764c0d641c8cee8c64184142f",
+      "A2B021_20261009_v1/NUMBERING_AND_EXECUTION_CLARIFICATION.json": "dca5ca0d7dc8afd1c22e6924c7c343abe7743ed7b5a4800b89378b60500cf007",
+      "A2B021_20261009_v1/ORIGINAL_PREPARATION_REFERENCE.json": "0c0ef8dc5e9ef0ea41c84a2f4280480cfd4bdeffb84ccd7f310f71cebd52d361",
+      "A2B021_20261009_v1/PLAN.json": "a99eb630f56c4c0ecf82e8fcc78ea210a08a13d897b9371b9ef042f9a9f82244",
+      "A2B021_20261009_v1/PRE_FIT_DEBUG_LOG.json": "5060c765ef8a7e3f39fb0de5da6c78a87ece636772c567abb90df7a33e3cc733",
+      "A2B021_20261009_v1/SYNTHETIC_TEST_RESULTS.json": "3842c22d5d5cff4e93304947bbc7ceeadc91583d29a24c6ba18ada7da89d42b5",
+      "A2B021_20261009_v1/USER_AUTHORIZATION_REVISED.txt": "5d56e04b5d8470b9bb9e7e479becc487348f7ca1ac198f7a04f101f84a3be3fc",
+      "A2B021_20261009_v1/deliver_review.py": "d7087f95f25a92514f88e9f3f8b485afec74336b2dfbbb9792cba68f730882db",
+      "A2B021_20261009_v1/diagnostics.py": "41519672177a31d73c2817e15b8b9174288b8a6fc4be9d1555c9cf12357b8a03",
+      "A2B021_20261009_v1/experiment_core.py": "9856e3bad69d5d8d7209e2774c80fa369103342d3b64467a5b068da1edc6904e",
+      "A2B021_20261009_v1/run_research.py": "e2c5b6baf79260fdb2d59704e6110991718bdacaed3d6639f0d754d00e27b572",
+      "A2B021_20261009_v1/seal_preparation.py": "f06a70692136a5d679b53fd68e1aae598074571c9088a3b81c44ed6a104b31e4",
+      "A2B021_20261009_v1/test_contracts.py": "eb441d9e09bd343f49239946850005d8c5fa46aaa68a4d6fbe5143385942b29b",
+      "A2B021_20261009_v1/test_harness.py": "5a1a627f6ea2d0fe3eb40025f9e7e8ef1bbdef7c719f3215691a63bc56530825",
+      "A2B023_20261010_v1/HISTORY_LOOKUP.json": "979063ea8e7c82ae8e5c619546e382cb7b78cf78505268e15e2cafbc37d3ee60",
+      "A2B023_20261010_v1/HISTORY_LOOKUP.md": "759260a86cbd6822fe29f32c76e54924a11a50c6aaba7db3a9a2cecd7f0d34f4",
+      "A2B023_20261010_v1/MECHANISM_DECISION.md": "cb3ccc452d5567c4f5ba0fe8b430c0ad39e78d9a2f25c9ecc0573697a2cb84f3",
+      "A2B023_20261010_v1/PLAN.json": "780b031596d1084338657cd2a823d986b5c030eb65ce8dea13cde1522df22c11",
+      "A2B023_20261010_v1/SYNTHETIC_TEST_RESULTS.json": "908c78fc1e71597dc2c9b4b74040a293eec200e8832e3cabf205b1d849aa2f35",
+      "A2B023_20261010_v1/USER_AUTHORIZATION.md": "b87cbb981f1ab3677eaf5f6e246f4383ab30c60f37d881b411523089cfac588f",
+      "A2B023_20261010_v1/a2b023_core.py": "93798a808be59dd5b597c0e6acbc4fc975017218ccb0c3f8750fd10d01bd5223",
+      "A2B023_20261010_v1/bridge.py": "84c7a6931e62060ac0aa8fde802f727aaf769a44ba9d8f7bf50088372244bdd9",
+      "A2B023_20261010_v1/create_runtime.py": "a35724b9bcbff0c53919ad98f634ec137ee6f8bca937cad9f42414593d3b5439",
+      "A2B023_20261010_v1/prepare_history.py": "61815dd35566b0f35f0ce4372c0b0974600981e3eb87cd4d5db443b1a9fc6349",
+      "A2B023_20261010_v1/run_experiment.py": "a2ba0bcf99a6ec42cf4a140ac43dc09d2ef7b4a55585379b7bfe1292b4a720aa",
+      "A2B023_20261010_v1/seal_pretrain.py": "84dbfe6760787a9294a57199113d06c8b40185a497e1ff035bc5f9946361e8a9",
+      "A2B023_20261010_v1/test_contracts.py": "00ba7fafa1b1703afcf5d94a02e86f039197166b38a63d79f7973318b9be0cfc",
+      "A2B024_20261012_v1/execution/FIXED_REPLAY.json": "69e0ccb59afbcd8d0ffc4a69fd0df80c089c3d3734cd249d1c6bfe363428f09f",
+      "A2B024_20261012_v1/execution/IMPLEMENTATION_PRETRAIN_LOCK.json": "252f47707455bef88bb9c1aa052cd3b48309d36f1d1ebd42e2296768759fde67",
+      "A2B025_ORACLE_DIAGNOSTIC_20261013_v1/AUTHORIZATION_AND_INTERPRETATION.md": "13c552995c48e52bef45b58b7457562c3a1bca4385ffd79db8c2c67f9a9b77f6",
+      "A2B025_ORACLE_DIAGNOSTIC_20261013_v1/PLAN_A2B025.json": "e3021e14a547da9d5278b3ebbe0d26b4bdc8d732e27e0c706ad2f3a3ae31fdf4",
+      "A2B025_ORACLE_DIAGNOSTIC_20261013_v1/PROMPT_FOR_ACCOUNT_B.md": "994382e807a37c55cb2b9633e30b1d5ff90547d2378fc1b3aec0509cb15ce864",
+      "A2B025_ORACLE_DIAGNOSTIC_20261013_v1/SHA256SUMS.json": "4f7514624f6980f60f40727144e921e7908d74156093f92de7d4b93a92ad6dc3",
+      "A2B025_ORACLE_DIAGNOSTIC_20261013_v1/STAGE0_COUNTS.json": "b6b7e4831dbe4946f08f00f5f62a693d3a708094a51f912bba78556025f01ef0",
+      "A2B025_ORACLE_DIAGNOSTIC_20261013_v1/phase0_counts.py": "b3e83dfdf3f377da5959ef0da5558994ba2f4bf2f01dc450959fe50a3b6c3db6",
+      "A2B025_ORACLE_DIAGNOSTIC_20261013_v1/reference/a2b025_oracle.py": "704fbf4dc6cdd452525d8eb9016e01c0bf224fb554975b7f45d586a04f8a3959",
+      "A2B025_ORACLE_DIAGNOSTIC_20261013_v1/reference/test_a2b025_oracle.py": "b6c72236d2f22f432a912b3fac22b1ce181a2f1c0b65bae29c8558c0f4a76d79",
+      "A2B025_ORACLE_DIAGNOSTIC_20261013_v1/run_a2b025.py": "b23bcb66f14aa920e7847be92efd6b2047a8e341c5fde1467bd53ae2bc8eb996",
+      "A2B025_ORACLE_DIAGNOSTIC_20261013_v1/test_execution_contracts.py": "5c53f293e3aa28efc51ddd751d0eafee84f5552704be8e2889e9b8d6a5174848",
+      "Shiyou_B_private_handoff_20261009_v1/payload/PACKAGE_MANIFEST.json": "52d0ed37dfec40f6d0e39fc50a5c9b2329ee09ff643bde464c5b4f0d3c2e0ffb",
+      "Shiyou_B_private_handoff_20261009_v1/payload/audit/A2B017_LOCKED_RUNTIME_REPRODUCTION.md": "94b0aded94b41f55acc2191f4ceea765b62b8bac444fdf64924f96a465e41271",
+      "Shiyou_B_private_handoff_20261009_v1/payload/audit/A2B019_FOLLOWUP_REPLY.md": "de1d059dc391bfa8178d1d43239511923ba8a7b2a5600f4cdb181426741c1bfa",
+      "Shiyou_B_private_handoff_20261009_v1/payload/audit/A2B019_IDENTITY_ASSESSMENT.json": "21ec42992442c6e9f011ffec6917e0729d058bdc1dfbdc5617c3c4227be6e3cf",
+      "Shiyou_B_private_handoff_20261009_v1/payload/audit/A2B019_IDENTITY_COMPARISONS.json": "4189303dcb1cf0e3314231c3306077209d729dc68beb9ec7f51f0f0dc47014cf",
+      "Shiyou_B_private_handoff_20261009_v1/payload/audit/A2B019_LOCAL_REVIEW_FOLLOWUP.md": "68fbb2774d49af1f5deb05c9436f94b62d8bcf1f7fb39c94c993029dcdbdfcb2",
+      "Shiyou_B_private_handoff_20261009_v1/payload/audit/A_ACCEPTANCE_STATUS_20261009.md": "213b2de11ddaf77b33ae8952f443372852e4afe32d4d357c1f9226a4e98b2d0a",
+      "Shiyou_B_private_handoff_20261009_v1/payload/audit/README_TRANSFER.md": "4b54b22e7e2f3cf029f163475b78227d4c385ada48f62f67f7cd0aca6306ec63",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/configs/default.yaml": "d173824f12171929348892503c5cf7dfcf2d35e17b14180463112b8add83b228",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/configs/private_data_inferred_v7_safe_plus_layer.yaml": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b013/EXPERIMENT_PLAN.yaml": "e3a7759dcb00bc5acde6ba8ef536227fc69bbc2d9dd700d13aa0823a5fd867cc",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/BASELINE_REPRODUCTION.json": "ac9f7c33485ea166e85756cd1007bf3c9c99159f353aaa9c07183cfd38433d45",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/CONFIRMATION_SELECTION.json": "8969ad84904786b4b676f6a54717e79153d826f5c1a95b6cf4a2e4dda1e0bac6",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/EXECUTION_COMPLETED.json": "f36a40b6f4e9e2c5b1a0036fe645e449d52bde79bf54471d4bfc728b46dba7c0",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/EXECUTION_STARTED.json": "606d8fee78eed7df6677bfe25bfa397d160a489dbc43f55d197c45640526e12b",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/EXPERIMENT_PLAN.yaml": "a28fc605760d091a8812873bb28542e94df7b9411d604d652eea62505824650f",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/FROZEN_BEFORE_AFTER_SHA256.json": "4b9690fac13c7422942e474385eea87b08526ecf91ce88c9863581a4d1817ce0",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/IMPLEMENTATION_PRETRAIN_LOCK.json": "d86f49dd8bb7cd4255f94e0aa354ab17a62f9a8f4611a68658f56370dd8278af",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/PLAN_LOCK_SHA256.txt": "7ebf5b73e5eb6e3a0e1b5c4e9d5b9a560f792ece0069650ac8fd36113e085789",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/PRETRAIN_EXECUTION_NOTE.md": "1f9c14216407004f6369f4b4265b053727d76008e1f983f710cefe9d237f9f86",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/PRE_SCORE_CLARIFICATIONS.md": "a02785088feae6e24c36f431008311a91788c2de77bfa0a63c19f50df3751ee7",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/PRIVACY_SCAN.json": "95fd71ffc971749262bbb7db0292fe23724107f0720fd77993d90a1c035a7085",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/PRIVACY_SCAN_FINAL.json": "914bef73dc2052259730337db4730aa82306570dee2ff73977dd1a183b391a97",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/RAW_INTEGRITY_AFTER.json": "d58fd700bba4cf7cba3c5361df13810c3ee8d23fab059fe46c927be0fa7a1fb7",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/READ_ONLY_HANDOFF_VERIFICATION.json": "9a52586530b9d28386009f6abcf49b5252f89af3be3fa8141a7569763957a74b",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/REGRESSION_RESULTS.json": "f7c477c5a26a29b3a2fe072454417df25d3a78949b1fe43bb721578a11cfd51d",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/S22_ADDENDUM_LOCK_SHA256.txt": "566757ea4cb78afa4dd801da0d98f7c55898349019e3cce3af888c6c6cffa12b",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/S22_PRE_SCORE_ADDENDUM.md": "ed0404707e2931747b021243da0d65fba19f39099a78b646f3ea3ef338a7d08b",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/S22_PRE_SCORE_ADDENDUM.yaml": "c24fde7916cc0ac8471fbb6f6dafb4f2f687de93c296639009ef7b304410a592",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/SHA256_MANIFEST.txt": "542199411f76d93a8f228afcf7ead25de8d377744582454e69af67e47cf6fa9c",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/SOURCE_METRICS_LOCK.json": "942e2dfdd998d1e7a02e351f550bb5f933d8df9fceee915d760c7b381bfe2715",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/SOURCE_SNAPSHOT.json": "f135cf5d6567a32f93f8bdc617b3410722c53a23c20bfd31b60cb59b021050e3",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/STRUCTURED_GATE_EVIDENCE.json": "50521ea18ec25ed3214d11613c8e20b2216ac679a62c544d45b870782c9b8031",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/SYNTHETIC_TEST_RESULTS.json": "13aebe0d3bbfda3c001b3d5e86080bbcd223be1e69cd37febcae7467fbffd51f",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/SYNTHETIC_TEST_RESULTS_v2.json": "e7425838fb0c385b22128a63630d4172e80d8a8d352054c046b0c8520971b6ae",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/SYNTHETIC_TEST_SPEC.yaml": "3d895a03e9c8ff5458234eface7bf65df9f32b21ad182706f825d3f41de5991f",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/finalize_handoff.py": "b2c7e245fe40dbd9654246ee4062635411774e5d6ed6b0bac0fd6f4d46f2c8db",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/review_only.py": "f6ba8be75d920ff973d8f84593a05930667133b59c68475a192755c9504cc773",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/experiments/a2b017/run_controlled.py": "0d867749d01b7a54010f1b8de4a8858500290afa823e703ba8ab4893065ac8ca",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/private_logs/raw_manifest_20260916.json": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/private_logs/raw_manifest_20260916.json.sha256": "52d0cb01a60b38f259013301e77e840aa84cb76709851131eaf9ee62a17b6fa8",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/pyproject.toml": "903b658a5256c59f2d61e8f920c2f8c9bb3554bab04eacfa3aaf90b5e293609f",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/requirements-lock.txt": "9be24dde98ddc40f68e2d3a747074f7b183afdde26316ffb7fec99bb37fb9b94",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/requirements.txt": "35b4c08c6bc944983f9a2cfbc8e6dfecffe06580a23e131e57e9ff4ffa964b2b",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/analyze_a2b014_oof_errors.py": "7e5847346dc056d44c640b7fc1fbe592f36fac8ee1c310f2fc09fa95efbffa5b",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/analyze_anchor_candidates.py": "5a152542f1a37d61414f6a8464591f031071b4300e58de1971ce4d574c92aae5",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/prepare_private_runtime_config.py": "aeacf3103117d206bbd4449eb400e22b37f3511118349ab4240f998502440ef4",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/run_a2b002_experiments.py": "374be33fab1abc03010379d0f28bfbfd6580083912ccb09ed32660d636d2f15a",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/run_a2b006_controlled_experiments.py": "92abcf49af9192989605efa26f6c88422da2339280d10a4ca38d0f4847c2340e",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/run_a2b009_experiments.py": "c795a6bbc6f95cc678f50519041a7652af5aaa34f73fec77bd7e51b1056bc0f3",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/run_a2b011_b2_only11.py": "a5e0a3851147bc5f0eb18be58845efe66effe2fcaadeeb1cb00c5b61cbab55cb",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/run_a2b011_experiment.py": "dafa8ebfd37334359afaca0618b4bcc4a36cd332837e437a3962979de878954e",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/run_a2b013_safe_submission.py": "dc74d5c0ea3f23f4b3b996a01252ba86293e538b5bd8a591481c81f3083df6fe",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/run_a2b015_experiment.py": "5d3e31b814a80cddccf0d16da48833f23e54eb5d9fac12783461931029aeae14",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/run_a2b016_gate_regression.py": "deb5cbbb18f5553998fcce6fb7c3e4c47f9395802f4075ce6e23d7f5faaf4c85",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/secure_local_audit.py": "dfe7c55ea4946f1cd31b9a4c11b0494d8b3dd24a3c5c5ef4e496d79b4d55f6ff",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/simulate_submission_check.py": "173c85cffb6b3af479c47a6579836acf190a1ac2dec449b41a303772c511d32e",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/tune_private_extra_trees.py": "f1151a55b71df8d1d268d299ff1b6e2f8ad2cdf7b742a58870bc2938b59ec27f",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/scripts/validate_private_runtime_panels.py": "5fd830ab3c5f47952887f300fdc65e2892b8e62eb40a7b4cf63606ed561c2f2b",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/__init__.py": "b14e51df20e0d8c8e2abc3646d6cac8e26e015a797f3fa5138fb1f2c20bde30c",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/a2b006_training.py": "ee7c8514be47030e31ff730073a360ebda14b350122efaf42e5ab1caa35f7d0f",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/a2b009_training.py": "2f4931a926e2d78ac42ab21eb7f42d5851e7a3c54398f12c19ecb0bf5153df40",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/a2b011_training.py": "df813be652828a3d569ab68a45543b284ae3d58d561726d263512800b7b20a3d",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/a2b013_safe.py": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/a2b014_diagnostics.py": "3eef39f435b5e2b27df28c3b1efd397cdfd9f38b868291607b3a3bcc9ac5bff2",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/a2b015_training.py": "afdef765214b8b6e9e5d0fa9b1c2071bff8a2d90de4a0f2aaa5462bbc0ef089f",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/a2b016_gate.py": "77a7383338064e372a9cd6c758311ea57ba064e8db2767118cb9bf9900887cd5",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/a2b017_core.py": "5af0b83d74d5e438508ae028ec1bc3e85cd0269d0ac8f8bfc900e28a338a4331",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/a2b017_gate.py": "25c3483cdf7dd66c89efdfa261481cee264085df1140e3f904b55aad8a9f83aa",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/audit.py": "ae53436673a16231dd369efcffa64a8e3c4174fe30561605629915c6796a186e",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/cli.py": "ddd0adbbbc7f3aa6ede42b0905d0095c834fbd0b44987bfae2a02b53e414a586",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/config.py": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/exceptions.py": "2b3aef27c352bad4558d98ca964d21f4881468e6a63c4bc3ff7bc919a7ad26c9",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/features.py": "c5de3716c20bdeaace0a39fbccdc8dfbddb2c7e4d870b434646bd7cf10733a31",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/inference.py": "0e86aad755d07e7b2e5417c27a34cf06551ba57c81aaa1e445fb480089f1e550",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/io.py": "cf788f19399b7a867260a5a4f84bb630735a639410fc17092244ebcb9bcd18c3",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/labels.py": "c846986c476b5f6237fffa78887406246c88a913b97aeeb5df0db22192fd2331",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/models.py": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/multistep.py": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/packaging.py": "cba1b708a8ffd5a27aadd98f8375f79996864e766af7548bca18e14088db0bab",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/schema.py": "e934320d2960c0ce583df11bc88b279250e21e4b5a94866bae0df14014bc7898",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/scoring.py": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/submission.py": "d39b25ce75b452a9bf7dcb439aa1a68bdc3bbb822b9e9a2f56cd0565f1502612",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/training.py": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/src/oil_uplift/validation.py": "c4d5355962a64b169aff736ebe846c53bda80e8159c8f383c7739d62e4a49a7e",
+      "Shiyou_B_private_handoff_20261009_v1/payload/project/tests/test_a2b017.py": "451407ab1da2317b91e954d245c9d668e29253aebf378a7793e0678002d9cbc7",
+      "b-runtime-20261009-py3137/python/cpython-3.13.7-windows-x86_64-none/python.exe": "b20c54ca28d15b4254105a31a09615e3e1fc6f5f41f76553b9627b5df57b3d44",
+      "b-runtime-20261009-py3137/python/cpython-3.13.7-windows-x86_64-none/python313.dll": "2a02a2d7f9736a57dd1b3bf33b9521dc73551b3f4d319795c7b97a2f5c1895b6",
+      "b-runtime-20261009-py3137/venv/Lib/site-packages/sklearn/svm/_libsvm.cp313-win_amd64.pyd": "c6219b62c17483d64efd01d6558a31fce0910f358ace96b8daaebd13e5ddbe9e",
+      "b-runtime-20261009-py3137/venv/Scripts/python.exe": "926f48e34093c6a5c63982f26cb2bcdfb1c428aa47794b2145ee66cbb846aff1",
+      "shiyou-boundary-20261009/PLAN.json": "90a5eef2948696a5645a668d3c72a5b5552594fc39eefb54145c3e0db68b2665",
+      "shiyou-boundary-20261009/PRE_DATA_LOCK.json": "4dac9327108078b8f65b10ae7c48947358090941bdf9c009495cd73ea56c3720",
+      "shiyou-boundary-20261009/SOURCE_LOCK.json": "8b675400389957160be3804bf1557d0b02ef4f6aafdff0f0d20a40efcfc771cf",
+      "AUTHORIZED_RAW_ARCHIVE": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7"
+    },
+    "panel_identity": {
+      "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+      "feature_dtype_sha256": "a34b2599e3202d8cfac13ba50ffa2d57c5631225b553fef66207de6eb35d102a",
+      "feature_frame_sha256": "af964b79e581fb87bcb736e6eb3e2cab21f878612882c7fd782778f744f44cb7",
+      "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+    },
+    "cohort_order_sha256": "e999a556706e5aa680ff452f7a71c7c5f4ae742c87f7ef06d891320e57cc8093",
+    "feature_order": [
+      "horizon",
+      "forecast_step",
+      "history_month_count",
+      "history__RCYL__last",
+      "history__RCYL__lag_1",
+      "history__RCYL__lag_2",
+      "history__RCYL__lag_3",
+      "history__RCYL__lag_6",
+      "history__RCYL__lag_12",
+      "history__RCYL__roll_3_mean",
+      "history__RCYL__roll_3_median",
+      "history__RCYL__roll_3_std",
+      "history__RCYL__missing_3",
+      "history__RCYL__roll_6_mean",
+      "history__RCYL__roll_6_median",
+      "history__RCYL__roll_6_std",
+      "history__RCYL__missing_6",
+      "history__RCYL__roll_12_mean",
+      "history__RCYL__roll_12_median",
+      "history__RCYL__roll_12_std",
+      "history__RCYL__missing_12",
+      "history__RCYL__trend_3",
+      "history__RCYL__trend_6",
+      "history__RCYL__trend_12",
+      "history__SCTS__last",
+      "history__SCTS__lag_1",
+      "history__SCTS__lag_2",
+      "history__SCTS__lag_3",
+      "history__SCTS__lag_6",
+      "history__SCTS__lag_12",
+      "history__SCTS__roll_3_mean",
+      "history__SCTS__roll_3_median",
+      "history__SCTS__roll_3_std",
+      "history__SCTS__missing_3",
+      "history__SCTS__roll_6_mean",
+      "history__SCTS__roll_6_median",
+      "history__SCTS__roll_6_std",
+      "history__SCTS__missing_6",
+      "history__SCTS__roll_12_mean",
+      "history__SCTS__roll_12_median",
+      "history__SCTS__roll_12_std",
+      "history__SCTS__missing_12",
+      "history__SCTS__trend_3",
+      "history__SCTS__trend_6",
+      "history__SCTS__trend_12",
+      "history__BJ__last",
+      "history__BJ__lag_1",
+      "history__BJ__lag_2",
+      "history__BJ__lag_3",
+      "history__BJ__lag_6",
+      "history__BJ__lag_12",
+      "history__BJ__roll_3_mean",
+      "history__BJ__roll_3_median",
+      "history__BJ__roll_3_std",
+      "history__BJ__missing_3",
+      "history__BJ__roll_6_mean",
+      "history__BJ__roll_6_median",
+      "history__BJ__roll_6_std",
+      "history__BJ__missing_6",
+      "history__BJ__roll_12_mean",
+      "history__BJ__roll_12_median",
+      "history__BJ__roll_12_std",
+      "history__BJ__missing_12",
+      "history__BJ__trend_3",
+      "history__BJ__trend_6",
+      "history__BJ__trend_12",
+      "history__CC__last",
+      "history__CC__lag_1",
+      "history__CC__lag_2",
+      "history__CC__lag_3",
+      "history__CC__lag_6",
+      "history__CC__lag_12",
+      "history__CC__roll_3_mean",
+      "history__CC__roll_3_median",
+      "history__CC__roll_3_std",
+      "history__CC__missing_3",
+      "history__CC__roll_6_mean",
+      "history__CC__roll_6_median",
+      "history__CC__roll_6_std",
+      "history__CC__missing_6",
+      "history__CC__roll_12_mean",
+      "history__CC__roll_12_median",
+      "history__CC__roll_12_std",
+      "history__CC__missing_12",
+      "history__CC__trend_3",
+      "history__CC__trend_6",
+      "history__CC__trend_12",
+      "history__CC1__last",
+      "history__CC1__lag_1",
+      "history__CC1__lag_2",
+      "history__CC1__lag_3",
+      "history__CC1__lag_6",
+      "history__CC1__lag_12",
+      "history__CC1__roll_3_mean",
+      "history__CC1__roll_3_median",
+      "history__CC1__roll_3_std",
+      "history__CC1__missing_3",
+      "history__CC1__roll_6_mean",
+      "history__CC1__roll_6_median",
+      "history__CC1__roll_6_std",
+      "history__CC1__missing_6",
+      "history__CC1__roll_12_mean",
+      "history__CC1__roll_12_median",
+      "history__CC1__roll_12_std",
+      "history__CC1__missing_12",
+      "history__CC1__trend_3",
+      "history__CC1__trend_6",
+      "history__CC1__trend_12",
+      "history__PL__last",
+      "history__PL__lag_1",
+      "history__PL__lag_2",
+      "history__PL__lag_3",
+      "history__PL__lag_6",
+      "history__PL__lag_12",
+      "history__PL__roll_3_mean",
+      "history__PL__roll_3_median",
+      "history__PL__roll_3_std",
+      "history__PL__missing_3",
+      "history__PL__roll_6_mean",
+      "history__PL__roll_6_median",
+      "history__PL__roll_6_std",
+      "history__PL__missing_6",
+      "history__PL__roll_12_mean",
+      "history__PL__roll_12_median",
+      "history__PL__roll_12_std",
+      "history__PL__missing_12",
+      "history__PL__trend_3",
+      "history__PL__trend_6",
+      "history__PL__trend_12",
+      "history__BX__last",
+      "history__BX__lag_1",
+      "history__BX__lag_2",
+      "history__BX__lag_3",
+      "history__BX__lag_6",
+      "history__BX__lag_12",
+      "history__BX__roll_3_mean",
+      "history__BX__roll_3_median",
+      "history__BX__roll_3_std",
+      "history__BX__missing_3",
+      "history__BX__roll_6_mean",
+      "history__BX__roll_6_median",
+      "history__BX__roll_6_std",
+      "history__BX__missing_6",
+      "history__BX__roll_12_mean",
+      "history__BX__roll_12_median",
+      "history__BX__roll_12_std",
+      "history__BX__missing_12",
+      "history__BX__trend_3",
+      "history__BX__trend_6",
+      "history__BX__trend_12",
+      "history__YY__last",
+      "history__YY__lag_1",
+      "history__YY__lag_2",
+      "history__YY__lag_3",
+      "history__YY__lag_6",
+      "history__YY__lag_12",
+      "history__YY__roll_3_mean",
+      "history__YY__roll_3_median",
+      "history__YY__roll_3_std",
+      "history__YY__missing_3",
+      "history__YY__roll_6_mean",
+      "history__YY__roll_6_median",
+      "history__YY__roll_6_std",
+      "history__YY__missing_6",
+      "history__YY__roll_12_mean",
+      "history__YY__roll_12_median",
+      "history__YY__roll_12_std",
+      "history__YY__missing_12",
+      "history__YY__trend_3",
+      "history__YY__trend_6",
+      "history__YY__trend_12",
+      "history__TY__last",
+      "history__TY__lag_1",
+      "history__TY__lag_2",
+      "history__TY__lag_3",
+      "history__TY__lag_6",
+      "history__TY__lag_12",
+      "history__TY__roll_3_mean",
+      "history__TY__roll_3_median",
+      "history__TY__roll_3_std",
+      "history__TY__missing_3",
+      "history__TY__roll_6_mean",
+      "history__TY__roll_6_median",
+      "history__TY__roll_6_std",
+      "history__TY__missing_6",
+      "history__TY__roll_12_mean",
+      "history__TY__roll_12_median",
+      "history__TY__roll_12_std",
+      "history__TY__missing_12",
+      "history__TY__trend_3",
+      "history__TY__trend_6",
+      "history__TY__trend_12",
+      "history__LY__last",
+      "history__LY__lag_1",
+      "history__LY__lag_2",
+      "history__LY__lag_3",
+      "history__LY__lag_6",
+      "history__LY__lag_12",
+      "history__LY__roll_3_mean",
+      "history__LY__roll_3_median",
+      "history__LY__roll_3_std",
+      "history__LY__missing_3",
+      "history__LY__roll_6_mean",
+      "history__LY__roll_6_median",
+      "history__LY__roll_6_std",
+      "history__LY__missing_6",
+      "history__LY__roll_12_mean",
+      "history__LY__roll_12_median",
+      "history__LY__roll_12_std",
+      "history__LY__missing_12",
+      "history__LY__trend_3",
+      "history__LY__trend_6",
+      "history__LY__trend_12",
+      "history__CMD__last",
+      "history__CMD__lag_1",
+      "history__CMD__lag_2",
+      "history__CMD__lag_3",
+      "history__CMD__lag_6",
+      "history__CMD__lag_12",
+      "history__CMD__roll_3_mean",
+      "history__CMD__roll_3_median",
+      "history__CMD__roll_3_std",
+      "history__CMD__missing_3",
+      "history__CMD__roll_6_mean",
+      "history__CMD__roll_6_median",
+      "history__CMD__roll_6_std",
+      "history__CMD__missing_6",
+      "history__CMD__roll_12_mean",
+      "history__CMD__roll_12_median",
+      "history__CMD__roll_12_std",
+      "history__CMD__missing_12",
+      "history__CMD__trend_3",
+      "history__CMD__trend_6",
+      "history__CMD__trend_12",
+      "history__CCJHWND__last",
+      "history__CCJHWND__lag_1",
+      "history__CCJHWND__lag_2",
+      "history__CCJHWND__lag_3",
+      "history__CCJHWND__lag_6",
+      "history__CCJHWND__lag_12",
+      "history__CCJHWND__roll_3_mean",
+      "history__CCJHWND__roll_3_median",
+      "history__CCJHWND__roll_3_std",
+      "history__CCJHWND__missing_3",
+      "history__CCJHWND__roll_6_mean",
+      "history__CCJHWND__roll_6_median",
+      "history__CCJHWND__roll_6_std",
+      "history__CCJHWND__missing_6",
+      "history__CCJHWND__roll_12_mean",
+      "history__CCJHWND__roll_12_median",
+      "history__CCJHWND__roll_12_std",
+      "history__CCJHWND__missing_12",
+      "history__CCJHWND__trend_3",
+      "history__CCJHWND__trend_6",
+      "history__CCJHWND__trend_12",
+      "history__CCJND__missing_3",
+      "history__CCJND__missing_6",
+      "history__CCJND__missing_12",
+      "history__CCBHJND__missing_3",
+      "history__CCBHJND__missing_6",
+      "history__CCBHJND__missing_12",
+      "history__CCYND__last",
+      "history__CCYND__lag_1",
+      "history__CCYND__lag_2",
+      "history__CCYND__lag_3",
+      "history__CCYND__lag_6",
+      "history__CCYND__lag_12",
+      "history__CCYND__roll_3_mean",
+      "history__CCYND__roll_3_median",
+      "history__CCYND__roll_3_std",
+      "history__CCYND__missing_3",
+      "history__CCYND__roll_6_mean",
+      "history__CCYND__roll_6_median",
+      "history__CCYND__roll_6_std",
+      "history__CCYND__missing_6",
+      "history__CCYND__roll_12_mean",
+      "history__CCYND__roll_12_median",
+      "history__CCYND__roll_12_std",
+      "history__CCYND__missing_12",
+      "history__CCYND__trend_3",
+      "history__CCYND__trend_6",
+      "history__CCYND__trend_12",
+      "history__SXDL__last",
+      "history__SXDL__lag_1",
+      "history__SXDL__lag_2",
+      "history__SXDL__lag_3",
+      "history__SXDL__lag_6",
+      "history__SXDL__lag_12",
+      "history__SXDL__roll_3_mean",
+      "history__SXDL__roll_3_median",
+      "history__SXDL__roll_3_std",
+      "history__SXDL__missing_3",
+      "history__SXDL__roll_6_mean",
+      "history__SXDL__roll_6_median",
+      "history__SXDL__roll_6_std",
+      "history__SXDL__missing_6",
+      "history__SXDL__roll_12_mean",
+      "history__SXDL__roll_12_median",
+      "history__SXDL__roll_12_std",
+      "history__SXDL__missing_12",
+      "history__SXDL__trend_3",
+      "history__SXDL__trend_6",
+      "history__SXDL__trend_12",
+      "history__XXDL__last",
+      "history__XXDL__lag_1",
+      "history__XXDL__lag_2",
+      "history__XXDL__lag_3",
+      "history__XXDL__lag_6",
+      "history__XXDL__lag_12",
+      "history__XXDL__roll_3_mean",
+      "history__XXDL__roll_3_median",
+      "history__XXDL__roll_3_std",
+      "history__XXDL__missing_3",
+      "history__XXDL__roll_6_mean",
+      "history__XXDL__roll_6_median",
+      "history__XXDL__roll_6_std",
+      "history__XXDL__missing_6",
+      "history__XXDL__roll_12_mean",
+      "history__XXDL__roll_12_median",
+      "history__XXDL__roll_12_std",
+      "history__XXDL__missing_12",
+      "history__XXDL__trend_3",
+      "history__XXDL__trend_6",
+      "history__XXDL__trend_12",
+      "history__CYFS__last"
+    ],
+    "ordered_dtypes": [
+      [
+        "horizon",
+        "int64"
+      ],
+      [
+        "forecast_step",
+        "int64"
+      ],
+      [
+        "history_month_count",
+        "int64"
+      ],
+      [
+        "history__RCYL__last",
+        "float64"
+      ],
+      [
+        "history__RCYL__lag_1",
+        "float64"
+      ],
+      [
+        "history__RCYL__lag_2",
+        "float64"
+      ],
+      [
+        "history__RCYL__lag_3",
+        "float64"
+      ],
+      [
+        "history__RCYL__lag_6",
+        "float64"
+      ],
+      [
+        "history__RCYL__lag_12",
+        "float64"
+      ],
+      [
+        "history__RCYL__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__RCYL__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__RCYL__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__RCYL__missing_3",
+        "int64"
+      ],
+      [
+        "history__RCYL__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__RCYL__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__RCYL__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__RCYL__missing_6",
+        "int64"
+      ],
+      [
+        "history__RCYL__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__RCYL__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__RCYL__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__RCYL__missing_12",
+        "int64"
+      ],
+      [
+        "history__RCYL__trend_3",
+        "float64"
+      ],
+      [
+        "history__RCYL__trend_6",
+        "float64"
+      ],
+      [
+        "history__RCYL__trend_12",
+        "float64"
+      ],
+      [
+        "history__SCTS__last",
+        "float64"
+      ],
+      [
+        "history__SCTS__lag_1",
+        "float64"
+      ],
+      [
+        "history__SCTS__lag_2",
+        "float64"
+      ],
+      [
+        "history__SCTS__lag_3",
+        "float64"
+      ],
+      [
+        "history__SCTS__lag_6",
+        "float64"
+      ],
+      [
+        "history__SCTS__lag_12",
+        "float64"
+      ],
+      [
+        "history__SCTS__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__SCTS__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__SCTS__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__SCTS__missing_3",
+        "int64"
+      ],
+      [
+        "history__SCTS__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__SCTS__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__SCTS__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__SCTS__missing_6",
+        "int64"
+      ],
+      [
+        "history__SCTS__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__SCTS__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__SCTS__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__SCTS__missing_12",
+        "int64"
+      ],
+      [
+        "history__SCTS__trend_3",
+        "float64"
+      ],
+      [
+        "history__SCTS__trend_6",
+        "float64"
+      ],
+      [
+        "history__SCTS__trend_12",
+        "float64"
+      ],
+      [
+        "history__BJ__last",
+        "float64"
+      ],
+      [
+        "history__BJ__lag_1",
+        "float64"
+      ],
+      [
+        "history__BJ__lag_2",
+        "float64"
+      ],
+      [
+        "history__BJ__lag_3",
+        "float64"
+      ],
+      [
+        "history__BJ__lag_6",
+        "float64"
+      ],
+      [
+        "history__BJ__lag_12",
+        "float64"
+      ],
+      [
+        "history__BJ__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__BJ__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__BJ__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__BJ__missing_3",
+        "int64"
+      ],
+      [
+        "history__BJ__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__BJ__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__BJ__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__BJ__missing_6",
+        "int64"
+      ],
+      [
+        "history__BJ__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__BJ__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__BJ__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__BJ__missing_12",
+        "int64"
+      ],
+      [
+        "history__BJ__trend_3",
+        "float64"
+      ],
+      [
+        "history__BJ__trend_6",
+        "float64"
+      ],
+      [
+        "history__BJ__trend_12",
+        "float64"
+      ],
+      [
+        "history__CC__last",
+        "float64"
+      ],
+      [
+        "history__CC__lag_1",
+        "float64"
+      ],
+      [
+        "history__CC__lag_2",
+        "float64"
+      ],
+      [
+        "history__CC__lag_3",
+        "float64"
+      ],
+      [
+        "history__CC__lag_6",
+        "float64"
+      ],
+      [
+        "history__CC__lag_12",
+        "float64"
+      ],
+      [
+        "history__CC__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__CC__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__CC__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__CC__missing_3",
+        "int64"
+      ],
+      [
+        "history__CC__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__CC__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__CC__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__CC__missing_6",
+        "int64"
+      ],
+      [
+        "history__CC__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__CC__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__CC__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__CC__missing_12",
+        "int64"
+      ],
+      [
+        "history__CC__trend_3",
+        "float64"
+      ],
+      [
+        "history__CC__trend_6",
+        "float64"
+      ],
+      [
+        "history__CC__trend_12",
+        "float64"
+      ],
+      [
+        "history__CC1__last",
+        "float64"
+      ],
+      [
+        "history__CC1__lag_1",
+        "float64"
+      ],
+      [
+        "history__CC1__lag_2",
+        "float64"
+      ],
+      [
+        "history__CC1__lag_3",
+        "float64"
+      ],
+      [
+        "history__CC1__lag_6",
+        "float64"
+      ],
+      [
+        "history__CC1__lag_12",
+        "float64"
+      ],
+      [
+        "history__CC1__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__CC1__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__CC1__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__CC1__missing_3",
+        "int64"
+      ],
+      [
+        "history__CC1__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__CC1__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__CC1__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__CC1__missing_6",
+        "int64"
+      ],
+      [
+        "history__CC1__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__CC1__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__CC1__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__CC1__missing_12",
+        "int64"
+      ],
+      [
+        "history__CC1__trend_3",
+        "float64"
+      ],
+      [
+        "history__CC1__trend_6",
+        "float64"
+      ],
+      [
+        "history__CC1__trend_12",
+        "float64"
+      ],
+      [
+        "history__PL__last",
+        "float64"
+      ],
+      [
+        "history__PL__lag_1",
+        "float64"
+      ],
+      [
+        "history__PL__lag_2",
+        "float64"
+      ],
+      [
+        "history__PL__lag_3",
+        "float64"
+      ],
+      [
+        "history__PL__lag_6",
+        "float64"
+      ],
+      [
+        "history__PL__lag_12",
+        "float64"
+      ],
+      [
+        "history__PL__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__PL__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__PL__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__PL__missing_3",
+        "int64"
+      ],
+      [
+        "history__PL__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__PL__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__PL__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__PL__missing_6",
+        "int64"
+      ],
+      [
+        "history__PL__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__PL__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__PL__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__PL__missing_12",
+        "int64"
+      ],
+      [
+        "history__PL__trend_3",
+        "float64"
+      ],
+      [
+        "history__PL__trend_6",
+        "float64"
+      ],
+      [
+        "history__PL__trend_12",
+        "float64"
+      ],
+      [
+        "history__BX__last",
+        "float64"
+      ],
+      [
+        "history__BX__lag_1",
+        "float64"
+      ],
+      [
+        "history__BX__lag_2",
+        "float64"
+      ],
+      [
+        "history__BX__lag_3",
+        "float64"
+      ],
+      [
+        "history__BX__lag_6",
+        "float64"
+      ],
+      [
+        "history__BX__lag_12",
+        "float64"
+      ],
+      [
+        "history__BX__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__BX__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__BX__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__BX__missing_3",
+        "int64"
+      ],
+      [
+        "history__BX__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__BX__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__BX__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__BX__missing_6",
+        "int64"
+      ],
+      [
+        "history__BX__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__BX__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__BX__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__BX__missing_12",
+        "int64"
+      ],
+      [
+        "history__BX__trend_3",
+        "float64"
+      ],
+      [
+        "history__BX__trend_6",
+        "float64"
+      ],
+      [
+        "history__BX__trend_12",
+        "float64"
+      ],
+      [
+        "history__YY__last",
+        "float64"
+      ],
+      [
+        "history__YY__lag_1",
+        "float64"
+      ],
+      [
+        "history__YY__lag_2",
+        "float64"
+      ],
+      [
+        "history__YY__lag_3",
+        "float64"
+      ],
+      [
+        "history__YY__lag_6",
+        "float64"
+      ],
+      [
+        "history__YY__lag_12",
+        "float64"
+      ],
+      [
+        "history__YY__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__YY__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__YY__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__YY__missing_3",
+        "int64"
+      ],
+      [
+        "history__YY__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__YY__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__YY__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__YY__missing_6",
+        "int64"
+      ],
+      [
+        "history__YY__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__YY__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__YY__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__YY__missing_12",
+        "int64"
+      ],
+      [
+        "history__YY__trend_3",
+        "float64"
+      ],
+      [
+        "history__YY__trend_6",
+        "float64"
+      ],
+      [
+        "history__YY__trend_12",
+        "float64"
+      ],
+      [
+        "history__TY__last",
+        "float64"
+      ],
+      [
+        "history__TY__lag_1",
+        "float64"
+      ],
+      [
+        "history__TY__lag_2",
+        "float64"
+      ],
+      [
+        "history__TY__lag_3",
+        "float64"
+      ],
+      [
+        "history__TY__lag_6",
+        "float64"
+      ],
+      [
+        "history__TY__lag_12",
+        "float64"
+      ],
+      [
+        "history__TY__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__TY__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__TY__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__TY__missing_3",
+        "int64"
+      ],
+      [
+        "history__TY__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__TY__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__TY__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__TY__missing_6",
+        "int64"
+      ],
+      [
+        "history__TY__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__TY__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__TY__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__TY__missing_12",
+        "int64"
+      ],
+      [
+        "history__TY__trend_3",
+        "float64"
+      ],
+      [
+        "history__TY__trend_6",
+        "float64"
+      ],
+      [
+        "history__TY__trend_12",
+        "float64"
+      ],
+      [
+        "history__LY__last",
+        "float64"
+      ],
+      [
+        "history__LY__lag_1",
+        "float64"
+      ],
+      [
+        "history__LY__lag_2",
+        "float64"
+      ],
+      [
+        "history__LY__lag_3",
+        "float64"
+      ],
+      [
+        "history__LY__lag_6",
+        "float64"
+      ],
+      [
+        "history__LY__lag_12",
+        "float64"
+      ],
+      [
+        "history__LY__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__LY__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__LY__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__LY__missing_3",
+        "int64"
+      ],
+      [
+        "history__LY__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__LY__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__LY__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__LY__missing_6",
+        "int64"
+      ],
+      [
+        "history__LY__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__LY__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__LY__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__LY__missing_12",
+        "int64"
+      ],
+      [
+        "history__LY__trend_3",
+        "float64"
+      ],
+      [
+        "history__LY__trend_6",
+        "float64"
+      ],
+      [
+        "history__LY__trend_12",
+        "float64"
+      ],
+      [
+        "history__CMD__last",
+        "float64"
+      ],
+      [
+        "history__CMD__lag_1",
+        "float64"
+      ],
+      [
+        "history__CMD__lag_2",
+        "float64"
+      ],
+      [
+        "history__CMD__lag_3",
+        "float64"
+      ],
+      [
+        "history__CMD__lag_6",
+        "float64"
+      ],
+      [
+        "history__CMD__lag_12",
+        "float64"
+      ],
+      [
+        "history__CMD__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__CMD__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__CMD__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__CMD__missing_3",
+        "int64"
+      ],
+      [
+        "history__CMD__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__CMD__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__CMD__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__CMD__missing_6",
+        "int64"
+      ],
+      [
+        "history__CMD__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__CMD__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__CMD__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__CMD__missing_12",
+        "int64"
+      ],
+      [
+        "history__CMD__trend_3",
+        "float64"
+      ],
+      [
+        "history__CMD__trend_6",
+        "float64"
+      ],
+      [
+        "history__CMD__trend_12",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__last",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__lag_1",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__lag_2",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__lag_3",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__lag_6",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__lag_12",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__missing_3",
+        "int64"
+      ],
+      [
+        "history__CCJHWND__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__missing_6",
+        "int64"
+      ],
+      [
+        "history__CCJHWND__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__missing_12",
+        "int64"
+      ],
+      [
+        "history__CCJHWND__trend_3",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__trend_6",
+        "float64"
+      ],
+      [
+        "history__CCJHWND__trend_12",
+        "float64"
+      ],
+      [
+        "history__CCJND__missing_3",
+        "int64"
+      ],
+      [
+        "history__CCJND__missing_6",
+        "int64"
+      ],
+      [
+        "history__CCJND__missing_12",
+        "int64"
+      ],
+      [
+        "history__CCBHJND__missing_3",
+        "int64"
+      ],
+      [
+        "history__CCBHJND__missing_6",
+        "int64"
+      ],
+      [
+        "history__CCBHJND__missing_12",
+        "int64"
+      ],
+      [
+        "history__CCYND__last",
+        "float64"
+      ],
+      [
+        "history__CCYND__lag_1",
+        "float64"
+      ],
+      [
+        "history__CCYND__lag_2",
+        "float64"
+      ],
+      [
+        "history__CCYND__lag_3",
+        "float64"
+      ],
+      [
+        "history__CCYND__lag_6",
+        "float64"
+      ],
+      [
+        "history__CCYND__lag_12",
+        "float64"
+      ],
+      [
+        "history__CCYND__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__CCYND__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__CCYND__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__CCYND__missing_3",
+        "int64"
+      ],
+      [
+        "history__CCYND__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__CCYND__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__CCYND__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__CCYND__missing_6",
+        "int64"
+      ],
+      [
+        "history__CCYND__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__CCYND__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__CCYND__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__CCYND__missing_12",
+        "int64"
+      ],
+      [
+        "history__CCYND__trend_3",
+        "float64"
+      ],
+      [
+        "history__CCYND__trend_6",
+        "float64"
+      ],
+      [
+        "history__CCYND__trend_12",
+        "float64"
+      ],
+      [
+        "history__SXDL__last",
+        "float64"
+      ],
+      [
+        "history__SXDL__lag_1",
+        "float64"
+      ],
+      [
+        "history__SXDL__lag_2",
+        "float64"
+      ],
+      [
+        "history__SXDL__lag_3",
+        "float64"
+      ],
+      [
+        "history__SXDL__lag_6",
+        "float64"
+      ],
+      [
+        "history__SXDL__lag_12",
+        "float64"
+      ],
+      [
+        "history__SXDL__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__SXDL__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__SXDL__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__SXDL__missing_3",
+        "int64"
+      ],
+      [
+        "history__SXDL__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__SXDL__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__SXDL__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__SXDL__missing_6",
+        "int64"
+      ],
+      [
+        "history__SXDL__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__SXDL__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__SXDL__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__SXDL__missing_12",
+        "int64"
+      ],
+      [
+        "history__SXDL__trend_3",
+        "float64"
+      ],
+      [
+        "history__SXDL__trend_6",
+        "float64"
+      ],
+      [
+        "history__SXDL__trend_12",
+        "float64"
+      ],
+      [
+        "history__XXDL__last",
+        "float64"
+      ],
+      [
+        "history__XXDL__lag_1",
+        "float64"
+      ],
+      [
+        "history__XXDL__lag_2",
+        "float64"
+      ],
+      [
+        "history__XXDL__lag_3",
+        "float64"
+      ],
+      [
+        "history__XXDL__lag_6",
+        "float64"
+      ],
+      [
+        "history__XXDL__lag_12",
+        "float64"
+      ],
+      [
+        "history__XXDL__roll_3_mean",
+        "float64"
+      ],
+      [
+        "history__XXDL__roll_3_median",
+        "float64"
+      ],
+      [
+        "history__XXDL__roll_3_std",
+        "float64"
+      ],
+      [
+        "history__XXDL__missing_3",
+        "int64"
+      ],
+      [
+        "history__XXDL__roll_6_mean",
+        "float64"
+      ],
+      [
+        "history__XXDL__roll_6_median",
+        "float64"
+      ],
+      [
+        "history__XXDL__roll_6_std",
+        "float64"
+      ],
+      [
+        "history__XXDL__missing_6",
+        "int64"
+      ],
+      [
+        "history__XXDL__roll_12_mean",
+        "float64"
+      ],
+      [
+        "history__XXDL__roll_12_median",
+        "float64"
+      ],
+      [
+        "history__XXDL__roll_12_std",
+        "float64"
+      ],
+      [
+        "history__XXDL__missing_12",
+        "int64"
+      ],
+      [
+        "history__XXDL__trend_3",
+        "float64"
+      ],
+      [
+        "history__XXDL__trend_6",
+        "float64"
+      ],
+      [
+        "history__XXDL__trend_12",
+        "float64"
+      ],
+      [
+        "history__CYFS__last",
+        "object"
+      ]
+    ],
+    "execution_config_sha256": "2ff1e5b07270971062320ee87498088ba9bb4f12817d111598e36cb6cacd1155",
+    "model_parameters": {
+      "bootstrap": false,
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": null,
+      "max_features": 0.75,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 6,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 400,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 20260916,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "fixed_split_sha256": "beadb191d075afdd138d6463f0b3a0e03999a76e07641f56ea24ec77e5e4d5f8",
+    "wells": 81,
+    "rows": 972,
+    "features": 325,
+    "boundary": "V2: original last segment end M; all history and raw scale through M-1; target M+1..M+12",
+    "historical_dtype": "UNKNOWN",
+    "A24_current_identity_checks_passed": true,
+    "structural_gate": "PASS",
+    "accepted_audit_summary_sha256": "18da3d5c037764003b99b4fe28b91f3431317eea4a23b6a73c9862fa98d831b5",
+    "future_invariance_checks": {
+      "train": {
+        "events_checked": 81,
+        "feature_values_checked": 29079,
+        "future_sensitive_feature_count": 0
+      },
+      "test": {
+        "events_checked": 10,
+        "feature_values_checked": 3590,
+        "future_sensitive_feature_count": 0
+      }
+    },
+    "raw_members_verified": 100,
+    "original_data_copied_or_extracted": false
+  },
+  "A1_source_commit": "1a385c08cc2229c9a44b58daa801602d242f77a2",
+  "plan_sha256": "e3021e14a547da9d5278b3ebbe0d26b4bdc8d732e27e0c706ad2f3a3ae31fdf4",
+  "synthetic_sha256": "fab9bd4a63bbe5b88236c5c9d575b2e1fe415d7721018fefbebe3248cd2e7db8",
+  "frozen_snapshot_sha256": "d0c480a2bddfeef24db38a4802c201cf7756357fd2e06220aae0d03fbd2d658c",
+  "replay_gate": {
+    "oof": 73.71410733861434,
+    "absolute_tolerance": 1e-09,
+    "folds_6dp": [
+      71.453314,
+      77.536429,
+      75.129241,
+      64.626864,
+      79.965989
+    ]
+  },
+  "decision_threshold": 90.0,
+  "parallelism": {
+    "active_fits": 1,
+    "model_n_jobs": -1,
+    "BLAS_OpenMP_threads": 1
+  },
+  "budget": {
+    "model_success_max": 5,
+    "model_entry_max": 6,
+    "preprocess_success_max": 5,
+    "preprocess_entry_max": 6,
+    "fault_retry_max": 1
+  },
+  "retry_policy": "One transient model-fit retry may reuse the already fitted fold preprocessor and identical transformed training matrix; no successful fit is repeated. Preprocessing errors stop.",
+  "interpreter_launcher_warning": "Failed to find real location warning observed; executable/base executable exist; imports pass; binary/version hashes equal A24 actual environment."
+}
