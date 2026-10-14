@@ -1,0 +1,33 @@
+{
+  "base_commit": "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+  "builder_sha256": "b971094b469d7437425bb6a31f69987d199d2e3371798741c2e112b7e4170b11",
+  "evidence_level": "reconstructed from local builder write order; not a recovered historic per-file log",
+  "historic_21_files": [
+    "ROLE_AND_AUTHORIZATION.md",
+    "SOURCE_RECEIPT.json",
+    "SYNTHETIC_RESULTS.json",
+    "SYNTHETIC_LOG.txt",
+    "PRE_DIAGNOSTIC_LOCK.json",
+    "D0_STRUCTURE.json",
+    "D1_ZERO_MASS.json",
+    "D2_ANCHOR_COMPARISON.json",
+    "D4_SMOOTH_ORACLE.json",
+    "RESULT_STAGE0.json",
+    "EVENTS.json",
+    "PRIVACY_SCAN.json",
+    "STOPPED.json",
+    "run_stage0.py",
+    "diagnostics_reference.py",
+    "test_diagnostics_reference.py",
+    "PROMPT_CODEX_ORIGINAL.md",
+    "THREE_ACCOUNT_ROLE_RULES_V2.md",
+    "README.md",
+    "HANDOFF_TO_CODEX.md",
+    "REPORT_B.md"
+  ],
+  "missing_3_files": [
+    "PRIVACY_RECOVERY.json",
+    "PUBLICATION_PRIVACY_CHECK.json",
+    "SHA256SUMS.json"
+  ]
+}

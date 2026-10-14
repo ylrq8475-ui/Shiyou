@@ -1,0 +1,28 @@
+{
+  "task": "A2B-026",
+  "role": "B delivery",
+  "stage0_privacy": {
+    "base_commit": "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+    "published_files": 24,
+    "historic_scan_declared": 21,
+    "missed": 3,
+    "new_per_file_scanned": 24,
+    "passed": 24,
+    "Codex_item_11": "B_EVIDENCE_COMPLETE_PENDING_CODEX_SIGNOFF"
+  },
+  "route_B_phase": "B-1 PREREGISTRATION_FINAL_DOCUMENT_PENDING_CODEX_REVIEW",
+  "decision_variables": {
+    "分数差": null,
+    "D1上界": 2.6478708526234565
+  },
+  "decision_table_unchanged": true,
+  "decision_table_original": "| Codex 确认的结果 | 下一步 |\n|---|---|\n| 任一硬门禁失败（泄漏、错位、井级隔离、指标） | 路线 B 停止 |\n| 相对基线的 OOF 分数差 ≥ +1.0 | 建议你考虑保留候选。交付必须包含 train.py，平台提交另行批准 |\n| 0 < 分数差 < +1.0 | 弱信号，交你决定，默认不执行 |\n| 分数差 ≤ 0 | 路线 B 淘汰 |",
+  "model_fit_calls_this_turn": 0,
+  "preprocessor_fit_calls_this_turn": 0,
+  "ML_modules_imported_by_scanner": false,
+  "B2_training_authorized": false,
+  "B2_training_started": false,
+  "original_stage0_results_modified": false,
+  "formal_packaging": false,
+  "platform_submitted": false
+}

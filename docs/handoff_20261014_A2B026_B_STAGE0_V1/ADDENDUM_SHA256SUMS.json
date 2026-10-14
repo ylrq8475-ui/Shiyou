@@ -1,0 +1,22 @@
+{
+  "CLOSEOUT_PREREG_RESULT.json": {
+    "bytes": 1264,
+    "sha256": "52cc55ae0bdb71ab50e3f6b4bc0fe91e9845995327a152342ce3459d78528837"
+  },
+  "HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json": {
+    "bytes": 1010,
+    "sha256": "bfebe4872723f6aba1267c6d900f65fc5898bebd9d1b07fe94f00435ea01f208"
+  },
+  "PRIVACY_COVERAGE_MAP.md": {
+    "bytes": 8712,
+    "sha256": "fab12e4553031efcd4d9d9ff3b36e8dca7cacc9a13fb3b85d296dc9bebe46749"
+  },
+  "privacy_supplement.py": {
+    "bytes": 8217,
+    "sha256": "45955a25287ca6ec1c00c591132c47425b3ad35b08fe0ec13cd4325e416170ad"
+  },
+  "PRIVACY_SUPPLEMENT_SCAN_RAW.json": {
+    "bytes": 19183,
+    "sha256": "fed586249025e2a659bd1ec6395e5c4ec9522337a328a05d40977818fed3199e"
+  }
+}
