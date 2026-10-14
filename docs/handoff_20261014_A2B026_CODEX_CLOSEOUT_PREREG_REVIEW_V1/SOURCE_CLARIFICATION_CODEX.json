@@ -1,0 +1,26 @@
+{
+  "task": "A2B-026 stage0 closeout / route B preregistration",
+  "source": "user supplied quotation in current Codex conversation, 2026-10-14",
+  "reviewed_B_commit": "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+  "previous_Codex_registered_commit": "e6d3144c28451d8fd6ca8cfd4e7584af9366ec7a",
+  "startup_original_received": "第 11 项经 Codex 判为\"通过\"，且用户另行批准 B-2。",
+  "startup_semantic_agreement_with_B_preregistration": true,
+  "startup_exact_sentence_present_in_B_preregistration": false,
+  "full_B_instruction_received": false,
+  "full_decision_table_independent_original_received": false,
+  "source_distinctions": {
+    "Prompt_V2": "stage0 execution and registration only; not the route-B decision-table original",
+    "original_route_B_research": "mechanism and theoretical threshold only; not current user execution approval",
+    "current_user_quote": "independent source for startup condition only"
+  },
+  "approval_reference": "user points to an earlier full message containing approval reference 2026-10-14 15:25; full message is not visible in this Codex context",
+  "separate_B2_approval_received": false,
+  "item_11_closed": true,
+  "item_4_status": "UNKNOWN",
+  "item_4_level": "P1",
+  "remaining_missing": "complete independently supplied B instruction and original decision table; startup condition source is now received",
+  "verbatim_wording_note": "equivalent B startup statements exist, but the quoted original sentence is not reproduced verbatim",
+  "B2_start_conditions_satisfied": false,
+  "raw_data_read": false,
+  "model_or_preprocessor_fits": 0
+}

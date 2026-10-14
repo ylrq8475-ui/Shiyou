@@ -1,0 +1,17 @@
+{
+  "snapshot": "e6d3144c28451d8fd6ca8cfd4e7584af9366ec7a",
+  "files": {
+    "SOURCE_CLARIFICATION_CODEX.md": {
+      "bytes": 2141,
+      "sha256": "0603d9e4e321c77c9f9a8dc226ba6f151a583297b832433d20d5ad43c7aaa35f"
+    },
+    "SOURCE_CLARIFICATION_CODEX.json": {
+      "bytes": 1605,
+      "sha256": "ba8e8a799845900e198bae8ad0fbb7a93a87d800a9630a565d1b1157c74cc6fb"
+    },
+    "CLARIFICATION_PRIVACY_CHECK.json": {
+      "bytes": 237,
+      "sha256": "cc554d63dc3291dd56269337956357d1969fc1f95a8a1fc34697ca15841f3e91"
+    }
+  }
+}
