@@ -1,0 +1,9 @@
+test_all_24_rows_bound_and_zero_fit (__main__.ScannerChecks.test_all_24_rows_bound_and_zero_fit) ... ok
+test_changed_public_hash_rejected (__main__.ScannerChecks.test_changed_public_hash_rejected) ... ok
+test_credential_pattern_rejected (__main__.ScannerChecks.test_credential_pattern_rejected) ... ok
+test_private_identifier_rejected (__main__.ScannerChecks.test_private_identifier_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 10.410s
+
+OK

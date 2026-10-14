@@ -1,0 +1,36 @@
+{
+  "base": "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+  "head": "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+  "base_existing_blob_count": 244,
+  "base_existing_files_changed": [],
+  "all_existing_files_unchanged": true,
+  "card_snapshot": "d9a35ab9893ada8fae99d0f9bae12eb0d920c2b1",
+  "card_result_bound": [
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/CLOSEOUT_PREREG_RESULT.json",
+      "snapshot_blob": "b6a467fe94024b8e5e2a951f43c1c25b09ef3799",
+      "reviewed_blob": "b6a467fe94024b8e5e2a951f43c1c25b09ef3799"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+      "snapshot_blob": "ae69a8cc01c30466dbe1f25c72ef9b3d2b736207",
+      "reviewed_blob": "ae69a8cc01c30466dbe1f25c72ef9b3d2b736207"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/PREREG_PARAMETERS.json",
+      "snapshot_blob": "1497a3745680a01c998b6a4151519a46a5ca26aa",
+      "reviewed_blob": "1497a3745680a01c998b6a4151519a46a5ca26aa"
+    }
+  ],
+  "added_files": [
+    "docs/handoff_20261014_A2B026_B_STAGE0_V1/ADDENDUM_SHA256SUMS.json",
+    "docs/handoff_20261014_A2B026_B_STAGE0_V1/CLOSEOUT_PREREG_RESULT.json",
+    "docs/handoff_20261014_A2B026_B_STAGE0_V1/HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+    "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_COVERAGE_MAP.md",
+    "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+    "docs/handoff_20261014_A2B026_B_STAGE0_V1/privacy_supplement.py",
+    "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/ADDENDUM_SHA256SUMS.json",
+    "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/PREREG_PARAMETERS.json",
+    "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/PREREG_ROUTE_B.md"
+  ]
+}

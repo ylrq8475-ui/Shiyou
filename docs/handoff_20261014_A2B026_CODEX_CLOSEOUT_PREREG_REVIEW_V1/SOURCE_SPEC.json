@@ -1,0 +1,327 @@
+[
+  {
+    "label": "B",
+    "commit": "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+    "prefix": "docs/handoff_20261014_A2B026_B_STAGE0_V1",
+    "files": [
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/ADDENDUM_SHA256SUMS.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ca7fc9c7b2f75731192516254cd1dfa00a69910c",
+        "size": 736,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/ca7fc9c7b2f75731192516254cd1dfa00a69910c"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/CLOSEOUT_PREREG_RESULT.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b6a467fe94024b8e5e2a951f43c1c25b09ef3799",
+        "size": 1264,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/b6a467fe94024b8e5e2a951f43c1c25b09ef3799"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/D0_STRUCTURE.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11f2de2e9ec3b34f1c5d409cdb965efcced26af5",
+        "size": 766,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/11f2de2e9ec3b34f1c5d409cdb965efcced26af5"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/D1_ZERO_MASS.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0bd9fd3d8eb2176926c6db15b6c3475027f60956",
+        "size": 583,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/0bd9fd3d8eb2176926c6db15b6c3475027f60956"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/D2_ANCHOR_COMPARISON.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "010af5084bdc8ae440aedd54da098d29efef7a0b",
+        "size": 389,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/010af5084bdc8ae440aedd54da098d29efef7a0b"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/D4_SMOOTH_ORACLE.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab24b749cffbac634dbd11c0d464a76a9813c4e7",
+        "size": 253,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/ab24b749cffbac634dbd11c0d464a76a9813c4e7"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/EVENTS.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f7837a094487ae929c1d630c4361a0bbed51b5b",
+        "size": 3202,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/4f7837a094487ae929c1d630c4361a0bbed51b5b"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/HANDOFF_TO_CODEX.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36a5b0aab8b5977a3e589dc5379d6505e157c390",
+        "size": 1676,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/36a5b0aab8b5977a3e589dc5379d6505e157c390"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5610e87296c8afd6fb02daa16d238969a07db668",
+        "size": 1010,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/5610e87296c8afd6fb02daa16d238969a07db668"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRE_DIAGNOSTIC_LOCK.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c88943552d88e08d0457a175037b869b14a57d84",
+        "size": 5250,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/c88943552d88e08d0457a175037b869b14a57d84"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_COVERAGE_MAP.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7fb78037d835a3191d9dbea5e96839dadde5dad1",
+        "size": 8923,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/7fb78037d835a3191d9dbea5e96839dadde5dad1"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_RECOVERY.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1217cd7faf8e555280677db0e275336c8e473dd",
+        "size": 611,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/c1217cd7faf8e555280677db0e275336c8e473dd"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_SCAN.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b256a7566608a3b67333d9cb795b463cea52d468",
+        "size": 323,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/b256a7566608a3b67333d9cb795b463cea52d468"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae69a8cc01c30466dbe1f25c72ef9b3d2b736207",
+        "size": 19183,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/ae69a8cc01c30466dbe1f25c72ef9b3d2b736207"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PROMPT_CODEX_ORIGINAL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74281268b9c96fb113659bb6a5f8ccd06256ea20",
+        "size": 2580,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/74281268b9c96fb113659bb6a5f8ccd06256ea20"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PUBLICATION_PRIVACY_CHECK.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c57ff917788df0ac82d2dc6aaa6c616bf3790616",
+        "size": 464,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/c57ff917788df0ac82d2dc6aaa6c616bf3790616"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "510940b3b82d0d1d21894b8275214ef0426cc83b",
+        "size": 1152,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/510940b3b82d0d1d21894b8275214ef0426cc83b"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/REPORT_B.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a3e02795f35bc585beca0104cab53cbd53a28ced",
+        "size": 6206,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/a3e02795f35bc585beca0104cab53cbd53a28ced"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/RESULT_STAGE0.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b3fb69ccc790146db902dcfcc2aaa3f2f2362db1",
+        "size": 3631,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/b3fb69ccc790146db902dcfcc2aaa3f2f2362db1"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/ROLE_AND_AUTHORIZATION.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f693decfb4af13c5dd542700666c17e46d3f3cc",
+        "size": 2410,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/3f693decfb4af13c5dd542700666c17e46d3f3cc"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/SHA256SUMS.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7bd1d726290a719ab04c147f4118a81b0fe2595f",
+        "size": 3143,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/7bd1d726290a719ab04c147f4118a81b0fe2595f"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/SOURCE_RECEIPT.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c7d6639cdba0768df4287d8ed4b504cefb4db608",
+        "size": 3562,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/c7d6639cdba0768df4287d8ed4b504cefb4db608"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/STOPPED.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a399af19d9319f7ed007162586b15205474e0e2",
+        "size": 315,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/6a399af19d9319f7ed007162586b15205474e0e2"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/SYNTHETIC_LOG.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f83f1fcb7fb07013d1fbb3cb44a1e8b0fb6f4d3",
+        "size": 1358,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/1f83f1fcb7fb07013d1fbb3cb44a1e8b0fb6f4d3"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/SYNTHETIC_RESULTS.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1891a46987ebf8ab8e2f23c2fb88dd90ffbd6fe5",
+        "size": 430,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/1891a46987ebf8ab8e2f23c2fb88dd90ffbd6fe5"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/THREE_ACCOUNT_ROLE_RULES_V2.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "685cdcbab2fde9f59e9fc5b1d0a4b94e5819975b",
+        "size": 1282,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/685cdcbab2fde9f59e9fc5b1d0a4b94e5819975b"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/diagnostics_reference.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50ba606db41f454d2e96bb33df8ff6ba79ca1ef0",
+        "size": 5149,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/50ba606db41f454d2e96bb33df8ff6ba79ca1ef0"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/privacy_supplement.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b56e75745d06743b498fc5311ea9c089d1f612ff",
+        "size": 8217,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/b56e75745d06743b498fc5311ea9c089d1f612ff"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/run_stage0.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed9a323eafe2dc48eebfa1d0f251d4c7723aee7c",
+        "size": 18813,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/ed9a323eafe2dc48eebfa1d0f251d4c7723aee7c"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/test_diagnostics_reference.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f063d57eb1431b03b5e5e9ff17d9bd792387fadd",
+        "size": 3973,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/f063d57eb1431b03b5e5e9ff17d9bd792387fadd"
+      }
+    ]
+  },
+  {
+    "label": "prereg",
+    "commit": "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+    "prefix": "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1",
+    "files": [
+      {
+        "path": "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/ADDENDUM_SHA256SUMS.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd82b4d9b0389237e27bf284cb57d3960a1c0a3a",
+        "size": 279,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/dd82b4d9b0389237e27bf284cb57d3960a1c0a3a"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/PREREG_PARAMETERS.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1497a3745680a01c998b6a4151519a46a5ca26aa",
+        "size": 4560,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/1497a3745680a01c998b6a4151519a46a5ca26aa"
+      },
+      {
+        "path": "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/PREREG_ROUTE_B.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d49624a87f1eb35efea5205603bb34751575c769",
+        "size": 10785,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/d49624a87f1eb35efea5205603bb34751575c769"
+      }
+    ]
+  },
+  {
+    "label": "rules",
+    "commit": "48642f2d9e1d0e05cfbb7c42d905f18f366f811e",
+    "prefix": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V2",
+    "files": [
+      {
+        "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V2/DELIVERY_REGISTRATION_RULES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c979175011fb94fa50eacefaedf4deb52693e8b",
+        "size": 2483,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/2c979175011fb94fa50eacefaedf4deb52693e8b"
+      },
+      {
+        "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V2/PROMPT_B.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d4939f7b61d9070f01f2ef91edf6c85017b83a3a",
+        "size": 3442,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/d4939f7b61d9070f01f2ef91edf6c85017b83a3a"
+      },
+      {
+        "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V2/PROMPT_CLAUDE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cb87125fd456812c5342b1425eed509a030b3d08",
+        "size": 4520,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/cb87125fd456812c5342b1425eed509a030b3d08"
+      },
+      {
+        "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V2/PROMPT_CODEX.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1e1a6aeebd4d6a60a48d4adba86c1cb346d10be1",
+        "size": 4269,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/1e1a6aeebd4d6a60a48d4adba86c1cb346d10be1"
+      },
+      {
+        "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V2/SHA256SUMS.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c11232dcbc2fc3e038ad4b3e6c2af4a8e0266775",
+        "size": 370,
+        "url": "https://api.github.com/repos/ylrq8475-ui/Shiyou/git/blobs/c11232dcbc2fc3e038ad4b3e6c2af4a8e0266775"
+      }
+    ]
+  }
+]

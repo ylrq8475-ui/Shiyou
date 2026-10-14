@@ -1,0 +1,98 @@
+{
+  "base": "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+  "head": "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+  "status": "ahead",
+  "total_commits": 5,
+  "commits": [
+    {
+      "sha": "1f1a2f68838c35d2f7b8d3ce2edd4beaf9671d3e",
+      "message": "Account B: append 24-file privacy coverage evidence\n\n账户B交付。原24项结果与旧清单保持；补齐21+3覆盖映射及24份逐文件原始补扫输出。模型和预处理拟合0；Codex第11项待追加独立签署。",
+      "date": "2026-10-14T07:21:45Z"
+    },
+    {
+      "sha": "9e283a30b2dd53ff564852444c682f68c9993a2b",
+      "message": "Account B: preregister route B without fitting\n\nAdd PREREG_ROUTE_B.md for Route B pre-registration documentation including task details, assumptions, model parameters, and decision table.",
+      "date": "2026-10-14T07:24:59Z"
+    },
+    {
+      "sha": "d9a35ab9893ada8fae99d0f9bae12eb0d920c2b1",
+      "message": "Account B: lock route B parameters and unchanged gates",
+      "date": "2026-10-14T07:26:21Z"
+    },
+    {
+      "sha": "ec6fcce31fe2a64c1a3c6d40105ab3bf09bf4846",
+      "message": "Account B: bind preregistration card to result snapshot",
+      "date": "2026-10-14T07:29:43Z"
+    },
+    {
+      "sha": "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+      "message": "Account B: finalize coverage card and fixed delivery refs",
+      "date": "2026-10-14T07:31:18Z"
+    }
+  ],
+  "files": [
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/ADDENDUM_SHA256SUMS.json",
+      "status": "added",
+      "git_blob": "ca7fc9c7b2f75731192516254cd1dfa00a69910c",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/CLOSEOUT_PREREG_RESULT.json",
+      "status": "added",
+      "git_blob": "b6a467fe94024b8e5e2a951f43c1c25b09ef3799",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+      "status": "added",
+      "git_blob": "5610e87296c8afd6fb02daa16d238969a07db668",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_COVERAGE_MAP.md",
+      "status": "added",
+      "git_blob": "7fb78037d835a3191d9dbea5e96839dadde5dad1",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+      "status": "added",
+      "git_blob": "ae69a8cc01c30466dbe1f25c72ef9b3d2b736207",
+      "additions": 541,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/privacy_supplement.py",
+      "status": "added",
+      "git_blob": "b56e75745d06743b498fc5311ea9c089d1f612ff",
+      "additions": 143,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/ADDENDUM_SHA256SUMS.json",
+      "status": "added",
+      "git_blob": "dd82b4d9b0389237e27bf284cb57d3960a1c0a3a",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/PREREG_PARAMETERS.json",
+      "status": "added",
+      "git_blob": "1497a3745680a01c998b6a4151519a46a5ca26aa",
+      "additions": 197,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/PREREG_ROUTE_B.md",
+      "status": "added",
+      "git_blob": "d49624a87f1eb35efea5205603bb34751575c769",
+      "additions": 92,
+      "deletions": 0
+    }
+  ]
+}

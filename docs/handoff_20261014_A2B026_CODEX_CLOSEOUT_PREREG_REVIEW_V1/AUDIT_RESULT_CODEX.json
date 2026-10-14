@@ -1,0 +1,749 @@
+{
+  "task": "A2B-026阶段0收尾＋路线B预注册",
+  "role": "Codex（账户A2）审核",
+  "reviewed_B_commit": "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+  "rules_commit": "48642f2d9e1d0e05cfbb7c42d905f18f366f811e",
+  "base_commit": "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+  "scope": "new files only; no old diagnostic rerun",
+  "items": [
+    {
+      "number": 1,
+      "status": "通过",
+      "level": null,
+      "missing": null,
+      "basis": "24 unique scan rows bind original bytes/hashes; four unmodified-scanner synthetic tests pass; private-token real scan is B execution evidence"
+    },
+    {
+      "number": 2,
+      "status": "通过",
+      "level": null,
+      "missing": null,
+      "basis": "Git trees and compare agree: nine added files; every pre-existing blob unchanged"
+    },
+    {
+      "number": 3,
+      "status": "通过",
+      "level": null,
+      "missing": null,
+      "basis": "zero model/preprocessor counts in both records; scanner imports stdlib/PyYAML only, no learning calls"
+    },
+    {
+      "number": 4,
+      "status": "UNKNOWN",
+      "level": "P1",
+      "missing": "independently supplied original Claude/B route-B instruction, its exact decision table and startup wording, fixed source/version/hash",
+      "basis": "B markdown/JSON copies agree and threshold +1.0 matches user checklist, but copies cannot establish exact equality to missing original"
+    },
+    {
+      "number": 5,
+      "status": "通过",
+      "level": null,
+      "missing": null,
+      "basis": "plan only: M-1, nested training-only tau, WELL_ID GroupKFold5/3 and known fixed split hash/seed; implementation not reviewed"
+    },
+    {
+      "number": 6,
+      "status": "通过",
+      "level": null,
+      "missing": null,
+      "basis": "both new report cards have all fields; d9a35... snapshot binds unchanged result JSON/scan/parameters; reviewed final commit is 0f4f..."
+    }
+  ],
+  "item_11_final": "通过",
+  "item_11_closed": true,
+  "B2_start_conditions_satisfied": false,
+  "decision_variables": {
+    "第11项": "通过／关闭",
+    "B-2启动条件": "不满足",
+    "分数差": null,
+    "D1上界": 2.6478708526234565
+  },
+  "hard_gates_current_scope": {
+    "泄漏": "通过",
+    "错位": "通过",
+    "井级隔离": "通过",
+    "指标": "通过"
+  },
+  "hard_gate_scope": "append-only/no-fit closeout and preregistration review; inherited stage0, not future B2 implementation signoff",
+  "open_unknowns": [
+    {
+      "id": "CODEX-026B-04",
+      "level": "P1",
+      "missing": "independently supplied original Claude/B route-B instruction, its exact decision table and startup wording, fixed source/version/hash"
+    }
+  ],
+  "conclusion": "部分同意：第11项关闭，预注册原指令一致性仍为UNKNOWN（P1），B-2启动条件不满足。",
+  "arithmetic_static_byte_checks": 162,
+  "all_implemented_checks_passed": true,
+  "independent_synthetic_tests": 4,
+  "real_competition_data_read_by_Codex": false,
+  "real_fits_by_Codex": 0,
+  "B_declared_fits": [
+    0,
+    0
+  ],
+  "changed_base_files": 0,
+  "added_files": [
+    "docs/handoff_20261014_A2B026_B_STAGE0_V1/ADDENDUM_SHA256SUMS.json",
+    "docs/handoff_20261014_A2B026_B_STAGE0_V1/CLOSEOUT_PREREG_RESULT.json",
+    "docs/handoff_20261014_A2B026_B_STAGE0_V1/HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+    "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_COVERAGE_MAP.md",
+    "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+    "docs/handoff_20261014_A2B026_B_STAGE0_V1/privacy_supplement.py",
+    "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/ADDENDUM_SHA256SUMS.json",
+    "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/PREREG_PARAMETERS.json",
+    "docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/PREREG_ROUTE_B.md"
+  ],
+  "base_repository_files_verified": 244,
+  "scan_execution_evidence": "B: 98 well identifiers, 78 months/full dates, 2 candidates, 100 members; Codex: bound receipts/static source/synthetic execution, not private-token raw replay",
+  "check_results": [
+    {
+      "check": "ALL_BASE_REPOSITORY_FILES_UNCHANGED",
+      "passed": true
+    },
+    {
+      "check": "EXACT_NINE_ADDITIONS",
+      "passed": true
+    },
+    {
+      "check": "TREE_DIFF_AGREEMENT",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_D0_STRUCTURE.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_D1_ZERO_MASS.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_D2_ANCHOR_COMPARISON.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_D4_SMOOTH_ORACLE.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_EVENTS.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_HANDOFF_TO_CODEX.md",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_PRE_DIAGNOSTIC_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_PRIVACY_RECOVERY.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_PRIVACY_SCAN.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_PROMPT_CODEX_ORIGINAL.md",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_PUBLICATION_PRIVACY_CHECK.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_README.md",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_REPORT_B.md",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_RESULT_STAGE0.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_ROLE_AND_AUTHORIZATION.md",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_run_stage0.py",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_SOURCE_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_STOPPED.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_SYNTHETIC_LOG.txt",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_SYNTHETIC_RESULTS.json",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_test_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "OLD_24_BYTES_THREE_ACCOUNT_ROLE_RULES_V2.md",
+      "passed": true
+    },
+    {
+      "check": "ADDENDUM_FINGERPRINT_CLOSEOUT_PREREG_RESULT.json",
+      "passed": true
+    },
+    {
+      "check": "ADDENDUM_FINGERPRINT_HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+      "passed": true
+    },
+    {
+      "check": "ADDENDUM_FINGERPRINT_PRIVACY_COVERAGE_MAP.md",
+      "passed": true
+    },
+    {
+      "check": "ADDENDUM_FINGERPRINT_privacy_supplement.py",
+      "passed": true
+    },
+    {
+      "check": "ADDENDUM_FINGERPRINT_PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+      "passed": true
+    },
+    {
+      "check": "ADDENDUM_FINGERPRINT_PREREG_PARAMETERS.json",
+      "passed": true
+    },
+    {
+      "check": "ADDENDUM_FINGERPRINT_PREREG_ROUTE_B.md",
+      "passed": true
+    },
+    {
+      "check": "SCAN_BASE_AND_COUNT",
+      "passed": true
+    },
+    {
+      "check": "SCAN_24_UNIQUE_PATHS",
+      "passed": true
+    },
+    {
+      "check": "SCAN_EXACT_OLD_PUBLICATION_SET",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_D0_STRUCTURE.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_D0_STRUCTURE.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_D0_STRUCTURE.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_D1_ZERO_MASS.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_D1_ZERO_MASS.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_D1_ZERO_MASS.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_D2_ANCHOR_COMPARISON.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_D2_ANCHOR_COMPARISON.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_D2_ANCHOR_COMPARISON.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_D4_SMOOTH_ORACLE.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_D4_SMOOTH_ORACLE.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_D4_SMOOTH_ORACLE.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_EVENTS.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_EVENTS.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_EVENTS.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_HANDOFF_TO_CODEX.md",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_HANDOFF_TO_CODEX.md",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_HANDOFF_TO_CODEX.md",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_PRE_DIAGNOSTIC_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_PRE_DIAGNOSTIC_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_PRE_DIAGNOSTIC_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_PRIVACY_RECOVERY.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_PRIVACY_RECOVERY.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_PRIVACY_RECOVERY.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_PRIVACY_SCAN.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_PRIVACY_SCAN.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_PRIVACY_SCAN.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_PROMPT_CODEX_ORIGINAL.md",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_PROMPT_CODEX_ORIGINAL.md",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_PROMPT_CODEX_ORIGINAL.md",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_PUBLICATION_PRIVACY_CHECK.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_PUBLICATION_PRIVACY_CHECK.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_PUBLICATION_PRIVACY_CHECK.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_README.md",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_README.md",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_README.md",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_REPORT_B.md",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_REPORT_B.md",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_REPORT_B.md",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_RESULT_STAGE0.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_RESULT_STAGE0.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_RESULT_STAGE0.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_ROLE_AND_AUTHORIZATION.md",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_ROLE_AND_AUTHORIZATION.md",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_ROLE_AND_AUTHORIZATION.md",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_SOURCE_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_SOURCE_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_SOURCE_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_STOPPED.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_STOPPED.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_STOPPED.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_SYNTHETIC_LOG.txt",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_SYNTHETIC_LOG.txt",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_SYNTHETIC_LOG.txt",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_SYNTHETIC_RESULTS.json",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_SYNTHETIC_RESULTS.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_SYNTHETIC_RESULTS.json",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_THREE_ACCOUNT_ROLE_RULES_V2.md",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_THREE_ACCOUNT_ROLE_RULES_V2.md",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_THREE_ACCOUNT_ROLE_RULES_V2.md",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_run_stage0.py",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_run_stage0.py",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_run_stage0.py",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_SCAN_HASH_test_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "UNIQUE_SCAN_RECORD_ID_test_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "PER_FILE_ZERO_HITS_test_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "THREE_PREVIOUSLY_MISSING_NOW_SCANNED",
+      "passed": true
+    },
+    {
+      "check": "MISSED_FILE_NAMES",
+      "passed": true
+    },
+    {
+      "check": "HISTORICAL_RECONSTRUCTION_NOT_NEW_HISTORICAL_LOG",
+      "passed": true
+    },
+    {
+      "check": "BUILDER_FINGERPRINT_BINDING",
+      "passed": true
+    },
+    {
+      "check": "ACTUAL_UNMODIFIED_SCANNER_SYNTHETIC_TESTS",
+      "passed": true
+    },
+    {
+      "check": "SCANNER_IMPORT_SCOPE",
+      "passed": true
+    },
+    {
+      "check": "SCANNER_HAS_NO_LEARNING_CALL",
+      "passed": true
+    },
+    {
+      "check": "LOCKED_SCAN_INPUT_CHECK_assert len(files)==24",
+      "passed": true
+    },
+    {
+      "check": "LOCKED_SCAN_INPUT_CHECK_sha_bytes(data[n])==v['sha256']",
+      "passed": true
+    },
+    {
+      "check": "LOCKED_SCAN_INPUT_CHECK_assert initial['raw_archive']==old_lock['raw_archive_sha256']",
+      "passed": true
+    },
+    {
+      "check": "LOCKED_SCAN_INPUT_CHECK_assert initial['private_config']==old_lock['private_config_sha256']",
+      "passed": true
+    },
+    {
+      "check": "LOCKED_SCAN_INPUT_CHECK_assert initial['raw_manifest']==old_lock['raw_manifest_sha256']",
+      "passed": true
+    },
+    {
+      "check": "B_ZERO_FIT_RECORDS",
+      "passed": true
+    },
+    {
+      "check": "B2_NOT_EXECUTED_OR_AUTHORIZED_RECORD",
+      "passed": true
+    },
+    {
+      "check": "B_COPIES_OF_TABLE_SELF_CONSISTENT",
+      "passed": true
+    },
+    {
+      "check": "THRESHOLD_ONE_AND_SEPARATE_SUGGESTIONS",
+      "passed": true
+    },
+    {
+      "check": "PREREG_SAFE_CUTOFF_AND_COLUMNS",
+      "passed": true
+    },
+    {
+      "check": "KNOWN_B0_FEATURE_IDENTITY",
+      "passed": true
+    },
+    {
+      "check": "PREREG_GROUPED_FOLDS_AND_FIXED_SEED",
+      "passed": true
+    },
+    {
+      "check": "LOCKED_TAU_GRID",
+      "passed": true
+    },
+    {
+      "check": "INNER_TAU_PLAN_只在该外层训练井集汇总τ",
+      "passed": true
+    },
+    {
+      "check": "INNER_TAU_PLAN_不触及外层验证井标签",
+      "passed": true
+    },
+    {
+      "check": "INNER_TAU_PLAN_不读取测试真实标签",
+      "passed": true
+    },
+    {
+      "check": "INNER_TAU_PLAN_GroupKFold(3)",
+      "passed": true
+    },
+    {
+      "check": "FOLD_LOCAL_PREPROCESSING_PLAN",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PREREG_ROUTE_B.md_【交付登记卡】",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PREREG_ROUTE_B.md_任务编号/阶段：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PREREG_ROUTE_B.md_角色：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PREREG_ROUTE_B.md_分支：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PREREG_ROUTE_B.md_完整提交号（40 位）：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PREREG_ROUTE_B.md_目录路径：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PREREG_ROUTE_B.md_结果文件路径（单个 JSON）：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PREREG_ROUTE_B.md_关键数字（按决策表变量逐项列出，变量名与决策表一致）：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PREREG_ROUTE_B.md_硬门禁结论：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PREREG_ROUTE_B.md_UNKNOWN 与未关闭项：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PREREG_ROUTE_B.md_对应决策表行（仅 Codex 填写）：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIXED_40_COMMIT_PREREG_ROUTE_B.md",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PRIVACY_COVERAGE_MAP.md_【交付登记卡】",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PRIVACY_COVERAGE_MAP.md_任务编号/阶段：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PRIVACY_COVERAGE_MAP.md_角色：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PRIVACY_COVERAGE_MAP.md_分支：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PRIVACY_COVERAGE_MAP.md_完整提交号（40 位）：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PRIVACY_COVERAGE_MAP.md_目录路径：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PRIVACY_COVERAGE_MAP.md_结果文件路径（单个 JSON）：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PRIVACY_COVERAGE_MAP.md_关键数字（按决策表变量逐项列出，变量名与决策表一致）：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PRIVACY_COVERAGE_MAP.md_硬门禁结论：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PRIVACY_COVERAGE_MAP.md_UNKNOWN 与未关闭项：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIELD_PRIVACY_COVERAGE_MAP.md_对应决策表行（仅 Codex 填写）：",
+      "passed": true
+    },
+    {
+      "check": "REGISTRATION_FIXED_40_COMMIT_PRIVACY_COVERAGE_MAP.md",
+      "passed": true
+    },
+    {
+      "check": "CARD_SNAPSHOT_RESULT_docs/handoff_20261014_A2B026_B_STAGE0_V1/CLOSEOUT_PREREG_RESULT.json",
+      "passed": true
+    },
+    {
+      "check": "CARD_SNAPSHOT_RESULT_docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+      "passed": true
+    },
+    {
+      "check": "CARD_SNAPSHOT_RESULT_docs/handoff_20261014_A2B026_ROUTE_B_PREREG_V1/PREREG_PARAMETERS.json",
+      "passed": true
+    },
+    {
+      "check": "CODEX_GENERIC_SCAN_OF_OLD_AND_NEW_PUBLIC_FILES",
+      "passed": true
+    }
+  ]
+}
