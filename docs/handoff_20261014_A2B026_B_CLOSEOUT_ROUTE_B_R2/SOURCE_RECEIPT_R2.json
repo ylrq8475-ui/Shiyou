@@ -1,0 +1,258 @@
+{
+  "base_commit": "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+  "original_stage0_commit": "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+  "route_definition": {
+    "commit": "3256382fb56efecf37f54b4ce3bd4287ffe1f71c",
+    "path": "docs/handoff_20261013_95PLUS_DIRECTION_RESEARCH_V1/RESEARCH_DIRECTION_REVIEW.md",
+    "sha256": "eb4bde3eb5bceb09d67084fc33e828f33f6fc3be30d2b41dbda1f2c0c86cc9c2"
+  },
+  "registration_rules": {
+    "commit": "48642f2d9e1d0e05cfbb7c42d905f18f366f811e",
+    "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V2/DELIVERY_REGISTRATION_RULES.md",
+    "sha256": "1a9563db1704e5e9051e9b76038ee7e3c24de9499f550176585f42343084c716"
+  },
+  "original_24_bindings": [
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/D0_STRUCTURE.json",
+      "sha256": "fc417695edd87c000762a46edb3df32b8cf6dc4ad590987938fc0dbe0be561f5",
+      "bytes": 766,
+      "scan_record_id": "SUPPLEMENT-001",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/D1_ZERO_MASS.json",
+      "sha256": "bd55e4291d3ffb23fc9280c7ae95aa1ccce583b0961ff49c7c949453e7902a24",
+      "bytes": 583,
+      "scan_record_id": "SUPPLEMENT-002",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/D2_ANCHOR_COMPARISON.json",
+      "sha256": "34549e80b699e7c153c412cfac2796244c6b3890b6839d37c1a0a5a0433b7acd",
+      "bytes": 389,
+      "scan_record_id": "SUPPLEMENT-003",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/D4_SMOOTH_ORACLE.json",
+      "sha256": "c47beff9d0abc6373de33e503997ddf06b090f758df460de6dac09f0d67e207a",
+      "bytes": 253,
+      "scan_record_id": "SUPPLEMENT-004",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/EVENTS.json",
+      "sha256": "f2da59a5a1b2cd0a9ff09e0d7653c7ec16295d4f7210270f64ed9a1a05acbe49",
+      "bytes": 3202,
+      "scan_record_id": "SUPPLEMENT-005",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/HANDOFF_TO_CODEX.md",
+      "sha256": "98e9070f63bfa850a93d5e630ba3a8dd2a4aaa79d42b6a062d490d1700d596c6",
+      "bytes": 1676,
+      "scan_record_id": "SUPPLEMENT-006",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRE_DIAGNOSTIC_LOCK.json",
+      "sha256": "e4aa7e1082ac451b6268e41529925e79ea89ee5f41ee88436634a285b0a0d41e",
+      "bytes": 5250,
+      "scan_record_id": "SUPPLEMENT-007",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_RECOVERY.json",
+      "sha256": "34de4ac36fa12ca4959a7fdaedb7375644e35c30dacc93db7a40a531e17299d6",
+      "bytes": 611,
+      "scan_record_id": "SUPPLEMENT-008",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_SCAN.json",
+      "sha256": "5409677ea9541c98c4bbc3e1be36b2088a470141b0cf21e24172697ba371a476",
+      "bytes": 323,
+      "scan_record_id": "SUPPLEMENT-009",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PROMPT_CODEX_ORIGINAL.md",
+      "sha256": "cf8d424669f2a59a45a36475442f145995727b77402b2f4d4a4be1736e8fabc8",
+      "bytes": 2580,
+      "scan_record_id": "SUPPLEMENT-010",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PUBLICATION_PRIVACY_CHECK.json",
+      "sha256": "8bae8e34193d4af9e50ec7af0eed0e8a10465261b8fb599fa45124d68637d058",
+      "bytes": 464,
+      "scan_record_id": "SUPPLEMENT-011",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/README.md",
+      "sha256": "ef958f8ccb6032fdd96d009d0eb4fd577f8c42750ec31d6c3c1507809f991a69",
+      "bytes": 1152,
+      "scan_record_id": "SUPPLEMENT-012",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/REPORT_B.md",
+      "sha256": "e686f3e980359fa0597ce69d30ca7731cc1e77635c87ea93ce362fb18b29c656",
+      "bytes": 6206,
+      "scan_record_id": "SUPPLEMENT-013",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/RESULT_STAGE0.json",
+      "sha256": "ba8d20378b22d4a7163a3ee29f45b79336748774c8abd708267f672561432d56",
+      "bytes": 3631,
+      "scan_record_id": "SUPPLEMENT-014",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/ROLE_AND_AUTHORIZATION.md",
+      "sha256": "4b2f669a4b3e96f78bd1aafd356cadfef9a57042c42f34481d1d5a32f18b5dcd",
+      "bytes": 2410,
+      "scan_record_id": "SUPPLEMENT-015",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/SHA256SUMS.json",
+      "sha256": "7592d1289c800797f04e8ef98388e3480ab806f751e97fd2dfb39976df8c7b12",
+      "bytes": 3143,
+      "scan_record_id": "SUPPLEMENT-016",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/SOURCE_RECEIPT.json",
+      "sha256": "74a97f82a32a728c9d0374f13edb58d060d916121e1de0d70bf8a1d3c68d09f3",
+      "bytes": 3562,
+      "scan_record_id": "SUPPLEMENT-017",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/STOPPED.json",
+      "sha256": "d3cd795fd6123308fbca1660cc2c791e840dea792b7dc8e9661964fe505b7867",
+      "bytes": 315,
+      "scan_record_id": "SUPPLEMENT-018",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/SYNTHETIC_LOG.txt",
+      "sha256": "cb7cc9b1517b71384acfa5b708df9c91e656f649e69a79bf7080839908fbcf66",
+      "bytes": 1358,
+      "scan_record_id": "SUPPLEMENT-019",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/SYNTHETIC_RESULTS.json",
+      "sha256": "07f620b4368f4def680a9b0e9bbd3515c7d62fea8b48d27ceac802f96e6ca820",
+      "bytes": 430,
+      "scan_record_id": "SUPPLEMENT-020",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/THREE_ACCOUNT_ROLE_RULES_V2.md",
+      "sha256": "db30267f3c0d2611f95845dc8a19da24d4cc23ea6d241d2aefadae6215db7ccc",
+      "bytes": 1282,
+      "scan_record_id": "SUPPLEMENT-021",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/diagnostics_reference.py",
+      "sha256": "4fd23c81a3493a354720efc85995ae0ed57ba205056a52d072538dfb0d5f437c",
+      "bytes": 5149,
+      "scan_record_id": "SUPPLEMENT-022",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/run_stage0.py",
+      "sha256": "1253fd518a045fdca0ace8eb08d1289ef3498d29d3448e47092b2b20c421d0c9",
+      "bytes": 18813,
+      "scan_record_id": "SUPPLEMENT-023",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/test_diagnostics_reference.py",
+      "sha256": "e45d3bc15a4a20f825a552a68de361c59b306d0345d5bcbffd4f824128a3fab5",
+      "bytes": 3973,
+      "scan_record_id": "SUPPLEMENT-024",
+      "verified_equal_at_commits": [
+        "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+        "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9"
+      ]
+    }
+  ],
+  "scan_reused_from_completed_readonly_work": true,
+  "original_scan_raw_bytes_unchanged": true
+}

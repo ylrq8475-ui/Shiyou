@@ -1,0 +1,115 @@
+{
+  "task": "A2B-026",
+  "phase": "route B / B-1 preregistration only",
+  "model_training_allowed_this_turn": false,
+  "label": {
+    "Z_equals_1": "finite raw target RCYL == 0",
+    "Z_equals_0": "finite raw target RCYL > 0",
+    "near_zero_threshold": null
+  },
+  "regressor": {
+    "class": "ExtraTreesRegressor",
+    "params": {
+      "bootstrap": false,
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": null,
+      "max_features": 0.75,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 6,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 400,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 20260916,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "target": "log1p(RCYL/scale)",
+    "training_rows": "all legal train wells and all 12 target months"
+  },
+  "classifier": {
+    "class": "ExtraTreesClassifier",
+    "params": {
+      "bootstrap": false,
+      "ccp_alpha": 0.0,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": 0.75,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 6,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 400,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 20260916,
+      "verbose": 0,
+      "warm_start": false,
+      "class_weight": null
+    },
+    "sample_weight": null,
+    "probability_calibration": null
+  },
+  "features": {
+    "preprocessing_input_count": 325,
+    "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+    "history_cutoff": "M-1"
+  },
+  "validation": {
+    "outer_GroupKFold": 5,
+    "outer_split_sha256": "beadb191d075afdd138d6463f0b3a0e03999a76e07641f56ea24ec77e5e4d5f8",
+    "inner_GroupKFold": 3,
+    "shuffle": false,
+    "all_estimator_seeds": 20260916
+  },
+  "threshold": {
+    "method": "source formula from inner-fold positive-target B0 losses only",
+    "formula": "tau=(1-l_plus)/(2-l_plus)",
+    "positive_loss_per_well": "sum(2**(-t)*monthly_loss where y>0)/sum(2**(-t) where y>0)",
+    "positive_loss_per_inner_fold": "equal mean over validation wells having at least one positive target",
+    "l_plus": "equal mean of the three inner-fold scalar positive-loss estimates",
+    "epsilon": 1e-06,
+    "zero_route": "q_zero > tau; equality retains B0",
+    "grid_search": false,
+    "pooled_OOF_selection": false,
+    "outer_OOF_selection": false,
+    "inner_classifier_fits": 0,
+    "undefined_positive_loss": "STOP before outer scoring",
+    "formula_is_approximate_decision_heuristic": true,
+    "probability_calibration": null
+  },
+  "budget_proposed_for_separate_B2_approval": {
+    "inner_regressor": 15,
+    "inner_classifier": 0,
+    "outer_regressor": 5,
+    "outer_classifier": 5,
+    "successful_model_fits_max": 25,
+    "model_fit_entries_max": 25,
+    "successful_preprocessor_fits_max": 20,
+    "fault_retries_max": 0,
+    "full_fits": 0,
+    "model_saves": 0,
+    "platform_submissions": 0
+  },
+  "decision_table_original": "| Codex 确认的结果 | 下一步 |\n|---|---|\n| 任一硬门禁失败（泄漏、错位、井级隔离、指标） | 路线 B 停止 |\n| OOF 分数差 ≥ +1.0 | 建议用户考虑保留候选；交付必须含 train.py；平台提交另行批准 |\n| 0 < 分数差 < +1.0 | 弱信号，交用户决定，默认不执行 |\n| 分数差 ≤ 0 | 路线 B 淘汰 |",
+  "retention_threshold_change": false,
+  "this_turn_model_fits": 0,
+  "this_turn_preprocessor_fits": 0,
+  "Codex_item_11_signoff": "PENDING",
+  "revision": "R2: restore source-derived threshold; no OOF/grid selection",
+  "route_A_stage1_allowed": false,
+  "baseline_reference_OOF": 73.71410733861434,
+  "start_conditions": [
+    "Codex item 11 PASS",
+    "separate explicit user B-2 approval",
+    "B2 implementation and hard gates verified before scoring"
+  ]
+}

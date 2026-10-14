@@ -1,0 +1,34 @@
+{
+  "scope": "pure static and synthetic arithmetic; no training, no raw rows",
+  "decision_table_exact": true,
+  "source_formula_checks": [
+    {
+      "l_plus_synthetic": 0,
+      "tau": 0.5,
+      "decision_sign_correct": true
+    },
+    {
+      "l_plus_synthetic": 0.1,
+      "tau": 0.4736842105263158,
+      "decision_sign_correct": true
+    },
+    {
+      "l_plus_synthetic": 0.2,
+      "tau": 0.4444444444444445,
+      "decision_sign_correct": true
+    },
+    {
+      "l_plus_synthetic": 1,
+      "tau": 0.0,
+      "decision_sign_correct": true
+    }
+  ],
+  "no_grid_or_OOF_optimization": true,
+  "budget_arithmetic": {
+    "future_model": 25,
+    "future_preprocessing": 20,
+    "current_model": 0,
+    "current_preprocessing": 0
+  },
+  "passed": true
+}

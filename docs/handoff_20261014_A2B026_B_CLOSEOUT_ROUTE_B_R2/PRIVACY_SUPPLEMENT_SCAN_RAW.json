@@ -1,0 +1,541 @@
+{
+  "task": "A2B-026",
+  "phase": "stage0 privacy supplement",
+  "executor": "B",
+  "base_commit": "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+  "old_scan_declared_count": 21,
+  "final_published_count": 24,
+  "original_scan_record_has_per_file_names": false,
+  "historic_reconstruction_count": 21,
+  "historic_builder_sha256": "b971094b469d7437425bb6a31f69987d199d2e3371798741c2e112b7e4170b11",
+  "missed_files": [
+    "PRIVACY_RECOVERY.json",
+    "PUBLICATION_PRIVACY_CHECK.json",
+    "SHA256SUMS.json"
+  ],
+  "started": "2026-10-14T15:12:10.123543+08:00",
+  "finished": "2026-10-14T15:12:10.319507+08:00",
+  "raw_members_verified": 100,
+  "private_token_counts": {
+    "real_well_identifiers": 98,
+    "actual_calendar_months": 78,
+    "actual_full_date_strings": 78,
+    "private_candidate_strings": 2
+  },
+  "files": [
+    {
+      "scan_record_id": "SUPPLEMENT-001",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/D0_STRUCTURE.json",
+      "bytes": 766,
+      "sha256": "fc417695edd87c000762a46edb3df32b8cf6dc4ad590987938fc0dbe0be561f5",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-002",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/D1_ZERO_MASS.json",
+      "bytes": 583,
+      "sha256": "bd55e4291d3ffb23fc9280c7ae95aa1ccce583b0961ff49c7c949453e7902a24",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-003",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/D2_ANCHOR_COMPARISON.json",
+      "bytes": 389,
+      "sha256": "34549e80b699e7c153c412cfac2796244c6b3890b6839d37c1a0a5a0433b7acd",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-004",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/D4_SMOOTH_ORACLE.json",
+      "bytes": 253,
+      "sha256": "c47beff9d0abc6373de33e503997ddf06b090f758df460de6dac09f0d67e207a",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-005",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/EVENTS.json",
+      "bytes": 3202,
+      "sha256": "f2da59a5a1b2cd0a9ff09e0d7653c7ec16295d4f7210270f64ed9a1a05acbe49",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-006",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/HANDOFF_TO_CODEX.md",
+      "bytes": 1676,
+      "sha256": "98e9070f63bfa850a93d5e630ba3a8dd2a4aaa79d42b6a062d490d1700d596c6",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-007",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRE_DIAGNOSTIC_LOCK.json",
+      "bytes": 5250,
+      "sha256": "e4aa7e1082ac451b6268e41529925e79ea89ee5f41ee88436634a285b0a0d41e",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-008",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_RECOVERY.json",
+      "bytes": 611,
+      "sha256": "34de4ac36fa12ca4959a7fdaedb7375644e35c30dacc93db7a40a531e17299d6",
+      "historic_selection_reconstructed": false,
+      "historic_per_file_log_existed": false,
+      "previously_missing": true,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-009",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PRIVACY_SCAN.json",
+      "bytes": 323,
+      "sha256": "5409677ea9541c98c4bbc3e1be36b2088a470141b0cf21e24172697ba371a476",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-010",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PROMPT_CODEX_ORIGINAL.md",
+      "bytes": 2580,
+      "sha256": "cf8d424669f2a59a45a36475442f145995727b77402b2f4d4a4be1736e8fabc8",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-011",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/PUBLICATION_PRIVACY_CHECK.json",
+      "bytes": 464,
+      "sha256": "8bae8e34193d4af9e50ec7af0eed0e8a10465261b8fb599fa45124d68637d058",
+      "historic_selection_reconstructed": false,
+      "historic_per_file_log_existed": false,
+      "previously_missing": true,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-012",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/README.md",
+      "bytes": 1152,
+      "sha256": "ef958f8ccb6032fdd96d009d0eb4fd577f8c42750ec31d6c3c1507809f991a69",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-013",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/REPORT_B.md",
+      "bytes": 6206,
+      "sha256": "e686f3e980359fa0597ce69d30ca7731cc1e77635c87ea93ce362fb18b29c656",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-014",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/RESULT_STAGE0.json",
+      "bytes": 3631,
+      "sha256": "ba8d20378b22d4a7163a3ee29f45b79336748774c8abd708267f672561432d56",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-015",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/ROLE_AND_AUTHORIZATION.md",
+      "bytes": 2410,
+      "sha256": "4b2f669a4b3e96f78bd1aafd356cadfef9a57042c42f34481d1d5a32f18b5dcd",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-016",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/SHA256SUMS.json",
+      "bytes": 3143,
+      "sha256": "7592d1289c800797f04e8ef98388e3480ab806f751e97fd2dfb39976df8c7b12",
+      "historic_selection_reconstructed": false,
+      "historic_per_file_log_existed": false,
+      "previously_missing": true,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-017",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/SOURCE_RECEIPT.json",
+      "bytes": 3562,
+      "sha256": "74a97f82a32a728c9d0374f13edb58d060d916121e1de0d70bf8a1d3c68d09f3",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-018",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/STOPPED.json",
+      "bytes": 315,
+      "sha256": "d3cd795fd6123308fbca1660cc2c791e840dea792b7dc8e9661964fe505b7867",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-019",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/SYNTHETIC_LOG.txt",
+      "bytes": 1358,
+      "sha256": "cb7cc9b1517b71384acfa5b708df9c91e656f649e69a79bf7080839908fbcf66",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-020",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/SYNTHETIC_RESULTS.json",
+      "bytes": 430,
+      "sha256": "07f620b4368f4def680a9b0e9bbd3515c7d62fea8b48d27ceac802f96e6ca820",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-021",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/THREE_ACCOUNT_ROLE_RULES_V2.md",
+      "bytes": 1282,
+      "sha256": "db30267f3c0d2611f95845dc8a19da24d4cc23ea6d241d2aefadae6215db7ccc",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-022",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/diagnostics_reference.py",
+      "bytes": 5149,
+      "sha256": "4fd23c81a3493a354720efc85995ae0ed57ba205056a52d072538dfb0d5f437c",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-023",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/run_stage0.py",
+      "bytes": 18813,
+      "sha256": "1253fd518a045fdca0ace8eb08d1289ef3498d29d3448e47092b2b20c421d0c9",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "scan_record_id": "SUPPLEMENT-024",
+      "path": "docs/handoff_20261014_A2B026_B_STAGE0_V1/test_diagnostics_reference.py",
+      "bytes": 3973,
+      "sha256": "e45d3bc15a4a20f825a552a68de361c59b306d0345d5bcbffd4f824128a3fab5",
+      "historic_selection_reconstructed": true,
+      "historic_per_file_log_existed": false,
+      "previously_missing": false,
+      "private_token_hits": {
+        "real_well_identifiers": 0,
+        "actual_calendar_months": 0,
+        "actual_full_date_strings": 0,
+        "private_candidate_strings": 0
+      },
+      "generic_sensitive_hits": {
+        "github_secret": 0,
+        "private_user_path": 0,
+        "private_messaging_identifier": 0
+      },
+      "result": "PASS"
+    }
+  ],
+  "all_24_scanned_now": true,
+  "all_passed": true,
+  "original_publication_files_unchanged": true,
+  "source_material_unchanged": true,
+  "machine_learning_modules_imported": false,
+  "model_fit_calls": 0,
+  "preprocessor_fit_calls": 0,
+  "original_data_copied_or_extracted": false,
+  "test_or_train_labels_used_for_scanning": false,
+  "Codex_item_11_status": "EVIDENCE_SUPPLEMENTED_PENDING_CODEX_SIGNOFF"
+}

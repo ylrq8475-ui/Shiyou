@@ -1,0 +1,61 @@
+{
+  "algorithm": "SHA256 over original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/FIT_COUNTS.json",
+      "bytes": 631,
+      "sha256": "823258f81d417050e3e2b40f8e41a3ae8975d5e69a0be7c6d173009360d8ae95"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+      "bytes": 1010,
+      "sha256": "bfebe4872723f6aba1267c6d900f65fc5898bebd9d1b07fe94f00435ea01f208"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_PARAMETERS.json",
+      "bytes": 4181,
+      "sha256": "7c663c7cb44e11c993ef285860304cc372a2340a6285a4a4fefd6aa80a6c2344"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_ROUTE_B.md",
+      "bytes": 12134,
+      "sha256": "99f43147a18076c7b6632893f7e3ebe5425e1318b8e5eb2870e423c29a35198d"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_STATIC_CHECKS.json",
+      "bytes": 795,
+      "sha256": "e51d2221be77f32a964229f85a4af2fc3c7c2bade3a0f09b405c39bbf0f02cab"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_COVERAGE_MAP.md",
+      "bytes": 9348,
+      "sha256": "a50e79031ce3f28b6325365bd74125c55259f7b5ae5c0a1382d29a002ab9a81f"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/privacy_supplement.py",
+      "bytes": 8217,
+      "sha256": "45955a25287ca6ec1c00c591132c47425b3ad35b08fe0ec13cd4325e416170ad"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+      "bytes": 19183,
+      "sha256": "fed586249025e2a659bd1ec6395e5c4ec9522337a328a05d40977818fed3199e"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/REPORT_B.md",
+      "bytes": 4671,
+      "sha256": "c72e44dfdb18e72f199194c5e9fd8c817c71bd98354439c0f3cc37ca01f91a1e"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/RESULT_B.json",
+      "bytes": 3354,
+      "sha256": "914a87be16b286c83f3aad29592bad3977b921eba1896c6294fe8385a4f0bd69"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/SOURCE_RECEIPT_R2.json",
+      "bytes": 10319,
+      "sha256": "aff83070cf4c74ebf931df706ae7da44a6047f4c510db14ee3c48c39c9daae39"
+    }
+  ],
+  "self_exclusion": "SHA256SUMS.json cannot contain its own recursive digest; verified by external byte receipt; included in privacy scan."
+}

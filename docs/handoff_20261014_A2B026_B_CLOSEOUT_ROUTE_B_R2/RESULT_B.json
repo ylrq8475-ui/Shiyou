@@ -1,0 +1,88 @@
+{
+  "task": "A2B-026",
+  "role": "账户B执行与交付",
+  "phase": "stage0 closeout + route B B-1 preregistration R2",
+  "status": "B_FILES_COMPLETED_PENDING_CODEX_SIGNOFF",
+  "authorization": "User 2026-10-14 15:25 and latest restated task; no fitting",
+  "source_commits": [
+    "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+    "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+    "3256382fb56efecf37f54b4ce3bd4287ffe1f71c",
+    "48642f2d9e1d0e05cfbb7c42d905f18f366f811e",
+    "5fabbd4eaff275ce4997c70fd0abaa9f168f6edc"
+  ],
+  "OOF 分数差": null,
+  "分数差": null,
+  "baseline_reference_OOF": 73.71410733861434,
+  "D1_budget": 2.6478708526234565,
+  "new_scores_produced": false,
+  "privacy": {
+    "original_published_files": 24,
+    "historical_declared_scan_count": 21,
+    "historical_per_file_logs_available": false,
+    "reconstructed_selection_count": 21,
+    "previously_uncovered_files": [
+      "PRIVACY_RECOVERY.json",
+      "PUBLICATION_PRIVACY_CHECK.json",
+      "SHA256SUMS.json"
+    ],
+    "supplemental_scan_files": 24,
+    "supplemental_all_pass": true,
+    "exemptions": 0,
+    "Codex_item_11": "PENDING_INDEPENDENT_SIGNOFF"
+  },
+  "hard_gates_inherited_stage0_finite_scope": {
+    "leakage": "PASS",
+    "alignment": "PASS",
+    "well_isolation": "PASS",
+    "metric": "PASS"
+  },
+  "future_B2_hard_gates": {
+    "leakage": "UNKNOWN",
+    "alignment": "UNKNOWN",
+    "well_isolation": "UNKNOWN",
+    "metric": "UNKNOWN"
+  },
+  "counts": {
+    "task": "A2B-026",
+    "phase": "stage0 closeout + B-1 R2",
+    "training_authorized": false,
+    "route_A_stage1_executed": false,
+    "B2_started": false,
+    "model_fit_entries": 0,
+    "successful_model_fits": 0,
+    "failed_model_fits": 0,
+    "model_fit_retries": 0,
+    "preprocessor_fit_entries": 0,
+    "successful_preprocessor_fits": 0,
+    "failed_preprocessor_fits": 0,
+    "model_weights_loaded": 0,
+    "model_weights_saved": 0,
+    "official_platform_submissions": 0,
+    "diagnostic_reruns": 0,
+    "basis": "Only standard-library document generation, Git byte verification and privacy scan; no fitting modules imported."
+  },
+  "B2_start_allowed": false,
+  "open_items": [
+    {
+      "id": "STAGE0-11",
+      "priority": "P2",
+      "missing": "Codex independent signature on supplemental privacy coverage"
+    },
+    {
+      "id": "B2-IMPLEMENTATION",
+      "priority": "P1",
+      "missing": "future train.py and pre-score structural verification after separate authorization"
+    }
+  ],
+  "corrections": [
+    "new B codex branch and consolidated directory",
+    "new REPORT_B registration card",
+    "latest decision table verbatim",
+    "restore formula tau; remove 102-point threshold search",
+    "future B2 maximum model fits 25, preprocessing fits 20; not training authorization"
+  ],
+  "decision_table_original": "| Codex 确认的结果 | 下一步 |\n|---|---|\n| 任一硬门禁失败（泄漏、错位、井级隔离、指标） | 路线 B 停止 |\n| OOF 分数差 ≥ +1.0 | 建议用户考虑保留候选；交付必须含 train.py；平台提交另行批准 |\n| 0 < 分数差 < +1.0 | 弱信号，交用户决定，默认不执行 |\n| 分数差 ≤ 0 | 路线 B 淘汰 |",
+  "decision_row_by_B": "不适用",
+  "created_at": "2026-10-14T15:46:22.338936+08:00"
+}
