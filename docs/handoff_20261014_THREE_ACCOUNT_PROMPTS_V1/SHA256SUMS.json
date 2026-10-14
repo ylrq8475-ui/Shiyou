@@ -1,0 +1,22 @@
+{
+ "HANDOFF_SUMMARY_FOR_NEW_CLAUDE_SESSION.md": {
+  "bytes": 978,
+  "sha256": "67c0c4a8ea8b8af287db48d5854f6999e3e117e16566a140f6d14390cde8da23"
+ },
+ "PROMPT_B.md": {
+  "bytes": 1869,
+  "sha256": "510685b6ba602ca17d125295e9901727f90713d02dca27a35c8c4e5f90189877"
+ },
+ "PROMPT_CLAUDE.md": {
+  "bytes": 3551,
+  "sha256": "810216833348cb7a28c0040ad86a4641a9e637eff7cb7fe1a8629c85b08982dc"
+ },
+ "PROMPT_CODEX.md": {
+  "bytes": 2580,
+  "sha256": "cf8d424669f2a59a45a36475442f145995727b77402b2f4d4a4be1736e8fabc8"
+ },
+ "README.md": {
+  "bytes": 988,
+  "sha256": "56a061446d57fec5f9007913cad181e48bbb369d30cbc68119a18b4500afb04d"
+ }
+}
