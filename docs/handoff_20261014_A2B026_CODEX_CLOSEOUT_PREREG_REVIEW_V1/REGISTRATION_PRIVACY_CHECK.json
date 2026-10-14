@@ -1,0 +1,9 @@
+{
+  "account": "Codex account A2",
+  "manual_review_complete": true,
+  "anonymous_only": true,
+  "credential_pattern_hits": 0,
+  "real_private_marker_inventory_accessed": false,
+  "raw_data_or_models_included": false,
+  "passed": true
+}
