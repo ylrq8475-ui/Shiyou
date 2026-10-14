@@ -1,0 +1,37 @@
+{
+  "files": {
+    "review_implementation.py": {
+      "bytes": 6400,
+      "sha256": "80fc01d886cca6c55771e3dc32d059e2a5146bb3cfbfc13ef4bc954a1d711db7"
+    },
+    "test_reference_requirements.py": {
+      "bytes": 6163,
+      "sha256": "18b5e9dbaff0ef85e5902d83f5bbd3c59a30c428f66623b4a1f1eaf5214dfe12"
+    },
+    "IMPLEMENTATION_RESULT_CODEX.json": {
+      "bytes": 6974,
+      "sha256": "d87a0812d07abdae99815cdc194b7206ce15eb38a83643d31c035a4865728a76"
+    },
+    "REFERENCE_SYNTHETIC_RESULTS.json": {
+      "bytes": 296,
+      "sha256": "c4e8445059ebf0ae0dc49ff55f6a6966a60540ba49348d34f1f27ba8ee12034c"
+    },
+    "B2_IMPLEMENTATION_ACCEPTANCE.md": {
+      "bytes": 4203,
+      "sha256": "ca31463da392918cfbec697a061100fdb01a592ada6603e217d1dee6fcb5f1de"
+    },
+    "COLLABORATION_REQUEST_B.md": {
+      "bytes": 3818,
+      "sha256": "445e2aa44a7514f4926c63fe769fd64d6a7c824845c5352c99971656d3a2cb83"
+    },
+    "AUDIT_QUEUE.md": {
+      "bytes": 924,
+      "sha256": "26a3962d0bf84a5c3cad354076df6e74c6f953362f66d56b04d8ca83ae69ffe6"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 589,
+      "sha256": "c14d1b70cfdbd46fb81de0aabcec4d28bbe93669e0ddedf3345703de2b4cbac0"
+    }
+  },
+  "manifest_excludes_itself": true
+}

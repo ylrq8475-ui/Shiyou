@@ -1,0 +1,204 @@
+{
+  "task": "A2B-026 / B2-IMPLEMENTATION",
+  "role": "Codex / account A2",
+  "reviews_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+  "Claude_instruction_archive_commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+  "status": "UNKNOWN",
+  "priority": "P1",
+  "closed": false,
+  "scope": "Fixed B-1 R2 delivery and its existing public training dispatch only. No B-2 implementation supplied.",
+  "verified_checks": 34,
+  "checks": [
+    {
+      "name": "fixed_B_commit_available",
+      "passed": true
+    },
+    {
+      "name": "manifest_path_inside_R2_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/FIT_COUNTS.json",
+      "passed": true
+    },
+    {
+      "name": "B_manifest_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/FIT_COUNTS.json",
+      "passed": true
+    },
+    {
+      "name": "manifest_path_inside_R2_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+      "passed": true
+    },
+    {
+      "name": "B_manifest_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+      "passed": true
+    },
+    {
+      "name": "manifest_path_inside_R2_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_PARAMETERS.json",
+      "passed": true
+    },
+    {
+      "name": "B_manifest_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_PARAMETERS.json",
+      "passed": true
+    },
+    {
+      "name": "manifest_path_inside_R2_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_ROUTE_B.md",
+      "passed": true
+    },
+    {
+      "name": "B_manifest_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_ROUTE_B.md",
+      "passed": true
+    },
+    {
+      "name": "manifest_path_inside_R2_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_STATIC_CHECKS.json",
+      "passed": true
+    },
+    {
+      "name": "B_manifest_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_STATIC_CHECKS.json",
+      "passed": true
+    },
+    {
+      "name": "manifest_path_inside_R2_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_COVERAGE_MAP.md",
+      "passed": true
+    },
+    {
+      "name": "B_manifest_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_COVERAGE_MAP.md",
+      "passed": true
+    },
+    {
+      "name": "manifest_path_inside_R2_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/privacy_supplement.py",
+      "passed": true
+    },
+    {
+      "name": "B_manifest_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/privacy_supplement.py",
+      "passed": true
+    },
+    {
+      "name": "manifest_path_inside_R2_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+      "passed": true
+    },
+    {
+      "name": "B_manifest_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+      "passed": true
+    },
+    {
+      "name": "manifest_path_inside_R2_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/REPORT_B.md",
+      "passed": true
+    },
+    {
+      "name": "B_manifest_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/REPORT_B.md",
+      "passed": true
+    },
+    {
+      "name": "manifest_path_inside_R2_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/RESULT_B.json",
+      "passed": true
+    },
+    {
+      "name": "B_manifest_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/RESULT_B.json",
+      "passed": true
+    },
+    {
+      "name": "manifest_path_inside_R2_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/SOURCE_RECEIPT_R2.json",
+      "passed": true
+    },
+    {
+      "name": "B_manifest_docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/SOURCE_RECEIPT_R2.json",
+      "passed": true
+    },
+    {
+      "name": "R2_only_privacy_python_not_B2_implementation",
+      "passed": true
+    },
+    {
+      "name": "B_declares_implementation_pending",
+      "passed": true
+    },
+    {
+      "name": "B_declares_no_B2_start",
+      "passed": true
+    },
+    {
+      "name": "B_actual_model_and_preprocessing_counts_zero",
+      "passed": true
+    },
+    {
+      "name": "locked_budget_not_training_authorization",
+      "passed": true
+    },
+    {
+      "name": "budget_25_models_20_preprocessors_zero_retries",
+      "passed": true
+    },
+    {
+      "name": "future_B2_four_gates_not_implemented",
+      "passed": true
+    },
+    {
+      "name": "old_train_invokes_old_cli",
+      "passed": true
+    },
+    {
+      "name": "old_flow_has_automatic_full_fit",
+      "passed": true
+    },
+    {
+      "name": "old_flow_has_weight_persistence",
+      "passed": true
+    },
+    {
+      "name": "old_flow_no_zero_classifier_or_tau",
+      "passed": true
+    }
+  ],
+  "B_R2_manifest_entries_verified": 11,
+  "B_R2_python_files": [
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/privacy_supplement.py"
+  ],
+  "public_tree_files_checked": 265,
+  "legacy_entry_sources": [
+    {
+      "path": "train.py",
+      "sha256": "03ed22738b537e4ae82a84e07bedf1f56226139ee555681750abef684a5f4391",
+      "bytes": 126
+    },
+    {
+      "path": "src/oil_uplift/cli.py",
+      "sha256": "ddd0adbbbc7f3aa6ede42b0905d0095c834fbd0b44987bfae2a02b53e414a586",
+      "bytes": 4106
+    },
+    {
+      "path": "src/oil_uplift/training.py",
+      "sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+      "bytes": 19812
+    }
+  ],
+  "legacy_functions_lines": {
+    "train_from_panel": 275,
+    "run_training": 447
+  },
+  "legacy_cli_main_line": 66,
+  "legacy_train_is_not_B2": true,
+  "legacy_entry_risk": "Old run_training performs full fitting and joblib persistence; do not invoke it as B-2.",
+  "missing_evidence": [
+    "Actual runnable B-2 train.py and algorithm modules",
+    "Implementation lock for the actual executable",
+    "Executed synthetic checks and fault injection tied to code SHA256",
+    "Fit-scope, label-source and stop-path observations"
+  ],
+  "hard_gates_B2_implementation": {
+    "leakage": "UNKNOWN",
+    "alignment": "UNKNOWN",
+    "well_isolation": "UNKNOWN",
+    "metric": "UNKNOWN"
+  },
+  "hard_gate_UNKNOWN_reason": "Implementation evidence unavailable, not an observed data leakage or metric error. Parent evidence gap is P1.",
+  "B_recorded_model_fit_entries": 0,
+  "B_recorded_preprocessor_fit_entries": 0,
+  "A_actual_model_fits": 0,
+  "A_actual_preprocessor_fits": 0,
+  "A_raw_data_read": false,
+  "A_B_code_imported_or_executed": false,
+  "A_B_project_changed": false,
+  "official_OOF_delta": null,
+  "new_scores_produced": false,
+  "item_11": "PASS_CLOSED_FROM_PREVIOUS_CODEX_REVIEW",
+  "CODEX_026B_04": "FAIL_P3_OPEN_SEMANTICALLY_UNCHANGED",
+  "B2_real_training_authorized_this_turn": false,
+  "decision_row": "B2-IMPLEMENTATION：UNKNOWN（P1），未关闭；第11项：已关闭；B-2启动条件：不满足；OOF分数差：尚未产生，不套用收益行。"
+}

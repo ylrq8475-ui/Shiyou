@@ -1,0 +1,11 @@
+{
+  "scope": "Independent synthetic mathematical reference only; no B-2 code was provided or exercised",
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "B_implementation_verified": false,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "real_data_read": false
+}
