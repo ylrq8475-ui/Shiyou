@@ -67,6 +67,23 @@
         "B2-IMPLEMENTATION P1 缺实际B-2 train.py、实施锁、已执行合成故障注入及拟合范围/标签来源/停止路径证据"
       ],
       "published_at": "2026-10-14T17:45:15+08:00"
+    },
+    {
+      "task": "A2B-026/路线B-B2",
+      "role": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "report_path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/RESULT_B2.json",
+      "reviews_commit": "不适用",
+      "hard_gates": "泄漏：通过／错位：通过／井级隔离：通过／指标：通过（B自报，待Codex独立终判）",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "B2-CODEX P1 本次独立复核尚未完成",
+        "CODEX-026B-04 P3 已逐字补启动原句，待Codex确认关闭",
+        "HIST-DTYPE P1 原历史逐文件加载身份仍UNKNOWN，按既有授权不作本轮新对照前置门禁",
+        "PROCESS-PROBE P3 CIM进程查询不可用，本轮新目录独占输出已结束"
+      ],
+      "published_at": "2026-10-14T18:12:51.553633+08:00"
     }
   ]
 }
