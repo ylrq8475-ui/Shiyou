@@ -1,0 +1,26 @@
+{
+  "A1_ANONYMOUS_RECHECK_B.json": {
+    "bytes": 3465,
+    "sha256": "ee0487eba02f9357f0c620b28e8a87fe7357a3294e5a39b32f319a422688fa9b"
+  },
+  "CLOSEOUT_STATE.json": {
+    "bytes": 1377,
+    "sha256": "17015b8afd72dc7e9573e0b94e3f817067106cb7ddb267f9bafdbcb741d6c2b7"
+  },
+  "R1_TRAINING_ENTRY_NOTE.md": {
+    "bytes": 1972,
+    "sha256": "043fb1292b90f5380e43e8b047a9da78e6bfcfb6b1671edc72fc94c1adc407c8"
+  },
+  "README.md": {
+    "bytes": 682,
+    "sha256": "7ae88f2296c474f3cb19c10800f6d1f74c64b90fbd61d435f411db3cc5c0c00d"
+  },
+  "REPORT_B.md": {
+    "bytes": 5087,
+    "sha256": "aca6f5aff279830ce825aff84feedf8cdfb741af6599b6c4d291450a6a036c65"
+  },
+  "SOURCE_RECEIPT.json": {
+    "bytes": 14676,
+    "sha256": "d16cf7f68a47c903b6fbc047651956ba86648e105b4d2ea09bfa3f479cc43ee2"
+  }
+}

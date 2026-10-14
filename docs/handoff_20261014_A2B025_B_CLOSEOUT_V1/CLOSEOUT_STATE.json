@@ -1,0 +1,32 @@
+{
+  "role": "账户B执行与交付",
+  "date": "2026-10-14",
+  "task": "A2B-025 closeout and A2 receipt",
+  "A2B025_status": "CLOSED_PREREGISTERED_STOP_A1_READONLY_REVIEW_ACCEPTED",
+  "A1_actual_review_commit": "14e26d25577d0feff19e68f050c01f2f1b28ee1e",
+  "A2_actual_review_commit": "cba1541fb23d857eb22c6f70fae1199439feab6b",
+  "A2_review_scope": "A2B-024 R1 deployment; not A2B-025 independent replay",
+  "A1_publication_P2": "RESOLVED_B_SIDE_BYTE_BINDING_A1_RECEIPT_NOT_REWRITTEN",
+  "B_published_commit": "75fd6bd9a2e9feb108125e97051e9412325157b6",
+  "published_bytes_equal_A1_reviewed_zip": true,
+  "A1_independent_checks_replayed_by_B": {
+    "passed": 16,
+    "total": 16,
+    "matches_A1_record": true
+  },
+  "A2_024_01": "OPEN_FORMAL_ZIP_LACKS_TRAINING_ENTRY_REQUIREMENT_SCOPE_UNCONFIRMED",
+  "historical_dtype": "UNKNOWN",
+  "missing_unique_official_semantics_blocks_P0": false,
+  "current_information_cutoff": "M-1",
+  "target_window": "M+1..M+12",
+  "A2B026": "DRAFT_PENDING_EXPLICIT_EXECUTION_AUTHORIZATION",
+  "direction_proposal_is_A2_signoff": false,
+  "this_closeout_model_fits": 0,
+  "this_closeout_preprocessor_fits": 0,
+  "this_closeout_raw_data_reads": 0,
+  "this_closeout_model_loads": 0,
+  "new_models_saved": 0,
+  "formal_packages_generated": 0,
+  "platform_submissions": 0,
+  "existing_frozen_model_replaced": false
+}

@@ -1,0 +1,142 @@
+{
+  "author": "账户A（新接手）独立审核与交付 / A1（Claude）",
+  "task": "A2B-025 readonly review",
+  "real_fits": 0,
+  "real_data_read": 0,
+  "checks": [
+    {
+      "name": "B_outer_manifest",
+      "passed": true,
+      "entries": 15,
+      "mismatches": [],
+      "unlisted": []
+    },
+    {
+      "name": "B_uses_unmodified_A1_plan",
+      "passed": true,
+      "plan_sha256": "e3021e14a547da9d5278b3ebbe0d26b4bdc8d732e27e0c706ad2f3a3ae31fdf4"
+    },
+    {
+      "name": "B_bundle_crc_and_paths",
+      "passed": true,
+      "members": 39
+    },
+    {
+      "name": "B_bundle_A1_reference_byte_identical",
+      "passed": true
+    },
+    {
+      "name": "B_source_calls_unmodified_diagnose",
+      "passed": true
+    },
+    {
+      "name": "events_contiguous_and_ordered",
+      "passed": true,
+      "events": 13
+    },
+    {
+      "name": "budget_monotone_and_closed",
+      "passed": true
+    },
+    {
+      "name": "budget_within_plan",
+      "passed": true,
+      "budget": {
+        "preprocessor_entered": 5,
+        "preprocessor_completed": 5,
+        "model_entered": 5,
+        "model_completed": 5,
+        "fault_retries": 0,
+        "C1_fits": 0,
+        "full_fits": 0,
+        "saved_models": 0
+      }
+    },
+    {
+      "name": "folds_partition_81_wells",
+      "passed": true,
+      "validation_wells": [
+        17,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "well_weighted_oof_equals_reported",
+      "passed": true,
+      "recomputed": 73.71410733861434,
+      "simple_fold_mean": 73.7423672564785
+    },
+    {
+      "name": "reproduction_gate_1e-9",
+      "passed": true
+    },
+    {
+      "name": "equals_A024_public_fixed_replay",
+      "passed": true,
+      "max_fold_absdiff": 2.842170943040401e-14
+    },
+    {
+      "name": "oracle_baseline_equals_replay",
+      "passed": true
+    },
+    {
+      "name": "decision_follows_locked_rule",
+      "passed": true,
+      "decision": "CEILING_BELOW_95_KEEP_CURRENT_MODEL"
+    },
+    {
+      "name": "best_scalar_not_below_level",
+      "passed": true
+    },
+    {
+      "name": "stage0_counts_nested",
+      "passed": true,
+      "counts": {
+        "anchor_positive_train": [
+          88,
+          88,
+          88,
+          82
+        ],
+        "complete_12m_train": [
+          81,
+          81,
+          81,
+          75
+        ],
+        "test_template": [
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    }
+  ],
+  "passed": 16,
+  "total": 16,
+  "interpretation_arithmetic": {
+    "level_oracle_oof": {
+      "oof": 80.94413529978314,
+      "gain_vs_B0": 7.230027961168801,
+      "loss_reduction": 0.27505354504432744,
+      "platform_if_same_relative_loss_cut": 89.9959564055482
+    },
+    "best_scalar_oracle_oof": {
+      "oof": 88.17733827575375,
+      "gain_vs_B0": 14.463230937139414,
+      "loss_reduction": 0.5502278778755763,
+      "platform_if_same_relative_loss_cut": 93.79327964631958
+    },
+    "shape_oracle_oof": {
+      "oof": 81.21752992148006,
+      "gain_vs_B0": 7.503422582865724,
+      "loss_reduction": 0.2854543568112624,
+      "platform_if_same_relative_loss_cut": 90.13948448768836
+    },
+    "note": "平台外推假设平台损失按OOF同比例下降；10井平台样本与81井OOF分布不同，这只是量级参考"
+  }
+}
