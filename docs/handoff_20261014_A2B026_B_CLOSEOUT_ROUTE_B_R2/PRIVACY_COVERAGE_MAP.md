@@ -2,7 +2,7 @@
 任务编号/阶段：A2B-026／阶段0收尾／隐私第11项补证R2（B-2未启动）  
 角色：B 交付  
 分支：codex/a2b026-b-closeout-route-b-r2-20261014  
-完整提交号（40 位）：0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9（结果固定快照；最终发布提交另见回取凭证）  
+完整提交号（40 位）：70f7a0d50bfb4eaec3113398b693a60479603622（结果固定快照；最终发布提交另见回取凭证）  
 目录路径：docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2  
 结果文件路径（单个 JSON）：docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/RESULT_B.json  
 关键数字（按决策表变量逐项列出，变量名与决策表一致）：OOF 分数差：UNKNOWN；分数差：UNKNOWN（同一变量，B-2未执行）；原参考基线73.71410733861434；发布24／历史扫描21／遗漏3／补扫24通过；模型拟合0；预处理拟合0  
@@ -53,7 +53,7 @@ PUBLICATION_PRIVACY_CHECK.json只保存21份的聚合计数，没有当时逐文
 
 ## 原始输出与输入完整性
 
-原始扫描输出：[PRIVACY_SUPPLEMENT_SCAN_RAW.json](PRIVACY_SUPPLEMENT_SCAN_RAW.json)。历史选择集合与实现身份：[HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json](HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json)。实际补扫源码：[privacy_supplement.py](privacy_supplement.py)。原始输出为本轮新记录，未改写原21份聚合扫描。
+原始扫描输出：[PRIVACY_SUPPLEMENT_SCAN_RAW.json](https://github.com/ylrq8475-ui/Shiyou/blob/70f7a0d50bfb4eaec3113398b693a60479603622/docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_SUPPLEMENT_SCAN_RAW.json)。历史选择集合与实现身份：[HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json](https://github.com/ylrq8475-ui/Shiyou/blob/70f7a0d50bfb4eaec3113398b693a60479603622/docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json)。实际补扫源码：[privacy_supplement.py](https://github.com/ylrq8475-ui/Shiyou/blob/70f7a0d50bfb4eaec3113398b693a60479603622/docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/privacy_supplement.py)。原始输出为本轮新记录，未改写原21份聚合扫描。
 
 本轮只为扫描在内存读取私有标记，未落盘标记表或原始行。已验证原始归档100个成员，98个井标记、78个实际月度标记及完整日期标记；私有标记的值不公开。赛事归档、冻结配置与原清单读取前后SHA256一致，固定Git24份原字节逐项符合原清单。没有复制或解压赛事数据。
 

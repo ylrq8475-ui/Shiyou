@@ -19,7 +19,7 @@
     {
       "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_ROUTE_B.md",
       "bytes": 12134,
-      "sha256": "99f43147a18076c7b6632893f7e3ebe5425e1318b8e5eb2870e423c29a35198d"
+      "sha256": "4af1466fc05e226d2e5222540afddfff941dd04f7439f123399d84d5be359fb2"
     },
     {
       "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_STATIC_CHECKS.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_COVERAGE_MAP.md",
-      "bytes": 9348,
-      "sha256": "a50e79031ce3f28b6325365bd74125c55259f7b5ae5c0a1382d29a002ab9a81f"
+      "bytes": 9753,
+      "sha256": "86d0ec3188f7f546a804af4f5e2b21fd753c2207764ef35dcc81fb43d3810242"
     },
     {
       "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/privacy_supplement.py",
@@ -44,7 +44,7 @@
     {
       "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/REPORT_B.md",
       "bytes": 4671,
-      "sha256": "c72e44dfdb18e72f199194c5e9fd8c817c71bd98354439c0f3cc37ca01f91a1e"
+      "sha256": "ac08cfdcd50b6ee629d2912c3cae590e0b73c2703fedbb20abea4f57f9fab4eb"
     },
     {
       "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/RESULT_B.json",
