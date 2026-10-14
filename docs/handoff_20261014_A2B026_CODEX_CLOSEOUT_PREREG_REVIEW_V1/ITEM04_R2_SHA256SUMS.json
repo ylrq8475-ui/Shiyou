@@ -1,0 +1,37 @@
+{
+  "snapshot": "e69a3784aded419c0c9bbcc8c7a7a15c1a175a79",
+  "files": {
+    "ITEM04_R2_REPORT_CODEX.md": {
+      "bytes": 4615,
+      "sha256": "043113a3d7f99492198821e92e134c32226ec515d65d0ae760f5c611cb1af054"
+    },
+    "ITEM04_R2_REPLY_CODEX.md": {
+      "bytes": 2445,
+      "sha256": "77355990540b43082e527e51818383f15b23d054abd2011d71184115896a23f8"
+    },
+    "ITEM04_R2_RESULT_CODEX.json": {
+      "bytes": 12382,
+      "sha256": "921ba2ffd45c33e67852f7ed3495bf35ee48e3f52f2201e0bc73aca530b201a7"
+    },
+    "ITEM04_R2_COMMIT_RELATION.json": {
+      "bytes": 3917,
+      "sha256": "f51c8a6f5eb04f656051b5900f37cf4515f9d086bbb0a4a11e8aba023f0db593"
+    },
+    "ITEM04_R2_TREE_SCOPE_PROOF.json": {
+      "bytes": 1192,
+      "sha256": "8a481da400dad4c1a48e98664dec86f1a3b376b595b3a56d07060d5ad2238ffc"
+    },
+    "ITEM04_R2_SOURCE_RETRIEVAL.json": {
+      "bytes": 5042,
+      "sha256": "011bf8a33f093654d6cd4c414e9fd32323d1aba422020fe9255c5c36a00b8756"
+    },
+    "ITEM04_R2_COMPARE_INSTRUCTION.py": {
+      "bytes": 8205,
+      "sha256": "906d157810b7f4174fab8033457d98c572ad8151fe9aa624b087de10ebbf0f74"
+    },
+    "ITEM04_R2_PRIVACY_CHECK.json": {
+      "bytes": 237,
+      "sha256": "cc554d63dc3291dd56269337956357d1969fc1f95a8a1fc34697ca15841f3e91"
+    }
+  }
+}

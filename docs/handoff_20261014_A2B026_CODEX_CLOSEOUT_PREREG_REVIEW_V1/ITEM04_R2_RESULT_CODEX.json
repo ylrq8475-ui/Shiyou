@@ -1,0 +1,405 @@
+{
+  "task": "CODEX-026B-04",
+  "role": "Codex（账户A2）独立补充审核",
+  "review_scope": "this item and unreviewed B R2 delta only",
+  "reviewed_B_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+  "previous_reviewed_B_commit": "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+  "instruction_commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+  "instruction_sha256": "eeeea77137a7d48d2ccd87a045a0a733f472233b26f3a05abc925e4d9034d59c",
+  "previous_review_covered_B213": false,
+  "current_supplement_covers_B213": true,
+  "instruction_original_received_and_verified": true,
+  "previous_P1_missing_source_resolved": true,
+  "table_exact_text_match": true,
+  "threshold_one_point_match": true,
+  "source_table_embedding_indent_spaces_ignored": 2,
+  "comparison_policy": "remove code-block table embedding indent and LF/CRLF formatting only; retain wording, numbers, symbols and punctuation",
+  "startup_exact_match": false,
+  "startup_meaning_matches": true,
+  "item_status": "失败",
+  "issue_level": "P3",
+  "CODEX_026B_04_closed": false,
+  "UNKNOWN_items": [],
+  "item_11_closed": true,
+  "separate_B2_user_approval_in_archive": false,
+  "B2_start_conditions_satisfied": false,
+  "B2_approval_scope": "archive explicitly approves no-training closeout/preregistration and still requires separate B2 approval",
+  "hard_gates_current_scope": {
+    "泄漏": "通过",
+    "错位": "通过",
+    "井级隔离": "通过",
+    "指标": "通过"
+  },
+  "hard_gate_scope": "document-only supplement; previous limited scope inherited, future B2 implementation not verified",
+  "differences_against_instruction": [
+    {
+      "id": "TEXT-1",
+      "level": "P3",
+      "expected": "启动条件：第 11 项经 Codex 判为\"通过\"，且用户另行批准 B-2。",
+      "actual": [
+        "阶段B-1仅预注册；阶段B-2需要另行批准，且启动前必须由Codex明确关闭第11项。B的24/24补扫通过不代替Codex签署。",
+        "本轮结果和登记卡通过新B专用分支与独立R2目录交付并回取核验；原阶段0的24份文件、模型和实验成果字节保持。B-2未经单独授权且第11项未由Codex关闭前，禁止真实拟合。未来没有官方唯一解释本身不作阻塞P0，但实际泄漏、目标错位、井级隔离和指标继续是硬门禁。"
+      ],
+      "exact_sentence_in_preregistration": false,
+      "exact_whole_startup_line_in_preregistration": false,
+      "meaning_changed": false,
+      "description": "startup constraint has equivalent wording, but the required original sentence is not copied verbatim"
+    }
+  ],
+  "differences_R1_R2": {
+    "decision_table": [
+      "--- 0f4f_R1",
+      "+++ 213b_R2",
+      "@@ -1,6 +1,6 @@",
+      " | Codex 确认的结果 | 下一步 |",
+      " |---|---|",
+      " | 任一硬门禁失败（泄漏、错位、井级隔离、指标） | 路线 B 停止 |",
+      "-| 相对基线的 OOF 分数差 ≥ +1.0 | 建议你考虑保留候选。交付必须包含 train.py，平台提交另行批准 |",
+      "-| 0 < 分数差 < +1.0 | 弱信号，交你决定，默认不执行 |",
+      "+| OOF 分数差 ≥ +1.0 | 建议用户考虑保留候选；交付必须含 train.py；平台提交另行批准 |",
+      "+| 0 < 分数差 < +1.0 | 弱信号，交用户决定，默认不执行 |",
+      " | 分数差 ≤ 0 | 路线 B 淘汰 |"
+    ],
+    "threshold_method": {
+      "old": "102-item inner OOF score maximization",
+      "new": "tau=(1-l_plus)/(2-l_plus), inner-fold positive B0 loss only"
+    },
+    "routing_operator": {
+      "old": ">=",
+      "new": ">"
+    },
+    "successful_model_fit_budget": {
+      "old": 40,
+      "new": 25
+    },
+    "inner_classifier_fit_budget": {
+      "old": 15,
+      "new": 0
+    },
+    "preprocessor_budget": {
+      "old": 20,
+      "new": 20
+    },
+    "old_data_model_target_features_folds_unchanged": true
+  },
+  "B_commit_relation": {
+    "ancestor": "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+    "descendant": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+    "intervening_commits": 3,
+    "added_files": 12,
+    "old_files_changed": 0
+  },
+  "R2_files_reviewed": [
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/FIT_COUNTS.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_PARAMETERS.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_ROUTE_B.md",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_STATIC_CHECKS.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_COVERAGE_MAP.md",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/REPORT_B.md",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/RESULT_B.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/SHA256SUMS.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/SOURCE_RECEIPT_R2.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/privacy_supplement.py"
+  ],
+  "checks_passed": 73,
+  "check_results": [
+    {
+      "check": "CLAUDE_ORIGINAL_ACTUAL_BYTE_SHA256",
+      "passed": true
+    },
+    {
+      "check": "OLD_B_FILES_REMAIN_UNCHANGED",
+      "passed": true
+    },
+    {
+      "check": "B213_DESCENDS_FROM_0F4_BY_THREE_COMMITS",
+      "passed": true
+    },
+    {
+      "check": "TWELVE_NEW_R2_FILES_NO_REPLACEMENT",
+      "passed": true
+    },
+    {
+      "check": "R2_SHA256_FIT_COUNTS.json",
+      "passed": true
+    },
+    {
+      "check": "R2_SHA256_HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+      "passed": true
+    },
+    {
+      "check": "R2_SHA256_PREREG_PARAMETERS.json",
+      "passed": true
+    },
+    {
+      "check": "R2_SHA256_PREREG_ROUTE_B.md",
+      "passed": true
+    },
+    {
+      "check": "R2_SHA256_PREREG_STATIC_CHECKS.json",
+      "passed": true
+    },
+    {
+      "check": "R2_SHA256_PRIVACY_COVERAGE_MAP.md",
+      "passed": true
+    },
+    {
+      "check": "R2_SHA256_privacy_supplement.py",
+      "passed": true
+    },
+    {
+      "check": "R2_SHA256_PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+      "passed": true
+    },
+    {
+      "check": "R2_SHA256_REPORT_B.md",
+      "passed": true
+    },
+    {
+      "check": "R2_SHA256_RESULT_B.json",
+      "passed": true
+    },
+    {
+      "check": "R2_SHA256_SOURCE_RECEIPT_R2.json",
+      "passed": true
+    },
+    {
+      "check": "R2_TABLE_TEXT_EXACT_AFTER_CODE_BLOCK_EMBEDDING_INDENT_REMOVAL",
+      "passed": true
+    },
+    {
+      "check": "R2_TABLE_MD_JSON_BINDING",
+      "passed": true
+    },
+    {
+      "check": "ONE_POINT_THRESHOLD_EXACT",
+      "passed": true
+    },
+    {
+      "check": "STARTUP_EQUIVALENT_CONSTRAINTS_PRESENT",
+      "passed": true
+    },
+    {
+      "check": "STARTUP_AND_LOGIC_PRESENT",
+      "passed": true
+    },
+    {
+      "check": "SUGGESTIONS_SEPARATE",
+      "passed": true
+    },
+    {
+      "check": "R2_GRID_REMOVED_NO_OUTER_SELECTION",
+      "passed": true
+    },
+    {
+      "check": "R2_FORMULA_LOCKED",
+      "passed": true
+    },
+    {
+      "check": "R2_STRICT_GREATER_ROUTING",
+      "passed": true
+    },
+    {
+      "check": "R2_PROPOSED_BUDGET",
+      "passed": true
+    },
+    {
+      "check": "R2_ZERO_EXECUTION_model_fit_entries",
+      "passed": true
+    },
+    {
+      "check": "R2_ZERO_EXECUTION_successful_model_fits",
+      "passed": true
+    },
+    {
+      "check": "R2_ZERO_EXECUTION_failed_model_fits",
+      "passed": true
+    },
+    {
+      "check": "R2_ZERO_EXECUTION_model_fit_retries",
+      "passed": true
+    },
+    {
+      "check": "R2_ZERO_EXECUTION_preprocessor_fit_entries",
+      "passed": true
+    },
+    {
+      "check": "R2_ZERO_EXECUTION_successful_preprocessor_fits",
+      "passed": true
+    },
+    {
+      "check": "R2_ZERO_EXECUTION_failed_preprocessor_fits",
+      "passed": true
+    },
+    {
+      "check": "R2_ZERO_EXECUTION_model_weights_loaded",
+      "passed": true
+    },
+    {
+      "check": "R2_ZERO_EXECUTION_model_weights_saved",
+      "passed": true
+    },
+    {
+      "check": "R2_ZERO_EXECUTION_official_platform_submissions",
+      "passed": true
+    },
+    {
+      "check": "R2_ZERO_EXECUTION_diagnostic_reruns",
+      "passed": true
+    },
+    {
+      "check": "R2_RESULT_COUNT_BINDING",
+      "passed": true
+    },
+    {
+      "check": "R2_IDENTICAL_PREVIOUSLY_REVIEWED_privacy_supplement.py",
+      "passed": true
+    },
+    {
+      "check": "R2_IDENTICAL_PREVIOUSLY_REVIEWED_PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+      "passed": true
+    },
+    {
+      "check": "R2_IDENTICAL_PREVIOUSLY_REVIEWED_HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+      "passed": true
+    },
+    {
+      "check": "UNCHANGED_R1_R2_regressor",
+      "passed": true
+    },
+    {
+      "check": "UNCHANGED_R1_R2_classifier",
+      "passed": true
+    },
+    {
+      "check": "UNCHANGED_R1_R2_features",
+      "passed": true
+    },
+    {
+      "check": "UNCHANGED_R1_R2_validation",
+      "passed": true
+    },
+    {
+      "check": "UNCHANGED_R1_R2_label",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_D0_STRUCTURE.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_D1_ZERO_MASS.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_D2_ANCHOR_COMPARISON.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_D4_SMOOTH_ORACLE.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_EVENTS.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_HANDOFF_TO_CODEX.md",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_PRE_DIAGNOSTIC_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_PRIVACY_RECOVERY.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_PRIVACY_SCAN.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_PROMPT_CODEX_ORIGINAL.md",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_PUBLICATION_PRIVACY_CHECK.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_README.md",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_REPORT_B.md",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_RESULT_STAGE0.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_ROLE_AND_AUTHORIZATION.md",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_SOURCE_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_STOPPED.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_SYNTHETIC_LOG.txt",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_SYNTHETIC_RESULTS.json",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_THREE_ACCOUNT_ROLE_RULES_V2.md",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_run_stage0.py",
+      "passed": true
+    },
+    {
+      "check": "R2_EXISTING_SCAN_BINDING_test_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "FORMULA_SYNTHETIC_ARITHMETIC_0",
+      "passed": true
+    },
+    {
+      "check": "FORMULA_SYNTHETIC_ARITHMETIC_0.1",
+      "passed": true
+    },
+    {
+      "check": "FORMULA_SYNTHETIC_ARITHMETIC_0.2",
+      "passed": true
+    },
+    {
+      "check": "FORMULA_SYNTHETIC_ARITHMETIC_1",
+      "passed": true
+    }
+  ],
+  "data_read": false,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "minimal_text_correction": "copy the archived original startup sentence into PREREG_ROUTE_B.md; no method, threshold, budget or training change"
+}

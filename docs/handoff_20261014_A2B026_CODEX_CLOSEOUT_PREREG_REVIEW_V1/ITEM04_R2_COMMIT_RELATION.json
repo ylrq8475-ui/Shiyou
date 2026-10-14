@@ -1,0 +1,106 @@
+{
+  "base": "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+  "head": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+  "status": "ahead",
+  "total_commits": 3,
+  "commits": [
+    {
+      "sha": "de42a78d9b2abe16ec48cfbd62ed57e4c358539d",
+      "message": "账户B执行与交付：建立A2B-026阶段0收尾与路线B预注册R2目录\n\n仅追加独立版本文件；模型拟合0，预处理拟合0；不执行路线A阶段1或B-2。"
+    },
+    {
+      "sha": "70f7a0d50bfb4eaec3113398b693a60479603622",
+      "message": "账户B执行与交付：补齐24项隐私覆盖与路线B公式阈值预注册R2\n\n只新增R2目录；原24份及旧补充工件不变。模型拟合0，预处理拟合0。第11项等待Codex独立签署，B-2等待另行批准。"
+    },
+    {
+      "sha": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "message": "账户B执行与交付：登记卡绑定实际40位结果提交并固定证据链接\n\n结果快照70f7a0d50bfb4eaec3113398b693a60479603622；仅更新本次新R2目录卡片和SHA清单。旧文件原样保留，拟合均0。"
+    }
+  ],
+  "files": [
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/FIT_COUNTS.json",
+      "status": "added",
+      "git_blob": "8afb178eb391c1b69b3991040c8251fa5a15bd02",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+      "status": "added",
+      "git_blob": "5610e87296c8afd6fb02daa16d238969a07db668",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_PARAMETERS.json",
+      "status": "added",
+      "git_blob": "0cdf6b5e0f3e8ec980ad17967e1e4c61eda572f7",
+      "additions": 115,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_ROUTE_B.md",
+      "status": "added",
+      "git_blob": "ac314771998b01144762f5c21d1c1a6e76027198",
+      "additions": 98,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_STATIC_CHECKS.json",
+      "status": "added",
+      "git_blob": "d754cfbab0887f3c0cd5fc7e6a6eb2d028d8eeff",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_COVERAGE_MAP.md",
+      "status": "added",
+      "git_blob": "1121d8beecc35107ed391e1648c996d392c6dbc9",
+      "additions": 70,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+      "status": "added",
+      "git_blob": "ae69a8cc01c30466dbe1f25c72ef9b3d2b736207",
+      "additions": 541,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/REPORT_B.md",
+      "status": "added",
+      "git_blob": "48e01a6836e148107385a716aebdd86d02b0e7f5",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/RESULT_B.json",
+      "status": "added",
+      "git_blob": "11f4f7ba07d26d81bd8fb0feca89ab95ea6daa38",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/SHA256SUMS.json",
+      "status": "added",
+      "git_blob": "f8071b8d74aea538e600898362fde2e63f86a216",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/SOURCE_RECEIPT_R2.json",
+      "status": "added",
+      "git_blob": "93fd62e683f43543895d9228ee9878d0fd980c2a",
+      "additions": 258,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/privacy_supplement.py",
+      "status": "added",
+      "git_blob": "b56e75745d06743b498fc5311ea9c089d1f612ff",
+      "additions": 143,
+      "deletions": 0
+    }
+  ]
+}

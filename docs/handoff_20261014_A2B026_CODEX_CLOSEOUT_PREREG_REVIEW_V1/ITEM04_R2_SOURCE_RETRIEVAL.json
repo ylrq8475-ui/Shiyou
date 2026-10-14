@@ -1,0 +1,119 @@
+{
+  "public_files": 14,
+  "all_git_blob_and_size_verified": true,
+  "raw_competition_data_read": false,
+  "files": [
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/FIT_COUNTS.json",
+      "bytes": 631,
+      "git_blob": "8afb178eb391c1b69b3991040c8251fa5a15bd02",
+      "sha256": "823258f81d417050e3e2b40f8e41a3ae8975d5e69a0be7c6d173009360d8ae95"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+      "bytes": 1010,
+      "git_blob": "5610e87296c8afd6fb02daa16d238969a07db668",
+      "sha256": "bfebe4872723f6aba1267c6d900f65fc5898bebd9d1b07fe94f00435ea01f208"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_PARAMETERS.json",
+      "bytes": 4181,
+      "git_blob": "0cdf6b5e0f3e8ec980ad17967e1e4c61eda572f7",
+      "sha256": "7c663c7cb44e11c993ef285860304cc372a2340a6285a4a4fefd6aa80a6c2344"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_ROUTE_B.md",
+      "bytes": 12134,
+      "git_blob": "ac314771998b01144762f5c21d1c1a6e76027198",
+      "sha256": "4af1466fc05e226d2e5222540afddfff941dd04f7439f123399d84d5be359fb2"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_STATIC_CHECKS.json",
+      "bytes": 795,
+      "git_blob": "d754cfbab0887f3c0cd5fc7e6a6eb2d028d8eeff",
+      "sha256": "e51d2221be77f32a964229f85a4af2fc3c7c2bade3a0f09b405c39bbf0f02cab"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_COVERAGE_MAP.md",
+      "bytes": 9753,
+      "git_blob": "1121d8beecc35107ed391e1648c996d392c6dbc9",
+      "sha256": "86d0ec3188f7f546a804af4f5e2b21fd753c2207764ef35dcc81fb43d3810242"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+      "bytes": 19183,
+      "git_blob": "ae69a8cc01c30466dbe1f25c72ef9b3d2b736207",
+      "sha256": "fed586249025e2a659bd1ec6395e5c4ec9522337a328a05d40977818fed3199e"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/REPORT_B.md",
+      "bytes": 4671,
+      "git_blob": "48e01a6836e148107385a716aebdd86d02b0e7f5",
+      "sha256": "ac08cfdcd50b6ee629d2912c3cae590e0b73c2703fedbb20abea4f57f9fab4eb"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/RESULT_B.json",
+      "bytes": 3354,
+      "git_blob": "11f4f7ba07d26d81bd8fb0feca89ab95ea6daa38",
+      "sha256": "914a87be16b286c83f3aad29592bad3977b921eba1896c6294fe8385a4f0bd69"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/SHA256SUMS.json",
+      "bytes": 2557,
+      "git_blob": "f8071b8d74aea538e600898362fde2e63f86a216",
+      "sha256": "17e828642858d6e3d0e05ce2adbe9d3e527c952d6efed780e46ff3bf2bab41b1"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/SOURCE_RECEIPT_R2.json",
+      "bytes": 10319,
+      "git_blob": "93fd62e683f43543895d9228ee9878d0fd980c2a",
+      "sha256": "aff83070cf4c74ebf931df706ae7da44a6047f4c510db14ee3c48c39c9daae39"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/privacy_supplement.py",
+      "bytes": 8217,
+      "git_blob": "b56e75745d06743b498fc5311ea9c089d1f612ff",
+      "sha256": "45955a25287ca6ec1c00c591132c47425b3ad35b08fe0ec13cd4325e416170ad"
+    },
+    {
+      "label": "instruction",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "path": "docs/handoff_20261014_A2B026_CLAUDE_INSTRUCTIONS_R2/INSTRUCTION_ORIGINAL.md",
+      "bytes": 4313,
+      "git_blob": "e34edabc0102eaae76f443f0d965f33947952d07",
+      "sha256": "eeeea77137a7d48d2ccd87a045a0a733f472233b26f3a05abc925e4d9034d59c"
+    },
+    {
+      "label": "instruction",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "path": "docs/handoff_20261014_A2B026_CLAUDE_INSTRUCTIONS_R2/SHA256SUMS.json",
+      "bytes": 99,
+      "git_blob": "80728a9f3a9524adcbccc54e2951f70a8066e951",
+      "sha256": "325817da0513ad103d646a93ca439f78c01dce0426654427c70ee34054e12a11"
+    }
+  ]
+}

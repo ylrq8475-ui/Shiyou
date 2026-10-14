@@ -1,0 +1,21 @@
+{
+  "base": "0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9",
+  "head": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+  "base_blob_count": 253,
+  "all_prior_files_unchanged": true,
+  "prior_files_changed": [],
+  "added_files": [
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/FIT_COUNTS.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/HISTORIC_SCAN_SELECTION_RECONSTRUCTED.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_PARAMETERS.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_ROUTE_B.md",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_STATIC_CHECKS.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_COVERAGE_MAP.md",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PRIVACY_SUPPLEMENT_SCAN_RAW.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/REPORT_B.md",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/RESULT_B.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/SHA256SUMS.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/SOURCE_RECEIPT_R2.json",
+    "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/privacy_supplement.py"
+  ]
+}
