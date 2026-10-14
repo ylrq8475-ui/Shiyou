@@ -1,0 +1,13 @@
+{
+  "initial_execution_privacy_gate_passed": false,
+  "initial_exact_private_token_hits": 0,
+  "initial_generic_prefix_file_hits": 1,
+  "root_cause": "scanner matched its own bare prefix constants; no token/account suffix existed",
+  "new_scanner_requires_actual_identifier_or_token_content": true,
+  "initial_SCAN_and_STOPPED_preserved_byte_identical": true,
+  "actual_execution_source_unchanged": true,
+  "D0_D1_D2_D4_successful_results_recomputed": false,
+  "new_real_model_and_preprocessor_fits": 0,
+  "publication_privacy_passed": true,
+  "review_status": "PENDING_CODEX_INDEPENDENT_REVIEW"
+}

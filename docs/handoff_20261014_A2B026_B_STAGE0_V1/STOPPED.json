@@ -1,0 +1,12 @@
+{
+  "status": "STOPPED",
+  "error_type": "RuntimeError",
+  "error_code": "PRIVACY_GATE_FAILED",
+  "fit_counts": {
+    "model_fit_attempted": 0,
+    "model_fit_completed": 0,
+    "preprocessor_fit_attempted": 0,
+    "preprocessor_fit_completed": 0
+  },
+  "finished": "2026-10-14T14:18:29.519344+08:00"
+}

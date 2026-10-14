@@ -1,0 +1,15 @@
+{
+  "tests": 12,
+  "passed": 12,
+  "failures": 0,
+  "errors": 0,
+  "finished": "2026-10-14T14:15:51.510853+08:00",
+  "before_first_competition_data_read": true,
+  "fit_counts": {
+    "model_fit_attempted": 0,
+    "model_fit_completed": 0,
+    "preprocessor_fit_attempted": 0,
+    "preprocessor_fit_completed": 0
+  },
+  "reference_module_sha256": "4fd23c81a3493a354720efc85995ae0ed57ba205056a52d072538dfb0d5f437c"
+}

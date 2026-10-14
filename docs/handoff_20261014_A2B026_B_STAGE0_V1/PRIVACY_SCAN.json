@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "scanned_files": 23,
+  "exact_private_token_hits": 0,
+  "generic_credential_or_user_path_hits": 1,
+  "identifier_tokens_checked": 98,
+  "actual_calendar_month_tokens_checked": 57,
+  "raw_rows_targets_predictions_or_well_mappings_serialized": false,
+  "new_model_and_preprocessor_fits": 0
+}

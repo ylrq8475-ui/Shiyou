@@ -1,0 +1,27 @@
+{
+  "train": {
+    "wells_checked": 81,
+    "feature_values_checked": 29079,
+    "sensitive_feature_count": 0,
+    "feature_key_mismatch_wells": 0,
+    "feature_columns": 325,
+    "same_name_and_order_as_B0": true,
+    "target_and_key_metadata_unchanged": true,
+    "passed": true
+  },
+  "test": {
+    "wells_checked": 10,
+    "feature_values_checked": 3590,
+    "sensitive_feature_count": 0,
+    "feature_key_mismatch_wells": 0,
+    "feature_columns": 325,
+    "same_name_and_order_as_B0": true,
+    "target_and_key_metadata_unchanged": true,
+    "passed": true
+  },
+  "passed": true,
+  "baseline_feature_count": 325,
+  "history_cutoff_for_diagnostic_only": "M",
+  "frozen_model_cutoff": "M-1",
+  "forecast_index_features_unchanged": 2
+}

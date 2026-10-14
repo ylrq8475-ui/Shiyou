@@ -1,0 +1,117 @@
+{
+  "task": "A2B-026",
+  "phase": 0,
+  "executor": "B",
+  "reviewer": "Codex",
+  "designer": "Claude",
+  "review_status": "PENDING_CODEX_INDEPENDENT_REVIEW",
+  "status": "COMPLETED",
+  "started": "2026-10-14T14:15:46.107374+08:00",
+  "D0": {
+    "train": {
+      "wells_checked": 81,
+      "feature_values_checked": 29079,
+      "sensitive_feature_count": 0,
+      "feature_key_mismatch_wells": 0,
+      "feature_columns": 325,
+      "same_name_and_order_as_B0": true,
+      "target_and_key_metadata_unchanged": true,
+      "passed": true
+    },
+    "test": {
+      "wells_checked": 10,
+      "feature_values_checked": 3590,
+      "sensitive_feature_count": 0,
+      "feature_key_mismatch_wells": 0,
+      "feature_columns": 325,
+      "same_name_and_order_as_B0": true,
+      "target_and_key_metadata_unchanged": true,
+      "passed": true
+    },
+    "passed": true,
+    "baseline_feature_count": 325,
+    "history_cutoff_for_diagnostic_only": "M",
+    "frozen_model_cutoff": "M-1",
+    "forecast_index_features_unchanged": 2
+  },
+  "D1": {
+    "wells": 81,
+    "zero_month_fraction": 0.012345679012345678,
+    "zero_month_fraction_by_horizon": [
+      0.037037037037037035,
+      0.024691358024691357,
+      0.0,
+      0.012345679012345678,
+      0.024691358024691357,
+      0.012345679012345678,
+      0.0,
+      0.0,
+      0.024691358024691357,
+      0.0,
+      0.0,
+      0.012345679012345678
+    ],
+    "wells_with_any_zero_month": 9,
+    "max_recoverable_points_if_perfect_zero_detection": 2.6478708526234565,
+    "note": "若基线从不输出精确0，此值即完美停产识别的分数上界（不含对正值月的影响）"
+  },
+  "D2": {
+    "wells_compared": 64,
+    "anchor_M": {
+      "wells": 64,
+      "score": 73.8775480089488,
+      "first2_weighted_loss": 0.1874334111834313
+    },
+    "anchor_M_minus_1": {
+      "wells": 64,
+      "score": 73.22003817114047,
+      "first2_weighted_loss": 0.19975338955248234
+    },
+    "delta_score_M_minus_M1": 0.6575098378083339,
+    "delta_first2_loss_M_minus_M1": -0.012319978369051049
+  },
+  "D4": {
+    "wells": 81,
+    "smooth_oracle_score": 91.83171614366279,
+    "smooth_plus_zero_oracle_score": 94.47958449937715,
+    "note": "标签神谕：任何输出两参数指数平滑曲线的预测器在完美参数下的上界；不是可部署分数"
+  },
+  "decisions": {
+    "D0": "PASS",
+    "G_ZERO": "ACTIVATE_ROUTE_B_DESIGN",
+    "G_INFO": "WEAK_OR_UNMET_FIRST2_SIGNAL_NO_AUTOMATIC_EXECUTION",
+    "G_CEIL": "SMOOTH_ZERO_GRID_NOT_REJECTED_AT_90",
+    "report_order": [
+      "D0_HARD_GATE",
+      "G_CEIL",
+      "G_INFO",
+      "G_ZERO"
+    ],
+    "thresholds_unmodified": true,
+    "phase1_executed": false,
+    "machine_decision_is_not_user_approval": true
+  },
+  "test_both_anchors_finite_positive_wells": 10,
+  "target_template_and_well_isolation_passed": true,
+  "test_labels_read": false,
+  "test_future_finite_target_count": 0,
+  "raw_members_verified": 100,
+  "source_unchanged": true,
+  "frozen_files_unchanged": true,
+  "frozen_files_checked": 3261,
+  "raw_archive_and_manifest_unchanged": true,
+  "raw_data_copied": false,
+  "private_config_unchanged": true,
+  "phase1_training": false,
+  "models_loaded_or_saved": false,
+  "formal_submission_generated": false,
+  "platform_uploaded": false,
+  "finished": "2026-10-14T14:18:29.430890+08:00",
+  "seconds": 163.32353329996113,
+  "fit_counts": {
+    "model_fit_attempted": 0,
+    "model_fit_completed": 0,
+    "preprocessor_fit_attempted": 0,
+    "preprocessor_fit_completed": 0
+  }
+}

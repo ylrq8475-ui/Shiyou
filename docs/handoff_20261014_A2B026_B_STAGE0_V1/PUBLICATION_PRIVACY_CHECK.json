@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "allowlisted_files_scanned": 21,
+  "private_identifier_calendar_candidate_hits": 0,
+  "credential_and_user_path_hits": 0,
+  "real_identifier_tokens_checked": 98,
+  "actual_calendar_month_tokens_checked": 78,
+  "scanner_raw_data_readonly": true,
+  "scanner_models_or_preprocessors_fitted": 0,
+  "original_data_copied": false,
+  "model_weights_or_raw_rows_published": false,
+  "review_status": "PENDING_CODEX_INDEPENDENT_REVIEW"
+}

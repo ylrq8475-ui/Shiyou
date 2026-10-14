@@ -1,0 +1,121 @@
+[
+  {
+    "sequence": 1,
+    "time": "2026-10-14T14:15:46.107385+08:00",
+    "event": "synthetic_tests_started_before_competition_data_read",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_attempted": 0,
+      "preprocessor_fit_completed": 0
+    }
+  },
+  {
+    "sequence": 2,
+    "time": "2026-10-14T14:15:51.511670+08:00",
+    "event": "synthetic_tests_passed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_attempted": 0,
+      "preprocessor_fit_completed": 0
+    },
+    "tests": 12
+  },
+  {
+    "sequence": 3,
+    "time": "2026-10-14T14:15:51.955490+08:00",
+    "event": "competition_data_read_started_after_synthetic_gate",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_attempted": 0,
+      "preprocessor_fit_completed": 0
+    }
+  },
+  {
+    "sequence": 4,
+    "time": "2026-10-14T14:16:01.167258+08:00",
+    "event": "structure_passed_diagnostic_lock_saved",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_attempted": 0,
+      "preprocessor_fit_completed": 0
+    },
+    "train_checks": 29079,
+    "test_checks": 3590
+  },
+  {
+    "sequence": 5,
+    "time": "2026-10-14T14:16:01.167808+08:00",
+    "event": "D1_completed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_attempted": 0,
+      "preprocessor_fit_completed": 0
+    },
+    "wells": 81
+  },
+  {
+    "sequence": 6,
+    "time": "2026-10-14T14:16:01.171326+08:00",
+    "event": "D2_completed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_attempted": 0,
+      "preprocessor_fit_completed": 0
+    },
+    "wells_compared": 64,
+    "test_both_positive": 10
+  },
+  {
+    "sequence": 7,
+    "time": "2026-10-14T14:16:01.171530+08:00",
+    "event": "D4_original_finite_grid_started",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_attempted": 0,
+      "preprocessor_fit_completed": 0
+    },
+    "wells": 81
+  },
+  {
+    "sequence": 8,
+    "time": "2026-10-14T14:18:29.072979+08:00",
+    "event": "D4_completed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_attempted": 0,
+      "preprocessor_fit_completed": 0
+    },
+    "wells": 81
+  },
+  {
+    "sequence": 9,
+    "time": "2026-10-14T14:18:29.073479+08:00",
+    "event": "registered_decisions_computed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_attempted": 0,
+      "preprocessor_fit_completed": 0
+    }
+  },
+  {
+    "sequence": 10,
+    "time": "2026-10-14T14:18:29.431209+08:00",
+    "event": "stage0_completed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_attempted": 0,
+      "preprocessor_fit_completed": 0
+    },
+    "status": "COMPLETED"
+  }
+]

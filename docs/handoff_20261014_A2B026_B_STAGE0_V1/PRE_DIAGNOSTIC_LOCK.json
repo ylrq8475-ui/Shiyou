@@ -1,0 +1,124 @@
+{
+  "task": "A2B-026",
+  "phase": 0,
+  "time": "2026-10-14T14:16:01.154871+08:00",
+  "before_new_real_diagnostic_scores": true,
+  "roles_commit": "d031d38e0ce639601a1b926305d42e0d878aac6f",
+  "proposal_commit": "3256382fb56efecf37f54b4ce3bd4287ffe1f71c",
+  "environment": {
+    "executable": "python.exe",
+    "python": "3.13.7",
+    "build": [
+      "main",
+      "Sep 18 2025 19:43:45"
+    ],
+    "compiler": "MSC v.1944 64 bit (AMD64)",
+    "versions": {
+      "PyYAML": "6.0.3",
+      "Pygments": "2.19.2",
+      "cloudpickle": "3.1.2",
+      "colorama": "0.4.6",
+      "et_xmlfile": "2.0.0",
+      "iniconfig": "2.1.0",
+      "joblib": "1.6.0",
+      "narwhals": "2.26.0",
+      "numpy": "2.4.3",
+      "openpyxl": "3.1.5",
+      "packaging": "25.0",
+      "pandas": "2.3.3",
+      "pluggy": "1.6.0",
+      "pytest": "8.4.2",
+      "python-dateutil": "2.9.0.post0",
+      "pytz": "2026.3.post1",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.17.1",
+      "six": "1.17.0",
+      "threadpoolctl": "3.7.0",
+      "tzdata": "2026.4"
+    },
+    "native_files": {
+      "python.exe": "b20c54ca28d15b4254105a31a09615e3e1fc6f5f41f76553b9627b5df57b3d44",
+      "python313.dll": "2a02a2d7f9736a57dd1b3bf33b9521dc73551b3f4d319795c7b97a2f5c1895b6",
+      "_libsvm.cp313-win_amd64.pyd": "c6219b62c17483d64efd01d6558a31fce0910f358ace96b8daaebd13e5ddbe9e"
+    },
+    "logical_cpu_count": 20
+  },
+  "source_receipt_sha256": "74a97f82a32a728c9d0374f13edb58d060d916121e1de0d70bf8a1d3c68d09f3",
+  "execution_source_sha256": "1253fd518a045fdca0ace8eb08d1289ef3498d29d3448e47092b2b20c421d0c9",
+  "role_and_authorization_sha256": "4b2f669a4b3e96f78bd1aafd356cadfef9a57042c42f34481d1d5a32f18b5dcd",
+  "synthetic_sha256": "07f620b4368f4def680a9b0e9bbd3515c7d62fea8b48d27ceac802f96e6ca820",
+  "reference_sha256": "4fd23c81a3493a354720efc85995ae0ed57ba205056a52d072538dfb0d5f437c",
+  "DECISION": {
+    "G_ZERO": {
+      "activate_route_B_if_points_ge": 2.0,
+      "eliminate_route_B_if_points_lt": 1.0
+    },
+    "G_INFO": {
+      "run_route_A_stage1_if_delta_score_ge": 2.0,
+      "eliminate_route_A_if_delta_score_le": 0.0,
+      "also_require_first2_loss_lower": true
+    },
+    "G_CEIL": {
+      "declare_95_not_credible_if_smooth_plus_zero_oracle_lt": 90.0
+    }
+  },
+  "private_config_sha256": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72",
+  "raw_archive_sha256": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+  "raw_manifest_sha256": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f",
+  "input_panel_identity": {
+    "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+    "feature_dtype_sha256": "a34b2599e3202d8cfac13ba50ffa2d57c5631225b553fef66207de6eb35d102a",
+    "feature_frame_sha256": "af964b79e581fb87bcb736e6eb3e2cab21f878612882c7fd782778f744f44cb7",
+    "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+  },
+  "candidate_panel_identity": {
+    "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+    "feature_dtype_sha256": "a34b2599e3202d8cfac13ba50ffa2d57c5631225b553fef66207de6eb35d102a",
+    "feature_frame_sha256": "54adfdf0562eecdfc52a6a7b14a30df21ad9f92bb9adedd94db0e5b0e7806fc0",
+    "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+  },
+  "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+  "candidate_ordered_dtype_sha256": "a34b2599e3202d8cfac13ba50ffa2d57c5631225b553fef66207de6eb35d102a",
+  "raw_anchor_pair_input_sha256": "e957ff69fc25eb65126654af8dc1a60737806cefb295d0abf90c46ee45a1a1fb",
+  "D0": {
+    "train": {
+      "wells_checked": 81,
+      "feature_values_checked": 29079,
+      "sensitive_feature_count": 0,
+      "feature_key_mismatch_wells": 0,
+      "feature_columns": 325,
+      "same_name_and_order_as_B0": true,
+      "target_and_key_metadata_unchanged": true,
+      "passed": true
+    },
+    "test": {
+      "wells_checked": 10,
+      "feature_values_checked": 3590,
+      "sensitive_feature_count": 0,
+      "feature_key_mismatch_wells": 0,
+      "feature_columns": 325,
+      "same_name_and_order_as_B0": true,
+      "target_and_key_metadata_unchanged": true,
+      "passed": true
+    },
+    "passed": true,
+    "baseline_feature_count": 325,
+    "history_cutoff_for_diagnostic_only": "M",
+    "frozen_model_cutoff": "M-1",
+    "forecast_index_features_unchanged": 2
+  },
+  "test_both_anchors_finite_positive_wells": 10,
+  "train_wells": 81,
+  "train_rows": 972,
+  "test_wells": 10,
+  "test_rows": 120,
+  "protected_frozen_files": 3261,
+  "protected_snapshot_sha256": "c641484c28d4ba06303746df28deb3960c0572d3a33fa4601605403f673ae263",
+  "model_fits_allowed": 0,
+  "preprocessor_fits_allowed": 0,
+  "historical_dtype": "UNKNOWN",
+  "D4_implementation": "unmodified sequential 261 slopes x 801 level multipliers, twice per well",
+  "D4_interpretation": "finite label-oracle grid; no universal continuous-curve or platform upper-bound claim",
+  "current_anchor_and_target_window_changed": false,
+  "raw_data_copied": false
+}
