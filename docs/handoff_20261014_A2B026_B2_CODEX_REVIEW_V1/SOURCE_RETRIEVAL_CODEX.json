@@ -1,0 +1,352 @@
+{
+  "B_commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+  "B_prefix": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1",
+  "B_files": 31,
+  "all_public_sources": 38,
+  "B_git_blobs_match": true,
+  "original_data_read": false,
+  "files": [
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/BASELINE_REPRODUCTION.json",
+      "local": "sources/B/BASELINE_REPRODUCTION.json",
+      "bytes": 626,
+      "sha256": "b0dc5949a60da7fbf9b25a4e8289c9f00c38cede8e3f289f0d2ccd1d1c60ed5a",
+      "git_blob": "f058bc443e19246bd4cc34aa2cb7ade6bbc07b2f"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/CLAUDE_INSTRUCTION_ORIGINAL_R3.md",
+      "local": "sources/B/CLAUDE_INSTRUCTION_ORIGINAL_R3.md",
+      "bytes": 4478,
+      "sha256": "9acf1efc2eefdde9c723b78de5de6184102844cf5af8578cf3598c1939497cc2",
+      "git_blob": "86db5cf33375c310bf035fac0aadf34c70b73a0a"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/CODEX_ITEM11_AND_ITEM04_RESULT.json",
+      "local": "sources/B/CODEX_ITEM11_AND_ITEM04_RESULT.json",
+      "bytes": 6165,
+      "sha256": "2f1855cb8bbfc23c7eb2bc3032811c9138a052a35cd22f7eb05297e092990723",
+      "git_blob": "2a0c1e4b7ba5b1b1dd3f4fd14dda7b5079c68021"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/ENVIRONMENT_LOCK.json",
+      "local": "sources/B/ENVIRONMENT_LOCK.json",
+      "bytes": 1024,
+      "sha256": "498caae71c7a175b27b498630f3542ee003c7cd4a41eb22591784d5bbbc1a0d4",
+      "git_blob": "4e79123303b58f0d0c4619d7b5ac76e436da4f8f"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/EVENTS.json",
+      "local": "sources/B/EVENTS.json",
+      "bytes": 59259,
+      "sha256": "d45f5cfb0b9d4985c899331150b4bbc048953ff7b3c7f5a2bf7f5265814746a5",
+      "git_blob": "b49649b3c24bee6a6cc4761fbc93769acd08fc3f"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/FAULT_INJECTION_RESULTS.json",
+      "local": "sources/B/FAULT_INJECTION_RESULTS.json",
+      "bytes": 1199,
+      "sha256": "b98762a963c266691cfb88598c3bd8bd2d39a71050e0c29cf645ab839fe77039",
+      "git_blob": "ab6390a52b9dcd10c3aae74ef7194fcfbec31ac4"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/FIT_COUNTS.json",
+      "local": "sources/B/FIT_COUNTS.json",
+      "bytes": 309,
+      "sha256": "7a8e135e72e431ba7632b45955541a853c46965416f6ecf5d83151b122dd0f9b",
+      "git_blob": "9e45ed1ea280362327a35f7dccc207cf7f9c64ae"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/IMPLEMENTATION_PREFIT_LOCK.json",
+      "local": "sources/B/IMPLEMENTATION_PREFIT_LOCK.json",
+      "bytes": 35133,
+      "sha256": "bfb5918be8a896bb8c88ba13d9ba7135150b4675e0739340e6138397e2caa746",
+      "git_blob": "bdbcdc844aad851c7712ded18e02b9759bfe019d"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/POST_RUN_VERIFICATION.json",
+      "local": "sources/B/POST_RUN_VERIFICATION.json",
+      "bytes": 782,
+      "sha256": "90f124db771c7b78cee08b8887cd4ca9eee125ec68a530b694cebc3e088c7e11",
+      "git_blob": "83d6a3071bd96f0413a285f7bed1b2232bf2fec5"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PREFIT_DEBUG_LOG.json",
+      "local": "sources/B/PREFIT_DEBUG_LOG.json",
+      "bytes": 636,
+      "sha256": "121a3d4b2cf47b39a76341808d7ccf4efcd0f50e8a1d45a29e18de6d650270f6",
+      "git_blob": "7a238cb0f9b1726c56a70b55f629fa02eaf9fd92"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PREREG_PARAMETERS.json",
+      "local": "sources/B/PREREG_PARAMETERS.json",
+      "bytes": 4181,
+      "sha256": "7c663c7cb44e11c993ef285860304cc372a2340a6285a4a4fefd6aa80a6c2344",
+      "git_blob": "0cdf6b5e0f3e8ec980ad17967e1e4c61eda572f7"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "local": "sources/B/PRIVACY_COVERAGE_MAP.md",
+      "bytes": 6363,
+      "sha256": "f87c0bd6b69207bae4e7708f49be263bf6823fd05148ece8ef0a84baee11cee2",
+      "git_blob": "b270a12d1f087645c09d187cec9a27769c717af1"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PRIVACY_SCAN_RAW.json",
+      "local": "sources/B/PRIVACY_SCAN_RAW.json",
+      "bytes": 15394,
+      "sha256": "63eeeb58d0a7b99ddf1fe135ea6d6177d8d6aa627073e5af1c33b49c9ac71c53",
+      "git_blob": "4460e0f50479c30862cbf7ff896f58ca95d47d0c"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PROCESS_CHECK.json",
+      "local": "sources/B/PROCESS_CHECK.json",
+      "bytes": 401,
+      "sha256": "c58c197499342740fe026fb16297b5ca9924f85870281e1e4cc8cabdfa8824dc",
+      "git_blob": "80ae39dc863e1779b8a810889b5b619317c5af08"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/README.md",
+      "local": "sources/B/README.md",
+      "bytes": 2459,
+      "sha256": "7e2471103329c90d252d2542d6e7edc9b09f564e9ad9a2c45f3b5851e5cad05b",
+      "git_blob": "764380d41fd6cc70a19d6c3ba128621998d419ac"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/REFERENCE_PANEL_CONTRACT.json",
+      "local": "sources/B/REFERENCE_PANEL_CONTRACT.json",
+      "bytes": 11636,
+      "sha256": "3e06b5dfb3e9712ed8e861de6806e99af1844d7d3d89b61c963ea51d7a61a66f",
+      "git_blob": "92b814c315e6875b322d634829f87d432891fde7"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/REPORT_B.md",
+      "local": "sources/B/REPORT_B.md",
+      "bytes": 8667,
+      "sha256": "693d60fc69744f7d15660db9826f811209c34e907f032baaaea704d7b586fbed",
+      "git_blob": "02d3fad000a66c37f7315c3bf7f7e5415fb3e126"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/RESULT_B2.json",
+      "local": "sources/B/RESULT_B2.json",
+      "bytes": 10781,
+      "sha256": "51170647925adeca168abf00c85c7c8344012c1f9b5f9a896c16c713e9f57db5",
+      "git_blob": "3234752a4622cf5b2951dc31cf3c20617496c1c5"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/SHA256SUMS.json",
+      "local": "sources/B/SHA256SUMS.json",
+      "bytes": 6191,
+      "sha256": "65527a57cb8a45b69a4853b1092e1d551b85b92c47cbe234a2e0c3ccce7337d2",
+      "git_blob": "3e9ae2459f76f47732da4c88a20bacd782cb6c22"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/SOURCE_RECEIPT.json",
+      "local": "sources/B/SOURCE_RECEIPT.json",
+      "bytes": 6184,
+      "sha256": "ce0491d8d678411ce919956889cd1f676daee70d33a63c2bf8ccac65ef1feb9e",
+      "git_blob": "94cff27de7dc032edb0e953d762f82e6e6664691"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/STRUCTURE_GATES.json",
+      "local": "sources/B/STRUCTURE_GATES.json",
+      "bytes": 697,
+      "sha256": "4b63947bee7ecdabd015741cbb32057418ab8d548a54cb6fa43ee613db27d6d1",
+      "git_blob": "7a810de58512ff0fbb3da96bd8e57aa58d0bd921"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/SYNTHETIC_LOG.txt",
+      "local": "sources/B/SYNTHETIC_LOG.txt",
+      "bytes": 1158,
+      "sha256": "5478ac70147d8758b424b47fff0d0f6290a3497ddbd5f2a47fc6c2217936cf93",
+      "git_blob": "8664c1c9a00e9f1f28ce32fcadf850b0086b7a9e"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/SYNTHETIC_RESULTS.json",
+      "local": "sources/B/SYNTHETIC_RESULTS.json",
+      "bytes": 270,
+      "sha256": "2d633974eb2db4293fd9eb709aaa4b7d350bd8307e688b7db677f595c2437af6",
+      "git_blob": "4ab99fd1bc9a2b06a94dfbf2f8792f4fe23e25e8"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/USER_AUTHORIZATION.md",
+      "local": "sources/B/USER_AUTHORIZATION.md",
+      "bytes": 1453,
+      "sha256": "4632ca38bcbec0ecdd2e07596d09a65346365552b3ab0e0aabd0480282f411b9",
+      "git_blob": "7627f3645f5b19eef28e498378f68d92a40f5a71"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/privacy_check.py",
+      "local": "sources/B/privacy_check.py",
+      "bytes": 8969,
+      "sha256": "9d9b4c93ecb974b8beae59aeef2e5a3a4a893aa1dd6b533e8bb7ad1d6bcef127",
+      "git_blob": "c712360c6e0144422965d176d4f7cb6d9e3f3be4"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/requirements-b2.txt",
+      "local": "sources/B/requirements-b2.txt",
+      "bytes": 370,
+      "sha256": "52bfc470b055c0755287e85d14c53ad259ab871d2d9ce388857104e269cf65a5",
+      "git_blob": "27b1c8574adcfd44315ff147403a03a36bb74393"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/route_b_core.py",
+      "local": "sources/B/route_b_core.py",
+      "bytes": 5156,
+      "sha256": "500deadfad8d10c185ee4a8612aae643cd2ec6d102d8b747f13af94cb4fa2800",
+      "git_blob": "ea9227e901c17fc93f32ad80dfdb36cfd4777137"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/run_b2.py",
+      "local": "sources/B/run_b2.py",
+      "bytes": 21124,
+      "sha256": "155846daeffa4497cfef2ef9484ebffb34b3f70e66001fa48d18d6a37eaa3de2",
+      "git_blob": "c1276a666e7731fa31022d021ec7335c5f9a2ca0"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/test_route_b.py",
+      "local": "sources/B/test_route_b.py",
+      "bytes": 2866,
+      "sha256": "e640147c47e3a9fa31cb883c0bba7e37d8713be673cdd496e8eaf716e997d712",
+      "git_blob": "b8b6b184d748f933c546674217bf82f4c6631725"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/test_runner_faults.py",
+      "local": "sources/B/test_runner_faults.py",
+      "bytes": 3310,
+      "sha256": "a26190b77adb92fbf39603c5d9cb317b5e41d22cf7db173cdf8bb961ae432fd2",
+      "git_blob": "ea36881633230d3bfc7348fbf59c11678878968b"
+    },
+    {
+      "label": "B",
+      "commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/train_reader.py",
+      "local": "sources/B/train_reader.py",
+      "bytes": 3175,
+      "sha256": "f0a82ac9add53e9944a1bf885e413fcde07470908baefb71cce614227c24057b",
+      "git_blob": "e065aeedf3ec955e414e5c789c429fa34f584582"
+    },
+    {
+      "label": "Claude",
+      "commit": "088a71ae8760a57272f68cc2cb538b0a8eecc288",
+      "path": "docs/handoff_20261014_A2B026_CLAUDE_INSTRUCTIONS_R3/INSTRUCTION_ORIGINAL.md",
+      "local": "sources/Claude/INSTRUCTION_ORIGINAL.md",
+      "bytes": 4478,
+      "sha256": "9acf1efc2eefdde9c723b78de5de6184102844cf5af8578cf3598c1939497cc2",
+      "git_blob": "86db5cf33375c310bf035fac0aadf34c70b73a0a"
+    },
+    {
+      "label": "Claude",
+      "commit": "088a71ae8760a57272f68cc2cb538b0a8eecc288",
+      "path": "docs/handoff_20261014_A2B026_CLAUDE_INSTRUCTIONS_R3/SHA256SUMS.json",
+      "local": "sources/Claude/SHA256SUMS.json",
+      "bytes": 99,
+      "sha256": "c78d276eb6e07c05b860631e24966a0cb354cd84cc28529fde23b8c642ea9f4f",
+      "git_blob": "c56d48cc6819ad8b2d0203291ec7fc5ca1e3f468"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_ROUTE_B.md",
+      "local": "sources/R2/PREREG_ROUTE_B.md",
+      "bytes": 12134,
+      "sha256": "4af1466fc05e226d2e5222540afddfff941dd04f7439f123399d84d5be359fb2",
+      "git_blob": "ac314771998b01144762f5c21d1c1a6e76027198"
+    },
+    {
+      "label": "R2",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "path": "docs/handoff_20261014_A2B026_B_CLOSEOUT_ROUTE_B_R2/PREREG_PARAMETERS.json",
+      "local": "sources/R2/PREREG_PARAMETERS.json",
+      "bytes": 4181,
+      "sha256": "7c663c7cb44e11c993ef285860304cc372a2340a6285a4a4fefd6aa80a6c2344",
+      "git_blob": "0cdf6b5e0f3e8ec980ad17967e1e4c61eda572f7"
+    },
+    {
+      "label": "rules",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V3/PROMPT_CODEX.md",
+      "local": "sources/rules/PROMPT_CODEX.md",
+      "bytes": 4765,
+      "sha256": "f77b4e4e978fe378474a3e8520578ec09391f00eab8d6999afcdd87b16917b88",
+      "git_blob": "4818d887feff835f8997876e412c5d4d6c0a39a6"
+    },
+    {
+      "label": "rules",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V3/DELIVERY_REGISTRATION_RULES.md",
+      "local": "sources/rules/DELIVERY_REGISTRATION_RULES.md",
+      "bytes": 4769,
+      "sha256": "fc8a5d194995b7345a62c28561812e3dfe44f4a3b5d5a6a30bc4b800ad2b0eed",
+      "git_blob": "87e60e9ea027c519a9db9936b573da2188c628ed"
+    },
+    {
+      "label": "rules",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V3/SHA256SUMS.json",
+      "local": "sources/rules/SHA256SUMS.json",
+      "bytes": 370,
+      "sha256": "e82e8754979b7318a11163218635e9d29eeca57c7fdb505b05b379ddae6445ab",
+      "git_blob": "89f19fd0f33f44706b401ae9cb55272412ef70c8"
+    }
+  ]
+}

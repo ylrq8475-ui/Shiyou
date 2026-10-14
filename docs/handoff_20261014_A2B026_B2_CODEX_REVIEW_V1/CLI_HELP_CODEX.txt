@@ -1,0 +1,22 @@
+usage: run_b2.py [-h] --archive ARCHIVE --manifest MANIFEST --config CONFIG
+                 --history-lock HISTORY_LOCK
+                 --prereg-parameters PREREG_PARAMETERS
+                 --claude-original CLAUDE_ORIGINAL
+                 --claude-commit CLAUDE_COMMIT --codex-result CODEX_RESULT
+                 --output OUTPUT [--project-src PROJECT_SRC]
+                 [--protected-root PROTECTED_ROOT] [--authorized]
+
+options:
+  -h, --help            show this help message and exit
+  --archive ARCHIVE
+  --manifest MANIFEST
+  --config CONFIG
+  --history-lock HISTORY_LOCK
+  --prereg-parameters PREREG_PARAMETERS
+  --claude-original CLAUDE_ORIGINAL
+  --claude-commit CLAUDE_COMMIT
+  --codex-result CODEX_RESULT
+  --output OUTPUT
+  --project-src PROJECT_SRC
+  --protected-root PROTECTED_ROOT
+  --authorized

@@ -1,0 +1,22 @@
+{
+  "B_existing_tests": 19,
+  "A_additional_tests": 23,
+  "tests_run": 42,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "real_fit_attempts": 0,
+  "actual_model_fits": 0,
+  "actual_preprocessor_fits": 0,
+  "real_data_read": false,
+  "scope": "B numeric and actual-runner function probes plus independent math/calendar/privacy synthetic checks; not a real-data retraining or full failure-run reproduction",
+  "A_runtime": {
+    "python": "3.13.7",
+    "versions": {
+      "numpy": "2.4.3",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.9.1",
+      "PyYAML": "6.0.3"
+    }
+  }
+}

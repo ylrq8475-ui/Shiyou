@@ -1,0 +1,47 @@
+test_budget25 (test_route_b.Contracts.test_budget25) ... ok
+test_class_columns (test_route_b.Contracts.test_class_columns) ... ok
+test_conditional_positive_well_mean (test_route_b.Contracts.test_conditional_positive_well_mean) ... ok
+test_decision_edges (test_route_b.Contracts.test_decision_edges) ... ok
+test_exact_zero (test_route_b.Contracts.test_exact_zero) ... ok
+test_inner_equal_fold_mean (test_route_b.Contracts.test_inner_equal_fold_mean) ... ok
+test_negative_nonfinite_rejected (test_route_b.Contracts.test_negative_nonfinite_rejected) ... ok
+test_one_class (test_route_b.Contracts.test_one_class) ... ok
+test_preprocessing20 (test_route_b.Contracts.test_preprocessing20) ... ok
+test_raw_fallback (test_route_b.Contracts.test_raw_fallback) ... ok
+test_strict_routing (test_route_b.Contracts.test_strict_routing) ... ok
+test_tau_bad_folds (test_route_b.Contracts.test_tau_bad_folds) ... ok
+test_tau_formula (test_route_b.Contracts.test_tau_formula) ... ok
+test_unscaled_weight (test_route_b.Contracts.test_unscaled_weight) ... ok
+test_actual_failed_callback_is_not_retried (test_runner_faults.FaultPaths.test_actual_failed_callback_is_not_retried) ... ok
+test_actual_model_fit_call_cap_blocks_callback (test_runner_faults.FaultPaths.test_actual_model_fit_call_cap_blocks_callback) ... ok
+test_actual_preprocessing_cap_blocks_callback (test_runner_faults.FaultPaths.test_actual_preprocessing_cap_blocks_callback) ... ok
+test_baseline_mismatch_stops_before_following_callback (test_runner_faults.FaultPaths.test_baseline_mismatch_stops_before_following_callback) ... ok
+test_well_overlap_blocks_partition_even_without_row_overlap (test_runner_faults.FaultPaths.test_well_overlap_blocks_partition_even_without_row_overlap) ... ok
+test_epsilon_fixed (test_independent_b2.IndependentNumeric.test_epsilon_fixed) ... ok
+test_equal_wells_not_row_mean_loss (test_independent_b2.IndependentNumeric.test_equal_wells_not_row_mean_loss) ... ok
+test_exact_zero_label_not_near_zero (test_independent_b2.IndependentNumeric.test_exact_zero_label_not_near_zero) ... ok
+test_first_vs_last_weight_no_reversal (test_independent_b2.IndependentNumeric.test_first_vs_last_weight_no_reversal) ... ok
+test_invalid_probability_and_prediction_stop (test_independent_b2.IndependentNumeric.test_invalid_probability_and_prediction_stop) ... ok
+test_missing_or_duplicate_horizon_rejected (test_independent_b2.IndependentNumeric.test_missing_or_duplicate_horizon_rejected) ... ok
+test_no_outer_labels_in_inner_tau_callsite (test_independent_b2.IndependentNumeric.test_no_outer_labels_in_inner_tau_callsite) ... ok
+test_official_two_implementations_against_independent_arithmetic (test_independent_b2.IndependentNumeric.test_official_two_implementations_against_independent_arithmetic) ... ok
+test_positive_well_conditional_weights (test_independent_b2.IndependentNumeric.test_positive_well_conditional_weights) ... ok
+test_shuffled_rows_keep_well_score (test_independent_b2.IndependentNumeric.test_shuffled_rows_keep_well_score) ... ok
+test_strict_threshold_keep_equal_B0 (test_independent_b2.IndependentNumeric.test_strict_threshold_keep_equal_B0) ... ok
+test_tau_equal_three_fold_scalar_not_pooled (test_independent_b2.IndependentNumeric.test_tau_equal_three_fold_scalar_not_pooled) ... ok
+test_unnormalized_total_weight (test_independent_b2.IndependentNumeric.test_unnormalized_total_weight) ... ok
+test_zero_only_inner_fold_stops (test_independent_b2.IndependentNumeric.test_zero_only_inner_fold_stops) ... ok
+test_clean_document_passes (test_independent_b2.IndependentPrivacy.test_clean_document_passes) ... ok
+test_credential_or_private_path_blocks (test_independent_b2.IndependentPrivacy.test_credential_or_private_path_blocks) ... ok
+test_each_marker_type_blocks (test_independent_b2.IndependentPrivacy.test_each_marker_type_blocks) ... ok
+test_anchor_month_and_future_do_not_change_features (test_independent_b2.IndependentWindows.test_anchor_month_and_future_do_not_change_features) ... ok
+test_consecutive_months_segment_last_and_no_first_plan (test_independent_b2.IndependentWindows.test_consecutive_months_segment_last_and_no_first_plan) ... ok
+test_duplicate_well_month_stops (test_independent_b2.IndependentWindows.test_duplicate_well_month_stops) ... ok
+test_missing_target_month_excluded (test_independent_b2.IndependentWindows.test_missing_target_month_excluded) ... ok
+test_natural_months_across_year_and_twelve_targets (test_independent_b2.IndependentWindows.test_natural_months_across_year_and_twelve_targets) ... ok
+test_nonfinite_target_excluded (test_independent_b2.IndependentWindows.test_nonfinite_target_excluded) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.147s
+
+OK
