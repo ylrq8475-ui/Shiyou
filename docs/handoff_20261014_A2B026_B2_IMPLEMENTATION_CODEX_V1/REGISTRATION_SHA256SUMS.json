@@ -1,0 +1,17 @@
+{
+  "snapshot": "6d13f5a364878f625ae1a657b239e5c245cda79d",
+  "files": {
+    "REPORT_CODEX.md": {
+      "bytes": 4189,
+      "sha256": "296c6f483819fc51c73f62f7f576c584aa4106d78ea7f9e5bfc8ee4aaa33ab9b"
+    },
+    "COLLABORATION_REPLY_CODEX.md": {
+      "bytes": 1953,
+      "sha256": "50b1abe461a9726f79b0a6f32d3e476eb97b38cc1a67156836acf8ab44067636"
+    },
+    "REGISTRATION_PRIVACY_CHECK.json": {
+      "bytes": 551,
+      "sha256": "dec408b39dcbf7d7eb7c425aee1a8f6b65c726e9ee3a0324b07874072f152e82"
+    }
+  }
+}
