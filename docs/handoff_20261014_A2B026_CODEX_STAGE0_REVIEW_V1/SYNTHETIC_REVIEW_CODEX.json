@@ -1,0 +1,12 @@
+{
+  "account": "Codex（账户A2）独立审核",
+  "tests_run": 12,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "fit_attempts": 0,
+  "competition_data_read": false,
+  "B_real_entry_executed": false,
+  "reference_sha256": "4fd23c81a3493a354720efc85995ae0ed57ba205056a52d072538dfb0d5f437c",
+  "test_sha256": "e45d3bc15a4a20f825a552a68de361c59b306d0345d5bcbffd4f824128a3fab5"
+}

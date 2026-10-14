@@ -1,0 +1,12 @@
+{
+  "account": "Codex（账户A2）独立审核与交付",
+  "execution": "python -E -B -m unittest test_independent_review -v",
+  "tests_run": 8,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "duration_seconds_reported_by_unittest": 0.020,
+  "competition_data_read": false,
+  "real_model_or_preprocessor_fits": 0,
+  "scope": "official epsilon/weights/equal-well mean; finite zero-budget recovery; leave-one-well median; anchor filtering; nonfinite rejection; finite-grid scope"
+}

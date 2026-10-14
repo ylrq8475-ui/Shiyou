@@ -1,0 +1,17 @@
+test_compare_skips_nonpositive_anchors (test_diagnostics_reference.Tests.test_compare_skips_nonpositive_anchors) ... ok
+test_decision_thresholds_locked (test_diagnostics_reference.Tests.test_decision_thresholds_locked) ... ok
+test_informative_anchor_wins (test_diagnostics_reference.Tests.test_informative_anchor_wins) ... ok
+test_loo_excludes_own_well (test_diagnostics_reference.Tests.test_loo_excludes_own_well) ... ok
+test_perfect_score (test_diagnostics_reference.Tests.test_perfect_score) ... ok
+test_rejects_bad_input (test_diagnostics_reference.Tests.test_rejects_bad_input) ... ok
+test_smooth_oracle_exact_on_smooth_curve (test_diagnostics_reference.Tests.test_smooth_oracle_exact_on_smooth_curve) ... ok
+test_smooth_oracle_penalised_by_noise (test_diagnostics_reference.Tests.test_smooth_oracle_penalised_by_noise) ... ok
+test_uninformative_anchor_does_not_win (test_diagnostics_reference.Tests.test_uninformative_anchor_does_not_win) ... ok
+test_zero_mass_counts (test_diagnostics_reference.Tests.test_zero_mass_counts) ... ok
+test_zero_mass_matches_loss_gain (test_diagnostics_reference.Tests.test_zero_mass_matches_loss_gain) ... ok
+test_zero_oracle_not_worse (test_diagnostics_reference.Tests.test_zero_oracle_not_worse) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 17.635s
+
+OK

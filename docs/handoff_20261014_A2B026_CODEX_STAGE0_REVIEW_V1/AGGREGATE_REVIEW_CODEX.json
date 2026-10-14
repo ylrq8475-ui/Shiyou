@@ -1,0 +1,535 @@
+{
+  "account": "Codex（账户A2）独立审核与交付",
+  "task": "A2B-026阶段0",
+  "B_fixed_commit": "f482b55d403b8cd36e1a6e30d46a4c976b11baf4",
+  "reference_commit": "3256382fb56efecf37f54b4ce3bd4287ffe1f71c",
+  "checks": 122,
+  "all_passed": true,
+  "B_manifest_files_verified": 23,
+  "B_public_files_retrieved": 24,
+  "reference_synthetic_tests": 12,
+  "Codex_real_data_read": false,
+  "Codex_real_fits": 0,
+  "Codex_B_real_entry_executed": false,
+  "real_cohort_counts_and_scores": "B execution evidence; not independently recomputed from raw data",
+  "D0_checks_train": 29079,
+  "D0_checks_test": 3590,
+  "D0_sensitive_train": 0,
+  "D0_sensitive_test": 0,
+  "D1_zero_rows_recomputed_from_aggregates": 12,
+  "D1_weight_budget_recomputed": 2.647870852623457,
+  "D2_score_delta_recomputed": 0.6575098378083339,
+  "D2_first2_loss_delta_recomputed": -0.012319978369051049,
+  "D2_later_month_score_delta_derived": -0.5744879990967711,
+  "D4_finite_grid_scores": {
+    "wells": 81,
+    "smooth_oracle_score": 91.83171614366279,
+    "smooth_plus_zero_oracle_score": 94.47958449937715,
+    "note": "标签神谕：任何输出两参数指数平滑曲线的预测器在完美参数下的上界；不是可部署分数"
+  },
+  "D4_ZERO_budget_minus_observed_gain": 2.496909091487254e-06,
+  "mechanical_decisions_recomputed": {
+    "G_ZERO": "ACTIVATE_ROUTE_B_DESIGN",
+    "G_INFO": "WEAK_OR_UNMET_FIRST2_SIGNAL_NO_AUTOMATIC_EXECUTION",
+    "G_CEIL": "SMOOTH_ZERO_GRID_NOT_REJECTED_AT_90"
+  },
+  "privacy_exact_marker_scan": "B record 98 identifiers and 78 month tokens; Codex does not have private token inventory",
+  "privacy_public_file_count_gap": {
+    "B_record_files": 21,
+    "published_files": 24,
+    "per_file_scan_receipt_available": false
+  },
+  "B_3261_frozen_file_comparison": "aggregate B claim only; per-file before/after manifest absent in this handoff",
+  "B_runtime_dependency_identity": "previous public sources available; current per-module import identity not included",
+  "B_publication_return_receipt": "not included; Codex independently retrieved and verified all B published bytes",
+  "check_results": [
+    {
+      "check": "B_MANIFEST_D0_STRUCTURE.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_D1_ZERO_MASS.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_D2_ANCHOR_COMPARISON.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_D4_SMOOTH_ORACLE.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_EVENTS.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_HANDOFF_TO_CODEX.md",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_PRE_DIAGNOSTIC_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_PRIVACY_RECOVERY.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_PRIVACY_SCAN.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_PROMPT_CODEX_ORIGINAL.md",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_PUBLICATION_PRIVACY_CHECK.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_README.md",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_REPORT_B.md",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_RESULT_STAGE0.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_ROLE_AND_AUTHORIZATION.md",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_run_stage0.py",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_SOURCE_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_STOPPED.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_SYNTHETIC_LOG.txt",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_SYNTHETIC_RESULTS.json",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_test_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "B_MANIFEST_THREE_ACCOUNT_ROLE_RULES_V2.md",
+      "passed": true
+    },
+    {
+      "check": "B_EXACT_FILE_SET",
+      "passed": true
+    },
+    {
+      "check": "roles_SOURCE_HANDOFF_SUMMARY_FOR_NEW_CLAUDE_SESSION.md",
+      "passed": true
+    },
+    {
+      "check": "roles_SOURCE_PROMPT_B.md",
+      "passed": true
+    },
+    {
+      "check": "roles_SOURCE_PROMPT_CLAUDE.md",
+      "passed": true
+    },
+    {
+      "check": "roles_SOURCE_PROMPT_CODEX.md",
+      "passed": true
+    },
+    {
+      "check": "roles_SOURCE_README.md",
+      "passed": true
+    },
+    {
+      "check": "roles_SOURCE_SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "check": "proposal_SOURCE_PRIMARY_EXPERIMENT_DRAFT.md",
+      "passed": true
+    },
+    {
+      "check": "proposal_SOURCE_SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "check": "proposal_SOURCE_reference/diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "proposal_SOURCE_reference/test_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "REFERENCE_BYTES_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "REFERENCE_BYTES_test_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "CODEX_PROMPT_BYTES",
+      "passed": true
+    },
+    {
+      "check": "LOCKED_PROPOSAL_PRIMARY_EXPERIMENT_DRAFT.md",
+      "passed": true
+    },
+    {
+      "check": "LOCKED_PROPOSAL_reference/diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "LOCKED_PROPOSAL_reference/test_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "ACTUAL_PRE_DIAGNOSTIC_BINDING_execution_source_sha256",
+      "passed": true
+    },
+    {
+      "check": "ACTUAL_PRE_DIAGNOSTIC_BINDING_reference_sha256",
+      "passed": true
+    },
+    {
+      "check": "ACTUAL_PRE_DIAGNOSTIC_BINDING_source_receipt_sha256",
+      "passed": true
+    },
+    {
+      "check": "ACTUAL_PRE_DIAGNOSTIC_BINDING_synthetic_sha256",
+      "passed": true
+    },
+    {
+      "check": "ACTUAL_PRE_DIAGNOSTIC_BINDING_role_and_authorization_sha256",
+      "passed": true
+    },
+    {
+      "check": "EVENT_SEQUENCE",
+      "passed": true
+    },
+    {
+      "check": "EVENT_TIME_ORDER",
+      "passed": true
+    },
+    {
+      "check": "SYNTHETIC_BEFORE_DATA_RECORD",
+      "passed": true
+    },
+    {
+      "check": "LOCK_BEFORE_DIAGNOSTIC_SCORES",
+      "passed": true
+    },
+    {
+      "check": "ZERO_FIT_EVENT_1",
+      "passed": true
+    },
+    {
+      "check": "ZERO_FIT_EVENT_2",
+      "passed": true
+    },
+    {
+      "check": "ZERO_FIT_EVENT_3",
+      "passed": true
+    },
+    {
+      "check": "ZERO_FIT_EVENT_4",
+      "passed": true
+    },
+    {
+      "check": "ZERO_FIT_EVENT_5",
+      "passed": true
+    },
+    {
+      "check": "ZERO_FIT_EVENT_6",
+      "passed": true
+    },
+    {
+      "check": "ZERO_FIT_EVENT_7",
+      "passed": true
+    },
+    {
+      "check": "ZERO_FIT_EVENT_8",
+      "passed": true
+    },
+    {
+      "check": "ZERO_FIT_EVENT_9",
+      "passed": true
+    },
+    {
+      "check": "ZERO_FIT_EVENT_10",
+      "passed": true
+    },
+    {
+      "check": "ZERO_FIT_FINAL_RECORD",
+      "passed": true
+    },
+    {
+      "check": "RESULT_BINDING_D0",
+      "passed": true
+    },
+    {
+      "check": "RESULT_BINDING_D1",
+      "passed": true
+    },
+    {
+      "check": "RESULT_BINDING_D2",
+      "passed": true
+    },
+    {
+      "check": "RESULT_BINDING_D4",
+      "passed": true
+    },
+    {
+      "check": "BASELINE_PRIOR_PANEL_IDENTITY",
+      "passed": true
+    },
+    {
+      "check": "PRIOR_325_UNIQUE_ORDERED_FEATURES",
+      "passed": true
+    },
+    {
+      "check": "CANDIDATE_UNCHANGED_feature_order_sha256",
+      "passed": true
+    },
+    {
+      "check": "CANDIDATE_UNCHANGED_feature_dtype_sha256",
+      "passed": true
+    },
+    {
+      "check": "CANDIDATE_UNCHANGED_label_key_frame_sha256",
+      "passed": true
+    },
+    {
+      "check": "D0_train_COUNT",
+      "passed": true
+    },
+    {
+      "check": "D0_train_STRUCTURE",
+      "passed": true
+    },
+    {
+      "check": "D0_train_INVARIANCE_RECORD",
+      "passed": true
+    },
+    {
+      "check": "D0_test_COUNT",
+      "passed": true
+    },
+    {
+      "check": "D0_test_STRUCTURE",
+      "passed": true
+    },
+    {
+      "check": "D0_test_INVARIANCE_RECORD",
+      "passed": true
+    },
+    {
+      "check": "ZERO_HORIZON_INTEGER_1",
+      "passed": true
+    },
+    {
+      "check": "ZERO_HORIZON_INTEGER_2",
+      "passed": true
+    },
+    {
+      "check": "ZERO_HORIZON_INTEGER_3",
+      "passed": true
+    },
+    {
+      "check": "ZERO_HORIZON_INTEGER_4",
+      "passed": true
+    },
+    {
+      "check": "ZERO_HORIZON_INTEGER_5",
+      "passed": true
+    },
+    {
+      "check": "ZERO_HORIZON_INTEGER_6",
+      "passed": true
+    },
+    {
+      "check": "ZERO_HORIZON_INTEGER_7",
+      "passed": true
+    },
+    {
+      "check": "ZERO_HORIZON_INTEGER_8",
+      "passed": true
+    },
+    {
+      "check": "ZERO_HORIZON_INTEGER_9",
+      "passed": true
+    },
+    {
+      "check": "ZERO_HORIZON_INTEGER_10",
+      "passed": true
+    },
+    {
+      "check": "ZERO_HORIZON_INTEGER_11",
+      "passed": true
+    },
+    {
+      "check": "ZERO_HORIZON_INTEGER_12",
+      "passed": true
+    },
+    {
+      "check": "ZERO_FRACTION",
+      "passed": true
+    },
+    {
+      "check": "ZERO_WEIGHT_BUDGET",
+      "passed": true
+    },
+    {
+      "check": "ZERO_AGGREGATE_COUNTS",
+      "passed": true
+    },
+    {
+      "check": "D2_SCORE_DELTA",
+      "passed": true
+    },
+    {
+      "check": "D2_EARLY_LOSS_DELTA",
+      "passed": true
+    },
+    {
+      "check": "D2_COHORT_COUNTS",
+      "passed": true
+    },
+    {
+      "check": "D4_ZERO_GAIN_WITHIN_BUDGET",
+      "passed": true
+    },
+    {
+      "check": "DECISION_DICTIONARY_UNMODIFIED",
+      "passed": true
+    },
+    {
+      "check": "MECHANICAL_G_ZERO",
+      "passed": true
+    },
+    {
+      "check": "MECHANICAL_G_INFO",
+      "passed": true
+    },
+    {
+      "check": "MECHANICAL_G_CEIL",
+      "passed": true
+    },
+    {
+      "check": "STOP_AT_STAGE0_RECORD",
+      "passed": true
+    },
+    {
+      "check": "EXACT_REFERENCE_CALL_zero_month_mass",
+      "passed": true
+    },
+    {
+      "check": "EXACT_REFERENCE_CALL_compare_anchors",
+      "passed": true
+    },
+    {
+      "check": "EXACT_REFERENCE_CALL_smooth_oracle_scores",
+      "passed": true
+    },
+    {
+      "check": "NO_FIT_OR_PREDICT_CALL_IN_REAL_WRAPPER",
+      "passed": true
+    },
+    {
+      "check": "NO_DYNAMIC_EXECUTION",
+      "passed": true
+    },
+    {
+      "check": "STATIC_CONTRACT_period <= m",
+      "passed": true
+    },
+    {
+      "check": "STATIC_CONTRACT_month+1,config",
+      "passed": true
+    },
+    {
+      "check": "STATIC_CONTRACT_features != prior_lock",
+      "passed": true
+    },
+    {
+      "check": "STATIC_CONTRACT_cf==features",
+      "passed": true
+    },
+    {
+      "check": "STATIC_CONTRACT_candidate[meta_cols].equals(original[meta_cols])",
+      "passed": true
+    },
+    {
+      "check": "STATIC_CONTRACT_periods==m+delta",
+      "passed": true
+    },
+    {
+      "check": "STATIC_CONTRACT_DUPLICATE_RAW_ANCHOR_MONTH",
+      "passed": true
+    },
+    {
+      "check": "STATIC_CONTRACT_TARGET_HORIZON_ALIGNMENT",
+      "passed": true
+    },
+    {
+      "check": "STATIC_CONTRACT_TRAIN_TEST_WELL_OVERLAP",
+      "passed": true
+    },
+    {
+      "check": "SYNTHETIC_REFERENCE_IMPORT_SCOPE_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "SYNTHETIC_REFERENCE_IMPORT_SCOPE_test_diagnostics_reference.py",
+      "passed": true
+    },
+    {
+      "check": "INITIAL_PRIVACY_FAILURE_PRESERVED",
+      "passed": true
+    },
+    {
+      "check": "INITIAL_STOP_RECORD_PRESERVED",
+      "passed": true
+    },
+    {
+      "check": "B_RECOVERY_SCAN_RECORD",
+      "passed": true
+    },
+    {
+      "check": "RECOVERY_NO_DIAGNOSTIC_RERUN_RECORD",
+      "passed": true
+    },
+    {
+      "check": "CODEX_INDEPENDENT_PUBLIC_CREDENTIAL_PATTERN_SCAN",
+      "passed": true
+    },
+    {
+      "check": "INITIAL_SELF_PREFIX_FALSE_POSITIVE_REPRODUCIBLE",
+      "passed": true
+    },
+    {
+      "check": "CODEX_ACTUAL_12_REFERENCE_TESTS",
+      "passed": true
+    }
+  ]
+}
