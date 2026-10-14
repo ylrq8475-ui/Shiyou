@@ -1,0 +1,25 @@
+{
+  "role": "Account A2 independent audit",
+  "manual_review_complete": true,
+  "credential_hits": 0,
+  "real_private_marker_inventory_accessed": false,
+  "raw_data_or_models_included": false,
+  "passed": true,
+  "reviewed_files": [
+    {
+      "path": "REPORT_CODEX.md",
+      "bytes": 3752,
+      "sha256": "4da4cc9f992e92b1b27bbe257e3f856169c9b3e44f49ef14c776b400b4b4ea0b"
+    },
+    {
+      "path": "COLLABORATION_REPLY_CODEX.md",
+      "bytes": 2789,
+      "sha256": "f89db009aa026ca71cf888523e170d15df9fcc2a95c540e73bec5a5524949a04"
+    },
+    {
+      "path": "FINDINGS_AND_LIMITS_CODEX.md",
+      "bytes": 4459,
+      "sha256": "305f2c4bee15c8fa3ff11b9b1c66021a656de4f2102265f4f864d984922eb783"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "snapshot": "66dcf0eed6c530fdc2dc6cfa34f74bd75a3ef494",
+  "files": {
+    "REPORT_CODEX.md": {
+      "bytes": 3752,
+      "sha256": "4da4cc9f992e92b1b27bbe257e3f856169c9b3e44f49ef14c776b400b4b4ea0b"
+    },
+    "COLLABORATION_REPLY_CODEX.md": {
+      "bytes": 2789,
+      "sha256": "f89db009aa026ca71cf888523e170d15df9fcc2a95c540e73bec5a5524949a04"
+    },
+    "FINDINGS_AND_LIMITS_CODEX.md": {
+      "bytes": 4459,
+      "sha256": "305f2c4bee15c8fa3ff11b9b1c66021a656de4f2102265f4f864d984922eb783"
+    },
+    "REGISTRATION_PRIVACY_CHECK.json": {
+      "bytes": 714,
+      "sha256": "afe49f83460eaa487b089f87a089db0308452b3a2af0e7086cf84c3b37959672"
+    }
+  }
+}
