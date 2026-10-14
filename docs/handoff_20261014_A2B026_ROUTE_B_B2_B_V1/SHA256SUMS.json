@@ -59,7 +59,7 @@
     {
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PRIVACY_SCAN_RAW.json",
       "bytes": 14433,
-      "sha256": "55663a5cf1197a5185786122e7d2b323c8c64188cf0da5eac87213b8364b0a31"
+      "sha256": "f0021101565f1d1ec32c312adf2ca9e1758c52e80aa7877afc420c3c886532d0"
     },
     {
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PROCESS_CHECK.json",
@@ -78,8 +78,8 @@
     },
     {
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/REPORT_B.md",
-      "bytes": 8229,
-      "sha256": "488b22e658537b1caafe55996610be34ec305189e1239da585ee4ce4c28dd6e6"
+      "bytes": 8240,
+      "sha256": "03386c0c1e46bbb2c32937dd44e981c66c723b43438fd248f2af514987865b25"
     },
     {
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/RESULT_B2.json",

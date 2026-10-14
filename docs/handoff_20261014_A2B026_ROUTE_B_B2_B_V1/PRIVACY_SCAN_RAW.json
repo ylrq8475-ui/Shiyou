@@ -1,7 +1,7 @@
 {
   "role": "账户B执行与交付",
   "task": "A2B-026/路线B-B2",
-  "time": "2026-10-14T17:54:40.440476+08:00",
+  "time": "2026-10-14T18:01:27.974743+08:00",
   "published_files": 29,
   "scan_records": 29,
   "all_pass": true,
@@ -246,8 +246,8 @@
     {
       "record_id": "B2-PRIVACY-016",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/REPORT_B.md",
-      "sha256": "488b22e658537b1caafe55996610be34ec305189e1239da585ee4ce4c28dd6e6",
-      "bytes": 8229,
+      "sha256": "03386c0c1e46bbb2c32937dd44e981c66c723b43438fd248f2af514987865b25",
+      "bytes": 8240,
       "scan_method": "exact existing file bytes",
       "private_marker_hits": {
         "well": 0,
