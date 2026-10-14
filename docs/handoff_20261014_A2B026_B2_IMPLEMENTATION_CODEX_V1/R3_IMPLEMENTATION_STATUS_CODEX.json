@@ -1,0 +1,46 @@
+{
+  "task": "A2B-026 / B2-IMPLEMENTATION",
+  "role": "Codex / Account A2",
+  "reviews_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+  "Claude_instruction_archive_commit": "088a71ae8760a57272f68cc2cb538b0a8eecc288",
+  "verified_archive_sha256": "9acf1efc2eefdde9c723b78de5de6184102844cf5af8578cf3598c1939497cc2",
+  "archive_bytes": 4478,
+  "requirements_checked": 6,
+  "archive_recorded_user_B2_approval": true,
+  "approval_provenance": "R3 instruction archive, not a new approval issued by A",
+  "prior_audit_report_commit": "e5ca2956fd30fdd56bc0f9bc3512076610716226",
+  "correction": "Do not repeat B-2 approval; experiment entry required for all outcomes, standalone train.py required only if delta >= +1.0.",
+  "implementation_status": "UNKNOWN",
+  "priority": "P1",
+  "closed": false,
+  "missing_evidence": [
+    "Actual B2 experiment implementation",
+    "Actual implementation lock",
+    "Executed fit-scope, provenance and stop-path synthetic checks"
+  ],
+  "hard_gates": {
+    "leakage": "UNKNOWN",
+    "alignment": "UNKNOWN",
+    "well_isolation": "UNKNOWN",
+    "metric": "UNKNOWN"
+  },
+  "hard_gate_scope": "B-2 implementation evidence unavailable; not observed violations; parent missing-evidence item P1.",
+  "item_11_closed": true,
+  "verbatim_B2_start_conditions_met_in_archive": true,
+  "CODEX_026B_04": "P3_OPEN_PENDING_VERBATIM_B2_REPORT",
+  "decision_row": "第11项：已关闭；B-2原文启动条件：满足（R3存档批准）；B2-IMPLEMENTATION：UNKNOWN（P1），待实际实现复测；OOF分数差：尚未产生，不套用收益行。",
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "A_real_data_read": false,
+  "no_new_training_authorization_or_plan_change_by_A": true,
+  "reference_checks": 34,
+  "synthetic_reference_tests": 14,
+  "training_budget_unchanged": {
+    "models_max": 25,
+    "preprocessors_max": 20,
+    "retries": 0,
+    "full_fits": 0,
+    "weights_saved": 0
+  },
+  "older_request_superseded": "COLLABORATION_REQUEST_B.md implementation-only approval recommendation is superseded by this R3-aware addendum."
+}

@@ -1,0 +1,25 @@
+{
+  "snapshot": "e5ca2956fd30fdd56bc0f9bc3512076610716226",
+  "files": {
+    "R3_REPORT_CODEX.md": {
+      "bytes": 3407,
+      "sha256": "1a46d0538ab575d9f494340f01769597841e03fcd23d708664d33c4782e745d0"
+    },
+    "R3_COLLABORATION_REQUEST_B.md": {
+      "bytes": 3582,
+      "sha256": "0f13af3b6dbb06c411f934211f5d42ce1682c10536d0d222b60f97961bf3fbbf"
+    },
+    "R3_IMPLEMENTATION_STATUS_CODEX.json": {
+      "bytes": 2118,
+      "sha256": "dec69de00eb1d53d8f27de473946079b4742071b4c011be23a4a2826400974ce"
+    },
+    "verify_r3.py": {
+      "bytes": 3821,
+      "sha256": "6e16087c29a5d3541fe1c4e1442e05c59c79a41b86422ceb8747b90566424551"
+    },
+    "R3_REGISTRATION_PRIVACY_CHECK.json": {
+      "bytes": 872,
+      "sha256": "f9ea09bdc017fe079e85d99704f457a8b4ea318cb8102f811fb2444ec5b0b83d"
+    }
+  }
+}
