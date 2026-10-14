@@ -13,6 +13,18 @@
       "decision_row": "不适用",
       "open_unknowns": ["CODEX-026B-04 P1 待 Codex 依本存档核验", "被审 B 提交 0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9 与用户转发 213b1b465c61d799371e2b4326ebc71922c4f7ee 的关系待 Codex 澄清"],
       "published_at": "2026-10-14T16:45:00+08:00"
+    },
+    {
+      "task": "A2B-026/阶段0收尾+路线B预注册",
+      "role": "Codex",
+      "commit": "09043b08e1b13cb1dda55ab4c644a94781b5528b",
+      "report_path": "docs/handoff_20261014_CODEX026B04_V3_REVIEW_INDEX_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261014_CODEX026B04_V3_REVIEW_INDEX_V1/ITEM04_V3_RESULT_CODEX.json",
+      "reviews_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "hard_gates": "泄漏：通过／错位：通过／井级隔离：通过／指标：通过（本轮文档审核范围，非B-2实施验收）",
+      "decision_row": "CODEX-026B-04：失败（P3），未关闭；第11项：已关闭；B-2启动条件：不满足。",
+      "open_unknowns": [],
+      "published_at": "2026-10-14T17:14:53+08:00"
     }
   ]
 }
