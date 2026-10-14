@@ -1,0 +1,28 @@
+{
+  "reproduced": 73.71410733861434,
+  "reference": 73.71410733861434,
+  "difference": 0.0,
+  "tolerance": 1e-09,
+  "passed": true,
+  "fold_scores": [
+    71.45331390948151,
+    77.53642908897099,
+    75.12924056181325,
+    64.62686399621428,
+    79.96598872591244
+  ],
+  "fits": {
+    "model_entered": 5,
+    "model_completed": 5,
+    "model_failed": 0,
+    "preprocessor_entered": 5,
+    "preprocessor_completed": 5,
+    "preprocessor_failed": 0,
+    "retries": 0,
+    "inner_regressor": 0,
+    "outer_regressor": 5,
+    "outer_classifier": 0,
+    "inner_classifier": 0,
+    "full_fits": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "train_wells": 81,
+  "train_rows": 972,
+  "features": 325,
+  "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+  "outer_split_sha256": "beadb191d075afdd138d6463f0b3a0e03999a76e07641f56ea24ec77e5e4d5f8",
+  "all_outer_inner_well_intersections": 0,
+  "all_target_windows_M_plus_1_to_12": true,
+  "raw_scale_from_legal_cutoff": true,
+  "history_cutoff": "M-1",
+  "cutoff_audit": {
+    "events_checked": 81,
+    "feature_values_checked": 29079,
+    "future_sensitive_feature_count": 0
+  },
+  "test_tables_parsed": 0,
+  "raw_members_byte_verified_only": 100,
+  "train_history_tables_parsed": 88,
+  "archive_extracted_or_copied": false
+}

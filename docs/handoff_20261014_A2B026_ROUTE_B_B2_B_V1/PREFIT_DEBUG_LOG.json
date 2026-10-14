@@ -1,0 +1,16 @@
+{
+  "phase": "implementation preparation before any real fit",
+  "issues": [
+    {
+      "id": "PREP-001",
+      "failure": "private project includes legacy Python modules absent from the public source tree",
+      "resolution": "verify the 18 public oil_uplift source files required by the portable experiment against the actual private files; do not copy or invoke unrelated legacy modules",
+      "changes_to_preregistration": false,
+      "model_fits_entered": 0,
+      "preprocessor_fits_entered": 0,
+      "model_fault_retries": 0,
+      "status": "RESOLVED"
+    }
+  ],
+  "baseline_or_candidate_scores_seen_during_debug": false
+}

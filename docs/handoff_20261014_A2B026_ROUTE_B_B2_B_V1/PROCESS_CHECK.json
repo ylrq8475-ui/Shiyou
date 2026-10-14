@@ -1,0 +1,7 @@
+{
+  "CIM_probe": "UNAVAILABLE: client could not access CIM resources",
+  "matching_B2_processes": "UNKNOWN",
+  "processes_terminated": 0,
+  "execution_control": "Fresh dedicated experiment directory; output created exclusively; runner refuses any existing output directory, preventing duplicate fits/resume under the same execution identity.",
+  "not_a_claim_about_remote_or_hidden_processes": true
+}

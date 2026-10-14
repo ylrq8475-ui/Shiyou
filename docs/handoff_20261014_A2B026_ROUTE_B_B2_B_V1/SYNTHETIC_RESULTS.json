@@ -1,0 +1,10 @@
+{
+  "tests": 14,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "real_model_fits": 0,
+  "real_preprocessor_fits": 0,
+  "test_data_read": false,
+  "purpose": "numeric contracts, single-class interpretation, strict tau routing, official metric, fit caps"
+}

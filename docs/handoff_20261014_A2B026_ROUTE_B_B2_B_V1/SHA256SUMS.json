@@ -1,0 +1,146 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/BASELINE_REPRODUCTION.json",
+      "bytes": 626,
+      "sha256": "b0dc5949a60da7fbf9b25a4e8289c9f00c38cede8e3f289f0d2ccd1d1c60ed5a"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/CLAUDE_INSTRUCTION_ORIGINAL_R3.md",
+      "bytes": 4478,
+      "sha256": "9acf1efc2eefdde9c723b78de5de6184102844cf5af8578cf3598c1939497cc2"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/CODEX_ITEM11_AND_ITEM04_RESULT.json",
+      "bytes": 6165,
+      "sha256": "2f1855cb8bbfc23c7eb2bc3032811c9138a052a35cd22f7eb05297e092990723"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/ENVIRONMENT_LOCK.json",
+      "bytes": 1024,
+      "sha256": "498caae71c7a175b27b498630f3542ee003c7cd4a41eb22591784d5bbbc1a0d4"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/EVENTS.json",
+      "bytes": 59259,
+      "sha256": "d45f5cfb0b9d4985c899331150b4bbc048953ff7b3c7f5a2bf7f5265814746a5"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/FIT_COUNTS.json",
+      "bytes": 309,
+      "sha256": "7a8e135e72e431ba7632b45955541a853c46965416f6ecf5d83151b122dd0f9b"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/IMPLEMENTATION_PREFIT_LOCK.json",
+      "bytes": 35133,
+      "sha256": "bfb5918be8a896bb8c88ba13d9ba7135150b4675e0739340e6138397e2caa746"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/POST_RUN_VERIFICATION.json",
+      "bytes": 782,
+      "sha256": "90f124db771c7b78cee08b8887cd4ca9eee125ec68a530b694cebc3e088c7e11"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PREFIT_DEBUG_LOG.json",
+      "bytes": 636,
+      "sha256": "121a3d4b2cf47b39a76341808d7ccf4efcd0f50e8a1d45a29e18de6d650270f6"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PREREG_PARAMETERS.json",
+      "bytes": 4181,
+      "sha256": "7c663c7cb44e11c993ef285860304cc372a2340a6285a4a4fefd6aa80a6c2344"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "bytes": 6028,
+      "sha256": "03f97e7f0a3876cc1b467829254472a8a79b24e94cd5424f8dddf38cb67dd173"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PRIVACY_SCAN_RAW.json",
+      "bytes": 14433,
+      "sha256": "55663a5cf1197a5185786122e7d2b323c8c64188cf0da5eac87213b8364b0a31"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PROCESS_CHECK.json",
+      "bytes": 401,
+      "sha256": "c58c197499342740fe026fb16297b5ca9924f85870281e1e4cc8cabdfa8824dc"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/README.md",
+      "bytes": 2440,
+      "sha256": "f9ff08813ef826000d9dfc5361695f0d64c3c841fe635c7e53f42dfdd9d4ab0e"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/REFERENCE_PANEL_CONTRACT.json",
+      "bytes": 11636,
+      "sha256": "3e06b5dfb3e9712ed8e861de6806e99af1844d7d3d89b61c963ea51d7a61a66f"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/REPORT_B.md",
+      "bytes": 8229,
+      "sha256": "488b22e658537b1caafe55996610be34ec305189e1239da585ee4ce4c28dd6e6"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/RESULT_B2.json",
+      "bytes": 10781,
+      "sha256": "51170647925adeca168abf00c85c7c8344012c1f9b5f9a896c16c713e9f57db5"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/SOURCE_RECEIPT.json",
+      "bytes": 6184,
+      "sha256": "ce0491d8d678411ce919956889cd1f676daee70d33a63c2bf8ccac65ef1feb9e"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/STRUCTURE_GATES.json",
+      "bytes": 697,
+      "sha256": "4b63947bee7ecdabd015741cbb32057418ab8d548a54cb6fa43ee613db27d6d1"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/SYNTHETIC_LOG.txt",
+      "bytes": 1158,
+      "sha256": "5478ac70147d8758b424b47fff0d0f6290a3497ddbd5f2a47fc6c2217936cf93"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/SYNTHETIC_RESULTS.json",
+      "bytes": 270,
+      "sha256": "2d633974eb2db4293fd9eb709aaa4b7d350bd8307e688b7db677f595c2437af6"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/USER_AUTHORIZATION.md",
+      "bytes": 1453,
+      "sha256": "4632ca38bcbec0ecdd2e07596d09a65346365552b3ab0e0aabd0480282f411b9"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/privacy_check.py",
+      "bytes": 8969,
+      "sha256": "9d9b4c93ecb974b8beae59aeef2e5a3a4a893aa1dd6b533e8bb7ad1d6bcef127"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/requirements-b2.txt",
+      "bytes": 370,
+      "sha256": "52bfc470b055c0755287e85d14c53ad259ab871d2d9ce388857104e269cf65a5"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/route_b_core.py",
+      "bytes": 5156,
+      "sha256": "500deadfad8d10c185ee4a8612aae643cd2ec6d102d8b747f13af94cb4fa2800"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/run_b2.py",
+      "bytes": 21124,
+      "sha256": "155846daeffa4497cfef2ef9484ebffb34b3f70e66001fa48d18d6a37eaa3de2"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/test_route_b.py",
+      "bytes": 2866,
+      "sha256": "e640147c47e3a9fa31cb883c0bba7e37d8713be673cdd496e8eaf716e997d712"
+    },
+    {
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/train_reader.py",
+      "bytes": 3175,
+      "sha256": "f0a82ac9add53e9944a1bf885e413fcde07470908baefb71cce614227c24057b"
+    }
+  ],
+  "self_exclusion": "own digest provided by fixed Git blob and remote byte verification; own serialized content privacy scanned"
+}

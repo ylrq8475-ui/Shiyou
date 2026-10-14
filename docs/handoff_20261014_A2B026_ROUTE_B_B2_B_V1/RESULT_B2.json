@@ -1,0 +1,340 @@
+{
+  "task": "A2B-026/路线B-B2",
+  "role": "账户B执行与交付",
+  "status": "COMPLETED",
+  "started_at": "2026-10-14T17:43:55.408722+08:00",
+  "baseline_reference": 73.71410733861434,
+  "baseline_tolerance": 1e-09,
+  "baseline_reproduced": 73.71410733861434,
+  "baseline_difference": 0.0,
+  "baseline_gate_passed": true,
+  "two_stage_OOF": 73.71410733861434,
+  "OOF 分数差": 0.0,
+  "分数差": 0.0,
+  "threshold_selection_records": [
+    {
+      "outer_fold": 1,
+      "tau": 0.42151794381425073,
+      "l_plus": 0.27133791047288375,
+      "inner_fold_estimates": [
+        {
+          "inner_fold": 1,
+          "training_wells": 42,
+          "validation_wells": 22,
+          "well_intersection": 0,
+          "positive_target_rows": 262,
+          "positive_target_wells": 22,
+          "positive_conditional_weighted_loss": 0.2255215730723604
+        },
+        {
+          "inner_fold": 2,
+          "training_wells": 43,
+          "validation_wells": 21,
+          "well_intersection": 0,
+          "positive_target_rows": 247,
+          "positive_target_wells": 21,
+          "positive_conditional_weighted_loss": 0.262361986603279
+        },
+        {
+          "inner_fold": 3,
+          "training_wells": 43,
+          "validation_wells": 21,
+          "well_intersection": 0,
+          "positive_target_rows": 249,
+          "positive_target_wells": 21,
+          "positive_conditional_weighted_loss": 0.32613017174301184
+        }
+      ],
+      "tau_method": "fixed formula; equal mean of three inner-fold positive conditional losses",
+      "outer_OOF_used_for_tau": false,
+      "inner_classifier_fits": 0,
+      "train_zero_rows": 10,
+      "train_positive_rows": 758,
+      "validation_rows_routed_to_zero": 0,
+      "unrouted_B0_outputs_identical": true
+    },
+    {
+      "outer_fold": 2,
+      "tau": 0.4199181921083662,
+      "l_plus": 0.27610522102976925,
+      "inner_fold_estimates": [
+        {
+          "inner_fold": 1,
+          "training_wells": 43,
+          "validation_wells": 22,
+          "well_intersection": 0,
+          "positive_target_rows": 261,
+          "positive_target_wells": 22,
+          "positive_conditional_weighted_loss": 0.2501754605880332
+        },
+        {
+          "inner_fold": 2,
+          "training_wells": 43,
+          "validation_wells": 22,
+          "well_intersection": 0,
+          "positive_target_rows": 261,
+          "positive_target_wells": 22,
+          "positive_conditional_weighted_loss": 0.26817229911382934
+        },
+        {
+          "inner_fold": 3,
+          "training_wells": 44,
+          "validation_wells": 21,
+          "well_intersection": 0,
+          "positive_target_rows": 249,
+          "positive_target_wells": 21,
+          "positive_conditional_weighted_loss": 0.30996790338744523
+        }
+      ],
+      "tau_method": "fixed formula; equal mean of three inner-fold positive conditional losses",
+      "outer_OOF_used_for_tau": false,
+      "inner_classifier_fits": 0,
+      "train_zero_rows": 9,
+      "train_positive_rows": 771,
+      "validation_rows_routed_to_zero": 0,
+      "unrouted_B0_outputs_identical": true
+    },
+    {
+      "outer_fold": 3,
+      "tau": 0.42190336709844695,
+      "l_plus": 0.270185392741606,
+      "inner_fold_estimates": [
+        {
+          "inner_fold": 1,
+          "training_wells": 43,
+          "validation_wells": 22,
+          "well_intersection": 0,
+          "positive_target_rows": 262,
+          "positive_target_wells": 22,
+          "positive_conditional_weighted_loss": 0.24424234866784922
+        },
+        {
+          "inner_fold": 2,
+          "training_wells": 43,
+          "validation_wells": 22,
+          "well_intersection": 0,
+          "positive_target_rows": 262,
+          "positive_target_wells": 22,
+          "positive_conditional_weighted_loss": 0.26061063540516743
+        },
+        {
+          "inner_fold": 3,
+          "training_wells": 44,
+          "validation_wells": 21,
+          "well_intersection": 0,
+          "positive_target_rows": 246,
+          "positive_target_wells": 21,
+          "positive_conditional_weighted_loss": 0.3057031941518013
+        }
+      ],
+      "tau_method": "fixed formula; equal mean of three inner-fold positive conditional losses",
+      "outer_OOF_used_for_tau": false,
+      "inner_classifier_fits": 0,
+      "train_zero_rows": 10,
+      "train_positive_rows": 770,
+      "validation_rows_routed_to_zero": 0,
+      "unrouted_B0_outputs_identical": true
+    },
+    {
+      "outer_fold": 4,
+      "tau": 0.4267402737227772,
+      "l_plus": 0.2555899984566336,
+      "inner_fold_estimates": [
+        {
+          "inner_fold": 1,
+          "training_wells": 43,
+          "validation_wells": 22,
+          "well_intersection": 0,
+          "positive_target_rows": 263,
+          "positive_target_wells": 22,
+          "positive_conditional_weighted_loss": 0.25096452134888886
+        },
+        {
+          "inner_fold": 2,
+          "training_wells": 43,
+          "validation_wells": 22,
+          "well_intersection": 0,
+          "positive_target_rows": 262,
+          "positive_target_wells": 22,
+          "positive_conditional_weighted_loss": 0.27288546635437627
+        },
+        {
+          "inner_fold": 3,
+          "training_wells": 44,
+          "validation_wells": 21,
+          "well_intersection": 0,
+          "positive_target_rows": 248,
+          "positive_target_wells": 21,
+          "positive_conditional_weighted_loss": 0.24292000766663563
+        }
+      ],
+      "tau_method": "fixed formula; equal mean of three inner-fold positive conditional losses",
+      "outer_OOF_used_for_tau": false,
+      "inner_classifier_fits": 0,
+      "train_zero_rows": 7,
+      "train_positive_rows": 773,
+      "validation_rows_routed_to_zero": 0,
+      "unrouted_B0_outputs_identical": true
+    },
+    {
+      "outer_fold": 5,
+      "tau": 0.4161363731097511,
+      "l_plus": 0.28727128400486257,
+      "inner_fold_estimates": [
+        {
+          "inner_fold": 1,
+          "training_wells": 43,
+          "validation_wells": 22,
+          "well_intersection": 0,
+          "positive_target_rows": 260,
+          "positive_target_wells": 22,
+          "positive_conditional_weighted_loss": 0.32097929808665093
+        },
+        {
+          "inner_fold": 2,
+          "training_wells": 43,
+          "validation_wells": 22,
+          "well_intersection": 0,
+          "positive_target_rows": 261,
+          "positive_target_wells": 22,
+          "positive_conditional_weighted_loss": 0.29190191881368704
+        },
+        {
+          "inner_fold": 3,
+          "training_wells": 44,
+          "validation_wells": 21,
+          "well_intersection": 0,
+          "positive_target_rows": 247,
+          "positive_target_wells": 21,
+          "positive_conditional_weighted_loss": 0.2489326351142498
+        }
+      ],
+      "tau_method": "fixed formula; equal mean of three inner-fold positive conditional losses",
+      "outer_OOF_used_for_tau": false,
+      "inner_classifier_fits": 0,
+      "train_zero_rows": 12,
+      "train_positive_rows": 768,
+      "validation_rows_routed_to_zero": 0,
+      "unrouted_B0_outputs_identical": true
+    }
+  ],
+  "fit_counts": {
+    "model_entered": 25,
+    "model_completed": 25,
+    "model_failed": 0,
+    "preprocessor_entered": 20,
+    "preprocessor_completed": 20,
+    "preprocessor_failed": 0,
+    "retries": 0,
+    "inner_regressor": 15,
+    "outer_regressor": 5,
+    "outer_classifier": 5,
+    "inner_classifier": 0,
+    "full_fits": 0
+  },
+  "hard_gates": {
+    "泄漏": "通过",
+    "错位": "通过",
+    "井级隔离": "通过",
+    "指标": "通过"
+  },
+  "test_labels_read": false,
+  "test_tables_parsed": 0,
+  "test_predictions_generated": 0,
+  "model_weights_loaded": 0,
+  "model_weights_saved": 0,
+  "submission_packages_created": 0,
+  "platform_submissions": 0,
+  "decision_row_B_self_report": "| 分数差 ≤ 0 | 路线 B 淘汰 |",
+  "decision_row_Codex": "不适用（待独立审核）",
+  "Claude_instruction_commit": "088a71ae8760a57272f68cc2cb538b0a8eecc288",
+  "rules_commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+  "preregistration_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+  "startup_original": "启动条件：第 11 项经 Codex 判为\"通过\"，且用户另行批准 B-2。",
+  "historical_dtype": "UNKNOWN",
+  "new_environment_not_historical_identity_claim": true,
+  "baseline_summary": {
+    "official_score": 73.71410733861434,
+    "official_weighted_loss": 0.2628589266138566,
+    "weighted_loss_by_horizon_prefix": {
+      "1": 0.13285967837214752,
+      "2": 0.1981686955169049,
+      "4": 0.24753244803646335,
+      "12": 0.2628589266138566
+    },
+    "wells": 81,
+    "rows": 972
+  },
+  "baseline_fold_scores": [
+    71.45331390948151,
+    77.53642908897099,
+    75.12924056181325,
+    64.62686399621428,
+    79.96598872591244
+  ],
+  "baseline_worst_fold": 64.62686399621428,
+  "baseline_fold_std_ddof0": 5.3550714628641725,
+  "candidate_summary": {
+    "official_score": 73.71410733861434,
+    "official_weighted_loss": 0.2628589266138566,
+    "weighted_loss_by_horizon_prefix": {
+      "1": 0.13285967837214752,
+      "2": 0.1981686955169049,
+      "4": 0.24753244803646335,
+      "12": 0.2628589266138566
+    },
+    "wells": 81,
+    "rows": 972
+  },
+  "candidate_fold_scores": [
+    71.45331390948151,
+    77.53642908897099,
+    75.12924056181325,
+    64.62686399621428,
+    79.96598872591244
+  ],
+  "candidate_worst_fold": 64.62686399621428,
+  "candidate_fold_std_ddof0": 5.3550714628641725,
+  "paired_fold_deltas": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "error_contributions": [
+    {
+      "group": "true_zero_routed",
+      "rows": 0,
+      "wells": 0,
+      "net_official_points": 0.0
+    },
+    {
+      "group": "true_positive_routed",
+      "rows": 0,
+      "wells": 0,
+      "net_official_points": 0.0
+    },
+    {
+      "group": "unrouted",
+      "rows": 972,
+      "wells": 81,
+      "net_official_points": 0.0
+    }
+  ],
+  "routing_counts": {
+    "total_rows_routed": 0,
+    "true_zero_rows_routed": 0,
+    "true_positive_rows_routed": 0,
+    "unrouted_rows": 972,
+    "target_zero_rows": 12
+  },
+  "integrity": {
+    "protected_old_files_checked": 2972,
+    "protected_old_files_unchanged": true,
+    "archive_and_manifest_unchanged": true,
+    "private_config_unchanged": true
+  },
+  "finished_at": "2026-10-14T17:44:11.023901+08:00",
+  "elapsed_seconds": 15.615176799939945
+}

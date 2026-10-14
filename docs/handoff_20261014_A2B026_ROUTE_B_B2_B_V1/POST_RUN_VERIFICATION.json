@@ -1,0 +1,19 @@
+{
+  "model_entries_and_successes": 25,
+  "preprocessor_entries_and_successes": 20,
+  "real_fit_retries": 0,
+  "baseline_before_any_inner_fit_or_classifier": true,
+  "all_taus_frozen_before_classifier_and_candidate_evaluation": true,
+  "baseline_tolerance_passed": true,
+  "all_zero_route_counts": true,
+  "gain_and_contributions_close": true,
+  "all_model_hyperparameters_match_locked_params": true,
+  "old_files_unchanged": {
+    "protected_old_files_checked": 2972,
+    "protected_old_files_unchanged": true,
+    "archive_and_manifest_unchanged": true,
+    "private_config_unchanged": true
+  },
+  "no_real_training_repeated_for_delivery": true,
+  "CODEX_026B_04_startup_sentence_copy": "included verbatim in REPORT_B first body section; awaits Codex signoff"
+}

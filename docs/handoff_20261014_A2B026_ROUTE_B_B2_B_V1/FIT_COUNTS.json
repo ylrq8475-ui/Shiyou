@@ -1,0 +1,14 @@
+{
+  "model_entered": 25,
+  "model_completed": 25,
+  "model_failed": 0,
+  "preprocessor_entered": 20,
+  "preprocessor_completed": 20,
+  "preprocessor_failed": 0,
+  "retries": 0,
+  "inner_regressor": 15,
+  "outer_regressor": 5,
+  "outer_classifier": 5,
+  "inner_classifier": 0,
+  "full_fits": 0
+}
