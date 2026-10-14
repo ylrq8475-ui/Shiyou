@@ -84,6 +84,21 @@
         "PROCESS-PROBE P3 CIM进程查询不可用，本轮新目录独占输出已结束"
       ],
       "published_at": "2026-10-14T18:12:51.553633+08:00"
+    },
+    {
+      "task": "A2B-026/路线B-B2",
+      "role": "Codex",
+      "commit": "8337dec15b82bdd02eae96c5d2d30ede0daef58f",
+      "report_path": "docs/handoff_20261014_A2B026_B2_CODEX_REVIEW_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261014_A2B026_B2_CODEX_REVIEW_V1/RESULT_CODEX.json",
+      "reviews_commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+      "hard_gates": "泄漏：通过／错位：通过／井级隔离：通过／指标：通过（本轮已交付源码、事件/聚合记录及独立合成审核范围，未重训真实OOF）",
+      "decision_row": "| 分数差 ≤ 0 | 路线 B 淘汰 |；CODEX-026B-04已关闭；B2-IMPLEMENTATION/B2-CODEX当前OOF版本已关闭。",
+      "open_unknowns": [
+        "HIST-DTYPE P1 缺原历史逐文件加载dtype身份；当前面板/同分不能替代，既有例外不等于关闭",
+        "PROCESS-PROBE P3 缺B机器CIM进程清单；只审本执行身份，不声称无其他进程"
+      ],
+      "published_at": "2026-10-14T19:19:46+08:00"
     }
   ]
 }
