@@ -1,0 +1,63 @@
+{
+  "public_files": 7,
+  "all_git_blob_and_size_verified": true,
+  "raw_competition_data_read": false,
+  "files": [
+    {
+      "label": "instruction",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "path": "docs/handoff_20261014_A2B026_CLAUDE_INSTRUCTIONS_R2/INSTRUCTION_ORIGINAL.md",
+      "bytes": 4313,
+      "git_blob": "e34edabc0102eaae76f443f0d965f33947952d07",
+      "sha256": "eeeea77137a7d48d2ccd87a045a0a733f472233b26f3a05abc925e4d9034d59c"
+    },
+    {
+      "label": "instruction",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "path": "docs/handoff_20261014_A2B026_CLAUDE_INSTRUCTIONS_R2/SHA256SUMS.json",
+      "bytes": 99,
+      "git_blob": "80728a9f3a9524adcbccc54e2951f70a8066e951",
+      "sha256": "325817da0513ad103d646a93ca439f78c01dce0426654427c70ee34054e12a11"
+    },
+    {
+      "label": "rules",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V3/DELIVERY_REGISTRATION_RULES.md",
+      "bytes": 4769,
+      "git_blob": "87e60e9ea027c519a9db9936b573da2188c628ed",
+      "sha256": "fc8a5d194995b7345a62c28561812e3dfe44f4a3b5d5a6a30bc4b800ad2b0eed"
+    },
+    {
+      "label": "rules",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V3/PROMPT_B.md",
+      "bytes": 3830,
+      "git_blob": "a79aec7298e4a53c5500c403a5056497fc74ac90",
+      "sha256": "421592973ef2240332458c444ed838fbd14bbea8216db831adad8d481b1791a8"
+    },
+    {
+      "label": "rules",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V3/PROMPT_CLAUDE.md",
+      "bytes": 5090,
+      "git_blob": "44592ef5f1d02a67c1bd12d005ddb8220b3e67d1",
+      "sha256": "eac9742e92aaa3b8db6450cea31e7231225fd61a7c79e607bc99f687c79a1070"
+    },
+    {
+      "label": "rules",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V3/PROMPT_CODEX.md",
+      "bytes": 4765,
+      "git_blob": "4818d887feff835f8997876e412c5d4d6c0a39a6",
+      "sha256": "f77b4e4e978fe378474a3e8520578ec09391f00eab8d6999afcdd87b16917b88"
+    },
+    {
+      "label": "rules",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V3/SHA256SUMS.json",
+      "bytes": 370,
+      "git_blob": "89f19fd0f33f44706b401ae9cb55272412ef70c8",
+      "sha256": "e82e8754979b7318a11163218635e9d29eeca57c7fdb505b05b379ddae6445ab"
+    }
+  ]
+}
