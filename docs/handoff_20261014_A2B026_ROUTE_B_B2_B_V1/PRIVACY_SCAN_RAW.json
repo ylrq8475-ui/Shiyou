@@ -1,9 +1,9 @@
 {
   "role": "账户B执行与交付",
   "task": "A2B-026/路线B-B2",
-  "time": "2026-10-14T18:01:27.974743+08:00",
-  "published_files": 29,
-  "scan_records": 29,
+  "time": "2026-10-14T18:09:44.332459+08:00",
+  "published_files": 31,
+  "scan_records": 31,
   "all_pass": true,
   "exemptions": 0,
   "marker_counts": {
@@ -94,6 +94,21 @@
     },
     {
       "record_id": "B2-PRIVACY-006",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/FAULT_INJECTION_RESULTS.json",
+      "sha256": "b98762a963c266691cfb88598c3bd8bd2d39a71050e0c29cf645ab839fe77039",
+      "bytes": 1199,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "B2-PRIVACY-007",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/FIT_COUNTS.json",
       "sha256": "7a8e135e72e431ba7632b45955541a853c46965416f6ecf5d83151b122dd0f9b",
       "bytes": 309,
@@ -108,7 +123,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-007",
+      "record_id": "B2-PRIVACY-008",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/IMPLEMENTATION_PREFIT_LOCK.json",
       "sha256": "bfb5918be8a896bb8c88ba13d9ba7135150b4675e0739340e6138397e2caa746",
       "bytes": 35133,
@@ -123,7 +138,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-008",
+      "record_id": "B2-PRIVACY-009",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/POST_RUN_VERIFICATION.json",
       "sha256": "90f124db771c7b78cee08b8887cd4ca9eee125ec68a530b694cebc3e088c7e11",
       "bytes": 782,
@@ -138,7 +153,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-009",
+      "record_id": "B2-PRIVACY-010",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PREFIT_DEBUG_LOG.json",
       "sha256": "121a3d4b2cf47b39a76341808d7ccf4efcd0f50e8a1d45a29e18de6d650270f6",
       "bytes": 636,
@@ -153,7 +168,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-010",
+      "record_id": "B2-PRIVACY-011",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PREREG_PARAMETERS.json",
       "sha256": "7c663c7cb44e11c993ef285860304cc372a2340a6285a4a4fefd6aa80a6c2344",
       "bytes": 4181,
@@ -168,10 +183,10 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-011",
+      "record_id": "B2-PRIVACY-012",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PRIVACY_COVERAGE_MAP.md",
-      "sha256": "03f97e7f0a3876cc1b467829254472a8a79b24e94cd5424f8dddf38cb67dd173",
-      "bytes": 6028,
+      "sha256": "f87c0bd6b69207bae4e7708f49be263bf6823fd05148ece8ef0a84baee11cee2",
+      "bytes": 6363,
       "scan_method": "exact existing file bytes",
       "private_marker_hits": {
         "well": 0,
@@ -183,7 +198,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-012",
+      "record_id": "B2-PRIVACY-013",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PRIVACY_SCAN_RAW.json",
       "sha256": null,
       "bytes": null,
@@ -199,7 +214,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-013",
+      "record_id": "B2-PRIVACY-014",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/PROCESS_CHECK.json",
       "sha256": "c58c197499342740fe026fb16297b5ca9924f85870281e1e4cc8cabdfa8824dc",
       "bytes": 401,
@@ -214,10 +229,10 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-014",
+      "record_id": "B2-PRIVACY-015",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/README.md",
-      "sha256": "f9ff08813ef826000d9dfc5361695f0d64c3c841fe635c7e53f42dfdd9d4ab0e",
-      "bytes": 2440,
+      "sha256": "7e2471103329c90d252d2542d6e7edc9b09f564e9ad9a2c45f3b5851e5cad05b",
+      "bytes": 2459,
       "scan_method": "exact existing file bytes",
       "private_marker_hits": {
         "well": 0,
@@ -229,7 +244,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-015",
+      "record_id": "B2-PRIVACY-016",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/REFERENCE_PANEL_CONTRACT.json",
       "sha256": "3e06b5dfb3e9712ed8e861de6806e99af1844d7d3d89b61c963ea51d7a61a66f",
       "bytes": 11636,
@@ -244,10 +259,10 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-016",
+      "record_id": "B2-PRIVACY-017",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/REPORT_B.md",
-      "sha256": "03386c0c1e46bbb2c32937dd44e981c66c723b43438fd248f2af514987865b25",
-      "bytes": 8240,
+      "sha256": "693d60fc69744f7d15660db9826f811209c34e907f032baaaea704d7b586fbed",
+      "bytes": 8667,
       "scan_method": "exact existing file bytes",
       "private_marker_hits": {
         "well": 0,
@@ -259,7 +274,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-017",
+      "record_id": "B2-PRIVACY-018",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/RESULT_B2.json",
       "sha256": "51170647925adeca168abf00c85c7c8344012c1f9b5f9a896c16c713e9f57db5",
       "bytes": 10781,
@@ -274,7 +289,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-018",
+      "record_id": "B2-PRIVACY-019",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/SHA256SUMS.json",
       "sha256": null,
       "bytes": null,
@@ -290,7 +305,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-019",
+      "record_id": "B2-PRIVACY-020",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/SOURCE_RECEIPT.json",
       "sha256": "ce0491d8d678411ce919956889cd1f676daee70d33a63c2bf8ccac65ef1feb9e",
       "bytes": 6184,
@@ -305,7 +320,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-020",
+      "record_id": "B2-PRIVACY-021",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/STRUCTURE_GATES.json",
       "sha256": "4b63947bee7ecdabd015741cbb32057418ab8d548a54cb6fa43ee613db27d6d1",
       "bytes": 697,
@@ -320,7 +335,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-021",
+      "record_id": "B2-PRIVACY-022",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/SYNTHETIC_LOG.txt",
       "sha256": "5478ac70147d8758b424b47fff0d0f6290a3497ddbd5f2a47fc6c2217936cf93",
       "bytes": 1158,
@@ -335,7 +350,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-022",
+      "record_id": "B2-PRIVACY-023",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/SYNTHETIC_RESULTS.json",
       "sha256": "2d633974eb2db4293fd9eb709aaa4b7d350bd8307e688b7db677f595c2437af6",
       "bytes": 270,
@@ -350,7 +365,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-023",
+      "record_id": "B2-PRIVACY-024",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/USER_AUTHORIZATION.md",
       "sha256": "4632ca38bcbec0ecdd2e07596d09a65346365552b3ab0e0aabd0480282f411b9",
       "bytes": 1453,
@@ -365,7 +380,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-024",
+      "record_id": "B2-PRIVACY-025",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/privacy_check.py",
       "sha256": "9d9b4c93ecb974b8beae59aeef2e5a3a4a893aa1dd6b533e8bb7ad1d6bcef127",
       "bytes": 8969,
@@ -380,7 +395,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-025",
+      "record_id": "B2-PRIVACY-026",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/requirements-b2.txt",
       "sha256": "52bfc470b055c0755287e85d14c53ad259ab871d2d9ce388857104e269cf65a5",
       "bytes": 370,
@@ -395,7 +410,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-026",
+      "record_id": "B2-PRIVACY-027",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/route_b_core.py",
       "sha256": "500deadfad8d10c185ee4a8612aae643cd2ec6d102d8b747f13af94cb4fa2800",
       "bytes": 5156,
@@ -410,7 +425,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-027",
+      "record_id": "B2-PRIVACY-028",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/run_b2.py",
       "sha256": "155846daeffa4497cfef2ef9484ebffb34b3f70e66001fa48d18d6a37eaa3de2",
       "bytes": 21124,
@@ -425,7 +440,7 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-028",
+      "record_id": "B2-PRIVACY-029",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/test_route_b.py",
       "sha256": "e640147c47e3a9fa31cb883c0bba7e37d8713be673cdd496e8eaf716e997d712",
       "bytes": 2866,
@@ -440,7 +455,22 @@
       "result": "PASS"
     },
     {
-      "record_id": "B2-PRIVACY-029",
+      "record_id": "B2-PRIVACY-030",
+      "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/test_runner_faults.py",
+      "sha256": "a26190b77adb92fbf39603c5d9cb317b5e41d22cf7db173cdf8bb961ae432fd2",
+      "bytes": 3310,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "B2-PRIVACY-031",
       "path": "docs/handoff_20261014_A2B026_ROUTE_B_B2_B_V1/train_reader.py",
       "sha256": "f0a82ac9add53e9944a1bf885e413fcde07470908baefb71cce614227c24057b",
       "bytes": 3175,

@@ -1,0 +1,11 @@
+{
+  "scope": "post-run readonly probes of actual runner AST/functions; not a full simulated training execution",
+  "tests": 5,
+  "passed": true,
+  "real_model_fits": 0,
+  "real_preprocessor_fits": 0,
+  "raw_data_read": false,
+  "run_b2_source_sha256": "155846daeffa4497cfef2ef9484ebffb34b3f70e66001fa48d18d6a37eaa3de2",
+  "test_log": "test_actual_failed_callback_is_not_retried (test_runner_faults.FaultPaths.test_actual_failed_callback_is_not_retried) ... ok\ntest_actual_model_fit_call_cap_blocks_callback (test_runner_faults.FaultPaths.test_actual_model_fit_call_cap_blocks_callback) ... ok\ntest_actual_preprocessing_cap_blocks_callback (test_runner_faults.FaultPaths.test_actual_preprocessing_cap_blocks_callback) ... ok\ntest_baseline_mismatch_stops_before_following_callback (test_runner_faults.FaultPaths.test_baseline_mismatch_stops_before_following_callback) ... ok\ntest_well_overlap_blocks_partition_even_without_row_overlap (test_runner_faults.FaultPaths.test_well_overlap_blocks_partition_even_without_row_overlap) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.002s\n\nOK\n",
+  "actual_experiment_counts_unchanged": true
+}

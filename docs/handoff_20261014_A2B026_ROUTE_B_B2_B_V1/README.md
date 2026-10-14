@@ -4,7 +4,7 @@
 
 在固定提交的完整仓库checkout内运行，保留原src/目录。Python3.13.7及全部依赖版本见requirements-b2.txt。公开SOURCE_RECEIPT.json绑定18份原仓库源码与私有输入摘要，私有输入本身不随代码发布。
 
-先做无拟合检查：`python -B -m unittest -v test_route_b`（在本目录运行）。
+先做无拟合检查：`python -B -m unittest -v test_route_b test_runner_faults`（在本目录运行）。
 
 获授权本地真实复现命令（输出必须是新的空路径；25次森林模型拟合、20次完整ColumnTransformer拟合，子步骤依原Pipeline正常执行，不另计为完整预处理器）：
 
