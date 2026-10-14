@@ -11,10 +11,7 @@
       "reviews_commit": "不适用",
       "hard_gates": "不适用",
       "decision_row": "不适用",
-      "open_unknowns": [
-        "CODEX-026B-04 P1 待 Codex 依本存档核验",
-        "被审 B 提交 0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9 与用户转发 213b1b465c61d799371e2b4326ebc71922c4f7ee 的关系待 Codex 澄清"
-      ],
+      "open_unknowns": ["CODEX-026B-04 P1 待 Codex 依本存档核验", "被审 B 提交 0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9 与用户转发 213b1b465c61d799371e2b4326ebc71922c4f7ee 的关系待 Codex 澄清"],
       "published_at": "2026-10-14T16:45:00+08:00"
     },
     {
