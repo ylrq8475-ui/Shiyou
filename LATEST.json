@@ -1,0 +1,18 @@
+{
+  "rules": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V3/DELIVERY_REGISTRATION_RULES.md @ 0536eafab45b71ffd5f8f0160ee7957f1edd661d（规则 5、6）",
+  "note": "只追加 entries，不修改或删除已有记录。",
+  "entries": [
+    {
+      "task": "A2B-026/阶段0收尾+路线B预注册",
+      "role": "Claude",
+      "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+      "report_path": "docs/handoff_20261014_A2B026_CLAUDE_INSTRUCTIONS_R2/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": ["CODEX-026B-04 P1 待 Codex 依本存档核验", "被审 B 提交 0f4f2295f971fb3d9ff82f31bb5eb2e5b74889f9 与用户转发 213b1b465c61d799371e2b4326ebc71922c4f7ee 的关系待 Codex 澄清"],
+      "published_at": "2026-10-14T16:45:00+08:00"
+    }
+  ]
+}
