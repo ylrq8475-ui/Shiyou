@@ -1,0 +1,33 @@
+{
+  "files": {
+    "比赛规则要求_详细版.md": {
+      "bytes": 53080,
+      "sha256": "6ca5627579a6c17c7a48e4be7808187b6de9528a53d17e88bea04f992e989231"
+    },
+    "README.md": {
+      "bytes": 1843,
+      "sha256": "8f46c2a3f27493c961e50eff7586d49b647ebc93ef76e7dd8becafdfb38862e5"
+    },
+    "RULE_SOURCES.json": {
+      "bytes": 3891,
+      "sha256": "4aaca4617d368efb351705912293489198e6479f001db5dd8c94c5559ed406bb"
+    },
+    "ROUND_SOURCE.json": {
+      "bytes": 545,
+      "sha256": "c66ab16e77b3e3b0c9618d61eb7c74a506d0eb84feee24ad9f6cb2cf7535d0e7"
+    },
+    "RULE_COVERAGE.json": {
+      "bytes": 1633,
+      "sha256": "89e800a884029f7d321108e6ac20b880062939d32e7a42494d220cdf0e767b2e"
+    },
+    "check_rules_document.py": {
+      "bytes": 7136,
+      "sha256": "4a54c85ebb66d5eb7ed6a256d0cdf9be31a853729190978f59f6ce2e6ca8462b"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 560,
+      "sha256": "6acc28d65ba9b52a90e3cb903339b6f5cbb722b56897b0fbb329f43f35aca4ae"
+    }
+  },
+  "manifest_excludes_itself": true
+}

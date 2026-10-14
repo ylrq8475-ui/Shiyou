@@ -1,0 +1,93 @@
+{
+  "author": "账户A2（新接手）独立规则整理与交付",
+  "type": "requirements_compilation_not_model_signoff",
+  "retrieved_at": "2026-10-14T19:46:19+08:00",
+  "sources": [
+    {
+      "source_id": "O1",
+      "title": "赛题详情、数据说明、提交评分和复现",
+      "url": "https://comp.kunlungpt.cn/api/v1/problems/2082723881348444161",
+      "retrieved_at": "2026-10-14T19:46:19+08:00",
+      "response_sha256": "ac619f25acea017449ac9c1466734caaaed3578b3c3d8ecbb8aeba1a6da1ccfd",
+      "official_update_time": "2026-09-10 10:52:42",
+      "text_fields_fully_read": [
+        "description",
+        "datasetDescription",
+        "scoringDimensions"
+      ],
+      "embedded_images_visually_read": 8,
+      "public_dataset_files_downloaded": false
+    },
+    {
+      "source_id": "O2",
+      "title": "赛事整体说明",
+      "url": "https://comp.kunlungpt.cn/api/v1/events/2082273411774775297",
+      "retrieved_at": "2026-10-14T19:46:19+08:00",
+      "response_sha256": "ee1ce6e4ed69f90a69ac8b9425c03b0f8d76ed626253c93d7723180a458a1080",
+      "official_update_time": "2026-09-10 09:36:10",
+      "text_fields_fully_read": [
+        "description"
+      ],
+      "embedded_images_visually_read": 0,
+      "public_dataset_files_downloaded": false
+    },
+    {
+      "source_id": "O3",
+      "title": "2026-09-18 FAQ",
+      "url": "https://comp.kunlungpt.cn/api/v1/notices/2100769017546412034",
+      "retrieved_at": "2026-10-14T19:46:19+08:00",
+      "response_sha256": "797ee92950ede8fd72ccf6ad14af541a84d1d604d37d8994a76183d41ba09548",
+      "status": "published",
+      "official_update_time": "2026-09-18 17:45:37",
+      "pdf_sha256": "b70f6b1f1ea75f97add7c07d6414b442766536164f731e6f8c685553f2695c7c",
+      "pdf_bytes": 148317,
+      "pages_fully_read": 2,
+      "official_pdf_uploaded_to_GitHub": false
+    },
+    {
+      "source_id": "O4",
+      "title": "2026-09-24 代码复现核查公告",
+      "url": "https://comp.kunlungpt.cn/api/v1/notices/2103063178548547586",
+      "retrieved_at": "2026-10-14T19:46:19+08:00",
+      "response_sha256": "42fb5de3b39fd65e27ca2f3d3af305393ffa52425c1be69f2f3c69201df368a2",
+      "status": "published",
+      "official_update_time": "2026-09-24 18:05:09",
+      "pdf_sha256": "e16eb24ded50d323e5f2a67b294d7646d2158b86a5b8c7b8897e59666df59d6c",
+      "pdf_bytes": 145597,
+      "pages_fully_read": 2,
+      "official_pdf_uploaded_to_GitHub": false
+    },
+    {
+      "source_id": "O5",
+      "title": "平台操作指南",
+      "url": "https://comp.kunlungpt.cn/api/v1/notices/2097212921279942657",
+      "retrieved_at": "2026-10-14T19:46:19+08:00",
+      "response_sha256": "71f3ceb7d8abbffa9cbb0e5081d54067727fef1ab7a42c24b4f909326baf9bf5",
+      "status": "published",
+      "official_update_time": "2026-09-15 15:29:47",
+      "pdf_sha256": "9310f829d2d76095558b92ec013cbbfe9726bb194c73d757f295c77ef003e698",
+      "pdf_bytes": 1329428,
+      "pages_fully_read": 6,
+      "official_pdf_uploaded_to_GitHub": false
+    },
+    {
+      "source_id": "O6",
+      "title": "公告目录",
+      "url": "https://comp.kunlungpt.cn/api/v1/notices?pageNum=1&pageSize=100&current=1&size=100",
+      "retrieved_at": "2026-10-14T19:46:19+08:00",
+      "response_sha256": "297f3f9c2c1d3dcfcbe0f68c8a71ed47f03ecc5c2d332a013c7c2eae09e8c1a2",
+      "records": 35,
+      "pages": 1,
+      "published_notices": 7,
+      "related_bug_or_registration_notices_not_automatically_applied_to_this_problem": true
+    }
+  ],
+  "user_confirmed_requirements": "本对话首条已确认赛题口径12项及后续明确执行边界",
+  "project_registration_rule_commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+  "not_all_unseen_future_documents_are_covered": true,
+  "read_competition_data": false,
+  "read_private_config": false,
+  "model_fits": 0,
+  "preprocessing_fits": 0,
+  "official_pdf_text_or_images_redistributed": false
+}

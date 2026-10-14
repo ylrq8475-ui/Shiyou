@@ -1,0 +1,46 @@
+{
+  "account": "A independent audit and delivery",
+  "files": {
+    "ACCOUNT_A_REVIEW.zip": {
+      "bytes": 31971,
+      "sha256": "6bb631e5c889ebd93621debfdd675d04560eafd37cd9be7e1768700879c2da7a"
+    },
+    "ACCOUNT_A_REVIEW.zip.sha256": {
+      "bytes": 87,
+      "sha256": "0251123d634b4f40b958de48e083ba3ef92a259475c904efb0feaa5270a1dafb"
+    },
+    "A_SHA256SUMS.json": {
+      "bytes": 1047,
+      "sha256": "f0beed8a4892261f05ddf426ed41c45c9b829c25c5da1fbb5ed32c832b910154"
+    },
+    "check_rules_document.py": {
+      "bytes": 7136,
+      "sha256": "4a54c85ebb66d5eb7ed6a256d0cdf9be31a853729190978f59f6ce2e6ca8462b"
+    },
+    "PUBLICATION_PRIVACY_CHECK.json": {
+      "bytes": 560,
+      "sha256": "6acc28d65ba9b52a90e3cb903339b6f5cbb722b56897b0fbb329f43f35aca4ae"
+    },
+    "README.md": {
+      "bytes": 1843,
+      "sha256": "8f46c2a3f27493c961e50eff7586d49b647ebc93ef76e7dd8becafdfb38862e5"
+    },
+    "ROUND_SOURCE.json": {
+      "bytes": 545,
+      "sha256": "c66ab16e77b3e3b0c9618d61eb7c74a506d0eb84feee24ad9f6cb2cf7535d0e7"
+    },
+    "RULE_COVERAGE.json": {
+      "bytes": 1633,
+      "sha256": "89e800a884029f7d321108e6ac20b880062939d32e7a42494d220cdf0e767b2e"
+    },
+    "RULE_SOURCES.json": {
+      "bytes": 3891,
+      "sha256": "4aaca4617d368efb351705912293489198e6479f001db5dd8c94c5559ed406bb"
+    },
+    "比赛规则要求_详细版.md": {
+      "bytes": 53080,
+      "sha256": "6ca5627579a6c17c7a48e4be7808187b6de9528a53d17e88bea04f992e989231"
+    }
+  },
+  "manifest_excludes_itself": true
+}

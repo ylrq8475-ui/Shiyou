@@ -1,0 +1,13 @@
+{
+  "source_id": "O7",
+  "url": "https://comp.kunlungpt.cn/api/v1/rounds/2082273373921796098",
+  "response_sha256": "331d75bf745af4b0a1e108060cefc2e2c6e97cb039696276609123f6d453e3f8",
+  "retrieved_at": "2026-10-14T19:56:59+08:00",
+  "round": "初赛",
+  "match_start": "2026-09-08 00:00:00",
+  "match_end": "2026-10-30 00:00:00",
+  "official_update_time": "2026-09-08 14:56:15",
+  "timezone_not_explicit_in_response": true,
+  "start_date_conflict_with_event_narrative_retained": true,
+  "not_a_new_model_audit_or_training_authorization": true
+}
