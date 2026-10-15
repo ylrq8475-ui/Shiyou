@@ -113,6 +113,24 @@
         "项目边界变更：第三方数据与预训练模型禁令已由用户于2026-10-15 15:29取消，改按官方规则；本轮不含外部数据工作"
       ],
       "published_at": "2026-10-15T15:35:00+08:00"
+    },
+    {
+      "task": "A2B-027/阶段0合并诊断",
+      "role": "B",
+      "commit": "a0e762a87352877dde179dc505797c0d1638a757",
+      "report_path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/RESULT_A2B027_STAGE0.json",
+      "reviews_commit": "不适用",
+      "hard_gates": "泄漏：通过／错位：通过／井级隔离：通过／指标：通过（B自报，仅实际执行四项；D-α未执行，Codex终判）",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "A027-OOF-SOURCE P1 Existing exact A2B-013 row-level fixed OOF predictions plus identity; prior runs retained aggregates only. D-alpha not executed.",
+        "HIST-DTYPE P1 Historical per-source loaded dtype identity; expressly nonblocking for this phase under R4",
+        "F0-ZERO-SEMANTICS P2 Official explanation of field-specific zeros/missing values; no unsupported shut-in interpretation or imputation",
+        "F0-ACQUISITION-TIME P2 Original field acquisition/publication timestamps; availability conclusions restricted to versioned M-1 contract",
+        "CODEX-027-REVIEW P1 Independent review of this delivery; B does not self-sign Codex decision rows"
+      ],
+      "published_at": "2026-10-15T16:18:41.343255+08:00"
     }
   ]
 }
