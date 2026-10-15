@@ -99,6 +99,20 @@
         "PROCESS-PROBE P3 缺B机器CIM进程清单；只审本执行身份，不声称无其他进程"
       ],
       "published_at": "2026-10-14T19:19:46+08:00"
+    },
+    {
+      "task": "A2B-027/阶段0合并诊断",
+      "role": "Claude",
+      "commit": "b383fbc3cc7b4c5a382970ecd6234d7b2dcb3c47",
+      "report_path": "docs/handoff_20261015_A2B027_CLAUDE_INSTRUCTIONS_R4/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "项目边界变更：第三方数据与预训练模型禁令已由用户于2026-10-15 15:29取消，改按官方规则；本轮不含外部数据工作"
+      ],
+      "published_at": "2026-10-15T15:35:00+08:00"
     }
   ]
 }
