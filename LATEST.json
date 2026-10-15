@@ -148,6 +148,22 @@
         "F0-ACQUISITION-TIME P2 缺原始取得/发布时间；M−1仅为版本化记录边界"
       ],
       "published_at": "2026-10-15T17:47:23+08:00"
+    },
+    {
+      "task": "A2B-028/029/阶段1对比+基础模型零样本",
+      "role": "Claude",
+      "commit": "5154fd9b0363b2f2a51eda89d6169aa8a90d6580",
+      "report_path": "docs/handoff_20261015_A2B028_029_CLAUDE_INSTRUCTIONS_R5/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "HIST-DTYPE P1 用户例外：以A2B-028 B0复现（容差1e−9）为替代证据，仍未关闭",
+        "A027-OOF-SOURCE P1 由A2B-028 B0复现在内存中解决，D-α随之计算",
+        "F1 85–90区间：用户批准不单独推进路线②"
+      ],
+      "published_at": "2026-10-15T18:05:00+08:00"
     }
   ]
 }
