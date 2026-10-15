@@ -1,0 +1,7 @@
+{
+  "outer_split_sha256": "beadb191d075afdd138d6463f0b3a0e03999a76e07641f56ea24ec77e5e4d5f8",
+  "seed": 20260916,
+  "folds": 5,
+  "algorithm": "GroupKFold(5, shuffle=False)",
+  "source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+}

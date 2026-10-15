@@ -1,0 +1,46 @@
+{
+  "task": "A2B-028/029",
+  "role": "账户B执行与交付",
+  "created_at": "2026-10-15T18:20:33.325124+08:00",
+  "before_real_fit_and_score": true,
+  "approval": "用户2026-10-15 18:00；R5①给B",
+  "instruction_commit": "5154fd9b0363b2f2a51eda89d6169aa8a90d6580",
+  "rules_commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+  "baseline_reference": 73.71410733861434,
+  "baseline_tolerance": 1e-09,
+  "stop_on_B0_mismatch": true,
+  "stop_on_any_fit_failure": true,
+  "model_budget": 20,
+  "preprocessor_budget": 20,
+  "retries": 0,
+  "configs": [
+    "B0",
+    "B0_F0",
+    "B0_AUG",
+    "B0_F0_AUG"
+  ],
+  "folds": "original GroupKFold(5,shuffle=False); model seed 20260916",
+  "features": {
+    "base": 325,
+    "F0_extra": 10,
+    "F0": "five A027 combinations, last valid <=M-1 and mean finite values in natural M-3..M-1",
+    "missing": "original numeric pipeline only, SimpleImputer(median,add_indicator=True)+StandardScaler",
+    "augmentation": "26 prior complete events +6 latest incomplete-well events; per-event cutoff, all validation-well events excluded; append after original training rows; stable well/anchor/step order"
+  },
+  "boundary": "history and raw target scale <=M-1; target M+1..M+12",
+  "metric": "epsilon1e-6; unnormalized2^-t t1..12; per-well then equal-well mean",
+  "Dalpha": "same locked R4 pure calculation; delta1e-6; other-four-fold same-horizon residual samples; zero first candidate; first exact minimum",
+  "Dalpha_limitation": "prescribed cross-estimated diagnostic, not nested model validation; labels of current fold excluded directly but other-fold models may include those wells",
+  "FM_blend_ties": "equal selection score prefers larger baseline w",
+  "selection_simplicity": "within 0.1 of maximum qualifying delta: no FM first; fewer active mechanisms (F0/AUG/ALPHA/FM); fewer added features; no augmentation; no residual adjustment; stable identifier final tie",
+  "decisions_verbatim": {
+    "A2B-028": "| Codex 确认的结果 | 下一步 |\n|---|---|\n| B0 复现失败，或任一硬门禁失败 | 全部停止 |\n| 某候选分数差 ≥ +1.0 且 5 折中 ≥4 折为正 | 该候选成为保留候选；多个达标时取分数差最大者，差距 ≤0.1 时取配置更简单者；建议用户批准打包与平台提交（另行批准） |\n| 最佳候选 0 < 分数差 < +1.0，或达标折数 < 4 | 弱信号，交用户决定，默认不执行 |\n| 所有候选分数差 ≤ 0 | 阶段 1 方向淘汰，维持 A2B-013/B0 |",
+    "A2B-029": "| Codex 确认的结果 | 下一步 |\n|---|---|\n| 零样本得分 < 70 | 关闭方向 ④（本模型） |\n| 零样本 ≥ 70，融合分数差 ≥ +1.0 且 ≥4/5 折为正 | 融合成为保留候选，与 A2B-028 候选按同一规则比较；打包与平台提交另行批准 |\n| 零样本 ≥ 70，但融合未达上一行 | 弱信号，交用户决定，默认不执行 |"
+  },
+  "privacy": "anonymous aggregates only; no row OOF, IDs, calendar months, labels, predictions or raw rows on disk; local IPC only",
+  "historical_dtype": "UNKNOWN P1 under explicit R5 exception, no historical backfill",
+  "external_model": "one fixed pretrained Chronos-Bolt Tiny, no external tabular data",
+  "formal_packages": false,
+  "full_fits_or_model_saving": false,
+  "test_predictions": false
+}

@@ -1,0 +1,8 @@
+{
+  "R5_commit": "5154fd9b0363b2f2a51eda89d6169aa8a90d6580",
+  "R5_SHA256": "66f0f5bf1dfba5e9a3194a8eab051455e9f8e9cb0b2db6714739082ca83d552b",
+  "approved_at": "2026-10-15T18:00:00+08:00",
+  "scope": "execute R5① including baseline replay, 20 fits max and one offline zero-shot model; anonymous GitHub delivery",
+  "R6_independent_addition": "9bec6d563f492f8992337441e58610028dd5127f; zero fits, same-process N4 only",
+  "source": "explicit user messages and fixed Claude instruction archives"
+}

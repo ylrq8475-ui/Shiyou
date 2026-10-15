@@ -1,0 +1,9 @@
+{
+  "score": 73.71410733861434,
+  "reference": 73.71410733861434,
+  "difference": 0.0,
+  "tolerance": 1e-09,
+  "passed": true,
+  "fits": 5,
+  "same_evaluation_code": true
+}

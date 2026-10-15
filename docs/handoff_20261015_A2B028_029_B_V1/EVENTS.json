@@ -1,0 +1,1563 @@
+[
+  {
+    "sequence": 1,
+    "time": "2026-10-15T18:23:46.699926+08:00",
+    "event": "A030_N1_N2_completed_zero_fits",
+    "fit_counts": {
+      "model_entered": 0,
+      "model_completed": 0,
+      "model_failed": 0,
+      "preprocessor_entered": 0,
+      "preprocessor_completed": 0,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    }
+  },
+  {
+    "sequence": 2,
+    "time": "2026-10-15T18:23:49.000885+08:00",
+    "event": "all_structures_and_prereg_locked",
+    "fit_counts": {
+      "model_entered": 0,
+      "model_completed": 0,
+      "model_failed": 0,
+      "preprocessor_entered": 0,
+      "preprocessor_completed": 0,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "aux_events": 32,
+    "aux_rows": 343
+  },
+  {
+    "sequence": 3,
+    "time": "2026-10-15T18:23:49.032793+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 0,
+      "model_completed": 0,
+      "model_failed": 0,
+      "preprocessor_entered": 1,
+      "preprocessor_completed": 0,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 1
+  },
+  {
+    "sequence": 4,
+    "time": "2026-10-15T18:23:49.063241+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 0,
+      "model_completed": 0,
+      "model_failed": 0,
+      "preprocessor_entered": 1,
+      "preprocessor_completed": 1,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 1,
+    "seconds": 0.030063799997151364
+  },
+  {
+    "sequence": 5,
+    "time": "2026-10-15T18:23:49.107208+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 1,
+      "model_completed": 0,
+      "model_failed": 0,
+      "preprocessor_entered": 1,
+      "preprocessor_completed": 1,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 1
+  },
+  {
+    "sequence": 6,
+    "time": "2026-10-15T18:23:49.357043+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 1,
+      "model_completed": 1,
+      "model_failed": 0,
+      "preprocessor_entered": 1,
+      "preprocessor_completed": 1,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 1,
+    "seconds": 0.24944049999612616
+  },
+  {
+    "sequence": 7,
+    "time": "2026-10-15T18:23:49.468712+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 1,
+      "model_completed": 1,
+      "model_failed": 0,
+      "preprocessor_entered": 2,
+      "preprocessor_completed": 1,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 2
+  },
+  {
+    "sequence": 8,
+    "time": "2026-10-15T18:23:49.495322+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 1,
+      "model_completed": 1,
+      "model_failed": 0,
+      "preprocessor_entered": 2,
+      "preprocessor_completed": 2,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 2,
+    "seconds": 0.026199499996437225
+  },
+  {
+    "sequence": 9,
+    "time": "2026-10-15T18:23:49.545670+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 2,
+      "model_completed": 1,
+      "model_failed": 0,
+      "preprocessor_entered": 2,
+      "preprocessor_completed": 2,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 2
+  },
+  {
+    "sequence": 10,
+    "time": "2026-10-15T18:23:49.797408+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 2,
+      "model_completed": 2,
+      "model_failed": 0,
+      "preprocessor_entered": 2,
+      "preprocessor_completed": 2,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 2,
+    "seconds": 0.2514329999976326
+  },
+  {
+    "sequence": 11,
+    "time": "2026-10-15T18:23:49.910802+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 2,
+      "model_completed": 2,
+      "model_failed": 0,
+      "preprocessor_entered": 3,
+      "preprocessor_completed": 2,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 3
+  },
+  {
+    "sequence": 12,
+    "time": "2026-10-15T18:23:49.945729+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 2,
+      "model_completed": 2,
+      "model_failed": 0,
+      "preprocessor_entered": 3,
+      "preprocessor_completed": 3,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 3,
+    "seconds": 0.03462170000420883
+  },
+  {
+    "sequence": 13,
+    "time": "2026-10-15T18:23:49.996578+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 3,
+      "model_completed": 2,
+      "model_failed": 0,
+      "preprocessor_entered": 3,
+      "preprocessor_completed": 3,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 3
+  },
+  {
+    "sequence": 14,
+    "time": "2026-10-15T18:23:50.272734+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 3,
+      "model_completed": 3,
+      "model_failed": 0,
+      "preprocessor_entered": 3,
+      "preprocessor_completed": 3,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 3,
+    "seconds": 0.2753618999995524
+  },
+  {
+    "sequence": 15,
+    "time": "2026-10-15T18:23:50.398577+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 3,
+      "model_completed": 3,
+      "model_failed": 0,
+      "preprocessor_entered": 4,
+      "preprocessor_completed": 3,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 4
+  },
+  {
+    "sequence": 16,
+    "time": "2026-10-15T18:23:50.430263+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 3,
+      "model_completed": 3,
+      "model_failed": 0,
+      "preprocessor_entered": 4,
+      "preprocessor_completed": 4,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 4,
+    "seconds": 0.031261199997970834
+  },
+  {
+    "sequence": 17,
+    "time": "2026-10-15T18:23:50.483798+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 4,
+      "model_completed": 3,
+      "model_failed": 0,
+      "preprocessor_entered": 4,
+      "preprocessor_completed": 4,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 4
+  },
+  {
+    "sequence": 18,
+    "time": "2026-10-15T18:23:50.741437+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 4,
+      "model_completed": 4,
+      "model_failed": 0,
+      "preprocessor_entered": 4,
+      "preprocessor_completed": 4,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 4,
+    "seconds": 0.2569063999981154
+  },
+  {
+    "sequence": 19,
+    "time": "2026-10-15T18:23:50.871268+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 4,
+      "model_completed": 4,
+      "model_failed": 0,
+      "preprocessor_entered": 5,
+      "preprocessor_completed": 4,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 5
+  },
+  {
+    "sequence": 20,
+    "time": "2026-10-15T18:23:50.910646+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 4,
+      "model_completed": 4,
+      "model_failed": 0,
+      "preprocessor_entered": 5,
+      "preprocessor_completed": 5,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 5,
+    "seconds": 0.038543399998161476
+  },
+  {
+    "sequence": 21,
+    "time": "2026-10-15T18:23:50.962153+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 5,
+      "model_completed": 4,
+      "model_failed": 0,
+      "preprocessor_entered": 5,
+      "preprocessor_completed": 5,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 5
+  },
+  {
+    "sequence": 22,
+    "time": "2026-10-15T18:23:51.226342+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 5,
+      "model_completed": 5,
+      "model_failed": 0,
+      "preprocessor_entered": 5,
+      "preprocessor_completed": 5,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0",
+    "fold": 5,
+    "seconds": 0.2637966000038432
+  },
+  {
+    "sequence": 23,
+    "time": "2026-10-15T18:23:51.330569+08:00",
+    "event": "baseline_reproduced",
+    "fit_counts": {
+      "model_entered": 5,
+      "model_completed": 5,
+      "model_failed": 0,
+      "preprocessor_entered": 5,
+      "preprocessor_completed": 5,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "score": 73.71410733861434
+  },
+  {
+    "sequence": 24,
+    "time": "2026-10-15T18:23:51.388961+08:00",
+    "event": "A030_N4_completed_same_process_memory_zero_fits",
+    "fit_counts": {
+      "model_entered": 5,
+      "model_completed": 5,
+      "model_failed": 0,
+      "preprocessor_entered": 5,
+      "preprocessor_completed": 5,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    }
+  },
+  {
+    "sequence": 25,
+    "time": "2026-10-15T18:23:51.439821+08:00",
+    "event": "configuration_and_Dalpha_completed",
+    "fit_counts": {
+      "model_entered": 5,
+      "model_completed": 5,
+      "model_failed": 0,
+      "preprocessor_entered": 5,
+      "preprocessor_completed": 5,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0"
+  },
+  {
+    "sequence": 26,
+    "time": "2026-10-15T18:23:51.474185+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 5,
+      "model_completed": 5,
+      "model_failed": 0,
+      "preprocessor_entered": 6,
+      "preprocessor_completed": 5,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 1
+  },
+  {
+    "sequence": 27,
+    "time": "2026-10-15T18:23:51.506973+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 5,
+      "model_completed": 5,
+      "model_failed": 0,
+      "preprocessor_entered": 6,
+      "preprocessor_completed": 6,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 1,
+    "seconds": 0.03226569999969797
+  },
+  {
+    "sequence": 28,
+    "time": "2026-10-15T18:23:51.560889+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 6,
+      "model_completed": 5,
+      "model_failed": 0,
+      "preprocessor_entered": 6,
+      "preprocessor_completed": 6,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 1
+  },
+  {
+    "sequence": 29,
+    "time": "2026-10-15T18:23:51.799924+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 6,
+      "model_completed": 6,
+      "model_failed": 0,
+      "preprocessor_entered": 6,
+      "preprocessor_completed": 6,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 1,
+    "seconds": 0.23861700000270503
+  },
+  {
+    "sequence": 30,
+    "time": "2026-10-15T18:23:51.922473+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 6,
+      "model_completed": 6,
+      "model_failed": 0,
+      "preprocessor_entered": 7,
+      "preprocessor_completed": 6,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 2
+  },
+  {
+    "sequence": 31,
+    "time": "2026-10-15T18:23:51.950694+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 6,
+      "model_completed": 6,
+      "model_failed": 0,
+      "preprocessor_entered": 7,
+      "preprocessor_completed": 7,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 2,
+    "seconds": 0.0273038999948767
+  },
+  {
+    "sequence": 32,
+    "time": "2026-10-15T18:23:51.999613+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 7,
+      "model_completed": 6,
+      "model_failed": 0,
+      "preprocessor_entered": 7,
+      "preprocessor_completed": 7,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 2
+  },
+  {
+    "sequence": 33,
+    "time": "2026-10-15T18:23:52.261886+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 7,
+      "model_completed": 7,
+      "model_failed": 0,
+      "preprocessor_entered": 7,
+      "preprocessor_completed": 7,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 2,
+    "seconds": 0.26189439999870956
+  },
+  {
+    "sequence": 34,
+    "time": "2026-10-15T18:23:52.375867+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 7,
+      "model_completed": 7,
+      "model_failed": 0,
+      "preprocessor_entered": 8,
+      "preprocessor_completed": 7,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 3
+  },
+  {
+    "sequence": 35,
+    "time": "2026-10-15T18:23:52.402881+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 7,
+      "model_completed": 7,
+      "model_failed": 0,
+      "preprocessor_entered": 8,
+      "preprocessor_completed": 8,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 3,
+    "seconds": 0.026598099997499958
+  },
+  {
+    "sequence": 36,
+    "time": "2026-10-15T18:23:52.487236+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 8,
+      "model_completed": 7,
+      "model_failed": 0,
+      "preprocessor_entered": 8,
+      "preprocessor_completed": 8,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 3
+  },
+  {
+    "sequence": 37,
+    "time": "2026-10-15T18:23:52.755287+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 8,
+      "model_completed": 8,
+      "model_failed": 0,
+      "preprocessor_entered": 8,
+      "preprocessor_completed": 8,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 3,
+    "seconds": 0.2675821000011638
+  },
+  {
+    "sequence": 38,
+    "time": "2026-10-15T18:23:52.881140+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 8,
+      "model_completed": 8,
+      "model_failed": 0,
+      "preprocessor_entered": 9,
+      "preprocessor_completed": 8,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 4
+  },
+  {
+    "sequence": 39,
+    "time": "2026-10-15T18:23:52.924775+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 8,
+      "model_completed": 8,
+      "model_failed": 0,
+      "preprocessor_entered": 9,
+      "preprocessor_completed": 9,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 4,
+    "seconds": 0.043157400003110524
+  },
+  {
+    "sequence": 40,
+    "time": "2026-10-15T18:23:52.979337+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 9,
+      "model_completed": 8,
+      "model_failed": 0,
+      "preprocessor_entered": 9,
+      "preprocessor_completed": 9,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 4
+  },
+  {
+    "sequence": 41,
+    "time": "2026-10-15T18:23:53.251847+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 9,
+      "model_completed": 9,
+      "model_failed": 0,
+      "preprocessor_entered": 9,
+      "preprocessor_completed": 9,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 4,
+    "seconds": 0.2717588000014075
+  },
+  {
+    "sequence": 42,
+    "time": "2026-10-15T18:23:53.383665+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 9,
+      "model_completed": 9,
+      "model_failed": 0,
+      "preprocessor_entered": 10,
+      "preprocessor_completed": 9,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 5
+  },
+  {
+    "sequence": 43,
+    "time": "2026-10-15T18:23:53.422516+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 9,
+      "model_completed": 9,
+      "model_failed": 0,
+      "preprocessor_entered": 10,
+      "preprocessor_completed": 10,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 5,
+    "seconds": 0.03844659999595024
+  },
+  {
+    "sequence": 44,
+    "time": "2026-10-15T18:23:53.475069+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 10,
+      "model_completed": 9,
+      "model_failed": 0,
+      "preprocessor_entered": 10,
+      "preprocessor_completed": 10,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 5
+  },
+  {
+    "sequence": 45,
+    "time": "2026-10-15T18:23:53.742360+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 10,
+      "model_completed": 10,
+      "model_failed": 0,
+      "preprocessor_entered": 10,
+      "preprocessor_completed": 10,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0",
+    "fold": 5,
+    "seconds": 0.26686370000243187
+  },
+  {
+    "sequence": 46,
+    "time": "2026-10-15T18:23:53.887512+08:00",
+    "event": "configuration_and_Dalpha_completed",
+    "fit_counts": {
+      "model_entered": 10,
+      "model_completed": 10,
+      "model_failed": 0,
+      "preprocessor_entered": 10,
+      "preprocessor_completed": 10,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0"
+  },
+  {
+    "sequence": 47,
+    "time": "2026-10-15T18:23:53.931186+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 10,
+      "model_completed": 10,
+      "model_failed": 0,
+      "preprocessor_entered": 11,
+      "preprocessor_completed": 10,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 1
+  },
+  {
+    "sequence": 48,
+    "time": "2026-10-15T18:23:54.037432+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 10,
+      "model_completed": 10,
+      "model_failed": 0,
+      "preprocessor_entered": 11,
+      "preprocessor_completed": 11,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 1,
+    "seconds": 0.04655369999818504
+  },
+  {
+    "sequence": 49,
+    "time": "2026-10-15T18:23:54.084306+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 11,
+      "model_completed": 10,
+      "model_failed": 0,
+      "preprocessor_entered": 11,
+      "preprocessor_completed": 11,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 1
+  },
+  {
+    "sequence": 50,
+    "time": "2026-10-15T18:23:54.420193+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 11,
+      "model_completed": 11,
+      "model_failed": 0,
+      "preprocessor_entered": 11,
+      "preprocessor_completed": 11,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 1,
+    "seconds": 0.33550370000011753
+  },
+  {
+    "sequence": 51,
+    "time": "2026-10-15T18:23:54.529810+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 11,
+      "model_completed": 11,
+      "model_failed": 0,
+      "preprocessor_entered": 12,
+      "preprocessor_completed": 11,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 2
+  },
+  {
+    "sequence": 52,
+    "time": "2026-10-15T18:23:54.569192+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 11,
+      "model_completed": 11,
+      "model_failed": 0,
+      "preprocessor_entered": 12,
+      "preprocessor_completed": 12,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 2,
+    "seconds": 0.03896070000337204
+  },
+  {
+    "sequence": 53,
+    "time": "2026-10-15T18:23:54.616491+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 12,
+      "model_completed": 11,
+      "model_failed": 0,
+      "preprocessor_entered": 12,
+      "preprocessor_completed": 12,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 2
+  },
+  {
+    "sequence": 54,
+    "time": "2026-10-15T18:23:54.944644+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 12,
+      "model_completed": 12,
+      "model_failed": 0,
+      "preprocessor_entered": 12,
+      "preprocessor_completed": 12,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 2,
+    "seconds": 0.32773189999716124
+  },
+  {
+    "sequence": 55,
+    "time": "2026-10-15T18:23:55.072688+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 12,
+      "model_completed": 12,
+      "model_failed": 0,
+      "preprocessor_entered": 13,
+      "preprocessor_completed": 12,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 3
+  },
+  {
+    "sequence": 56,
+    "time": "2026-10-15T18:23:55.108238+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 12,
+      "model_completed": 12,
+      "model_failed": 0,
+      "preprocessor_entered": 13,
+      "preprocessor_completed": 13,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 3,
+    "seconds": 0.0351029999947059
+  },
+  {
+    "sequence": 57,
+    "time": "2026-10-15T18:23:55.157368+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 13,
+      "model_completed": 12,
+      "model_failed": 0,
+      "preprocessor_entered": 13,
+      "preprocessor_completed": 13,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 3
+  },
+  {
+    "sequence": 58,
+    "time": "2026-10-15T18:23:55.521119+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 13,
+      "model_completed": 13,
+      "model_failed": 0,
+      "preprocessor_entered": 13,
+      "preprocessor_completed": 13,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 3,
+    "seconds": 0.3633763999969233
+  },
+  {
+    "sequence": 59,
+    "time": "2026-10-15T18:23:55.641978+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 13,
+      "model_completed": 13,
+      "model_failed": 0,
+      "preprocessor_entered": 14,
+      "preprocessor_completed": 13,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 4
+  },
+  {
+    "sequence": 60,
+    "time": "2026-10-15T18:23:55.683465+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 13,
+      "model_completed": 13,
+      "model_failed": 0,
+      "preprocessor_entered": 14,
+      "preprocessor_completed": 14,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 4,
+    "seconds": 0.041005800005223136
+  },
+  {
+    "sequence": 61,
+    "time": "2026-10-15T18:23:55.728724+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 14,
+      "model_completed": 13,
+      "model_failed": 0,
+      "preprocessor_entered": 14,
+      "preprocessor_completed": 14,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 4
+  },
+  {
+    "sequence": 62,
+    "time": "2026-10-15T18:23:56.077006+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 14,
+      "model_completed": 14,
+      "model_failed": 0,
+      "preprocessor_entered": 14,
+      "preprocessor_completed": 14,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 4,
+    "seconds": 0.3478204999992158
+  },
+  {
+    "sequence": 63,
+    "time": "2026-10-15T18:23:56.199616+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 14,
+      "model_completed": 14,
+      "model_failed": 0,
+      "preprocessor_entered": 15,
+      "preprocessor_completed": 14,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 5
+  },
+  {
+    "sequence": 64,
+    "time": "2026-10-15T18:23:56.235861+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 14,
+      "model_completed": 14,
+      "model_failed": 0,
+      "preprocessor_entered": 15,
+      "preprocessor_completed": 15,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 5,
+    "seconds": 0.03582450000249082
+  },
+  {
+    "sequence": 65,
+    "time": "2026-10-15T18:23:56.283877+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 15,
+      "model_completed": 14,
+      "model_failed": 0,
+      "preprocessor_entered": 15,
+      "preprocessor_completed": 15,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 5
+  },
+  {
+    "sequence": 66,
+    "time": "2026-10-15T18:23:56.705497+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 15,
+      "model_completed": 15,
+      "model_failed": 0,
+      "preprocessor_entered": 15,
+      "preprocessor_completed": 15,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG",
+    "fold": 5,
+    "seconds": 0.36435590000473894
+  },
+  {
+    "sequence": 67,
+    "time": "2026-10-15T18:23:56.858531+08:00",
+    "event": "configuration_and_Dalpha_completed",
+    "fit_counts": {
+      "model_entered": 15,
+      "model_completed": 15,
+      "model_failed": 0,
+      "preprocessor_entered": 15,
+      "preprocessor_completed": 15,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_AUG"
+  },
+  {
+    "sequence": 68,
+    "time": "2026-10-15T18:23:56.904865+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 15,
+      "model_completed": 15,
+      "model_failed": 0,
+      "preprocessor_entered": 16,
+      "preprocessor_completed": 15,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 1
+  },
+  {
+    "sequence": 69,
+    "time": "2026-10-15T18:23:56.947613+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 15,
+      "model_completed": 15,
+      "model_failed": 0,
+      "preprocessor_entered": 16,
+      "preprocessor_completed": 16,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 1,
+    "seconds": 0.04245779999473598
+  },
+  {
+    "sequence": 70,
+    "time": "2026-10-15T18:23:57.000397+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 16,
+      "model_completed": 15,
+      "model_failed": 0,
+      "preprocessor_entered": 16,
+      "preprocessor_completed": 16,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 1
+  },
+  {
+    "sequence": 71,
+    "time": "2026-10-15T18:23:57.338437+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 16,
+      "model_completed": 16,
+      "model_failed": 0,
+      "preprocessor_entered": 16,
+      "preprocessor_completed": 16,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 1,
+    "seconds": 0.3377418000018224
+  },
+  {
+    "sequence": 72,
+    "time": "2026-10-15T18:23:57.475495+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 16,
+      "model_completed": 16,
+      "model_failed": 0,
+      "preprocessor_entered": 17,
+      "preprocessor_completed": 16,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 2
+  },
+  {
+    "sequence": 73,
+    "time": "2026-10-15T18:23:57.521644+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 16,
+      "model_completed": 16,
+      "model_failed": 0,
+      "preprocessor_entered": 17,
+      "preprocessor_completed": 17,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 2,
+    "seconds": 0.045710599995800294
+  },
+  {
+    "sequence": 74,
+    "time": "2026-10-15T18:23:57.583269+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 17,
+      "model_completed": 16,
+      "model_failed": 0,
+      "preprocessor_entered": 17,
+      "preprocessor_completed": 17,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 2
+  },
+  {
+    "sequence": 75,
+    "time": "2026-10-15T18:23:57.931372+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 17,
+      "model_completed": 17,
+      "model_failed": 0,
+      "preprocessor_entered": 17,
+      "preprocessor_completed": 17,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 2,
+    "seconds": 0.34777360000589397
+  },
+  {
+    "sequence": 76,
+    "time": "2026-10-15T18:23:58.059813+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 17,
+      "model_completed": 17,
+      "model_failed": 0,
+      "preprocessor_entered": 18,
+      "preprocessor_completed": 17,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 3
+  },
+  {
+    "sequence": 77,
+    "time": "2026-10-15T18:23:58.102634+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 17,
+      "model_completed": 17,
+      "model_failed": 0,
+      "preprocessor_entered": 18,
+      "preprocessor_completed": 18,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 3,
+    "seconds": 0.04234409999480704
+  },
+  {
+    "sequence": 78,
+    "time": "2026-10-15T18:23:58.148812+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 18,
+      "model_completed": 17,
+      "model_failed": 0,
+      "preprocessor_entered": 18,
+      "preprocessor_completed": 18,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 3
+  },
+  {
+    "sequence": 79,
+    "time": "2026-10-15T18:23:58.569071+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 18,
+      "model_completed": 18,
+      "model_failed": 0,
+      "preprocessor_entered": 18,
+      "preprocessor_completed": 18,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 3,
+    "seconds": 0.36281330000201706
+  },
+  {
+    "sequence": 80,
+    "time": "2026-10-15T18:23:58.690983+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 18,
+      "model_completed": 18,
+      "model_failed": 0,
+      "preprocessor_entered": 19,
+      "preprocessor_completed": 18,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 4
+  },
+  {
+    "sequence": 81,
+    "time": "2026-10-15T18:23:58.727382+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 18,
+      "model_completed": 18,
+      "model_failed": 0,
+      "preprocessor_entered": 19,
+      "preprocessor_completed": 19,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 4,
+    "seconds": 0.035974200000055134
+  },
+  {
+    "sequence": 82,
+    "time": "2026-10-15T18:23:58.772731+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 19,
+      "model_completed": 18,
+      "model_failed": 0,
+      "preprocessor_entered": 19,
+      "preprocessor_completed": 19,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 4
+  },
+  {
+    "sequence": 83,
+    "time": "2026-10-15T18:23:59.131073+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 19,
+      "model_completed": 19,
+      "model_failed": 0,
+      "preprocessor_entered": 19,
+      "preprocessor_completed": 19,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 4,
+    "seconds": 0.35794580000219867
+  },
+  {
+    "sequence": 84,
+    "time": "2026-10-15T18:23:59.250039+08:00",
+    "event": "preprocessor_fit_entered",
+    "fit_counts": {
+      "model_entered": 19,
+      "model_completed": 19,
+      "model_failed": 0,
+      "preprocessor_entered": 20,
+      "preprocessor_completed": 19,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 5
+  },
+  {
+    "sequence": 85,
+    "time": "2026-10-15T18:23:59.287274+08:00",
+    "event": "preprocessor_fit_completed",
+    "fit_counts": {
+      "model_entered": 19,
+      "model_completed": 19,
+      "model_failed": 0,
+      "preprocessor_entered": 20,
+      "preprocessor_completed": 20,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 5,
+    "seconds": 0.0368220999953337
+  },
+  {
+    "sequence": 86,
+    "time": "2026-10-15T18:23:59.332846+08:00",
+    "event": "model_fit_entered",
+    "fit_counts": {
+      "model_entered": 20,
+      "model_completed": 19,
+      "model_failed": 0,
+      "preprocessor_entered": 20,
+      "preprocessor_completed": 20,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 5
+  },
+  {
+    "sequence": 87,
+    "time": "2026-10-15T18:23:59.692455+08:00",
+    "event": "model_fit_completed",
+    "fit_counts": {
+      "model_entered": 20,
+      "model_completed": 20,
+      "model_failed": 0,
+      "preprocessor_entered": 20,
+      "preprocessor_completed": 20,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG",
+    "fold": 5,
+    "seconds": 0.35912780000217026
+  },
+  {
+    "sequence": 88,
+    "time": "2026-10-15T18:23:59.826391+08:00",
+    "event": "configuration_and_Dalpha_completed",
+    "fit_counts": {
+      "model_entered": 20,
+      "model_completed": 20,
+      "model_failed": 0,
+      "preprocessor_entered": 20,
+      "preprocessor_completed": 20,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "config": "B0_F0_AUG"
+  },
+  {
+    "sequence": 89,
+    "time": "2026-10-15T18:23:59.827524+08:00",
+    "event": "FM_offline_inference_started",
+    "fit_counts": {
+      "model_entered": 20,
+      "model_completed": 20,
+      "model_failed": 0,
+      "preprocessor_entered": 20,
+      "preprocessor_completed": 20,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "models": 1,
+    "competition_model_fits": 0
+  },
+  {
+    "sequence": 90,
+    "time": "2026-10-15T18:24:04.645611+08:00",
+    "event": "FM_diagnostic_completed",
+    "fit_counts": {
+      "model_entered": 20,
+      "model_completed": 20,
+      "model_failed": 0,
+      "preprocessor_entered": 20,
+      "preprocessor_completed": 20,
+      "preprocessor_failed": 0,
+      "retries": 0,
+      "FM_model_fits": 0
+    },
+    "zero_shot_score": 56.32468858347801,
+    "blend_score": null
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "history_cutoff": "M-1",
+  "targets": "M+1..M+12",
+  "baseline_cohort_wells": 81,
+  "baseline_rows": 972,
+  "baseline_features": 325,
+  "F0_extra_features": 10,
+  "F0_feature_names": [
+    "f0_C01_last_valid",
+    "f0_C01_mean_calendar3",
+    "f0_C02_last_valid",
+    "f0_C02_mean_calendar3",
+    "f0_C03_last_valid",
+    "f0_C03_mean_calendar3",
+    "f0_C04_last_valid",
+    "f0_C04_mean_calendar3",
+    "f0_C05_last_valid",
+    "f0_C05_mean_calendar3"
+  ],
+  "F0_original_numeric_pipeline_directly_applicable": true,
+  "F0_missing_rule": "original SimpleImputer(median,add_indicator=True) and StandardScaler in each training fold",
+  "cutoff_audit": {
+    "events_checked": 81,
+    "feature_values_checked": 29079,
+    "future_sensitive_feature_count": 0
+  },
+  "auxiliary": {
+    "historical_events": 26,
+    "incomplete_events": 6,
+    "events": 32,
+    "rows": 343,
+    "historical_rows": 312,
+    "incomplete_rows": 31,
+    "m1_labels": 32,
+    "m2_labels": 32,
+    "future_sensitive_features": 0
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "base_training_wells": 64,
+      "validation_wells": 17,
+      "base_training_rows": 768,
+      "aux_training_rows": 259,
+      "aux_events_in_train": 25,
+      "validation_well_intersection_all_events": 0
+    },
+    {
+      "fold": 2,
+      "base_training_wells": 65,
+      "validation_wells": 16,
+      "base_training_rows": 780,
+      "aux_training_rows": 259,
+      "aux_events_in_train": 25,
+      "validation_well_intersection_all_events": 0
+    },
+    {
+      "fold": 3,
+      "base_training_wells": 65,
+      "validation_wells": 16,
+      "base_training_rows": 780,
+      "aux_training_rows": 307,
+      "aux_events_in_train": 29,
+      "validation_well_intersection_all_events": 0
+    },
+    {
+      "fold": 4,
+      "base_training_wells": 65,
+      "validation_wells": 16,
+      "base_training_rows": 780,
+      "aux_training_rows": 295,
+      "aux_events_in_train": 28,
+      "validation_well_intersection_all_events": 0
+    },
+    {
+      "fold": 5,
+      "base_training_wells": 65,
+      "validation_wells": 16,
+      "base_training_rows": 780,
+      "aux_training_rows": 283,
+      "aux_events_in_train": 27,
+      "validation_well_intersection_all_events": 0
+    }
+  ],
+  "split_sha256": "beadb191d075afdd138d6463f0b3a0e03999a76e07641f56ea24ec77e5e4d5f8",
+  "test_tables_parsed": 0,
+  "all_raw_members_verified": 100,
+  "train_tables_parsed": 88,
+  "raw_archive_extracted": false,
+  "FM_origin": "M-1",
+  "FM_generated_steps": 13,
+  "FM_discard_bridge_M": true,
+  "FM_final_target_steps": 12,
+  "FM_native_missing": true
+}

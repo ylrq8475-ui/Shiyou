@@ -1,0 +1,10 @@
+{
+  "model_entered": 20,
+  "model_completed": 20,
+  "model_failed": 0,
+  "preprocessor_entered": 20,
+  "preprocessor_completed": 20,
+  "preprocessor_failed": 0,
+  "retries": 0,
+  "FM_model_fits": 0
+}

@@ -1,0 +1,19 @@
+test_all_missing (test_experiment.Synthetic.test_all_missing) ... ok
+test_alpha_own_fold_label_exclusion (test_experiment.Synthetic.test_alpha_own_fold_label_exclusion) ... ok
+test_blend_own_fold_label_exclusion (test_experiment.Synthetic.test_blend_own_fold_label_exclusion) ... ok
+test_blend_tie_baseline (test_experiment.Synthetic.test_blend_tie_baseline) ... ok
+test_bridge_alignment (test_experiment.Synthetic.test_bridge_alignment) ... ok
+test_calendar_gap_and_cutoff (test_experiment.Synthetic.test_calendar_gap_and_cutoff) ... ok
+test_combo_valid (test_experiment.Synthetic.test_combo_valid) ... ok
+test_complexity_tie (test_experiment.Synthetic.test_complexity_tie) ... ok
+test_metric_weights (test_experiment.Synthetic.test_metric_weights) ... ok
+test_metric_zero (test_experiment.Synthetic.test_metric_zero) ... ok
+test_negative_prediction_rejected (test_experiment.Synthetic.test_negative_prediction_rejected) ... ok
+test_prefix_no_normalizing (test_experiment.Synthetic.test_prefix_no_normalizing) ... ok
+test_segment_collapse (test_experiment.Synthetic.test_segment_collapse) ... ok
+test_selection_failed (test_experiment.Synthetic.test_selection_failed) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.163s
+
+OK
