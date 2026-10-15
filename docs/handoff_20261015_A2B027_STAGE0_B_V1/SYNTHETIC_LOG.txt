@@ -1,0 +1,21 @@
+test_alpha_does_not_use_own_fold_labels (test_diagnostics.DiagnosticTests.test_alpha_does_not_use_own_fold_labels) ... ok
+test_alpha_zero_candidate (test_diagnostics.DiagnosticTests.test_alpha_zero_candidate) ... ok
+test_contiguous_event_segment (test_diagnostics.DiagnosticTests.test_contiguous_event_segment) ... ok
+test_first_month_half (test_diagnostics.DiagnosticTests.test_first_month_half) ... ok
+test_gamma_min_five (test_diagnostics.DiagnosticTests.test_gamma_min_five) ... ok
+test_gamma_no_gap_bridging (test_diagnostics.DiagnosticTests.test_gamma_no_gap_bridging) ... ok
+test_historical_event (test_diagnostics.DiagnosticTests.test_historical_event) ... ok
+test_locked_thresholds (test_diagnostics.DiagnosticTests.test_locked_thresholds) ... ok
+test_no_gap_or_refracture (test_diagnostics.DiagnosticTests.test_no_gap_or_refracture) ... ok
+test_perfect_score (test_diagnostics.DiagnosticTests.test_perfect_score) ... ok
+test_projection_fixed_basis (test_diagnostics.DiagnosticTests.test_projection_fixed_basis) ... ok
+test_projection_inverse_scale_clip (test_diagnostics.DiagnosticTests.test_projection_inverse_scale_clip) ... ok
+test_shape_boundaries (test_diagnostics.DiagnosticTests.test_shape_boundaries) ... ok
+test_unknown_not_zero (test_diagnostics.DiagnosticTests.test_unknown_not_zero) ... ok
+test_well_equal_not_fold_equal (test_diagnostics.DiagnosticTests.test_well_equal_not_fold_equal) ... ok
+test_zero_and_weights (test_diagnostics.DiagnosticTests.test_zero_and_weights) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.007s
+
+OK

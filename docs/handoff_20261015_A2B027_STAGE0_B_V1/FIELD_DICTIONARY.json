@@ -1,0 +1,15 @@
+{
+  "source": "official problem datasetDescription, history dictionary image",
+  "problem_response_sha256": "ac619f25acea017449ac9c1466734caaaed3578b3c3d8ecbb8aeba1a6da1ccfd",
+  "dictionary_image_sha256": "7a3a8c512684e3434895381333441908139d096d63fb9c6badcb41ed15fd7004",
+  "verified": "B visually read original dictionary through a local display resize; original bytes retained, not uploaded",
+  "zero_or_missing_business_meaning": "UNKNOWN: dictionary names/units do not specify missing, shut-in or zero-value semantics",
+  "fields": [
+    ["WELL_ID","井号","/"],["NY","日期","年/月/日"],["CYFS","采油方式","/"],
+    ["SCTS","生产天数","天"],["BJ","泵径","mm"],["CC","冲程","米"],["CC1","冲次","次"],
+    ["PL","理论排量","m³/d"],["BX","泵效","%"],["YY","油压","MPa"],["TY","套压","MPa"],["LY","流压","MPa"],
+    ["RCYL1","日产液","t"],["RCYL","日产油","t"],["HS","含水","%"],["CMD","沉没度","m"],
+    ["CCJHWND","采聚浓度","mg/l"],["CCJND","采碱浓度","mg/l"],["CCBHJND","采表浓度","mg/l"],["CCYND","采出液粘度","mPa.s"],
+    ["SXDL","上电流","A"],["XXDL","下电流","A"],["YCYL1","月产液量","t"],["YCYL","月产油量","t"],["HSYCYL","核实产油量","t"],["NCYL","年产油量","t"],["LJCYL","累计产油量","t"],["CSLB","措施类型","/"],["BZ","备注","/"]
+  ]
+}

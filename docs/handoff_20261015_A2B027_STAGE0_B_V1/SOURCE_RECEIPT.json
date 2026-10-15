@@ -1,0 +1,158 @@
+{
+  "R4": {
+    "commit": "b383fbc3cc7b4c5a382970ecd6234d7b2dcb3c47",
+    "path": "docs/handoff_20261015_A2B027_CLAUDE_INSTRUCTIONS_R4/INSTRUCTION_ORIGINAL.md",
+    "sha256": "523dbf070126f03592e39714076a67ba4295837cf89f2317746b7c9c693a6e62",
+    "bytes": 8761
+  },
+  "rules": {
+    "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+    "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V3/DELIVERY_REGISTRATION_RULES.md",
+    "sha256": "fc8a5d194995b7345a62c28561812e3dfe44f4a3b5d5a6a30bc4b800ad2b0eed",
+    "bytes": 4769
+  },
+  "rules_compilation": {
+    "commit": "8b112a767a3355a1ea208038915028ba4c4525e4",
+    "path": "docs/handoff_20261014_COMPETITION_RULES_A2_V1/比赛规则要求_详细版.md",
+    "sha256": "6ca5627579a6c17c7a48e4be7808187b6de9528a53d17e88bea04f992e989231",
+    "bytes": 53080
+  },
+  "prior_Codex": {
+    "commit": "8337dec15b82bdd02eae96c5d2d30ede0daef58f",
+    "path": "docs/handoff_20261014_A2B026_B2_CODEX_REVIEW_V1/RESULT_CODEX.json",
+    "sha256": "ed6adbc022fd2a7c219032ed7d44337dab286a5e312095e4fb1a4ae0ffdf4541",
+    "bytes": 9436
+  },
+  "index": {
+    "commit": "c454371af7775f5c8be61487edacd493aa42d117",
+    "path": "LATEST.json",
+    "sha256": "5ae770ed99a229ff137c1ace441a4644f3b4efb0d84c6e0bc4294b50e4027553",
+    "bytes": 6916
+  },
+  "OFFICIAL_PROBLEM.json": {
+    "sha256": "ac619f25acea017449ac9c1466734caaaed3578b3c3d8ecbb8aeba1a6da1ccfd",
+    "bytes": 33537,
+    "scope": "official documentation only, not third-party training data"
+  },
+  "OFFICIAL_HISTORY_DICTIONARY.png": {
+    "sha256": "7a3a8c512684e3434895381333441908139d096d63fb9c6badcb41ed15fd7004",
+    "bytes": 3020248,
+    "scope": "official documentation only, not third-party training data"
+  },
+  "project_sources": [
+    {
+      "path": "oil_uplift/__init__.py",
+      "sha256": "b14e51df20e0d8c8e2abc3646d6cac8e26e015a797f3fa5138fb1f2c20bde30c",
+      "bytes": 82,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/a2b013_safe.py",
+      "sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+      "bytes": 24524,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/audit.py",
+      "sha256": "ae53436673a16231dd369efcffa64a8e3c4174fe30561605629915c6796a186e",
+      "bytes": 2832,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/cli.py",
+      "sha256": "ddd0adbbbc7f3aa6ede42b0905d0095c834fbd0b44987bfae2a02b53e414a586",
+      "bytes": 4106,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/config.py",
+      "sha256": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68",
+      "bytes": 2549,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/exceptions.py",
+      "sha256": "2b3aef27c352bad4558d98ca964d21f4881468e6a63c4bc3ff7bc919a7ad26c9",
+      "bytes": 548,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/features.py",
+      "sha256": "c5de3716c20bdeaace0a39fbccdc8dfbddb2c7e4d870b434646bd7cf10733a31",
+      "bytes": 2620,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/inference.py",
+      "sha256": "0e86aad755d07e7b2e5417c27a34cf06551ba57c81aaa1e445fb480089f1e550",
+      "bytes": 2986,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/io.py",
+      "sha256": "cf788f19399b7a867260a5a4f84bb630735a639410fc17092244ebcb9bcd18c3",
+      "bytes": 4910,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/labels.py",
+      "sha256": "c846986c476b5f6237fffa78887406246c88a913b97aeeb5df0db22192fd2331",
+      "bytes": 4112,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/models.py",
+      "sha256": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02",
+      "bytes": 3013,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/multistep.py",
+      "sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b",
+      "bytes": 22790,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/packaging.py",
+      "sha256": "cba1b708a8ffd5a27aadd98f8375f79996864e766af7548bca18e14088db0bab",
+      "bytes": 5386,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/schema.py",
+      "sha256": "e934320d2960c0ce583df11bc88b279250e21e4b5a94866bae0df14014bc7898",
+      "bytes": 4507,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/scoring.py",
+      "sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235",
+      "bytes": 9223,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/submission.py",
+      "sha256": "d39b25ce75b452a9bf7dcb439aa1a68bdc3bbb822b9e9a2f56cd0565f1502612",
+      "bytes": 5778,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/training.py",
+      "sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+      "bytes": 19812,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    },
+    {
+      "path": "oil_uplift/validation.py",
+      "sha256": "c4d5355962a64b169aff736ebe846c53bda80e8159c8f383c7739d62e4a49a7e",
+      "bytes": 5114,
+      "public_git_source_commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee"
+    }
+  ],
+  "raw_input_hashes": {
+    "archive": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+    "manifest": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f"
+  },
+  "private_config_sha256": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72",
+  "historical_dtype": "UNKNOWN; no historical identity claim"
+}

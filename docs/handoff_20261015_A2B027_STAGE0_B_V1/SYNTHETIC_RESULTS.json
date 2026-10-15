@@ -1,0 +1,7 @@
+{
+  "tests": 16,
+  "passed": true,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "SVD_calls": 0
+}

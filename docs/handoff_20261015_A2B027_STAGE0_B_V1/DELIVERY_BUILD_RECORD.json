@@ -1,0 +1,16 @@
+{
+  "role": "账户B执行与交付",
+  "task": "A2B-027/阶段0",
+  "result_original_bytes_preserved": true,
+  "real_model_fits": 0,
+  "real_SVD_fits": 5,
+  "extra_fits_for_delivery": 0,
+  "zip_created": false,
+  "raw_official_dictionary_not_redistributed": true,
+  "Dalpha_not_executed_not_zero_gain": true,
+  "pending_change_not_treated_as_approval": true,
+  "prior_reader_dependencies_exact_bytes": {
+    "train_reader.py": "f0a82ac9add53e9944a1bf885e413fcde07470908baefb71cce614227c24057b",
+    "route_b_core.py": "500deadfad8d10c185ee4a8612aae643cd2ec6d102d8b747f13af94cb4fa2800"
+  }
+}

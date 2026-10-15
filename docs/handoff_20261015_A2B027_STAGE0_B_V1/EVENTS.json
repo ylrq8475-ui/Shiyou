@@ -1,0 +1,272 @@
+[
+  {
+    "sequence": 1,
+    "time": "2026-10-15T15:48:07.047432+08:00",
+    "event": "synthetic_checks_passed_before_competition_data",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 0,
+      "preprocessor_fit_completed": 0,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "tests": 16
+  },
+  {
+    "sequence": 2,
+    "time": "2026-10-15T15:48:12.961598+08:00",
+    "event": "identity_structure_and_plan_locked",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 0,
+      "preprocessor_fit_completed": 0,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    }
+  },
+  {
+    "sequence": 3,
+    "time": "2026-10-15T15:48:13.009779+08:00",
+    "event": "F0_completed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 0,
+      "preprocessor_fit_completed": 0,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "F0_combo_pass_count": 5
+  },
+  {
+    "sequence": 4,
+    "time": "2026-10-15T15:48:13.045649+08:00",
+    "event": "Dbeta_and_Dgamma_completed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 0,
+      "preprocessor_fit_completed": 0,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "Dbeta_increase_m1": 0.3950617283950617,
+    "Dbeta_increase_m2": 0.3950617283950617,
+    "Dgamma_share": 0.050060050636717125,
+    "Dgamma_lag1": 0.07502337743932876
+  },
+  {
+    "sequence": 5,
+    "time": "2026-10-15T15:48:13.049440+08:00",
+    "event": "F1_training_SVD_entered",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 1,
+      "preprocessor_fit_completed": 0,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "fold": 1,
+    "training_wells": 64,
+    "validation_wells": 17
+  },
+  {
+    "sequence": 6,
+    "time": "2026-10-15T15:48:13.050926+08:00",
+    "event": "F1_training_SVD_completed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 1,
+      "preprocessor_fit_completed": 1,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "fold": 1
+  },
+  {
+    "sequence": 7,
+    "time": "2026-10-15T15:48:13.053586+08:00",
+    "event": "F1_training_SVD_entered",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 2,
+      "preprocessor_fit_completed": 1,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "fold": 2,
+    "training_wells": 65,
+    "validation_wells": 16
+  },
+  {
+    "sequence": 8,
+    "time": "2026-10-15T15:48:13.054133+08:00",
+    "event": "F1_training_SVD_completed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 2,
+      "preprocessor_fit_completed": 2,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "fold": 2
+  },
+  {
+    "sequence": 9,
+    "time": "2026-10-15T15:48:13.055813+08:00",
+    "event": "F1_training_SVD_entered",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 3,
+      "preprocessor_fit_completed": 2,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "fold": 3,
+    "training_wells": 65,
+    "validation_wells": 16
+  },
+  {
+    "sequence": 10,
+    "time": "2026-10-15T15:48:13.056324+08:00",
+    "event": "F1_training_SVD_completed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 3,
+      "preprocessor_fit_completed": 3,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "fold": 3
+  },
+  {
+    "sequence": 11,
+    "time": "2026-10-15T15:48:13.057980+08:00",
+    "event": "F1_training_SVD_entered",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 4,
+      "preprocessor_fit_completed": 3,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "fold": 4,
+    "training_wells": 65,
+    "validation_wells": 16
+  },
+  {
+    "sequence": 12,
+    "time": "2026-10-15T15:48:13.058469+08:00",
+    "event": "F1_training_SVD_completed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 4,
+      "preprocessor_fit_completed": 4,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "fold": 4
+  },
+  {
+    "sequence": 13,
+    "time": "2026-10-15T15:48:13.060099+08:00",
+    "event": "F1_training_SVD_entered",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 5,
+      "preprocessor_fit_completed": 4,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "fold": 5,
+    "training_wells": 65,
+    "validation_wells": 16
+  },
+  {
+    "sequence": 14,
+    "time": "2026-10-15T15:48:13.060909+08:00",
+    "event": "F1_training_SVD_completed",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 5,
+      "preprocessor_fit_completed": 5,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "fold": 5
+  },
+  {
+    "sequence": 15,
+    "time": "2026-10-15T15:48:13.121380+08:00",
+    "event": "available_diagnostics_completed_Dalpha_blocked_no_training",
+    "fit_counts": {
+      "model_fit_attempted": 0,
+      "model_fit_completed": 0,
+      "preprocessor_fit_entered": 5,
+      "preprocessor_fit_completed": 5,
+      "preprocessor_fit_failed": 0,
+      "forbidden_preprocessing_attempts": 0,
+      "model_weights_loaded": 0,
+      "model_weights_saved": 0,
+      "synthetic_SVD_calls": 0
+    },
+    "F1_oracle_K1": 80.12636949521163,
+    "F1_oracle_K2": 84.87462371145355,
+    "F1_oracle_K3": 88.2119182675378,
+    "F1_oracle_K4": 89.46646407954523
+  }
+]

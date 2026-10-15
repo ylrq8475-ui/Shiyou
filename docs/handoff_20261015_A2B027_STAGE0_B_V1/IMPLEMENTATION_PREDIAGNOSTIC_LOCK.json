@@ -1,0 +1,62 @@
+{
+  "time": "2026-10-15T15:48:12.881834+08:00",
+  "before_first_real_SVD_and_diagnostic_scores": true,
+  "plan_sha256": "269df23ce18ada092a69667973087319060f5befa482dedf41bac39ea1b01534",
+  "source_receipt_sha256": "424db219c56e165c1ca5de50eb70cb669db43ae902ae81bbbc5162b6f9cc90dc",
+  "sources": {
+    "diagnostic_core.py": "fe41c6ffda6818ffc3a248a76cefeb5071bc4bc5497db7dab69b979efaf9f293",
+    "FIELD_DICTIONARY.json": "d8897f8d2ceefb1493d3a63235772f9da8a19058d654ea52d99504a793e9ec7c",
+    "PLAN_STAGE0.json": "269df23ce18ada092a69667973087319060f5befa482dedf41bac39ea1b01534",
+    "prepare_stage0.py": "3bdcc6f179ecde2916852c595df3654928188b28b1fe7ed250c8aea35f0c50bb",
+    "run_stage0.py": "b92a08faeb40997947b557a00820d777cc3d15f99ba04709c6dbbda8c08ca235",
+    "SOURCE_RECEIPT.json": "424db219c56e165c1ca5de50eb70cb669db43ae902ae81bbbc5162b6f9cc90dc",
+    "test_diagnostics.py": "feec46e682ac9c49bef78f23701ab7d29e151551a75e935fc070228939b8fb28"
+  },
+  "environment": {
+    "python": "3.13.7",
+    "build": [
+      "main",
+      "Sep 18 2025 19:43:45"
+    ],
+    "executable_sha256": "926f48e34093c6a5c63982f26cb2bcdfb1c428aa47794b2145ee66cbb846aff1",
+    "dependencies": {
+      "PyYAML": "6.0.3",
+      "Pygments": "2.19.2",
+      "cloudpickle": "3.1.2",
+      "colorama": "0.4.6",
+      "et_xmlfile": "2.0.0",
+      "iniconfig": "2.1.0",
+      "joblib": "1.6.0",
+      "narwhals": "2.26.0",
+      "numpy": "2.4.3",
+      "openpyxl": "3.1.5",
+      "packaging": "25.0",
+      "pandas": "2.3.3",
+      "pluggy": "1.6.0",
+      "pytest": "8.4.2",
+      "python-dateutil": "2.9.0.post0",
+      "pytz": "2026.3.post1",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.17.1",
+      "six": "1.17.0",
+      "threadpoolctl": "3.7.0",
+      "tzdata": "2026.4"
+    },
+    "threads": 1
+  },
+  "protected_files": 807,
+  "protected_snapshot_sha256": "ad9fe1703d559b09261915c98de69d87f447c583656bc4d9f7ce7b8bf39bd8cf",
+  "panel_identity": {
+    "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+    "feature_dtype_sha256": "a34b2599e3202d8cfac13ba50ffa2d57c5631225b553fef66207de6eb35d102a",
+    "feature_frame_sha256": "af964b79e581fb87bcb736e6eb3e2cab21f878612882c7fd782778f744f44cb7",
+    "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+  },
+  "split_sha256": "beadb191d075afdd138d6463f0b3a0e03999a76e07641f56ea24ec77e5e4d5f8",
+  "raw_inputs": {
+    "archive": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+    "manifest": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f"
+  },
+  "config_sha256": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72",
+  "historical_dtype": "UNKNOWN"
+}

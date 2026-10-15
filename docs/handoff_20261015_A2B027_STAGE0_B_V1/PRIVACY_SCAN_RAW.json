@@ -1,0 +1,473 @@
+{
+  "role": "账户B执行与交付",
+  "task": "A2B-027/阶段0合并诊断",
+  "time": "2026-10-15T16:10:39.601854+08:00",
+  "published_files": 30,
+  "scan_records": 30,
+  "all_pass": true,
+  "exemptions": 0,
+  "marker_counts": {
+    "well": 98,
+    "date": 78,
+    "month": 78,
+    "candidate": 2
+  },
+  "test_CSVs_parsed": 0,
+  "test_label_columns_read": 0,
+  "source_input_hashes_unchanged": true,
+  "metadata_self_hashes_not_fabricated": true,
+  "records": [
+    {
+      "record_id": "A027-PRIVACY-001",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/DELIVERY_BUILD_RECORD.json",
+      "sha256": "7d57683cc6fb93911b9bb56768a9868dfda330210d470b7c6a1cf6dd5e099500",
+      "bytes": 592,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-002",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/EVENTS.json",
+      "sha256": "33a2281236a7aaa5a116922d9bbb48542f11fb31817125da90746b87bf48d7b5",
+      "bytes": 7760,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-003",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/F0_FIELDS.md",
+      "sha256": "557938e6de37678a681f2a2caa252d05e4c4aedde8f4ea3ff9e323bfea862327",
+      "bytes": 8144,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-004",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/F0_FIELD_RESULTS.json",
+      "sha256": "e01e848569bbd5346832cf688b093918753a5d16e508840379bfe9c9da81856a",
+      "bytes": 25902,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-005",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/FIELD_DICTIONARY.json",
+      "sha256": "d8897f8d2ceefb1493d3a63235772f9da8a19058d654ea52d99504a793e9ec7c",
+      "bytes": 1348,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-006",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/FIT_COUNTS.json",
+      "sha256": "29884128adaf80f4aa189961c667fbd1de8da32f0f0d7ef1e222ea081c98baf0",
+      "bytes": 285,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-007",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "sha256": "6e1fec97a3bb46b5f2bb10640c3a96374985d21b95b01eb27c9acc0a0a040849",
+      "bytes": 2721,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-008",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/OOF_SOURCE_AND_PENDING_CHANGE.md",
+      "sha256": "10a175777e3fed405b1a5f071c7f5f80dcd28d6b21aedf89565aea7fc73ffd33",
+      "bytes": 1637,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-009",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/PLAN_STAGE0.json",
+      "sha256": "269df23ce18ada092a69667973087319060f5befa482dedf41bac39ea1b01534",
+      "bytes": 6249,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-010",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "0668e1f548475d5d5c7aa6c0c15245f1ad26488a498ec1b7f0372d5a27e53a5f",
+      "bytes": 6185,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-011",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": null,
+      "bytes": null,
+      "identity_binding": "raw scan bound by SHA manifest; manifest bound by fixed Git blob and external receipt",
+      "scan_method": "same checker on exact final serialized bytes before persistence",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-012",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/README.md",
+      "sha256": "d0914807217598ff7a70cfbb41118468b9fb3b0423e0cfbc00752a5406605b68",
+      "bytes": 914,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-013",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REFERENCE_PANEL_CONTRACT.json",
+      "sha256": "3e06b5dfb3e9712ed8e861de6806e99af1844d7d3d89b61c963ea51d7a61a66f",
+      "bytes": 11636,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-014",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REPORT_B.md",
+      "sha256": "4d64b62332cddd4943da908a0972cf2c2004ebb10fec30858accdd461890fd6e",
+      "bytes": 8777,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-015",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REPRODUCTION.md",
+      "sha256": "358ff04430f9d9ca52e8b9bd6c0e3b1940e349abfc743d92044811f82ef1008f",
+      "bytes": 2374,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-016",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REQUEST_CODEX.md",
+      "sha256": "8ea6aa5f671a7b3754e318ef59968eb2cbb095cb54c40f74b687e07f3202682a",
+      "bytes": 1324,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-017",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/RESULT_A2B027_STAGE0.json",
+      "sha256": "cfad191dea83ed39e8aeb1d2d36cf76e01843012c8a14a614303b25e80e75f8a",
+      "bytes": 8603,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-018",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/RESULT_SNAPSHOT_BINDING.json",
+      "sha256": "7738c60674f1ff9fe265cda260461bdaf2b34c6071c8c7b6879bb632d8b22c62",
+      "bytes": 442,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-019",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SHA256SUMS.json",
+      "sha256": null,
+      "bytes": null,
+      "identity_binding": "raw scan bound by SHA manifest; manifest bound by fixed Git blob and external receipt",
+      "scan_method": "same checker on exact final serialized bytes before persistence",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-020",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SOURCE_RECEIPT.json",
+      "sha256": "424db219c56e165c1ca5de50eb70cb669db43ae902ae81bbbc5162b6f9cc90dc",
+      "bytes": 6315,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-021",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SPLIT_REFERENCE.json",
+      "sha256": "a6497f5e948c5906d47923a62edb3149b220c5cfac2ce0ec38a60d334b09871e",
+      "bytes": 239,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-022",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/STRUCTURE_GATES.json",
+      "sha256": "f65bac9932e78970fe40544152712f9600c6384574e9cfa0fc0227d0c4ed07fe",
+      "bytes": 947,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-023",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SYNTHETIC_LOG.txt",
+      "sha256": "7a94f92dae2f5bb7a842f18ada0045126e289ac86b3277e9c8b60f87d746704d",
+      "bytes": 1622,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-024",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SYNTHETIC_RESULTS.json",
+      "sha256": "d97899a2144684587264f92948e8177a0275e49b140404e18e857465a53d353c",
+      "bytes": 99,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-025",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/diagnostic_core.py",
+      "sha256": "fe41c6ffda6818ffc3a248a76cefeb5071bc4bc5497db7dab69b979efaf9f293",
+      "bytes": 6950,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-026",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/privacy_check.py",
+      "sha256": "cb79d7d71d33784a8c084d7b2fe1bf1b64075b43ccb9a83cf8ad2a0a0f541842",
+      "bytes": 9045,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-027",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/route_b_core.py",
+      "sha256": "500deadfad8d10c185ee4a8612aae643cd2ec6d102d8b747f13af94cb4fa2800",
+      "bytes": 5156,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-028",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/run_stage0.py",
+      "sha256": "b92a08faeb40997947b557a00820d777cc3d15f99ba04709c6dbbda8c08ca235",
+      "bytes": 23278,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-029",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/test_diagnostics.py",
+      "sha256": "feec46e682ac9c49bef78f23701ab7d29e151551a75e935fc070228939b8fb28",
+      "bytes": 4048,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A027-PRIVACY-030",
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/train_reader.py",
+      "sha256": "f0a82ac9add53e9944a1bf885e413fcde07470908baefb71cce614227c24057b",
+      "bytes": 3175,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    }
+  ]
+}

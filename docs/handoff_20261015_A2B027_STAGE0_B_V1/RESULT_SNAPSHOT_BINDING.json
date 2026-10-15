@@ -1,0 +1,9 @@
+{
+  "snapshot_commit": "b41a9b2a5b49f16baa2b9a3b558e05b59821ae72",
+  "result_path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/RESULT_A2B027_STAGE0.json",
+  "result_sha256": "cfad191dea83ed39e8aeb1d2d36cf76e01843012c8a14a614303b25e80e75f8a",
+  "result_bytes": 8603,
+  "snapshot_remote_bytes_verified": true,
+  "report_commit_is_later_publication_commit": true,
+  "final_publication_commit_recorded_in_handoff_index_and_remote_receipt": true
+}

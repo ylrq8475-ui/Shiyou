@@ -1,0 +1,151 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/DELIVERY_BUILD_RECORD.json",
+      "bytes": 592,
+      "sha256": "7d57683cc6fb93911b9bb56768a9868dfda330210d470b7c6a1cf6dd5e099500"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/EVENTS.json",
+      "bytes": 7760,
+      "sha256": "33a2281236a7aaa5a116922d9bbb48542f11fb31817125da90746b87bf48d7b5"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/F0_FIELDS.md",
+      "bytes": 8144,
+      "sha256": "557938e6de37678a681f2a2caa252d05e4c4aedde8f4ea3ff9e323bfea862327"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/F0_FIELD_RESULTS.json",
+      "bytes": 25902,
+      "sha256": "e01e848569bbd5346832cf688b093918753a5d16e508840379bfe9c9da81856a"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/FIELD_DICTIONARY.json",
+      "bytes": 1348,
+      "sha256": "d8897f8d2ceefb1493d3a63235772f9da8a19058d654ea52d99504a793e9ec7c"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/FIT_COUNTS.json",
+      "bytes": 285,
+      "sha256": "29884128adaf80f4aa189961c667fbd1de8da32f0f0d7ef1e222ea081c98baf0"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "bytes": 2721,
+      "sha256": "6e1fec97a3bb46b5f2bb10640c3a96374985d21b95b01eb27c9acc0a0a040849"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/OOF_SOURCE_AND_PENDING_CHANGE.md",
+      "bytes": 1637,
+      "sha256": "10a175777e3fed405b1a5f071c7f5f80dcd28d6b21aedf89565aea7fc73ffd33"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/PLAN_STAGE0.json",
+      "bytes": 6249,
+      "sha256": "269df23ce18ada092a69667973087319060f5befa482dedf41bac39ea1b01534"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "bytes": 6185,
+      "sha256": "0668e1f548475d5d5c7aa6c0c15245f1ad26488a498ec1b7f0372d5a27e53a5f"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/PRIVACY_SCAN_RAW.json",
+      "bytes": 14845,
+      "sha256": "41ea20136ffe7a7637a91cad2a0c84c921bd120765aa4d625d3b2ba57e25e748"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/README.md",
+      "bytes": 914,
+      "sha256": "d0914807217598ff7a70cfbb41118468b9fb3b0423e0cfbc00752a5406605b68"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REFERENCE_PANEL_CONTRACT.json",
+      "bytes": 11636,
+      "sha256": "3e06b5dfb3e9712ed8e861de6806e99af1844d7d3d89b61c963ea51d7a61a66f"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REPORT_B.md",
+      "bytes": 8777,
+      "sha256": "4d64b62332cddd4943da908a0972cf2c2004ebb10fec30858accdd461890fd6e"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REPRODUCTION.md",
+      "bytes": 2374,
+      "sha256": "358ff04430f9d9ca52e8b9bd6c0e3b1940e349abfc743d92044811f82ef1008f"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REQUEST_CODEX.md",
+      "bytes": 1324,
+      "sha256": "8ea6aa5f671a7b3754e318ef59968eb2cbb095cb54c40f74b687e07f3202682a"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/RESULT_A2B027_STAGE0.json",
+      "bytes": 8603,
+      "sha256": "cfad191dea83ed39e8aeb1d2d36cf76e01843012c8a14a614303b25e80e75f8a"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/RESULT_SNAPSHOT_BINDING.json",
+      "bytes": 442,
+      "sha256": "7738c60674f1ff9fe265cda260461bdaf2b34c6071c8c7b6879bb632d8b22c62"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SOURCE_RECEIPT.json",
+      "bytes": 6315,
+      "sha256": "424db219c56e165c1ca5de50eb70cb669db43ae902ae81bbbc5162b6f9cc90dc"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SPLIT_REFERENCE.json",
+      "bytes": 239,
+      "sha256": "a6497f5e948c5906d47923a62edb3149b220c5cfac2ce0ec38a60d334b09871e"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/STRUCTURE_GATES.json",
+      "bytes": 947,
+      "sha256": "f65bac9932e78970fe40544152712f9600c6384574e9cfa0fc0227d0c4ed07fe"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SYNTHETIC_LOG.txt",
+      "bytes": 1622,
+      "sha256": "7a94f92dae2f5bb7a842f18ada0045126e289ac86b3277e9c8b60f87d746704d"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SYNTHETIC_RESULTS.json",
+      "bytes": 99,
+      "sha256": "d97899a2144684587264f92948e8177a0275e49b140404e18e857465a53d353c"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/diagnostic_core.py",
+      "bytes": 6950,
+      "sha256": "fe41c6ffda6818ffc3a248a76cefeb5071bc4bc5497db7dab69b979efaf9f293"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/privacy_check.py",
+      "bytes": 9045,
+      "sha256": "cb79d7d71d33784a8c084d7b2fe1bf1b64075b43ccb9a83cf8ad2a0a0f541842"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/route_b_core.py",
+      "bytes": 5156,
+      "sha256": "500deadfad8d10c185ee4a8612aae643cd2ec6d102d8b747f13af94cb4fa2800"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/run_stage0.py",
+      "bytes": 23278,
+      "sha256": "b92a08faeb40997947b557a00820d777cc3d15f99ba04709c6dbbda8c08ca235"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/test_diagnostics.py",
+      "bytes": 4048,
+      "sha256": "feec46e682ac9c49bef78f23701ab7d29e151551a75e935fc070228939b8fb28"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B027_STAGE0_B_V1/train_reader.py",
+      "bytes": 3175,
+      "sha256": "f0a82ac9add53e9944a1bf885e413fcde07470908baefb71cce614227c24057b"
+    }
+  ],
+  "self_exclusion": "own digest provided by fixed Git blob and remote byte verification; own serialized content privacy scanned"
+}

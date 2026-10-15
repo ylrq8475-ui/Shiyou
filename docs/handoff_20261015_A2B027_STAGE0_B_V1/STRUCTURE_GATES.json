@@ -1,0 +1,24 @@
+{
+  "train_complete_wells": 81,
+  "train_rows": 972,
+  "features": 325,
+  "all_train_wells": 88,
+  "test_history_tables_parsed_without_RCYL": 10,
+  "test_target_columns_parsed": 0,
+  "test_window_rows_counted_by_keys_only": 120,
+  "well_overlap": 0,
+  "fixed_split_sha256": "beadb191d075afdd138d6463f0b3a0e03999a76e07641f56ea24ec77e5e4d5f8",
+  "frozen_panel_identity": {
+    "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+    "feature_dtype_sha256": "a34b2599e3202d8cfac13ba50ffa2d57c5631225b553fef66207de6eb35d102a",
+    "feature_frame_sha256": "af964b79e581fb87bcb736e6eb3e2cab21f878612882c7fd782778f744f44cb7",
+    "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+  },
+  "cutoff_audit": {
+    "events_checked": 81,
+    "feature_values_checked": 29079,
+    "future_sensitive_feature_count": 0
+  },
+  "raw_files_verified": 100,
+  "raw_files_extracted": 0
+}

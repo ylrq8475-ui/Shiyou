@@ -1,0 +1,11 @@
+{
+  "model_fit_attempted": 0,
+  "model_fit_completed": 0,
+  "preprocessor_fit_entered": 5,
+  "preprocessor_fit_completed": 5,
+  "preprocessor_fit_failed": 0,
+  "forbidden_preprocessing_attempts": 0,
+  "model_weights_loaded": 0,
+  "model_weights_saved": 0,
+  "synthetic_SVD_calls": 0
+}

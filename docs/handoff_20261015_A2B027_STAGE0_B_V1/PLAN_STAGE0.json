@@ -1,0 +1,44 @@
+{
+  "task": "A2B-027/阶段0合并诊断",
+  "role": "账户B执行与交付",
+  "Claude_instruction_commit": "b383fbc3cc7b4c5a382970ecd6234d7b2dcb3c47",
+  "authorization": "用户2026-10-15 15:29批准，按R4的①给B执行",
+  "budget": {"model_fit_entries": 0, "preprocessor_fit_entries": 5, "allowed_preprocessor": "one centered target SVD per original training fold; K=1..4 reuse the same basis", "retries": 0},
+  "delta": 0.000001,
+  "epsilon": 0.000001,
+  "boundary": "latest eligible contiguous event segment end M; history and raw scale through M-1; targets M+1..M+12",
+  "F0": {
+    "field_scope": "all history columns; layer/first-plan raw tables excluded by existing safe boundary",
+    "official_definitions": "official history dictionary, visually verified; no abbreviation inference; missing/zero business semantics UNKNOWN unless documented",
+    "coverage_denominator": "81 complete cohort wells, also report all 88 train wells separately",
+    "availability": "finite historical value at or before M-1 under versioned project contract, not a claim about original acquisition time",
+    "test_read": "history usecols explicitly excludes RCYL; prediction window field-level missingness only, never features for scoring; no template target column read",
+    "combinations": [
+      {"id":"F0-C01","name":"液油质量差比（含水代理，不等同官方HS）","fields":["RCYL1","RCYL"],"formula":"(RCYL1-RCYL)/RCYL1","valid":"finite, RCYL1>0, 0<=RCYL<=RCYL1"},
+      {"id":"F0-C02","name":"油套压差（不称为地层生产压差）","fields":["YY","TY"],"formula":"YY-TY","valid":"both finite and nonnegative"},
+      {"id":"F0-C03","name":"有效排液体积代理","fields":["PL","BX"],"formula":"PL*BX/100","valid":"finite, PL>0, 0<=BX<=100; no mass/volume comparison without density"},
+      {"id":"F0-C04","name":"上下电流相对差","fields":["SXDL","XXDL"],"formula":"(SXDL-XXDL)/(SXDL+XXDL)","valid":"finite, both>=0, sum>0"},
+      {"id":"F0-C05","name":"月生产天数占比","fields":["SCTS","NY"],"formula":"SCTS/days_in_calendar_month","valid":"finite, 0<=SCTS<=days_in_calendar_month"},
+      {"id":"F0-C06","name":"地层生产压差","status":"not computable without documented reservoir pressure"},
+      {"id":"F0-C07","name":"累计注剂量","status":"not computable without documented injection rate, concentration, time and mapping"},
+      {"id":"F0-C08","name":"注采比","status":"not computable without documented injection well rates and mapping"}
+    ],
+    "no_model_fit_or_score": true,
+    "threshold": "M-1 available AND at least 80% of complete training wells have >=1 valid historical combination"
+  },
+  "F1": {"shape":"a=mean(month1,month2), b=mean(month4,month5,month6); rising b>1.1*a; falling b<0.9*a; stable otherwise; zeros use exact y==0", "target":"log1p(y/raw_scale)", "SVD":"12-dimensional centered target, unweighted SVD; training wells only; full_matrices=False; validation truth projected for oracle diagnostic only", "K":[1,2,3,4], "inverse":"clip(expm1(z_reconstructed)*validation_raw_scale,0,+inf)", "score":"official per-well OOF recomputation; not unweighted mean of folds", "interpretation":"target-informed upper-reference diagnostic, not deployable OOF prediction or evidence that basis coefficients are predictable"},
+  "Dalpha": {"required_input":"existing exact fixed-OOF predictions with row/feature/environment/split source identity; aggregate scores or all-data model are insufficient", "no_recovery_training":true, "residual":"log((y+delta)/(p+delta))", "cross_estimation":"outer validation fold uses residuals from other four folds at same horizon only; samples y_star=p*exp(e_j); candidates y_star plus zero; minimize sample mean official monthly loss", "ties":"first minimum, zero candidate first", "caveat":"other-fold OOF models may have trained on current validation wells; prescribed cross-estimated diagnostic is not an independently nested deployment validation", "if_input_absent":"UNKNOWN P1; do not substitute a model replay or invented row predictions"},
+  "Dbeta": {"incomplete":"7 excluded training wells; count finite nonnegative labels at last event end+1/+2", "historical":"only 81 complete training wells; eligible records collapsed into contiguous segments; preceding segment ends; exact calendar-consecutive 12 months, finite nonnegative targets, no eligible event in that window", "increase":"sum of additional valid labels from incomplete latest events and qualified historical events, divided by 81, reported separately and combined", "test_history_excluded":true},
+  "Dgamma": {"cohort":"all 88 training wells, each only through own M-1", "differences":"finite nonnegative consecutive natural-calendar months only; no gap bridging; log(q+delta) difference", "common":"equal-well arithmetic mean per calendar month if >=5 valid differences", "share":"population variance of eligible common monthly means / population variance of all valid training well-month log differences", "lag1":"Pearson correlation of eligible common means in adjacent calendar months only; no gap bridging", "no_dates_persisted":true},
+  "decision_table": [
+    ["F0","F0_combo_pass_count ≥ 1","列入阶段 1 候选特征"],
+    ["F1","max(F1_oracle_K1, F1_oracle_K2, F1_oracle_K3) ≥ 90","起草路线 ② 预注册；若 F1_oracle_K3 < 85，路线 ② 淘汰"],
+    ["D-α","Dalpha_delta ≥ +1.0","并入路线 ② 最后一步"],
+    ["D-β","Dbeta_increase_m1 ≥ 30% 或 Dbeta_increase_m2 ≥ 30%","阶段 1 增加扩样对照"],
+    ["D-γ","Dgamma_share ≥ 30% 且 Dgamma_lag1 ≥ 0.5","列入阶段 1 候选特征"]
+  ],
+  "external_data_and_pretrained": "project prohibition lifted per R4 but no external data/pretrained work permitted in this round; official documentation is metadata, not training data",
+  "historical_dtype": "UNKNOWN P1, explicitly nonblocking for this no-model-fit phase",
+  "privacy": "no true well IDs, calendar month values, raw rows, row labels/predictions or OOF persisted; source and immutable input fingerprints only; raw archive read-only, no extraction",
+  "delivery": "new B branch/version directory, per-file scan, raw-byte SHA256, remote verification, append-only handoff-index; Codex independently reviews"
+}
