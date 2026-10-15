@@ -164,6 +164,20 @@
         "F1 85–90区间：用户批准不单独推进路线②"
       ],
       "published_at": "2026-10-15T18:05:00+08:00"
+    },
+    {
+      "task": "A2B-030/零拟合诊断N1-a,N2-a,N4",
+      "role": "Claude",
+      "commit": "9bec6d563f492f8992337441e58610028dd5127f",
+      "report_path": "docs/handoff_20261015_A2B030_CLAUDE_INSTRUCTIONS_R6/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "项目决定（用户2026-10-15 18:11）：目标改为B榜稳定>75并提高排名；最终提交截止前手动指定OOF验证版本；阶段1后安排复现与合规收尾——执行指令待另行存档"
+      ],
+      "published_at": "2026-10-15T18:15:00+08:00"
     }
   ]
 }
