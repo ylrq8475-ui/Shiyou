@@ -2,7 +2,7 @@
 任务编号/阶段：A2B-027／阶段0合并诊断包／R4独立审核  
 角色：Codex审核；账户A2（新接手）独立审核与交付  
 分支：codex/a2b027-codex-stage0-review-20261015  
-完整提交号（40位，Codex报告及结果固定快照）：__RESULT_SNAPSHOT_COMMIT__（最终登记版由固定链接、发布回取记录与索引绑定；不伪造文件自包含提交哈希）  
+完整提交号（40位，Codex报告及结果初始快照）：42069437c3eb79b5ec9180ede7efe33b0e610f28（本登记版补入初始快照身份；最终版由固定链接、发布回取记录与索引绑定；不伪造文件自包含提交哈希）  
 被审B提交号（40位）：a0e762a87352877dde179dc505797c0d1638a757  
 目录路径：docs/handoff_20261015_A2B027_STAGE0_CODEX_V1  
 结果文件路径（单个JSON）：docs/handoff_20261015_A2B027_STAGE0_CODEX_V1/RESULT_CODEX.json  

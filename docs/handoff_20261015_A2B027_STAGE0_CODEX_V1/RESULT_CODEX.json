@@ -8,7 +8,7 @@
   "Claude_instruction_sha256": "523dbf070126f03592e39714076a67ba4295837cf89f2317746b7c9c693a6e62",
   "rules_commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
   "rules_compilation_commit": "8b112a767a3355a1ea208038915028ba4c4525e4",
-  "Codex_result_snapshot_commit": "__RESULT_SNAPSHOT_COMMIT__",
+  "Codex_result_snapshot_commit": "42069437c3eb79b5ec9180ede7efe33b0e610f28",
   "final_report_commit_binding": "Final fixed URL and append-only handoff-index record, separately verified; no self-containing commit hash is fabricated",
   "hard_gates": {
     "泄漏": "通过",
