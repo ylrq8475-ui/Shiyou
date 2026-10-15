@@ -131,6 +131,23 @@
         "CODEX-027-REVIEW P1 Independent review of this delivery; B does not self-sign Codex decision rows"
       ],
       "published_at": "2026-10-15T16:18:41.343255+08:00"
+    },
+    {
+      "task": "A2B-027/阶段0合并诊断",
+      "role": "Codex",
+      "commit": "be145019aac0faaf0b85c9d3f25fbe96f66840ba",
+      "report_path": "docs/handoff_20261015_A2B027_STAGE0_CODEX_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261015_A2B027_STAGE0_CODEX_V1/RESULT_CODEX.json",
+      "reviews_commit": "a0e762a87352877dde179dc505797c0d1638a757",
+      "hard_gates": "泄漏：通过／错位：通过／井级隔离：通过／指标：通过（限定四项已执行诊断的实现、绑定记录、聚合与合成审核范围；未重跑真实逐井诊断）",
+      "decision_row": "F0：5≥1，列入阶段1候选特征；F1：K1—K3最大值<90且K3≥85，未触发起草或淘汰条件；D-α：UNKNOWN，不能落入增益行；D-β：两期32/81≥30%，阶段1增加扩样对照；D-γ：两条件均未达，不列入阶段1候选特征。",
+      "open_unknowns": [
+        "A027-OOF-SOURCE P1 缺固定逐行OOF；D-α未执行，不能以聚合分数、全量模型或方法合成检查代替",
+        "HIST-DTYPE P1 缺历史逐文件加载身份；R4仅豁免本阶段阻断，不等于关闭",
+        "F0-ZERO-SEMANTICS P2 缺字段零值/缺失业务解释",
+        "F0-ACQUISITION-TIME P2 缺原始取得/发布时间；M−1仅为版本化记录边界"
+      ],
+      "published_at": "2026-10-15T17:47:23+08:00"
     }
   ]
 }
