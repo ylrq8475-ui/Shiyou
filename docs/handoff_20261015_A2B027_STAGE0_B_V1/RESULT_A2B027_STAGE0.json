@@ -1,0 +1,294 @@
+{
+  "task": "A2B-027/阶段0合并诊断",
+  "role": "账户B执行与交付",
+  "status": "PARTIAL_COMPLETED_DALPHA_INPUT_MISSING",
+  "started_at": "2026-10-15T15:48:07.019213+08:00",
+  "Claude_instruction_commit": "b383fbc3cc7b4c5a382970ecd6234d7b2dcb3c47",
+  "delta": 1e-06,
+  "epsilon": 1e-06,
+  "model_fits": 0,
+  "preprocessor_fits": 5,
+  "Dalpha_score": null,
+  "Dalpha_delta": null,
+  "Dalpha_losses": null,
+  "hard_gates": {
+    "泄漏": "通过",
+    "错位": "通过",
+    "井级隔离": "通过",
+    "指标": "通过"
+  },
+  "test_labels_read": false,
+  "test_predictions_generated": 0,
+  "external_training_data_used": false,
+  "pretrained_models_used": false,
+  "formal_packages_created": 0,
+  "platform_submissions": 0,
+  "historical_dtype": "UNKNOWN P1; nonblocking for stage0 under R4",
+  "open_unknowns": [
+    {
+      "id": "A027-OOF-SOURCE",
+      "grade": "P1",
+      "missing": "Existing exact A2B-013 row-level fixed OOF predictions plus identity; prior runs retained aggregates only. D-alpha not executed."
+    },
+    {
+      "id": "HIST-DTYPE",
+      "grade": "P1",
+      "missing": "Historical per-source loaded dtype identity; expressly nonblocking for this phase under R4"
+    },
+    {
+      "id": "F0-ZERO-SEMANTICS",
+      "grade": "P2",
+      "missing": "Official explanation of field-specific zeros/missing values; no unsupported shut-in interpretation or imputation"
+    },
+    {
+      "id": "F0-ACQUISITION-TIME",
+      "grade": "P2",
+      "missing": "Original field acquisition/publication timestamps; availability conclusions restricted to versioned M-1 contract"
+    },
+    {
+      "id": "CODEX-027-REVIEW",
+      "grade": "P1",
+      "missing": "Independent review of this delivery; B does not self-sign Codex decision rows"
+    }
+  ],
+  "F0_combo_pass_count": 5,
+  "F0_injection_assessment": {
+    "official_injection_rate_fields": 0,
+    "produced_chemical_fields": [
+      "CCJHWND",
+      "CCJND",
+      "CCBHJND",
+      "CCYND"
+    ],
+    "produced_not_injected": true,
+    "well_pair_mapping_table_declared": false,
+    "CRM_or_LSTM_implemented": false,
+    "conclusion": "Only produced-fluid chemical fields are documented; no injection-rate or injector-producer mapping input established. Do not relabel them as injection data."
+  },
+  "Dbeta_counts": {
+    "incomplete_wells": 7,
+    "incomplete_new_m1_labels": 6,
+    "incomplete_new_m2_labels": 6,
+    "complete_cohort_historical_events": {
+      "prior_segments": 65,
+      "qualified_events": 26,
+      "rejected_nonconsecutive_or_missing": 0,
+      "rejected_refracture": 39,
+      "new_m1_labels": 26,
+      "new_m2_labels": 26
+    },
+    "denominator": 81,
+    "test_history_counted": false
+  },
+  "Dbeta_increase_m1": 0.3950617283950617,
+  "Dbeta_increase_m2": 0.3950617283950617,
+  "Dgamma_share": 0.050060050636717125,
+  "Dgamma_lag1": 0.07502337743932876,
+  "Dgamma_details": {
+    "Dgamma_share": 0.050060050636717125,
+    "Dgamma_lag1": 0.07502337743932876,
+    "valid_well_month_differences": 3198,
+    "eligible_common_months": 71,
+    "excluded_months_under_5_wells": 5,
+    "adjacent_common_month_pairs": 70,
+    "common_variance_ddof0": 0.13204335752961138,
+    "pooled_variance_ddof0": 2.6376992402153636
+  },
+  "F1_shape_counts": {
+    "上升": 21,
+    "下降": 47,
+    "稳产": 13,
+    "含0值": 9
+  },
+  "F1_oracle_K1": 80.12636949521163,
+  "F1_K1_summary": {
+    "official_score": 80.12636949521163,
+    "weighted_losses": {
+      "m1_to_1": 0.11202476913665052,
+      "m1_to_2": 0.1605040872869083,
+      "m1_to_4": 0.1898010892987124,
+      "m1_to_12": 0.19873630504788373
+    }
+  },
+  "F1_oracle_K2": 84.87462371145355,
+  "F1_K2_summary": {
+    "official_score": 84.87462371145355,
+    "weighted_losses": {
+      "m1_to_1": 0.0893558285597979,
+      "m1_to_2": 0.11751000331346194,
+      "m1_to_4": 0.14206584217835547,
+      "m1_to_12": 0.15125376288546452
+    }
+  },
+  "F1_oracle_K3": 88.2119182675378,
+  "F1_K3_summary": {
+    "official_score": 88.2119182675378,
+    "weighted_losses": {
+      "m1_to_1": 0.06407821972436172,
+      "m1_to_2": 0.09187341475901552,
+      "m1_to_4": 0.1100619617648519,
+      "m1_to_12": 0.11788081732462201
+    }
+  },
+  "F1_oracle_K4": 89.46646407954523,
+  "F1_K4_summary": {
+    "official_score": 89.46646407954523,
+    "weighted_losses": {
+      "m1_to_1": 0.053124235575046204,
+      "m1_to_2": 0.07934731656295105,
+      "m1_to_4": 0.09767327969276131,
+      "m1_to_12": 0.10533535920454759
+    }
+  },
+  "F1_SVD_records": [
+    {
+      "fold": 1,
+      "training_wells": 64,
+      "validation_wells": 17,
+      "training_validation_well_intersection": 0,
+      "basis_fits": 1,
+      "K_reuse": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "train_basis_scope": "train-fold target vectors only",
+      "validation_action": "oracle projection using validation truth, not model prediction",
+      "training_first4_explained_variance_ratios": [
+        0.6492036404044823,
+        0.11932622726654941,
+        0.09323563864755967,
+        0.031485483564543025
+      ]
+    },
+    {
+      "fold": 2,
+      "training_wells": 65,
+      "validation_wells": 16,
+      "training_validation_well_intersection": 0,
+      "basis_fits": 1,
+      "K_reuse": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "train_basis_scope": "train-fold target vectors only",
+      "validation_action": "oracle projection using validation truth, not model prediction",
+      "training_first4_explained_variance_ratios": [
+        0.6821058877753216,
+        0.10956632322870738,
+        0.06833522216375366,
+        0.03779473839775721
+      ]
+    },
+    {
+      "fold": 3,
+      "training_wells": 65,
+      "validation_wells": 16,
+      "training_validation_well_intersection": 0,
+      "basis_fits": 1,
+      "K_reuse": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "train_basis_scope": "train-fold target vectors only",
+      "validation_action": "oracle projection using validation truth, not model prediction",
+      "training_first4_explained_variance_ratios": [
+        0.6891009228327468,
+        0.09706658585731603,
+        0.07369834011274884,
+        0.03618402874477475
+      ]
+    },
+    {
+      "fold": 4,
+      "training_wells": 65,
+      "validation_wells": 16,
+      "training_validation_well_intersection": 0,
+      "basis_fits": 1,
+      "K_reuse": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "train_basis_scope": "train-fold target vectors only",
+      "validation_action": "oracle projection using validation truth, not model prediction",
+      "training_first4_explained_variance_ratios": [
+        0.7579432509555971,
+        0.08028723567076101,
+        0.05876551223585007,
+        0.02855580069093199
+      ]
+    },
+    {
+      "fold": 5,
+      "training_wells": 65,
+      "validation_wells": 16,
+      "training_validation_well_intersection": 0,
+      "basis_fits": 1,
+      "K_reuse": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "train_basis_scope": "train-fold target vectors only",
+      "validation_action": "oracle projection using validation truth, not model prediction",
+      "training_first4_explained_variance_ratios": [
+        0.6768658118657334,
+        0.09626958241610195,
+        0.08571204672795929,
+        0.035680760189719864
+      ]
+    }
+  ],
+  "Dalpha_status": "UNKNOWN P1: exact row-level fixed OOF predictions not retained; model fitting is forbidden and no all-data model substitution allowed",
+  "decisions_B_self_report": {
+    "F0": {
+      "passed": true,
+      "next": "列入阶段 1 候选特征"
+    },
+    "F1": {
+      "passed": false,
+      "route_2_rejected": false,
+      "next": "未达90且未触发K3<85；不自动启动下一阶段"
+    },
+    "D-α": {
+      "passed": null,
+      "next": "UNKNOWN，缺固定逐行OOF"
+    },
+    "D-β": {
+      "passed": true,
+      "next": "阶段 1 增加扩样对照"
+    },
+    "D-γ": {
+      "passed": false,
+      "next": "不列入"
+    }
+  },
+  "integrity": {
+    "protected_files_checked": 807,
+    "protected_files_unchanged": true,
+    "raw_archive_manifest_unchanged": true,
+    "private_config_unchanged": true,
+    "own_sources_unchanged": true
+  },
+  "fit_counts": {
+    "model_fit_attempted": 0,
+    "model_fit_completed": 0,
+    "preprocessor_fit_entered": 5,
+    "preprocessor_fit_completed": 5,
+    "preprocessor_fit_failed": 0,
+    "forbidden_preprocessing_attempts": 0,
+    "model_weights_loaded": 0,
+    "model_weights_saved": 0,
+    "synthetic_SVD_calls": 0
+  },
+  "finished_at": "2026-10-15T15:48:13.343002+08:00",
+  "elapsed_seconds": 6.32378329999483
+}
