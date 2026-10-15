@@ -1,0 +1,15 @@
+{
+  "B_synthetic_cases": 16,
+  "A_independent_cases": 28,
+  "total_tests": 44,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "actual_model_fits": 0,
+  "actual_preprocessor_fits": 0,
+  "actual_numerical_SVD_calls": 0,
+  "F1_scope_test_uses_fixed_stub_basis_not_a_fit": true,
+  "competition_data_read": false,
+  "private_markers_read": false,
+  "completed_real_B_entry_not_executed": true
+}

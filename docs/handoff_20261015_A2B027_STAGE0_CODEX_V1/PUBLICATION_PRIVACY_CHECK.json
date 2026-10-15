@@ -1,0 +1,146 @@
+{
+  "author": "账户A2（新接手）独立审核与交付",
+  "manual_privacy_review_complete": true,
+  "competition_data_or_private_config_or_weights_or_per_well_results_read_or_included": false,
+  "known_private_marker_inventory_accessed": false,
+  "known_private_marker_scan_repeated": false,
+  "not_a_claim_of_rescanning_98_real_identifiers": true,
+  "published_files": 19,
+  "records": [
+    {
+      "file": "AGGREGATE_AND_IDENTITY_REVIEW_CODEX.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "AUDIT_QUEUE.md",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "A_SHA256SUMS.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "B_COMMIT_METADATA_CODEX.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "B_SNAPSHOT_RELATION_CODEX.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "EXECUTION_NOTES_CODEX.md",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "PUBLICATION_MANIFEST.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "PUBLICATION_PRIVACY_CHECK.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "README.md",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "REPORT_CODEX.md",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "RESULT_CODEX.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "SOURCE_RETRIEVAL_CODEX.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "SYNTHETIC_REVIEW_CODEX_R3.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "SYNTHETIC_REVIEW_LOG_CODEX_R3.txt",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "audit_records.py",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "exact_blob_envelope.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "receive_sources.py",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "run_synthetic_review.py",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    },
+    {
+      "file": "test_independent_diagnostics.py",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods/metadata or aggregates only",
+      "result": "PASS",
+      "identity": "Final Git blob for metadata self-references; original-byte SHA for other text"
+    }
+  ],
+  "passed": true,
+  "audit_or_formal_ZIP_created": false
+}

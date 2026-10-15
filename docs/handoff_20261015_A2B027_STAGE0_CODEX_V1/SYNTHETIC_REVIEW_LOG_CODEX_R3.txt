@@ -1,0 +1,49 @@
+test_alpha_does_not_use_own_fold_labels (test_diagnostics.DiagnosticTests.test_alpha_does_not_use_own_fold_labels) ... ok
+test_alpha_zero_candidate (test_diagnostics.DiagnosticTests.test_alpha_zero_candidate) ... ok
+test_contiguous_event_segment (test_diagnostics.DiagnosticTests.test_contiguous_event_segment) ... ok
+test_first_month_half (test_diagnostics.DiagnosticTests.test_first_month_half) ... ok
+test_gamma_min_five (test_diagnostics.DiagnosticTests.test_gamma_min_five) ... ok
+test_gamma_no_gap_bridging (test_diagnostics.DiagnosticTests.test_gamma_no_gap_bridging) ... ok
+test_historical_event (test_diagnostics.DiagnosticTests.test_historical_event) ... ok
+test_locked_thresholds (test_diagnostics.DiagnosticTests.test_locked_thresholds) ... ok
+test_no_gap_or_refracture (test_diagnostics.DiagnosticTests.test_no_gap_or_refracture) ... ok
+test_perfect_score (test_diagnostics.DiagnosticTests.test_perfect_score) ... ok
+test_projection_fixed_basis (test_diagnostics.DiagnosticTests.test_projection_fixed_basis) ... ok
+test_projection_inverse_scale_clip (test_diagnostics.DiagnosticTests.test_projection_inverse_scale_clip) ... ok
+test_shape_boundaries (test_diagnostics.DiagnosticTests.test_shape_boundaries) ... ok
+test_unknown_not_zero (test_diagnostics.DiagnosticTests.test_unknown_not_zero) ... ok
+test_well_equal_not_fold_equal (test_diagnostics.DiagnosticTests.test_well_equal_not_fold_equal) ... ok
+test_zero_and_weights (test_diagnostics.DiagnosticTests.test_zero_and_weights) ... ok
+test_F1_gray_zone_and_K4_not_threshold (test_independent_diagnostics.IndependentTests.test_F1_gray_zone_and_K4_not_threshold) ... ok
+test_actual_F0_source_counts_independent_wells_not_rows (test_independent_diagnostics.IndependentTests.test_actual_F0_source_counts_independent_wells_not_rows) ... ok
+test_actual_F0_source_exact_80percent_boundary (test_independent_diagnostics.IndependentTests.test_actual_F0_source_exact_80percent_boundary) ... ok
+test_actual_F0_source_excludes_future_observations (test_independent_diagnostics.IndependentTests.test_actual_F0_source_excludes_future_observations) ... ok
+test_actual_F1_source_scope_with_stub_not_SVD (test_independent_diagnostics.IndependentTests.test_actual_F1_source_scope_with_stub_not_SVD) ... ok
+test_alpha_candidates_and_loss_reference (test_independent_diagnostics.IndependentTests.test_alpha_candidates_and_loss_reference) ... ok
+test_alpha_fold_labels_do_not_enter_current_choice (test_independent_diagnostics.IndependentTests.test_alpha_fold_labels_do_not_enter_current_choice) ... ok
+test_alpha_horizon_not_mixed (test_independent_diagnostics.IndependentTests.test_alpha_horizon_not_mixed) ... ok
+test_entry_does_not_call_Dalpha_or_estimator_fit (test_independent_diagnostics.IndependentTests.test_entry_does_not_call_Dalpha_or_estimator_fit) ... ok
+test_epsilon_always_added (test_independent_diagnostics.IndependentTests.test_epsilon_always_added) ... ok
+test_equal_wells_not_fold_mean (test_independent_diagnostics.IndependentTests.test_equal_wells_not_fold_mean) ... ok
+test_exact_decision_boundaries (test_independent_diagnostics.IndependentTests.test_exact_decision_boundaries) ... ok
+test_gamma_calendar_gaps_not_compressed (test_independent_diagnostics.IndependentTests.test_gamma_calendar_gaps_not_compressed) ... ok
+test_gamma_fewer_than_five_excluded (test_independent_diagnostics.IndependentTests.test_gamma_fewer_than_five_excluded) ... ok
+test_gamma_independent_variance_and_autocorrelation (test_independent_diagnostics.IndependentTests.test_gamma_independent_variance_and_autocorrelation) ... ok
+test_history_contiguous_segment_end (test_independent_diagnostics.IndependentTests.test_history_contiguous_segment_end) ... ok
+test_history_cross_year_integer_calendar (test_independent_diagnostics.IndependentTests.test_history_cross_year_integer_calendar) ... ok
+test_history_gap_missing_nonfinite_negative (test_independent_diagnostics.IndependentTests.test_history_gap_missing_nonfinite_negative) ... ok
+test_history_refraction_inside_window (test_independent_diagnostics.IndependentTests.test_history_refraction_inside_window) ... ok
+test_invalid_targets_and_predictions_rejected (test_independent_diagnostics.IndependentTests.test_invalid_targets_and_predictions_rejected) ... ok
+test_metric_independent_reference (test_independent_diagnostics.IndependentTests.test_metric_independent_reference) ... ok
+test_missing_Dalpha_remains_unknown (test_independent_diagnostics.IndependentTests.test_missing_Dalpha_remains_unknown) ... ok
+test_months_order_not_reversed (test_independent_diagnostics.IndependentTests.test_months_order_not_reversed) ... ok
+test_privacy_synthetic_positive_and_negative (test_independent_diagnostics.IndependentTests.test_privacy_synthetic_positive_and_negative) ... ok
+test_projection_clips_after_inverse (test_independent_diagnostics.IndependentTests.test_projection_clips_after_inverse) ... ok
+test_projection_matches_manual_known_basis (test_independent_diagnostics.IndependentTests.test_projection_matches_manual_known_basis) ... ok
+test_shape_exact_boundaries_and_zero (test_independent_diagnostics.IndependentTests.test_shape_exact_boundaries_and_zero) ... ok
+test_unnormalized_weights (test_independent_diagnostics.IndependentTests.test_unnormalized_weights) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.243s
+
+OK

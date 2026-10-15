@@ -1,0 +1,158 @@
+{
+  "task": "A2B-027/阶段0合并诊断",
+  "role": "Codex审核／账户A2（新接手）独立审核与交付",
+  "status": "PARTIAL_AGREEMENT_WITH_OPEN_UNKNOWNS",
+  "B_commit": "a0e762a87352877dde179dc505797c0d1638a757",
+  "B_result_snapshot_commit": "b41a9b2a5b49f16baa2b9a3b558e05b59821ae72",
+  "Claude_instruction_commit": "b383fbc3cc7b4c5a382970ecd6234d7b2dcb3c47",
+  "Claude_instruction_sha256": "523dbf070126f03592e39714076a67ba4295837cf89f2317746b7c9c693a6e62",
+  "rules_commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+  "rules_compilation_commit": "8b112a767a3355a1ea208038915028ba4c4525e4",
+  "Codex_result_snapshot_commit": "__RESULT_SNAPSHOT_COMMIT__",
+  "final_report_commit_binding": "Final fixed URL and append-only handoff-index record, separately verified; no self-containing commit hash is fabricated",
+  "hard_gates": {
+    "泄漏": "通过",
+    "错位": "通过",
+    "井级隔离": "通过",
+    "指标": "通过"
+  },
+  "hard_gates_scope": "Reviewed code, bound execution records, aggregate arithmetic and independent synthetic checks for four executed diagnostics; not a real-data rerun or deployable model signoff",
+  "checklist": [
+    {
+      "item": 1,
+      "status": "通过",
+      "grade": null,
+      "missing_evidence": null
+    },
+    {
+      "item": 2,
+      "status": "通过",
+      "grade": null,
+      "missing_evidence": null
+    },
+    {
+      "item": 3,
+      "status": "UNKNOWN",
+      "grade": "P2",
+      "missing_evidence": "字段原始取得/发布时间及零/缺失业务解释"
+    },
+    {
+      "item": 4,
+      "status": "通过",
+      "grade": null,
+      "missing_evidence": null
+    },
+    {
+      "item": 5,
+      "status": "UNKNOWN",
+      "grade": "P1",
+      "missing_evidence": "精确固定逐行OOF及来源身份"
+    },
+    {
+      "item": 6,
+      "status": "通过",
+      "grade": null,
+      "missing_evidence": null
+    },
+    {
+      "item": 7,
+      "status": "通过",
+      "grade": null,
+      "missing_evidence": null
+    },
+    {
+      "item": 8,
+      "status": "通过",
+      "grade": null,
+      "missing_evidence": null
+    },
+    {
+      "item": 9,
+      "status": "通过",
+      "grade": null,
+      "missing_evidence": null
+    },
+    {
+      "item": 10,
+      "status": "通过",
+      "grade": null,
+      "missing_evidence": null
+    }
+  ],
+  "key_metrics": {
+    "F0_combo_pass_count": 5,
+    "F1_oracle_K1": 80.12636949521163,
+    "F1_oracle_K2": 84.87462371145355,
+    "F1_oracle_K3": 88.2119182675378,
+    "F1_oracle_K4": 89.46646407954523,
+    "F1_shape_counts": {
+      "上升": 21,
+      "下降": 47,
+      "稳产": 13,
+      "含0值": 9
+    },
+    "Dalpha_score": null,
+    "Dalpha_delta": null,
+    "Dbeta_increase_m1": 0.3950617283950617,
+    "Dbeta_increase_m2": 0.3950617283950617,
+    "Dgamma_share": 0.050060050636717125,
+    "Dgamma_lag1": 0.07502337743932876
+  },
+  "decision_rows": {
+    "F0": "5≥1：列入阶段1候选特征",
+    "F1": "max(K1,K2,K3)<90且K3≥85：未触发起草或淘汰条件",
+    "D-α": "UNKNOWN：未执行，不判定增益门槛",
+    "D-β": "32/81≥30%：阶段1增加扩样对照",
+    "D-γ": "两条件均未达：不列入阶段1候选特征"
+  },
+  "open_unknowns": [
+    {
+      "id": "A027-OOF-SOURCE",
+      "grade": "P1",
+      "missing": "Existing exact A2B-013 row-level fixed OOF predictions plus identity; prior runs retained aggregates only. D-alpha not executed."
+    },
+    {
+      "id": "HIST-DTYPE",
+      "grade": "P1",
+      "missing": "Historical per-source loaded dtype identity; expressly nonblocking for this phase under R4"
+    },
+    {
+      "id": "F0-ZERO-SEMANTICS",
+      "grade": "P2",
+      "missing": "Official explanation of field-specific zeros/missing values; no unsupported shut-in interpretation or imputation"
+    },
+    {
+      "id": "F0-ACQUISITION-TIME",
+      "grade": "P2",
+      "missing": "Original field acquisition/publication timestamps; availability conclusions restricted to versioned M-1 contract"
+    }
+  ],
+  "CODEX_027_REVIEW": "本次交付审核职责完成；不关闭其他四项UNKNOWN",
+  "A027_OOF_SOURCE_downgraded_or_migrated": false,
+  "user_pending_change_not_treated_as_approval": true,
+  "model_fits_B_bound_records": 0,
+  "preprocessing_fits_B_bound_records": 5,
+  "model_fits_A": 0,
+  "preprocessing_fits_A": 0,
+  "numerical_SVD_calls_A": 0,
+  "A_competition_data_read": false,
+  "A_private_markers_read": false,
+  "B_synthetic_cases_repeated": 16,
+  "A_independent_synthetic_cases": 28,
+  "synthetic_checks_passed": 44,
+  "aggregate_identity_checks_passed": 307,
+  "B_public_files_verified": 30,
+  "B_privacy_records_bound": 30,
+  "real_diagnostic_scores_counts_or_series_independently_recomputed": false,
+  "F1_truth_informed_projection_not_deployable_OOF_or_mathematical_optimum": true,
+  "Dbeta_label_gain_not_independent_well_gain": true,
+  "Dalpha_not_nested_deployment_validation_even_if_input_later_available": true,
+  "project_external_data_ban_lift_acknowledged": true,
+  "current_phase_external_data_allowed": false,
+  "next_training_approved_by_this_review": false,
+  "stage1_started": false,
+  "formal_zip_created": false,
+  "audit_zip_created": false,
+  "platform_submitted": false,
+  "summary": "部分同意B四项已执行诊断及停止边界；D-α缺输入未完成，F0语义证据不足，不能写阶段0全部通过，也不授权下一轮训练。"
+}

@@ -1,0 +1,1261 @@
+{
+  "B_commit": "a0e762a87352877dde179dc505797c0d1638a757",
+  "instruction_commit": "b383fbc3cc7b4c5a382970ecd6234d7b2dcb3c47",
+  "checks": [
+    {
+      "name": "30 fixed public B files received by Git identity",
+      "passed": true
+    },
+    {
+      "name": "R4 exact user SHA256",
+      "passed": true
+    },
+    {
+      "name": "R4 source receipt identity",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: DELIVERY_BUILD_RECORD.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: EVENTS.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: F0_FIELDS.md",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: F0_FIELD_RESULTS.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: FIELD_DICTIONARY.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: FIT_COUNTS.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: OOF_SOURCE_AND_PENDING_CHANGE.md",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: PLAN_STAGE0.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: PRIVACY_COVERAGE_MAP.md",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: PRIVACY_SCAN_RAW.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: README.md",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: REFERENCE_PANEL_CONTRACT.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: REPORT_B.md",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: REPRODUCTION.md",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: REQUEST_CODEX.md",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: RESULT_A2B027_STAGE0.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: RESULT_SNAPSHOT_BINDING.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: SOURCE_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: SPLIT_REFERENCE.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: STRUCTURE_GATES.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: SYNTHETIC_LOG.txt",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: SYNTHETIC_RESULTS.json",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: diagnostic_core.py",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: privacy_check.py",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: route_b_core.py",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: run_stage0.py",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: test_diagnostics.py",
+      "passed": true
+    },
+    {
+      "name": "SHA and bytes: train_reader.py",
+      "passed": true
+    },
+    {
+      "name": "manifest covers 29 nonself files",
+      "passed": true
+    },
+    {
+      "name": "prediagnostic identity: diagnostic_core.py",
+      "passed": true
+    },
+    {
+      "name": "prediagnostic identity: FIELD_DICTIONARY.json",
+      "passed": true
+    },
+    {
+      "name": "prediagnostic identity: PLAN_STAGE0.json",
+      "passed": true
+    },
+    {
+      "name": "prediagnostic identity: run_stage0.py",
+      "passed": true
+    },
+    {
+      "name": "prediagnostic identity: SOURCE_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "name": "prediagnostic identity: test_diagnostics.py",
+      "passed": true
+    },
+    {
+      "name": "plan locked exactly",
+      "passed": true
+    },
+    {
+      "name": "source receipt locked exactly",
+      "passed": true
+    },
+    {
+      "name": "model budget zero",
+      "passed": true
+    },
+    {
+      "name": "preprocessing budget exactly 5",
+      "passed": true
+    },
+    {
+      "name": "counter dictionary result binding",
+      "passed": true
+    },
+    {
+      "name": "counter zero: model_fit_attempted",
+      "passed": true
+    },
+    {
+      "name": "counter zero: model_fit_completed",
+      "passed": true
+    },
+    {
+      "name": "counter zero: preprocessor_fit_failed",
+      "passed": true
+    },
+    {
+      "name": "counter zero: forbidden_preprocessing_attempts",
+      "passed": true
+    },
+    {
+      "name": "counter zero: model_weights_loaded",
+      "passed": true
+    },
+    {
+      "name": "counter zero: model_weights_saved",
+      "passed": true
+    },
+    {
+      "name": "counter zero: synthetic_SVD_calls",
+      "passed": true
+    },
+    {
+      "name": "preprocessor counter closure",
+      "passed": true
+    },
+    {
+      "name": "event order",
+      "passed": true
+    },
+    {
+      "name": "16 synthetic tests before reading data",
+      "passed": true
+    },
+    {
+      "name": "lock before numerical work",
+      "passed": true
+    },
+    {
+      "name": "exactly five enters and completions",
+      "passed": true
+    },
+    {
+      "name": "fold 1 paired",
+      "passed": true
+    },
+    {
+      "name": "fold 1 counter",
+      "passed": true
+    },
+    {
+      "name": "fold 1 time",
+      "passed": true
+    },
+    {
+      "name": "fold 2 paired",
+      "passed": true
+    },
+    {
+      "name": "fold 2 counter",
+      "passed": true
+    },
+    {
+      "name": "fold 2 time",
+      "passed": true
+    },
+    {
+      "name": "fold 3 paired",
+      "passed": true
+    },
+    {
+      "name": "fold 3 counter",
+      "passed": true
+    },
+    {
+      "name": "fold 3 time",
+      "passed": true
+    },
+    {
+      "name": "fold 4 paired",
+      "passed": true
+    },
+    {
+      "name": "fold 4 counter",
+      "passed": true
+    },
+    {
+      "name": "fold 4 time",
+      "passed": true
+    },
+    {
+      "name": "fold 5 paired",
+      "passed": true
+    },
+    {
+      "name": "fold 5 counter",
+      "passed": true
+    },
+    {
+      "name": "fold 5 time",
+      "passed": true
+    },
+    {
+      "name": "event 1 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 2 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 3 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 4 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 5 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 6 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 7 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 8 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 9 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 10 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 11 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 12 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 13 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 14 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event 15 zero model entries",
+      "passed": true
+    },
+    {
+      "name": "event end counts match",
+      "passed": true
+    },
+    {
+      "name": "prohibition: test_labels_read",
+      "passed": true
+    },
+    {
+      "name": "prohibition: external_training_data_used",
+      "passed": true
+    },
+    {
+      "name": "prohibition: pretrained_models_used",
+      "passed": true
+    },
+    {
+      "name": "zero: test_predictions_generated",
+      "passed": true
+    },
+    {
+      "name": "zero: formal_packages_created",
+      "passed": true
+    },
+    {
+      "name": "zero: platform_submissions",
+      "passed": true
+    },
+    {
+      "name": "Dalpha actually missing, not zero",
+      "passed": true
+    },
+    {
+      "name": "Dalpha P1 not silently downgraded",
+      "passed": true
+    },
+    {
+      "name": "HIST DTYPE exception retained",
+      "passed": true
+    },
+    {
+      "name": "epsilon and delta locked before scores",
+      "passed": true
+    },
+    {
+      "name": "81 wells / 972 rows / 325 features",
+      "passed": true
+    },
+    {
+      "name": "split exact",
+      "passed": true
+    },
+    {
+      "name": "seed and fold count exact",
+      "passed": true
+    },
+    {
+      "name": "test RCYL excluded",
+      "passed": true
+    },
+    {
+      "name": "well and cutoff gates",
+      "passed": true
+    },
+    {
+      "name": "panel identity contract",
+      "passed": true
+    },
+    {
+      "name": "feature order count",
+      "passed": true
+    },
+    {
+      "name": "29 dictionary fields",
+      "passed": true
+    },
+    {
+      "name": "official meaning/unit: RCYL",
+      "passed": true
+    },
+    {
+      "name": "official meaning/unit: RCYL1",
+      "passed": true
+    },
+    {
+      "name": "official meaning/unit: YY",
+      "passed": true
+    },
+    {
+      "name": "official meaning/unit: TY",
+      "passed": true
+    },
+    {
+      "name": "official meaning/unit: PL",
+      "passed": true
+    },
+    {
+      "name": "official meaning/unit: BX",
+      "passed": true
+    },
+    {
+      "name": "official meaning/unit: SXDL",
+      "passed": true
+    },
+    {
+      "name": "official meaning/unit: XXDL",
+      "passed": true
+    },
+    {
+      "name": "official meaning/unit: CCJHWND",
+      "passed": true
+    },
+    {
+      "name": "official meaning/unit: CCJND",
+      "passed": true
+    },
+    {
+      "name": "official meaning/unit: CCBHJND",
+      "passed": true
+    },
+    {
+      "name": "official meaning/unit: CCYND",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: WELL_ID",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: WELL_ID",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: NY",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: NY",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: CYFS",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: CYFS",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: SCTS",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: SCTS",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: BJ",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: BJ",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: CC",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: CC",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: CC1",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: CC1",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: PL",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: PL",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: BX",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: BX",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: YY",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: YY",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: TY",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: TY",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: LY",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: LY",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: RCYL1",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: RCYL1",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: RCYL",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: RCYL",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: HS",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: HS",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: CMD",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: CMD",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: CCJHWND",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: CCJHWND",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: CCJND",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: CCJND",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: CCBHJND",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: CCBHJND",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: CCYND",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: CCYND",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: SXDL",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: SXDL",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: XXDL",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: XXDL",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: YCYL1",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: YCYL1",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: YCYL",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: YCYL",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: HSYCYL",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: HSYCYL",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: NCYL",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: NCYL",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: LJCYL",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: LJCYL",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: CSLB",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: CSLB",
+      "passed": true
+    },
+    {
+      "name": "field dictionary binding: BZ",
+      "passed": true
+    },
+    {
+      "name": "field missing/zero unknown: BZ",
+      "passed": true
+    },
+    {
+      "name": "coverage complete: F0-C01",
+      "passed": true
+    },
+    {
+      "name": "coverage all: F0-C01",
+      "passed": true
+    },
+    {
+      "name": "coverage gate: F0-C01",
+      "passed": true
+    },
+    {
+      "name": "coverage complete: F0-C02",
+      "passed": true
+    },
+    {
+      "name": "coverage all: F0-C02",
+      "passed": true
+    },
+    {
+      "name": "coverage gate: F0-C02",
+      "passed": true
+    },
+    {
+      "name": "coverage complete: F0-C03",
+      "passed": true
+    },
+    {
+      "name": "coverage all: F0-C03",
+      "passed": true
+    },
+    {
+      "name": "coverage gate: F0-C03",
+      "passed": true
+    },
+    {
+      "name": "coverage complete: F0-C04",
+      "passed": true
+    },
+    {
+      "name": "coverage all: F0-C04",
+      "passed": true
+    },
+    {
+      "name": "coverage gate: F0-C04",
+      "passed": true
+    },
+    {
+      "name": "coverage complete: F0-C05",
+      "passed": true
+    },
+    {
+      "name": "coverage all: F0-C05",
+      "passed": true
+    },
+    {
+      "name": "coverage gate: F0-C05",
+      "passed": true
+    },
+    {
+      "name": "unavailable not zero: F0-C06",
+      "passed": true
+    },
+    {
+      "name": "unavailable not zero: F0-C07",
+      "passed": true
+    },
+    {
+      "name": "unavailable not zero: F0-C08",
+      "passed": true
+    },
+    {
+      "name": "F0 pass count",
+      "passed": true
+    },
+    {
+      "name": "no injection inference",
+      "passed": true
+    },
+    {
+      "name": "mutually exclusive shapes total",
+      "passed": true
+    },
+    {
+      "name": "zero shape separate",
+      "passed": true
+    },
+    {
+      "name": "SVD validation well count",
+      "passed": true
+    },
+    {
+      "name": "SVD isolation 1",
+      "passed": true
+    },
+    {
+      "name": "SVD isolation 2",
+      "passed": true
+    },
+    {
+      "name": "SVD isolation 3",
+      "passed": true
+    },
+    {
+      "name": "SVD isolation 4",
+      "passed": true
+    },
+    {
+      "name": "SVD isolation 5",
+      "passed": true
+    },
+    {
+      "name": "K1 score from well-mean loss",
+      "passed": true
+    },
+    {
+      "name": "K1 summary binding",
+      "passed": true
+    },
+    {
+      "name": "K2 score from well-mean loss",
+      "passed": true
+    },
+    {
+      "name": "K2 summary binding",
+      "passed": true
+    },
+    {
+      "name": "K3 score from well-mean loss",
+      "passed": true
+    },
+    {
+      "name": "K3 summary binding",
+      "passed": true
+    },
+    {
+      "name": "K4 score from well-mean loss",
+      "passed": true
+    },
+    {
+      "name": "K4 summary binding",
+      "passed": true
+    },
+    {
+      "name": "historical count closure",
+      "passed": true
+    },
+    {
+      "name": "Dbeta month 1 arithmetic",
+      "passed": true
+    },
+    {
+      "name": "Dbeta month 2 arithmetic",
+      "passed": true
+    },
+    {
+      "name": "Dbeta train only",
+      "passed": true
+    },
+    {
+      "name": "Dgamma variance ratio",
+      "passed": true
+    },
+    {
+      "name": "Dgamma correlation binding",
+      "passed": true
+    },
+    {
+      "name": "Dgamma pair and month counts",
+      "passed": true
+    },
+    {
+      "name": "R4 decision row exact: F0",
+      "passed": true
+    },
+    {
+      "name": "R4 decision row exact: F1",
+      "passed": true
+    },
+    {
+      "name": "R4 decision row exact: D-α",
+      "passed": true
+    },
+    {
+      "name": "R4 decision row exact: D-β",
+      "passed": true
+    },
+    {
+      "name": "R4 decision row exact: D-γ",
+      "passed": true
+    },
+    {
+      "name": "F1 actual gray interval",
+      "passed": true
+    },
+    {
+      "name": "Dgamma fails both locked criteria",
+      "passed": true
+    },
+    {
+      "name": "privacy coverage exact set",
+      "passed": true
+    },
+    {
+      "name": "privacy 30 unique records",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: DELIVERY_BUILD_RECORD.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: DELIVERY_BUILD_RECORD.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: EVENTS.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: EVENTS.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: F0_FIELDS.md",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: F0_FIELDS.md",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: F0_FIELD_RESULTS.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: F0_FIELD_RESULTS.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: FIELD_DICTIONARY.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: FIELD_DICTIONARY.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: FIT_COUNTS.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: FIT_COUNTS.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: OOF_SOURCE_AND_PENDING_CHANGE.md",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: OOF_SOURCE_AND_PENDING_CHANGE.md",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: PLAN_STAGE0.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: PLAN_STAGE0.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: PRIVACY_COVERAGE_MAP.md",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: PRIVACY_COVERAGE_MAP.md",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: PRIVACY_SCAN_RAW.json",
+      "passed": true
+    },
+    {
+      "name": "privacy self-binding stated: PRIVACY_SCAN_RAW.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: README.md",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: README.md",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: REFERENCE_PANEL_CONTRACT.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: REFERENCE_PANEL_CONTRACT.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: REPORT_B.md",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: REPORT_B.md",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: REPRODUCTION.md",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: REPRODUCTION.md",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: REQUEST_CODEX.md",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: REQUEST_CODEX.md",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: RESULT_A2B027_STAGE0.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: RESULT_A2B027_STAGE0.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: RESULT_SNAPSHOT_BINDING.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: RESULT_SNAPSHOT_BINDING.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "name": "privacy self-binding stated: SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: SOURCE_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: SOURCE_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: SPLIT_REFERENCE.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: SPLIT_REFERENCE.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: STRUCTURE_GATES.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: STRUCTURE_GATES.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: SYNTHETIC_LOG.txt",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: SYNTHETIC_LOG.txt",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: SYNTHETIC_RESULTS.json",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: SYNTHETIC_RESULTS.json",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: diagnostic_core.py",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: diagnostic_core.py",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: privacy_check.py",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: privacy_check.py",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: route_b_core.py",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: route_b_core.py",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: run_stage0.py",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: run_stage0.py",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: test_diagnostics.py",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: test_diagnostics.py",
+      "passed": true
+    },
+    {
+      "name": "privacy zero-hit: train_reader.py",
+      "passed": true
+    },
+    {
+      "name": "privacy byte binding: train_reader.py",
+      "passed": true
+    },
+    {
+      "name": "privacy no exemptions",
+      "passed": true
+    },
+    {
+      "name": "B registration: 任务编号/阶段",
+      "passed": true
+    },
+    {
+      "name": "B registration: 角色",
+      "passed": true
+    },
+    {
+      "name": "B registration: 分支",
+      "passed": true
+    },
+    {
+      "name": "B registration: 完整提交号",
+      "passed": true
+    },
+    {
+      "name": "B registration: 目录路径",
+      "passed": true
+    },
+    {
+      "name": "B registration: 结果文件路径",
+      "passed": true
+    },
+    {
+      "name": "B registration: 关键数字",
+      "passed": true
+    },
+    {
+      "name": "B registration: 硬门禁结论",
+      "passed": true
+    },
+    {
+      "name": "B registration: UNKNOWN",
+      "passed": true
+    },
+    {
+      "name": "B registration: 对应决策表行",
+      "passed": true
+    },
+    {
+      "name": "B registration: 所依据的 Claude 指令存档提交号",
+      "passed": true
+    },
+    {
+      "name": "B decision row not self-signed",
+      "passed": true
+    },
+    {
+      "name": "snapshot binding",
+      "passed": true
+    },
+    {
+      "name": "final B fixed in index",
+      "passed": true
+    },
+    {
+      "name": "B integrity assertion: protected_files_unchanged",
+      "passed": true
+    },
+    {
+      "name": "B integrity assertion: raw_archive_manifest_unchanged",
+      "passed": true
+    },
+    {
+      "name": "B integrity assertion: private_config_unchanged",
+      "passed": true
+    },
+    {
+      "name": "B integrity assertion: own_sources_unchanged",
+      "passed": true
+    },
+    {
+      "name": "all six B Python sources compile",
+      "passed": true
+    }
+  ],
+  "checks_passed": 307,
+  "all_passed": true,
+  "F0_combo_pass_count": 5,
+  "F1_oracle_K1_to_K4": [
+    80.12636949521163,
+    84.87462371145355,
+    88.2119182675378,
+    89.46646407954523
+  ],
+  "Dalpha_status": "UNKNOWN P1 - not executed",
+  "Dbeta_additional_m1_and_m2": [
+    32,
+    32
+  ],
+  "Dbeta_ratio": 0.3950617283950617,
+  "Dgamma_variance_ratio_recomputed": 0.050060050636717125,
+  "Dgamma_lag1_source": "bound B result, code inspected and independent synthetic formula checked; real calendar series not supplied",
+  "B_model_fits_from_bound_records": 0,
+  "B_preprocessing_fits_from_bound_records": 5,
+  "A_model_fits": 0,
+  "A_preprocessing_fits": 0,
+  "A_real_SVD_calls": 0,
+  "A_raw_data_read": false,
+  "A_private_marker_scan_repeated": false,
+  "original_real_field_counts_and_F1_scores_not_independently_recomputed": true,
+  "unpublished_preparation_helper_not_called_by_reviewed_real_entry": "prepare_stage0.py",
+  "B_dir_and_original_input_immutability_is_B_bound_execution_evidence_not_A_remote_filesystem_access": true
+}

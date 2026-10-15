@@ -1,0 +1,153 @@
+{
+  "status": "ahead",
+  "ahead_by": 1,
+  "behind_by": 0,
+  "files": [
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/DELIVERY_BUILD_RECORD.json",
+      "status": "added",
+      "changes": 16
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/EVENTS.json",
+      "status": "added",
+      "changes": 272
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/F0_FIELDS.md",
+      "status": "added",
+      "changes": 56
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/F0_FIELD_RESULTS.json",
+      "status": "added",
+      "changes": 605
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/FIELD_DICTIONARY.json",
+      "status": "added",
+      "changes": 15
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/FIT_COUNTS.json",
+      "status": "added",
+      "changes": 11
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "status": "added",
+      "changes": 62
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/OOF_SOURCE_AND_PENDING_CHANGE.md",
+      "status": "added",
+      "changes": 11
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/PLAN_STAGE0.json",
+      "status": "added",
+      "changes": 44
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "status": "added",
+      "changes": 41
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/PRIVACY_SCAN_RAW.json",
+      "status": "added",
+      "changes": 473
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/README.md",
+      "status": "added",
+      "changes": 7
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REFERENCE_PANEL_CONTRACT.json",
+      "status": "added",
+      "changes": 338
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REPORT_B.md",
+      "status": "added",
+      "changes": 71
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REPRODUCTION.md",
+      "status": "added",
+      "changes": 13
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/REQUEST_CODEX.md",
+      "status": "added",
+      "changes": 9
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/RESULT_SNAPSHOT_BINDING.json",
+      "status": "added",
+      "changes": 9
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SHA256SUMS.json",
+      "status": "added",
+      "changes": 151
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SOURCE_RECEIPT.json",
+      "status": "added",
+      "changes": 158
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SPLIT_REFERENCE.json",
+      "status": "added",
+      "changes": 7
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/STRUCTURE_GATES.json",
+      "status": "added",
+      "changes": 24
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SYNTHETIC_LOG.txt",
+      "status": "added",
+      "changes": 21
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/SYNTHETIC_RESULTS.json",
+      "status": "added",
+      "changes": 7
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/diagnostic_core.py",
+      "status": "added",
+      "changes": 114
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/privacy_check.py",
+      "status": "added",
+      "changes": 108
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/route_b_core.py",
+      "status": "added",
+      "changes": 87
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/run_stage0.py",
+      "status": "added",
+      "changes": 245
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/test_diagnostics.py",
+      "status": "added",
+      "changes": 68
+    },
+    {
+      "filename": "docs/handoff_20261015_A2B027_STAGE0_B_V1/train_reader.py",
+      "status": "added",
+      "changes": 50
+    }
+  ],
+  "result_unchanged": true
+}
