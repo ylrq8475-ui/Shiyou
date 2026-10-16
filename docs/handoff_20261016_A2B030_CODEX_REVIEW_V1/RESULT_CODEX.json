@@ -6,7 +6,7 @@
   "instruction_sha256": "e9c6da7c400bf5385f98b84b01a8e1ed3a7b8322dc0053c40e18a91c441ce5d5",
   "registration_commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
   "rules_compilation_commit": "8b112a767a3355a1ea208038915028ba4c4525e4",
-  "Codex_result_snapshot_commit": "__AUDIT_SNAPSHOT_COMMIT__",
+  "Codex_result_snapshot_commit": "6cde8e94e7f8f97bd45725eb98b2e83c4c92cfe3",
   "final_commit_binding": "Fixed final report URL and append-only handoff-index record; not a fabricated self-containing commit hash",
   "N1_single_event_train": 35,
   "N1_date_consistent_train": 26,
