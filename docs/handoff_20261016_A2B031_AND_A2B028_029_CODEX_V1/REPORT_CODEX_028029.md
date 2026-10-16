@@ -2,7 +2,7 @@
 任务编号/阶段：A2B-028阶段1＋A2B-029零样本诊断／R5②补审  
 角色：Codex审核；账户A2（新接手）独立审核与交付  
 分支：codex/a2b031-compliance-and-r5-review-20261016  
-完整提交号（40位，初始审核快照）：__AUDIT_SNAPSHOT_COMMIT__（最终版由固定链接、回取与索引绑定）  
+完整提交号（40位，初始审核快照）：2c9c9068e9671436433b51a534fe5e804ae23875（本版补记快照身份；最终版由固定链接、回取与索引绑定）  
 被审B提交号（40位）：a2bc8d4c02eba88bea2cb468a5478a4a5f0b18c9  
 目录路径：docs/handoff_20261016_A2B031_AND_A2B028_029_CODEX_V1  
 结果文件路径（单个JSON）：docs/handoff_20261016_A2B031_AND_A2B028_029_CODEX_V1/RESULT_CODEX_028029.json  

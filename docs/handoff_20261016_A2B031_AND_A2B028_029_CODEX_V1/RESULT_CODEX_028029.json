@@ -3,7 +3,7 @@
   "B_commit": "a2bc8d4c02eba88bea2cb468a5478a4a5f0b18c9",
   "rules_commit": "8b112a767a3355a1ea208038915028ba4c4525e4",
   "registration_commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
-  "Codex_initial_snapshot_commit": "__AUDIT_SNAPSHOT_COMMIT__",
+  "Codex_initial_snapshot_commit": "2c9c9068e9671436433b51a534fe5e804ae23875",
   "final_commit_binding": "Final fixed URL, verified remote bytes and append-only handoff-index; no fabricated self-containing hash",
   "A_model_fits": 0,
   "A_preprocessor_fits": 0,
