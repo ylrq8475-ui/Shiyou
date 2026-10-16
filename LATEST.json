@@ -336,6 +336,24 @@
         "CODEX-031-R8-REVIEW P1 E1–E4本补证待同编号独立复核；R8指令252d421d4396c5e4119f03c772be239a9cdd1b7e"
       ],
       "published_at": "2026-10-16T14:39:52.335476+08:00"
+    },
+    {
+      "task": "A2B-032/T1–T3任务对齐审计",
+      "role": "B",
+      "commit": "094ebcd2b6b323849fce9c5cb1daf3e6b9228b41",
+      "report_path": "docs/handoff_20261016_A2B032_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261016_A2B032_B_V1/RESULT_A2B032.json",
+      "reviews_commit": "不适用",
+      "hard_gates": "泄漏／错位／井级隔离／指标：通过（B自报，仅本轮T1–T3读取、身份和指标自检；T4另由Codex判定）；模型/预处理拟合0/0",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "A032-T4 P1 独立合规判定待Codex，B不代判或据P2放行训练",
+        "A032-ALIGN-INTERPRETATION P2 ALIGN_MATCH=否：测试联合众数6/10<8/10；k_end测试10/10及训练81/81均1，不能仅凭布尔值证明目标错位",
+        "A032-P3-REFERENCE P2 新目标前一月的P1字面口径与P3相同，差0；不同目标描述差不能当模型增益",
+        "CODEX-032-REVIEW P1 T1–T3待独立审核；R9来源493eabed3a83d646182787fd65dd070f652a4780",
+        "HIST-DTYPE P1 原历史缺口未回填"
+      ],
+      "published_at": "2026-10-16T15:13:40.065563+08:00"
     }
   ]
 }
