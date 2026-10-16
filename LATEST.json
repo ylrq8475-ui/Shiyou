@@ -226,6 +226,21 @@
         "HIST-DTYPE P1 原历史逐文件加载身份仍缺，本次零拟合不关闭"
       ],
       "published_at": "2026-10-16T09:24:09+08:00"
+    },
+    {
+      "task": "A2B-031/地质与压裂设计特征（含合规判定）",
+      "role": "Claude",
+      "commit": "be03e6caeb6b70278c8e5a137b178130700aab72",
+      "report_path": "docs/handoff_20261016_A2B031_CLAUDE_INSTRUCTIONS_R7/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "执行顺序：Codex合规判定（Q1层位静态地质、Q2完工≤M−1的方案参数）→ B按判定执行 → Codex审核",
+        "用户决定：接受停产月损失不再投入；收尾指令推后"
+      ],
+      "published_at": "2026-10-16T10:00:00+08:00"
     }
   ]
 }
