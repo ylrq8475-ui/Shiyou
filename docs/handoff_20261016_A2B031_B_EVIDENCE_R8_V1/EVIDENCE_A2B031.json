@@ -1,0 +1,1009 @@
+{
+  "task": "A2B-031/补证",
+  "role": "账户B执行与交付",
+  "R8_commit": "252d421d4396c5e4119f03c772be239a9cdd1b7e",
+  "E3": {
+    "cohort_wells": 81,
+    "cohort_rows": 972,
+    "source_train_wells": 88,
+    "exclusions": {
+      "missing_month": 7
+    },
+    "N_Q2_all": 0,
+    "conditions": [
+      "C1_single_event_segment",
+      "C2_unique_complete_full_date",
+      "C3_completion_in_current_segment",
+      "C4_completion_at_or_before_M_minus_1"
+    ],
+    "independent_pass_counts": [
+      35,
+      81,
+      62,
+      5
+    ],
+    "independent_failure_counts": [
+      46,
+      0,
+      19,
+      76
+    ],
+    "cumulative_all_conditions_pass_counts": [
+      35,
+      35,
+      26,
+      0
+    ],
+    "single_event_wells": 35,
+    "unique_completion_month_wells": 81,
+    "multiple_plan_rows_but_unique_full_date_wells": 81,
+    "date_ambiguity_counts": {},
+    "date_field": {
+      "field": "完工日期",
+      "official_meaning": "对应井史数据压裂日期",
+      "source": "O1 datasetDescription 压裂操作方案字典第2行"
+    },
+    "strict_date_uniqueness": "full date; several dates within same month are not accepted",
+    "C3_C4_independent_scope": "current last continuous event segment; C1 separately required",
+    "availability_proven_by_date_order": false,
+    "new_candidate_scores_generated": false
+  },
+  "E1_test_field_coverage": {
+    "layer": {
+      "test_wells": 10,
+      "record_bearing_wells": 10,
+      "fields": [
+        {
+          "field": "WELL_ID",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "XH",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "CW",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "YCZMC",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "XCH",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "XFCH",
+          "record_denominator": 1858,
+          "nonmissing_records": 1011,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "XB",
+          "record_denominator": 1858,
+          "nonmissing_records": 537,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "SYDS",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "SYDS1",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "SYHD",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "YXHD",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "STL",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "DCXH",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "KXD",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "HSBHD",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "SFSBHD",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "CCCD",
+          "record_denominator": 1858,
+          "nonmissing_records": 1858,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "SYJSJG",
+          "record_denominator": 1858,
+          "nonmissing_records": 919,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "SKQK",
+          "record_denominator": 1858,
+          "nonmissing_records": 486,
+          "wells_with_nonmissing": 10
+        }
+      ]
+    },
+    "plan": {
+      "test_wells": 10,
+      "record_bearing_wells": 10,
+      "fields": [
+        {
+          "field": "井号",
+          "record_denominator": 53,
+          "nonmissing_records": 53,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "完工日期",
+          "record_denominator": 53,
+          "nonmissing_records": 53,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "层位",
+          "record_denominator": 53,
+          "nonmissing_records": 53,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "井段(喷枪深度)(m)",
+          "record_denominator": 53,
+          "nonmissing_records": 53,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "砂岩射开厚度(m)",
+          "record_denominator": 53,
+          "nonmissing_records": 37,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "有效厚度(m)",
+          "record_denominator": 53,
+          "nonmissing_records": 34,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "渗透率(10-3μm2)",
+          "record_denominator": 53,
+          "nonmissing_records": 34,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "上隔层厚度(m)",
+          "record_denominator": 53,
+          "nonmissing_records": 34,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "下隔层厚度(m)",
+          "record_denominator": 53,
+          "nonmissing_records": 34,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "目的层温度(℃)",
+          "record_denominator": 53,
+          "nonmissing_records": 35,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "压裂方式",
+          "record_denominator": 53,
+          "nonmissing_records": 35,
+          "wells_with_nonmissing": 10
+        },
+        {
+          "field": "石英砂用量(m3)",
+          "record_denominator": 53,
+          "nonmissing_records": 53,
+          "wells_with_nonmissing": 10
+        }
+      ]
+    }
+  },
+  "input_identity": {
+    "archive": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+    "manifest": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f",
+    "config": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72",
+    "dictionary": "ea8c106dfd8931c2337c9d0e1f42b653bdb2f7466ddd5ec109313fc3f097ee75",
+    "safe_source": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+    "multistep_source": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b"
+  },
+  "fit_counts": {
+    "model_entered": 0,
+    "model_completed": 0,
+    "preprocessor_entered": 0,
+    "preprocessor_completed": 0
+  },
+  "test_history_tables_parsed": 0,
+  "test_label_columns_read": 0,
+  "archive_extracted": false,
+  "private_records_persisted": false,
+  "hard_gates": {
+    "泄漏": "UNKNOWN：Q1/Q2可得性待Codex；本次未构造或训练新增输入",
+    "错位": "通过：本次队列按冻结M+1..M+12；未预测或评分",
+    "井级隔离": "通过：训练/测试标识集合无交集；本次未切分或拟合",
+    "指标": "UNKNOWN：零拟合补证，不新算模型分数"
+  },
+  "Q1_Q2_independent_review": "PENDING; no B self-release",
+  "historical_dtype": "UNKNOWN; no historical lock rewritten",
+  "source_integrity": {
+    "all_100_members_original_bytes_verified": true,
+    "archive_config_manifest_sources_unchanged": true,
+    "models_loaded": 0,
+    "old_artifacts_modified": false,
+    "no_ML_imports": true,
+    "cohort_label_key_order_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda",
+    "matches_A2B028_B0_prefit_identity": true,
+    "label_key_hash_is_not_a_new_score_or_feature_identity_claim": true
+  },
+  "E2": {
+    "field_count": 19,
+    "counts": {
+      "a": 13,
+      "b": 4,
+      "c": 0,
+      "metadata_excluded": 2
+    },
+    "classification_scope_note": "17个地质/状态字段按a/b/c归类；另2个已知含义的标识元数据逐字段列明并排除，不能伪称含义不明。19字段无遗漏。",
+    "proposed_whitelist": [
+      "CW",
+      "DCXH",
+      "KXD",
+      "SFSBHD",
+      "STL",
+      "SYDS",
+      "SYDS1",
+      "SYHD",
+      "XB",
+      "XCH",
+      "XFCH",
+      "YCZMC",
+      "YXHD"
+    ],
+    "proposed_whitelist_count": 13,
+    "official_asof_whitelist": null,
+    "final_whitelist_authority": "Codex, pending same-ID review",
+    "layer_fields": [
+      {
+        "field": "WELL_ID",
+        "official_meaning": "井号",
+        "unit": "/",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 1,
+        "classification": "metadata_excluded",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "官方含义明确的井标识/序号，既非地质属性也非含义不明；仅用于内存连接和定位，不作模型输入",
+        "proposed_whitelist": false,
+        "official_basis_for_a": null,
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "XH",
+        "official_meaning": "序号",
+        "unit": "/",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 2,
+        "classification": "metadata_excluded",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "官方含义明确的井标识/序号，既非地质属性也非含义不明；仅用于内存连接和定位，不作模型输入",
+        "proposed_whitelist": false,
+        "official_basis_for_a": null,
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "CW",
+        "official_meaning": "层位",
+        "unit": "/",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 3,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 3,
+          "field": "CW",
+          "meaning": "层位",
+          "unit": "/"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "YCZMC",
+        "official_meaning": "油层组名称",
+        "unit": "/",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 4,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 4,
+          "field": "YCZMC",
+          "meaning": "油层组名称",
+          "unit": "/"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "XCH",
+        "official_meaning": "小层号",
+        "unit": "/",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 5,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 5,
+          "field": "XCH",
+          "meaning": "小层号",
+          "unit": "/"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "XFCH",
+        "official_meaning": "细分层号",
+        "unit": "/",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 6,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 6,
+          "field": "XFCH",
+          "meaning": "细分层号",
+          "unit": "/"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "XB",
+        "official_meaning": "相别",
+        "unit": "/",
+        "missing_meaning": "空值：非河道",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 7,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 7,
+          "field": "XB",
+          "meaning": "相别",
+          "unit": "/"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "SYDS",
+        "official_meaning": "砂岩顶深",
+        "unit": "m",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 8,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 8,
+          "field": "SYDS",
+          "meaning": "砂岩顶深",
+          "unit": "m"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "SYDS1",
+        "official_meaning": "砂岩底深",
+        "unit": "m",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 9,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 9,
+          "field": "SYDS1",
+          "meaning": "砂岩底深",
+          "unit": "m"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "SYHD",
+        "official_meaning": "砂岩厚度",
+        "unit": "m",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 10,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 10,
+          "field": "SYHD",
+          "meaning": "砂岩厚度",
+          "unit": "m"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "YXHD",
+        "official_meaning": "有效厚度",
+        "unit": "m",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 11,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 11,
+          "field": "YXHD",
+          "meaning": "有效厚度",
+          "unit": "m"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "STL",
+        "official_meaning": "渗透率",
+        "unit": "10^-3 μm²",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 12,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 12,
+          "field": "STL",
+          "meaning": "渗透率",
+          "unit": "10^-3 μm²"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "DCXH",
+        "official_meaning": "地层系数",
+        "unit": "10^-3 μm²·m",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 13,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 13,
+          "field": "DCXH",
+          "meaning": "地层系数",
+          "unit": "10^-3 μm²·m"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "KXD",
+        "official_meaning": "孔隙度",
+        "unit": "%",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 14,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 14,
+          "field": "KXD",
+          "meaning": "孔隙度",
+          "unit": "%"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "HSBHD",
+        "official_meaning": "含水饱和度",
+        "unit": "%",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 15,
+        "classification": "b",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "含水状态/开发程度/水淹解释/射孔状态可随生产或措施更新，不作为静态白名单",
+        "proposed_whitelist": false,
+        "official_basis_for_a": null,
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "SFSBHD",
+        "official_meaning": "束缚水饱和度",
+        "unit": "%",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 16,
+        "classification": "a",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "地层标识、几何或岩石物性；依据下列官方名称作B侧地质属性归类，官方未标注形成时间或不可更新性",
+        "proposed_whitelist": true,
+        "official_basis_for_a": {
+          "row": 16,
+          "field": "SFSBHD",
+          "meaning": "束缚水饱和度",
+          "unit": "%"
+        },
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "CCCD",
+        "official_meaning": "采出程度",
+        "unit": "%",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 17,
+        "classification": "b",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "含水状态/开发程度/水淹解释/射孔状态可随生产或措施更新，不作为静态白名单",
+        "proposed_whitelist": false,
+        "official_basis_for_a": null,
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "SYJSJG",
+        "official_meaning": "水淹解释",
+        "unit": "/",
+        "missing_meaning": "空白：未解释",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 18,
+        "classification": "b",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "含水状态/开发程度/水淹解释/射孔状态可随生产或措施更新，不作为静态白名单",
+        "proposed_whitelist": false,
+        "official_basis_for_a": null,
+        "historical_M_minus_1_availability": "UNKNOWN"
+      },
+      {
+        "field": "SKQK",
+        "official_meaning": "射孔标记",
+        "unit": "/",
+        "missing_meaning": "空值：未射开",
+        "date_field": false,
+        "source": "O1 datasetDescription（二）层位数据字典",
+        "dictionary_row": 19,
+        "classification": "b",
+        "classification_author": "B inference from official field meaning; not an official static classification",
+        "reason": "含水状态/开发程度/水淹解释/射孔状态可随生产或措施更新，不作为静态白名单",
+        "proposed_whitelist": false,
+        "official_basis_for_a": null,
+        "historical_M_minus_1_availability": "UNKNOWN"
+      }
+    ],
+    "plan_fields": [
+      {
+        "field": "井号",
+        "official_meaning": "对应井史数据WELL_ID",
+        "unit": "/",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "dictionary_row": 1,
+        "source": "O1 datasetDescription（三）压裂操作方案数据字典",
+        "design_or_result_classification": "连接元数据；不属于设计参数或施工结果特征",
+        "preconstruction_version_proven": false,
+        "proposed_whitelist": false,
+        "exclusion_reason": "本补证未找到该字段事前版本依据；E3交集也为0。保留字段说明供Codex判定，不自行放行。"
+      },
+      {
+        "field": "完工日期",
+        "official_meaning": "对应井史数据压裂日期",
+        "unit": "年/月/日",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": true,
+        "dictionary_row": 2,
+        "source": "O1 datasetDescription（三）压裂操作方案数据字典",
+        "design_or_result_classification": "施工完工时间记录；不是施工前设计参数，不能证明其他字段版本已提前可得",
+        "preconstruction_version_proven": false,
+        "proposed_whitelist": false,
+        "exclusion_reason": "本补证未找到该字段事前版本依据；E3交集也为0。保留字段说明供Codex判定，不自行放行。"
+      },
+      {
+        "field": "层位",
+        "official_meaning": "对应层位数据",
+        "unit": "/",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "dictionary_row": 3,
+        "source": "O1 datasetDescription（三）压裂操作方案数据字典",
+        "design_or_result_classification": "地层连接/对象描述；未明确给出其方案编制版本",
+        "preconstruction_version_proven": false,
+        "proposed_whitelist": false,
+        "exclusion_reason": "本补证未找到该字段事前版本依据；E3交集也为0。保留字段说明供Codex判定，不自行放行。"
+      },
+      {
+        "field": "井段(喷枪深度)(m)",
+        "official_meaning": "井段（喷枪深度）",
+        "unit": "m",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "dictionary_row": 4,
+        "source": "O1 datasetDescription（三）压裂操作方案数据字典",
+        "design_or_result_classification": "可能用于施工前设计的参数/地质描述；官方字典未明确该表是事前设计值还是事后记录值",
+        "preconstruction_version_proven": false,
+        "proposed_whitelist": false,
+        "exclusion_reason": "本补证未找到该字段事前版本依据；E3交集也为0。保留字段说明供Codex判定，不自行放行。"
+      },
+      {
+        "field": "砂岩射开厚度(m)",
+        "official_meaning": "砂岩射开厚度",
+        "unit": "m",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "dictionary_row": 5,
+        "source": "O1 datasetDescription（三）压裂操作方案数据字典",
+        "design_or_result_classification": "涉及射开状态；设计值还是实施结果，官方字典未说明",
+        "preconstruction_version_proven": false,
+        "proposed_whitelist": false,
+        "exclusion_reason": "本补证未找到该字段事前版本依据；E3交集也为0。保留字段说明供Codex判定，不自行放行。"
+      },
+      {
+        "field": "有效厚度(m)",
+        "official_meaning": "有效厚度",
+        "unit": "m",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "dictionary_row": 6,
+        "source": "O1 datasetDescription（三）压裂操作方案数据字典",
+        "design_or_result_classification": "可能用于施工前设计的参数/地质描述；官方字典未明确该表是事前设计值还是事后记录值",
+        "preconstruction_version_proven": false,
+        "proposed_whitelist": false,
+        "exclusion_reason": "本补证未找到该字段事前版本依据；E3交集也为0。保留字段说明供Codex判定，不自行放行。"
+      },
+      {
+        "field": "渗透率(10-3μm2)",
+        "official_meaning": "渗透率",
+        "unit": "10^-3 μm²",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "dictionary_row": 7,
+        "source": "O1 datasetDescription（三）压裂操作方案数据字典",
+        "design_or_result_classification": "可能用于施工前设计的参数/地质描述；官方字典未明确该表是事前设计值还是事后记录值",
+        "preconstruction_version_proven": false,
+        "proposed_whitelist": false,
+        "exclusion_reason": "本补证未找到该字段事前版本依据；E3交集也为0。保留字段说明供Codex判定，不自行放行。"
+      },
+      {
+        "field": "上隔层厚度(m)",
+        "official_meaning": "上隔层厚度",
+        "unit": "m",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "dictionary_row": 8,
+        "source": "O1 datasetDescription（三）压裂操作方案数据字典",
+        "design_or_result_classification": "可能用于施工前设计的参数/地质描述；官方字典未明确该表是事前设计值还是事后记录值",
+        "preconstruction_version_proven": false,
+        "proposed_whitelist": false,
+        "exclusion_reason": "本补证未找到该字段事前版本依据；E3交集也为0。保留字段说明供Codex判定，不自行放行。"
+      },
+      {
+        "field": "下隔层厚度(m)",
+        "official_meaning": "下隔层厚度",
+        "unit": "m",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "dictionary_row": 9,
+        "source": "O1 datasetDescription（三）压裂操作方案数据字典",
+        "design_or_result_classification": "可能用于施工前设计的参数/地质描述；官方字典未明确该表是事前设计值还是事后记录值",
+        "preconstruction_version_proven": false,
+        "proposed_whitelist": false,
+        "exclusion_reason": "本补证未找到该字段事前版本依据；E3交集也为0。保留字段说明供Codex判定，不自行放行。"
+      },
+      {
+        "field": "目的层温度(℃)",
+        "official_meaning": "目的层温度",
+        "unit": "℃",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "dictionary_row": 10,
+        "source": "O1 datasetDescription（三）压裂操作方案数据字典",
+        "design_or_result_classification": "可能用于施工前设计的参数/地质描述；官方字典未明确该表是事前设计值还是事后记录值",
+        "preconstruction_version_proven": false,
+        "proposed_whitelist": false,
+        "exclusion_reason": "本补证未找到该字段事前版本依据；E3交集也为0。保留字段说明供Codex判定，不自行放行。"
+      },
+      {
+        "field": "压裂方式",
+        "official_meaning": "压裂方式",
+        "unit": "/",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "dictionary_row": 11,
+        "source": "O1 datasetDescription（三）压裂操作方案数据字典",
+        "design_or_result_classification": "可能用于施工前设计的参数/地质描述；官方字典未明确该表是事前设计值还是事后记录值",
+        "preconstruction_version_proven": false,
+        "proposed_whitelist": false,
+        "exclusion_reason": "本补证未找到该字段事前版本依据；E3交集也为0。保留字段说明供Codex判定，不自行放行。"
+      },
+      {
+        "field": "石英砂用量(m3)",
+        "official_meaning": "石英砂用量",
+        "unit": "m³",
+        "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+        "date_field": false,
+        "dictionary_row": 12,
+        "source": "O1 datasetDescription（三）压裂操作方案数据字典",
+        "design_or_result_classification": "可以有设计量和实际量；官方字典未说明哪一种",
+        "preconstruction_version_proven": false,
+        "proposed_whitelist": false,
+        "exclusion_reason": "本补证未找到该字段事前版本依据；E3交集也为0。保留字段说明供Codex判定，不自行放行。"
+      }
+    ],
+    "plan_proposed_whitelist": [],
+    "plan_design_version_evidence": "UNKNOWN; literal field names are not as-of/version evidence"
+  },
+  "E1": {
+    "official_quotes": [
+      {
+        "source": "O1",
+        "location": ".description plain-text paragraph 7",
+        "text": "本赛题将化学驱综合调整场景中的“压裂措施效果评价”转化为多源时序回归问题。参赛选手需综合利用采出井地层数据、井史月度数据以及压裂操作方案数据，建立采出井压裂后日产油量的预测模型。以单井末次压裂起始月份为预测起点，预测其后连续12个月的日产油量。",
+        "verbatim": true
+      },
+      {
+        "source": "O1",
+        "location": ".datasetDescription plain-text paragraph 2",
+        "text": "数据集包括88口训练井、10口测试井的井史数据以及层位数据、压裂操作方案数据。",
+        "verbatim": true
+      },
+      {
+        "source": "O1",
+        "location": ".datasetDescription plain-text paragraph 3",
+        "text": "1、训练井井史数据：月度数据，包含生产数据和压裂等措施信息。",
+        "verbatim": true
+      },
+      {
+        "source": "O1",
+        "location": ".datasetDescription plain-text paragraph 4",
+        "text": "2、测试井井史数据：月度数据，格式与训练井井史数据相同，预测窗口内部分字段被置空。",
+        "verbatim": true
+      },
+      {
+        "source": "O1",
+        "location": ".datasetDescription plain-text paragraph 5",
+        "text": "3、层位.csv：各采出井地层/层位信息，包含训练井、测试井。",
+        "verbatim": true
+      },
+      {
+        "source": "O1",
+        "location": ".datasetDescription plain-text paragraph 6",
+        "text": "4、压裂操作方案.csv：各采出井首次实施压裂的方案信息，包含测试井和训练井。",
+        "verbatim": true
+      },
+      {
+        "source": "O4",
+        "location": "PDF第1页，二、训推合规要求，第2项",
+        "text": "对实时预测、提前预警等任务，只能使用预测时点及之前允许获取的信息，不得利用未来数据反推较早时点的标签，也不得在检出后续异常后向前回填预警结果。对于赛题明确允许完整序列输入的离线识别任务，按其任务定义执行。",
+        "verbatim": true,
+        "layout_only_whitespace_removed": true
+      }
+    ],
+    "dictionary_definitions_source": "FIELD_CLASSIFICATION.json; official image row locators; names/meanings/units only, not private cell values",
+    "official_test_input_claim": "O1明确训练88口、测试10口；层位及首次方案均包含训练和测试井",
+    "absence_review": [
+      {
+        "source": "O2",
+        "scope": "赛事整体说明全部HTML正文",
+        "specific_file_or_static_mentions": "未提及",
+        "keyword_counts": {
+          "层位": 0,
+          "地层": 0,
+          "首次": 0,
+          "静态": 0,
+          "井基础": 0
+        },
+        "explicit_historical_static_exception_found": false,
+        "general_time_boundary": "未找到上述文件的具体预测时点授权"
+      },
+      {
+        "source": "O3",
+        "scope": "PDF全文2页；O3/O4另核对全部渲染页，O5为机器文本全文核对",
+        "specific_file_or_static_mentions": "未提及",
+        "keyword_counts": {
+          "层位": 0,
+          "地层": 0,
+          "首次": 0,
+          "静态": 0,
+          "井基础": 0
+        },
+        "explicit_historical_static_exception_found": false,
+        "general_time_boundary": "未找到上述文件的具体预测时点授权"
+      },
+      {
+        "source": "O4",
+        "scope": "PDF全文2页；O3/O4另核对全部渲染页，O5为机器文本全文核对",
+        "specific_file_or_static_mentions": "未提及",
+        "keyword_counts": {
+          "层位": 0,
+          "地层": 0,
+          "首次": 0,
+          "静态": 0,
+          "井基础": 0
+        },
+        "explicit_historical_static_exception_found": false,
+        "general_time_boundary": "O4第1页二.2，单独引录"
+      },
+      {
+        "source": "O5",
+        "scope": "PDF全文6页；O3/O4另核对全部渲染页，O5为机器文本全文核对",
+        "specific_file_or_static_mentions": "未提及",
+        "keyword_counts": {
+          "层位": 0,
+          "地层": 0,
+          "首次": 0,
+          "静态": 0,
+          "井基础": 0
+        },
+        "explicit_historical_static_exception_found": false,
+        "general_time_boundary": "未找到上述文件的具体预测时点授权"
+      },
+      {
+        "source": "O6",
+        "scope": "公开API全部字段；O6为公告目录，O7为赛程",
+        "specific_file_or_static_mentions": "未提及",
+        "keyword_counts": {
+          "层位": 0,
+          "地层": 0,
+          "首次": 0,
+          "静态": 0,
+          "井基础": 0
+        },
+        "explicit_historical_static_exception_found": false,
+        "general_time_boundary": "未找到上述文件的具体预测时点授权"
+      },
+      {
+        "source": "O7",
+        "scope": "公开API全部字段；O6为公告目录，O7为赛程",
+        "specific_file_or_static_mentions": "未提及",
+        "keyword_counts": {
+          "层位": 0,
+          "地层": 0,
+          "首次": 0,
+          "静态": 0,
+          "井基础": 0
+        },
+        "explicit_historical_static_exception_found": false,
+        "general_time_boundary": "未找到上述文件的具体预测时点授权"
+      }
+    ],
+    "current_file_presence_not_historical_availability": true,
+    "official_time_expression_vs_project_anchor": "O1原句为末次压裂起始月份；项目仍沿用最后连续候选段末M及M+1..M+12，本轮不据文字修改锚点或声明官方确认"
+  },
+  "E4": {
+    "files": {
+      "layer": {
+        "current_train_test_same_archive_member": true,
+        "member_sha256": "ef59dac0faf59c80551529905239866a4422aacd534b19679f0384d98cc6dcff",
+        "release_date": "无：包内未找到可核验的官方发布日期",
+        "version_or_update_fields": [],
+        "date_fields": [],
+        "completion_date_is_version_timestamp": false,
+        "historical_asof_version_evidence": "无",
+        "same_member_not_historical_identity": true,
+        "train_wells_with_records": 88,
+        "test_wells_with_records": 10,
+        "total_rows": 17390
+      },
+      "plan": {
+        "current_train_test_same_archive_member": true,
+        "member_sha256": "5d419988476b950fcf21c991526fa6df09f5155c85eaee3bf135cc7fab1c060b",
+        "release_date": "无：包内未找到可核验的官方发布日期",
+        "version_or_update_fields": [],
+        "date_fields": [
+          "完工日期"
+        ],
+        "completion_date_is_version_timestamp": false,
+        "historical_asof_version_evidence": "无",
+        "same_member_not_historical_identity": true,
+        "train_wells_with_records": 88,
+        "test_wells_with_records": 10,
+        "total_rows": 468
+      }
+    },
+    "O1_webpage_createTime": "2026-07-30 15:04:03",
+    "O1_webpage_updateTime": "2026-09-10 10:52:42",
+    "webpage_timestamps_are_file_release_dates": false,
+    "official_file_release_dates": "无：公开说明和本地原包未找到逐文件官方发布日期",
+    "historical_versions_or_acquisition_records": "无：未找到；不新造历史证据"
+  },
+  "budget": {
+    "model_fit_budget": 0,
+    "preprocessor_fit_budget": 0,
+    "model_fit_observed": 0,
+    "preprocessor_fit_observed": 0
+  },
+  "status": "EVIDENCE_COMPLETED_CODEX_REVIEW_PENDING",
+  "Codex_record_target": "87df63be2287f6c8175146423ca01056e027afa1"
+}
