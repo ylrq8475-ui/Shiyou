@@ -319,6 +319,23 @@
         "收尾（补train.py、复现、打包）尚未批准"
       ],
       "published_at": "2026-10-16T14:20:00+08:00"
+    },
+    {
+      "task": "A2B-031/补证",
+      "role": "B",
+      "commit": "c30d44f7a61bff9afe4e1e6820f69821636f6700",
+      "report_path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/EVIDENCE_A2B031.json",
+      "reviews_commit": "不适用",
+      "hard_gates": "泄漏：UNKNOWN（Q1/Q2可得性待Codex）；错位：通过（仅既有队列核对）；井级隔离：通过（仅训练/测试来源隔离）；指标：UNKNOWN（零拟合、不评分）；模型/预处理拟合0/0",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "A031-Q1-AVAILABILITY P1 官方明确提供层位输入；13项属性建议白名单仍待Codex核验时效与最终范围",
+        "A031-Q2-AVAILABILITY P1 严格N_Q2_all=0；独立失败46/0/19/76；未找到字段事前版本依据，不放宽条件",
+        "HIST-DTYPE P1 历史加载身份缺口不由本次零拟合关闭",
+        "CODEX-031-R8-REVIEW P1 E1–E4本补证待同编号独立复核；R8指令252d421d4396c5e4119f03c772be239a9cdd1b7e"
+      ],
+      "published_at": "2026-10-16T14:39:52.335476+08:00"
     }
   ]
 }
