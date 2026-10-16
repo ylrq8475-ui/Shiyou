@@ -178,6 +178,38 @@
         "项目决定（用户2026-10-15 18:11）：目标改为B榜稳定>75并提高排名；最终提交截止前手动指定OOF验证版本；阶段1后安排复现与合规收尾——执行指令待另行存档"
       ],
       "published_at": "2026-10-15T18:15:00+08:00"
+    },
+    {
+      "task": "A2B-028/阶段1+A2B-029/零样本诊断",
+      "role": "B",
+      "commit": "a2bc8d4c02eba88bea2cb468a5478a4a5f0b18c9",
+      "report_path": "docs/handoff_20261015_A2B028_029_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261015_A2B028_029_B_V1/RESULT_A2B028_029.json",
+      "reviews_commit": "不适用",
+      "hard_gates": "泄漏：通过／错位：通过／井级隔离：通过／指标：通过（B自检，Codex终判待完成）",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "HIST-DTYPE P1 历史加载身份未关闭；R5用户例外",
+        "F0-ACQUISITION-TIME/F0-ZERO-SEMANTICS P2 原始时间及缺失语义",
+        "CODEX-028029-REVIEW P1 独立审核待完成"
+      ],
+      "published_at": "2026-10-16T08:56:29.172807+08:00"
+    },
+    {
+      "task": "A2B-030/零拟合诊断",
+      "role": "B",
+      "commit": "a2bc8d4c02eba88bea2cb468a5478a4a5f0b18c9",
+      "report_path": "docs/handoff_20261015_A2B030_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261015_A2B030_B_V1/RESULT_A2B030.json",
+      "reviews_commit": "不适用",
+      "hard_gates": "泄漏：通过／错位：通过／井级隔离：通过／指标：通过（B自检，Codex终判待完成）",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "N1-AVAILABILITY P2 完工日期不证明施工前方案可得；等级C且单事件35<40",
+        "FIELD-ZERO-SEMANTICS P2 未定义字段缺失语义",
+        "CODEX-030-REVIEW P1 独立审核待完成"
+      ],
+      "published_at": "2026-10-16T08:56:29.172823+08:00"
     }
   ]
 }
