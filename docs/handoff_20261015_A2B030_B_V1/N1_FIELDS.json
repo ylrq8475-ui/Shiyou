@@ -1,0 +1,261 @@
+{
+  "source_receipt_sha256": "89769cb358ad1e6a20467daeaf9540a05a2df3b51381d1345a327fd9cf6196d5",
+  "source": "official datasetDescription plan/layer dictionaries visually inspected, original bytes hashed locally",
+  "plan": [
+    {
+      "field": "井号",
+      "official_meaning": "对应井史数据WELL_ID",
+      "unit": "/",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "完工日期",
+      "official_meaning": "对应井史数据压裂日期",
+      "unit": "年/月/日",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": true
+    },
+    {
+      "field": "层位",
+      "official_meaning": "对应层位数据",
+      "unit": "/",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "井段(喷枪深度)(m)",
+      "official_meaning": "井段（喷枪深度）",
+      "unit": "m",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "砂岩射开厚度(m)",
+      "official_meaning": "砂岩射开厚度",
+      "unit": "m",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "有效厚度(m)",
+      "official_meaning": "有效厚度",
+      "unit": "m",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "渗透率(10-3μm2)",
+      "official_meaning": "渗透率",
+      "unit": "10^-3 μm²",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "上隔层厚度(m)",
+      "official_meaning": "上隔层厚度",
+      "unit": "m",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "下隔层厚度(m)",
+      "official_meaning": "下隔层厚度",
+      "unit": "m",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "目的层温度(℃)",
+      "official_meaning": "目的层温度",
+      "unit": "℃",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "压裂方式",
+      "official_meaning": "压裂方式",
+      "unit": "/",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "石英砂用量(m3)",
+      "official_meaning": "石英砂用量",
+      "unit": "m³",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    }
+  ],
+  "layer": [
+    {
+      "field": "WELL_ID",
+      "official_meaning": "井号",
+      "unit": "/",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "XH",
+      "official_meaning": "序号",
+      "unit": "/",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "CW",
+      "official_meaning": "层位",
+      "unit": "/",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "YCZMC",
+      "official_meaning": "油层组名称",
+      "unit": "/",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "XCH",
+      "official_meaning": "小层号",
+      "unit": "/",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "XFCH",
+      "official_meaning": "细分层号",
+      "unit": "/",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "XB",
+      "official_meaning": "相别",
+      "unit": "/",
+      "missing_meaning": "空值：非河道",
+      "date_field": false
+    },
+    {
+      "field": "SYDS",
+      "official_meaning": "砂岩顶深",
+      "unit": "m",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "SYDS1",
+      "official_meaning": "砂岩底深",
+      "unit": "m",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "SYHD",
+      "official_meaning": "砂岩厚度",
+      "unit": "m",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "YXHD",
+      "official_meaning": "有效厚度",
+      "unit": "m",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "STL",
+      "official_meaning": "渗透率",
+      "unit": "10^-3 μm²",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "DCXH",
+      "official_meaning": "地层系数",
+      "unit": "10^-3 μm²·m",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "KXD",
+      "official_meaning": "孔隙度",
+      "unit": "%",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "HSBHD",
+      "official_meaning": "含水饱和度",
+      "unit": "%",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "SFSBHD",
+      "official_meaning": "束缚水饱和度",
+      "unit": "%",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "CCCD",
+      "official_meaning": "采出程度",
+      "unit": "%",
+      "missing_meaning": "UNKNOWN：官方字典未给出缺失业务解释",
+      "date_field": false
+    },
+    {
+      "field": "SYJSJG",
+      "official_meaning": "水淹解释",
+      "unit": "/",
+      "missing_meaning": "空白：未解释",
+      "date_field": false
+    },
+    {
+      "field": "SKQK",
+      "official_meaning": "射孔标记",
+      "unit": "/",
+      "missing_meaning": "空值：未射开",
+      "date_field": false
+    }
+  ],
+  "pre_construction_design_statement": "not established by official name first fracturing plan or completion-date mapping; no B claim",
+  "actual_plan_field_order": [
+    "井号",
+    "完工日期",
+    "层位",
+    "井段(喷枪深度)(m)",
+    "砂岩射开厚度(m)",
+    "有效厚度(m)",
+    "渗透率(10-3μm2)",
+    "上隔层厚度(m)",
+    "下隔层厚度(m)",
+    "目的层温度(℃)",
+    "压裂方式",
+    "石英砂用量(m3)"
+  ],
+  "actual_layer_field_order": [
+    "WELL_ID",
+    "XH",
+    "CW",
+    "YCZMC",
+    "XCH",
+    "XFCH",
+    "XB",
+    "SYDS",
+    "SYDS1",
+    "SYHD",
+    "YXHD",
+    "STL",
+    "DCXH",
+    "KXD",
+    "HSBHD",
+    "SFSBHD",
+    "CCCD",
+    "SYJSJG",
+    "SKQK"
+  ]
+}

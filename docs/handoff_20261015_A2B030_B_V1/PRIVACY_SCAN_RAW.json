@@ -1,0 +1,441 @@
+{
+  "role": "账户B执行与交付",
+  "task": "A2B-028/029/030",
+  "time": "2026-10-16T08:45:37.317122+08:00",
+  "published_files": 26,
+  "scan_records": 26,
+  "all_pass": true,
+  "exemptions": 0,
+  "marker_counts": {
+    "well": 98,
+    "date": 165,
+    "month": 78,
+    "candidate": 2,
+    "plan_layer_strings": 1095
+  },
+  "public_context_review": "audit grades P0..P3 and user diagnostic names N1/N2/N4 are metadata, not formation exports; implicit-product public shape formulas b<.9a/b>1.1a recognized only in exact arithmetic context by inserting multiplication for layer-string matching; original bytes unchanged; all other marker classes checked on original text",
+  "test_CSVs_parsed": 0,
+  "test_label_columns_read": 0,
+  "source_input_hashes_unchanged": true,
+  "metadata_self_hashes_not_fabricated": true,
+  "records": [
+    {
+      "record_id": "A028030-PRIVACY-001",
+      "path": "docs/handoff_20261015_A2B030_B_V1/CLAUDE_INSTRUCTION_ORIGINAL_R6.md",
+      "sha256": "e9c6da7c400bf5385f98b84b01a8e1ed3a7b8322dc0053c40e18a91c441ce5d5",
+      "bytes": 6208,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-002",
+      "path": "docs/handoff_20261015_A2B030_B_V1/DICTIONARY_SOURCE_RECEIPT.json",
+      "sha256": "89769cb358ad1e6a20467daeaf9540a05a2df3b51381d1345a327fd9cf6196d5",
+      "bytes": 400,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-003",
+      "path": "docs/handoff_20261015_A2B030_B_V1/FIELD_DICTIONARY_N1.json",
+      "sha256": "ea8c106dfd8931c2337c9d0e1f42b653bdb2f7466ddd5ec109313fc3f097ee75",
+      "bytes": 6979,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-004",
+      "path": "docs/handoff_20261015_A2B030_B_V1/IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "sha256": "dbf8f4d5efff4c2bf9143d2ceb59ad384f30b36a30877b946ad615382fd48f04",
+      "bytes": 531,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-005",
+      "path": "docs/handoff_20261015_A2B030_B_V1/N1_FIELDS.json",
+      "sha256": "15125d088ee3e70f887cd9a322bf2079707c1845a21d14e768ebbfdeae2882ef",
+      "bytes": 7599,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-006",
+      "path": "docs/handoff_20261015_A2B030_B_V1/N1_FIELD_TABLE.md",
+      "sha256": "c94b9427cc917fa4dc1b9f3e6c3e7334fb1fc692ad66ccb44ca9576c4105de4d",
+      "bytes": 3442,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-007",
+      "path": "docs/handoff_20261015_A2B030_B_V1/N1_MAPPING.json",
+      "sha256": "6e23f1ff5f17ea202638066649d86d1de446987e823808bbdeadca2405ac578a",
+      "bytes": 1946,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-008",
+      "path": "docs/handoff_20261015_A2B030_B_V1/N2_COVERAGE.json",
+      "sha256": "a5e5886b479f2101773333651f202e35d5847ed2502334382ad98c5eacc5a688",
+      "bytes": 1691,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-009",
+      "path": "docs/handoff_20261015_A2B030_B_V1/N4_MEMORY_PROVENANCE.json",
+      "sha256": "24ca1dc3f32384197a7ee0bb06fd7bad5158280da0e10d435e18a266d4fe9a05",
+      "bytes": 523,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-010",
+      "path": "docs/handoff_20261015_A2B030_B_V1/PLAN_R6.json",
+      "sha256": "ab171d96de7d99a32dd93f3d1f93f37ff142960c4d19ffb2e3bbb309844680e0",
+      "bytes": 1361,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-011",
+      "path": "docs/handoff_20261015_A2B030_B_V1/POST_RUN_VERIFICATION.json",
+      "sha256": "c9dd8a329c374b1e14652d28810637a27095c7e2376a632765771d479a1f4952",
+      "bytes": 2136,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-012",
+      "path": "docs/handoff_20261015_A2B030_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "b25b97cd6ec92e7f4a2994b248771f8ff2cc1416861df46071e11747f6006ce4",
+      "bytes": 5712,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-013",
+      "path": "docs/handoff_20261015_A2B030_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": null,
+      "bytes": null,
+      "identity_binding": "raw scan bound by SHA manifest; manifest bound by fixed Git blob and external receipt",
+      "scan_method": "same checker on exact final serialized bytes before persistence",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-014",
+      "path": "docs/handoff_20261015_A2B030_B_V1/PUBLIC_RESULT_SERIALIZATION.json",
+      "sha256": "18258b94810560b9050a310b8887eacfcdbe83fd6405a8d3d987e35c71cac9b8",
+      "bytes": 332,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-015",
+      "path": "docs/handoff_20261015_A2B030_B_V1/README.md",
+      "sha256": "6cec8fc561aa503e4dcbd3acfd12ee3e46276537bd3a53f158510dba5a460b92",
+      "bytes": 218,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-016",
+      "path": "docs/handoff_20261015_A2B030_B_V1/REPORT_B.md",
+      "sha256": "82b05d1ad2516bff80eac0478cbe54d2befb51edb30d3d9d54265c0304e8fafe",
+      "bytes": 4296,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-017",
+      "path": "docs/handoff_20261015_A2B030_B_V1/REPRODUCTION.md",
+      "sha256": "e82f502d67a187908b0d2c29f5ed34919f1ff919fc194b9706df72073ea538de",
+      "bytes": 1677,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-018",
+      "path": "docs/handoff_20261015_A2B030_B_V1/REQUEST_CODEX.md",
+      "sha256": "90548c43512b08162b65bb4ffe880c47da1035de8d7c076990f7f11262b709d9",
+      "bytes": 437,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-019",
+      "path": "docs/handoff_20261015_A2B030_B_V1/RESULT_A2B030.json",
+      "sha256": "6495323f7120dc96ae48d1280941aef864538d89fa587eb235cac721c50ff42e",
+      "bytes": 8961,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-020",
+      "path": "docs/handoff_20261015_A2B030_B_V1/SHA256SUMS.json",
+      "sha256": null,
+      "bytes": null,
+      "identity_binding": "raw scan bound by SHA manifest; manifest bound by fixed Git blob and external receipt",
+      "scan_method": "same checker on exact final serialized bytes before persistence",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-021",
+      "path": "docs/handoff_20261015_A2B030_B_V1/SYNTHETIC_LOG.txt",
+      "sha256": "9d91b57189ae2bded81427ccbcdb89d17b2b91035e5798811f53d2206bbdd926",
+      "bytes": 569,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-022",
+      "path": "docs/handoff_20261015_A2B030_B_V1/SYNTHETIC_RESULTS.json",
+      "sha256": "81b1b529842723baff12d23466e75d50d15fe27bdbf85c1e949349ddc3a724e4",
+      "bytes": 86,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-023",
+      "path": "docs/handoff_20261015_A2B030_B_V1/ZERO_FIT_COUNTS.json",
+      "sha256": "28c9432e0c7c24c5966d16d3d8aa00946a687f52481233a62527233de489775b",
+      "bytes": 115,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-024",
+      "path": "docs/handoff_20261015_A2B030_B_V1/diagnose_030.py",
+      "sha256": "9caf2402a9091bc827fd56aa7339a29b921b366fee332d7b343ba5992cfaed2d",
+      "bytes": 9792,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-025",
+      "path": "docs/handoff_20261015_A2B030_B_V1/privacy_check.py",
+      "sha256": "94aa363c1b5166ca61df8634f9a368449c923d28de45e83e1efef57926d249fa",
+      "bytes": 11484,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A028030-PRIVACY-026",
+      "path": "docs/handoff_20261015_A2B030_B_V1/test_030.py",
+      "sha256": "c0b4ae8114c8fa18ff5178ca057735f830b562033064892f502e4cf21d0448cb",
+      "bytes": 1479,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    }
+  ]
+}

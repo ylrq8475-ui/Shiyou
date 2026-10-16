@@ -1,0 +1,17 @@
+{
+  "task": "A2B-030",
+  "role": "账户B执行与交付",
+  "created_at": "2026-10-15T18:20:33.325124+08:00",
+  "R6_commit": "9bec6d563f492f8992337441e58610028dd5127f",
+  "approval": "用户2026-10-15 18:11；R6①给B",
+  "model_budget": 0,
+  "preprocessor_budget": 0,
+  "N1_date_consistency": "single-event complete training wells, at least one plan completion month <= sole event segment end",
+  "N1_A_policy": "all single-event wells with exactly one distinct valid completion month <= sole segment start; relation only, does not prove original publication; incomplete evidence C unless official pre-design text supports B",
+  "N1_test": "field coverage only; WELL_ID/date/event type read, never RCYL; no role in decision",
+  "N2_combo": "4 field combinations, each last-valid and calendar3 slope; >=80% wells with both finite; report separate single-column coverage too",
+  "N2_slope": "manual covariance/variance, calendar ordinal; >=2 valid finite values in natural M-3..M-1, missing otherwise; no fitting API",
+  "N4": "B0 OOF in same A028 process after exact reproduction only; otherwise postponed with no replay; retrospective truth shapes and unrenormalized prefix losses; zero overlay overlaps other groups",
+  "R5_changed": false,
+  "privacy": "no raw identifiers, dates, plan/layer values, labels or row predictions persisted"
+}

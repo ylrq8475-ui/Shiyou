@@ -1,0 +1,10 @@
+{
+  "R6_commit": "9bec6d563f492f8992337441e58610028dd5127f",
+  "source_sha256": "9caf2402a9091bc827fd56aa7339a29b921b366fee332d7b343ba5992cfaed2d",
+  "plan_sha256": "ab171d96de7d99a32dd93f3d1f93f37ff142960c4d19ffb2e3bbb309844680e0",
+  "before_real_diagnostic_values": true,
+  "model_fit_budget": 0,
+  "preprocessor_fit_budget": 0,
+  "input_archive_sha256": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+  "input_manifest_sha256": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f"
+}

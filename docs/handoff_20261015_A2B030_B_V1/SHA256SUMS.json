@@ -1,0 +1,131 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/CLAUDE_INSTRUCTION_ORIGINAL_R6.md",
+      "bytes": 6208,
+      "sha256": "e9c6da7c400bf5385f98b84b01a8e1ed3a7b8322dc0053c40e18a91c441ce5d5"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/DICTIONARY_SOURCE_RECEIPT.json",
+      "bytes": 400,
+      "sha256": "89769cb358ad1e6a20467daeaf9540a05a2df3b51381d1345a327fd9cf6196d5"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/FIELD_DICTIONARY_N1.json",
+      "bytes": 6979,
+      "sha256": "ea8c106dfd8931c2337c9d0e1f42b653bdb2f7466ddd5ec109313fc3f097ee75"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "bytes": 531,
+      "sha256": "dbf8f4d5efff4c2bf9143d2ceb59ad384f30b36a30877b946ad615382fd48f04"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/N1_FIELDS.json",
+      "bytes": 7599,
+      "sha256": "15125d088ee3e70f887cd9a322bf2079707c1845a21d14e768ebbfdeae2882ef"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/N1_FIELD_TABLE.md",
+      "bytes": 3442,
+      "sha256": "c94b9427cc917fa4dc1b9f3e6c3e7334fb1fc692ad66ccb44ca9576c4105de4d"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/N1_MAPPING.json",
+      "bytes": 1946,
+      "sha256": "6e23f1ff5f17ea202638066649d86d1de446987e823808bbdeadca2405ac578a"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/N2_COVERAGE.json",
+      "bytes": 1691,
+      "sha256": "a5e5886b479f2101773333651f202e35d5847ed2502334382ad98c5eacc5a688"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/N4_MEMORY_PROVENANCE.json",
+      "bytes": 523,
+      "sha256": "24ca1dc3f32384197a7ee0bb06fd7bad5158280da0e10d435e18a266d4fe9a05"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/PLAN_R6.json",
+      "bytes": 1361,
+      "sha256": "ab171d96de7d99a32dd93f3d1f93f37ff142960c4d19ffb2e3bbb309844680e0"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/POST_RUN_VERIFICATION.json",
+      "bytes": 2136,
+      "sha256": "c9dd8a329c374b1e14652d28810637a27095c7e2376a632765771d479a1f4952"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "bytes": 5712,
+      "sha256": "b25b97cd6ec92e7f4a2994b248771f8ff2cc1416861df46071e11747f6006ce4"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/PRIVACY_SCAN_RAW.json",
+      "bytes": 14082,
+      "sha256": "1d7949529f4b6c553eaec10e32ee4292a1df84dac945a4cdcfb86cbc69177df6"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/PUBLIC_RESULT_SERIALIZATION.json",
+      "bytes": 332,
+      "sha256": "18258b94810560b9050a310b8887eacfcdbe83fd6405a8d3d987e35c71cac9b8"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/README.md",
+      "bytes": 218,
+      "sha256": "6cec8fc561aa503e4dcbd3acfd12ee3e46276537bd3a53f158510dba5a460b92"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/REPORT_B.md",
+      "bytes": 4296,
+      "sha256": "82b05d1ad2516bff80eac0478cbe54d2befb51edb30d3d9d54265c0304e8fafe"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/REPRODUCTION.md",
+      "bytes": 1677,
+      "sha256": "e82f502d67a187908b0d2c29f5ed34919f1ff919fc194b9706df72073ea538de"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/REQUEST_CODEX.md",
+      "bytes": 437,
+      "sha256": "90548c43512b08162b65bb4ffe880c47da1035de8d7c076990f7f11262b709d9"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/RESULT_A2B030.json",
+      "bytes": 8961,
+      "sha256": "6495323f7120dc96ae48d1280941aef864538d89fa587eb235cac721c50ff42e"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/SYNTHETIC_LOG.txt",
+      "bytes": 569,
+      "sha256": "9d91b57189ae2bded81427ccbcdb89d17b2b91035e5798811f53d2206bbdd926"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/SYNTHETIC_RESULTS.json",
+      "bytes": 86,
+      "sha256": "81b1b529842723baff12d23466e75d50d15fe27bdbf85c1e949349ddc3a724e4"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/ZERO_FIT_COUNTS.json",
+      "bytes": 115,
+      "sha256": "28c9432e0c7c24c5966d16d3d8aa00946a687f52481233a62527233de489775b"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/diagnose_030.py",
+      "bytes": 9792,
+      "sha256": "9caf2402a9091bc827fd56aa7339a29b921b366fee332d7b343ba5992cfaed2d"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/privacy_check.py",
+      "bytes": 11484,
+      "sha256": "94aa363c1b5166ca61df8634f9a368449c923d28de45e83e1efef57926d249fa"
+    },
+    {
+      "path": "docs/handoff_20261015_A2B030_B_V1/test_030.py",
+      "bytes": 1479,
+      "sha256": "c0b4ae8114c8fa18ff5178ca057735f830b562033064892f502e4cf21d0448cb"
+    }
+  ],
+  "self_exclusion": "own digest provided by fixed Git blob and remote byte verification; own serialized content privacy scanned"
+}

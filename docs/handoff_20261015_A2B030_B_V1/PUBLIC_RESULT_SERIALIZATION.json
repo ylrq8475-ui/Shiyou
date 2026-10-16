@@ -1,0 +1,6 @@
+{
+  "original_execution_SHA256": "d09cf097f94c51ee8ff9e93587c15ee65c01e8c60f2b142673ac10b14a210064",
+  "public_result_SHA256": "6495323f7120dc96ae48d1280941aef864538d89fa587eb235cac721c50ff42e",
+  "change": "Only CRLF to LF in new public export; all JSON values identical; immutable execution result unchanged",
+  "fits": 0
+}

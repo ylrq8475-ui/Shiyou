@@ -1,0 +1,12 @@
+{
+  "origin_task": "A2B-028",
+  "origin_result_sha256": "e8cac763a40d443fc25346e1d82d8a6b3b31752a50f37b7069df5251485faadc",
+  "origin_baseline": 73.71410733861434,
+  "origin_events_sha256": "3d8c23cce68a11663fe8e0bff0860df2f4bc2a11996f095d1caaa2c44d7136b6",
+  "same_process_event": "A030_N4_completed_same_process_memory_zero_fits",
+  "row_OOF_saved": false,
+  "A030_model_fits": 0,
+  "A030_preprocessor_fits": 0,
+  "new_OOF_recovery_fit_for_A030": false,
+  "retrospective_groups_not_used_in_selection": true
+}

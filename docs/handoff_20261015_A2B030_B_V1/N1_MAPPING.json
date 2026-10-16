@@ -1,0 +1,52 @@
+{
+  "N1_single_event_train": 35,
+  "N1_date_consistent_train": 26,
+  "N1_evidence_level": "C",
+  "denominator": 81,
+  "single_event_unique_date_at_or_before_start_count": 15,
+  "single_event_missing_date_count": 0,
+  "single_event_multiple_distinct_plan_date_count": 0,
+  "date_consistency_definition": "at least one plan completion month <= sole segment end (inside or before segment)",
+  "A_definition": "all single-event training wells have one unambiguous plan completion month <= event start month",
+  "B_evidence_found": false,
+  "evidence_caveat": "Official field says completion date corresponds to fracturing date. It does not itself prove pre-construction design publication. A if reached is date-order evidence only; M-1 availability remains separate. No timestamp or pre-design statement invented.",
+  "test_field_coverage_only": {
+    "single_event_wells": 7,
+    "wells": 10,
+    "fraction": 0.7,
+    "used_in_decision": false,
+    "plan_fields_nonmissing_fraction": {
+      "完工日期": 1.0,
+      "层位": 1.0,
+      "井段(喷枪深度)(m)": 1.0,
+      "砂岩射开厚度(m)": 0.6981132075471698,
+      "有效厚度(m)": 0.6415094339622641,
+      "渗透率(10-3μm2)": 0.6415094339622641,
+      "上隔层厚度(m)": 0.6415094339622641,
+      "下隔层厚度(m)": 0.6415094339622641,
+      "目的层温度(℃)": 0.660377358490566,
+      "压裂方式": 0.660377358490566,
+      "石英砂用量(m3)": 1.0
+    },
+    "layer_fields_nonmissing_fraction": {
+      "XH": 1.0,
+      "CW": 1.0,
+      "YCZMC": 1.0,
+      "XCH": 1.0,
+      "XFCH": 0.5441334768568353,
+      "XB": 0.2890204520990312,
+      "SYDS": 1.0,
+      "SYDS1": 1.0,
+      "SYHD": 1.0,
+      "YXHD": 1.0,
+      "STL": 1.0,
+      "DCXH": 1.0,
+      "KXD": 1.0,
+      "HSBHD": 1.0,
+      "SFSBHD": 1.0,
+      "CCCD": 1.0,
+      "SYJSJG": 0.4946178686759957,
+      "SKQK": 0.26157158234660927
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "N2_combo_pass_count": 2,
+  "combo_definition": "one combination per field: (last valid, calendar3 slope); coverage requires both finite; also report each column separately",
+  "slope_definition": "unweighted OLS covariance/variance on true calendar-month ordinal in M-3..M-1; >=2 valid observations, otherwise NaN; no interpolation or fit API",
+  "coverage": [
+    {
+      "field": "CCJHWND",
+      "well_denominator": 81,
+      "last_valid_count": 81,
+      "last_valid_coverage": 1.0,
+      "slope_valid_count": 70,
+      "slope_valid_coverage": 0.8641975308641975,
+      "combo_both_valid_count": 70,
+      "combo_coverage": 0.8641975308641975,
+      "combo_passed": true
+    },
+    {
+      "field": "CCJND",
+      "well_denominator": 81,
+      "last_valid_count": 0,
+      "last_valid_coverage": 0.0,
+      "slope_valid_count": 0,
+      "slope_valid_coverage": 0.0,
+      "combo_both_valid_count": 0,
+      "combo_coverage": 0.0,
+      "combo_passed": false
+    },
+    {
+      "field": "CCBHJND",
+      "well_denominator": 81,
+      "last_valid_count": 0,
+      "last_valid_coverage": 0.0,
+      "slope_valid_count": 0,
+      "slope_valid_coverage": 0.0,
+      "combo_both_valid_count": 0,
+      "combo_coverage": 0.0,
+      "combo_passed": false
+    },
+    {
+      "field": "CCYND",
+      "well_denominator": 81,
+      "last_valid_count": 81,
+      "last_valid_coverage": 1.0,
+      "slope_valid_count": 70,
+      "slope_valid_coverage": 0.8641975308641975,
+      "combo_both_valid_count": 70,
+      "combo_coverage": 0.8641975308641975,
+      "combo_passed": true
+    }
+  ],
+  "cutoff": "M-1",
+  "features_used_in_R5": false
+}
