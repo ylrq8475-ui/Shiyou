@@ -273,6 +273,22 @@
         "F0-ACQUISITION-TIME P2 缺原始取得时间；现行M−1合同不证明真实发布时点",
         "F0-ZERO-SEMANTICS P2 未明示的零/缺失业务含义保留"
       ]
+    },
+    {
+      "task": "A2B-031/地质与压裂设计特征（按R7不执行说明）",
+      "role": "B",
+      "commit": "6142735c0020ccc95b12283b469acc3a53dc84fe",
+      "report_path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/RESULT_A2B031.json",
+      "reviews_commit": "不适用",
+      "hard_gates": "泄漏：UNKNOWN（P1，Q1/Q2可得性缺证）；错位／井级隔离／指标：UNKNOWN（未实施实验，不是实际违规结论）；模型/预处理拟合0/0",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "A031-Q1-AVAILABILITY P1 层位字段历史M−1可得/有效或明确允许依据缺失",
+        "A031-Q2-AVAILABILITY P1 缺方案对应事件及字段版本在M−1前可得依据",
+        "CODEX-031-B-REVIEW P1 本不执行说明待独立审核；前置合规判定提交87df63be2287f6c8175146423ca01056e027afa1"
+      ],
+      "published_at": "2026-10-16T13:57:06.305820+08:00"
     }
   ]
 }
