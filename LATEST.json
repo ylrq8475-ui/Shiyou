@@ -241,6 +241,38 @@
         "用户决定：接受停产月损失不再投入；收尾指令推后"
       ],
       "published_at": "2026-10-16T10:00:00+08:00"
+    },
+    {
+      "task": "A2B-031/合规判定",
+      "role": "Codex",
+      "commit": "87df63be2287f6c8175146423ca01056e027afa1",
+      "reviews_commit": "a2bc8d4c02eba88bea2cb468a5478a4a5f0b18c9",
+      "published_at": "2026-10-16T13:33:13+08:00",
+      "report_path": "docs/handoff_20261016_A2B031_AND_A2B028_029_CODEX_V1/REPORT_CODEX_031.md",
+      "result_json_path": "docs/handoff_20261016_A2B031_AND_A2B028_029_CODEX_V1/RESULT_CODEX_031.json",
+      "hard_gates": "泄漏：UNKNOWN（P1，Q1/Q2可得性缺证）；错位／井级隔离／指标：UNKNOWN（本轮不审031实验，非已发生违规结论）",
+      "decision_row": "Q1 UNKNOWN（P1）、Q2 UNKNOWN（P1）；均按不允许执行。R7②：两问均不允许或UNKNOWN，不执行，提交一份说明即可；允许G/D配置数0。",
+      "open_unknowns": [
+        "A031-Q1-AVAILABILITY P1 缺层位静态候选字段在历史M−1前可取得/有效或明确任务允许的依据",
+        "A031-Q2-AVAILABILITY P1 缺方案与预测事件对应及字段版本在M−1前可取得依据；完工月份不能单独替代；不是继续要求施工前可得证明"
+      ]
+    },
+    {
+      "task": "A2B-028/阶段1+A2B-029/零样本诊断",
+      "role": "Codex",
+      "commit": "87df63be2287f6c8175146423ca01056e027afa1",
+      "reviews_commit": "a2bc8d4c02eba88bea2cb468a5478a4a5f0b18c9",
+      "published_at": "2026-10-16T13:33:13+08:00",
+      "report_path": "docs/handoff_20261016_A2B031_AND_A2B028_029_CODEX_V1/REPORT_CODEX_028029.md",
+      "result_json_path": "docs/handoff_20261016_A2B031_AND_A2B028_029_CODEX_V1/RESULT_CODEX_028029.json",
+      "hard_gates": "泄漏：通过／错位：通过／井级隔离：通过／指标：通过（R5授权研究诊断的源码、绑定记录、聚合和合成范围；不是ALPHA严格嵌套部署或真实OOF重训签署）",
+      "decision_row": "A2B-028：最佳候选0<分数差<+1.0，或达标折数<4；最佳B0_ALPHA +0.06704797797030437、3/5正向，弱信号，交用户决定，默认不执行。A2B-029：56.32468858347801<70，关闭方向④（本模型）；融合未执行。",
+      "open_unknowns": [
+        "HIST-DTYPE P1 历史加载身份未补齐，R5例外替代证据不等于关闭",
+        "D-ALPHA-DEPLOYMENT P1 缺严格嵌套部署验证；当前仅规定诊断，间接标签路径仍在",
+        "F0-ACQUISITION-TIME P2 缺原始取得时间；现行M−1合同不证明真实发布时点",
+        "F0-ZERO-SEMANTICS P2 未明示的零/缺失业务含义保留"
+      ]
     }
   ]
 }
