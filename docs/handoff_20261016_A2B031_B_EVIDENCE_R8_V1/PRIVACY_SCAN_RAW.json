@@ -1,0 +1,377 @@
+{
+  "role": "账户B执行与交付",
+  "task": "A2B-031/R8",
+  "time": "2026-10-16T14:34:02.849211+08:00",
+  "published_files": 22,
+  "scan_records": 22,
+  "all_pass": true,
+  "exemptions": 0,
+  "marker_counts": {
+    "well": 98,
+    "date": 165,
+    "month": 78,
+    "candidate": 2,
+    "plan_layer_strings": 1095
+  },
+  "public_context_review": "audit grades P0..P3 and user diagnostic names N1/N2/N4 are metadata, not formation exports; implicit-product public shape formulas b<.9a/b>1.1a recognized only in exact arithmetic context by inserting multiplication for layer-string matching; original bytes unchanged; all other marker classes checked on original text",
+  "test_CSVs_parsed": 0,
+  "test_label_columns_read": 0,
+  "source_input_hashes_unchanged": true,
+  "metadata_self_hashes_not_fabricated": true,
+  "records": [
+    {
+      "record_id": "A031R8-PRIVACY-001",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/ENVIRONMENT_LOCK.json",
+      "sha256": "15f063043c5c4d79b0088d92333bb1f5e8683f1c202791d61e3bc20855d326dc",
+      "bytes": 238,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-002",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/EVIDENCE_A2B031.json",
+      "sha256": "58cd3af70f52ec5b059ef34f3584deb6c9060be5a5736c9dd8b38d1f4d1b714d",
+      "bytes": 41197,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-003",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/FIELD_CLASSIFICATION.json",
+      "sha256": "df21081d73b80bc0546ae9274045490fcf73a9e4ae0ebadd8d185e1b5bd5e51c",
+      "bytes": 23584,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-004",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/FIELD_CLASSIFICATION.md",
+      "sha256": "482863a82729ec2767f09abeaddaed158e3ed5aef488bf093b052069fe058602",
+      "bytes": 7339,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-005",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/FIELD_DICTIONARY_PUBLIC.json",
+      "sha256": "f134fd8dc1db53cd4a6abcdf50a48ff14ebaacb2bc8cb48ed71a43319a329ae9",
+      "bytes": 6753,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-006",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "sha256": "bf48ae03322ad73ce98524ea7688f657e3d89d7df258afcf1793cfffe24820f1",
+      "bytes": 1795,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-007",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/OFFICIAL_EXCERPTS_E1.md",
+      "sha256": "214fbbb67671db391b1328d6ae5de7759f393da119fb36549de51fbca662f603",
+      "bytes": 3743,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-008",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "3fc54e33d3bec239907a1fef5d03e6c405ddb282fba5afe3188eb0dc28ca9fce",
+      "bytes": 5375,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-009",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": null,
+      "bytes": null,
+      "identity_binding": "raw scan bound by SHA manifest; manifest bound by fixed Git blob and external receipt",
+      "scan_method": "same checker on exact final serialized bytes before persistence",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-010",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/README.md",
+      "sha256": "cda75e5fbf9194b4650866ce49294802713aa73020ac7a4e0116d1ca5367d564",
+      "bytes": 331,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-011",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/REPORT_B.md",
+      "sha256": "59fd8002dcfcf0710b886b5f7292804292ca9de0754059271539192b881ac074",
+      "bytes": 5388,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-012",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/REPRODUCE.md",
+      "sha256": "894efcadabca921e865877edee1da75ddf49d85950ad6fa79f2cf62457d3e7c4",
+      "bytes": 1775,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-013",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/REQUEST_CODEX_REVIEW.md",
+      "sha256": "ebb52a40903c7f2926e7456655d1225ed100d8771d7959fa286a6967c7bbf4eb",
+      "bytes": 1457,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-014",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/SHA256SUMS.json",
+      "sha256": null,
+      "bytes": null,
+      "identity_binding": "raw scan bound by SHA manifest; manifest bound by fixed Git blob and external receipt",
+      "scan_method": "same checker on exact final serialized bytes before persistence",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-015",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/SOURCE_RECEIPT.json",
+      "sha256": "5f39edbd1cd240d5e562b19397975f193ab63f019bfa26895bad71de871afd3c",
+      "bytes": 7693,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-016",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/SYNTHETIC_LOG.txt",
+      "sha256": "d7aa7985180fdf1241729c5d13d27ab48c699d3d5ddfca11fbe1f9fb41e30679",
+      "bytes": 865,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-017",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/SYNTHETIC_RESULTS.json",
+      "sha256": "d41e64d6c2c5c75f59067570c84d4c1b710bd0ad8389571dd5553654a39d85a1",
+      "bytes": 313,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-018",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/USER_AUTHORIZATION_AND_SCOPE.json",
+      "sha256": "aab92454cf05e2a505f704a99ae83fc3d81865544fa397a8ab9a0a7c70b310b0",
+      "bytes": 529,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-019",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/ZERO_FIT_COUNTS.json",
+      "sha256": "d0de0da87f35cae78884acd10b9841689b7be2131504a107e19b3369a3b25c4a",
+      "bytes": 109,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-020",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/compute_evidence.py",
+      "sha256": "caae1178c408ec0111777acb541fc17ee25a434646d1e19dc49f4420518590f7",
+      "bytes": 13220,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-021",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/privacy_check.py",
+      "sha256": "b59f1fa12066e2eef294180a0d0e491ed23daa52af04e6df8b2afb802c5c217a",
+      "bytes": 11535,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031R8-PRIVACY-022",
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/test_evidence.py",
+      "sha256": "8a7f7f34173609cbb3dffdbb54bf9d15e340c2454ddee64fd2d27cff44e20f83",
+      "bytes": 1752,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0,
+        "plan_layer_strings": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    }
+  ]
+}

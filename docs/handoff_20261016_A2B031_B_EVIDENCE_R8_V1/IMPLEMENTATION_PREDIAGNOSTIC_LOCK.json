@@ -1,0 +1,35 @@
+{
+  "time": "2026-10-16T14:19:06.132442+08:00",
+  "before_diagnostic_counts": true,
+  "R8_commit": "252d421d4396c5e4119f03c772be239a9cdd1b7e",
+  "script_sha256": "caae1178c408ec0111777acb541fc17ee25a434646d1e19dc49f4420518590f7",
+  "source_hashes": {
+    "archive": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+    "manifest": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f",
+    "config": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72",
+    "dictionary": "ea8c106dfd8931c2337c9d0e1f42b653bdb2f7466ddd5ec109313fc3f097ee75",
+    "safe_source": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+    "multistep_source": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b"
+  },
+  "environment": {
+    "python": "3.13.7 (main, Sep 18 2025, 19:43:45) [MSC v.1944 64 bit (AMD64)]",
+    "build": [
+      "main",
+      "Sep 18 2025 19:43:45"
+    ],
+    "implementation": "CPython",
+    "pandas": "2.3.3",
+    "PyYAML": "6.0.3",
+    "no_ML_imports": true
+  },
+  "model_fit_budget": 0,
+  "preprocessor_fit_budget": 0,
+  "cohort_definition": "latest continuous eligible segment end M, complete finite nonnegative targets M+1..M+12, sorted WELL_ID; targets only determine established cohort, never used as features",
+  "C1": "exactly one eligible continuous segment",
+  "C2": "at least one plan row; all completion dates parse, exactly one normalized full date (not merely month)",
+  "C3": "unique completion month in current last segment, inclusive",
+  "C4": "unique completion month <= current last segment end M minus one month",
+  "independent_fail_denominator": 81,
+  "multiple_segment_rule": "C3/C4 use current last segment independently; C1 must still pass intersection",
+  "test_history_CSVs_parsed": 0
+}

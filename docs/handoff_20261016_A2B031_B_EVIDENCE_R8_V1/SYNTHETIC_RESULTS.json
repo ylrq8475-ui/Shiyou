@@ -1,0 +1,14 @@
+{
+  "tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "real_data": false,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "debug_before_real_read": [
+    "synthetic file syntax typo corrected",
+    "dictionary hash expression bracket corrected"
+  ],
+  "debug_model_or_preprocessor_fit_entered": 0
+}

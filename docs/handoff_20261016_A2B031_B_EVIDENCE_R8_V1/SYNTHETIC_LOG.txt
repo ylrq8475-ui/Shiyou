@@ -1,0 +1,15 @@
+test_after_segment (test_evidence.Contracts.test_after_segment) ... ok
+test_before_segment (test_evidence.Contracts.test_before_segment) ... ok
+test_contiguous (test_evidence.Contracts.test_contiguous) ... ok
+test_early_within_segment (test_evidence.Contracts.test_early_within_segment) ... ok
+test_missing (test_evidence.Contracts.test_missing) ... ok
+test_multi_current_segment (test_evidence.Contracts.test_multi_current_segment) ... ok
+test_repeated_same_date (test_evidence.Contracts.test_repeated_same_date) ... ok
+test_single_month_impossible (test_evidence.Contracts.test_single_month_impossible) ... ok
+test_two_days_same_month (test_evidence.Contracts.test_two_days_same_month) ... ok
+test_year_boundary (test_evidence.Contracts.test_year_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.004s
+
+OK

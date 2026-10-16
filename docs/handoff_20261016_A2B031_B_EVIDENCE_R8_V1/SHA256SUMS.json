@@ -1,0 +1,111 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/ENVIRONMENT_LOCK.json",
+      "bytes": 238,
+      "sha256": "15f063043c5c4d79b0088d92333bb1f5e8683f1c202791d61e3bc20855d326dc"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/EVIDENCE_A2B031.json",
+      "bytes": 41197,
+      "sha256": "58cd3af70f52ec5b059ef34f3584deb6c9060be5a5736c9dd8b38d1f4d1b714d"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/FIELD_CLASSIFICATION.json",
+      "bytes": 23584,
+      "sha256": "df21081d73b80bc0546ae9274045490fcf73a9e4ae0ebadd8d185e1b5bd5e51c"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/FIELD_CLASSIFICATION.md",
+      "bytes": 7339,
+      "sha256": "482863a82729ec2767f09abeaddaed158e3ed5aef488bf093b052069fe058602"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/FIELD_DICTIONARY_PUBLIC.json",
+      "bytes": 6753,
+      "sha256": "f134fd8dc1db53cd4a6abcdf50a48ff14ebaacb2bc8cb48ed71a43319a329ae9"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "bytes": 1795,
+      "sha256": "bf48ae03322ad73ce98524ea7688f657e3d89d7df258afcf1793cfffe24820f1"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/OFFICIAL_EXCERPTS_E1.md",
+      "bytes": 3743,
+      "sha256": "214fbbb67671db391b1328d6ae5de7759f393da119fb36549de51fbca662f603"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/PRIVACY_COVERAGE_MAP.md",
+      "bytes": 5375,
+      "sha256": "3fc54e33d3bec239907a1fef5d03e6c405ddb282fba5afe3188eb0dc28ca9fce"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/PRIVACY_SCAN_RAW.json",
+      "bytes": 12337,
+      "sha256": "3da2564cc2d21afd5b978a655a9a8fa6d853c2e5a1236b08fd492514ad8b6999"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/README.md",
+      "bytes": 331,
+      "sha256": "cda75e5fbf9194b4650866ce49294802713aa73020ac7a4e0116d1ca5367d564"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/REPORT_B.md",
+      "bytes": 5388,
+      "sha256": "59fd8002dcfcf0710b886b5f7292804292ca9de0754059271539192b881ac074"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/REPRODUCE.md",
+      "bytes": 1775,
+      "sha256": "894efcadabca921e865877edee1da75ddf49d85950ad6fa79f2cf62457d3e7c4"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/REQUEST_CODEX_REVIEW.md",
+      "bytes": 1457,
+      "sha256": "ebb52a40903c7f2926e7456655d1225ed100d8771d7959fa286a6967c7bbf4eb"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/SOURCE_RECEIPT.json",
+      "bytes": 7693,
+      "sha256": "5f39edbd1cd240d5e562b19397975f193ab63f019bfa26895bad71de871afd3c"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/SYNTHETIC_LOG.txt",
+      "bytes": 865,
+      "sha256": "d7aa7985180fdf1241729c5d13d27ab48c699d3d5ddfca11fbe1f9fb41e30679"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/SYNTHETIC_RESULTS.json",
+      "bytes": 313,
+      "sha256": "d41e64d6c2c5c75f59067570c84d4c1b710bd0ad8389571dd5553654a39d85a1"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/USER_AUTHORIZATION_AND_SCOPE.json",
+      "bytes": 529,
+      "sha256": "aab92454cf05e2a505f704a99ae83fc3d81865544fa397a8ab9a0a7c70b310b0"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/ZERO_FIT_COUNTS.json",
+      "bytes": 109,
+      "sha256": "d0de0da87f35cae78884acd10b9841689b7be2131504a107e19b3369a3b25c4a"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/compute_evidence.py",
+      "bytes": 13220,
+      "sha256": "caae1178c408ec0111777acb541fc17ee25a434646d1e19dc49f4420518590f7"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/privacy_check.py",
+      "bytes": 11535,
+      "sha256": "b59f1fa12066e2eef294180a0d0e491ed23daa52af04e6df8b2afb802c5c217a"
+    },
+    {
+      "path": "docs/handoff_20261016_A2B031_B_EVIDENCE_R8_V1/test_evidence.py",
+      "bytes": 1752,
+      "sha256": "8a7f7f34173609cbb3dffdbb54bf9d15e340c2454ddee64fd2d27cff44e20f83"
+    }
+  ],
+  "self_exclusion": "own digest provided by fixed Git blob and remote byte verification; own serialized content privacy scanned"
+}

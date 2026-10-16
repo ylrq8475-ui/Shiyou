@@ -1,0 +1,12 @@
+{
+  "task": "A2B-031/补证",
+  "R8_commit": "252d421d4396c5e4119f03c772be239a9cdd1b7e",
+  "target_Codex_commit": "87df63be2287f6c8175146423ca01056e027afa1",
+  "registration_prompt_commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "scope": "R8 section ① only: E1–E4; no self-issued Q1/Q2 release",
+  "test_labels_read": false,
+  "R7_conditional_execution": "only after independent Codex releases Q1 or Q2; not performed here",
+  "historical_dtype": "UNKNOWN, not repaired"
+}
