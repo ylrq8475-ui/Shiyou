@@ -2,7 +2,7 @@
 任务编号/阶段：A2B-028阶段1 + A2B-029零样本诊断  
 角色：B 交付；账户B执行与交付  
 分支：codex/a2b028-029-030-b-20261015  
-完整提交号（40 位）：3c85aa0101529d530d342266f9d216713586821b（结果固定快照，最终报告由固定链接和索引绑定）  
+完整提交号（40 位）：4defe8336046ea866e7337428d14c07d4325a2d8（结果固定快照，最终报告由固定链接和索引绑定）  
 目录路径：docs/handoff_20261015_A2B028_029_B_V1  
 结果文件路径（单个 JSON）：docs/handoff_20261015_A2B028_029_B_V1/RESULT_A2B028_029.json  
 关键数字（按决策表变量逐项列出，变量名与决策表一致）：B0_reproduced=73.71410733861434；B0_ALPHA score=73.78115531658464, delta=+0.06704797797030, positive_folds=3；B0_F0 score=73.61841039802461, delta=-0.09569694058973, positive_folds=2；B0_F0_ALPHA score=73.61016852231444, delta=-0.10393881629990, positive_folds=2；B0_AUG score=73.25122606368717, delta=-0.46288127492717, positive_folds=1；B0_AUG_ALPHA score=73.01707272591582, delta=-0.69703461269852, positive_folds=2；B0_F0_AUG score=73.20213568451675, delta=-0.51197165409759, positive_folds=1；B0_F0_AUG_ALPHA score=72.95321165918622, delta=-0.76089567942812, positive_folds=1；FM_zero_shot_score=56.32468858347801；FM_blend_score/delta/positive_folds=null（<70按计划未执行）；model_entered/completed=20/20；preprocessor_entered/completed=20/20；失败/重试=0/0  

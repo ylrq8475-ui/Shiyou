@@ -1,7 +1,7 @@
 {
   "role": "账户B执行与交付",
   "task": "A2B-028/029/030",
-  "time": "2026-10-15T18:45:11.522124+08:00",
+  "time": "2026-10-15T18:51:45.119836+08:00",
   "published_files": 38,
   "scan_records": 38,
   "all_pass": true,
@@ -311,7 +311,7 @@
     {
       "record_id": "A028030-PRIVACY-019",
       "path": "docs/handoff_20261015_A2B028_029_B_V1/REPORT_B.md",
-      "sha256": "536fc0d339300181ab7501f93f79980d26d309fa6f1ba07cd332cafef4a18029",
+      "sha256": "0f2fe71b448cbd4a2b8e4a5350ba3c18fe1e3b4b3ab9f0f3bfa5e39cae486ece",
       "bytes": 8181,
       "scan_method": "exact existing file bytes",
       "private_marker_hits": {
