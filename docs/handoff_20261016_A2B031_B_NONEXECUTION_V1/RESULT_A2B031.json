@@ -1,0 +1,80 @@
+{
+  "task": "A2B-031/地质与压裂设计特征受控实验",
+  "role": "账户B执行与交付",
+  "status": "COMPLETED_NONEXECUTION_AS_REQUIRED_BY_R7",
+  "Claude_instruction_commit": "be03e6caeb6b70278c8e5a137b178130700aab72",
+  "Codex_compliance_commit": "87df63be2287f6c8175146423ca01056e027afa1",
+  "compliance_index_commit": "be75580c0778f93f44e363ecca4a471adb7fc8a1",
+  "compliance_record_present": true,
+  "Q1": "UNKNOWN",
+  "Q2": "UNKNOWN",
+  "enabled_config_count": 0,
+  "enabled_configs": [],
+  "approved_fields_G": [],
+  "approved_fields_D": [],
+  "B0_reference_only": 73.71410733861434,
+  "B0_fold_reference_only": [
+    71.45331390948151,
+    77.53642908897099,
+    75.12924056181325,
+    64.62686399621428,
+    79.96598872591244
+  ],
+  "baseline_source_commit": "3926e2972da62c61eb318abaa670a5da776d62ec",
+  "baseline_retrained": false,
+  "candidates": [],
+  "G_train_coverage": null,
+  "D_train_coverage": null,
+  "coverage_status": "NOT_COMPUTED_NO_COMPETITION_DATA_READ",
+  "new_scores_generated": false,
+  "best_score": null,
+  "delta": null,
+  "paired_fold_deltas": null,
+  "positive_folds": null,
+  "worst_fold": null,
+  "weighted_losses": null,
+  "fit_counts": {
+    "model_entered": 0,
+    "model_completed": 0,
+    "model_failed": 0,
+    "preprocessor_entered": 0,
+    "preprocessor_completed": 0,
+    "preprocessor_failed": 0,
+    "retries": 0,
+    "baseline_refits": 0,
+    "full_data_fits": 0,
+    "pretrained_inferences": 0
+  },
+  "hard_gates": {
+    "泄漏": "UNKNOWN",
+    "错位": "UNKNOWN",
+    "井级隔离": "UNKNOWN",
+    "指标": "UNKNOWN"
+  },
+  "hard_gate_scope": "Q1/Q2 availability evidence missing at P1; no A031 experiment implemented or scored, other experimental gates not assessed. This is not a finding of actual leakage, misalignment or isolation/metric failure.",
+  "open_unknowns": [
+    {
+      "id": "A031-Q1-AVAILABILITY",
+      "grade": "P1",
+      "missing": "Historical availability/validity of per-well geological measurement or interpretation records, or explicit task allowance for using these as static inputs at every historical cutoff"
+    },
+    {
+      "id": "A031-Q2-AVAILABILITY",
+      "grade": "P1",
+      "missing": "Verifiable first-plan-to-current-event mapping and availability/version of selected plan fields by M-1"
+    }
+  ],
+  "decision_B_self_report": "两问均不允许或 UNKNOWN：不执行，提交一份说明即可。",
+  "decision_row_Codex": "不适用",
+  "retained_candidates": [],
+  "train_py_condition_triggered": false,
+  "competition_data_read": false,
+  "test_data_read": false,
+  "private_config_read": false,
+  "old_model_loaded": false,
+  "row_data_or_predictions_persisted": false,
+  "old_artifacts_modified": false,
+  "formal_packages_created": 0,
+  "platform_submissions": 0,
+  "started_and_completed_at": "2026-10-16T13:37:03.407333+08:00"
+}
