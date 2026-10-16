@@ -1,0 +1,14 @@
+test_baseline_arithmetic (__main__.RoutingChecks.test_baseline_arithmetic) ... ok
+test_both (__main__.RoutingChecks.test_both) ... ok
+test_denied (__main__.RoutingChecks.test_denied) ... ok
+test_design (__main__.RoutingChecks.test_design) ... ok
+test_geology (__main__.RoutingChecks.test_geology) ... ok
+test_offline_package (__main__.RoutingChecks.test_offline_package) ... ok
+test_unknown (__main__.RoutingChecks.test_unknown) ... ok
+test_unknown_denied (__main__.RoutingChecks.test_unknown_denied) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK
+{"verified": true, "Q1": "UNKNOWN", "Q2": "UNKNOWN", "enabled_configs": 0, "model_fits": 0, "preprocessor_fits": 0, "competition_data_read": false}

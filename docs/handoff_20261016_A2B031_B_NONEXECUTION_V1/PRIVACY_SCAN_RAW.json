@@ -1,0 +1,283 @@
+{
+  "task": "A2B-031/nonexecution",
+  "role": "账户B执行与交付",
+  "time": "2026-10-16T13:49:21.730691+08:00",
+  "public_input_closure_verified": true,
+  "competition_data_or_private_markers_read": false,
+  "test_data_read": false,
+  "known_private_marker_exhaustiveness_claimed": false,
+  "published_files": 19,
+  "scan_records": 19,
+  "exemptions": 0,
+  "all_pass": true,
+  "records": [
+    {
+      "record_id": "A031-PRIVACY-001",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/CLAUDE_INSTRUCTION_ORIGINAL_R7.md",
+      "sha256": "70e0fb5bcc66561941b2337293789767c6e856b1e5784bcca281f3ecb5350b6f",
+      "bytes": 8713,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-002",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/ENVIRONMENT_SCOPE.json",
+      "sha256": "47eb90dbd2079d895d277fcb7fa7e4dcc0dcb9b5f178727e79f14aacc5d86db5",
+      "bytes": 510,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-003",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/EVENTS.json",
+      "sha256": "1b3651559e005cbed1d5315e531a97bec770a16a644bb4d20484cc3dd367e763",
+      "bytes": 651,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-004",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/FIT_COUNTS.json",
+      "sha256": "37a9e08aebc3286f572ce344275f5d23038ea750b5ba858f73e3f83dd85b8666",
+      "bytes": 251,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-005",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/PREREG_A2B031.json",
+      "sha256": "cea1407c2dfd713edf3bf6456c2d2fa2fad8241c3cac0e8242818402935e3c70",
+      "bytes": 1155,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-006",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "2fc4861d5bd0e63062d1d84b1e090557b5a981156f8f214dffb6470272dd2b81",
+      "bytes": 2633,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-007",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": null,
+      "bytes": null,
+      "identity_binding": "manifest/Git/external byte receipt; no fabricated self-hash",
+      "scan_scope": "exact final serialized bytes scanned before saving",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-008",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/README.md",
+      "sha256": "3f7b6205be552d6ba9425babc70071d0d82e65ef7330069a4728e27008cb2b1e",
+      "bytes": 290,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-009",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/RECEIVED_CODEX_REPORT_031.md",
+      "sha256": "ff5b010b61d58d9fe90ab5fb3e555c462235fe28ac5cb0a5ce8d335866a7b71f",
+      "bytes": 3717,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-010",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/RECEIVED_CODEX_RESULT_031.json",
+      "sha256": "15b12d8f9ccbc7de106fb4b3225c1d9704a60a5cfc00073242e0badfe1d743e0",
+      "bytes": 3075,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-011",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/REPORT_B.md",
+      "sha256": "4ea2478467f1f658a15afc9f193481e9772cca9ef63b6ad0f8242e7e023602dd",
+      "bytes": 5707,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-012",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/REQUEST_CODEX.md",
+      "sha256": "449448ddfcd51a445d8729214dbfec02b9003bc3ed4c0286e5b4a1ee34fdd7c3",
+      "bytes": 360,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-013",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/RESULT_A2B031.json",
+      "sha256": "e65d0372424c06707c9c677583d78161be3b5c879e374d816a720b57ea365f8c",
+      "bytes": 2846,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-014",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/SHA256SUMS.json",
+      "sha256": null,
+      "bytes": null,
+      "identity_binding": "manifest/Git/external byte receipt; no fabricated self-hash",
+      "scan_scope": "exact final serialized bytes scanned before saving",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-015",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/SOURCE_RECEIPT.json",
+      "sha256": "176a9c97da05373cbc40ba4aba2b3eab0b921c0744edac90b195a142641df61f",
+      "bytes": 1433,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-016",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/SYNTHETIC_LOG.txt",
+      "sha256": "e2b1f98041e10fbe485c2fcce2f217daeb3777d3f61ec52bd6c58ca615dbc03a",
+      "bytes": 768,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-017",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/SYNTHETIC_RESULTS.json",
+      "sha256": "a59e3384d1d903a102dd29995e0f7fe8c344adb3701a6bed19dbe9c7943653c3",
+      "bytes": 115,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-018",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/privacy_scan.py",
+      "sha256": "6c9e553b3dcd1337189091f8809142fe79db7f5832a8ea4a0b954de5ff8c14b2",
+      "bytes": 4773,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "record_id": "A031-PRIVACY-019",
+      "path": "docs/handoff_20261016_A2B031_B_NONEXECUTION_V1/verify_nonexecution.py",
+      "sha256": "932616cc74a06d72616a18bcb19c05010e486dfca8ae2fced08af19800d49280",
+      "bytes": 3461,
+      "scan_scope": "exact original file bytes",
+      "pattern_hits": {
+        "credentials": 0,
+        "private_user_paths": 0,
+        "well_value_pattern": 0,
+        "raw_well_month_csv_row": 0
+      },
+      "result": "PASS"
+    }
+  ]
+}

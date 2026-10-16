@@ -1,0 +1,12 @@
+{
+  "model_entered": 0,
+  "model_completed": 0,
+  "model_failed": 0,
+  "preprocessor_entered": 0,
+  "preprocessor_completed": 0,
+  "preprocessor_failed": 0,
+  "retries": 0,
+  "baseline_refits": 0,
+  "full_data_fits": 0,
+  "pretrained_inferences": 0
+}

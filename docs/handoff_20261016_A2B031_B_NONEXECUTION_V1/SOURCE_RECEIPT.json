@@ -1,0 +1,38 @@
+{
+  "role": "账户B执行与交付",
+  "public_sources_only": true,
+  "received": [
+    {
+      "commit": "be03e6caeb6b70278c8e5a137b178130700aab72",
+      "path": "docs/handoff_20261016_A2B031_CLAUDE_INSTRUCTIONS_R7/INSTRUCTION_ORIGINAL.md",
+      "received_as": "CLAUDE_INSTRUCTION_ORIGINAL_R7.md",
+      "sha256": "70e0fb5bcc66561941b2337293789767c6e856b1e5784bcca281f3ecb5350b6f",
+      "bytes": 8713
+    },
+    {
+      "commit": "87df63be2287f6c8175146423ca01056e027afa1",
+      "path": "docs/handoff_20261016_A2B031_AND_A2B028_029_CODEX_V1/RESULT_CODEX_031.json",
+      "received_as": "RECEIVED_CODEX_RESULT_031.json",
+      "sha256": "15b12d8f9ccbc7de106fb4b3225c1d9704a60a5cfc00073242e0badfe1d743e0",
+      "bytes": 3075
+    },
+    {
+      "commit": "87df63be2287f6c8175146423ca01056e027afa1",
+      "path": "docs/handoff_20261016_A2B031_AND_A2B028_029_CODEX_V1/REPORT_CODEX_031.md",
+      "received_as": "RECEIVED_CODEX_REPORT_031.md",
+      "sha256": "ff5b010b61d58d9fe90ab5fb3e555c462235fe28ac5cb0a5ce8d335866a7b71f",
+      "bytes": 3717
+    },
+    {
+      "commit": "be75580c0778f93f44e363ecca4a471adb7fc8a1",
+      "path": "LATEST.json",
+      "sha256": "b1116b2f9e1dbc6388ddfd436ea460c5d35712de812752b544c8c97a261f0c3a",
+      "bytes": 17154,
+      "matching_Codex_records": 1
+    }
+  ],
+  "competition_data_read": false,
+  "test_data_touched": false,
+  "private_config_read": false,
+  "model_weights_loaded": false
+}

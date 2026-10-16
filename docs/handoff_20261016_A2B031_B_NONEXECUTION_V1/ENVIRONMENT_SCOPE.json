@@ -1,0 +1,14 @@
+{
+  "python": "3.13.7",
+  "build": [
+    "main",
+    "Sep 18 2025 19:43:45"
+  ],
+  "compiler": "MSC v.1944 64 bit (AMD64)",
+  "executable_sha256": "926f48e34093c6a5c63982f26cb2bcdfb1c428aa47794b2145ee66cbb846aff1",
+  "stdlib_only_execution": true,
+  "ML_packages_imported": false,
+  "old_training_environment_changed": false,
+  "actual_training_environment_locked": false,
+  "reason": "No configuration allowed; no model or learned preprocessing execution. Historical dtype evidence not asserted or closed."
+}
