@@ -304,6 +304,21 @@
         "A2B-028弱信号默认不执行、研究结束、收尾R8第1–5项：待用户确认，本存档不含"
       ],
       "published_at": "2026-10-16T14:10:00+08:00"
+    },
+    {
+      "task": "A2B-032/任务对齐审计（T1–T4）",
+      "role": "Claude",
+      "commit": "493eabed3a83d646182787fd65dd070f652a4780",
+      "report_path": "docs/handoff_20261016_A2B032_CLAUDE_INSTRUCTIONS_R9/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "执行：B做T1–T3；Codex并行做T4合规判定，B交付后审核T1–T3",
+        "收尾（补train.py、复现、打包）尚未批准"
+      ],
+      "published_at": "2026-10-16T14:20:00+08:00"
     }
   ]
 }
