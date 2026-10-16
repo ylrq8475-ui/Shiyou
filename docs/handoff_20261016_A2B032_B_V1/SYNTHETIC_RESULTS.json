@@ -1,0 +1,10 @@
+{
+  "tests": 15,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "poisoned_test_window_value_decode_blocked": true,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "no_real_rows_in_synthetic_fixtures": true
+}

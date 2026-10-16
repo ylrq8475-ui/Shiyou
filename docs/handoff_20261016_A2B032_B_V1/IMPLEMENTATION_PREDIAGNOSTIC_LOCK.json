@@ -1,0 +1,36 @@
+{
+  "time": "2026-10-16T14:54:23.532221+08:00",
+  "R9_commit": "493eabed3a83d646182787fd65dd070f652a4780",
+  "input_hashes": {
+    "archive": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+    "manifest": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f",
+    "config": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72",
+    "template_receipt": "9b6bab1a5fefa3967d36eac3f5519ca8445d398674a76aff3ada17a20368e0a6",
+    "scoring_source": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235"
+  },
+  "source_hashes": {
+    "audit_core.py": "6979f0366b729a8ed32396569aa2a7837d4d409301dbfb09632267a338937c0c",
+    "run_audit.py": "820d00269a462bd3263117ffcfcb6ec3cfb3ec4ae3cbf22e7d447f6a20a9d3da",
+    "test_audit.py": "621690991961594f83851e12d8705666f76041c390a094cf81ba6b5704ff5042",
+    "PLAN_R9.json": "7edf767471066a6a02bd8381d70527e722012f2635a4b48232dd493f925a36a3"
+  },
+  "environment": {
+    "python": "3.13.7 (main, Sep 18 2025, 19:43:45) [MSC v.1944 64 bit (AMD64)]",
+    "build": [
+      "main",
+      "Sep 18 2025 19:43:45"
+    ],
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "PyYAML": "6.0.3",
+    "ML_modules_imported": false
+  },
+  "model_fit_budget": 0,
+  "preprocessor_fit_budget": 0,
+  "no_candidate_scores_viewed": true,
+  "template_keys_method": "candidate last 12 calendar keys per declared test CSV must exactly match prior locked ordered template key SHA256 BEFORE dynamic history access; no RCYL missingness inspected",
+  "cohort_identity": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda",
+  "ALIGN_MATCH_definition": "unique marginal modes match and >=8/10 same test wells match BOTH modes",
+  "P3_reference_literal": "new target start minus one month; under literal R9 wording this is identical to P3; no silent reinterpretation as M-1 on a shifted window",
+  "frozen_config_not_edited": true
+}

@@ -1,0 +1,40 @@
+{
+  "task": "A2B-032/T1-T3",
+  "role": "账户B执行与交付",
+  "R9_commit": "493eabed3a83d646182787fd65dd070f652a4780",
+  "R9_sha256": "50d8517264c1f225b3984b3f19a45cf3228613bdd8e98851e95831951c500fc6",
+  "time": "2026-10-16T14:53:10.834228+08:00",
+  "model_fit_budget": 0,
+  "preprocessor_fit_budget": 0,
+  "scope": "only R9 section ①; T4 and final review belong to independent Codex",
+  "source_config_preserved": true,
+  "test_template_key_identity": "6f27b2b7eb8880428aac42935a34fce881a8af8d089838df3983767887c87c58",
+  "test_key_recovery": "select final12 calendar keys per declared CSV, preserving original order, then REQUIRE exact prior ordered key hash BEFORE any dynamic history decode. If mismatch, stop. No use of target missingness.",
+  "template_keys_only": [
+    "WELL_ID",
+    "NY"
+  ],
+  "test_history_fields_only_before_T0": [
+    "WELL_ID",
+    "NY",
+    "CSLB",
+    "RCYL"
+  ],
+  "test_window_dynamic_columns_decoded": 0,
+  "all_other_test_fields_decoded": 0,
+  "test_window_keys_are_output_contract_not_features": true,
+  "unaltered_project_event_whitelist_only_in_memory": true,
+  "T2_cohort": "81 wells/972 rows; exact original label-key-order hash",
+  "ALIGN_MATCH": "unique k_start and k_end modes equal across train/test, and at least8/10 testwells jointly match both modes; report marginal counts as well",
+  "mode_tie_policy": "no arbitrary tie selection; record unresolved modes; P3 requires unique test k_start mode",
+  "P1": "exact M-1 RCYL repeated12, no fill or nearest-observation substitution",
+  "P2": "exact M RCYL repeated12, current target M+1..M+12",
+  "P3_trigger": "only ALIGN_MATCH=false; no unconditional extra baseline",
+  "P3": "target S+k_start_star..+11, predictor target_start-1",
+  "P3_redefined_P1_literal": "target_start-1 on same new target, identical by R9 literal wording; delta0 if computable; disclose ambiguity, do not create a potentially future-looking M-1 control on shifted targets",
+  "missing_predictor_policy": "primary81well score UNKNOWN if any missing/nonfinite/negative, separately valid-subset descriptive only, no imputation",
+  "metric": "epsilon1e-6, unnormalized2^-t, no factor2, each well then equal mean",
+  "B0_reference": 73.71410733861434,
+  "B0_rerun": false,
+  "new_training_or_package_or_platform_submission": false
+}

@@ -1,0 +1,45 @@
+{
+  "read_boundary": {
+    "raw_100_members_hash_verified": true,
+    "archive_extracted": false,
+    "train_history_tables_parsed": 88,
+    "test_history_tables_full_parsed": 0,
+    "template_keys_only_tables_projected": 10,
+    "template_key_hash_verified_before_history_dynamic_access": true,
+    "test_window_dynamic_values_decoded": 0,
+    "test_window_RCYL_parsed": 0,
+    "test_window_other_fields_used": 0,
+    "test_decoder_aggregate": {
+      "test_files": 10,
+      "test_window_rows_skipped_before_dynamic_cell_decode": 120,
+      "test_window_RCYL_decoded": 0,
+      "test_window_event_decoded": 0,
+      "test_window_other_dynamic_decoded": 0,
+      "decoded_cells": {
+        "key_date": 493,
+        "prewindow_RCYL": 373,
+        "prewindow_event": 373,
+        "prewindow_well": 373
+      }
+    },
+    "plan_layer_tables_parsed": 0,
+    "private_rows_persisted": false
+  },
+  "integrity": {
+    "input_hashes_before": {
+      "archive": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+      "manifest": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f",
+      "config": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72",
+      "template_receipt": "9b6bab1a5fefa3967d36eac3f5519ca8445d398674a76aff3ada17a20368e0a6",
+      "scoring_source": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235"
+    },
+    "input_hashes_after": {
+      "archive": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+      "manifest": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f",
+      "config": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72",
+      "template_receipt": "9b6bab1a5fefa3967d36eac3f5519ca8445d398674a76aff3ada17a20368e0a6",
+      "scoring_source": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235"
+    },
+    "old_artifacts_modified": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "R9_commit": "493eabed3a83d646182787fd65dd070f652a4780",
+  "R9_path": "docs/handoff_20261016_A2B032_CLAUDE_INSTRUCTIONS_R9/INSTRUCTION_ORIGINAL.md",
+  "R9_sha256": "50d8517264c1f225b3984b3f19a45cf3228613bdd8e98851e95831951c500fc6",
+  "registration_prompt_commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+  "rules_commit": "8b112a767a3355a1ea208038915028ba4c4525e4",
+  "input_hashes": {
+    "archive": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+    "manifest": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f",
+    "config": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72",
+    "template_receipt": "9b6bab1a5fefa3967d36eac3f5519ca8445d398674a76aff3ada17a20368e0a6",
+    "scoring_source": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235"
+  },
+  "template_key_hash": "6f27b2b7eb8880428aac42935a34fce881a8af8d089838df3983767887c87c58",
+  "template_key_reference": "existing READONLY_INPUT_READY.json; hash is locked before this audit, no old models loaded; source receipt bytes hashed, no raw keys copied",
+  "train_label_key_order_hash": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda",
+  "label_reference": "A2B-028 B0 prefit identity; exact current 81-well label keys/order verified, no baseline model refit",
+  "index_observed": "26b4455ecc012fbd9d54c757ea67954f33eaf0f1",
+  "index_sha256": "e34ef61791e4c658fb9355d330ecd60b73aba46327dcb88bfce91183015f5d00",
+  "T4_Codex_records_found": 0,
+  "external_new_data_or_models_used": false
+}

@@ -1,0 +1,11 @@
+{
+  "python": "3.13.7 (main, Sep 18 2025, 19:43:45) [MSC v.1944 64 bit (AMD64)]",
+  "build": [
+    "main",
+    "Sep 18 2025 19:43:45"
+  ],
+  "numpy": "2.4.3",
+  "pandas": "2.3.3",
+  "PyYAML": "6.0.3",
+  "ML_modules_imported": false
+}

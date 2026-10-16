@@ -1,0 +1,20 @@
+test_calendar_cross_year (test_audit.Tests.test_calendar_cross_year) ... ok
+test_equal_wells_prefix (test_audit.Tests.test_equal_wells_prefix) ... ok
+test_escaped_quote (test_audit.Tests.test_escaped_quote) ... ok
+test_future_value_poison_invariance (test_audit.Tests.test_future_value_poison_invariance) ... ok
+test_joint_threshold_7 (test_audit.Tests.test_joint_threshold_7) ... ok
+test_joint_threshold_8 (test_audit.Tests.test_joint_threshold_8) ... ok
+test_keys_do_not_decode_dynamic_cells (test_audit.Tests.test_keys_do_not_decode_dynamic_cells) ... ok
+test_missing_persistence_not_imputed (test_audit.Tests.test_missing_persistence_not_imputed) ... ok
+test_mode_mismatch (test_audit.Tests.test_mode_mismatch) ... ok
+test_mode_tie_not_selected (test_audit.Tests.test_mode_tie_not_selected) ... ok
+test_no_normalization_or_factor_two (test_audit.Tests.test_no_normalization_or_factor_two) ... ok
+test_perfect_score (test_audit.Tests.test_perfect_score) ... ok
+test_quotes_and_newlines (test_audit.Tests.test_quotes_and_newlines) ... ok
+test_segments (test_audit.Tests.test_segments) ... ok
+test_window_poison_not_decoded (test_audit.Tests.test_window_poison_not_decoded) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.001s
+
+OK
