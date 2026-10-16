@@ -1,0 +1,269 @@
+{
+  "task": "A2B-032",
+  "role": "账户B执行与交付",
+  "R9_commit": "493eabed3a83d646182787fd65dd070f652a4780",
+  "T1": {
+    "wells": 10,
+    "identified_wells": 10,
+    "k_start": {
+      "1": 6,
+      "2": 4
+    },
+    "k_end": {
+      "1": 10
+    },
+    "last_pretemplate_row_equals_T0_minus_1_wells": 10,
+    "T0_minus_1_RCYL_finite_wells": 10,
+    "M_RCYL_finite_wells": 10,
+    "gap_wells": 0,
+    "gap_month_count_distribution": {},
+    "unrecognized_wells": 0,
+    "unrecognized_reasons": {},
+    "events_source": "only pretemplate history; no event values from template window",
+    "key_projection_rows": 493,
+    "template_key_sha256": "6f27b2b7eb8880428aac42935a34fce881a8af8d089838df3983767887c87c58",
+    "matches_existing_locked_template_keys": true
+  },
+  "T2": {
+    "wells": 81,
+    "rows": 972,
+    "k_start": {
+      "1": 53,
+      "2": 25,
+      "3": 3
+    },
+    "k_end": {
+      "1": 81
+    },
+    "source_train_wells": 88,
+    "exclusions": {
+      "missing_month": 7
+    },
+    "label_key_order_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda",
+    "current_target": "M+1..M+12"
+  },
+  "ALIGN_MATCH": false,
+  "test_k_start_modes": [
+    1
+  ],
+  "test_k_end_modes": [
+    1
+  ],
+  "train_k_start_modes": [
+    1
+  ],
+  "train_k_end_modes": [
+    1
+  ],
+  "test_joint_modal_wells": 6,
+  "test_start_modal_wells": 6,
+  "test_end_modal_wells": 10,
+  "unique_modes": true,
+  "test_origin_threshold_denominator": 10,
+  "mode_consistency_definition": "same well matches BOTH unique marginal modes; >=8/10; ties are unresolved and do not get arbitrarily selected",
+  "T3": {
+    "P1": {
+      "status": "COMPLETE",
+      "well_denominator": 81,
+      "valid_wells": 81,
+      "excluded_counts": {},
+      "all_well_score": {
+        "official_score": 50.55669115981399,
+        "well_count": 81,
+        "monthly_weighted_loss": {
+          "m1_to_1": 0.25108807306321557,
+          "m1_to_2": 0.3755657566014487,
+          "m1_to_4": 0.466357022367675,
+          "m1_to_12": 0.49443308840186007
+        },
+        "weights": "2^-t, t=1..12; no renormalization; no leading 2",
+        "epsilon": 1e-06,
+        "aggregation": "calculate each well then equal mean; no row outputs persisted"
+      },
+      "valid_subset_only": null,
+      "imputation_or_latest_available_substitution": false
+    },
+    "P2": {
+      "status": "COMPLETE",
+      "well_denominator": 81,
+      "valid_wells": 81,
+      "excluded_counts": {},
+      "all_well_score": {
+        "official_score": 71.30071992041721,
+        "well_count": 81,
+        "monthly_weighted_loss": {
+          "m1_to_1": 0.12439730610858882,
+          "m1_to_2": 0.2027361026688612,
+          "m1_to_4": 0.2645161505586548,
+          "m1_to_12": 0.286992800795828
+        },
+        "weights": "2^-t, t=1..12; no renormalization; no leading 2",
+        "epsilon": 1e-06,
+        "aggregation": "calculate each well then equal mean; no row outputs persisted"
+      },
+      "valid_subset_only": null,
+      "imputation_or_latest_available_substitution": false
+    },
+    "P2_minus_P1": 20.74402876060322,
+    "P3": {
+      "status": "COMPLETE",
+      "k_start_star": 1,
+      "original_well_denominator": 81,
+      "complete_redefined_target_wells": 81,
+      "exclusions": {},
+      "score": {
+        "status": "COMPLETE",
+        "well_denominator": 81,
+        "valid_wells": 81,
+        "excluded_counts": {},
+        "all_well_score": {
+          "official_score": 62.38494896094084,
+          "well_count": 81,
+          "monthly_weighted_loss": {
+            "m1_to_1": 0.17906495695814656,
+            "m1_to_2": 0.27539065442859795,
+            "m1_to_4": 0.3510646069810154,
+            "m1_to_12": 0.3761505103905916
+          },
+          "weights": "2^-t, t=1..12; no renormalization; no leading 2",
+          "epsilon": 1e-06,
+          "aggregation": "calculate each well then equal mean; no row outputs persisted"
+        },
+        "valid_subset_only": null,
+        "imputation_or_latest_available_substitution": false
+      },
+      "valid_target_subset_only": null,
+      "prediction_month": "S+k_start_star-1",
+      "target": "S+k_start_star .. S+k_start_star+11",
+      "redefined_target_P1_reference": {
+        "status": "COMPLETE",
+        "well_denominator": 81,
+        "valid_wells": 81,
+        "excluded_counts": {},
+        "all_well_score": {
+          "official_score": 62.38494896094084,
+          "well_count": 81,
+          "monthly_weighted_loss": {
+            "m1_to_1": 0.17906495695814656,
+            "m1_to_2": 0.27539065442859795,
+            "m1_to_4": 0.3510646069810154,
+            "m1_to_12": 0.3761505103905916
+          },
+          "weights": "2^-t, t=1..12; no renormalization; no leading 2",
+          "epsilon": 1e-06,
+          "aggregation": "calculate each well then equal mean; no row outputs persisted"
+        },
+        "valid_subset_only": null,
+        "imputation_or_latest_available_substitution": false
+      },
+      "P3_minus_redefined_target_P1": 0.0,
+      "literal_reference_note": "R9 P1 reference says use preceding month of redefined target. This is the same predictor/target as P3; identity is reported rather than silently inventing a different control. Original M-1 on a shifted target may overlap target and is NOT used.",
+      "P3_minus_original_P1_different_target_descriptive_only": 11.828257801126853,
+      "cross_target_difference_is_model_gain": false
+    },
+    "B0_reference": 73.71410733861434,
+    "B0_newly_reproduced": false,
+    "no_imputation_no_scaling_no_fit": true,
+    "T4_permission_implied_by_P2_score": false,
+    "frozen_official_scorer_cross_checks": [
+      {
+        "name": "P1",
+        "well_count": 81,
+        "official_module_score": 50.55669115981399,
+        "difference_vs_local_formula": 0.0,
+        "tolerance": 1e-12
+      },
+      {
+        "name": "P2",
+        "well_count": 81,
+        "official_module_score": 71.30071992041721,
+        "difference_vs_local_formula": 0.0,
+        "tolerance": 1e-12
+      },
+      {
+        "name": "P3_and_literal_redefined_P1",
+        "well_count": 81,
+        "official_module_score": 62.38494896094084,
+        "difference_vs_local_formula": 0.0,
+        "tolerance": 1e-12
+      }
+    ]
+  },
+  "P1": 50.55669115981399,
+  "P2": 71.30071992041721,
+  "P2_minus_P1": 20.74402876060322,
+  "P3": 62.38494896094084,
+  "T4": "NOT_DECIDED_BY_B",
+  "decision_B_self_report": "ALIGN_MATCH = 否",
+  "decision_row_Codex": "不适用",
+  "fit_counts": {
+    "model_entered": 0,
+    "model_completed": 0,
+    "preprocessor_entered": 0,
+    "preprocessor_completed": 0
+  },
+  "read_boundary": {
+    "raw_100_members_hash_verified": true,
+    "archive_extracted": false,
+    "train_history_tables_parsed": 88,
+    "test_history_tables_full_parsed": 0,
+    "template_keys_only_tables_projected": 10,
+    "template_key_hash_verified_before_history_dynamic_access": true,
+    "test_window_dynamic_values_decoded": 0,
+    "test_window_RCYL_parsed": 0,
+    "test_window_other_fields_used": 0,
+    "test_decoder_aggregate": {
+      "test_files": 10,
+      "test_window_rows_skipped_before_dynamic_cell_decode": 120,
+      "test_window_RCYL_decoded": 0,
+      "test_window_event_decoded": 0,
+      "test_window_other_dynamic_decoded": 0,
+      "decoded_cells": {
+        "key_date": 493,
+        "prewindow_RCYL": 373,
+        "prewindow_event": 373,
+        "prewindow_well": 373
+      }
+    },
+    "plan_layer_tables_parsed": 0,
+    "private_rows_persisted": false
+  },
+  "integrity": {
+    "input_hashes_before": {
+      "archive": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+      "manifest": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f",
+      "config": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72",
+      "template_receipt": "9b6bab1a5fefa3967d36eac3f5519ca8445d398674a76aff3ada17a20368e0a6",
+      "scoring_source": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235"
+    },
+    "input_hashes_after": {
+      "archive": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+      "manifest": "efd81b2fa8226f3a610fefb272f20f6a1adb61a98d02ff6885732b7a1312266f",
+      "config": "89e60c301b1d553b1c7dab8e2f87d1d9a47b600abe4322f2e9895717201c0c72",
+      "template_receipt": "9b6bab1a5fefa3967d36eac3f5519ca8445d398674a76aff3ada17a20368e0a6",
+      "scoring_source": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235"
+    },
+    "old_artifacts_modified": false
+  },
+  "hard_gates": {
+    "泄漏": "通过：本次T1–T3限定读取；T4另由Codex判定",
+    "错位": "通过：逐月与既有模板键、训练标签键身份核对；ALIGN_MATCH结果不等于泄漏",
+    "井级隔离": "通过：训练/测试井交集0；未拟合",
+    "指标": "通过：训练井内存逐井官方公式；无测试评分"
+  },
+  "runtime_seconds": 0.20459549999213777,
+  "training_authorized_by_this_audit": false,
+  "ML_modules_imported": false,
+  "T4_index_observation": {
+    "index_commit": "26b4455ecc012fbd9d54c757ea67954f33eaf0f1",
+    "Codex_T4_records_found": 0,
+    "status": "PENDING_INDEPENDENT_DECISION",
+    "B_does_not_substitute": true
+  },
+  "open_unknowns": [
+    "A032-T4 P1 T4独立合规判定尚未见索引记录，B不代判",
+    "A032-P3-REFERENCE P2 R9新目标前一个月口径与P3同式，按字面报告同分及差0，待Claude/Codex确认是否有其他原意；未另造对照",
+    "CODEX-032-REVIEW P1 T1–T3待独立审核；B自报不是终判",
+    "HIST-DTYPE P1 原历史dtype缺口保留，本轮不拟合、不复用旧分数计算新模型增益"
+  ]
+}
