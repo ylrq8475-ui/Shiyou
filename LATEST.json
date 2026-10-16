@@ -289,6 +289,21 @@
         "CODEX-031-B-REVIEW P1 本不执行说明待独立审核；前置合规判定提交87df63be2287f6c8175146423ca01056e027afa1"
       ],
       "published_at": "2026-10-16T13:57:06.305820+08:00"
+    },
+    {
+      "task": "A2B-031/补证（Q1、Q2同编号复核）",
+      "role": "Claude",
+      "commit": "252d421d4396c5e4119f03c772be239a9cdd1b7e",
+      "report_path": "docs/handoff_20261016_A2B031_CLAUDE_INSTRUCTIONS_R8/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "执行顺序：B补证E1–E4 → Codex同编号复核Q1、Q2 → 放行则按R7②执行A2B-031",
+        "A2B-028弱信号默认不执行、研究结束、收尾R8第1–5项：待用户确认，本存档不含"
+      ],
+      "published_at": "2026-10-16T14:10:00+08:00"
     }
   ]
 }
