@@ -1,0 +1,41 @@
+test_all_missing (B_synthetic.Synthetic.test_all_missing) ... ok
+test_alpha_own_fold_label_exclusion (B_synthetic.Synthetic.test_alpha_own_fold_label_exclusion) ... ok
+test_blend_own_fold_label_exclusion (B_synthetic.Synthetic.test_blend_own_fold_label_exclusion) ... ok
+test_blend_tie_baseline (B_synthetic.Synthetic.test_blend_tie_baseline) ... ok
+test_bridge_alignment (B_synthetic.Synthetic.test_bridge_alignment) ... ok
+test_calendar_gap_and_cutoff (B_synthetic.Synthetic.test_calendar_gap_and_cutoff) ... ok
+test_combo_valid (B_synthetic.Synthetic.test_combo_valid) ... ok
+test_complexity_tie (B_synthetic.Synthetic.test_complexity_tie) ... ok
+test_metric_weights (B_synthetic.Synthetic.test_metric_weights) ... ok
+test_metric_zero (B_synthetic.Synthetic.test_metric_zero) ... ok
+test_negative_prediction_rejected (B_synthetic.Synthetic.test_negative_prediction_rejected) ... ok
+test_prefix_no_normalizing (B_synthetic.Synthetic.test_prefix_no_normalizing) ... ok
+test_segment_collapse (B_synthetic.Synthetic.test_segment_collapse) ... ok
+test_selection_failed (B_synthetic.Synthetic.test_selection_failed) ... ok
+test_F0_formulas_independent (A_independent.IndependentR5.test_F0_formulas_independent) ... ok
+test_F0_future_mutation_does_not_change (A_independent.IndependentR5.test_F0_future_mutation_does_not_change) ... ok
+test_F0_zero_denominators (A_independent.IndependentR5.test_F0_zero_denominators) ... ok
+test_all_four_prefixes (A_independent.IndependentR5.test_all_four_prefixes) ... ok
+test_alpha_brute_force (A_independent.IndependentR5.test_alpha_brute_force) ... ok
+test_alpha_same_horizon_only (A_independent.IndependentR5.test_alpha_same_horizon_only) ... ok
+test_alpha_zero_candidate (A_independent.IndependentR5.test_alpha_zero_candidate) ... ok
+test_aux_later_event_replaces_contaminated_window (A_independent.IndependentR5.test_aux_later_event_replaces_contaminated_window) ... ok
+test_aux_missing_label_blocks_locked_count (A_independent.IndependentR5.test_aux_missing_label_blocks_locked_count) ... ok
+test_auxiliary_exact_cohort_counts_synthetic (A_independent.IndependentR5.test_auxiliary_exact_cohort_counts_synthetic) ... ok
+test_blend_grid_cross_source (A_independent.IndependentR5.test_blend_grid_cross_source) ... ok
+test_epsilon_exact (A_independent.IndependentR5.test_epsilon_exact) ... ok
+test_invalid_nan_inf_negative (A_independent.IndependentR5.test_invalid_nan_inf_negative) ... ok
+test_manual_official_equal_wells (A_independent.IndependentR5.test_manual_official_equal_wells) ... ok
+test_months_not_reversed (A_independent.IndependentR5.test_months_not_reversed) ... ok
+test_preregistered_simplicity_tie (A_independent.IndependentR5.test_preregistered_simplicity_tie) ... ok
+test_retention_requires_score_and_fold_count (A_independent.IndependentR5.test_retention_requires_score_and_fold_count) ... ok
+test_target_scale_fallback_uses_raw_last (A_independent.IndependentR5.test_target_scale_fallback_uses_raw_last) ... ok
+test_validation_well_all_events_excluded (A_independent.IndependentR5.test_validation_well_all_events_excluded) ... ok
+test_worker_batches_81_wells (A_independent.IndependentR5.test_worker_batches_81_wells) ... ok
+test_worker_bridge_and_median (A_independent.IndependentR5.test_worker_bridge_and_median) ... ok
+test_worker_nonnegative (A_independent.IndependentR5.test_worker_nonnegative) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 1.298s
+
+OK

@@ -1,0 +1,1559 @@
+{
+  "B_commit": "a2bc8d4c02eba88bea2cb468a5478a4a5f0b18c9",
+  "passed": true,
+  "check_count": 386,
+  "checks": [
+    {
+      "check": "exact_B_file_count",
+      "passed": true
+    },
+    {
+      "check": "manifest_coverage",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_BASELINE_REPRODUCTION.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_CHRONOS_CODE_LICENSE.txt",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_CLAUDE_INSTRUCTION_ORIGINAL_R5.md",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_ENVIRONMENT_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_EVENTS.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_FIT_COUNTS.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_FM_ENVIRONMENT_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_FM_LICENSE_AND_SIZE_EVIDENCE.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_IMPLEMENTATION_PREFIT_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_PLAN_R5.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_POST_RUN_VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_PREFIT_DEBUG_RECORD.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_PREREG_A2B029.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_PREREG_PARAMETERS.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_PRIVACY_COVERAGE_MAP.md",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_PRIVACY_SCAN_RAW.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_README.md",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_REFERENCE_PANEL_CONTRACT.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_REPORT_B.md",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_REPRODUCTION.md",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_REQUEST_CODEX.md",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_RESULT_A2B028_029.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_SOURCE_RECEIPT_A027.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_SPLIT_REFERENCE.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_STRUCTURE_GATES.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_SYNTHETIC_LOG.txt",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_SYNTHETIC_RESULTS.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_USER_AUTHORIZATION.json",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_diagnostic_core.py",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_experiment_core.py",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_fm_worker.py",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_privacy_check.py",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_replay.py",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_route_b_core.py",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_run_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_test_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "original_manifest_bytes_train_reader.py",
+      "passed": true
+    },
+    {
+      "check": "privacy_coverage",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_BASELINE_REPRODUCTION.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_BASELINE_REPRODUCTION.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_CHRONOS_CODE_LICENSE.txt",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_CHRONOS_CODE_LICENSE.txt",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_CLAUDE_INSTRUCTION_ORIGINAL_R5.md",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_CLAUDE_INSTRUCTION_ORIGINAL_R5.md",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_ENVIRONMENT_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_ENVIRONMENT_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_EVENTS.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_EVENTS.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_FIT_COUNTS.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_FIT_COUNTS.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_FM_ENVIRONMENT_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_FM_ENVIRONMENT_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_FM_LICENSE_AND_SIZE_EVIDENCE.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_FM_LICENSE_AND_SIZE_EVIDENCE.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_IMPLEMENTATION_PREFIT_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_IMPLEMENTATION_PREFIT_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_PLAN_R5.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_PLAN_R5.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_POST_RUN_VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_POST_RUN_VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_PREFIT_DEBUG_RECORD.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_PREFIT_DEBUG_RECORD.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_PREREG_A2B029.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_PREREG_A2B029.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_PREREG_PARAMETERS.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_PREREG_PARAMETERS.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_PRIVACY_COVERAGE_MAP.md",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_PRIVACY_COVERAGE_MAP.md",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_PRIVACY_SCAN_RAW.json",
+      "passed": true
+    },
+    {
+      "check": "final_serialized_metadata_PRIVACY_SCAN_RAW.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_README.md",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_README.md",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_REFERENCE_PANEL_CONTRACT.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_REFERENCE_PANEL_CONTRACT.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_REPORT_B.md",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_REPORT_B.md",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_REPRODUCTION.md",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_REPRODUCTION.md",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_REQUEST_CODEX.md",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_REQUEST_CODEX.md",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_RESULT_A2B028_029.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_RESULT_A2B028_029.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "check": "final_serialized_metadata_SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_SOURCE_RECEIPT_A027.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_SOURCE_RECEIPT_A027.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_SPLIT_REFERENCE.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_SPLIT_REFERENCE.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_STRUCTURE_GATES.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_STRUCTURE_GATES.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_SYNTHETIC_LOG.txt",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_SYNTHETIC_LOG.txt",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_SYNTHETIC_RESULTS.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_SYNTHETIC_RESULTS.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_USER_AUTHORIZATION.json",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_USER_AUTHORIZATION.json",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_diagnostic_core.py",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_diagnostic_core.py",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_experiment_core.py",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_experiment_core.py",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_fm_worker.py",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_fm_worker.py",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_privacy_check.py",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_privacy_check.py",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_replay.py",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_replay.py",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_route_b_core.py",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_route_b_core.py",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_run_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_run_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_test_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_test_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "private_and_credential_zero_train_reader.py",
+      "passed": true
+    },
+    {
+      "check": "scan_identity_train_reader.py",
+      "passed": true
+    },
+    {
+      "check": "scan_no_exemption",
+      "passed": true
+    },
+    {
+      "check": "actual_locked_source_diagnostic_core.py",
+      "passed": true
+    },
+    {
+      "check": "actual_locked_source_experiment_core.py",
+      "passed": true
+    },
+    {
+      "check": "actual_locked_source_fm_worker.py",
+      "passed": true
+    },
+    {
+      "check": "actual_locked_source_route_b_core.py",
+      "passed": true
+    },
+    {
+      "check": "actual_locked_source_run_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "actual_locked_source_test_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "actual_locked_source_train_reader.py",
+      "passed": true
+    },
+    {
+      "check": "actual_locked_source_PLAN_R5.json",
+      "passed": true
+    },
+    {
+      "check": "actual_locked_source_PREREG_A2B029.json",
+      "passed": true
+    },
+    {
+      "check": "actual_locked_source_FM_ENVIRONMENT_LOCK.json",
+      "passed": true
+    },
+    {
+      "check": "environment_lock_identity",
+      "passed": true
+    },
+    {
+      "check": "FM_environment_identity",
+      "passed": true
+    },
+    {
+      "check": "FM_prereg_identity",
+      "passed": true
+    },
+    {
+      "check": "R5_instruction_identity",
+      "passed": true
+    },
+    {
+      "check": "base_panel_identity",
+      "passed": true
+    },
+    {
+      "check": "325_base_and335_F0_columns",
+      "passed": true
+    },
+    {
+      "check": "972_eval_rows_and81_wells",
+      "passed": true
+    },
+    {
+      "check": "target_and_history_boundary",
+      "passed": true
+    },
+    {
+      "check": "split_identity",
+      "passed": true
+    },
+    {
+      "check": "feature_order_identity",
+      "passed": true
+    },
+    {
+      "check": "F0_label_keys_unchanged",
+      "passed": true
+    },
+    {
+      "check": "aux_label_keys_unchanged",
+      "passed": true
+    },
+    {
+      "check": "cohort_augmentation",
+      "passed": true
+    },
+    {
+      "check": "all_valid_well_events_isolated",
+      "passed": true
+    },
+    {
+      "check": "fold_sizes",
+      "passed": true
+    },
+    {
+      "check": "B0_exact_reference",
+      "passed": true
+    },
+    {
+      "check": "B0_reproduction_file",
+      "passed": true
+    },
+    {
+      "check": "fit_totals",
+      "passed": true
+    },
+    {
+      "check": "no_failed_or_retried_fit",
+      "passed": true
+    },
+    {
+      "check": "event_sequence",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_1",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_2",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_3",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_4",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_5",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_6",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_7",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_8",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_9",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_10",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_11",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_12",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_13",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_14",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_15",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_16",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_17",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_18",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_19",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_20",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_21",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_22",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_23",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_24",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_25",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_26",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_27",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_28",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_29",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_30",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_31",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_32",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_33",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_34",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_35",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_36",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_37",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_38",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_39",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_40",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_41",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_42",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_43",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_44",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_45",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_46",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_47",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_48",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_49",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_50",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_51",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_52",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_53",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_54",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_55",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_56",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_57",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_58",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_59",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_60",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_61",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_62",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_63",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_64",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_65",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_66",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_67",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_68",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_69",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_70",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_71",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_72",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_73",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_74",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_75",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_76",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_77",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_78",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_79",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_80",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_81",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_82",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_83",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_84",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_85",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_86",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_87",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_88",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_89",
+      "passed": true
+    },
+    {
+      "check": "event_fit_counter_90",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_model_entered",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_model_completed",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_preprocessor_entered",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_preprocessor_completed",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_F0_model_entered",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_F0_model_completed",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_F0_preprocessor_entered",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_F0_preprocessor_completed",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_AUG_model_entered",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_AUG_model_completed",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_AUG_preprocessor_entered",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_AUG_preprocessor_completed",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_F0_AUG_model_entered",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_F0_AUG_model_completed",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_F0_AUG_preprocessor_entered",
+      "passed": true
+    },
+    {
+      "check": "five_calls_B0_F0_AUG_preprocessor_completed",
+      "passed": true
+    },
+    {
+      "check": "B0_gate_after_exactly5_fits",
+      "passed": true
+    },
+    {
+      "check": "locks_before_fits",
+      "passed": true
+    },
+    {
+      "check": "FM_prereg_before_first_score",
+      "passed": true
+    },
+    {
+      "check": "no_test_no_persistence",
+      "passed": true
+    },
+    {
+      "check": "equal_well_aggregate_B0",
+      "passed": true
+    },
+    {
+      "check": "score_loss_identity_B0",
+      "passed": true
+    },
+    {
+      "check": "worst_fold_B0",
+      "passed": true
+    },
+    {
+      "check": "population_std_B0",
+      "passed": true
+    },
+    {
+      "check": "prefix_losses_order_B0",
+      "passed": true
+    },
+    {
+      "check": "equal_well_aggregate_B0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "score_loss_identity_B0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "worst_fold_B0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "population_std_B0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "prefix_losses_order_B0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "paired_delta_B0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "total_delta_B0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "positive_folds_B0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "retention_B0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "equal_well_aggregate_B0_F0",
+      "passed": true
+    },
+    {
+      "check": "score_loss_identity_B0_F0",
+      "passed": true
+    },
+    {
+      "check": "worst_fold_B0_F0",
+      "passed": true
+    },
+    {
+      "check": "population_std_B0_F0",
+      "passed": true
+    },
+    {
+      "check": "prefix_losses_order_B0_F0",
+      "passed": true
+    },
+    {
+      "check": "paired_delta_B0_F0",
+      "passed": true
+    },
+    {
+      "check": "total_delta_B0_F0",
+      "passed": true
+    },
+    {
+      "check": "positive_folds_B0_F0",
+      "passed": true
+    },
+    {
+      "check": "retention_B0_F0",
+      "passed": true
+    },
+    {
+      "check": "equal_well_aggregate_B0_F0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "score_loss_identity_B0_F0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "worst_fold_B0_F0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "population_std_B0_F0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "prefix_losses_order_B0_F0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "paired_delta_B0_F0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "total_delta_B0_F0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "positive_folds_B0_F0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "retention_B0_F0_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "equal_well_aggregate_B0_AUG",
+      "passed": true
+    },
+    {
+      "check": "score_loss_identity_B0_AUG",
+      "passed": true
+    },
+    {
+      "check": "worst_fold_B0_AUG",
+      "passed": true
+    },
+    {
+      "check": "population_std_B0_AUG",
+      "passed": true
+    },
+    {
+      "check": "prefix_losses_order_B0_AUG",
+      "passed": true
+    },
+    {
+      "check": "paired_delta_B0_AUG",
+      "passed": true
+    },
+    {
+      "check": "total_delta_B0_AUG",
+      "passed": true
+    },
+    {
+      "check": "positive_folds_B0_AUG",
+      "passed": true
+    },
+    {
+      "check": "retention_B0_AUG",
+      "passed": true
+    },
+    {
+      "check": "equal_well_aggregate_B0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "score_loss_identity_B0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "worst_fold_B0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "population_std_B0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "prefix_losses_order_B0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "paired_delta_B0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "total_delta_B0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "positive_folds_B0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "retention_B0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "equal_well_aggregate_B0_F0_AUG",
+      "passed": true
+    },
+    {
+      "check": "score_loss_identity_B0_F0_AUG",
+      "passed": true
+    },
+    {
+      "check": "worst_fold_B0_F0_AUG",
+      "passed": true
+    },
+    {
+      "check": "population_std_B0_F0_AUG",
+      "passed": true
+    },
+    {
+      "check": "prefix_losses_order_B0_F0_AUG",
+      "passed": true
+    },
+    {
+      "check": "paired_delta_B0_F0_AUG",
+      "passed": true
+    },
+    {
+      "check": "total_delta_B0_F0_AUG",
+      "passed": true
+    },
+    {
+      "check": "positive_folds_B0_F0_AUG",
+      "passed": true
+    },
+    {
+      "check": "retention_B0_F0_AUG",
+      "passed": true
+    },
+    {
+      "check": "equal_well_aggregate_B0_F0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "score_loss_identity_B0_F0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "worst_fold_B0_F0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "population_std_B0_F0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "prefix_losses_order_B0_F0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "paired_delta_B0_F0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "total_delta_B0_F0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "positive_folds_B0_F0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "retention_B0_F0_AUG_ALPHA",
+      "passed": true
+    },
+    {
+      "check": "equal_well_aggregate_FM",
+      "passed": true
+    },
+    {
+      "check": "score_loss_identity_FM",
+      "passed": true
+    },
+    {
+      "check": "worst_fold_FM",
+      "passed": true
+    },
+    {
+      "check": "population_std_FM",
+      "passed": true
+    },
+    {
+      "check": "prefix_losses_order_FM",
+      "passed": true
+    },
+    {
+      "check": "paired_delta_FM",
+      "passed": true
+    },
+    {
+      "check": "total_delta_FM",
+      "passed": true
+    },
+    {
+      "check": "positive_folds_FM",
+      "passed": true
+    },
+    {
+      "check": "retention_FM",
+      "passed": true
+    },
+    {
+      "check": "exact7_candidates",
+      "passed": true
+    },
+    {
+      "check": "none_retained",
+      "passed": true
+    },
+    {
+      "check": "A028_locked_weak_signal",
+      "passed": true
+    },
+    {
+      "check": "A029_stop_under70",
+      "passed": true
+    },
+    {
+      "check": "FM_blend_not_executed",
+      "passed": true
+    },
+    {
+      "check": "alpha_each5folds_B0",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_0",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_1",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_2",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_3",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_4",
+      "passed": true
+    },
+    {
+      "check": "alpha_each5folds_B0_F0",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_F0_0",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_F0_1",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_F0_2",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_F0_3",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_F0_4",
+      "passed": true
+    },
+    {
+      "check": "alpha_each5folds_B0_AUG",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_AUG_0",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_AUG_1",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_AUG_2",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_AUG_3",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_AUG_4",
+      "passed": true
+    },
+    {
+      "check": "alpha_each5folds_B0_F0_AUG",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_F0_AUG_0",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_F0_AUG_1",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_F0_AUG_2",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_F0_AUG_3",
+      "passed": true
+    },
+    {
+      "check": "alpha_residual_scope_B0_F0_AUG_4",
+      "passed": true
+    },
+    {
+      "check": "one_frozen_model",
+      "passed": true
+    },
+    {
+      "check": "weight_identity_everywhere",
+      "passed": true
+    },
+    {
+      "check": "license_and_size",
+      "passed": true
+    },
+    {
+      "check": "FM_scope_and_bridge",
+      "passed": true
+    },
+    {
+      "check": "FM_fixed_context_and_native_missing",
+      "passed": true
+    },
+    {
+      "check": "decision_table_verbatim_A2B-028",
+      "passed": true
+    },
+    {
+      "check": "decision_table_verbatim_A2B-029",
+      "passed": true
+    },
+    {
+      "check": "script_no_hidden_fit_entry",
+      "passed": true
+    },
+    {
+      "check": "compile_diagnostic_core.py",
+      "passed": true
+    },
+    {
+      "check": "compile_experiment_core.py",
+      "passed": true
+    },
+    {
+      "check": "compile_fm_worker.py",
+      "passed": true
+    },
+    {
+      "check": "compile_privacy_check.py",
+      "passed": true
+    },
+    {
+      "check": "compile_replay.py",
+      "passed": true
+    },
+    {
+      "check": "compile_route_b_core.py",
+      "passed": true
+    },
+    {
+      "check": "compile_run_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "compile_test_experiment.py",
+      "passed": true
+    },
+    {
+      "check": "compile_train_reader.py",
+      "passed": true
+    },
+    {
+      "check": "startup_failures_not_fit_retries",
+      "passed": true
+    },
+    {
+      "check": "protected_record_unchanged",
+      "passed": true
+    },
+    {
+      "check": "no_layer_date_field",
+      "passed": true
+    },
+    {
+      "check": "only_completion_date_in_plan",
+      "passed": true
+    },
+    {
+      "check": "Q1_G_fields_have_official_definitions",
+      "passed": true
+    },
+    {
+      "check": "R7_hash_exact",
+      "passed": true
+    }
+  ],
+  "best_candidate": "B0_ALPHA",
+  "best_delta": 0.06704797797030437,
+  "best_positive_folds": 3,
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "A_real_data_read": false,
+  "A_weight_downloaded": false,
+  "B_real_training_or_FM_inference_independently_reexecuted": false
+}

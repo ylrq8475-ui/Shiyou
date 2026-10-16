@@ -1,0 +1,132 @@
+{
+  "author": "账户A2（新接手）独立审核与交付",
+  "manual_review_complete": true,
+  "public_files": 20,
+  "records": [
+    {
+      "file": "AGGREGATE_AUDIT_CODEX.json",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "AUDIT_QUEUE.md",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "A_SHA256SUMS.json",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "COLLABORATION_REPLY_CODEX.md",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "EVIDENCE_NOTES_CODEX.md",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "PRIMARY_SOURCE_VERIFICATION_CODEX.json",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "PROJECT_SOURCE_IDENTITY_CODEX.json",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "PUBLICATION_MANIFEST.json",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "PUBLICATION_PRIVACY_CHECK.json",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "README.md",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "REPORT_CODEX_028029.md",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "REPORT_CODEX_031.md",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "RESULT_CODEX_028029.json",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "RESULT_CODEX_031.json",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "SOURCE_IDENTITY_CODEX.json",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "SYNTHETIC_CODEX_LOG_R2.txt",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "SYNTHETIC_CODEX_R2.json",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "audit_records.py",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "run_synthetic_review.py",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    },
+    {
+      "file": "test_independent_r5.py",
+      "result": "PASS",
+      "credential_or_private_path_hits": 0,
+      "manual_review": "Only anonymous methods, synthetic inputs or aggregate evidence"
+    }
+  ],
+  "real_private_marker_inventory_accessed": false,
+  "real_private_markers_rescanned": false,
+  "competition_data_or_weights_or_private_config_or_per_well_results_included": false,
+  "official_document_images_or_PDFs_included": false,
+  "ZIP_created": false
+}

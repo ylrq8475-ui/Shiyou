@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "source": "O3",
+      "verified": true,
+      "official_api": "https://comp.kunlungpt.cn/api/v1/notices/2100769017546412034",
+      "pdf_sha256": "b70f6b1f1ea75f97add7c07d6414b442766536164f731e6f8c685553f2695c7c",
+      "pdf_bytes": 148317,
+      "full_text_source": "Previously verified complete local official PDF text snapshot; current original PDF bytes match",
+      "document_saved": false,
+      "signed_query_not_saved": true
+    },
+    {
+      "source": "O4",
+      "verified": true,
+      "official_api": "https://comp.kunlungpt.cn/api/v1/notices/2103063178548547586",
+      "pdf_sha256": "e16eb24ded50d323e5f2a67b294d7646d2158b86a5b8c7b8897e59666df59d6c",
+      "pdf_bytes": 145597,
+      "full_text_source": "Previously verified complete local official PDF text snapshot; current original PDF bytes match",
+      "document_saved": false,
+      "signed_query_not_saved": true
+    },
+    {
+      "source": "model_card",
+      "verified": true,
+      "url": "https://huggingface.co/amazon/chronos-bolt-tiny/resolve/a0e552de83495b5c28c14c71c374f3e33280b340/README.md",
+      "sha256": "cc7f60bc7290b5e6146589dae9842a3c9b59d254e9d1d65fc2ef127f3c2498cd",
+      "apache_license_declared": true
+    },
+    {
+      "source": "model_config",
+      "verified": true,
+      "sha256": "278f0086733031635fb1c861cb01c1bad6477420c7fcb19381a2993e335785e0",
+      "context_limit": 2048
+    },
+    {
+      "source": "weight_metadata_without_weight_download",
+      "verified": true,
+      "metadata_license": "apache-2.0",
+      "weight_sha256": "75068728d376d2bec670379eeef4bfb4d24c0cfe24d957451f8d19b447030a32",
+      "weight_size": 34622352
+    }
+  ],
+  "all_verified": true,
+  "third_party_dataset_downloaded": false,
+  "pretrained_weights_downloaded": false,
+  "competition_data_accessed": false,
+  "model_or_preprocessor_fits": 0
+}

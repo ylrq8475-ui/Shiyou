@@ -1,0 +1,47 @@
+{
+  "files": [
+    {
+      "path": "oil_uplift/a2b013_safe.py",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+      "bytes": 24524,
+      "matched": true
+    },
+    {
+      "path": "oil_uplift/config.py",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "sha256": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68",
+      "bytes": 2549,
+      "matched": true
+    },
+    {
+      "path": "oil_uplift/models.py",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "sha256": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02",
+      "bytes": 3013,
+      "matched": true
+    },
+    {
+      "path": "oil_uplift/multistep.py",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b",
+      "bytes": 22790,
+      "matched": true
+    },
+    {
+      "path": "oil_uplift/scoring.py",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235",
+      "bytes": 9223,
+      "matched": true
+    },
+    {
+      "path": "oil_uplift/training.py",
+      "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+      "sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+      "bytes": 19812,
+      "matched": true
+    }
+  ],
+  "all_matched": true
+}

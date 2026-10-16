@@ -1,0 +1,13 @@
+{
+  "tests": 36,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "exact_B_tests": 14,
+  "independent_A_tests": 22,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "real_data_read": false,
+  "pretrained_model_loaded_or_inferred": false,
+  "worker_alignment_tested_with_fake_tensors_only": true
+}
