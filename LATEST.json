@@ -210,6 +210,22 @@
         "CODEX-030-REVIEW P1 独立审核待完成"
       ],
       "published_at": "2026-10-16T08:56:29.172823+08:00"
+    },
+    {
+      "task": "A2B-030/零拟合诊断",
+      "role": "Codex",
+      "commit": "3c5f5e6caf9f5cd190e4f5ffb414afd0ad325e76",
+      "report_path": "docs/handoff_20261016_A2B030_CODEX_REVIEW_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261016_A2B030_CODEX_REVIEW_V1/RESULT_CODEX.json",
+      "reviews_commit": "a2bc8d4c02eba88bea2cb468a5478a4a5f0b18c9",
+      "hard_gates": "泄漏：通过／错位：通过／井级隔离：通过／指标：通过（限030实现、绑定记录、聚合及合成审核；未重跑真实逐井诊断，未替028/029整体审签）",
+      "decision_row": "N1-a：证据C，交用户决定是否接受业务假设，默认不推进；35<40，N1暂缓。N2-a：联合组合2≥1，并入下一轮候选特征（另有4/8单列达标，不混用计数单位）。N4：无门槛，仅用于确定下一轮重点。",
+      "open_unknowns": [
+        "N1-AVAILABILITY P2 缺方案原始取得/发布时间，完工日期不能替代",
+        "FIELD-ZERO-SEMANTICS P2 未明示字段的零/缺失业务解释仍缺",
+        "HIST-DTYPE P1 原历史逐文件加载身份仍缺，本次零拟合不关闭"
+      ],
+      "published_at": "2026-10-16T09:24:09+08:00"
     }
   ]
 }
