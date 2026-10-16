@@ -1,0 +1,253 @@
+{
+  "task": "A2B-030/零拟合诊断",
+  "role": "账户B执行与交付",
+  "Claude_instruction_commit": "9bec6d563f492f8992337441e58610028dd5127f",
+  "N1_single_event_train": 35,
+  "N1_date_consistent_train": 26,
+  "N1_evidence_level": "C",
+  "N2_combo_pass_count": 2,
+  "N1": {
+    "N1_single_event_train": 35,
+    "N1_date_consistent_train": 26,
+    "N1_evidence_level": "C",
+    "denominator": 81,
+    "single_event_unique_date_at_or_before_start_count": 15,
+    "single_event_missing_date_count": 0,
+    "single_event_multiple_distinct_plan_date_count": 0,
+    "date_consistency_definition": "at least one plan completion month <= sole segment end (inside or before segment)",
+    "A_definition": "all single-event training wells have one unambiguous plan completion month <= event start month",
+    "B_evidence_found": false,
+    "evidence_caveat": "Official field says completion date corresponds to fracturing date. It does not itself prove pre-construction design publication. A if reached is date-order evidence only; M-1 availability remains separate. No timestamp or pre-design statement invented.",
+    "test_field_coverage_only": {
+      "single_event_wells": 7,
+      "wells": 10,
+      "fraction": 0.7,
+      "used_in_decision": false,
+      "plan_fields_nonmissing_fraction": {
+        "完工日期": 1.0,
+        "层位": 1.0,
+        "井段(喷枪深度)(m)": 1.0,
+        "砂岩射开厚度(m)": 0.6981132075471698,
+        "有效厚度(m)": 0.6415094339622641,
+        "渗透率(10-3μm2)": 0.6415094339622641,
+        "上隔层厚度(m)": 0.6415094339622641,
+        "下隔层厚度(m)": 0.6415094339622641,
+        "目的层温度(℃)": 0.660377358490566,
+        "压裂方式": 0.660377358490566,
+        "石英砂用量(m3)": 1.0
+      },
+      "layer_fields_nonmissing_fraction": {
+        "XH": 1.0,
+        "CW": 1.0,
+        "YCZMC": 1.0,
+        "XCH": 1.0,
+        "XFCH": 0.5441334768568353,
+        "XB": 0.2890204520990312,
+        "SYDS": 1.0,
+        "SYDS1": 1.0,
+        "SYHD": 1.0,
+        "YXHD": 1.0,
+        "STL": 1.0,
+        "DCXH": 1.0,
+        "KXD": 1.0,
+        "HSBHD": 1.0,
+        "SFSBHD": 1.0,
+        "CCCD": 1.0,
+        "SYJSJG": 0.4946178686759957,
+        "SKQK": 0.26157158234660927
+      }
+    }
+  },
+  "N2": {
+    "N2_combo_pass_count": 2,
+    "combo_definition": "one combination per field: (last valid, calendar3 slope); coverage requires both finite; also report each column separately",
+    "slope_definition": "unweighted OLS covariance/variance on true calendar-month ordinal in M-3..M-1; >=2 valid observations, otherwise NaN; no interpolation or fit API",
+    "coverage": [
+      {
+        "field": "CCJHWND",
+        "well_denominator": 81,
+        "last_valid_count": 81,
+        "last_valid_coverage": 1.0,
+        "slope_valid_count": 70,
+        "slope_valid_coverage": 0.8641975308641975,
+        "combo_both_valid_count": 70,
+        "combo_coverage": 0.8641975308641975,
+        "combo_passed": true
+      },
+      {
+        "field": "CCJND",
+        "well_denominator": 81,
+        "last_valid_count": 0,
+        "last_valid_coverage": 0.0,
+        "slope_valid_count": 0,
+        "slope_valid_coverage": 0.0,
+        "combo_both_valid_count": 0,
+        "combo_coverage": 0.0,
+        "combo_passed": false
+      },
+      {
+        "field": "CCBHJND",
+        "well_denominator": 81,
+        "last_valid_count": 0,
+        "last_valid_coverage": 0.0,
+        "slope_valid_count": 0,
+        "slope_valid_coverage": 0.0,
+        "combo_both_valid_count": 0,
+        "combo_coverage": 0.0,
+        "combo_passed": false
+      },
+      {
+        "field": "CCYND",
+        "well_denominator": 81,
+        "last_valid_count": 81,
+        "last_valid_coverage": 1.0,
+        "slope_valid_count": 70,
+        "slope_valid_coverage": 0.8641975308641975,
+        "combo_both_valid_count": 70,
+        "combo_coverage": 0.8641975308641975,
+        "combo_passed": true
+      }
+    ],
+    "cutoff": "M-1",
+    "features_used_in_R5": false
+  },
+  "N4_status": "COMPLETED_SAME_A028_PROCESS_MEMORY_B0",
+  "N4": {
+    "groups": {
+      "上升": {
+        "m1_to_1": {
+          "well_count": 21,
+          "mean_per_well_score": 80.2105473124718,
+          "mean_per_well_weighted_loss": 0.19789452687528192,
+          "total_loss_contribution_share": 0.38616673679907737
+        },
+        "m1_to_2": {
+          "well_count": 21,
+          "mean_per_well_score": 71.90626859639916,
+          "mean_per_well_weighted_loss": 0.28093731403600847,
+          "total_loss_contribution_share": 0.36754341923317635
+        },
+        "m1_to_4": {
+          "well_count": 21,
+          "mean_per_well_score": 66.24170591044364,
+          "mean_per_well_weighted_loss": 0.3375829408955634,
+          "total_loss_contribution_share": 0.3535758802104746
+        },
+        "m1_to_12": {
+          "well_count": 21,
+          "mean_per_well_score": 64.74394309206198,
+          "mean_per_well_weighted_loss": 0.35256056907938016,
+          "total_loss_contribution_share": 0.34773250108343334
+        }
+      },
+      "下降": {
+        "m1_to_1": {
+          "well_count": 47,
+          "mean_per_well_score": 89.15308003925992,
+          "mean_per_well_weighted_loss": 0.108469199607401,
+          "total_loss_contribution_share": 0.47372475277577203
+        },
+        "m1_to_2": {
+          "well_count": 47,
+          "mean_per_well_score": 83.13296257857209,
+          "mean_per_well_weighted_loss": 0.1686703742142789,
+          "total_loss_contribution_share": 0.4938744931179693
+        },
+        "m1_to_4": {
+          "well_count": 47,
+          "mean_per_well_score": 78.32036076376727,
+          "mean_per_well_weighted_loss": 0.21679639236232734,
+          "total_loss_contribution_share": 0.5081977677732258
+        },
+        "m1_to_12": {
+          "well_count": 47,
+          "mean_per_well_score": 76.70854004597545,
+          "mean_per_well_weighted_loss": 0.23291459954024535,
+          "total_loss_contribution_share": 0.5141464254304775
+        }
+      },
+      "稳产": {
+        "m1_to_1": {
+          "well_count": 13,
+          "mean_per_well_score": 88.40156536757553,
+          "mean_per_well_weighted_loss": 0.1159843463242446,
+          "total_loss_contribution_share": 0.1401085104251505
+        },
+        "m1_to_2": {
+          "well_count": 13,
+          "mean_per_well_score": 82.88866804583073,
+          "mean_per_well_weighted_loss": 0.1711133195416928,
+          "total_loss_contribution_share": 0.1385820876488541
+        },
+        "m1_to_4": {
+          "well_count": 13,
+          "mean_per_well_score": 78.68110699140531,
+          "mean_per_well_weighted_loss": 0.21318893008594675,
+          "total_loss_contribution_share": 0.1382263520162995
+        },
+        "m1_to_12": {
+          "well_count": 13,
+          "mean_per_well_score": 77.37834671797025,
+          "mean_per_well_weighted_loss": 0.2262165328202975,
+          "total_loss_contribution_share": 0.13812107348608918
+        }
+      },
+      "含0值": {
+        "m1_to_1": {
+          "well_count": 9,
+          "mean_per_well_score": 71.49192371943313,
+          "mean_per_well_weighted_loss": 0.2850807628056688,
+          "total_loss_contribution_share": 0.23841424802351022
+        },
+        "m1_to_2": {
+          "well_count": 9,
+          "mean_per_well_score": 60.0258655722807,
+          "mean_per_well_weighted_loss": 0.399741344277193,
+          "total_loss_contribution_share": 0.22413078313824394
+        },
+        "m1_to_4": {
+          "well_count": 9,
+          "mean_per_well_score": 53.395586138813194,
+          "mean_per_well_weighted_loss": 0.466044138611868,
+          "total_loss_contribution_share": 0.20919553165150037
+        },
+        "m1_to_12": {
+          "well_count": 9,
+          "mean_per_well_score": 51.14820106807384,
+          "mean_per_well_weighted_loss": 0.48851798931926166,
+          "total_loss_contribution_share": 0.20649774877444746
+        }
+      }
+    },
+    "shape_definition": "a=mean(m1,m2), b=mean(m4,m5,m6); rise b>1.1a; fall b<.9a; stable otherwise; contains-zero exact truth==0",
+    "contains_zero_is_overlapping_overlay": true,
+    "prefix_scores_use_unrenormalized_official_weights": true,
+    "retrospective_truth_groups_not_features_routing_or_selection": true
+  },
+  "fit_counts": {
+    "model_entered": 0,
+    "model_completed": 0,
+    "preprocessor_entered": 0,
+    "preprocessor_completed": 0
+  },
+  "test_label_columns_read": 0,
+  "test_fields_read": [
+    "WELL_ID",
+    "NY",
+    "CSLB"
+  ],
+  "test_tables_parsed_for_coverage_only": 10,
+  "hard_gates": {
+    "泄漏": "通过",
+    "错位": "通过",
+    "井级隔离": "通过",
+    "指标": "通过"
+  },
+  "decision_row_Codex": "不适用（待独立审核）",
+  "decisions_B_self_report": {
+    "N1-a": "N1_evidence_level 为 C",
+    "N2-a": "N2_combo_pass_count ≥ 1",
+    "N4": "无门槛，仅回顾性诊断"
+  },
+  "status": "COMPLETED"
+}
