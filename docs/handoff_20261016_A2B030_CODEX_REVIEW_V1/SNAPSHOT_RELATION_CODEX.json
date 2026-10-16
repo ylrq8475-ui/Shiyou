@@ -1,0 +1,125 @@
+{
+  "snapshot": "76d9488e90928808f091cb221270a43995f611f2",
+  "B_commit": "a2bc8d4c02eba88bea2cb468a5478a4a5f0b18c9",
+  "ahead_by": 2,
+  "behind_by": 0,
+  "parents": [
+    "b640dd6a1a989d997a37d7cae5e1d10ed53cbfb2"
+  ],
+  "changes": [
+    {
+      "file": "docs/handoff_20261015_A2B028_029_B_V1/PRIVACY_SCAN_RAW.json",
+      "status": "modified"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B028_029_B_V1/REPORT_B.md",
+      "status": "modified"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B028_029_B_V1/SHA256SUMS.json",
+      "status": "modified"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/CLAUDE_INSTRUCTION_ORIGINAL_R6.md",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/DICTIONARY_SOURCE_RECEIPT.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/FIELD_DICTIONARY_N1.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/N1_FIELDS.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/N1_FIELD_TABLE.md",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/N1_MAPPING.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/N2_COVERAGE.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/N4_MEMORY_PROVENANCE.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/PLAN_R6.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/POST_RUN_VERIFICATION.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/PRIVACY_SCAN_RAW.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/PUBLIC_RESULT_SERIALIZATION.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/README.md",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/REPORT_B.md",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/REPRODUCTION.md",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/REQUEST_CODEX.md",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/SHA256SUMS.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/SYNTHETIC_LOG.txt",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/SYNTHETIC_RESULTS.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/ZERO_FIT_COUNTS.json",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/diagnose_030.py",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/privacy_check.py",
+      "status": "added"
+    },
+    {
+      "file": "docs/handoff_20261015_A2B030_B_V1/test_030.py",
+      "status": "added"
+    }
+  ],
+  "result_file_not_changed": true,
+  "note": "本轮030结果快照未改；另三项028029交付元数据变化不冒充本轮028029独立审签。"
+}

@@ -1,0 +1,22 @@
+{
+  "official_dictionary_images": [
+    {
+      "role": "LAYER",
+      "sha256": "7a0c41b544b3a9b8d82b5901f7ff96246bb8f36f7ae0ea6b40907614e58a84c6",
+      "bytes": 2763466,
+      "source_page": "https://comp.kunlungpt.cn/api/v1/problems/2082723881348444161",
+      "signed_query_not_published": true
+    },
+    {
+      "role": "PLAN",
+      "sha256": "f6a75eaf5892fd84cfaa994e1cd86e5c5aa4a91b51bdc6964b95b753a1ee6957",
+      "bytes": 1987432,
+      "source_page": "https://comp.kunlungpt.cn/api/v1/problems/2082723881348444161",
+      "signed_query_not_published": true
+    }
+  ],
+  "official_page_says_first_fracture_plan": true,
+  "data_files_downloaded": false,
+  "model_fits": 0,
+  "preprocessor_fits": 0
+}

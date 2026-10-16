@@ -1,0 +1,121 @@
+{
+  "author": "账户A2（新接手）独立审核与交付",
+  "public_text_files": 18,
+  "records": [
+    {
+      "file": "AGGREGATE_AUDIT_CODEX.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "AUDIT_QUEUE.md",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "A_SHA256SUMS.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "COLLABORATION_REPLY_CODEX.md",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "EVIDENCE_NOTES_CODEX.md",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "OFFICIAL_DICTIONARY_IDENTITY_CODEX.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "PUBLICATION_MANIFEST.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "PUBLICATION_PRIVACY_CHECK.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "README.md",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "REPORT_CODEX.md",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "RESULT_CODEX.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "SNAPSHOT_RELATION_CODEX.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "SOURCE_IDENTITY_CODEX.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "SYNTHETIC_CODEX.json",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "SYNTHETIC_CODEX_LOG.txt",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "audit_records.py",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "run_synthetic_review.py",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    },
+    {
+      "file": "test_independent_030.py",
+      "credential_or_private_path_pattern_hits": 0,
+      "manual_review": "Anonymous methods or aggregates only; synthetic test inputs are artificial",
+      "result": "PASS"
+    }
+  ],
+  "private_marker_inventory_accessed": false,
+  "real_private_markers_rescanned": false,
+  "official_images_included": false,
+  "competition_CSV_or_private_config_or_weights_or_per_well_results_included": false,
+  "ZIP_created": false,
+  "manual_review_complete": true,
+  "all_files_checked": true
+}

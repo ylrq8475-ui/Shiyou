@@ -1,0 +1,11 @@
+{
+  "tests": 32,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "real_data_read": false,
+  "exact_B_tests": 7,
+  "independent_tests": 25
+}

@@ -1,0 +1,37 @@
+test_exclude_future (B030_synthetic.Checks.test_exclude_future) ... ok
+test_missing_slope (B030_synthetic.Checks.test_missing_slope) ... ok
+test_n4_groups_partition (B030_synthetic.Checks.test_n4_groups_partition) ... ok
+test_natural_slope (B030_synthetic.Checks.test_natural_slope) ... ok
+test_no_fit_calls (B030_synthetic.Checks.test_no_fit_calls) ... ok
+test_old_value_not_slope (B030_synthetic.Checks.test_old_value_not_slope) ... ok
+test_zero_valid (B030_synthetic.Checks.test_zero_valid) ... ok
+test_all_invalid (independent_030.Independent030.test_all_invalid) ... ok
+test_calendar_missing_middle (independent_030.Independent030.test_calendar_missing_middle) ... ok
+test_consecutive_event_months_merge (independent_030.Independent030.test_consecutive_event_months_merge) ... ok
+test_cross_year (independent_030.Independent030.test_cross_year) ... ok
+test_epsilon (independent_030.Independent030.test_epsilon) ... ok
+test_future_and_anchor_excluded (independent_030.Independent030.test_future_and_anchor_excluded) ... ok
+test_gapped_event_months_do_not_merge (independent_030.Independent030.test_gapped_event_months_do_not_merge) ... ok
+test_last_uses_all_legal_history (independent_030.Independent030.test_last_uses_all_legal_history) ... ok
+test_late_completion_cannot_be_A (independent_030.Independent030.test_late_completion_cannot_be_A) ... ok
+test_lower_three_month_boundary (independent_030.Independent030.test_lower_three_month_boundary) ... ok
+test_metric_manual_all_groups_and_prefixes (independent_030.Independent030.test_metric_manual_all_groups_and_prefixes) ... ok
+test_month_order (independent_030.Independent030.test_month_order) ... ok
+test_negative_value_not_silently_reinterpreted (independent_030.Independent030.test_negative_value_not_silently_reinterpreted) ... ok
+test_no_fit_call_in_exact_diagnostic_source (independent_030.Independent030.test_no_fit_call_in_exact_diagnostic_source) ... ok
+test_no_interpolation (independent_030.Independent030.test_no_interpolation) ... ok
+test_nonfinite_excluded (independent_030.Independent030.test_nonfinite_excluded) ... ok
+test_perfect_predictions_zero_total (independent_030.Independent030.test_perfect_predictions_zero_total) ... ok
+test_prepare_pipeline_no_fit (independent_030.Independent030.test_prepare_pipeline_no_fit) ... ok
+test_test_plan_mutation_has_no_train_decision_effect (independent_030.Independent030.test_test_plan_mutation_has_no_train_decision_effect) ... ok
+test_thresholds_strict_and_exact_zero (independent_030.Independent030.test_thresholds_strict_and_exact_zero) ... ok
+test_two_values_required (independent_030.Independent030.test_two_values_required) ... ok
+test_unsorted_last_is_temporal (independent_030.Independent030.test_unsorted_last_is_temporal) ... ok
+test_weights_not_normalized (independent_030.Independent030.test_weights_not_normalized) ... ok
+test_zero_not_missing (independent_030.Independent030.test_zero_not_missing) ... ok
+test_zero_overlay_not_partition (independent_030.Independent030.test_zero_overlay_not_partition) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.973s
+
+OK
