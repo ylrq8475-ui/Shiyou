@@ -620,6 +620,43 @@
         "HIST-DTYPE P1 历史身份缺口继承已有用户例外，不以本轮新dtype回填"
       ],
       "published_at": "2026-10-19T18:48:46.000+08:00"
+    },
+    {
+      "task": "A2B-035/2026-10-19内部搜索首批与完整本地候选",
+      "role": "B",
+      "commit": "6601551152ce4b21d8447fef6ad455e1277023e4",
+      "report_path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/RESULT_DAILY_DELIVERY.json",
+      "reviews_commit": "不适用；内部管线放行依据3001037a7d465117fd8062e5cbc6b2d168575fef",
+      "instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+      "hard_gates": "泄漏/错位/井级隔离/指标：继承Codex内部管线签署及本批实测通过；74配置含1复用基准，新模型/预处理各2462，0失败0重试；正式包独立复训120行及结果ZIP字节一致；不代签最终包。",
+      "decision_row": "不适用；R13本日首批完成，1套本地完整候选交用户，平台上传0，S_v UNKNOWN；外部/G禁用，最终指定未完成。",
+      "key_numbers": {
+        "config_records": 74,
+        "new_search_model_fits": 2460,
+        "new_total_model_fits": 2462,
+        "new_total_preprocessor_fits": 2462,
+        "A2B035_cumulative_model_fits": 2523,
+        "best_repeated_mean": 75.470065335251,
+        "best_repeated_SE": 0.21078664670895178,
+        "baseline_repeated_mean": 75.39352260217446,
+        "repeat_mean_delta": 0.07654273307653625,
+        "best_fixed": 76.47252329257977,
+        "complete_local_candidate_count": 1,
+        "candidate_result_sha256": "7a9be2e564b0097e31a3ff4eb127d44ce7f848e04d2e514378a1d6ee5740b849",
+        "candidate_code_sha256": "6b197557a019684a1285dc7f24a98c2c7ad8e6d38cf11dd9f7cd491588fbc549",
+        "anonymous_files_byte_verified": 23,
+        "B_platform_uploads": 0,
+        "S_v": "UNKNOWN"
+      },
+      "open_unknowns": [
+        "EXT-035 P1 外部分支仍未准入；G-031 P1 无实际Q1字段白名单，均禁用，不阻断内部搜索",
+        "PLATFORM-035-PROVENANCE P2 已把历史参考SHA更正为reviewed_*；actual uploaded_*继续UNKNOWN；新包无平台回执，S_v未知",
+        "ENV-035-RUNTIME P2 已补每配置实时环境及完整包运行时探针，B不自关闭审核事项",
+        "HIST-DTYPE P1 历史缺口继承用户例外，不回填",
+        "FINAL-035 P3 未穷尽全部模型交互；最终版本选择、截止前干净复现和Codex第二次审核/用户指定尚未完成"
+      ],
+      "published_at": "2026-10-19T19:32:14.005897+08:00"
     }
   ]
 }
