@@ -6,7 +6,7 @@
   "base_B_commit": "47077ee354a784bdf99444dd19adb7a8dac36d80",
   "prior_review_commit": "3ed4d57337b3805a3b40457ff66dc45c7ecde8e4",
   "instruction_commit": "012e9fe50efac3f051b48804bc724e39b703cc93",
-  "publication_snapshot_commit": "PUBLICATION_SNAPSHOT_PENDING",
+  "publication_snapshot_commit": "d1ebe85da3d22e6499f057eec00eb9da04f1e0fd",
   "hard_gates": {
     "leakage": "PASS",
     "alignment": "PASS",

@@ -73,16 +73,16 @@
     },
     {
       "file": "REPORT_CODEX.md",
-      "sha256": "2df5c34027c04e9f383890ed071c1bd0d5eb6115c601eb367659aeecdff37bce",
-      "bytes": 7743,
+      "sha256": "efa6e4c922d57d4339e1510f1484c1a23fe2d880f7915748f43c398b93661de2",
+      "bytes": 7755,
       "credential_private_path_or_identifier_pattern_hits": 0,
       "manual_public_only_provenance_review": true,
       "result": "PASS"
     },
     {
       "file": "RESULT_CODEX.json",
-      "sha256": "7794031cb7b44d911ea6ebd32c84463fbd33c35eedb874646030543fc32b59da",
-      "bytes": 2820,
+      "sha256": "d62858aa738bca3c0c35c01aa7c0627b0511860101af14f8bf3d0cc41d1a010e",
+      "bytes": 2832,
       "credential_private_path_or_identifier_pattern_hits": 0,
       "manual_public_only_provenance_review": true,
       "result": "PASS"

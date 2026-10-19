@@ -3,7 +3,7 @@
 任务编号/阶段：A2B-033-R11-FIX-01，步骤2提交包P1修复只读复核
 角色：Codex审核；账户A2（新接手）独立审核与交付
 分支：codex/a2b033-r11-fix01-codex-review-20261019
-完整提交号（40位）：PUBLICATION_SNAPSHOT_PENDING（本审核首个固定快照；最终交付由发布后回取链接及索引绑定）
+完整提交号（40位）：d1ebe85da3d22e6499f057eec00eb9da04f1e0fd（本审核首个固定快照；最终交付由发布后回取链接及索引绑定）
 目录路径：docs/handoff_20261019_A2B033_R11_FIX01_CODEX_V1
 结果文件路径（单个JSON）：docs/handoff_20261019_A2B033_R11_FIX01_CODEX_V1/RESULT_CODEX.json
 被审B提交号（40位）：c357689ebbc7ba15b35cb9108ca867278bfdd066
