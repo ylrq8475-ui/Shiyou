@@ -448,6 +448,22 @@
         "逐井配对证据与A2B-034未获批"
       ],
       "published_at": "2026-10-19T15:30:00+08:00"
+    },
+    {
+      "task": "A2B-034/最后一轮研究（FM-M、TabPFN v2、响应特征、逐井门槛、条件打包）",
+      "role": "Claude",
+      "commit": "d1e190f510134501839c89b4f22370a74a182fdf",
+      "report_path": "docs/handoff_20261019_A2B034_CLAUDE_INSTRUCTIONS_R12/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "与R11（B0′打包保底）并行",
+        "门槛改为逐井配对：Δ≥+1.0且单侧符号检验p<0.10且换种子确认",
+        "上传与指定最终提交另行批准，须在2026-10-30 00:00前"
+      ],
+      "published_at": "2026-10-19T15:45:00+08:00"
     }
   ]
 }
