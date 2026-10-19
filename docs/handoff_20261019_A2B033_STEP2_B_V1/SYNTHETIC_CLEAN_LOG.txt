@@ -1,0 +1,15 @@
+test_features_exclude_and_poison_future (test_033.Tests.test_features_exclude_and_poison_future) ... ok
+test_full_test_reader_window_poison_invariance (test_033.Tests.test_full_test_reader_window_poison_invariance) ... ok
+test_inference_fit_forbidden (test_033.Tests.test_inference_fit_forbidden) ... ok
+test_ledger_failure_stops_no_retry (test_033.Tests.test_ledger_failure_stops_no_retry) ... ok
+test_ledger_success_not_repeated (test_033.Tests.test_ledger_success_not_repeated) ... ok
+test_official_score (test_033.Tests.test_official_score) ... ok
+test_original_source_hashes (test_033.Tests.test_original_source_hashes) ... ok
+test_template_hash_failure_before_dynamic (test_033.Tests.test_template_hash_failure_before_dynamic) ... ok
+test_template_keys_do_not_decode_window_targets (test_033.Tests.test_template_keys_do_not_decode_window_targets) ... ok
+test_two_model_budget (test_033.Tests.test_two_model_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.135s
+
+OK

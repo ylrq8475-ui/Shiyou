@@ -1,0 +1,17 @@
+{
+  "task": "A2B-033/步骤2",
+  "role": "账户B执行与交付",
+  "R11_commit": "012e9fe50efac3f051b48804bc724e39b703cc93",
+  "R11_sha256": "407d536923bbbb6c6b03a2da6f686cf7e0321db6143ec63ffbc1cb64c332d414",
+  "user_decision_time": "2026-10-19T15:25:00+08:00",
+  "step2_explicitly_authorized": true,
+  "step1_gate_passed": false,
+  "positive_folds": 3,
+  "delta": 2.6185109826630395,
+  "deviation": "User explicitly overrides positive_folds >=4 gate; original weak-signal result remains unchanged",
+  "new_model_fits": 2,
+  "new_preprocessor_fits": 2,
+  "retry_budget": 0,
+  "OOF_refits": 0,
+  "platform_upload_authorized": false
+}

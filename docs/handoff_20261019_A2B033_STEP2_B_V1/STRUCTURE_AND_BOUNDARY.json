@@ -1,0 +1,51 @@
+{
+  "training": {
+    "cohort": {
+      "eligible_wells": 88,
+      "eligible_event_months": 218,
+      "merged_event_segments": 166,
+      "included_wells": 81,
+      "excluded_wells": 7,
+      "exclusion_reason_counts": {
+        "missing_month": 7
+      },
+      "target_rows": 972,
+      "duplicate_target_rows": 0
+    },
+    "candidate_identity": {
+      "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+      "feature_dtype_sha256": "a34b2599e3202d8cfac13ba50ffa2d57c5631225b553fef66207de6eb35d102a",
+      "feature_frame_sha256": "54adfdf0562eecdfc52a6a7b14a30df21ad9f92bb9adedd94db0e5b0e7806fc0",
+      "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+    },
+    "baseline_identity": {
+      "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+      "feature_dtype_sha256": "a34b2599e3202d8cfac13ba50ffa2d57c5631225b553fef66207de6eb35d102a",
+      "feature_frame_sha256": "af964b79e581fb87bcb736e6eb3e2cab21f878612882c7fd782778f744f44cb7",
+      "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+    },
+    "cutoff_feature_checks": 29079,
+    "raw_last_RCYL_checks": 81,
+    "future_sensitive_feature_count": 0,
+    "features_same_name_and_order": true,
+    "labels_keys_rows_unchanged": true,
+    "cutoff": "T0-1 = M",
+    "lag_rolling_trend_definition_changed": false
+  },
+  "test": {
+    "template_rows": 120,
+    "test_wells": 10,
+    "template_key_sha256": "6f27b2b7eb8880428aac42935a34fce881a8af8d089838df3983767887c87c58",
+    "test_window_rows_skipped": 120,
+    "test_window_dynamic_values_decoded": 0,
+    "test_window_RCYL_parsed": 0,
+    "template_key_hash_verified_before_dynamic_access": true
+  },
+  "features": 325,
+  "rows": 972,
+  "wells": 81,
+  "candidate_identity_matches_step1": true,
+  "all_model_parameters_match_step1": true,
+  "all_learning_preprocessing_train_only": true,
+  "test_fits": 0
+}

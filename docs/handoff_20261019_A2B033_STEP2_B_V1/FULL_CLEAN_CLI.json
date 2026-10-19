@@ -1,0 +1,23 @@
+{
+  "stage": "FULL_CLEAN",
+  "command_arguments": [
+    "train.py",
+    "--data_dir",
+    "--output",
+    "--ledger",
+    "--stage",
+    "full-clean-reproduction"
+  ],
+  "seconds": 6.12077420001151,
+  "exit_code": 0,
+  "stderr_lines": 0,
+  "stdout_aggregate": {
+    "stage": "full-clean-reproduction",
+    "model_saved": true,
+    "model_sha256": "92534c2bd5f2f0d5e5167740b2a66e42c877a834dc22f1471a375c7a0e3e3ac1",
+    "model_bytes": 2388987,
+    "model_fits": 1,
+    "preprocessor_fits": 1
+  },
+  "raw_diagnostics_not_persisted": true
+}

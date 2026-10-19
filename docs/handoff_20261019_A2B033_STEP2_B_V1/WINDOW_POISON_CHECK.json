@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "poisoned_rows": 120,
+  "all_window_dynamic_columns_poisoned": true,
+  "replacement_bytes_not_decodable_UTF8": true,
+  "features_equal": true,
+  "all_120_predictions_exact_equal": true,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "modified_data_persisted": false
+}

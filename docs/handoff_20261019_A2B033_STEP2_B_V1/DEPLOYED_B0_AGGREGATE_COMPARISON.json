@@ -1,0 +1,37 @@
+{
+  "rows": 120,
+  "paired_month_keys": true,
+  "pairing_date_padding_normalized_in_memory_only": true,
+  "B0_result_sha256": "e41463cac0ec58827f240293a6a35385b27745a3354197efdcfa3d78ad72f796",
+  "B0_result_bytes": 2541,
+  "B0_prime_result_sha256": "9670e0d0bbea8e2720e53d032883f91900df65abe49b0da5c4642f755f3084de",
+  "quantiles": [
+    0,
+    0.05,
+    0.25,
+    0.5,
+    0.75,
+    0.95,
+    1
+  ],
+  "signed_relative_difference_formula": "(B0_prime-B0)/max(abs(B0),1e-6)",
+  "signed_relative_difference_quantiles": [
+    -0.44360035877487175,
+    -0.4189918013228365,
+    -0.26334110136636824,
+    0.24702870322252554,
+    0.556325193066969,
+    1.1350187557700053,
+    1.4594189360374783
+  ],
+  "absolute_difference_mean": 1.9533205318311522,
+  "absolute_symmetric_relative_difference_mean": 0.1970945413372535,
+  "rows_increased": 72,
+  "rows_decreased": 48,
+  "rows_equal": 0,
+  "B0_rounding": "archived deployment result serialized six decimals; no prediction change for this comparison",
+  "platform_score": 86.2003,
+  "platform_score_evidence": "USER_REPORTED",
+  "platform_uploaded_hash_binding": "UNKNOWN; local archived R1 deployment equals that full B0, but actual platform package was not independently bound",
+  "used_to_adjust_predictions": false
+}

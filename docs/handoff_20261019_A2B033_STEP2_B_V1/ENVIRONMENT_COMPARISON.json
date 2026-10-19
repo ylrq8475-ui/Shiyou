@@ -1,0 +1,14 @@
+{
+  "python_build_identical": true,
+  "all_21_dependencies_identical_to_step1": true,
+  "new_venv_system_site_packages": false,
+  "old_environment_unchanged": true,
+  "imports_both": "PASS",
+  "initial_import_in_clean_environment_required_more_time": true,
+  "prefit_setup_debug": [
+    "UTF-8 explicitly specified when reading train.py; no fit entered",
+    "uv cache and temporary directories made explicit in permitted workspace; no system policy change"
+  ],
+  "prefit_model_fits": 0,
+  "prefit_preprocessor_fits": 0
+}

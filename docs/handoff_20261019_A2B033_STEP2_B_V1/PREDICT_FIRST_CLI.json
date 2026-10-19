@@ -1,0 +1,22 @@
+{
+  "stage": "PREDICT_FIRST",
+  "command_arguments": [
+    "predict.py",
+    "--data_dir",
+    "--model",
+    "--output"
+  ],
+  "seconds": 1.70155459997477,
+  "exit_code": 0,
+  "stderr_lines": 0,
+  "stdout_aggregate": {
+    "prediction_complete": true,
+    "linter": "PASS",
+    "files": 10,
+    "rows": 120,
+    "result_zip_sha256": "9670e0d0bbea8e2720e53d032883f91900df65abe49b0da5c4642f755f3084de",
+    "model_fits": 0,
+    "preprocessor_fits": 0
+  },
+  "raw_diagnostics_not_persisted": true
+}

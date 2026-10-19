@@ -1,0 +1,151 @@
+{
+  "first": {
+    "status": "PASS",
+    "files": 10,
+    "rows": 120,
+    "columns": [
+      "WELL_ID",
+      "NY",
+      "RCYL"
+    ],
+    "exact_template_keys_dates_order": true,
+    "duplicate_keys": 0,
+    "extra_columns": 0,
+    "NaN_Inf_negative": 0,
+    "flat_ZIP": true,
+    "CRC_passed": true,
+    "result_zip_sha256": "9670e0d0bbea8e2720e53d032883f91900df65abe49b0da5c4642f755f3084de",
+    "result_zip_bytes": 3074,
+    "CSV_hashes_anonymous_archive_order": [
+      {
+        "sha256": "170b3332b7bba3025a46dd202e2c8636b48045c53aec60a5fe34ad64dfad9e3b",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "3ea4b6501bcde5c5e4e47db889c70185b435d6c1aa8b92dd4b3198448655fc93",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "2d099a6aae4e325623521e538684dc332d1293ac606b00298f24632be28a65a5",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "79948df303df892730de54572945998ae55195627a5299d7a3dc567ed55765fa",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "02e3f346d69fb2f0a574c634da41bf37eede19939ec9f93dcfe79880cec5f653",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "e7d0407cda66b890179eecf71e76df8800ec43a78169e40894f7e86558f3679b",
+        "bytes": 485,
+        "rows": 12
+      },
+      {
+        "sha256": "8578ac09a427f9e8b2514749e95f8d12ce24f61a65c2975fb1378b938ce0b67b",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "fca1d056510e3bc2ebf7b681ee5edb1f4e96aac1b2b9da9a2688be6c84b1b11a",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "a6551b62d0b41344db4a5e355f9f4a4decf6f13b7383d26add02ab9bbc3589f1",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "0f48bedaac2615be760755c0fae35e83677c538a146a257b1ca1f9d513c55d8d",
+        "bytes": 485,
+        "rows": 12
+      }
+    ]
+  },
+  "clean": {
+    "status": "PASS",
+    "files": 10,
+    "rows": 120,
+    "columns": [
+      "WELL_ID",
+      "NY",
+      "RCYL"
+    ],
+    "exact_template_keys_dates_order": true,
+    "duplicate_keys": 0,
+    "extra_columns": 0,
+    "NaN_Inf_negative": 0,
+    "flat_ZIP": true,
+    "CRC_passed": true,
+    "result_zip_sha256": "9670e0d0bbea8e2720e53d032883f91900df65abe49b0da5c4642f755f3084de",
+    "result_zip_bytes": 3074,
+    "CSV_hashes_anonymous_archive_order": [
+      {
+        "sha256": "170b3332b7bba3025a46dd202e2c8636b48045c53aec60a5fe34ad64dfad9e3b",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "3ea4b6501bcde5c5e4e47db889c70185b435d6c1aa8b92dd4b3198448655fc93",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "2d099a6aae4e325623521e538684dc332d1293ac606b00298f24632be28a65a5",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "79948df303df892730de54572945998ae55195627a5299d7a3dc567ed55765fa",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "02e3f346d69fb2f0a574c634da41bf37eede19939ec9f93dcfe79880cec5f653",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "e7d0407cda66b890179eecf71e76df8800ec43a78169e40894f7e86558f3679b",
+        "bytes": 485,
+        "rows": 12
+      },
+      {
+        "sha256": "8578ac09a427f9e8b2514749e95f8d12ce24f61a65c2975fb1378b938ce0b67b",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "fca1d056510e3bc2ebf7b681ee5edb1f4e96aac1b2b9da9a2688be6c84b1b11a",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "a6551b62d0b41344db4a5e355f9f4a4decf6f13b7383d26add02ab9bbc3589f1",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "0f48bedaac2615be760755c0fae35e83677c538a146a257b1ca1f9d513c55d8d",
+        "bytes": 485,
+        "rows": 12
+      }
+    ]
+  },
+  "test_boundaries": {
+    "template_rows": 120,
+    "test_wells": 10,
+    "template_key_sha256": "6f27b2b7eb8880428aac42935a34fce881a8af8d089838df3983767887c87c58",
+    "test_window_rows_skipped": 120,
+    "test_window_dynamic_values_decoded": 0,
+    "test_window_RCYL_parsed": 0,
+    "template_key_hash_verified_before_dynamic_access": true
+  }
+}

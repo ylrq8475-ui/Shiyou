@@ -1,0 +1,64 @@
+{
+  "max_models": 2,
+  "max_preprocessors": 2,
+  "models_entered": 2,
+  "models_completed": 2,
+  "preprocessors_entered": 2,
+  "preprocessors_completed": 2,
+  "failures": 0,
+  "retries": 0,
+  "events": [
+    {
+      "sequence": 1,
+      "time": "2026-10-19T15:37:50.139626+08:00",
+      "event": "preprocessor_entered",
+      "stage": "full-first"
+    },
+    {
+      "sequence": 2,
+      "time": "2026-10-19T15:37:50.211544+08:00",
+      "event": "preprocessor_completed",
+      "stage": "full-first",
+      "seconds": 0.07106039999052882
+    },
+    {
+      "sequence": 3,
+      "time": "2026-10-19T15:37:50.212469+08:00",
+      "event": "model_entered",
+      "stage": "full-first"
+    },
+    {
+      "sequence": 4,
+      "time": "2026-10-19T15:37:50.526331+08:00",
+      "event": "model_completed",
+      "stage": "full-first",
+      "seconds": 0.31258089997572824
+    },
+    {
+      "sequence": 5,
+      "time": "2026-10-19T15:38:12.123100+08:00",
+      "event": "preprocessor_entered",
+      "stage": "full-clean-reproduction"
+    },
+    {
+      "sequence": 6,
+      "time": "2026-10-19T15:38:12.186162+08:00",
+      "event": "preprocessor_completed",
+      "stage": "full-clean-reproduction",
+      "seconds": 0.062441299960482866
+    },
+    {
+      "sequence": 7,
+      "time": "2026-10-19T15:38:12.187485+08:00",
+      "event": "model_entered",
+      "stage": "full-clean-reproduction"
+    },
+    {
+      "sequence": 8,
+      "time": "2026-10-19T15:38:12.502950+08:00",
+      "event": "model_completed",
+      "stage": "full-clean-reproduction",
+      "seconds": 0.3136361999786459
+    }
+  ]
+}

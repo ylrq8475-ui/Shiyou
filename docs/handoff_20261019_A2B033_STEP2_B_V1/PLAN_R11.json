@@ -1,0 +1,51 @@
+{
+  "task": "A2B-033/步骤2",
+  "role": "账户B执行与交付",
+  "authorization": {
+    "task": "A2B-033/步骤2",
+    "role": "账户B执行与交付",
+    "R11_commit": "012e9fe50efac3f051b48804bc724e39b703cc93",
+    "R11_sha256": "407d536923bbbb6c6b03a2da6f686cf7e0321db6143ec63ffbc1cb64c332d414",
+    "user_decision_time": "2026-10-19T15:25:00+08:00",
+    "step2_explicitly_authorized": true,
+    "step1_gate_passed": false,
+    "positive_folds": 3,
+    "delta": 2.6185109826630395,
+    "deviation": "User explicitly overrides positive_folds >=4 gate; original weak-signal result remains unchanged",
+    "new_model_fits": 2,
+    "new_preprocessor_fits": 2,
+    "retry_budget": 0,
+    "OOF_refits": 0,
+    "platform_upload_authorized": false
+  },
+  "step1_commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+  "step1_source_sha256": {
+    "core.py": "4a8c230e4eb626cfaa60bb34a3387d383579f48e0d130818de99917c4ad50a1c",
+    "csv_projection.py": "6979f0366b729a8ed32396569aa2a7837d4d409301dbfb09632267a338937c0c",
+    "FROZEN_SOURCES.json": "4c7b6873ff27bfe47b2c5ff233624533afbbbfdf03cb5063b0f4c5595ac07a60",
+    "fit_ledger.py": "ebaba792fc8db0a7e27f059409991e5a6e3ecf02237a8ed7dd9711ea0266137d",
+    "train.py": "9a2844110779d6e98262e3b7a0c30e2da9b8474c576086071dae0c45c36e0536",
+    "predict.py": "2c2644dde002f656eb17950a490d5ac9cde846e1e73250f3f731c737e2643a85"
+  },
+  "only_source_changes": "train execution gate replaced by explicit R11 user override; fit ledger stage cap7->2; synthetic budget test adjusted. Feature construction, model fitting, inference unchanged. Requirements pins extended to full already-installed environment without version changes.",
+  "cutoff": "all features and raw RCYL scale NY<T0, target remains M+1..M+12",
+  "model_fit_stages": [
+    "full-first",
+    "full-clean-reproduction"
+  ],
+  "model_fit_budget": 2,
+  "preprocessor_pipeline_fit_budget": 2,
+  "combined_A2B033_successful_models_max": 7,
+  "retries": 0,
+  "stop_on_any_fit_failure": true,
+  "raw_data_read_only": true,
+  "no_raw_copy_or_extract": true,
+  "test_window_dynamic_values_decode": 0,
+  "clean_environment": "new isolated venv, full dependency versions identical to step1, package extracted to new directory",
+  "reproduction_acceptance": "120 keyed numeric predictions exactly equal (no tolerance), all CSV and ZIP original bytes SHA match",
+  "model_selection_after_results": false,
+  "baseline_comparison": "existing archived deployed B0 result only; monthly keys normalized in memory for pairing; no adjustment to predictions; historical platform score to package identity may remain UNKNOWN",
+  "platform_upload": false,
+  "GitHub_policy": "anonymous aggregate and method code only; no runtime_policy, model, result.zip or formal ZIP",
+  "HIST_DTYPE": "UNKNOWN P1 retained under R5 user exception"
+}

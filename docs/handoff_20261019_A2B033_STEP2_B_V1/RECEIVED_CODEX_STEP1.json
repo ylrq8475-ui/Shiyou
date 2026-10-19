@@ -1,0 +1,127 @@
+{
+  "task": "A2B-033/R10②审核",
+  "role": "账户A2（新接手）独立审核与交付",
+  "reviews_commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+  "instruction_commit": "55adffb975204493cdc75567de8d74fc82dd3a73",
+  "instruction_sha256": "703ed8265078abac88128c8422ce39f815acb62ac22e66a2812c95cb010107c3",
+  "T4_commit": "ce76e2ba0c3296f22f18a67bf212c05091b14573",
+  "publication_snapshot_commit": "512b2261d86f4e7c925d25424c3bbae536e8badd",
+  "scope": "Fixed public source, bound execution records, independent synthetic tests and aggregate arithmetic; no real OOF retraining or deployment acceptance",
+  "score": 76.33261832127738,
+  "baseline": 73.71410733861434,
+  "delta": 2.6185109826630395,
+  "paired_fold_deltas": [
+    5.849699424939288,
+    -0.42464412218181735,
+    -1.4894255197621789,
+    7.792161540650682,
+    1.1628143120270096
+  ],
+  "positive_folds": 3,
+  "worst_fold": 72.41902553686496,
+  "relative_to_P2": 5.031898400860172,
+  "weighted_losses": {
+    "m1_to_1": 0.1178828877645822,
+    "m1_to_2": 0.17747343408546334,
+    "m1_to_4": 0.22163548779480557,
+    "m1_to_12": 0.23667381678722615
+  },
+  "fold_standard_deviation_population": 3.0698148897037005,
+  "hard_gates": {
+    "泄漏": "通过（限定源码、记录、聚合及合成；未重训真实OOF）",
+    "错位": "通过（限定源码、记录、聚合及合成；未重训真实OOF）",
+    "井级隔离": "通过（限定源码、记录、聚合及合成；未重训真实OOF）",
+    "指标": "通过（限定源码、记录、聚合及合成；未重训真实OOF）"
+  },
+  "checklist": [
+    {
+      "item": 1,
+      "verdict": "通过",
+      "severity": null,
+      "missing": null
+    },
+    {
+      "item": 2,
+      "verdict": "通过",
+      "severity": null,
+      "missing": null
+    },
+    {
+      "item": 3,
+      "verdict": "通过",
+      "severity": null,
+      "missing": null
+    },
+    {
+      "item": 4,
+      "verdict": "通过",
+      "severity": null,
+      "missing": null
+    },
+    {
+      "item": 5,
+      "verdict": "通过",
+      "severity": null,
+      "missing": null
+    },
+    {
+      "item": 6,
+      "verdict": "UNKNOWN",
+      "severity": "P3",
+      "missing": "步骤2未触发，没有完整包、干净复现或linter实际验收；不要求本轮补做"
+    },
+    {
+      "item": 7,
+      "verdict": "通过",
+      "severity": null,
+      "missing": null
+    },
+    {
+      "item": 8,
+      "verdict": "通过",
+      "severity": null,
+      "missing": null
+    }
+  ],
+  "B_model_fits": 5,
+  "B_preprocessor_pipeline_fits": 5,
+  "B_fit_failures": 0,
+  "B_retries": 0,
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "A_competition_data_reads": 0,
+  "A_real_OOF_reproduced": false,
+  "synthetic_tests_passed": 30,
+  "aggregate_identity_checks_passed": 277,
+  "B_public_files_verified": 35,
+  "nested_public_source_privacy_records": 10,
+  "old_public_method_sources_byte_identical": 10,
+  "step1_retain_gate_passed": false,
+  "step2_executed": false,
+  "complete_submission_package_available": false,
+  "submission_package_upload_approval_ready": false,
+  "upload_approval_reason": "positive_folds=3<4；步骤2未触发，完整包/120行干净复现/linter不存在，不把预备源码当验收结果",
+  "decision_row": "0 < 分数差 < +1.0，或为正折数 < 4 | 弱信号，停止于步骤1，交用户决定。提交包是否可进入上传批准：否。",
+  "open_unknowns": [
+    {
+      "id": "HIST-DTYPE",
+      "severity": "P1",
+      "missing": "原历史逐文件加载身份未补齐；R10沿用R5用户例外，本轮不关闭"
+    },
+    {
+      "id": "A033-STEP2-ACCEPTANCE",
+      "severity": "P3",
+      "missing": "条件未触发，缺完整提交包、干净复现及linter；当前不可进入上传批准"
+    }
+  ],
+  "closed_in_scope": [
+    "CODEX-033-REVIEW for fixed B source/record/synthetic review only"
+  ],
+  "runtime_detail_disclosed": "Prescore PLAN fixed BLAS/OpenMP=1 and sequential prediction reduction, no model hyperparameter/target/feature selection changes",
+  "new_platform_score": null,
+  "historical_platform_score_source": "86.2003仅为用户历史报分，未用于本轮选择或审核收益",
+  "model_upgraded": false,
+  "A_formal_ZIP_created": false,
+  "platform_uploaded": false,
+  "verdict": "同意B按弱信号停止；保留研究结果，不升级；提交包不可进入上传批准。"
+}
