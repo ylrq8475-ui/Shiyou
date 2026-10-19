@@ -564,6 +564,43 @@
         "最终包10-28前交Codex审核，10-30 00:00前用户手动指定"
       ],
       "published_at": "2026-10-19T17:35:00+08:00"
+    },
+    {
+      "task": "A2B-035/共用管线、双基准与平台台账（搜索未启动）",
+      "role": "B",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "report_path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/RESULT_PIPELINE.json",
+      "reviews_commit": "不适用，待Codex管线审核",
+      "instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+      "hard_gates": "泄漏/错位/井级隔离/指标：B自检均通过；独立Codex签署待完成",
+      "decision_row": "不适用；R13共用管线待一次性审核，未启动搜索；未生成正式包或上传平台",
+      "key_numbers": {
+        "B0_fixed": 73.71410733861434,
+        "B0_prime_fixed": 76.33261832127738,
+        "fixed_reproduction_absolute_error": 0.0,
+        "B0_repeated_mean": 72.47647400484871,
+        "B0_prime_repeated_mean": 75.39352260217446,
+        "repeated_delta_mean": 2.9170485973257483,
+        "positive_repeats": 5,
+        "CV_model_fits": 60,
+        "synthetic_model_fits": 1,
+        "total_model_fits": 61,
+        "total_preprocessor_fits": 61,
+        "failures": 0,
+        "retries": 0,
+        "S_v": "UNKNOWN",
+        "published_files": 35,
+        "remote_original_bytes_matched": 35
+      },
+      "open_unknowns": [
+        "CODEX-035-PIPELINE P1：待共用管线独立审核，搜索未启动",
+        "EXT-035 P1：外部模型未激活，许可证/权重/实际专项测试缺证；Chronos适配未完成",
+        "G-031 P1：缺实际Q1白名单放行，G禁用",
+        "PLATFORM-IDENTITY P2：86.2003与约79为用户报告；新提供双包SHA匹配本地已审版；提交编号、时间、精确分数与独立平台回执未知，S_v未知",
+        "HIST-DTYPE P1：历史身份缺口保留；本轮新类型指纹不能回填历史"
+      ],
+      "published_at": "2026-10-19T18:19:51.101029+08:00"
     }
   ]
 }
