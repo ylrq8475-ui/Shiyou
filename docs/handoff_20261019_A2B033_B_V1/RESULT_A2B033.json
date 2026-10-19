@@ -1,0 +1,104 @@
+{
+  "task": "A2B-033",
+  "role": "账户B执行与交付",
+  "R10_commit": "55adffb975204493cdc75567de8d74fc82dd3a73",
+  "T4_commit": "ce76e2ba0c3296f22f18a67bf212c05091b14573",
+  "status": "STOPPED_AT_STEP1_GATE",
+  "baseline": 73.71410733861434,
+  "baseline_fold_scores": [
+    71.45331390948151,
+    77.53642908897099,
+    75.12924056181325,
+    64.62686399621428,
+    79.96598872591244
+  ],
+  "P2_reference": 71.30071992041721,
+  "score": 76.33261832127738,
+  "delta": 2.6185109826630395,
+  "fold_scores": [
+    77.3030133344208,
+    77.11178496678917,
+    73.63981504205107,
+    72.41902553686496,
+    81.12880303793945
+  ],
+  "paired_fold_deltas": [
+    5.849699424939288,
+    -0.42464412218181735,
+    -1.4894255197621789,
+    7.792161540650682,
+    1.1628143120270096
+  ],
+  "positive_folds": 3,
+  "worst_fold": 72.41902553686496,
+  "relative_to_P2": 5.031898400860172,
+  "weighted_losses": {
+    "m1_to_1": 0.1178828877645822,
+    "m1_to_2": 0.17747343408546334,
+    "m1_to_4": 0.22163548779480557,
+    "m1_to_12": 0.23667381678722615
+  },
+  "step1_passed": false,
+  "step2": "NOT_STARTED",
+  "models_saved": 0,
+  "test_prediction_rows_generated": 0,
+  "row_OOF_persisted": false,
+  "platform_submissions": 0,
+  "hard_gates": {
+    "泄漏": "通过",
+    "错位": "通过",
+    "井级隔离": "通过",
+    "指标": "通过"
+  },
+  "historical_dtype": "UNKNOWN P1; inherited R5 exception, not repaired",
+  "decision_row_Codex": "不适用",
+  "fold_standard_deviation_population": 3.0698148897037005,
+  "metric_cross_check_difference": 0.0,
+  "step1_decision_B": "0 < 分数差 < +1.0，或为正折数 < 4",
+  "fit_counts": {
+    "max_models": 7,
+    "max_preprocessors": 7,
+    "models_entered": 5,
+    "models_completed": 5,
+    "preprocessors_entered": 5,
+    "preprocessors_completed": 5,
+    "failures": 0,
+    "retries": 0
+  },
+  "step2_outputs": {
+    "status": "NOT_TRIGGERED_GATE_FAILED",
+    "full_model_fits": 0,
+    "clean_environment_model_fits": 0,
+    "model_weight_sha256": null,
+    "result_zip_sha256": null,
+    "submission_code_zip_sha256": null,
+    "submission_code_zip_bytes": null,
+    "clean_reproduction_predictions_equal": null,
+    "linter": null,
+    "reason": "positive_folds=3 <4; no full fit, save, clean reproduction, test prediction or formal package generation"
+  },
+  "model_registry": {
+    "B0_prime": "研究结果保留，模型未保留；未满足预注册一致性门槛",
+    "new_weights_saved": 0,
+    "current_model_replaced": false,
+    "OOF_fold_models_saved": 0,
+    "candidate_pipeline_retained_in_memory_after_process": false
+  },
+  "open_unknowns": [
+    {
+      "id": "HIST-DTYPE",
+      "severity": "P1",
+      "missing": "历史逐文件加载身份仍未关闭；本轮继承R5用户例外，不以当前面板和分数回填"
+    },
+    {
+      "id": "CODEX-033-REVIEW",
+      "severity": "P1",
+      "missing": "R10本次实验的独立审核尚未完成，B自检不替代终判"
+    },
+    {
+      "id": "A033-STEP2-ACCEPTANCE",
+      "severity": "P3",
+      "missing": "步骤1未达标，步骤2未触发；train/predict为预备源码，无全量/复现/正式包验收，不伪记PASS"
+    }
+  ]
+}
