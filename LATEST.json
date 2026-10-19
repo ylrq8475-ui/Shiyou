@@ -547,6 +547,23 @@
         "PLATFORM-B0-BINDING P2 旧86.2003也仅用户报分，未与实际旧平台包独立绑定"
       ],
       "published_at": "2026-10-19T17:23:12.000+08:00"
+    },
+    {
+      "task": "A2B-035/进攻模式（大范围搜索、平台版本选择、最终提交；并入A2B-034）",
+      "role": "Claude",
+      "commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+      "report_path": "docs/handoff_20261019_A2B035_CLAUDE_INSTRUCTIONS_R13/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "三条合规底线不变；统计门槛与逐实验审核取消；拟合不设上限",
+        "版本综合分S_v=0.5×A榜+0.5×5×5重复CV均值，仅用于完整版本间选择",
+        "79分与86.2003两次提交身份并入平台台账核对",
+        "最终包10-28前交Codex审核，10-30 00:00前用户手动指定"
+      ],
+      "published_at": "2026-10-19T17:35:00+08:00"
     }
   ]
 }
