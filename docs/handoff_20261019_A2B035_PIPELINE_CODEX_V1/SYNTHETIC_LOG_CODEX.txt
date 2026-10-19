@@ -1,0 +1,37 @@
+test_G_disabled (__main__.Contracts.test_G_disabled) ... ok
+test_actual_cutoff_function_excludes_future_and_duplicates (__main__.Contracts.test_actual_cutoff_function_excludes_future_and_duplicates) ... ok
+test_actual_test_builder_invalid_dynamic_window_invariance (__main__.Contracts.test_actual_test_builder_invalid_dynamic_window_invariance) ... ok
+test_actual_test_builder_key_identity_mutation_blocks (__main__.Contracts.test_actual_test_builder_key_identity_mutation_blocks) ... ok
+test_actual_test_builder_legal_positive_control_and_other_wells (__main__.Contracts.test_actual_test_builder_legal_positive_control_and_other_wells) ... ok
+test_actual_test_builder_numeric_dynamic_window_invariance (__main__.Contracts.test_actual_test_builder_numeric_dynamic_window_invariance) ... ok
+test_all_external_models_currently_blocked (__main__.Contracts.test_all_external_models_currently_blocked) ... ok
+test_base_configs (__main__.Contracts.test_base_configs) ... ok
+test_benchmark_name_does_not_authorize_new_config (__main__.Contracts.test_benchmark_name_does_not_authorize_new_config) ... ok
+test_consecutive_events_and_R_formulas (__main__.Contracts.test_consecutive_events_and_R_formulas) ... ok
+test_fixed_source_lock (__main__.Contracts.test_fixed_source_lock) ... ok
+test_future_poison_cannot_change_history_or_scales (__main__.Contracts.test_future_poison_cannot_change_history_or_scales) ... ok
+test_inverse_clips_negative_and_rejects_nonfinite (__main__.Contracts.test_inverse_clips_negative_and_rejects_nonfinite) ... ok
+test_last_three_natural_months_not_last_three_observations (__main__.Contracts.test_last_three_natural_months_not_last_three_observations) ... ok
+test_leap_year_R5_and_zero_ratio (__main__.Contracts.test_leap_year_R5_and_zero_ratio) ... ok
+test_legacy_cutoff_cannot_be_direct_search (__main__.Contracts.test_legacy_cutoff_cannot_be_direct_search) ... ok
+test_legacy_cutoff_uses_event_not_template_gap (__main__.Contracts.test_legacy_cutoff_uses_event_not_template_gap) ... ok
+test_negative_target_or_scale_blocks (__main__.Contracts.test_negative_target_or_scale_blocks) ... ok
+test_nested_illegal_outer_intersection_blocks_before_spy_fit (__main__.Contracts.test_nested_illegal_outer_intersection_blocks_before_spy_fit) ... ok
+test_nested_weight_learning_actual_source_scope (__main__.Contracts.test_nested_weight_learning_actual_source_scope) ... ok
+test_official_function_decimal_oracle_and_row_order (__main__.Contracts.test_official_function_decimal_oracle_and_row_order) ... ok
+test_official_nan_inf_and_incomplete_horizons_block (__main__.Contracts.test_official_nan_inf_and_incomplete_horizons_block) ... ok
+test_official_zero_epsilon_and_unnormalized_mass (__main__.Contracts.test_official_zero_epsilon_and_unnormalized_mass) ... ok
+test_outer_labels_do_not_change_weights (__main__.Contracts.test_outer_labels_do_not_change_weights) ... ok
+test_presegment_missing_month_falls_back (__main__.Contracts.test_presegment_missing_month_falls_back) ... ok
+test_projection_never_decodes_bad_dynamic_bytes (__main__.Contracts.test_projection_never_decodes_bad_dynamic_bytes) ... ok
+test_projection_quoted_newlines (__main__.Contracts.test_projection_quoted_newlines) ... ok
+test_raw_last_nonfinite_zero_negative_falls_back (__main__.Contracts.test_raw_last_nonfinite_zero_negative_falls_back) ... ok
+test_search_requires_actual_release_file (__main__.Contracts.test_search_requires_actual_release_file) ... ok
+test_target_scale_transform_and_inverse (__main__.Contracts.test_target_scale_transform_and_inverse) ... ok
+test_unknown_or_unsafe_config_blocked (__main__.Contracts.test_unknown_or_unsafe_config_blocked) ... ok
+test_weight_grid_and_training_overlap_block (__main__.Contracts.test_weight_grid_and_training_overlap_block) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.374s
+
+OK

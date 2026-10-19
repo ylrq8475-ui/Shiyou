@@ -1,0 +1,133 @@
+{
+  "role": "账户A2（新接手）独立审核与交付",
+  "published_files": 15,
+  "scope": "Generic credential/path/identifier-pattern scan plus manual public-only provenance review; no real private marker inventory or raw-data rescan",
+  "records": [
+    {
+      "file": "AGGREGATE_REVIEW_CODEX.json",
+      "sha256": "2d162b16b337692ca97ceed8bacdd84aa2d18678ac36b957422a27226aeda159",
+      "bytes": 38924,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "AUDIT_QUEUE.md",
+      "sha256": "70c5974ddd8cee2d2fcb3d25d531e01102d86ba2c62f25333347482c2bf2d3e8",
+      "bytes": 2704,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "COLLABORATION_REPLY_CODEX.md",
+      "sha256": "697fdc94f64a5ab7d4fcb198ef588a0207db7c33d60c19d97f9f19ac6a3699b4",
+      "bytes": 2817,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "PIPELINE_APPROVAL.json",
+      "sha256": "bf832eb57beaad94e965d28d21f3bb59763c80e707d213fabc1a9ded005b5e3b",
+      "bytes": 1235,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "PRIVACY_SCAN_CODEX.json",
+      "sha256": null,
+      "bytes": null,
+      "final_serialized_bytes_scanned": true,
+      "identity_binding": "privacy JSON via manifest; manifest via fixed Git blob and external return receipt",
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "PUBLICATION_MANIFEST.json",
+      "sha256": null,
+      "bytes": null,
+      "final_serialized_bytes_scanned": true,
+      "identity_binding": "privacy JSON via manifest; manifest via fixed Git blob and external return receipt",
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "README.md",
+      "sha256": "033d10f705eeb615b9a3d4f48de2020b9af0aeebbf9361e6a82c9bd0d7e1a829",
+      "bytes": 983,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "REPORT_CODEX.md",
+      "sha256": "fb2ff3187eec214dbb704da6396042d779b9078ab88e384f3751e9c11351a0e9",
+      "bytes": 11380,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "RESULT_CODEX.json",
+      "sha256": "6def32e3fa52625b7e02d94b349574afa69abc72b117dc2eb0c85cf3eaa10b29",
+      "bytes": 3723,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "SOURCE_IDENTITY_CODEX.json",
+      "sha256": "d105210c3308e35d06208900b5a27e3831198f074082707b8c4e66da41e60c2f",
+      "bytes": 17659,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "SYNTHETIC_LOG_CODEX.txt",
+      "sha256": "a6f59e62648517ee2878ec0b8d2663433956b0676cb441f7b9df40709f847423",
+      "bytes": 3910,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "SYNTHETIC_RESULT_CODEX.json",
+      "sha256": "8f355254efdbbafcf4e367fbda87baff7352ada209ebd1e6152b4bbe7dff408a",
+      "bytes": 377,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "audit_aggregates.py",
+      "sha256": "f39716a6715bccf586474607c1e542f0a05d9030bb3c79915435023f75d1639a",
+      "bytes": 9934,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "extract_anonymous_sources.py",
+      "sha256": "2faf88e5a4d9dc01d5df009fc0e24b157534c6db80b545726a0868588e91e514",
+      "bytes": 939,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "test_source_contracts.py",
+      "sha256": "82d859306e3bdac40341c809ae8e4f445a65665a6567a6775c1677691a551318",
+      "bytes": 24709,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    }
+  ],
+  "real_data_read": false,
+  "fits": 0
+}

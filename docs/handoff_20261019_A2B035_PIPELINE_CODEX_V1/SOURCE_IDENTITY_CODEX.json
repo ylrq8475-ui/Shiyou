@@ -1,0 +1,433 @@
+{
+  "files": [
+    {
+      "file": "BASELINE_CONFIGS.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/BASELINE_CONFIGS.json",
+      "bytes": 6790,
+      "sha256": "7f37def996cc7a3b3a3798d97287f11c8ae260230f65abc2891d430ed7591dca",
+      "git_blob": "248dfa815f766bb768b5fbaee2fe49c3519a09ef"
+    },
+    {
+      "file": "DATA_CONTRACT.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/DATA_CONTRACT.json",
+      "bytes": 3749,
+      "sha256": "b3149f6538aff2f6e8de003d7179e95d1616f9247d0b0b82554b2f2ac8d5d8c8",
+      "git_blob": "5f3d4cab5a63e50309d40e29ee453788f6ab5943"
+    },
+    {
+      "file": "ENVIRONMENT_LOCK.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/ENVIRONMENT_LOCK.json",
+      "bytes": 1114,
+      "sha256": "954d67045713461b7cc303e7d85fa223507a27c1e20d5cf223f2741d32a961d6",
+      "git_blob": "f1c342810ec1aff5648522a21b60e85db2c15657"
+    },
+    {
+      "file": "FIT_COUNTS.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/FIT_COUNTS.json",
+      "bytes": 43794,
+      "sha256": "108652658e19d107294e324e8f7abcfea7c386b07522b9cc8364949e72541abf",
+      "git_blob": "a1aa65d573bcd4289f0a9b54053b7d5105f54774"
+    },
+    {
+      "file": "FROZEN_SOURCES.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/FROZEN_SOURCES.json",
+      "bytes": 99486,
+      "sha256": "4c7b6873ff27bfe47b2c5ff233624533afbbbfdf03cb5063b0f4c5595ac07a60",
+      "git_blob": "f286612fded1e612e61b06b0f57510202627ded5"
+    },
+    {
+      "file": "PIPELINE_LOCK.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/PIPELINE_LOCK.json",
+      "bytes": 3094,
+      "sha256": "ce1ab047d126f2586993dc8d2b05aef5f1b9871c59b626d6927d8803904713d1",
+      "git_blob": "5fd7e4bf286767126f1f0add658a385d05b71e03"
+    },
+    {
+      "file": "PIPELINE_SOURCE_ANONYMOUS.zip",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/PIPELINE_SOURCE_ANONYMOUS.zip",
+      "bytes": 84772,
+      "sha256": "ffb25cb411e8c6d2a8a393306abd8effae33fda053591357fe9a742eddadfaf6",
+      "git_blob": "04249be70aced750a95ca9a6d520dfd70fec8ae2"
+    },
+    {
+      "file": "PIPELINE_USAGE_AND_SCOPE.md",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/PIPELINE_USAGE_AND_SCOPE.md",
+      "bytes": 4213,
+      "sha256": "9dbad584590b27168ab715e7e924b06865f7813d77514086dfbd29ba496e2513",
+      "git_blob": "3185f875d4c4c8793b5cd873697e7b74f4616d7c"
+    },
+    {
+      "file": "PLAN_STAGE0.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/PLAN_STAGE0.json",
+      "bytes": 1954,
+      "sha256": "a035fb1b715cdfa480ca9532872517fe3be5ff5a66496717960c9bd289663afa",
+      "git_blob": "162416d4df0c662fe17e08bea01f1f59c704543f"
+    },
+    {
+      "file": "PLATFORM_LEDGER_PUBLIC.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/PLATFORM_LEDGER_PUBLIC.json",
+      "bytes": 1954,
+      "sha256": "5f53fcfa6642d80c7ff747f33f149bb7dfb7f0f2244dd5e6a395ef53dc22575f",
+      "git_blob": "8d474898486cac1c5afe86ed891bf83f567688f9"
+    },
+    {
+      "file": "PREFLIGHT.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/PREFLIGHT.json",
+      "bytes": 2276,
+      "sha256": "c5e09257fe12c93c9427cd587ed8224c18fcba46b9fe6adc86f1e41c68905367",
+      "git_blob": "773bd2a31e9a031044373a2a678af9c335ecc7e5"
+    },
+    {
+      "file": "PRESERVATION_CHECK.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/PRESERVATION_CHECK.json",
+      "bytes": 358,
+      "sha256": "6c0517fe411cb27275bd43de628d1931092af9c1a0558cd35d0d2110390b16f1",
+      "git_blob": "0f77c44aca388884d2eda05d1b2b976a9e63a954"
+    },
+    {
+      "file": "PRIVACY_COVERAGE_MAP.md",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "bytes": 4546,
+      "sha256": "9076fd08b792b2be1c0a20247349d5b78d1eb18870f4358e70a8a2eb99929283",
+      "git_blob": "621e3d82a0c113fbacc09c266cbe45d61901c641"
+    },
+    {
+      "file": "PRIVACY_SCAN_RAW.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/PRIVACY_SCAN_RAW.json",
+      "bytes": 21364,
+      "sha256": "c73f4ebc61f58d005ca6b7f36137ce428c8c25805fc97988ceff146d9ab55706",
+      "git_blob": "cb85e3279bf96542ed89333625f3e250cc11ee7d"
+    },
+    {
+      "file": "README.md",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/README.md",
+      "bytes": 1004,
+      "sha256": "6fe411b92b2b6ee74770f77e4124e8d4f514a1a62caa9c905073514947a98085",
+      "git_blob": "0693d0cfbf3ed8122282b1788a0f2bf4444303cd"
+    },
+    {
+      "file": "REPORT_B.md",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/REPORT_B.md",
+      "bytes": 8565,
+      "sha256": "8dba3ebec3d05b5223a07017735a74749ec4e57fac93960f6d9e0538b1e1eecf",
+      "git_blob": "7c19f2a8d9fe17c0499c4eb0579672b05f6d4e7f"
+    },
+    {
+      "file": "REQUEST_CODEX_PIPELINE_REVIEW.md",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/REQUEST_CODEX_PIPELINE_REVIEW.md",
+      "bytes": 1310,
+      "sha256": "e600070d579d90c31afadb4a3fc2b7ce783473a51a59c421475311b499b00042",
+      "git_blob": "6756eb0775053e1ddf5ad6da69c7019a76cb13db"
+    },
+    {
+      "file": "RESOURCE_RELEASES.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/RESOURCE_RELEASES.json",
+      "bytes": 755,
+      "sha256": "e542a3acc6f7014ac06bc3cf7f87c0f43ec610c05ae26ec7dc64aa42d100200f",
+      "git_blob": "6720dc7af1bf86dce877d7a2f796bd3653b0060f"
+    },
+    {
+      "file": "RESULT_PIPELINE.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/RESULT_PIPELINE.json",
+      "bytes": 45806,
+      "sha256": "a7163d51c48dcbbb70f3f98326355d4ef00ba42855656b2ffd8c04338a819e9c",
+      "git_blob": "6051bcaa775382afa4b034318ca13e1eb9a415e8"
+    },
+    {
+      "file": "SHA256SUMS.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/SHA256SUMS.json",
+      "bytes": 6792,
+      "sha256": "98297530a6cb311cecc9402ce4c5c63360f23c5fb1fbcc97db40700fa426395e",
+      "git_blob": "e3fe62c544459b85c8f52c445a87e9506ae37ef7"
+    },
+    {
+      "file": "SOURCE_BUNDLE_MANIFEST.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/SOURCE_BUNDLE_MANIFEST.json",
+      "bytes": 5050,
+      "sha256": "7462cd93dc30f10ceac6398727c7f77e090d479c2b22be7ac1f77cda0ba3ca5d",
+      "git_blob": "d57ff4b78a7af8278583cd68091040b2be79ab5a"
+    },
+    {
+      "file": "SOURCE_RECEIPT.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/SOURCE_RECEIPT.json",
+      "bytes": 1070,
+      "sha256": "c848d0bc4bc0b817b64c6e08cb01a9263d842daa49da58f2d5e77f2a1cc97ba3",
+      "git_blob": "632f7941ef815cf18e01864026b6a37039abe499"
+    },
+    {
+      "file": "STARTED.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/STARTED.json",
+      "bytes": 913,
+      "sha256": "fec243be48f573736eabb9d2b9b1d7ecac97ba65477b5d092ed33850e1615aab",
+      "git_blob": "5179853a10c1db3993458fe54b693bfef54186f2"
+    },
+    {
+      "file": "SYNTHETIC_CHECKS.json",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/SYNTHETIC_CHECKS.json",
+      "bytes": 1724,
+      "sha256": "853564bf5efa05447aff462635c1057d9699b99178bf9d710a4670df24ed965e",
+      "git_blob": "004221eb4973b9e2a903c60332262b8ecc764e14"
+    },
+    {
+      "file": "core.py",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/core.py",
+      "bytes": 13450,
+      "sha256": "4a8c230e4eb626cfaa60bb34a3387d383579f48e0d130818de99917c4ad50a1c",
+      "git_blob": "6afa20accf0f7cdbde23fe780222a418d298a343"
+    },
+    {
+      "file": "csv_projection.py",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/csv_projection.py",
+      "bytes": 6412,
+      "sha256": "6979f0366b729a8ed32396569aa2a7837d4d409301dbfb09632267a338937c0c",
+      "git_blob": "2f3159d224ebccf14322d3e722319c420428ecb0"
+    },
+    {
+      "file": "cv035.py",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/cv035.py",
+      "bytes": 5896,
+      "sha256": "fbe904440cbb0fa02141fa6ed99aa58df15af34c297012372d7e17954fd05e3e",
+      "git_blob": "d58f357c86e4e5e3768f1601af84fd3918d71f99"
+    },
+    {
+      "file": "evaluate.py",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/evaluate.py",
+      "bytes": 1630,
+      "sha256": "9bab77411897a3194523f0d5ab419ab780211afe3fda89a43d433cf143a0e118",
+      "git_blob": "9c1f876496fbf22dfd40efabf00abf96044938ee"
+    },
+    {
+      "file": "guard035.py",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/guard035.py",
+      "bytes": 12842,
+      "sha256": "c1864f63eaf005d7c100d2c568bde3fbe5a4399c0cc1ff5f045115a7890df5a6",
+      "git_blob": "b6857e3954afc4b1f0fb3a29eba52356ae760811"
+    },
+    {
+      "file": "ledger035.py",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/ledger035.py",
+      "bytes": 1481,
+      "sha256": "a3e3de0cc36642601ae8c75d968584281eef8dbd1787d687cb14662099fb5f33",
+      "git_blob": "34093a92b0ab00a80f35c31bfcc64817fa4b025a"
+    },
+    {
+      "file": "models035.py",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/models035.py",
+      "bytes": 5534,
+      "sha256": "e487e6004dfbcedec191b35fcff2a24f5cb442748255009a7d28d0edb6f44fec",
+      "git_blob": "7fb8820216de53b5853f5a08da9b311e3c98e3a9"
+    },
+    {
+      "file": "predict.py",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/predict.py",
+      "bytes": 2568,
+      "sha256": "8b48a0e1fef96eb20dfe19cf4d604bfb23382a7de350b02dd859fc6680571d6c",
+      "git_blob": "7049c94a030b2e94c00de8524548bf1971b84860"
+    },
+    {
+      "file": "requirements.txt",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/requirements.txt",
+      "bytes": 349,
+      "sha256": "44f9e68064630e1be9fa8614521f5df4ce8fb640a4bd18827224aa89841e4bce",
+      "git_blob": "c70ad1a29d01f79adf680918c19642dd3969d2d2"
+    },
+    {
+      "file": "synthetic_checks.py",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/synthetic_checks.py",
+      "bytes": 7908,
+      "sha256": "e74739bce4e87d0eee94f7d2547f1b785f12265dbc00c66ad17286d5b1a3dbff",
+      "git_blob": "73633fe46e703ed1a3a795c8a5804eb8f5c55664"
+    },
+    {
+      "file": "train.py",
+      "commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+      "path": "docs/handoff_20261019_A2B035_PIPELINE_B_V1/train.py",
+      "bytes": 1661,
+      "sha256": "3a469299d8779e80ab014d483618204ed266e8cf6ab030df96c833ffd34728c7",
+      "git_blob": "b462eaed9cba7b4cf9d5b51ef717e137109a06c7"
+    }
+  ],
+  "r13_sha256": "ec3fe583f40e10da7cdc9fede01ce3c5079f85968f7acb6fb1209eeef7a1bee5",
+  "index_commit": "9522b4b9c56ce8c9ce5c090722c436531c91ed1a",
+  "anonymous_source_archive_members": [
+    {
+      "path": "source/BASELINE_ALLOWLIST.json",
+      "bytes": 224,
+      "sha256": "d8a4203e336aa27b386533916f9c1475b58acb9ba0c763940b357e9e86d83074"
+    },
+    {
+      "path": "source/configs/B0.json",
+      "bytes": 3202,
+      "sha256": "3fb71b01ba78d83a46bc7afda260928bf032ae2fdc5aa02003e24a3c04d701b6"
+    },
+    {
+      "path": "source/configs/B0_prime.json",
+      "bytes": 3209,
+      "sha256": "392cf4f2537e09f5bb023fc4bff3b05b96ee91b7f6969def2e636a9e6d46842d"
+    },
+    {
+      "path": "source/core.py",
+      "bytes": 13450,
+      "sha256": "4a8c230e4eb626cfaa60bb34a3387d383579f48e0d130818de99917c4ad50a1c"
+    },
+    {
+      "path": "source/csv_projection.py",
+      "bytes": 6412,
+      "sha256": "6979f0366b729a8ed32396569aa2a7837d4d409301dbfb09632267a338937c0c"
+    },
+    {
+      "path": "source/cv035.py",
+      "bytes": 5896,
+      "sha256": "fbe904440cbb0fa02141fa6ed99aa58df15af34c297012372d7e17954fd05e3e"
+    },
+    {
+      "path": "source/DATA_CONTRACT.json",
+      "bytes": 3749,
+      "sha256": "b3149f6538aff2f6e8de003d7179e95d1616f9247d0b0b82554b2f2ac8d5d8c8"
+    },
+    {
+      "path": "source/ENVIRONMENT_LOCK.json",
+      "bytes": 1114,
+      "sha256": "954d67045713461b7cc303e7d85fa223507a27c1e20d5cf223f2741d32a961d6"
+    },
+    {
+      "path": "source/evaluate.py",
+      "bytes": 1630,
+      "sha256": "9bab77411897a3194523f0d5ab419ab780211afe3fda89a43d433cf143a0e118"
+    },
+    {
+      "path": "source/FROZEN_SOURCES.json",
+      "bytes": 99486,
+      "sha256": "4c7b6873ff27bfe47b2c5ff233624533afbbbfdf03cb5063b0f4c5595ac07a60"
+    },
+    {
+      "path": "source/guard035.py",
+      "bytes": 12842,
+      "sha256": "c1864f63eaf005d7c100d2c568bde3fbe5a4399c0cc1ff5f045115a7890df5a6"
+    },
+    {
+      "path": "source/ledger035.py",
+      "bytes": 1481,
+      "sha256": "a3e3de0cc36642601ae8c75d968584281eef8dbd1787d687cb14662099fb5f33"
+    },
+    {
+      "path": "source/models035.py",
+      "bytes": 5534,
+      "sha256": "e487e6004dfbcedec191b35fcff2a24f5cb442748255009a7d28d0edb6f44fec"
+    },
+    {
+      "path": "source/PIPELINE_LOCK.json",
+      "bytes": 3094,
+      "sha256": "ce1ab047d126f2586993dc8d2b05aef5f1b9871c59b626d6927d8803904713d1"
+    },
+    {
+      "path": "source/predict.py",
+      "bytes": 2568,
+      "sha256": "8b48a0e1fef96eb20dfe19cf4d604bfb23382a7de350b02dd859fc6680571d6c"
+    },
+    {
+      "path": "source/requirements.txt",
+      "bytes": 349,
+      "sha256": "44f9e68064630e1be9fa8614521f5df4ce8fb640a4bd18827224aa89841e4bce"
+    },
+    {
+      "path": "source/RESOURCE_RELEASES.json",
+      "bytes": 755,
+      "sha256": "e542a3acc6f7014ac06bc3cf7f87c0f43ec610c05ae26ec7dc64aa42d100200f"
+    },
+    {
+      "path": "source/src/oil_uplift/__init__.py",
+      "bytes": 82,
+      "sha256": "b14e51df20e0d8c8e2abc3646d6cac8e26e015a797f3fa5138fb1f2c20bde30c"
+    },
+    {
+      "path": "source/src/oil_uplift/a2b013_safe.py",
+      "bytes": 24524,
+      "sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48"
+    },
+    {
+      "path": "source/src/oil_uplift/config.py",
+      "bytes": 2549,
+      "sha256": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68"
+    },
+    {
+      "path": "source/src/oil_uplift/exceptions.py",
+      "bytes": 548,
+      "sha256": "2b3aef27c352bad4558d98ca964d21f4881468e6a63c4bc3ff7bc919a7ad26c9"
+    },
+    {
+      "path": "source/src/oil_uplift/io.py",
+      "bytes": 4910,
+      "sha256": "cf788f19399b7a867260a5a4f84bb630735a639410fc17092244ebcb9bcd18c3"
+    },
+    {
+      "path": "source/src/oil_uplift/models.py",
+      "bytes": 3013,
+      "sha256": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02"
+    },
+    {
+      "path": "source/src/oil_uplift/multistep.py",
+      "bytes": 22790,
+      "sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b"
+    },
+    {
+      "path": "source/src/oil_uplift/scoring.py",
+      "bytes": 9223,
+      "sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235"
+    },
+    {
+      "path": "source/src/oil_uplift/submission.py",
+      "bytes": 5778,
+      "sha256": "d39b25ce75b452a9bf7dcb439aa1a68bdc3bbb822b9e9a2f56cd0565f1502612"
+    },
+    {
+      "path": "source/src/oil_uplift/training.py",
+      "bytes": 19812,
+      "sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc"
+    },
+    {
+      "path": "source/synthetic_checks.py",
+      "bytes": 7908,
+      "sha256": "e74739bce4e87d0eee94f7d2547f1b785f12265dbc00c66ad17286d5b1a3dbff"
+    },
+    {
+      "path": "source/train.py",
+      "bytes": 1661,
+      "sha256": "3a469299d8779e80ab014d483618204ed266e8cf6ab030df96c833ffd34728c7"
+    }
+  ]
+}

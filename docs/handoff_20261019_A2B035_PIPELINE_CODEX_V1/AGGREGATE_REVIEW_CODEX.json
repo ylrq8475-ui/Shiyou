@@ -1,0 +1,1783 @@
+{
+  "source_and_receipt_checks": 442,
+  "passed": 442,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "35 published files",
+      "pass": true
+    },
+    {
+      "check": "checksum coverage34",
+      "pass": true
+    },
+    {
+      "check": "manifest BASELINE_CONFIGS.json",
+      "pass": true
+    },
+    {
+      "check": "manifest DATA_CONTRACT.json",
+      "pass": true
+    },
+    {
+      "check": "manifest ENVIRONMENT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "manifest FIT_COUNTS.json",
+      "pass": true
+    },
+    {
+      "check": "manifest FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "manifest PIPELINE_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "manifest PIPELINE_SOURCE_ANONYMOUS.zip",
+      "pass": true
+    },
+    {
+      "check": "manifest PIPELINE_USAGE_AND_SCOPE.md",
+      "pass": true
+    },
+    {
+      "check": "manifest PLAN_STAGE0.json",
+      "pass": true
+    },
+    {
+      "check": "manifest PLATFORM_LEDGER_PUBLIC.json",
+      "pass": true
+    },
+    {
+      "check": "manifest PREFLIGHT.json",
+      "pass": true
+    },
+    {
+      "check": "manifest PRESERVATION_CHECK.json",
+      "pass": true
+    },
+    {
+      "check": "manifest PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "check": "manifest PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "check": "manifest README.md",
+      "pass": true
+    },
+    {
+      "check": "manifest REPORT_B.md",
+      "pass": true
+    },
+    {
+      "check": "manifest REQUEST_CODEX_PIPELINE_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "manifest RESOURCE_RELEASES.json",
+      "pass": true
+    },
+    {
+      "check": "manifest RESULT_PIPELINE.json",
+      "pass": true
+    },
+    {
+      "check": "manifest SOURCE_BUNDLE_MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "manifest SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "manifest STARTED.json",
+      "pass": true
+    },
+    {
+      "check": "manifest SYNTHETIC_CHECKS.json",
+      "pass": true
+    },
+    {
+      "check": "manifest core.py",
+      "pass": true
+    },
+    {
+      "check": "manifest csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "manifest cv035.py",
+      "pass": true
+    },
+    {
+      "check": "manifest evaluate.py",
+      "pass": true
+    },
+    {
+      "check": "manifest guard035.py",
+      "pass": true
+    },
+    {
+      "check": "manifest ledger035.py",
+      "pass": true
+    },
+    {
+      "check": "manifest models035.py",
+      "pass": true
+    },
+    {
+      "check": "manifest predict.py",
+      "pass": true
+    },
+    {
+      "check": "manifest requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "manifest synthetic_checks.py",
+      "pass": true
+    },
+    {
+      "check": "manifest train.py",
+      "pass": true
+    },
+    {
+      "check": "source archive original bytes",
+      "pass": true
+    },
+    {
+      "check": "source archive CRC and 29 members",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity BASELINE_ALLOWLIST.json",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity configs/B0.json",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity configs/B0_prime.json",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity core.py",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity core.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity cv035.py",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity cv035.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity DATA_CONTRACT.json",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity DATA_CONTRACT.json",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity ENVIRONMENT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity ENVIRONMENT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity evaluate.py",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity evaluate.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity guard035.py",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity guard035.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity ledger035.py",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity ledger035.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity models035.py",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity models035.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity PIPELINE_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity PIPELINE_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity predict.py",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity predict.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity RESOURCE_RELEASES.json",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity RESOURCE_RELEASES.json",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity src/oil_uplift/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity src/oil_uplift/a2b013_safe.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity src/oil_uplift/config.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity src/oil_uplift/exceptions.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity src/oil_uplift/io.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity src/oil_uplift/models.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity src/oil_uplift/multistep.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity src/oil_uplift/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity src/oil_uplift/submission.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity src/oil_uplift/training.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity synthetic_checks.py",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity synthetic_checks.py",
+      "pass": true
+    },
+    {
+      "check": "archive/public identity train.py",
+      "pass": true
+    },
+    {
+      "check": "loose/archive identity train.py",
+      "pass": true
+    },
+    {
+      "check": "35 unique privacy records",
+      "pass": true
+    },
+    {
+      "check": "B scan result BASELINE_CONFIGS.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes BASELINE_CONFIGS.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result DATA_CONTRACT.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes DATA_CONTRACT.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result ENVIRONMENT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes ENVIRONMENT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result FIT_COUNTS.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes FIT_COUNTS.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result PIPELINE_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes PIPELINE_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result PIPELINE_SOURCE_ANONYMOUS.zip",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes PIPELINE_SOURCE_ANONYMOUS.zip",
+      "pass": true
+    },
+    {
+      "check": "B scan result PIPELINE_USAGE_AND_SCOPE.md",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes PIPELINE_USAGE_AND_SCOPE.md",
+      "pass": true
+    },
+    {
+      "check": "B scan result PLAN_STAGE0.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes PLAN_STAGE0.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result PLATFORM_LEDGER_PUBLIC.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes PLATFORM_LEDGER_PUBLIC.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result PREFLIGHT.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes PREFLIGHT.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result PRESERVATION_CHECK.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes PRESERVATION_CHECK.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "check": "B scan result PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "check": "metadata no circular digest PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result README.md",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes README.md",
+      "pass": true
+    },
+    {
+      "check": "B scan result REPORT_B.md",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes REPORT_B.md",
+      "pass": true
+    },
+    {
+      "check": "B scan result REQUEST_CODEX_PIPELINE_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes REQUEST_CODEX_PIPELINE_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "B scan result RESOURCE_RELEASES.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes RESOURCE_RELEASES.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result RESULT_PIPELINE.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes RESULT_PIPELINE.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result SHA256SUMS.json",
+      "pass": true
+    },
+    {
+      "check": "metadata no circular digest SHA256SUMS.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result SOURCE_BUNDLE_MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes SOURCE_BUNDLE_MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result STARTED.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes STARTED.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result SYNTHETIC_CHECKS.json",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes SYNTHETIC_CHECKS.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result core.py",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes core.py",
+      "pass": true
+    },
+    {
+      "check": "B scan result csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "B scan result cv035.py",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes cv035.py",
+      "pass": true
+    },
+    {
+      "check": "B scan result evaluate.py",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes evaluate.py",
+      "pass": true
+    },
+    {
+      "check": "B scan result guard035.py",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes guard035.py",
+      "pass": true
+    },
+    {
+      "check": "B scan result ledger035.py",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes ledger035.py",
+      "pass": true
+    },
+    {
+      "check": "B scan result models035.py",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes models035.py",
+      "pass": true
+    },
+    {
+      "check": "B scan result predict.py",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes predict.py",
+      "pass": true
+    },
+    {
+      "check": "B scan result requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "B scan result synthetic_checks.py",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes synthetic_checks.py",
+      "pass": true
+    },
+    {
+      "check": "B scan result train.py",
+      "pass": true
+    },
+    {
+      "check": "B scan bytes train.py",
+      "pass": true
+    },
+    {
+      "check": "pipeline identity binding",
+      "pass": true
+    },
+    {
+      "check": "immutable source BASELINE_ALLOWLIST.json",
+      "pass": true
+    },
+    {
+      "check": "immutable source configs/B0.json",
+      "pass": true
+    },
+    {
+      "check": "immutable source configs/B0_prime.json",
+      "pass": true
+    },
+    {
+      "check": "immutable source core.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source cv035.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source DATA_CONTRACT.json",
+      "pass": true
+    },
+    {
+      "check": "immutable source ENVIRONMENT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "immutable source evaluate.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "immutable source guard035.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source ledger035.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source models035.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source predict.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "immutable source src/oil_uplift/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source src/oil_uplift/a2b013_safe.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source src/oil_uplift/config.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source src/oil_uplift/exceptions.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source src/oil_uplift/io.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source src/oil_uplift/models.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source src/oil_uplift/multistep.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source src/oil_uplift/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source src/oil_uplift/submission.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source src/oil_uplift/training.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source synthetic_checks.py",
+      "pass": true
+    },
+    {
+      "check": "immutable source train.py",
+      "pass": true
+    },
+    {
+      "check": "prescore record identities",
+      "pass": true
+    },
+    {
+      "check": "R13 original bytes hash",
+      "pass": true
+    },
+    {
+      "check": "baseline config original B0",
+      "pass": true
+    },
+    {
+      "check": "baseline config original B0_prime",
+      "pass": true
+    },
+    {
+      "check": "six split sets fixed prescore",
+      "pass": true
+    },
+    {
+      "check": "baseline identity B0",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed full fold scope",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed independent equal-well aggregate",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed locked split identity",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed fold summaries",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed total score from loss",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed horizon 1",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed horizon 2",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed horizon 4",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed horizon 12",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed fold loss score 1",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed fold loss score 2",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed fold loss score 3",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed fold loss score 4",
+      "pass": true
+    },
+    {
+      "check": "B0 fixed fold loss score 5",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 full fold scope",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 independent equal-well aggregate",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 locked split identity",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 fold summaries",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 total score from loss",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 horizon 1",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 horizon 2",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 horizon 4",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 horizon 12",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 fold loss score 1",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 fold loss score 2",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 fold loss score 3",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 fold loss score 4",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_1 fold loss score 5",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 full fold scope",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 independent equal-well aggregate",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 locked split identity",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 fold summaries",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 total score from loss",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 horizon 1",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 horizon 2",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 horizon 4",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 horizon 12",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 fold loss score 1",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 fold loss score 2",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 fold loss score 3",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 fold loss score 4",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_2 fold loss score 5",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 full fold scope",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 independent equal-well aggregate",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 locked split identity",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 fold summaries",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 total score from loss",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 horizon 1",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 horizon 2",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 horizon 4",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 horizon 12",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 fold loss score 1",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 fold loss score 2",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 fold loss score 3",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 fold loss score 4",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_3 fold loss score 5",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 full fold scope",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 independent equal-well aggregate",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 locked split identity",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 fold summaries",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 total score from loss",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 horizon 1",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 horizon 2",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 horizon 4",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 horizon 12",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 fold loss score 1",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 fold loss score 2",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 fold loss score 3",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 fold loss score 4",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_4 fold loss score 5",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 full fold scope",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 independent equal-well aggregate",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 locked split identity",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 fold summaries",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 total score from loss",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 horizon 1",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 horizon 2",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 horizon 4",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 horizon 12",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 fold loss score 1",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 fold loss score 2",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 fold loss score 3",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 fold loss score 4",
+      "pass": true
+    },
+    {
+      "check": "B0 repeat_5 fold loss score 5",
+      "pass": true
+    },
+    {
+      "check": "B0 repeated summary mean/std/SE",
+      "pass": true
+    },
+    {
+      "check": "B0 repeated loss m1_to_1",
+      "pass": true
+    },
+    {
+      "check": "B0 repeated loss m1_to_2",
+      "pass": true
+    },
+    {
+      "check": "B0 repeated loss m1_to_4",
+      "pass": true
+    },
+    {
+      "check": "B0 repeated loss m1_to_12",
+      "pass": true
+    },
+    {
+      "check": "baseline identity B0_prime",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed full fold scope",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed independent equal-well aggregate",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed locked split identity",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed fold summaries",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed total score from loss",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed horizon 1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed horizon 2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed horizon 4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed horizon 12",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed fold loss score 1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed fold loss score 2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed fold loss score 3",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed fold loss score 4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime fixed fold loss score 5",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 full fold scope",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 independent equal-well aggregate",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 locked split identity",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 fold summaries",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 total score from loss",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 horizon 1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 horizon 2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 horizon 4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 horizon 12",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 fold loss score 1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 fold loss score 2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 fold loss score 3",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 fold loss score 4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_1 fold loss score 5",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 full fold scope",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 independent equal-well aggregate",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 locked split identity",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 fold summaries",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 total score from loss",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 horizon 1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 horizon 2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 horizon 4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 horizon 12",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 fold loss score 1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 fold loss score 2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 fold loss score 3",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 fold loss score 4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_2 fold loss score 5",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 full fold scope",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 independent equal-well aggregate",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 locked split identity",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 fold summaries",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 total score from loss",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 horizon 1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 horizon 2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 horizon 4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 horizon 12",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 fold loss score 1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 fold loss score 2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 fold loss score 3",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 fold loss score 4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_3 fold loss score 5",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 full fold scope",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 independent equal-well aggregate",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 locked split identity",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 fold summaries",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 total score from loss",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 horizon 1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 horizon 2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 horizon 4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 horizon 12",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 fold loss score 1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 fold loss score 2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 fold loss score 3",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 fold loss score 4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_4 fold loss score 5",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 full fold scope",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 independent equal-well aggregate",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 locked split identity",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 fold summaries",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 total score from loss",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 horizon 1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 horizon 2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 horizon 4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 horizon 12",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 fold loss score 1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 fold loss score 2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 fold loss score 3",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 fold loss score 4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeat_5 fold loss score 5",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeated summary mean/std/SE",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeated loss m1_to_1",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeated loss m1_to_2",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeated loss m1_to_4",
+      "pass": true
+    },
+    {
+      "check": "B0_prime repeated loss m1_to_12",
+      "pass": true
+    },
+    {
+      "check": "fixed B0 exact historical score",
+      "pass": true
+    },
+    {
+      "check": "fixed B0prime exact historical score",
+      "pass": true
+    },
+    {
+      "check": "five paired mean/count",
+      "pass": true
+    },
+    {
+      "check": "61 entered/completed fits each",
+      "pass": true
+    },
+    {
+      "check": "244 unique chronological events",
+      "pass": true
+    },
+    {
+      "check": "60 actual CV plus1 synthetic stage",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-fixed-fold1",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-fixed-fold2",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-fixed-fold3",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-fixed-fold4",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-fixed-fold5",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_1-fold1",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_1-fold2",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_1-fold3",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_1-fold4",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_1-fold5",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_2-fold1",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_2-fold2",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_2-fold3",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_2-fold4",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_2-fold5",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_3-fold1",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_3-fold2",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_3-fold3",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_3-fold4",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_3-fold5",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_4-fold1",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_4-fold2",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_4-fold3",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_4-fold4",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_4-fold5",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_5-fold1",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_5-fold2",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_5-fold3",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_5-fold4",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0-repeat_5-fold5",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-fixed-fold1",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-fixed-fold2",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-fixed-fold3",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-fixed-fold4",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-fixed-fold5",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_1-fold1",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_1-fold2",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_1-fold3",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_1-fold4",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_1-fold5",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_2-fold1",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_2-fold2",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_2-fold3",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_2-fold4",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_2-fold5",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_3-fold1",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_3-fold2",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_3-fold3",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_3-fold4",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_3-fold5",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_4-fold1",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_4-fold2",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_4-fold3",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_4-fold4",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_4-fold5",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_5-fold1",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_5-fold2",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_5-fold3",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_5-fold4",
+      "pass": true
+    },
+    {
+      "check": "fit stage B0_prime-repeat_5-fold5",
+      "pass": true
+    },
+    {
+      "check": "fit stage synthetic-real-estimator",
+      "pass": true
+    },
+    {
+      "check": "both fixed baselines precede all repeat stages",
+      "pass": true
+    },
+    {
+      "check": "lock start before first fit",
+      "pass": true
+    },
+    {
+      "check": "fit counts and result no hidden totals",
+      "pass": true
+    },
+    {
+      "check": "no OOF/model/test prediction persistence",
+      "pass": true
+    },
+    {
+      "check": "all external adapters disabled",
+      "pass": true
+    },
+    {
+      "check": "ledger not deriving S_v from missing scores",
+      "pass": true
+    },
+    {
+      "check": "ledger excludes row values",
+      "pass": true
+    },
+    {
+      "check": "protected old artifacts declaration",
+      "pass": true
+    }
+  ],
+  "A_actual_model_fits": 0,
+  "A_actual_preprocessor_fits": 0,
+  "competition_data_read": false,
+  "scope": "Public source, bound execution receipts and independently recomputed aggregate arithmetic; no A real CV rerun",
+  "B0_repeated": 72.47647400484871,
+  "B0_prime_repeated": 75.39352260217446,
+  "paired_mean": 2.9170485973257483,
+  "known_ledger_provenance_caveat": "Two hashes appear as uploaded_* with USER_REPLY source although A supplied audited-package reference hashes only. Request exact source wording or classify as reviewed_artifact reference; S_v remains UNKNOWN."
+}
