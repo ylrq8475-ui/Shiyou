@@ -1,0 +1,11 @@
+--- step1/train.py
++++ step2/train.py
+@@ -5,7 +5,7 @@
+ from fit_ledger import Ledger,fit_once
+ def run(a):
+     out=Path(a.output).resolve();require(not out.exists(),'TRAIN_OUTPUT_EXISTS_NO_REFIT');out.mkdir(parents=True)
+-    release=json.loads((HERE/'RELEASE_GATE.json').read_bytes());require(release['step1_passed'] and release['delta']>=1 and release['positive_folds']>=4,'STEP1_NOT_PASSED')
++    authorization=json.loads((HERE/'STEP2_AUTHORIZATION.json').read_bytes());require(authorization['step2_explicitly_authorized'] and authorization['R11_commit']=='012e9fe50efac3f051b48804bc724e39b703cc93' and authorization['step1_gate_passed'] is False,'R11_EXPLICIT_STEP2_AUTHORIZATION_REQUIRED')
+     policy,config=load_policy(a.policy or HERE/'runtime_policy.json');store=Inputs(a.data_dir)
+     try:history=load_train(store,config);panel,features,anchors,audit=build_train(history,config,policy)
+     finally:store.close()

@@ -1,0 +1,18 @@
+{
+  "test": "README interpreter routing counterexample",
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "competition_data_read": false,
+  "pip_or_dependency_download": false,
+  "synthetic_marker_only": true,
+  "document_installs_dependencies_into_dot_venv": true,
+  "document_later_uses_unqualified_python": true,
+  "document_has_no_activation_step": true,
+  "unqualified_python_is_different_from_created_venv": true,
+  "unqualified_python_can_import_venv_only_marker": false,
+  "explicit_venv_python_can_import_venv_only_marker": true,
+  "public_README_SHA256": "0ac4f6d9d5f0d1895da4a3a7aefe1396dc49271ec53b150e221101fc1f1703ae",
+  "finding_confirmed": true,
+  "scope": "Counterexample to complete fresh-environment README command chain, not evidence that B actual two training runs failed",
+  "official_reference": "https://docs.python.org/3.13/library/venv.html#how-venvs-work"
+}

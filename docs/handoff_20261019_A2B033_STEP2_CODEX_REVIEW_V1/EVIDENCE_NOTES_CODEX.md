@@ -1,0 +1,17 @@
+# 来源、范围与复核方法
+
+被审B：47077ee354a784bdf99444dd19adb7a8dac36d80，docs/handoff_20261019_A2B033_STEP2_B_V1。
+
+R11原文012e9fe50efac3f051b48804bc724e39b703cc93；原字节SHA256=407d536923bbbb6c6b03a2da6f686cf7e0321db6143ec63ffbc1cb64c332d414。
+
+SOURCE_IDENTITY_CODEX.json记录62份固定公开来源的Git blob、SHA256和字节数。公开材料通过GitHub连接器base64读取，避免换行规范化冒充原始字节；10模块按公开容器原文解码并核对SHA。未调用连接器传输任何原始数据或私有包。
+
+AGGREGATE_REVIEW_CODEX.json为229项静态及回执一致性检查；不代表229次真实数据检查。SYNTHETIC_RESULT_CODEX.json为37项合成检查（B10项+A27项）。README_INTERPRETER_PROBE_CODEX.json是独立解释器路由反例。
+
+没有真实模型/预处理拟合、赛事数据读取、旧模型升级、正式ZIP制作或平台提交。A创建的虚构契约ZIP仅用于测试linter，未发布且不是提交包。发布内容全部来自公开固定来源或纯合成审计。
+
+隐私边界：B44份文件均有已绑定扫描记录，10个源码容器条目也有解码扫描。本次A不持有真实标记清单，不声称对A交付做真实井号穷举扫描；A执行凭据、私有路径、井号模式通用扫描，并人工核对公开来源和无逐行结果输出。该限制在PRIVACY_SCAN_CODEX.json说明。
+
+为避免循环自哈希，隐私元数据自身与清单在序列化后也扫描，但不伪造内部自摘要；隐私文件由清单绑定，清单由固定Git blob与独立回取凭证绑定。报告登记卡记录首个审核快照，最终固定版链接和索引记录由发布后回取结果确定。
+
+复核源码需相同公开目录布局：sources/B033s2为被审B44文件；sources/step1为步骤1指定文件；SOURCE_IDENTITY_CODEX.json提供固定提交和路径。仅运行run_synthetic_review.py和audit_records.py，不运行train.py或B已完成执行入口。解释器探针使用无依赖空venv和虚构模块，不安装任何包。

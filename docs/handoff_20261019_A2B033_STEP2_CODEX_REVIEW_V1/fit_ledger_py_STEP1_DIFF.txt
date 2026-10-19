@@ -1,0 +1,11 @@
+--- step1/fit_ledger.py
++++ step2/fit_ledger.py
+@@ -8,7 +8,7 @@
+     def __init__(self,path):
+         self.path=Path(path);self.path.parent.mkdir(parents=True,exist_ok=True)
+         if self.path.exists():self.value=json.loads(self.path.read_bytes())
+-        else:self.value={'max_models':7,'max_preprocessors':7,'models_entered':0,'models_completed':0,'preprocessors_entered':0,'preprocessors_completed':0,'failures':0,'retries':0,'events':[]};self.save()
++        else:self.value={'max_models':2,'max_preprocessors':2,'models_entered':0,'models_completed':0,'preprocessors_entered':0,'preprocessors_completed':0,'failures':0,'retries':0,'events':[]};self.save()
+         require(not self.value['failures'],'PREVIOUS_FIT_FAILED_NO_RETRY')
+     def save(self):
+         temporary=self.path.with_suffix('.writing');temporary.write_bytes(encode(self.value));temporary.replace(self.path)

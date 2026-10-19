@@ -1,0 +1,35 @@
+--- a/README.md
++++ b/README.md
+@@ -12,26 +12,26 @@
+ 
+ ```text
+ python -m venv .venv
+-.venv\Scripts\python.exe -m pip install -r requirements.txt
++.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+ ```
+ 
+-Linux等环境使用`.venv/bin/python`。精确复现验收在Windows Python 3.13.7进行；其他操作系统的二进制一致性未签署。
++Linux等环境须将下方所有命令中的虚拟环境解释器路径统一替换为`./.venv/bin/python`；安装、训练、预测和合成检查使用同一个解释器。精确复现验收在Windows Python 3.13.7进行；其他操作系统的二进制一致性未签署。
+ 
+ 从官方原始数据从头训练再推理，无需修改代码、手工填数据或访问原工程/缓存：
+ 
+ ```text
+-python train.py --data_dir "D:/official_data" --output "./trained"
+-python predict.py --data_dir "D:/official_data" --model "./trained/B0_prime.joblib" --output "./result.zip"
++.\.venv\Scripts\python.exe train.py --data_dir "D:/official_data" --output "./trained"
++.\.venv\Scripts\python.exe predict.py --data_dir "D:/official_data" --model "./trained/B0_prime.joblib" --output "./result.zip"
+ ```
+ 
+ 如只需加载本包已训练模型进行推理，一条命令：
+ 
+ ```text
+-python predict.py --data_dir "D:/official_data" --output "./result.zip"
++.\.venv\Scripts\python.exe predict.py --data_dir "D:/official_data" --output "./result.zip"
+ ```
+ 
+ `--data_dir`可为赛事原始结构的数据目录，也可为原始赛事ZIP；不需要解压或复制原始数据。`--output`：train.py指定新模型目录，predict.py指定result.zip路径。输出路径必须未存在，避免覆盖或重复训练。目录包含原赛事相对结构，严格按随包私有runtime_policy.json配置的文件角色解析；该配置随正式私有包提供，不是隐藏文件。也可显式用`--policy`指定该文件。训练可选`--ledger`指定共享计数文件、`--stage`指定审计阶段；本轮实际两次全量训练共享计数器，失败不重试。运行前确保有对应训练授权，已成功完成的本轮阶段不要重复执行。
+ 
+-文件：train.py全量训练；predict.py只读合法历史、加载模型、推理、输出及linter；core.py特征与数据边界；csv_projection.py字节级键投影；fit_ledger.py逐次拟合计数；src/oil_uplift/为原方法模块；FROZEN_SOURCES.json保留10模块原始字节身份并在新目录缺少src时恢复；models/B0_prime.joblib含模型与预处理器；models/MODEL_RECEIPT.json校验模型；runtime_policy.json为本地赛事配置与输入身份，不上传GitHub；STEP2_AUTHORIZATION.json保留用户偏离门槛的授权。MODEL_PARAMETERS.json、ENVIRONMENT_REFERENCE.json提供参数和环境来源。test_033.py是零真实拟合的边界与预算合成检查，执行`python -m unittest -v test_033`。
++文件：train.py全量训练；predict.py只读合法历史、加载模型、推理、输出及linter；core.py特征与数据边界；csv_projection.py字节级键投影；fit_ledger.py逐次拟合计数；src/oil_uplift/为原方法模块；FROZEN_SOURCES.json保留10模块原始字节身份并在新目录缺少src时恢复；models/B0_prime.joblib含模型与预处理器；models/MODEL_RECEIPT.json校验模型；runtime_policy.json为本地赛事配置与输入身份，不上传GitHub；STEP2_AUTHORIZATION.json保留用户偏离门槛的授权。MODEL_PARAMETERS.json、ENVIRONMENT_REFERENCE.json提供参数和环境来源。test_033.py是零真实拟合的边界与预算合成检查，执行`.\.venv\Scripts\python.exe -m unittest -v test_033`。
+ 
+ result.zip根目录10个WELL_ID.csv，共120行，严格3列WELL_ID,NY,RCYL。推理入口禁止任何模型或学习型预处理拟合，并检查键、日期、顺序、重复、有限非负、平铺ZIP及CRC。正式包与模型、预测结果仅本地交付，匿名GitHub材料不包含私有配置、原始数据、权重或逐井预测。历史dtype身份仍UNKNOWN，依既有R5例外不阻止本轮，未回填旧证据。

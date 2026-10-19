@@ -1,0 +1,17 @@
+--- step1/test_033.py
++++ step2/test_033.py
+@@ -50,11 +50,11 @@
+         with temporary() as t:
+             ledger=Ledger(Path(t)/'ledger.json');ledger.run('model','a',lambda:None)
+             with self.assertRaises(RuntimeError):ledger.run('model','a',lambda:None)
+-    def test_seven_model_budget(self):
++    def test_two_model_budget(self):
+         with temporary() as t:
+             ledger=Ledger(Path(t)/'ledger.json')
+-            for i in range(7):ledger.run('model',str(i),lambda:None)
+-            with self.assertRaises(RuntimeError):ledger.run('model','eighth',lambda:None)
++            for i in range(2):ledger.run('model',str(i),lambda:None)
++            with self.assertRaises(RuntimeError):ledger.run('model','third',lambda:None)
+     def test_inference_fit_forbidden(self):
+         from sklearn.ensemble import ExtraTreesRegressor
+         with no_fits():

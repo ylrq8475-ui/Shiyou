@@ -1,0 +1,929 @@
+{
+  "scope": "Public original-byte source and B-receipt cross-checks, not A retraining or direct private ZIP inspection",
+  "reviewed_B_commit": "47077ee354a784bdf99444dd19adb7a8dac36d80",
+  "checks": [
+    {
+      "check": "44 published files",
+      "pass": true
+    },
+    {
+      "check": "manifest covers all other 43 files",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes AUTHORIZATION_AND_DEVIATION.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes CLEAN_REPRODUCTION.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes DEPLOYED_B0_AGGREGATE_COMPARISON.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes ENVIRONMENT_CLEAN.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes ENVIRONMENT_COMPARISON.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes ENVIRONMENT_FIRST.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes FIT_LEDGER_STEP2.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes FULL_CLEAN_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes FULL_FIRST_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes INSTRUCTION_ORIGINAL_R10.md",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes INSTRUCTION_ORIGINAL_R11.md",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes INTEGRITY_AFTER.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes LINTER_RESULTS.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes MODEL_PARAMETERS.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes PLAN_R11.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes PREDICT_CLEAN_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes PREDICT_FIRST_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes PREFIT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes PRIVATE_CODE_PACKAGE_MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes PUBLIC_CODE_TO_PRIVATE_PACKAGE.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes README.md",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes RECEIVED_CODEX_STEP1.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes REPORT_B.md",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes REQUEST_CODEX_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes RESULT_A2B033_STEP2.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes STEP2_AUTHORIZATION.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes STRUCTURE_AND_BOUNDARY.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes SYNTHETIC_CLEAN.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes SYNTHETIC_CLEAN_LOG.txt",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes SYNTHETIC_FIRST.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes WINDOW_POISON_CHECK.json",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes core.py",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes predict.py",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes privacy_check.py",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes test_033.py",
+      "pass": true
+    },
+    {
+      "check": "manifest bytes train.py",
+      "pass": true
+    },
+    {
+      "check": "44 unique privacy records",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration AUTHORIZATION_AND_DEVIATION.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity AUTHORIZATION_AND_DEVIATION.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration CLEAN_REPRODUCTION.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity CLEAN_REPRODUCTION.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration DEPLOYED_B0_AGGREGATE_COMPARISON.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity DEPLOYED_B0_AGGREGATE_COMPARISON.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration ENVIRONMENT_CLEAN.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity ENVIRONMENT_CLEAN.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration ENVIRONMENT_COMPARISON.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity ENVIRONMENT_COMPARISON.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration ENVIRONMENT_FIRST.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity ENVIRONMENT_FIRST.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration FIT_LEDGER_STEP2.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity FIT_LEDGER_STEP2.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration FULL_CLEAN_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity FULL_CLEAN_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration FULL_FIRST_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity FULL_FIRST_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration INSTRUCTION_ORIGINAL_R10.md",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity INSTRUCTION_ORIGINAL_R10.md",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration INSTRUCTION_ORIGINAL_R11.md",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity INSTRUCTION_ORIGINAL_R11.md",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration INTEGRITY_AFTER.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity INTEGRITY_AFTER.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration LINTER_RESULTS.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity LINTER_RESULTS.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration MODEL_PARAMETERS.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity MODEL_PARAMETERS.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration PLAN_R11.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity PLAN_R11.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration PREDICT_CLEAN_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity PREDICT_CLEAN_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration PREDICT_FIRST_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity PREDICT_FIRST_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration PREFIT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity PREFIT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "check": "metadata no circular hash PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration PRIVATE_CODE_PACKAGE_MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity PRIVATE_CODE_PACKAGE_MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration PUBLIC_CODE_TO_PRIVATE_PACKAGE.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity PUBLIC_CODE_TO_PRIVATE_PACKAGE.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration README.md",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity README.md",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration RECEIVED_CODEX_STEP1.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity RECEIVED_CODEX_STEP1.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration REPORT_B.md",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity REPORT_B.md",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration REQUEST_CODEX_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity REQUEST_CODEX_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration RESULT_A2B033_STEP2.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity RESULT_A2B033_STEP2.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration SHA256SUMS.json",
+      "pass": true
+    },
+    {
+      "check": "metadata no circular hash SHA256SUMS.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration STEP2_AUTHORIZATION.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity STEP2_AUTHORIZATION.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration STRUCTURE_AND_BOUNDARY.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity STRUCTURE_AND_BOUNDARY.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration SYNTHETIC_CLEAN.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity SYNTHETIC_CLEAN.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration SYNTHETIC_CLEAN_LOG.txt",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity SYNTHETIC_CLEAN_LOG.txt",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration SYNTHETIC_FIRST.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity SYNTHETIC_FIRST.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration WINDOW_POISON_CHECK.json",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity WINDOW_POISON_CHECK.json",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration core.py",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity core.py",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration predict.py",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity predict.py",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration privacy_check.py",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity privacy_check.py",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration test_033.py",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity test_033.py",
+      "pass": true
+    },
+    {
+      "check": "B privacy declaration train.py",
+      "pass": true
+    },
+    {
+      "check": "privacy exact file identity train.py",
+      "pass": true
+    },
+    {
+      "check": "ten decoded source scan records",
+      "pass": true
+    },
+    {
+      "check": "frozen decoded bytes src/oil_uplift/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "frozen decoded bytes src/oil_uplift/a2b013_safe.py",
+      "pass": true
+    },
+    {
+      "check": "frozen decoded bytes src/oil_uplift/training.py",
+      "pass": true
+    },
+    {
+      "check": "frozen decoded bytes src/oil_uplift/multistep.py",
+      "pass": true
+    },
+    {
+      "check": "frozen decoded bytes src/oil_uplift/models.py",
+      "pass": true
+    },
+    {
+      "check": "frozen decoded bytes src/oil_uplift/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "frozen decoded bytes src/oil_uplift/config.py",
+      "pass": true
+    },
+    {
+      "check": "frozen decoded bytes src/oil_uplift/io.py",
+      "pass": true
+    },
+    {
+      "check": "frozen decoded bytes src/oil_uplift/exceptions.py",
+      "pass": true
+    },
+    {
+      "check": "frozen decoded bytes src/oil_uplift/submission.py",
+      "pass": true
+    },
+    {
+      "check": "step1 unchanged core.py",
+      "pass": true
+    },
+    {
+      "check": "step1 unchanged csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "step1 unchanged predict.py",
+      "pass": true
+    },
+    {
+      "check": "step1 unchanged FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "21 dependency versions same",
+      "pass": true
+    },
+    {
+      "check": "prior requirement versions unchanged",
+      "pass": true
+    },
+    {
+      "check": "runtime fingerprints identical",
+      "pass": true
+    },
+    {
+      "check": "B isolated environment declaration",
+      "pass": true
+    },
+    {
+      "check": "all actual model parameters locked",
+      "pass": true
+    },
+    {
+      "check": "candidate panel identity same step1",
+      "pass": true
+    },
+    {
+      "check": "raw identity same step1",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity core.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity MODEL_PARAMETERS.json",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity predict.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity README.md",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity STEP2_AUTHORIZATION.json",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity test_033.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity train.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity src/oil_uplift/a2b013_safe.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity src/oil_uplift/config.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity src/oil_uplift/exceptions.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity src/oil_uplift/io.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity src/oil_uplift/models.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity src/oil_uplift/multistep.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity src/oil_uplift/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity src/oil_uplift/submission.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity src/oil_uplift/training.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity src/oil_uplift/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity PLAN_R11.json",
+      "pass": true
+    },
+    {
+      "check": "prefit source identity AUTHORIZATION_AND_DEVIATION.json",
+      "pass": true
+    },
+    {
+      "check": "R11 original exact",
+      "pass": true
+    },
+    {
+      "check": "explicit override and original failed gate preserved",
+      "pass": true
+    },
+    {
+      "check": "exactly two fits each",
+      "pass": true
+    },
+    {
+      "check": "zero failed/retried fits",
+      "pass": true
+    },
+    {
+      "check": "eight chronological actual events",
+      "pass": true
+    },
+    {
+      "check": "event sequence full-first",
+      "pass": true
+    },
+    {
+      "check": "event sequence full-clean-reproduction",
+      "pass": true
+    },
+    {
+      "check": "no OOF refits/test fits/platform uploads",
+      "pass": true
+    },
+    {
+      "check": "cumulative accounting inherited five plus two",
+      "pass": true
+    },
+    {
+      "check": "actual CLI exit FULL_FIRST_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "actual CLI fit counts FULL_FIRST_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "actual CLI exit FULL_CLEAN_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "actual CLI fit counts FULL_CLEAN_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "actual CLI exit PREDICT_FIRST_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "inference CLI fit counts PREDICT_FIRST_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "actual CLI exit PREDICT_CLEAN_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "inference CLI fit counts PREDICT_CLEAN_CLI.json",
+      "pass": true
+    },
+    {
+      "check": "declared package size crc identity",
+      "pass": true
+    },
+    {
+      "check": "public/package member train.py",
+      "pass": true
+    },
+    {
+      "check": "public/package member predict.py",
+      "pass": true
+    },
+    {
+      "check": "public/package member core.py",
+      "pass": true
+    },
+    {
+      "check": "public/package member csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "public/package member fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "public/package member FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "public/package member requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "public/package member README.md",
+      "pass": true
+    },
+    {
+      "check": "public/package member test_033.py",
+      "pass": true
+    },
+    {
+      "check": "public/package member MODEL_PARAMETERS.json",
+      "pass": true
+    },
+    {
+      "check": "public/package member STEP2_AUTHORIZATION.json",
+      "pass": true
+    },
+    {
+      "check": "original module package binding src/oil_uplift/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "original module package binding src/oil_uplift/a2b013_safe.py",
+      "pass": true
+    },
+    {
+      "check": "original module package binding src/oil_uplift/training.py",
+      "pass": true
+    },
+    {
+      "check": "original module package binding src/oil_uplift/multistep.py",
+      "pass": true
+    },
+    {
+      "check": "original module package binding src/oil_uplift/models.py",
+      "pass": true
+    },
+    {
+      "check": "original module package binding src/oil_uplift/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "original module package binding src/oil_uplift/config.py",
+      "pass": true
+    },
+    {
+      "check": "original module package binding src/oil_uplift/io.py",
+      "pass": true
+    },
+    {
+      "check": "original module package binding src/oil_uplift/exceptions.py",
+      "pass": true
+    },
+    {
+      "check": "original module package binding src/oil_uplift/submission.py",
+      "pass": true
+    },
+    {
+      "check": "private runtime policy binding",
+      "pass": true
+    },
+    {
+      "check": "reported actual clean training and exact 120 comparison",
+      "pass": true
+    },
+    {
+      "check": "two result ZIP and model hashes identical",
+      "pass": true
+    },
+    {
+      "check": "ten CSV hashes identical",
+      "pass": true
+    },
+    {
+      "check": "linter first",
+      "pass": true
+    },
+    {
+      "check": "linter clean",
+      "pass": true
+    },
+    {
+      "check": "reported actual cutoff identities",
+      "pass": true
+    },
+    {
+      "check": "B unchanged old/raw statement",
+      "pass": true
+    },
+    {
+      "check": "aggregate comparison counts and monotonic quantiles",
+      "pass": true
+    },
+    {
+      "check": "platform score only user evidence",
+      "pass": true
+    },
+    {
+      "check": "final B commit adds no other paths",
+      "pass": true
+    }
+  ],
+  "passed": 229,
+  "failed": 0,
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "raw_data_read": false,
+  "private_packages_downloaded": false,
+  "README_defect_separate": "CODEX-033-S2-01 P1; these identity checks do not assess interpreter routing"
+}
