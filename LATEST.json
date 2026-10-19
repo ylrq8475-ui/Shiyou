@@ -515,6 +515,22 @@
         "PLATFORM-APPROVAL P3：本次未授权平台上传或最终指定；新版代码包SHA256 7767b7ca28bfbf0ad9e427942c8416be35053e1e9a32b8a1eed50478fff72c6b"
       ],
       "published_at": "2026-10-19T16:34:38.405632+08:00"
+    },
+    {
+      "task": "A2B-033-R11-FIX-01/步骤2 README修复独立复核",
+      "role": "Codex",
+      "commit": "00de1dbfeacd8b8438648190f8e790ee5bda9ed3",
+      "report_path": "docs/handoff_20261019_A2B033_R11_FIX01_CODEX_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261019_A2B033_R11_FIX01_CODEX_V1/RESULT_CODEX.json",
+      "reviews_commit": "c357689ebbc7ba15b35cb9108ca867278bfdd066",
+      "hard_gates": "泄漏／错位／井级隔离／指标：通过（继承原步骤2未变代码及已审证据）；157项一致性、10项纯合成及PowerShell路径探针通过；CODEX-033-S2-01 P1关闭",
+      "decision_row": "提交包是否可进入上传批准：是。限代码包7767b7ca28bfbf0ad9e427942c8416be35053e1e9a32b8a1eed50478fff72c6b和结果包9670e0d0bbea8e2720e53d032883f91900df65abe49b0da5c4642f755f3084de；用户须另行批准上传，不新增训练。",
+      "open_unknowns": [
+        "HIST-DTYPE P1 历史加载身份链UNKNOWN，既有R5用户例外继承，不在本次关闭",
+        "PLATFORM-B0-BINDING P2 86.2003仍为用户历史报分，实际旧上传包未独立绑定",
+        "PLATFORM-APPROVAL P3 尚未批准新版包上传或最终指定；原3/5弱信号与R11用户偏离授权不变"
+      ],
+      "published_at": "2026-10-19T17:00:09.000+08:00"
     }
   ]
 }
