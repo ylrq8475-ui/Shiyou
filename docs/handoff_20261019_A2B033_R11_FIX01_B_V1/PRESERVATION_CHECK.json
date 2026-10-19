@@ -1,0 +1,16 @@
+{
+  "checked_existing_files": 81,
+  "all_existing_files_unchanged": true,
+  "old_code_ZIP_preserved": true,
+  "result_ZIP_sha256": "9670e0d0bbea8e2720e53d032883f91900df65abe49b0da5c4642f755f3084de",
+  "result_ZIP_bytes": 3074,
+  "result_ZIP_unchanged": true,
+  "model_member_unchanged": true,
+  "model_sha256": "92534c2bd5f2f0d5e5167740b2a66e42c877a834dc22f1471a375c7a0e3e3ac1",
+  "private_policy_member_unchanged": true,
+  "private_policy_sha256": "62a4cf2ef74f59699a87638e84975893da7caf79e16b59db11cd341ed6ac1f2b",
+  "all_algorithm_source_members_unchanged": true,
+  "requirements_unchanged": true,
+  "old_fit_ledgers_unchanged": true,
+  "old_frozen_sources_config_environment_not_modified": true
+}

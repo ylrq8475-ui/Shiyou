@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "static_only": true,
+  "bootstrap": "python -m venv .venv (Python 3.13.7)",
+  "Windows_runtime_interpreter": ".venv\\Scripts\\python.exe",
+  "Linux_runtime_interpreter": ".venv/bin/python",
+  "pip_install_command_uses_same_venv": true,
+  "train_commands": 1,
+  "predict_commands": 2,
+  "synthetic_command": 1,
+  "remaining_bare_train_predict_test_commands": 0,
+  "unchanged_arguments_and_outputs": true,
+  "reverse_replacements_recover_exact_original_README": true,
+  "replacements": [
+    {
+      "old": "python train.py ",
+      "new": ".venv\\Scripts\\python.exe train.py ",
+      "occurrences": 1
+    },
+    {
+      "old": "python predict.py ",
+      "new": ".venv\\Scripts\\python.exe predict.py ",
+      "occurrences": 2
+    },
+    {
+      "old": "`python -m unittest -v test_033`",
+      "new": "`.venv\\Scripts\\python.exe -m unittest -v test_033`",
+      "occurrences": 1
+    }
+  ],
+  "runtime_training_or_prediction_executed": false,
+  "new_model_fits": 0,
+  "new_preprocessor_fits": 0
+}

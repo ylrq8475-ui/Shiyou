@@ -1,0 +1,9 @@
+{
+  "old_B_commit": "47077ee354a784bdf99444dd19adb7a8dac36d80",
+  "review_commit": "3ed4d57337b3805a3b40457ff66dc45c7ecde8e4",
+  "review_source_sha256": "29c5d0e5af1fe9e3c9cbdb7ece5586394826efac75febee3f75ef5a8c095e797",
+  "R11_commit": "012e9fe50efac3f051b48804bc724e39b703cc93",
+  "user_authorization_source": "current user message, archived verbatim in AUTHORIZATION_FIX01.md",
+  "task_scope": "README interpreter chain only, zero fit, preserve old artifacts, no platform upload",
+  "task_approval_is_not_P1_closure": true
+}

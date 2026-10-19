@@ -1,0 +1,209 @@
+{
+  "old_B_commit": "47077ee354a784bdf99444dd19adb7a8dac36d80",
+  "members": 25,
+  "same_member_order_and_names": true,
+  "only_changed_member": "README.md",
+  "unchanged_members": 24,
+  "records": [
+    {
+      "path": "ENVIRONMENT_REFERENCE.json",
+      "old_sha256": "f723f3ea8ffef80d06d8c0c97611f6a6287b42b41300c7ad86b97fbeece2632b",
+      "new_sha256": "f723f3ea8ffef80d06d8c0c97611f6a6287b42b41300c7ad86b97fbeece2632b",
+      "old_bytes": 845,
+      "new_bytes": 845,
+      "unchanged": true
+    },
+    {
+      "path": "FROZEN_SOURCES.json",
+      "old_sha256": "4c7b6873ff27bfe47b2c5ff233624533afbbbfdf03cb5063b0f4c5595ac07a60",
+      "new_sha256": "4c7b6873ff27bfe47b2c5ff233624533afbbbfdf03cb5063b0f4c5595ac07a60",
+      "old_bytes": 99486,
+      "new_bytes": 99486,
+      "unchanged": true
+    },
+    {
+      "path": "MODEL_PARAMETERS.json",
+      "old_sha256": "22c66726c9a8344bcdf0e388c79966569752674594ab7c3e2a27d5dd4f1bc69b",
+      "new_sha256": "22c66726c9a8344bcdf0e388c79966569752674594ab7c3e2a27d5dd4f1bc69b",
+      "old_bytes": 442,
+      "new_bytes": 442,
+      "unchanged": true
+    },
+    {
+      "path": "README.md",
+      "old_sha256": "0ac4f6d9d5f0d1895da4a3a7aefe1396dc49271ec53b150e221101fc1f1703ae",
+      "new_sha256": "03cd036a3b935ffa5c6792b92e961730da1bd20c11be2ec64f30b4d983e79813",
+      "old_bytes": 4734,
+      "new_bytes": 5009,
+      "unchanged": false
+    },
+    {
+      "path": "STEP2_AUTHORIZATION.json",
+      "old_sha256": "8670b9fa74200408285afdd47f13a78a1822ea5dcc1ede0af40dc22fa5c65f16",
+      "new_sha256": "8670b9fa74200408285afdd47f13a78a1822ea5dcc1ede0af40dc22fa5c65f16",
+      "old_bytes": 635,
+      "new_bytes": 635,
+      "unchanged": true
+    },
+    {
+      "path": "core.py",
+      "old_sha256": "4a8c230e4eb626cfaa60bb34a3387d383579f48e0d130818de99917c4ad50a1c",
+      "new_sha256": "4a8c230e4eb626cfaa60bb34a3387d383579f48e0d130818de99917c4ad50a1c",
+      "old_bytes": 13450,
+      "new_bytes": 13450,
+      "unchanged": true
+    },
+    {
+      "path": "csv_projection.py",
+      "old_sha256": "6979f0366b729a8ed32396569aa2a7837d4d409301dbfb09632267a338937c0c",
+      "new_sha256": "6979f0366b729a8ed32396569aa2a7837d4d409301dbfb09632267a338937c0c",
+      "old_bytes": 6412,
+      "new_bytes": 6412,
+      "unchanged": true
+    },
+    {
+      "path": "fit_ledger.py",
+      "old_sha256": "c4e9b63fb8ab77a517f8ccc7b614ea906e9d7486f126b4122e9eaa17dec02779",
+      "new_sha256": "c4e9b63fb8ab77a517f8ccc7b614ea906e9d7486f126b4122e9eaa17dec02779",
+      "old_bytes": 2536,
+      "new_bytes": 2536,
+      "unchanged": true
+    },
+    {
+      "path": "models/B0_prime.joblib",
+      "old_sha256": "92534c2bd5f2f0d5e5167740b2a66e42c877a834dc22f1471a375c7a0e3e3ac1",
+      "new_sha256": "92534c2bd5f2f0d5e5167740b2a66e42c877a834dc22f1471a375c7a0e3e3ac1",
+      "old_bytes": 2388987,
+      "new_bytes": 2388987,
+      "unchanged": true
+    },
+    {
+      "path": "models/MODEL_RECEIPT.json",
+      "old_sha256": "90f28426c3ad9fb7cf32130ba35b0a2e32677afbc692e391a9b817054c887428",
+      "new_sha256": "90f28426c3ad9fb7cf32130ba35b0a2e32677afbc692e391a9b817054c887428",
+      "old_bytes": 1968,
+      "new_bytes": 1968,
+      "unchanged": true
+    },
+    {
+      "path": "predict.py",
+      "old_sha256": "2c2644dde002f656eb17950a490d5ac9cde846e1e73250f3f731c737e2643a85",
+      "new_sha256": "2c2644dde002f656eb17950a490d5ac9cde846e1e73250f3f731c737e2643a85",
+      "old_bytes": 2291,
+      "new_bytes": 2291,
+      "unchanged": true
+    },
+    {
+      "path": "requirements.txt",
+      "old_sha256": "44f9e68064630e1be9fa8614521f5df4ce8fb640a4bd18827224aa89841e4bce",
+      "new_sha256": "44f9e68064630e1be9fa8614521f5df4ce8fb640a4bd18827224aa89841e4bce",
+      "old_bytes": 349,
+      "new_bytes": 349,
+      "unchanged": true
+    },
+    {
+      "path": "runtime_policy.json",
+      "old_sha256": "62a4cf2ef74f59699a87638e84975893da7caf79e16b59db11cd341ed6ac1f2b",
+      "new_sha256": "62a4cf2ef74f59699a87638e84975893da7caf79e16b59db11cd341ed6ac1f2b",
+      "old_bytes": 23287,
+      "new_bytes": 23287,
+      "unchanged": true
+    },
+    {
+      "path": "src/oil_uplift/__init__.py",
+      "old_sha256": "b14e51df20e0d8c8e2abc3646d6cac8e26e015a797f3fa5138fb1f2c20bde30c",
+      "new_sha256": "b14e51df20e0d8c8e2abc3646d6cac8e26e015a797f3fa5138fb1f2c20bde30c",
+      "old_bytes": 82,
+      "new_bytes": 82,
+      "unchanged": true
+    },
+    {
+      "path": "src/oil_uplift/a2b013_safe.py",
+      "old_sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+      "new_sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+      "old_bytes": 24524,
+      "new_bytes": 24524,
+      "unchanged": true
+    },
+    {
+      "path": "src/oil_uplift/config.py",
+      "old_sha256": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68",
+      "new_sha256": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68",
+      "old_bytes": 2549,
+      "new_bytes": 2549,
+      "unchanged": true
+    },
+    {
+      "path": "src/oil_uplift/exceptions.py",
+      "old_sha256": "2b3aef27c352bad4558d98ca964d21f4881468e6a63c4bc3ff7bc919a7ad26c9",
+      "new_sha256": "2b3aef27c352bad4558d98ca964d21f4881468e6a63c4bc3ff7bc919a7ad26c9",
+      "old_bytes": 548,
+      "new_bytes": 548,
+      "unchanged": true
+    },
+    {
+      "path": "src/oil_uplift/io.py",
+      "old_sha256": "cf788f19399b7a867260a5a4f84bb630735a639410fc17092244ebcb9bcd18c3",
+      "new_sha256": "cf788f19399b7a867260a5a4f84bb630735a639410fc17092244ebcb9bcd18c3",
+      "old_bytes": 4910,
+      "new_bytes": 4910,
+      "unchanged": true
+    },
+    {
+      "path": "src/oil_uplift/models.py",
+      "old_sha256": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02",
+      "new_sha256": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02",
+      "old_bytes": 3013,
+      "new_bytes": 3013,
+      "unchanged": true
+    },
+    {
+      "path": "src/oil_uplift/multistep.py",
+      "old_sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b",
+      "new_sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b",
+      "old_bytes": 22790,
+      "new_bytes": 22790,
+      "unchanged": true
+    },
+    {
+      "path": "src/oil_uplift/scoring.py",
+      "old_sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235",
+      "new_sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235",
+      "old_bytes": 9223,
+      "new_bytes": 9223,
+      "unchanged": true
+    },
+    {
+      "path": "src/oil_uplift/submission.py",
+      "old_sha256": "d39b25ce75b452a9bf7dcb439aa1a68bdc3bbb822b9e9a2f56cd0565f1502612",
+      "new_sha256": "d39b25ce75b452a9bf7dcb439aa1a68bdc3bbb822b9e9a2f56cd0565f1502612",
+      "old_bytes": 5778,
+      "new_bytes": 5778,
+      "unchanged": true
+    },
+    {
+      "path": "src/oil_uplift/training.py",
+      "old_sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+      "new_sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+      "old_bytes": 19812,
+      "new_bytes": 19812,
+      "unchanged": true
+    },
+    {
+      "path": "test_033.py",
+      "old_sha256": "d21e7b58faa239e189139baa2be4bd791c78c21eb48d82aef4d27139c9d2aecb",
+      "new_sha256": "d21e7b58faa239e189139baa2be4bd791c78c21eb48d82aef4d27139c9d2aecb",
+      "old_bytes": 5818,
+      "new_bytes": 5818,
+      "unchanged": true
+    },
+    {
+      "path": "train.py",
+      "old_sha256": "7c14f241858cc90cb6b95dd05ea4b70674ebc8fcc532c2c4a52bcb32341b8142",
+      "new_sha256": "7c14f241858cc90cb6b95dd05ea4b70674ebc8fcc532c2c4a52bcb32341b8142",
+      "old_bytes": 2256,
+      "new_bytes": 2256,
+      "unchanged": true
+    }
+  ]
+}

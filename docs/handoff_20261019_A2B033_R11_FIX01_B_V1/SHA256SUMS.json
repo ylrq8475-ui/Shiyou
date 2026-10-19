@@ -1,0 +1,101 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/AUTHORIZATION_FIX01.md",
+      "sha256": "97c6b461ebbb5fda98d90f061bf186aaebfface7beb571d6bb306e8352b64662",
+      "bytes": 634
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/FIT_COUNTS.json",
+      "sha256": "dbd6e4f823b1a5be6b8c72b030ef22d994212e6ab96447d6bfbcfb0ea46dc999",
+      "bytes": 612
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/FIX_PLAN.json",
+      "sha256": "79129f3741e171daa9f854056e8a46f1752596536784f43373b487b37ef019af",
+      "bytes": 649
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/MEMBER_SHA256_COMPARISON.json",
+      "sha256": "26e2aa2325ab144fabd086b5e94e346ed3e299c9cd0891b8029a8c8e70bc3ffa",
+      "bytes": 7739
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/NEW_CODE_PACKAGE_MANIFEST.json",
+      "sha256": "681a66b706fc42a4df4daf5bb8832679584617880ac17be72991d1139fda8dbd",
+      "bytes": 2627
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/PRESERVATION_CHECK.json",
+      "sha256": "38503a0705d5773097ac09e57e37cc1ca1a325d547185b139e18d71b5ab817a1",
+      "bytes": 701
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "cc3cd405632059cb8829d308e05c57ba6d40f1b92329c91fcf4f635f7acf50c9",
+      "bytes": 3505
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": "f97a538646bfb77871c1f23ed5dc9a0f3980565abf81ab2ea7a10427a55d3fae",
+      "bytes": 10212
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/README.md",
+      "sha256": "03cd036a3b935ffa5c6792b92e961730da1bd20c11be2ec64f30b4d983e79813",
+      "bytes": 5009
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/README_COMMAND_CHECK.json",
+      "sha256": "eed506689b135393d3c2833922a832f50b6189e5fa66216bced460e107f5f78c",
+      "bytes": 1022
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/README_ONLY.diff",
+      "sha256": "bd321462c1f028103df0426d76984815675904f13de632c61acbcb26b210ed51",
+      "bytes": 4035
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/README_PREVIOUS.md",
+      "sha256": "0ac4f6d9d5f0d1895da4a3a7aefe1396dc49271ec53b150e221101fc1f1703ae",
+      "bytes": 4734
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/RECEIVED_REVIEW_CODEX.json",
+      "sha256": "29c5d0e5af1fe9e3c9cbdb7ece5586394826efac75febee3f75ef5a8c095e797",
+      "bytes": 3173
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/REPORT_B.md",
+      "sha256": "05cf50bbadebcdd6a1c3081cc07f168e8494f5062ce67a3cdf613c8c6f5b776a",
+      "bytes": 6187
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/REQUEST_A2_CODEX_READONLY_REVIEW.md",
+      "sha256": "c98424fb663cca9d1c6fe3476bbb25e27a07260ea902f7877f5dbcc93cb04838",
+      "bytes": 1221
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/RESULT_FIX01.json",
+      "sha256": "2a7ca9805f0b1efde5a9f18b0e3c3be853cab555334cf1f1af00a58db91eadfd",
+      "bytes": 1722
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/SOURCE_RECEIPT.json",
+      "sha256": "1058f1ca78ce4b28a5dc35a063664bd2a141e251738887a6ac13c6b4f38b90fa",
+      "bytes": 528
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/build_fix.py",
+      "sha256": "84a2f3853bbbf5f14ce1300699c3cb1a8b532dc8d0e39840edb320c8b6fac913",
+      "bytes": 10931
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/privacy_check.py",
+      "sha256": "e52a19d76adc07ae5c84cac4ef81caf5b0a0a96dcb2d2cb95e69f03102585ffb",
+      "bytes": 8110
+    }
+  ],
+  "self_exclusion": "own digest bound by fixed Git blob and remote byte receipt; own final bytes privacy scanned"
+}

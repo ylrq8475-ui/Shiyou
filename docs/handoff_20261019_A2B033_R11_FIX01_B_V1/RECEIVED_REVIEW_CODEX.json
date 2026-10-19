@@ -1,0 +1,105 @@
+{
+  "task": "A2B-033/步骤2",
+  "role": "Codex",
+  "signature": "账户A2（新接手）独立审核与交付",
+  "reviews_commit": "47077ee354a784bdf99444dd19adb7a8dac36d80",
+  "instruction_commit": "012e9fe50efac3f051b48804bc724e39b703cc93",
+  "instruction_sha256": "407d536923bbbb6c6b03a2da6f686cf7e0321db6143ec63ffbc1cb64c332d414",
+  "publication_snapshot_commit": "329334c22a0b2e17f6e301f619d4a7fc9002bbb8",
+  "hard_gates": {
+    "leakage": "PASS",
+    "alignment": "PASS",
+    "well_isolation": "PASS",
+    "official_metric": "PASS",
+    "scope": "Fixed source, inherited step1 review, B-bound receipts and A synthetic tests; no A real-data refitting"
+  },
+  "items": [
+    {
+      "item": 1,
+      "status": "PASS"
+    },
+    {
+      "item": 2,
+      "status": "PASS"
+    },
+    {
+      "item": 3,
+      "status": "PASS",
+      "scope": "B source/receipts"
+    },
+    {
+      "item": 4,
+      "status": "FAIL",
+      "severity": "P1",
+      "issue": "CODEX-033-S2-01",
+      "missing": "Consistent virtual-environment interpreter commands and revised code-package identity"
+    },
+    {
+      "item": 5,
+      "status": "PASS",
+      "scope": "B-bound actual clean reproduction, not A fresh real-data training"
+    },
+    {
+      "item": 6,
+      "status": "PASS",
+      "scope": "44 published files plus ten decoded source entries"
+    },
+    {
+      "item": 7,
+      "status": "PASS",
+      "scope": "Append Codex record after final original-byte return verification; reviews_commit bound to reviewed B"
+    }
+  ],
+  "upload_approval_ready": false,
+  "decision_row": "提交包是否可进入上传批准：否。",
+  "new_blocking_P1": 1,
+  "new_P0_findings": 0,
+  "open_issues": [
+    {
+      "id": "CODEX-033-S2-01",
+      "severity": "P1",
+      "status": "OPEN_CONFIRMED_README_INTERPRETER_MISMATCH"
+    },
+    {
+      "id": "HIST-DTYPE",
+      "severity": "P1",
+      "status": "UNKNOWN_INHERITED_R5_USER_EXCEPTION"
+    },
+    {
+      "id": "PLATFORM-B0-BINDING",
+      "severity": "P2",
+      "status": "UNKNOWN_HISTORICAL_USER_SCORE_NOT_UPLOADED_HASH"
+    },
+    {
+      "id": "PLATFORM-APPROVAL",
+      "severity": "P3",
+      "status": "NOT_AUTHORIZED"
+    }
+  ],
+  "original_step1_gate_passed": false,
+  "user_R11_override_preserved": true,
+  "step1_score": 76.33261832127738,
+  "step1_delta": 2.6185109826630395,
+  "positive_folds": 3,
+  "B_step2_model_fits": 2,
+  "B_step2_preprocessor_fits": 2,
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "A_competition_data_read": false,
+  "A_synthetic_tests": 37,
+  "A_record_checks": 229,
+  "B_clean_values_compared": 120,
+  "B_clean_maximum_absolute_difference": 0,
+  "result_zip": {
+    "sha256": "9670e0d0bbea8e2720e53d032883f91900df65abe49b0da5c4642f755f3084de",
+    "bytes": 3074
+  },
+  "submission_code_zip": {
+    "sha256": "75943e9244606400d3addd218589069a51519fc2a69af96f8f4633c6f15e241f",
+    "bytes": 2455727
+  },
+  "real_private_packages_downloaded": false,
+  "raw_or_per_well_data_published": false,
+  "platform_uploads": 0,
+  "next_step": "User-approved README-only correction and new versioned code ZIP with unchanged model/result/algorithm identities, zero fits, then A readonly review"
+}

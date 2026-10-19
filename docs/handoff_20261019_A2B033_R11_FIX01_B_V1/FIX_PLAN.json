@@ -1,0 +1,16 @@
+{
+  "task": "A2B-033-R11-FIX-01",
+  "only_change": "README explicit virtual environment interpreter for train, predict and synthetic commands, plus interpreter guidance",
+  "new_code_ZIP_separate_version_directory": true,
+  "preserve_old_ZIP": true,
+  "members_must_change": [
+    "README.md"
+  ],
+  "all_other_24_members_must_be_identical": true,
+  "models_and_preprocessors_fit_budget": 0,
+  "training_or_inference_commands_must_not_run": true,
+  "no_platform_upload": true,
+  "CODEX-033-S2-01": "P1 awaiting independent readonly recheck; B does not close",
+  "HIST-DTYPE": "P1 unchanged",
+  "do_not_claim_new_clean_training_reproduction": true
+}
