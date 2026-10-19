@@ -432,6 +432,22 @@
         "A033-STEP2-ACCEPTANCE P3 步骤2未触发：无完整提交包、120行干净环境复现与linter实际验收；预备源码不等于可上传包"
       ],
       "published_at": "2026-10-19T14:53:33+08:00"
+    },
+    {
+      "task": "A2B-033/步骤2（用户越过4/5门槛）+上传后预注册核对",
+      "role": "Claude",
+      "commit": "012e9fe50efac3f051b48804bc724e39b703cc93",
+      "report_path": "docs/handoff_20261019_A2B033_CLAUDE_INSTRUCTIONS_R11/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "用户决定偏离锁定门槛：B0′ 3/5折为正仍作保留候选（+2.6185）",
+        "上传与指定最终提交待Codex审核提交包后另行批准；上传后按R11③判读，S′≥79.0则指定",
+        "逐井配对证据与A2B-034未获批"
+      ],
+      "published_at": "2026-10-19T15:30:00+08:00"
     }
   ]
 }
