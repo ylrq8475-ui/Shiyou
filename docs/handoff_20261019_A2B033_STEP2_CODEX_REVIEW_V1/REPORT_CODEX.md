@@ -3,7 +3,7 @@
 任务编号/阶段：A2B-033/步骤2，按R11②独立审核
 角色：Codex审核；账户A2（新接手）独立审核与交付
 分支：codex/a2b033-step2-codex-review-20261019
-完整提交号（40位）：PUBLICATION_SNAPSHOT_PENDING（本审核结果首个固定快照；最终回取版本及索引由交付固定链接绑定）
+完整提交号（40位）：329334c22a0b2e17f6e301f619d4a7fc9002bbb8（本审核结果首个固定快照；最终回取版本及索引由交付固定链接绑定）
 目录路径：docs/handoff_20261019_A2B033_STEP2_CODEX_REVIEW_V1
 结果文件路径（单个JSON）：docs/handoff_20261019_A2B033_STEP2_CODEX_REVIEW_V1/RESULT_CODEX.json
 被审B提交号（40位）：47077ee354a784bdf99444dd19adb7a8dac36d80
