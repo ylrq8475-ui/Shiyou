@@ -1,0 +1,10 @@
+{
+  "max_models": 7,
+  "max_preprocessors": 7,
+  "models_entered": 5,
+  "models_completed": 5,
+  "preprocessors_entered": 5,
+  "preprocessors_completed": 5,
+  "failures": 0,
+  "retries": 0
+}

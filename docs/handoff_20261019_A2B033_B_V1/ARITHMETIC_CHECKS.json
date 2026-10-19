@@ -1,0 +1,15 @@
+{
+  "candidate_weighted_fold_score": 76.33261832127738,
+  "candidate_vs_reported_difference": 0.0,
+  "baseline_weighted_fold_score": 73.71410733861433,
+  "baseline_vs_reported_difference": -1.4210854715202004e-14,
+  "paired_deltas_match": true,
+  "positive_fold_count_recomputed": 3,
+  "delta_recomputed": 2.6185109826630395,
+  "relative_to_P2_recomputed": 5.031898400860172,
+  "loss_vs_score_difference": -5.551115123125783e-17,
+  "retain_gate": false,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "official_fold_aggregation": "17/16/16/16/16 wells, not unweighted fold mean"
+}

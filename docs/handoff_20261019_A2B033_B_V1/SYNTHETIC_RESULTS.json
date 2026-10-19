@@ -1,0 +1,8 @@
+{
+  "tests": 10,
+  "passed": true,
+  "real_model_fits": 0,
+  "real_preprocessor_fits": 0,
+  "simulated_ledger_tests_not_real_fits": true,
+  "prefit_debug": "Initial synthetic ledger temp writes were unavailable in default temporary root; moved to this task synthetic_records, no real fit failure or retry."
+}

@@ -1,0 +1,53 @@
+{
+  "task": "A2B-033",
+  "role": "账户B执行与交付",
+  "R10_commit": "55adffb975204493cdc75567de8d74fc82dd3a73",
+  "R10_sha256": "703ed8265078abac88128c8422ce39f815acb62ac22e66a2812c95cb010107c3",
+  "T4_commit": "ce76e2ba0c3296f22f18a67bf212c05091b14573",
+  "model_fit_budget": 7,
+  "preprocessor_fit_budget": 7,
+  "model_stages": {
+    "OOF": 5,
+    "full": 1,
+    "clean_reproduction": 1
+  },
+  "retry_budget": 0,
+  "stop_on_any_fit_failure": true,
+  "only_change": "all history features and raw last RCYL scale cutoff M-1 -> T0-1; train T0=M+1",
+  "target": "M+1..M+12 unchanged",
+  "features": 325,
+  "model": {
+    "n_estimators": 400,
+    "min_samples_leaf": 6,
+    "max_features": 0.75,
+    "random_state": 20260916,
+    "n_jobs": -1,
+    "remaining": "original locked ExtraTrees defaults"
+  },
+  "folds": "GroupKFold5 shuffle=False, identical indices",
+  "retain_gate": {
+    "delta_at_least": 1.0,
+    "positive_folds_at_least": 4,
+    "all_hard_gates": true
+  },
+  "baseline": 73.71410733861434,
+  "baseline_fold_scores": [
+    71.45331390948151,
+    77.53642908897099,
+    75.12924056181325,
+    64.62686399621428,
+    79.96598872591244
+  ],
+  "P2_reference": 71.30071992041721,
+  "test_window_all_dynamic_decode": 0,
+  "feature_lag_rolling_trend": "unchanged original observed-row definitions; no new calendar reindexing",
+  "parallelism": {
+    "folds": 1,
+    "model_n_jobs": -1,
+    "BLAS_OpenMP": 1,
+    "prediction_backend": "sequential to enforce deterministic summation, model parameters unchanged"
+  },
+  "private_policy_sha256": "62a4cf2ef74f59699a87638e84975893da7caf79e16b59db11cd341ed6ac1f2b",
+  "historical_dtype": "UNKNOWN P1; R5 exception inherited",
+  "formal_platform_upload": false
+}

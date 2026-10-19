@@ -1,0 +1,712 @@
+{
+  "role": "账户B执行与交付",
+  "task": "A2B-033/R10",
+  "time": "2026-10-19T14:19:56.733309+08:00",
+  "published_files": 35,
+  "scan_records": 35,
+  "all_pass": true,
+  "exemptions": 0,
+  "marker_counts": {
+    "well": 98,
+    "date": 78,
+    "month": 78,
+    "candidate": 2
+  },
+  "public_context_review": "Exact known well/date/month/private-event markers from authorized training files and manifest-bound test filenames; no test CSV, plan, layer or model parsed by this scanner; numeric raw cells are not an exhaustive regex marker set; source dataflow and per-file checks also reviewed",
+  "test_CSVs_parsed": 0,
+  "test_label_columns_read": 0,
+  "source_input_hashes_unchanged": true,
+  "metadata_self_hashes_not_fabricated": true,
+  "records": [
+    {
+      "record_id": "A033R10-PRIVACY-001",
+      "path": "docs/handoff_20261019_A2B033_B_V1/ARITHMETIC_CHECKS.json",
+      "sha256": "817a03a8f96f301573efba91204fb631f6a7153c0447c8772666e98b49969050",
+      "bytes": 581,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-002",
+      "path": "docs/handoff_20261019_A2B033_B_V1/CLAUDE_INSTRUCTION_ORIGINAL_R10.md",
+      "sha256": "703ed8265078abac88128c8422ce39f815acb62ac22e66a2812c95cb010107c3",
+      "bytes": 7663,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-003",
+      "path": "docs/handoff_20261019_A2B033_B_V1/ENVIRONMENT_LOCK.json",
+      "sha256": "a3f5d201a877424ad0a4d54c2376a9526c21d24e4c14c91222e47b57634b2276",
+      "bytes": 985,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-004",
+      "path": "docs/handoff_20261019_A2B033_B_V1/FIT_COUNTS.json",
+      "sha256": "3d15c98ca3f471f303be979308108e20557fa92b143102082cab655149ef1cf1",
+      "bytes": 191,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-005",
+      "path": "docs/handoff_20261019_A2B033_B_V1/FIT_LEDGER.json",
+      "sha256": "68e85d5991568b460998b8fa18e5d7025198f3934a1af0457da6ca76e185eb33",
+      "bytes": 3468,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-006",
+      "path": "docs/handoff_20261019_A2B033_B_V1/FOLD_1.json",
+      "sha256": "66c37af9d6cbdc0f1301f51702c6393bd3fa04d3ba87360a65fde883db3298a1",
+      "bytes": 592,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-007",
+      "path": "docs/handoff_20261019_A2B033_B_V1/FOLD_2.json",
+      "sha256": "e4227661a932a05be778c78f270b166d15d55e0fffeb6c034c840e7ee58a0009",
+      "bytes": 593,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-008",
+      "path": "docs/handoff_20261019_A2B033_B_V1/FOLD_3.json",
+      "sha256": "348918e0f5eec78be488bef4022e13d80cf3b0bcf2cde2c2a9bdaf0bf685c664",
+      "bytes": 594,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-009",
+      "path": "docs/handoff_20261019_A2B033_B_V1/FOLD_4.json",
+      "sha256": "c1918b9ee126d67034321e7ab04cdc8371119ded037bfb7d6892e68eec0adfff",
+      "bytes": 590,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-010",
+      "path": "docs/handoff_20261019_A2B033_B_V1/FOLD_5.json",
+      "sha256": "bc6169c68390573714c29ed550b31f9ee0b23bdda007e1b2f92a139187f28d91",
+      "bytes": 592,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-011",
+      "path": "docs/handoff_20261019_A2B033_B_V1/FROZEN_SOURCES.json",
+      "sha256": "4c7b6873ff27bfe47b2c5ff233624533afbbbfdf03cb5063b0f4c5595ac07a60",
+      "bytes": 99486,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-012",
+      "path": "docs/handoff_20261019_A2B033_B_V1/IMPLEMENTATION_PREFIT_LOCK.json",
+      "sha256": "6a91d11c794ced67b3322e5949692dbb669ac99d824f2df06e2e431e43d8392d",
+      "bytes": 24220,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-013",
+      "path": "docs/handoff_20261019_A2B033_B_V1/INTEGRITY_AFTER_STEP1.json",
+      "sha256": "289d558c9e0468a0bfe90f89f90aaca447396e9b764c5ec096fa8043b1ae68e5",
+      "bytes": 180,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-014",
+      "path": "docs/handoff_20261019_A2B033_B_V1/PLAN_R10.json",
+      "sha256": "9fc4c96c93d43786535f46748df624801487e1d55b8014314798ee1cd7a25291",
+      "bytes": 1720,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-015",
+      "path": "docs/handoff_20261019_A2B033_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "f9317d4d6db61f50e06af057919c160235f040139ea00a472d15b7778d4f9baf",
+      "bytes": 8206,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-016",
+      "path": "docs/handoff_20261019_A2B033_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": null,
+      "bytes": null,
+      "identity_binding": "raw scan bound by SHA manifest; manifest bound by fixed Git blob and external receipt",
+      "scan_method": "same checker on exact final serialized bytes before persistence",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-017",
+      "path": "docs/handoff_20261019_A2B033_B_V1/README.md",
+      "sha256": "85fdf505cd9ba1a1757214804756463cf2e2dbb4e467b548416949f45ba91dda",
+      "bytes": 2910,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-018",
+      "path": "docs/handoff_20261019_A2B033_B_V1/RECEIVED_CODEX_T4.json",
+      "sha256": "e196ecf5dd8d811a5f7312ed82dd94a460daf192c5cf8be21d47dc3e686ff2a5",
+      "bytes": 2205,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-019",
+      "path": "docs/handoff_20261019_A2B033_B_V1/REPORT_B.md",
+      "sha256": "c22b2695c42d0a3f35cd745337abf00c0f737be46088387b2e2277dd0e8cf834",
+      "bytes": 7387,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-020",
+      "path": "docs/handoff_20261019_A2B033_B_V1/REQUEST_CODEX_REVIEW.md",
+      "sha256": "5e7f04cf185958e97f248a500a6882a4d92a07ad71660b7238ba9dc8912fc21d",
+      "bytes": 1263,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-021",
+      "path": "docs/handoff_20261019_A2B033_B_V1/RESULT_A2B033.json",
+      "sha256": "e2b8b5b86211f7a17d4568882ca4fb1dc9826e80af28d488fcb4a199f4f87d00",
+      "bytes": 3177,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-022",
+      "path": "docs/handoff_20261019_A2B033_B_V1/SHA256SUMS.json",
+      "sha256": null,
+      "bytes": null,
+      "identity_binding": "raw scan bound by SHA manifest; manifest bound by fixed Git blob and external receipt",
+      "scan_method": "same checker on exact final serialized bytes before persistence",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-023",
+      "path": "docs/handoff_20261019_A2B033_B_V1/SOURCE_RECEIPT.json",
+      "sha256": "5e08ce949e3c5acbc5f385579f219d9f39d7b027a4648b6b88600fb47449d9ef",
+      "bytes": 2173,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-024",
+      "path": "docs/handoff_20261019_A2B033_B_V1/STRUCTURE_GATES.json",
+      "sha256": "05cef65d7ce3522f996d465cdb8b43eca17d1e1001300b8ca11bbb593cea077a",
+      "bytes": 2849,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-025",
+      "path": "docs/handoff_20261019_A2B033_B_V1/SYNTHETIC_LOG.txt",
+      "sha256": "86460ea6567be87d6900987a937c4bf3c24781230436307958cbfa2e1e33cf65",
+      "bytes": 1031,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-026",
+      "path": "docs/handoff_20261019_A2B033_B_V1/SYNTHETIC_RESULTS.json",
+      "sha256": "fdb77d28d2d38e048b875e2d1179b8da2e56c217efed6813317b23e2e9d17787",
+      "bytes": 309,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-027",
+      "path": "docs/handoff_20261019_A2B033_B_V1/core.py",
+      "sha256": "4a8c230e4eb626cfaa60bb34a3387d383579f48e0d130818de99917c4ad50a1c",
+      "bytes": 13450,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-028",
+      "path": "docs/handoff_20261019_A2B033_B_V1/csv_projection.py",
+      "sha256": "6979f0366b729a8ed32396569aa2a7837d4d409301dbfb09632267a338937c0c",
+      "bytes": 6412,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-029",
+      "path": "docs/handoff_20261019_A2B033_B_V1/fit_ledger.py",
+      "sha256": "ebaba792fc8db0a7e27f059409991e5a6e3ecf02237a8ed7dd9711ea0266137d",
+      "bytes": 2536,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-030",
+      "path": "docs/handoff_20261019_A2B033_B_V1/predict.py",
+      "sha256": "2c2644dde002f656eb17950a490d5ac9cde846e1e73250f3f731c737e2643a85",
+      "bytes": 2291,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-031",
+      "path": "docs/handoff_20261019_A2B033_B_V1/privacy_check.py",
+      "sha256": "4d2d186e7a89c0d26c28eb8be2832610c1bbc86ef5721e53e05a8dfa6279614a",
+      "bytes": 11047,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-032",
+      "path": "docs/handoff_20261019_A2B033_B_V1/requirements.txt",
+      "sha256": "bfa4c1e04012a9a7c77d4b27f261b1efc9f610ea5745897743b42d8265919e3d",
+      "bytes": 166,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-033",
+      "path": "docs/handoff_20261019_A2B033_B_V1/run_oof.py",
+      "sha256": "b4040c8749d248314904eeb310e023444f9c4f1fd7eec6c45deed636269d4fe6",
+      "bytes": 10079,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-034",
+      "path": "docs/handoff_20261019_A2B033_B_V1/test_033.py",
+      "sha256": "8a1e4e61267e95fe97a8717581cd07e7e32c7689fc45cf8d98220f7ee14be183",
+      "bytes": 5821,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033R10-PRIVACY-035",
+      "path": "docs/handoff_20261019_A2B033_B_V1/train.py",
+      "sha256": "9a2844110779d6e98262e3b7a0c30e2da9b8474c576086071dae0c45c36e0536",
+      "bytes": 2130,
+      "scan_method": "exact existing file bytes",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    }
+  ],
+  "decoded_source_container_entries": [
+    {
+      "record_id": "A033-INNER-SOURCE-001",
+      "container": "FROZEN_SOURCES.json",
+      "path": "src/oil_uplift/__init__.py",
+      "sha256": "b14e51df20e0d8c8e2abc3646d6cac8e26e015a797f3fa5138fb1f2c20bde30c",
+      "bytes": 82,
+      "scan_method": "decoded original source bytes, not JSON escaped text",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033-INNER-SOURCE-002",
+      "container": "FROZEN_SOURCES.json",
+      "path": "src/oil_uplift/a2b013_safe.py",
+      "sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+      "bytes": 24524,
+      "scan_method": "decoded original source bytes, not JSON escaped text",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033-INNER-SOURCE-003",
+      "container": "FROZEN_SOURCES.json",
+      "path": "src/oil_uplift/training.py",
+      "sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+      "bytes": 19812,
+      "scan_method": "decoded original source bytes, not JSON escaped text",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033-INNER-SOURCE-004",
+      "container": "FROZEN_SOURCES.json",
+      "path": "src/oil_uplift/multistep.py",
+      "sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b",
+      "bytes": 22790,
+      "scan_method": "decoded original source bytes, not JSON escaped text",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033-INNER-SOURCE-005",
+      "container": "FROZEN_SOURCES.json",
+      "path": "src/oil_uplift/models.py",
+      "sha256": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02",
+      "bytes": 3013,
+      "scan_method": "decoded original source bytes, not JSON escaped text",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033-INNER-SOURCE-006",
+      "container": "FROZEN_SOURCES.json",
+      "path": "src/oil_uplift/scoring.py",
+      "sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235",
+      "bytes": 9223,
+      "scan_method": "decoded original source bytes, not JSON escaped text",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033-INNER-SOURCE-007",
+      "container": "FROZEN_SOURCES.json",
+      "path": "src/oil_uplift/config.py",
+      "sha256": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68",
+      "bytes": 2549,
+      "scan_method": "decoded original source bytes, not JSON escaped text",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033-INNER-SOURCE-008",
+      "container": "FROZEN_SOURCES.json",
+      "path": "src/oil_uplift/io.py",
+      "sha256": "cf788f19399b7a867260a5a4f84bb630735a639410fc17092244ebcb9bcd18c3",
+      "bytes": 4910,
+      "scan_method": "decoded original source bytes, not JSON escaped text",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033-INNER-SOURCE-009",
+      "container": "FROZEN_SOURCES.json",
+      "path": "src/oil_uplift/exceptions.py",
+      "sha256": "2b3aef27c352bad4558d98ca964d21f4881468e6a63c4bc3ff7bc919a7ad26c9",
+      "bytes": 548,
+      "scan_method": "decoded original source bytes, not JSON escaped text",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A033-INNER-SOURCE-010",
+      "container": "FROZEN_SOURCES.json",
+      "path": "src/oil_uplift/submission.py",
+      "sha256": "d39b25ce75b452a9bf7dcb439aa1a68bdc3bbb822b9e9a2f56cd0565f1502612",
+      "bytes": 5778,
+      "scan_method": "decoded original source bytes, not JSON escaped text",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    }
+  ],
+  "decoded_source_container_entries_count": 10
+}

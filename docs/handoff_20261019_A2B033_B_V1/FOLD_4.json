@@ -1,0 +1,24 @@
+{
+  "fold": 4,
+  "official_score": 72.41902553686496,
+  "weighted_losses": {
+    "m1_to_1": 0.1453271510463114,
+    "m1_to_2": 0.2097795264692864,
+    "m1_to_4": 0.2557227366534135,
+    "m1_to_12": 0.27580974463135033
+  },
+  "wells": 16,
+  "official_cross_check_difference": 0.0,
+  "paired_baseline_score": 64.62686399621428,
+  "paired_delta": 7.792161540650682,
+  "fit_counts": {
+    "max_models": 7,
+    "max_preprocessors": 7,
+    "models_entered": 4,
+    "models_completed": 4,
+    "preprocessors_entered": 4,
+    "preprocessors_completed": 4,
+    "failures": 0,
+    "retries": 0
+  }
+}

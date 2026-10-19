@@ -1,0 +1,142 @@
+{
+  "max_models": 7,
+  "max_preprocessors": 7,
+  "models_entered": 5,
+  "models_completed": 5,
+  "preprocessors_entered": 5,
+  "preprocessors_completed": 5,
+  "failures": 0,
+  "retries": 0,
+  "events": [
+    {
+      "sequence": 1,
+      "time": "2026-10-19T14:02:46.162425+08:00",
+      "event": "preprocessor_entered",
+      "stage": "OOF-1"
+    },
+    {
+      "sequence": 2,
+      "time": "2026-10-19T14:02:46.187700+08:00",
+      "event": "preprocessor_completed",
+      "stage": "OOF-1",
+      "seconds": 0.0244378000497818
+    },
+    {
+      "sequence": 3,
+      "time": "2026-10-19T14:02:46.188535+08:00",
+      "event": "model_entered",
+      "stage": "OOF-1"
+    },
+    {
+      "sequence": 4,
+      "time": "2026-10-19T14:02:46.439953+08:00",
+      "event": "model_completed",
+      "stage": "OOF-1",
+      "seconds": 0.25059790001250803
+    },
+    {
+      "sequence": 5,
+      "time": "2026-10-19T14:02:46.474279+08:00",
+      "event": "preprocessor_entered",
+      "stage": "OOF-2"
+    },
+    {
+      "sequence": 6,
+      "time": "2026-10-19T14:02:46.505696+08:00",
+      "event": "preprocessor_completed",
+      "stage": "OOF-2",
+      "seconds": 0.030444699979852885
+    },
+    {
+      "sequence": 7,
+      "time": "2026-10-19T14:02:46.506719+08:00",
+      "event": "model_entered",
+      "stage": "OOF-2"
+    },
+    {
+      "sequence": 8,
+      "time": "2026-10-19T14:02:46.764777+08:00",
+      "event": "model_completed",
+      "stage": "OOF-2",
+      "seconds": 0.2575098000233993
+    },
+    {
+      "sequence": 9,
+      "time": "2026-10-19T14:02:46.800905+08:00",
+      "event": "preprocessor_entered",
+      "stage": "OOF-3"
+    },
+    {
+      "sequence": 10,
+      "time": "2026-10-19T14:02:46.837529+08:00",
+      "event": "preprocessor_completed",
+      "stage": "OOF-3",
+      "seconds": 0.03546679997816682
+    },
+    {
+      "sequence": 11,
+      "time": "2026-10-19T14:02:46.838338+08:00",
+      "event": "model_entered",
+      "stage": "OOF-3"
+    },
+    {
+      "sequence": 12,
+      "time": "2026-10-19T14:02:47.117397+08:00",
+      "event": "model_completed",
+      "stage": "OOF-3",
+      "seconds": 0.2783643999719061
+    },
+    {
+      "sequence": 13,
+      "time": "2026-10-19T14:02:47.157287+08:00",
+      "event": "preprocessor_entered",
+      "stage": "OOF-4"
+    },
+    {
+      "sequence": 14,
+      "time": "2026-10-19T14:02:47.184135+08:00",
+      "event": "preprocessor_completed",
+      "stage": "OOF-4",
+      "seconds": 0.026086100027896464
+    },
+    {
+      "sequence": 15,
+      "time": "2026-10-19T14:02:47.185000+08:00",
+      "event": "model_entered",
+      "stage": "OOF-4"
+    },
+    {
+      "sequence": 16,
+      "time": "2026-10-19T14:02:47.452660+08:00",
+      "event": "model_completed",
+      "stage": "OOF-4",
+      "seconds": 0.2668287000269629
+    },
+    {
+      "sequence": 17,
+      "time": "2026-10-19T14:02:47.485094+08:00",
+      "event": "preprocessor_entered",
+      "stage": "OOF-5"
+    },
+    {
+      "sequence": 18,
+      "time": "2026-10-19T14:02:47.513053+08:00",
+      "event": "preprocessor_completed",
+      "stage": "OOF-5",
+      "seconds": 0.027204099984373897
+    },
+    {
+      "sequence": 19,
+      "time": "2026-10-19T14:02:47.514122+08:00",
+      "event": "model_entered",
+      "stage": "OOF-5"
+    },
+    {
+      "sequence": 20,
+      "time": "2026-10-19T14:02:47.767166+08:00",
+      "event": "model_completed",
+      "stage": "OOF-5",
+      "seconds": 0.2513817999861203
+    }
+  ]
+}

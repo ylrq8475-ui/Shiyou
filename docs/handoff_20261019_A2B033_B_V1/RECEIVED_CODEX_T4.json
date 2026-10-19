@@ -1,0 +1,46 @@
+{
+  "role": "账户A2（新接手）独立审核与交付",
+  "instruction_commit": "493eabed3a83d646182787fd65dd070f652a4780",
+  "instruction_sha256": "50d8517264c1f225b3984b3f19a45cf3228613bdd8e98851e95831951c500fc6",
+  "rules_commit": "8b112a767a3355a1ea208038915028ba4c4525e4",
+  "publication_snapshot_commit": "eb83ca2c616009e53166dd8e5b57eccf35374f1b",
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "A_competition_data_reads": 0,
+  "new_training_authorized": false,
+  "formal_ZIP_created": false,
+  "platform_submission": false,
+  "model_upgraded": false,
+  "task": "A2B-032/T4 合规判定",
+  "reviews_commit": "不适用",
+  "verdict": "允许（限官方比赛输入合同下的合法模板前同井月度历史）",
+  "C": "T0-1 natural month",
+  "M_allowed_iff": "M<T0 and history field has no post-cutoff support or hindsight provenance",
+  "gap_months_allowed_iff": "each month<T0 and same legal historical-field rules",
+  "test_window_all_dynamic_fields_allowed": false,
+  "train_cutoff": "C_train=T0_train-1; all features, scales and statistics from <=C_train",
+  "existing_target_if_retained": "M+1..M+12 implies C_train=M; target not changed or training approved here",
+  "official_clarification_obtained": false,
+  "basis": "Independent interpretation of explicit official input/output contract, not test missingness, P2 score, leaderboard or an assumed organizer reply",
+  "decision_row": "T4允许：同井合法月度历史截止T0−1；M<T0时可用M月，间隔月同边界；模板窗口内字段不允许。",
+  "hard_gates": {
+    "泄漏": "通过（限定许可边界）",
+    "错位": "UNKNOWN（P3，T4未审模型实施）",
+    "井级隔离": "UNKNOWN（P3，T4未审模型实施）",
+    "指标": "UNKNOWN（P3，T4不评分）"
+  },
+  "open_unknowns": [
+    {
+      "id": "A032-T4-IMPLEMENTATION",
+      "severity": "P3",
+      "missing": "尚无新截止点候选实现，本轮不审实施、训练或部署",
+      "blocks_rule_interpretation": false
+    }
+  ],
+  "other_issues_not_closed": [
+    "A031-Q1-AVAILABILITY",
+    "A031-Q2-AVAILABILITY",
+    "HIST-DTYPE",
+    "event-segment business semantics"
+  ]
+}
