@@ -417,6 +417,21 @@
         "R10固定来源55adffb975204493cdc75567de8d74fc82dd3a73；T4依据ce76e2ba0c3296f22f18a67bf212c05091b14573"
       ],
       "published_at": "2026-10-19T14:26:36.038952+08:00"
+    },
+    {
+      "task": "A2B-033/截止T0−1重训B0′步骤1审核",
+      "role": "Codex",
+      "commit": "7b5e14bb494e206984063f4a4d7aa524f7fa3b17",
+      "report_path": "docs/handoff_20261019_A2B033_CODEX_REVIEW_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261019_A2B033_CODEX_REVIEW_V1/RESULT_CODEX.json",
+      "reviews_commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+      "hard_gates": "泄漏／错位／井级隔离／指标：通过（限固定源码、绑定执行记录、独立合成与聚合；A未重训真实OOF，不是部署签署）",
+      "decision_row": "0 < 分数差 < +1.0，或为正折数 < 4 | 弱信号，停止于步骤1，交用户决定。提交包是否可进入上传批准：否。",
+      "open_unknowns": [
+        "HIST-DTYPE P1 原历史逐文件加载身份未补齐，R10沿用R5用户例外，本次不关闭",
+        "A033-STEP2-ACCEPTANCE P3 步骤2未触发：无完整提交包、120行干净环境复现与linter实际验收；预备源码不等于可上传包"
+      ],
+      "published_at": "2026-10-19T14:53:33+08:00"
     }
   ]
 }
