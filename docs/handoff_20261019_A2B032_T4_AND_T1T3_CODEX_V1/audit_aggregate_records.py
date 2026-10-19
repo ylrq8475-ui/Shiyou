@@ -3,6 +3,7 @@ import ast, hashlib, json, math
 from collections import Counter
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent;B=ROOT/'sources/B032'
+OUTPUT=ROOT/'verification_output';OUTPUT.mkdir(exist_ok=True)
 checks=[]
 def check(name,condition):
     checks.append({'name':name,'pass':bool(condition)})
@@ -77,5 +78,5 @@ for field in ['任务编号/阶段','角色','分支','完整提交号','目录�
 index=json.loads((ROOT/'sources/index').read_bytes());record=[r for r in index['entries'] if r['role']=='B' and r['task'].startswith('A2B-032')][-1]
 check('latest_B_identity',record['commit']=='094ebcd2b6b323849fce9c5cb1daf3e6b9228b41')
 out={'checks':checks,'checks_passed':len(checks),'all_pass':True,'B_published_files_verified':22,'B_privacy_record_count':22,'B_privacy_hashes_bound':20,'B_privacy_self_metadata_records':2,'A_real_rows_recomputed':False,'A_model_fits':0,'A_preprocessor_fits':0,'B_reported_model_fits':0,'B_reported_preprocessor_fits':0,'scope':'Public records, arithmetic, static source and synthetic verification; no private marker rescan or real per-well recomputation'}
-with (ROOT/'AGGREGATE_REVIEW_CODEX.json').open('x',encoding='utf-8') as f:json.dump(out,f,ensure_ascii=False,indent=2)
+with (OUTPUT/'AGGREGATE_REVIEW_CODEX.json').open('x',encoding='utf-8') as f:json.dump(out,f,ensure_ascii=False,indent=2)
 print(json.dumps({k:v for k,v in out.items() if k!='checks'},ensure_ascii=False))

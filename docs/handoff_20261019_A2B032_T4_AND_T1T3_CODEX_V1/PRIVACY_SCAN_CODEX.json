@@ -1,7 +1,7 @@
 {
   "role": "账户A2（新接手）独立审核与交付",
   "scope": "Generic credential/path/identifier-pattern scan and manual provenance review of public-only audit artifacts; no real private marker inventory loaded, no claim of exhaustive original-value marker rescan",
-  "published_files": 19,
+  "published_files": 20,
   "records": [
     {
       "file": "AGGREGATE_REVIEW_CODEX.json",
@@ -20,6 +20,14 @@
       "result": "PASS"
     },
     {
+      "file": "CLEAN_PUBLIC_REPRODUCTION_CODEX.json",
+      "bytes": 1439,
+      "sha256": "48a2de71ed85a80752aedd536375789e6b44776be321e237304de967ba8a969b",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
       "file": "COLLABORATION_REPLY_CODEX.md",
       "bytes": 2825,
       "sha256": "a3890151fa033e5880879416d1f0db2488a889ac0b91831dd74177d5e1e04ef4",
@@ -29,8 +37,8 @@
     },
     {
       "file": "EVIDENCE_NOTES_CODEX.md",
-      "bytes": 5569,
-      "sha256": "8d543cfa40fc6f98d18afe37cf836051dcc2edada22f1472ac21b0f0bdc6d9d6",
+      "bytes": 5968,
+      "sha256": "09ca90bcb800740ec14cda64e1a339adda1186f1fab415a946b66c046e85bff6",
       "credential_private_path_or_well_pattern_hits": 0,
       "manual_public_only_provenance_review": true,
       "result": "PASS"
@@ -65,40 +73,40 @@
     },
     {
       "file": "README.md",
-      "bytes": 2217,
-      "sha256": "102a88d459c8088c5a7c628f619a29f69f6c161f45855a2400d8c72aab9f494e",
+      "bytes": 2291,
+      "sha256": "79b0faeead336fe2723683528ae40c99d8e67970f33e6a8599a8fbbc5a101249",
       "credential_private_path_or_well_pattern_hits": 0,
       "manual_public_only_provenance_review": true,
       "result": "PASS"
     },
     {
       "file": "REPORT_CODEX_T1T3.md",
-      "bytes": 4921,
-      "sha256": "92c300bf1274ad05fd9a39c9403347043379e5e1abd52f99adb84c99726405ce",
+      "bytes": 4933,
+      "sha256": "edf6ff28e7b5cce1d90aeabb3fccf38fd41fba716bf207c4a88377e5fc0be8e4",
       "credential_private_path_or_well_pattern_hits": 0,
       "manual_public_only_provenance_review": true,
       "result": "PASS"
     },
     {
       "file": "REPORT_CODEX_T4.md",
-      "bytes": 5373,
-      "sha256": "6bcdcc6baf0a601b5327f6d29d798da6cec88370aa67750db77b12831d28227e",
+      "bytes": 5385,
+      "sha256": "67977b916424ccdff376cba09971d39633b42deaa28d5ecd231908c9c2340c1e",
       "credential_private_path_or_well_pattern_hits": 0,
       "manual_public_only_provenance_review": true,
       "result": "PASS"
     },
     {
       "file": "RESULT_CODEX_T1T3.json",
-      "bytes": 4243,
-      "sha256": "1310bd79dcb9757dff9b44f5ed08f9750fa1ec4eeaa4c3fbe6cb9e832b11acc1",
+      "bytes": 4255,
+      "sha256": "a0ee745681a6ec25254fb4ce0334d1b0b1497b9f48e233180c4db6a03acb0bdf",
       "credential_private_path_or_well_pattern_hits": 0,
       "manual_public_only_provenance_review": true,
       "result": "PASS"
     },
     {
       "file": "RESULT_CODEX_T4.json",
-      "bytes": 2193,
-      "sha256": "cbcd5df6c3b20d72d26dce8e9bff4640b85b909cf1c17d3ae5b8f7c3c5d1edb9",
+      "bytes": 2205,
+      "sha256": "e196ecf5dd8d811a5f7312ed82dd94a460daf192c5cf8be21d47dc3e686ff2a5",
       "credential_private_path_or_well_pattern_hits": 0,
       "manual_public_only_provenance_review": true,
       "result": "PASS"
@@ -129,8 +137,8 @@
     },
     {
       "file": "audit_aggregate_records.py",
-      "bytes": 7588,
-      "sha256": "c7a8bc5b7813d2ad734b3b749dd737ed4940fdbc15afd4b32d67d23bd5975f25",
+      "bytes": 7652,
+      "sha256": "cf2546832870bcd9606be0e7f6e25e2b51800bc6668dc8fe47974caafbf015e3",
       "credential_private_path_or_well_pattern_hits": 0,
       "manual_public_only_provenance_review": true,
       "result": "PASS"
@@ -145,8 +153,8 @@
     },
     {
       "file": "run_synthetic.py",
-      "bytes": 1592,
-      "sha256": "cc6172dd3c1346e9ae15de2527c2cc92480bdcf64ebf06fd1f5fe6011a18b0ae",
+      "bytes": 1658,
+      "sha256": "654e43f49bc77ef3249a4b4fccafb5b1cffe7012ff2034998a9c1614988db47d",
       "credential_private_path_or_well_pattern_hits": 0,
       "manual_public_only_provenance_review": true,
       "result": "PASS"

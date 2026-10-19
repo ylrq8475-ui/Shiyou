@@ -19,7 +19,7 @@ python -X utf8 -B run_synthetic.py
 python -X utf8 -B audit_aggregate_records.py
 ```
 
-输出使用排他新建；若已经运行过，改在新的审计目录复核，不覆盖已有证据。不运行B的run_audit.py真实入口或privacy_check.py私有入口。需要numpy和pandas；本轮复测使用Python 3.13.7、numpy 2.4.3、pandas 2.3.3。此流程不是逐井真实结果复算。
+新输出写入verification_output/并使用排他新建，不与随包交付的既有报告冲突；若已经运行过，改在新的审计目录复核，不覆盖已有证据。不运行B的run_audit.py真实入口或privacy_check.py私有入口。需要numpy和pandas；本轮复测使用Python 3.13.7、numpy 2.4.3、pandas 2.3.3。此流程不是逐井真实结果复算。
 
 公开材料逐项扫描结果见PRIVACY_SCAN_CODEX.json。没有原始数据、私有配置、真实井号或逐井结果、权重；不转载B的真实结果包。Git author/committer为Account A2 - Successor Independent Audit，仅标注逻辑审核角色；不冒称使用另一个GitHub登录账户或签名认证。
 

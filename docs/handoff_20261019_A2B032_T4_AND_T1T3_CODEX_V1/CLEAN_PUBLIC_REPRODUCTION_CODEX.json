@@ -1,0 +1,28 @@
+{
+  "all_pass": true,
+  "steps": [
+    {
+      "script": "hydrate_public_sources.py",
+      "exit": 0,
+      "stdout": "{\"pinned_public_files\": 27, \"all_hashes_match\": true, \"competition_data_accessed\": false, \"fits\": 0}\r\n",
+      "stderr": ""
+    },
+    {
+      "script": "run_synthetic.py",
+      "exit": 0,
+      "stdout": "{\"tests_run\": 35, \"B_tests\": 15, \"A_tests\": 20, \"failures\": 0, \"errors\": 0, \"successful\": true, \"public_B_source_bytes_unchanged\": true, \"real_data_accessed\": false, \"model_fits\": 0, \"preprocessor_fits\": 0, \"real_diagnostic_entry_executed\": false, \"ML_modules_imported\": false}\r\n",
+      "stderr": ""
+    },
+    {
+      "script": "audit_aggregate_records.py",
+      "exit": 0,
+      "stdout": "{\"checks_passed\": 132, \"all_pass\": true, \"B_published_files_verified\": 22, \"B_privacy_record_count\": 22, \"B_privacy_hashes_bound\": 20, \"B_privacy_self_metadata_records\": 2, \"A_real_rows_recomputed\": false, \"A_model_fits\": 0, \"A_preprocessor_fits\": 0, \"B_reported_model_fits\": 0, \"B_reported_preprocessor_fits\": 0, \"scope\": \"Public records, arithmetic, static source and synthetic verification; no private marker rescan or real per-well recomputation\"}\r\n",
+      "stderr": ""
+    }
+  ],
+  "public_sources_downloaded": 27,
+  "real_data_read": false,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "B_real_entry_executed": false
+}

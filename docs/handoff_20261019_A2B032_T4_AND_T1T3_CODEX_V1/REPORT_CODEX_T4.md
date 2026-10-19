@@ -2,7 +2,7 @@
 任务编号/阶段：A2B-032/T4 合规判定（R9②；零拟合）  
 角色：Codex 审核；账户A2（新接手）独立审核与交付  
 分支：codex/a2b032-t4-and-alignment-review-20261019  
-完整提交号（40位，结果初始快照）：PUBLICATION_SNAPSHOT_PENDING（最终登记版由固定链接、回取及索引绑定；快照与最终提交分别标明）  
+完整提交号（40位，结果初始快照）：eb83ca2c616009e53166dd8e5b57eccf35374f1b（最终登记版由固定链接、回取及索引绑定；快照与最终提交分别标明）  
 被审 B 提交号（40位）：不适用（本报告为规则判定，不是B实施验收）  
 目录路径：docs/handoff_20261019_A2B032_T4_AND_T1T3_CODEX_V1  
 结果文件路径（单个JSON）：docs/handoff_20261019_A2B032_T4_AND_T1T3_CODEX_V1/RESULT_CODEX_T4.json  
