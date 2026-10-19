@@ -464,6 +464,23 @@
         "上传与指定最终提交另行批准，须在2026-10-30 00:00前"
       ],
       "published_at": "2026-10-19T15:45:00+08:00"
+    },
+    {
+      "task": "A2B-033/步骤2（R11用户越过4/5门槛；本地完整包，不上传）",
+      "role": "B",
+      "commit": "47077ee354a784bdf99444dd19adb7a8dac36d80",
+      "report_path": "docs/handoff_20261019_A2B033_STEP2_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261019_A2B033_STEP2_B_V1/RESULT_A2B033_STEP2.json",
+      "reviews_commit": "不适用",
+      "hard_gates": "泄漏／错位／井级隔离／指标：通过（B本地验收；步骤1指标与隔离继承独立审核）；步骤2模型/预处理2/2，累计7/7，0失败0重试；120行逐值与ZIP字节复现一致；linter通过；未上传平台",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "CODEX-033-STEP2-REVIEW P1 R11②独立提交包审核待完成，B不自签可进入上传批准",
+        "HIST-DTYPE P1 历史逐文件加载身份未关闭，R5例外沿用",
+        "PLATFORM-B0-BINDING P2 历史86.2003为用户报分，实际上传包未独立绑定；聚合对比采用SHA e41463cac0ec58827f240293a6a35385b27745a3354197efdcfa3d78ad72f796的本机部署B0归档",
+        "R11原文012e9fe50efac3f051b48804bc724e39b703cc93；用户2026-10-19 15:25明确越过4/5门槛，不回写步骤1为达标；平台上传与最终指定未授权"
+      ],
+      "published_at": "2026-10-19T15:56:30.531678+08:00"
     }
   ]
 }
