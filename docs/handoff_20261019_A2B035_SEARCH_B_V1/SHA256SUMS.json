@@ -1,0 +1,116 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/ACTUAL_RUNTIME_START.json",
+      "sha256": "a9f13f3554d9fb1e7826864c56d499d478804a6d512580733bb0a9f83d990d64",
+      "bytes": 1426
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/ANONYMOUS_REPRO_MANIFEST.json",
+      "sha256": "6e45d84dbab1dd9505eb0061b85ff3374eecd4c9014d28cabc1d1106e36e1583",
+      "bytes": 33096
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/CANDIDATE_PACKAGES.json",
+      "sha256": "588ba4f35aff01f67140bb720ba98b1904c312e7e1e6b754126e41becf24d992",
+      "bytes": 7803
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/CANDIDATE_SELECTION.json",
+      "sha256": "7e5f755f0568ffbca3c52d97b8644a48b075b49aa2822c4711c12c559a9461e0",
+      "bytes": 391
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/CODEX_APPROVAL_RECEIVED.json",
+      "sha256": "82fdd80d1193817a0c76663713c72b5440d9a8968d368cec5566fc8832adcfc8",
+      "bytes": 1247
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/CODEX_RESULT_RECEIVED.json",
+      "sha256": "4d3bb33df82ee5255130030325984e66ef6d6552cab94763e566c896175e0cba",
+      "bytes": 3735
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/FIT_COUNTS_PACKAGES.json",
+      "sha256": "8b1d144d0b55a8b4520dfd64342117e06e6e9730b22279c63b0a53f5b41ddc99",
+      "bytes": 2341
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/FIT_COUNTS_SEARCH.json",
+      "sha256": "a474d2c8352a7af16953af686531c7fe3395d77b5c11f9fb81829d2610f35449",
+      "bytes": 2001866
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/MODEL_PARAMETERS_AND_REPRODUCTION.json",
+      "sha256": "49f2f2c3835a1f3da0c181215d507dea67f4c19dbdcc946261c3256ff86c05b4",
+      "bytes": 1317
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/PLAN_DAILY_SEARCH.json",
+      "sha256": "ade40f547d15a4b543530dc3adb079d54209bbee3fbf4a47fb28d5cf70cd10e8",
+      "bytes": 2783
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/PLATFORM_LEDGER_PUBLIC_V2.json",
+      "sha256": "4c37de187c35bd14526b94c2b679762be099318e710ff3bac419f11042b73a98",
+      "bytes": 2174
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/PRESERVATION_CHECK.json",
+      "sha256": "6de7dfa107f606ce6b55d27791abf315ee04e20ad1b4d480a050ad0de62d7f32",
+      "bytes": 414
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/PRE_FIT_DEBUG_RECORD.json",
+      "sha256": "2741380feb1f39eda48539bee82bc6eeb8d3732ae7d429e5e6f1306311dc9a7f",
+      "bytes": 405
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "edc4b16bf212a0c8515730bcd05d6d311572fe12374195ff2834030231047296",
+      "bytes": 3283
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": "383e1519a2bfab7f1d3bd5484ec155649f5f1bdd869db55a99d25e961e8521c6",
+      "bytes": 51984
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/README.md",
+      "sha256": "cb45eb5e6ce0f3646ed9eba0469325fd7d1b6c026ce64fcb06c77f1b45f05b2f",
+      "bytes": 645
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/REPLY_CODEX_RUNTIME_LEDGER_P2.md",
+      "sha256": "634a1ed3543fa5500d7033b07ffa8c58204fab97d7b6582134f28e5e4914e9e2",
+      "bytes": 1223
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/REPORT_B.md",
+      "sha256": "e6a665e3e5ff3332f4fedbe161f3fb45de6ee528a84862424bd874a34c9bbb29",
+      "bytes": 11854
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/RESULT_DAILY_DELIVERY.json",
+      "sha256": "5eb2d96b7b8208e78e3fad7c0bddc3e1d6e8ef2a3babb6d73aeb72d3a3f255e9",
+      "bytes": 743776
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/SEARCH_REPRO_ANONYMOUS.zip",
+      "sha256": "992d9afade8c89a255053d82a0e0d351ee806c207ac9bb438b1c864d18a567e4",
+      "bytes": 811336
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/build_candidates.py",
+      "sha256": "d61413da7b8078508c42b1d5e7074b0bc61b750dd392628282c28770c7d439f6",
+      "bytes": 15418
+    },
+    {
+      "path": "docs/handoff_20261019_A2B035_SEARCH_B_V1/run_search.py",
+      "sha256": "1130837d3ef212ff4161230ad46fa59b359131d5f2c050ae505c7ee01f75afbb",
+      "bytes": 14219
+    }
+  ],
+  "self": "bound by Git and external byte receipt; final bytes privacy scanned"
+}

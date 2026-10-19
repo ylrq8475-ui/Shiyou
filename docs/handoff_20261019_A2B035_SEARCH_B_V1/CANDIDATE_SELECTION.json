@@ -1,0 +1,14 @@
+{
+  "selected": [
+    "ET_last_legal_B_t800_l10_f100"
+  ],
+  "diversity_evidence": [
+    {
+      "variant": "ET_last_legal_B_t800_l10_f100",
+      "minimum_symmetric_prediction_difference_from_prior": null
+    }
+  ],
+  "selection_rule": "top10 repeat ranking, greedy >=.05 mean symmetric OOF difference, up to3",
+  "no_platform_labels_or_feedback_used": true,
+  "full_versions_only": true
+}

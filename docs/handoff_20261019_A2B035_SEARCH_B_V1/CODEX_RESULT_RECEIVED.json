@@ -1,0 +1,134 @@
+{
+  "task": "A2B-035/R13共用管线审核",
+  "role": "Codex",
+  "signature": "账户A2（新接手）独立审核与交付",
+  "reviews_commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+  "instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+  "publication_snapshot_commit": "65b287a034eabb0de3a8ec53281b3ca896e7e84d",
+  "pipeline_lock_sha256": "ce1ab047d126f2586993dc8d2b05aef5f1b9871c59b626d6927d8803904713d1",
+  "can_search": true,
+  "search_scope": {
+    "learners": [
+      "ExtraTrees",
+      "MultiOutputExtraTrees",
+      "Ensemble_of_internal_ET"
+    ],
+    "features": [
+      "base325",
+      "base325_R"
+    ],
+    "fusion_methods": [
+      "equal",
+      "inner_grid_0.1"
+    ],
+    "target_scales": [
+      "last_legal",
+      "last3_valid_mean",
+      "presegment3_mean",
+      "none"
+    ],
+    "cutoffs": {
+      "main": "T0_minus_1",
+      "legacy": "M_minus_1_only_benchmark_or_fusion_member"
+    },
+    "external_models_released": false,
+    "geology_released": false
+  },
+  "decision_row": "管线是否可用于搜索：是（仅固定内部ET范围）；外部/G禁用；最终包本轮未审。",
+  "hard_gates": {
+    "leakage": "PASS",
+    "target_alignment": "PASS",
+    "well_isolation": "PASS",
+    "official_metric": "PASS",
+    "scope": "Fixed internal ET source + bound B receipts + A independent aggregate arithmetic and source-level synthetic execution; not A real CV retraining"
+  },
+  "items": [
+    {
+      "item": 1,
+      "status": "PASS"
+    },
+    {
+      "item": 2,
+      "status": "PASS"
+    },
+    {
+      "item": 3,
+      "status": "PASS"
+    },
+    {
+      "item": 4,
+      "status": "PASS",
+      "evidence": "B bound real benchmarks, A recomputed well-weighted aggregates"
+    },
+    {
+      "item": 5,
+      "status": "UNKNOWN",
+      "severity": "P1",
+      "scope": "Disabled external branches only"
+    },
+    {
+      "item": 6,
+      "status": "PASS_SCHEMA_PRIVACY_AND_NO_S_V_FROM_UNKNOWN; P2_UPLOAD_HASH_PROVENANCE_NEEDS_CLARIFICATION"
+    }
+  ],
+  "closed_issue": "CODEX-035-PIPELINE P1 for approved internal scope only",
+  "open_issues": [
+    {
+      "id": "EXT-035",
+      "severity": "P1",
+      "blocks": "External branches, not internal ET search"
+    },
+    {
+      "id": "G-031",
+      "severity": "P1",
+      "blocks": "Geology branch only"
+    },
+    {
+      "id": "PLATFORM-035-PROVENANCE",
+      "severity": "P2",
+      "blocks": "Treating audited reference hashes as actual uploaded identity and unverified S_v version ranking"
+    },
+    {
+      "id": "ENV-035-RUNTIME",
+      "severity": "P2",
+      "requirement": "Record actual runtime per version; lock-file hash is not a live package probe"
+    },
+    {
+      "id": "HIST-DTYPE",
+      "severity": "P1",
+      "status": "INHERITED_USER_EXCEPTION_NOT_CLOSED"
+    }
+  ],
+  "B0_fixed": 73.71410733861434,
+  "B0_prime_fixed": 76.33261832127738,
+  "fixed_errors": [
+    0,
+    0
+  ],
+  "B0_repeated_mean": 72.47647400484871,
+  "B0_prime_repeated_mean": 75.39352260217446,
+  "paired_repeated_delta_mean": 2.9170485973257483,
+  "positive_repeats": 5,
+  "SE_descriptive_not_independent_CI": true,
+  "checks_passed": 442,
+  "synthetic_source_contracts_passed": 32,
+  "B_competition_CV_fits": 60,
+  "B_synthetic_model_fits": 1,
+  "B_total_model_and_preprocessor_fits": [
+    61,
+    61
+  ],
+  "A_actual_model_and_preprocessor_fits": [
+    0,
+    0
+  ],
+  "A_runtime": "3.14.0rc3_no_numpy_pandas_sklearn",
+  "A_source_subset_spies_not_full_dependency_runtime": true,
+  "A_competition_data_read": false,
+  "new_formal_packages": 0,
+  "A_platform_uploads": 0,
+  "final_package_reviewed": false,
+  "old_R12_statistical_gates_not_reapplied": true,
+  "new_platform_score_verified": false,
+  "S_v": "UNKNOWN"
+}

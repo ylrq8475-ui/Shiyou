@@ -1,0 +1,68 @@
+{
+  "task": "A2B-035/2026-10-19 internal search first daily batch",
+  "role": "账户B执行与交付",
+  "R13_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+  "Codex_approval_commit": "3001037a7d465117fd8062e5cbc6b2d168575fef",
+  "approval_sha256": "82fdd80d1193817a0c76663713c72b5440d9a8968d368cec5566fc8832adcfc8",
+  "pipeline_lock_sha256": "ce1ab047d126f2586993dc8d2b05aef5f1b9871c59b626d6927d8803904713d1",
+  "shared_code_unchanged": true,
+  "fit_cap": null,
+  "scope": {
+    "learners": [
+      "ExtraTrees",
+      "MultiOutputExtraTrees",
+      "Ensemble_of_internal_ET"
+    ],
+    "features": [
+      "base325",
+      "base325_R"
+    ],
+    "fusion_methods": [
+      "equal",
+      "inner_grid_0.1"
+    ],
+    "target_scales": [
+      "last_legal",
+      "last3_valid_mean",
+      "presegment3_mean",
+      "none"
+    ],
+    "cutoffs": {
+      "main": "T0_minus_1",
+      "legacy": "M_minus_1_only_benchmark_or_fusion_member"
+    },
+    "external_models_released": false,
+    "geology_released": false
+  },
+  "order": [
+    "ET400 leaf6 mf.75: four target scales x base325/base325_R (baseline exact-equivalence aggregate may be reused)",
+    "full32 allowed ET parameter grid on best target/features from step1, skip identical already-completed variants",
+    "full32 allowed multioutput ET grid on the same best target/features",
+    "fixed-equal fusion of best two freshly evaluated single variants, using in-memory identical-fold OOF",
+    "0.1 inner training-side weight grid of the same two members; 300 inner model fits if two members; reuse exact outer-member predictions",
+    "B0/B0prime fixed equal fusion if needed as an additional complete reference, no leaderboard-driven per-well changes"
+  ],
+  "adaptive_choices": "repeat CV mean descending, SE ascending, fixed score descending, stable variant identifier; only training labels",
+  "score_before_new_config": "save full allowed config, actual runtime, source/config/data/split identities before every variant",
+  "repeats": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "no_mid_score_early_stop": true,
+  "same_environment": "live version probe per config; any drift stops dependent steps, no mixing old folds",
+  "OOF_persistence": false,
+  "daily_candidate_selection": {
+    "pool": "top10 complete variants by repeated mean",
+    "max_versions": 3,
+    "diversity": "greedy after best: mean symmetric absolute difference on five in-memory OOF arrays >=0.05 against each already-selected variant; fewer packages if fewer diverse complete versions",
+    "no_old_statistical_gate": true
+  },
+  "external_and_G_disabled": true,
+  "formal_platform_upload_by_B": false,
+  "final_package_designation_not_reviewed": true,
+  "old_artifacts_and_source_remain_unchanged": true,
+  "original_data_read_only": true
+}

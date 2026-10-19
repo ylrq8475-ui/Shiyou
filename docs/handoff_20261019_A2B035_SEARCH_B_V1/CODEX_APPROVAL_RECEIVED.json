@@ -1,0 +1,40 @@
+{
+  "role": "Codex",
+  "can_search": true,
+  "review_commit": "65b287a034eabb0de3a8ec53281b3ca896e7e84d",
+  "reviews_commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
+  "pipeline_lock_sha256": "ce1ab047d126f2586993dc8d2b05aef5f1b9871c59b626d6927d8803904713d1",
+  "instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+  "allowed_scope": {
+    "learners": [
+      "ExtraTrees",
+      "MultiOutputExtraTrees",
+      "Ensemble_of_internal_ET"
+    ],
+    "features": [
+      "base325",
+      "base325_R"
+    ],
+    "fusion_methods": [
+      "equal",
+      "inner_grid_0.1"
+    ],
+    "target_scales": [
+      "last_legal",
+      "last3_valid_mean",
+      "presegment3_mean",
+      "none"
+    ],
+    "cutoffs": {
+      "main": "T0_minus_1",
+      "legacy": "M_minus_1_only_benchmark_or_fusion_member"
+    },
+    "external_models_released": false,
+    "geology_released": false
+  },
+  "scope_is_normative_even_if_not_every_field_read_by_current_loader": true,
+  "external_resource_state_must_remain_disabled_until_actual_R13_evidence_complete": true,
+  "geology_disabled_until_actual_Q1_whitelist_release": true,
+  "not_final_package_or_platform_designation_approval": true,
+  "signature": "账户A2（新接手）独立审核与交付"
+}

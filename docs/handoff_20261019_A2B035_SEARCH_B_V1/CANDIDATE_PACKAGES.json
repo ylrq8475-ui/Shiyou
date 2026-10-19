@@ -1,0 +1,210 @@
+{
+  "task": "A2B-035/first daily complete candidate packages",
+  "role": "账户B执行与交付",
+  "versions": [
+    {
+      "version": "ET_last_legal_B_t800_l10_f100",
+      "ordinal": 1,
+      "configuration": {
+        "schema": "A2B035-v1",
+        "purpose": "search",
+        "cutoff": "T0_minus_1",
+        "target": {
+          "transform": "log_ratio",
+          "scale": "last_legal"
+        },
+        "features": "base325",
+        "learner": {
+          "name": "ExtraTrees",
+          "n_estimators": 800,
+          "min_samples_leaf": 10,
+          "max_features": 1.0,
+          "random_state": 20260916,
+          "n_jobs": -1
+        },
+        "evaluation": {
+          "fixed": {
+            "method": "GroupKFold",
+            "n_splits": 5,
+            "shuffle": false
+          },
+          "repeated": {
+            "method": "GroupKFold",
+            "n_splits": 5,
+            "shuffle": true,
+            "seeds": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          "inner": {
+            "method": "GroupKFold",
+            "n_splits": 5,
+            "shuffle": true,
+            "seed": 20260916
+          }
+        },
+        "fusion": null,
+        "variant": "ET_last_legal_B_t800_l10_f100",
+        "split_fingerprints": {
+          "fixed": [
+            "7169bea57c5945945197313c63aa934f1aa2dc1f9e0d2d1eff350c7c75cd7009",
+            "cedbd47320ee1b419307e6ec9e995e5fbba6a2ba258c7a0278313e95c9cf61ed",
+            "0060232297d5fa1d968363dd3fa4ceac8c990578bccef3eb2914a225475bde90",
+            "97f8ba3f9d7afdb62df08fce16c6516507ba5ddc4b21dabe08da9fcceec7ff16",
+            "ff980b9e9f71c3050be0c8dfcc9dda8a08b894fed634d2a9ee34c8756af74bc5"
+          ],
+          "repeat_1": [
+            "9424901a374f6ec20f4c871fb57b8f218c59eeb972d002ee8caa684bce157de6",
+            "58e8b95f21fa193aab5e371529425b43bbfe29991fc5fe1f1e364bf7896aab42",
+            "c0fd57fa11a8f54056404a828257e615cf41957e44b5d74345d42ddb1f144e47",
+            "22a1fbee051838506dae373eaa3fe1eae2c5281b8952df1b02cf592b74e70ed7",
+            "b2f3e15f529607e100cc5ab103d196da90f33220fcca50919c4817581fd41b01"
+          ],
+          "repeat_2": [
+            "2d5b4442556a7356c1728447edd6d3f561f53685fe45cfbe9d1c3f86bc3d0879",
+            "f9484c73cb872afe41837406e9daa29efd02e888c3d1cbaeeb1e60316b539a7c",
+            "3d8f4abeca3fabae7994f4bf1d70eaf796873033156380453330cf28b802bbb4",
+            "d55f87be9e703460ec48cd89c96672f6103672502d273035904befef302b5238",
+            "280e7449e4aa5d470eff8b2c0b0469a4b6def8a3eb3b9a54e2e211708a4862fb"
+          ],
+          "repeat_3": [
+            "4f51e92d460565edad28e069da4035627bbac061b0f62e6630d0b3e51237f749",
+            "8435dddfc1dfcfbd2c87ec81e24d0bf598c3e67e04bc65dda42130150cd7f020",
+            "0ddb140ced9a5b88591e4a64642ca4605d27b7ca243e4ca30fcee58c3e190de2",
+            "63523409c784e2ea984de80c2abd1e97d43116ceabf31fb5fb9ab7b610f8d6d0",
+            "f1848775d35a140c29bf98ec922fc7cc018f34f826cebd4d62d5b02ea1268949"
+          ],
+          "repeat_4": [
+            "9bf082f8d82d50570454e43a550e0d691f0b3f35e837729dc9294115afa264c1",
+            "f71f42cab32f70a6da1489af11447e77ad69ad57808a431288b83db46a7971ac",
+            "820cdf810844dfea9634292094deb05d8f16fc1acb0bbed9e229b1db03310dd9",
+            "098c8f433fffee46fd91039813818182f37b2cbaa2f3311b617e966f3ec45fda",
+            "f893dcf8c54e810d2d8d3a1f0223a3a8542c9734a175cce2838d8b1ab7f0f3f4"
+          ],
+          "repeat_5": [
+            "7ae279c00c08508333818404c9209a1794b3633d2b3be5fb56d6bf16f89e5ed4",
+            "9ce329b8dcbb631550392a704f998e7bad985758b5c540dc8890c013d0f5a47d",
+            "f4c5ff387b44f407a73dde55c06322c7781337842df3336bbd2ec40c5570544f",
+            "05047d121cbe771dfa61295eee079febab1fd241734a5a1864e0fe7c353067ec",
+            "42b1dc3a1591d4063d357bf9517fcf89d665c7296f1654acc546c84d7ee194de"
+          ]
+        }
+      },
+      "CV": {
+        "fixed": 76.47252329257977,
+        "repeated_mean": 75.470065335251,
+        "repeated_SE": 0.21078664670895178
+      },
+      "result_zip_sha256": "7a9be2e564b0097e31a3ff4eb127d44ce7f848e04d2e514378a1d6ee5740b849",
+      "result_zip_bytes": 3029,
+      "submission_code_zip_sha256": "6b197557a019684a1285dc7f24a98c2c7ad8e6d38cf11dd9f7cd491588fbc549",
+      "submission_code_zip_bytes": 2945526,
+      "submission_code_member_count": 42,
+      "code_CRC": "PASS",
+      "code_under5GB": true,
+      "result_linter": {
+        "status": "PASS",
+        "files": 10,
+        "rows": 120,
+        "columns": [
+          "WELL_ID",
+          "NY",
+          "RCYL"
+        ],
+        "exact_template_keys_dates_order": true,
+        "duplicate_keys": 0,
+        "extra_columns": 0,
+        "NaN_Inf_negative": 0,
+        "flat_ZIP": true,
+        "CRC_passed": true,
+        "result_zip_sha256": "7a9be2e564b0097e31a3ff4eb127d44ce7f848e04d2e514378a1d6ee5740b849",
+        "result_zip_bytes": 3029,
+        "CSV_hashes_anonymous_archive_order": [
+          {
+            "sha256": "e6b73c15ef580ce5c34f547b1f3ac85e2fc8f7471b66034c48dab58213dee6fe",
+            "bytes": 486,
+            "rows": 12
+          },
+          {
+            "sha256": "2e5cc12c910ef2f5a6f42188fda8504b61342c7c1e90bd1edd3f861d22615f24",
+            "bytes": 486,
+            "rows": 12
+          },
+          {
+            "sha256": "6d1b81c7741e524071b573fe94e29d3b6622d084ea55bdbe9e7366916a2527df",
+            "bytes": 487,
+            "rows": 12
+          },
+          {
+            "sha256": "2d56eac5224542eb225be96a34b80e51b584271c2a2ad408ab015b46f7a3cd1d",
+            "bytes": 487,
+            "rows": 12
+          },
+          {
+            "sha256": "4d6d4d508c6b6d2a17bc3596b81fdc04fac721ed529129926b45930f743a9422",
+            "bytes": 484,
+            "rows": 12
+          },
+          {
+            "sha256": "3c16d6fa8f7f3cba9f464920a8bcbd7f3b7c0359cb761807f60d717042d8c5e1",
+            "bytes": 485,
+            "rows": 12
+          },
+          {
+            "sha256": "da8f0880da174f907ba625f3e316f6539d7c04ebd5bc51c9e995f1006f53a5f1",
+            "bytes": 487,
+            "rows": 12
+          },
+          {
+            "sha256": "c112c9a5c61286922eda1493e164888d43f470df16f821be32797670438fc2d6",
+            "bytes": 485,
+            "rows": 12
+          },
+          {
+            "sha256": "d65d25b18bc20234bbaded2ed4abde41859438ec6d4e7aa60e8abd70e98445fb",
+            "bytes": 484,
+            "rows": 12
+          },
+          {
+            "sha256": "ef89c8d2a84caf9c3acaccdc863c9f5c6d540d0872764d5f34a29891a4a78305",
+            "bytes": 487,
+            "rows": 12
+          }
+        ]
+      },
+      "independent_retrain_120_values_identical": true,
+      "independent_retrain_ZIP_original_bytes_identical": true,
+      "independent_interpreter": "separate existing isolated Python3.13.7 with identical live dependencies; no shared system site-packages",
+      "new_environment_created_for_this_daily_batch": false,
+      "primary_full_training_counts": {
+        "R13_fit_cap": null,
+        "models_entered": 1,
+        "models_completed": 1,
+        "preprocessors_entered": 1,
+        "preprocessors_completed": 1,
+        "failures": 0,
+        "retries": 0
+      },
+      "independent_full_training_counts": {
+        "R13_fit_cap": null,
+        "models_entered": 1,
+        "models_completed": 1,
+        "preprocessors_entered": 1,
+        "preprocessors_completed": 1,
+        "failures": 0,
+        "retries": 0
+      },
+      "private_models_not_replacing_old_models": true,
+      "platform_upload_by_B": false,
+      "final_designation_reviewed": false
+    }
+  ],
+  "count": 1,
+  "all_reproduced_exactly": true,
+  "formal_platform_uploads_by_B": 0,
+  "final_package_review": "NOT_THIS_DAILY_BUILD"
+}

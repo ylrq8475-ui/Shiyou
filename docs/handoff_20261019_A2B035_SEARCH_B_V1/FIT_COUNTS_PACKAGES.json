@@ -1,0 +1,83 @@
+{
+  "versions": [
+    {
+      "version": "ET_last_legal_B_t800_l10_f100",
+      "primary": {
+        "R13_fit_cap": null,
+        "models_entered": 1,
+        "models_completed": 1,
+        "preprocessors_entered": 1,
+        "preprocessors_completed": 1,
+        "failures": 0,
+        "retries": 0,
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-19T19:13:49.807737+08:00",
+            "stage": "full-version",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-19T19:13:49.877511+08:00",
+            "stage": "full-version",
+            "event": "preprocessor_completed",
+            "seconds": 0.06873830000404269
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-19T19:13:49.878337+08:00",
+            "stage": "full-version",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-19T19:13:50.539390+08:00",
+            "stage": "full-version",
+            "event": "model_completed",
+            "seconds": 0.6599907000199892
+          }
+        ]
+      },
+      "independent": {
+        "R13_fit_cap": null,
+        "models_entered": 1,
+        "models_completed": 1,
+        "preprocessors_entered": 1,
+        "preprocessors_completed": 1,
+        "failures": 0,
+        "retries": 0,
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-19T19:13:58.825013+08:00",
+            "stage": "full-version",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-19T19:13:58.893759+08:00",
+            "stage": "full-version",
+            "event": "preprocessor_completed",
+            "seconds": 0.0678741000010632
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-19T19:13:58.895083+08:00",
+            "stage": "full-version",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-19T19:13:59.550768+08:00",
+            "stage": "full-version",
+            "event": "model_completed",
+            "seconds": 0.6520218999939971
+          }
+        ]
+      }
+    }
+  ],
+  "total_model_fits": 2,
+  "total_preprocessor_fits": 2
+}

@@ -1,0 +1,38 @@
+{
+  "versions": [
+    {
+      "version": "ET_last_legal_B_t800_l10_f100",
+      "actual_model_parameters": {
+        "learner": "ExtraTrees",
+        "model_parameters": {
+          "bootstrap": false,
+          "ccp_alpha": 0.0,
+          "criterion": "squared_error",
+          "max_depth": null,
+          "max_features": 1.0,
+          "max_leaf_nodes": null,
+          "max_samples": null,
+          "min_impurity_decrease": 0.0,
+          "min_samples_leaf": 10,
+          "min_samples_split": 2,
+          "min_weight_fraction_leaf": 0.0,
+          "monotonic_cst": null,
+          "n_estimators": 800,
+          "n_jobs": -1,
+          "oob_score": false,
+          "random_state": 20260916,
+          "verbose": 0,
+          "warm_start": false
+        },
+        "features_before_preprocessing": 325,
+        "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6"
+      },
+      "primary_model_sha256": "f87737d4a1fbf083db6b95fd3d6e5362538be5d1ee2094d0e452f3cacffb1757",
+      "independent_model_sha256": "f87737d4a1fbf083db6b95fd3d6e5362538be5d1ee2094d0e452f3cacffb1757",
+      "prediction_values_identical": true,
+      "result_zip_bytes_identical": true
+    }
+  ],
+  "new_models_loaded_only_for_parameter_receipt": true,
+  "old_models_loaded_for_dtype_proof": false
+}

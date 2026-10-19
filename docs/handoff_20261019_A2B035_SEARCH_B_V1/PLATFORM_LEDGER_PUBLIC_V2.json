@@ -1,0 +1,45 @@
+{
+  "schema": "A2B035-platform-ledger-v1",
+  "role": "账户B执行与交付",
+  "ranking_formula": "S_v = 0.5*A_score + 0.5*repeated_CV_mean; only verified complete versions, no per-well/month changes",
+  "daily_complete_version_limit": 3,
+  "current_B_platform_uploads": 0,
+  "entries": [
+    {
+      "version": "historical-B0-reported",
+      "A_score": 86.2003,
+      "A_score_source": "USER_REPORTED",
+      "A_score_independently_verified": false,
+      "submission_id": "UNKNOWN",
+      "submission_time": "UNKNOWN",
+      "evaluation_status": "UNKNOWN",
+      "uploaded_result_zip_sha256": "UNKNOWN",
+      "uploaded_submission_code_zip_sha256": "UNKNOWN",
+      "exact_uploaded_config_binding": "UNKNOWN",
+      "repeated_CV_mean_of_exact_uploaded_version": "UNKNOWN",
+      "S_v": "UNKNOWN",
+      "S_v_reason": "actual uploaded bytes/config not independently bound"
+    },
+    {
+      "version": "A2B033-B0-prime-R11-FIX01-user-reported",
+      "A_score": "UNKNOWN",
+      "reported_approximate_score": 79,
+      "A_score_source": "USER_REPORTED_APPROXIMATE",
+      "A_score_independently_verified": false,
+      "submission_id": "UNKNOWN",
+      "submission_time": "UNKNOWN",
+      "evaluation_status": "UNKNOWN",
+      "packet_identity_source": "AUDITED_REFERENCE_ARTIFACTS; user reply gives two hashes but no explicit actual-upload assertion",
+      "platform_receipt_binding": "UNKNOWN",
+      "exact_uploaded_config_binding": "UNKNOWN",
+      "repeated_CV_mean_of_exact_uploaded_version": "UNKNOWN, source+runtime complete-version equivalence not signed",
+      "S_v": "UNKNOWN",
+      "S_v_reason": "full precision A score and independent exact version binding absent",
+      "reviewed_result_zip_sha256": "9670e0d0bbea8e2720e53d032883f91900df65abe49b0da5c4642f755f3084de",
+      "reviewed_submission_code_zip_sha256": "7767b7ca28bfbf0ad9e427942c8416be35053e1e9a32b8a1eed50478fff72c6b",
+      "uploaded_result_zip_sha256": "UNKNOWN",
+      "uploaded_submission_code_zip_sha256": "UNKNOWN"
+    }
+  ],
+  "correction": "PLATFORM-035-PROVENANCE P2: two hashes are reviewed references, not actual uploaded identity; historical entry preserved in old delivery"
+}

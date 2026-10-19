@@ -1,0 +1,10 @@
+{
+  "attempt": 1,
+  "error": "LIVE_ENVIRONMENT_CHANGED",
+  "root_cause": "python_build tuple in live probe compared with JSON array list; values and all dependencies actually identical",
+  "fix": "normalize probe build tuple to list; frozen lock untouched",
+  "actual_environment_drift": false,
+  "model_fit_entries": 0,
+  "preprocessor_fit_entries": 0,
+  "inside_common_source_change": false
+}
