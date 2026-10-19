@@ -1,0 +1,55 @@
+{
+  "directory": "docs/handoff_20261019_A2B033_R11_FIX01_CODEX_V1",
+  "algorithm": "SHA256 original UTF-8 bytes",
+  "files": {
+    "AUDIT_QUEUE.md": {
+      "sha256": "edab6d62c708377719c1730cc716025b6fec4c6d550b168e8da0c85205e353f4",
+      "bytes": 1304
+    },
+    "B_COMMIT_DIFF_CODEX.json": {
+      "sha256": "031e24c590d0512839ac188ba725759144fb7cc37e66aa9530e746351a1622de",
+      "bytes": 4365
+    },
+    "CHECKS_CODEX.json": {
+      "sha256": "1da834e3185a364233217e6c785789176dba0d280fb739f4099f1dc1f4a48368",
+      "bytes": 15259
+    },
+    "COLLABORATION_REPLY_CODEX.md": {
+      "sha256": "8764c7728c1f2906355bdb68c2787b967d05f3e9b6ad1d97c955a9b76dcde0ad",
+      "bytes": 2203
+    },
+    "EXTRA_SOURCE_IDENTITY_CODEX.json": {
+      "sha256": "29ebeaa72056d784a503ac48ceed5b43b7cb5304fcbb36abadd3ba9a9b1eb2d8",
+      "bytes": 1375
+    },
+    "PRIVACY_SCAN_CODEX.json": {
+      "sha256": "7ebc7183ba95e256f66c907670ebd792fcc48f59f48ca9fc7395841a0b50d101",
+      "bytes": 4325
+    },
+    "README.md": {
+      "sha256": "3b3ef8c0768dacc8d7fed6d09f5f368847ccc9b82666b018a1caec0ab10f36d6",
+      "bytes": 1019
+    },
+    "REPORT_CODEX.md": {
+      "sha256": "2df5c34027c04e9f383890ed071c1bd0d5eb6115c601eb367659aeecdff37bce",
+      "bytes": 7743
+    },
+    "RESULT_CODEX.json": {
+      "sha256": "7794031cb7b44d911ea6ebd32c84463fbd33c35eedb874646030543fc32b59da",
+      "bytes": 2820
+    },
+    "SOURCE_IDENTITY_CODEX.json": {
+      "sha256": "e5cf96f568667e852feb16c1d5d68910244dfa4b406f63de8920db5797e4eb5c",
+      "bytes": 7426
+    },
+    "SYNTHETIC_LOG_CODEX.txt": {
+      "sha256": "423153664ef093f3848f8ec11942b438ec28be9a7627b90d979e8071b871f88e",
+      "bytes": 1056
+    },
+    "audit_fix01.py": {
+      "sha256": "2a7072c3234740b0b9eca9fa5ef5204f06b5a761defdc9b3ceccee923d81e162",
+      "bytes": 12219
+    }
+  },
+  "self_binding": "Fixed Git blob and external byte-return verification; no circular self hash."
+}

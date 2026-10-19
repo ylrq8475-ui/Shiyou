@@ -1,0 +1,34 @@
+[
+  {
+    "name": "old_manifest",
+    "commit": "47077ee354a784bdf99444dd19adb7a8dac36d80",
+    "path": "docs/handoff_20261019_A2B033_STEP2_B_V1/PRIVATE_CODE_PACKAGE_MANIFEST.json",
+    "sha256": "30673392875806b854b1502df01cb8b349f95d6881150f25698254b4038b1439",
+    "git_blob": "b6d6f966ccccd57b304f408cf4f3a28f1d96899a",
+    "bytes": 2627
+  },
+  {
+    "name": "old_readme",
+    "commit": "47077ee354a784bdf99444dd19adb7a8dac36d80",
+    "path": "docs/handoff_20261019_A2B033_STEP2_B_V1/README.md",
+    "sha256": "0ac4f6d9d5f0d1895da4a3a7aefe1396dc49271ec53b150e221101fc1f1703ae",
+    "git_blob": "37e45cea39335723aafffcfb27d34731bfa64575",
+    "bytes": 4734
+  },
+  {
+    "name": "prior_review",
+    "commit": "3ed4d57337b3805a3b40457ff66dc45c7ecde8e4",
+    "path": "docs/handoff_20261019_A2B033_STEP2_CODEX_REVIEW_V1/RESULT_CODEX.json",
+    "sha256": "29c5d0e5af1fe9e3c9cbdb7ece5586394826efac75febee3f75ef5a8c095e797",
+    "git_blob": "e08a9878e518a09ec505694b0a5cea1a78477fd7",
+    "bytes": 3173
+  },
+  {
+    "name": "r11",
+    "commit": "012e9fe50efac3f051b48804bc724e39b703cc93",
+    "path": "docs/handoff_20261019_A2B033_CLAUDE_INSTRUCTIONS_R11/INSTRUCTION_ORIGINAL.md",
+    "sha256": "407d536923bbbb6c6b03a2da6f686cf7e0321db6143ec63ffbc1cb64c332d414",
+    "git_blob": "bbff4eaab1662a13c9ac31b7705a1a19c3cfa52c",
+    "bytes": 6524
+  }
+]

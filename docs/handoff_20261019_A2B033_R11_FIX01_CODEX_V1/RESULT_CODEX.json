@@ -1,0 +1,79 @@
+{
+  "task": "A2B-033-R11-FIX-01",
+  "role": "Codex",
+  "signature": "账户A2（新接手）独立审核与交付",
+  "reviews_commit": "c357689ebbc7ba15b35cb9108ca867278bfdd066",
+  "base_B_commit": "47077ee354a784bdf99444dd19adb7a8dac36d80",
+  "prior_review_commit": "3ed4d57337b3805a3b40457ff66dc45c7ecde8e4",
+  "instruction_commit": "012e9fe50efac3f051b48804bc724e39b703cc93",
+  "publication_snapshot_commit": "PUBLICATION_SNAPSHOT_PENDING",
+  "hard_gates": {
+    "leakage": "PASS",
+    "alignment": "PASS",
+    "well_isolation": "PASS",
+    "official_metric": "PASS",
+    "scope": "Inherited unchanged fixed code and bound step2 evidence; no new real model fitting or scoring"
+  },
+  "issue_closed": {
+    "id": "CODEX-033-S2-01",
+    "severity": "P1",
+    "status": "CLOSED_FOR_BOUND_NEW_PACKAGE",
+    "evidence": "Explicit same-venv commands, 157 identity/receipt checks, 10 synthetic tests and actual PowerShell routing probe"
+  },
+  "upload_approval_ready": true,
+  "platform_upload_authorized": false,
+  "decision_row": "提交包是否可进入上传批准：是。仅限本次SHA绑定的新代码包与原结果包，不等于已经批准上传。",
+  "new_code_ZIP": {
+    "sha256": "7767b7ca28bfbf0ad9e427942c8416be35053e1e9a32b8a1eed50478fff72c6b",
+    "bytes": 2455821,
+    "members": 25,
+    "changed_members": [
+      "README.md"
+    ],
+    "unchanged_members": 24
+  },
+  "result_ZIP": {
+    "sha256": "9670e0d0bbea8e2720e53d032883f91900df65abe49b0da5c4642f755f3084de",
+    "bytes": 3074,
+    "unchanged": true
+  },
+  "model_sha256": "92534c2bd5f2f0d5e5167740b2a66e42c877a834dc22f1471a375c7a0e3e3ac1",
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "A_real_prediction_runs": 0,
+  "B_fix_model_fits": 0,
+  "B_fix_preprocessor_fits": 0,
+  "B_fix_prediction_runs": 0,
+  "checks_passed": 157,
+  "synthetic_tests_passed": 10,
+  "private_data_or_packages_read_by_A": false,
+  "B_private_package_receipts_not_direct_A_extraction": true,
+  "previous_clean_reproduction_inherited_not_reexecuted": true,
+  "A_standard_library_audit_python": "3.14.0rc3",
+  "A_not_claiming_B_training_runtime_reproduction": true,
+  "original_step1_score": 76.33261832127738,
+  "original_step1_delta": 2.6185109826630395,
+  "positive_folds": 3,
+  "original_step1_gate_passed": false,
+  "R11_user_override_preserved": true,
+  "user_reported_old_platform_score": 86.2003,
+  "new_platform_score": null,
+  "open_unknowns": [
+    {
+      "id": "HIST-DTYPE",
+      "severity": "P1",
+      "status": "UNKNOWN_INHERITED_R5_USER_EXCEPTION"
+    },
+    {
+      "id": "PLATFORM-B0-BINDING",
+      "severity": "P2",
+      "status": "UNKNOWN_USER_SCORE_NOT_ACTUAL_UPLOADED_HASH"
+    },
+    {
+      "id": "PLATFORM-APPROVAL",
+      "severity": "P3",
+      "status": "AWAITING_USER_NUMBERED_AUTHORIZATION"
+    }
+  ],
+  "platform_uploads": 0
+}

@@ -1,0 +1,141 @@
+{
+  "base": "0e179cc024c7c0a90a105fe0628dfd6e3d2a9585",
+  "head": "c357689ebbc7ba15b35cb9108ca867278bfdd066",
+  "status": "ahead",
+  "ahead_by": 1,
+  "files": [
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/AUTHORIZATION_FIX01.md",
+      "status": "added",
+      "sha": "ae237afb4d824198baa2b14abe643ddd475b9ad9",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/FIT_COUNTS.json",
+      "status": "added",
+      "sha": "e2863e78918f19ad6f4ccd8502705798127c637a",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/FIX_PLAN.json",
+      "status": "added",
+      "sha": "f1323f200039984979d9062e476b839b1e06c487",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/MEMBER_SHA256_COMPARISON.json",
+      "status": "added",
+      "sha": "a092fbe932cfa092d3d55ec9c99c03560a205704",
+      "additions": 209,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/NEW_CODE_PACKAGE_MANIFEST.json",
+      "status": "added",
+      "sha": "8136241307d792990a218296e638dc0792800f7a",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/PRESERVATION_CHECK.json",
+      "status": "added",
+      "sha": "17dc31bf13e01d723720ead876036ee4eff67cfa",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "status": "added",
+      "sha": "e9dcbcd4b156b1a2c9c0c547b89b105f413ec923",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/PRIVACY_SCAN_RAW.json",
+      "status": "added",
+      "sha": "d03001f2964f328ca443991983dac7591f59658a",
+      "additions": 322,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/README.md",
+      "status": "added",
+      "sha": "f4ebb0e1fe35f853c13f445e9d78e4494ccaadd3",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/README_COMMAND_CHECK.json",
+      "status": "added",
+      "sha": "46d405ab66c8ffb368bc8fc4b78856b16d3401c8",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/README_ONLY.diff",
+      "status": "added",
+      "sha": "44a29de14dfe8d9876c2c404ef673714fe7ca8bf",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/README_PREVIOUS.md",
+      "status": "added",
+      "sha": "37e45cea39335723aafffcfb27d34731bfa64575",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/RECEIVED_REVIEW_CODEX.json",
+      "status": "added",
+      "sha": "e08a9878e518a09ec505694b0a5cea1a78477fd7",
+      "additions": 105,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/REPORT_B.md",
+      "status": "added",
+      "sha": "9c487c4f33bcc8ade69aebebdd12884d9bf4803e",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/REQUEST_A2_CODEX_READONLY_REVIEW.md",
+      "status": "added",
+      "sha": "6bb6fec71c3e26294e574a4cc6cf567542ff7397",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/SHA256SUMS.json",
+      "status": "added",
+      "sha": "c8fa295c3a1769cc245ae7b5d704795079cca7a2",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/SOURCE_RECEIPT.json",
+      "status": "added",
+      "sha": "c4965ce402fb4c007053dfecb6d319b26a48e814",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/build_fix.py",
+      "status": "added",
+      "sha": "66b2262bccbe9b3d20f1cc2b6965606ed48e3744",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/privacy_check.py",
+      "status": "added",
+      "sha": "b571cf3629349ee4dc910c06b8aad447a0b66cf6",
+      "additions": 97,
+      "deletions": 0
+    }
+  ]
+}

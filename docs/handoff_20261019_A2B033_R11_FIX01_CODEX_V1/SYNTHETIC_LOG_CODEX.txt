@@ -1,0 +1,15 @@
+test_accept_corrected_commands (__main__.Synthetic.test_accept_corrected_commands) ... ok
+test_fictional_zip_one_member_only (__main__.Synthetic.test_fictional_zip_one_member_only) ... ok
+test_inverse_rewrite_exact (__main__.Synthetic.test_inverse_rewrite_exact) ... ok
+test_reject_altered_training_arguments (__main__.Synthetic.test_reject_altered_training_arguments) ... ok
+test_reject_bare_training_command (__main__.Synthetic.test_reject_bare_training_command) ... ok
+test_reject_old_commands (__main__.Synthetic.test_reject_old_commands) ... ok
+test_reject_one_bare_prediction (__main__.Synthetic.test_reject_one_bare_prediction) ... ok
+test_reject_system_pip (__main__.Synthetic.test_reject_system_pip) ... ok
+test_reject_test_interpreter_drift (__main__.Synthetic.test_reject_test_interpreter_drift) ... ok
+test_synthetic_checksum_detects_non_readme_change (__main__.Synthetic.test_synthetic_checksum_detects_non_readme_change) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.007s
+
+OK

@@ -1,0 +1,650 @@
+{
+  "task": "A2B-033-R11-FIX-01",
+  "reviews_commit": "c357689ebbc7ba15b35cb9108ca867278bfdd066",
+  "source_and_receipt_checks": 157,
+  "passed": 157,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "20 public files",
+      "pass": true
+    },
+    {
+      "check": "all other 19 files in checksum list",
+      "pass": true
+    },
+    {
+      "check": "manifest AUTHORIZATION_FIX01.md",
+      "pass": true
+    },
+    {
+      "check": "manifest FIT_COUNTS.json",
+      "pass": true
+    },
+    {
+      "check": "manifest FIX_PLAN.json",
+      "pass": true
+    },
+    {
+      "check": "manifest MEMBER_SHA256_COMPARISON.json",
+      "pass": true
+    },
+    {
+      "check": "manifest NEW_CODE_PACKAGE_MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "manifest PRESERVATION_CHECK.json",
+      "pass": true
+    },
+    {
+      "check": "manifest PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "check": "manifest PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "check": "manifest README.md",
+      "pass": true
+    },
+    {
+      "check": "manifest README_COMMAND_CHECK.json",
+      "pass": true
+    },
+    {
+      "check": "manifest README_ONLY.diff",
+      "pass": true
+    },
+    {
+      "check": "manifest README_PREVIOUS.md",
+      "pass": true
+    },
+    {
+      "check": "manifest RECEIVED_REVIEW_CODEX.json",
+      "pass": true
+    },
+    {
+      "check": "manifest REPORT_B.md",
+      "pass": true
+    },
+    {
+      "check": "manifest REQUEST_A2_CODEX_READONLY_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "manifest RESULT_FIX01.json",
+      "pass": true
+    },
+    {
+      "check": "manifest SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "manifest build_fix.py",
+      "pass": true
+    },
+    {
+      "check": "manifest privacy_check.py",
+      "pass": true
+    },
+    {
+      "check": "one unique scan per public file",
+      "pass": true
+    },
+    {
+      "check": "B scan result AUTHORIZATION_FIX01.md",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes AUTHORIZATION_FIX01.md",
+      "pass": true
+    },
+    {
+      "check": "B scan result FIT_COUNTS.json",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes FIT_COUNTS.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result FIX_PLAN.json",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes FIX_PLAN.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result MEMBER_SHA256_COMPARISON.json",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes MEMBER_SHA256_COMPARISON.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result NEW_CODE_PACKAGE_MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes NEW_CODE_PACKAGE_MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result PRESERVATION_CHECK.json",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes PRESERVATION_CHECK.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "check": "B scan result PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "check": "metadata final scan identity exception PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result README.md",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes README.md",
+      "pass": true
+    },
+    {
+      "check": "B scan result README_COMMAND_CHECK.json",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes README_COMMAND_CHECK.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result README_ONLY.diff",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes README_ONLY.diff",
+      "pass": true
+    },
+    {
+      "check": "B scan result README_PREVIOUS.md",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes README_PREVIOUS.md",
+      "pass": true
+    },
+    {
+      "check": "B scan result RECEIVED_REVIEW_CODEX.json",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes RECEIVED_REVIEW_CODEX.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result REPORT_B.md",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes REPORT_B.md",
+      "pass": true
+    },
+    {
+      "check": "B scan result REQUEST_A2_CODEX_READONLY_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes REQUEST_A2_CODEX_READONLY_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "B scan result RESULT_FIX01.json",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes RESULT_FIX01.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result SHA256SUMS.json",
+      "pass": true
+    },
+    {
+      "check": "metadata final scan identity exception SHA256SUMS.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "B scan result build_fix.py",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes build_fix.py",
+      "pass": true
+    },
+    {
+      "check": "B scan result privacy_check.py",
+      "pass": true
+    },
+    {
+      "check": "B scan original bytes privacy_check.py",
+      "pass": true
+    },
+    {
+      "check": "25 unique members",
+      "pass": true
+    },
+    {
+      "check": "prior member binding ENVIRONMENT_REFERENCE.json",
+      "pass": true
+    },
+    {
+      "check": "new member binding ENVIRONMENT_REFERENCE.json",
+      "pass": true
+    },
+    {
+      "check": "changed status ENVIRONMENT_REFERENCE.json",
+      "pass": true
+    },
+    {
+      "check": "prior member binding FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "new member binding FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "changed status FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "prior member binding MODEL_PARAMETERS.json",
+      "pass": true
+    },
+    {
+      "check": "new member binding MODEL_PARAMETERS.json",
+      "pass": true
+    },
+    {
+      "check": "changed status MODEL_PARAMETERS.json",
+      "pass": true
+    },
+    {
+      "check": "prior member binding README.md",
+      "pass": true
+    },
+    {
+      "check": "new member binding README.md",
+      "pass": true
+    },
+    {
+      "check": "changed status README.md",
+      "pass": true
+    },
+    {
+      "check": "prior member binding STEP2_AUTHORIZATION.json",
+      "pass": true
+    },
+    {
+      "check": "new member binding STEP2_AUTHORIZATION.json",
+      "pass": true
+    },
+    {
+      "check": "changed status STEP2_AUTHORIZATION.json",
+      "pass": true
+    },
+    {
+      "check": "prior member binding core.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding core.py",
+      "pass": true
+    },
+    {
+      "check": "changed status core.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "changed status csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "changed status fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding models/B0_prime.joblib",
+      "pass": true
+    },
+    {
+      "check": "new member binding models/B0_prime.joblib",
+      "pass": true
+    },
+    {
+      "check": "changed status models/B0_prime.joblib",
+      "pass": true
+    },
+    {
+      "check": "prior member binding models/MODEL_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "new member binding models/MODEL_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "changed status models/MODEL_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "prior member binding predict.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding predict.py",
+      "pass": true
+    },
+    {
+      "check": "changed status predict.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "new member binding requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "changed status requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "prior member binding runtime_policy.json",
+      "pass": true
+    },
+    {
+      "check": "new member binding runtime_policy.json",
+      "pass": true
+    },
+    {
+      "check": "changed status runtime_policy.json",
+      "pass": true
+    },
+    {
+      "check": "prior member binding src/oil_uplift/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding src/oil_uplift/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "changed status src/oil_uplift/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding src/oil_uplift/a2b013_safe.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding src/oil_uplift/a2b013_safe.py",
+      "pass": true
+    },
+    {
+      "check": "changed status src/oil_uplift/a2b013_safe.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding src/oil_uplift/config.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding src/oil_uplift/config.py",
+      "pass": true
+    },
+    {
+      "check": "changed status src/oil_uplift/config.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding src/oil_uplift/exceptions.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding src/oil_uplift/exceptions.py",
+      "pass": true
+    },
+    {
+      "check": "changed status src/oil_uplift/exceptions.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding src/oil_uplift/io.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding src/oil_uplift/io.py",
+      "pass": true
+    },
+    {
+      "check": "changed status src/oil_uplift/io.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding src/oil_uplift/models.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding src/oil_uplift/models.py",
+      "pass": true
+    },
+    {
+      "check": "changed status src/oil_uplift/models.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding src/oil_uplift/multistep.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding src/oil_uplift/multistep.py",
+      "pass": true
+    },
+    {
+      "check": "changed status src/oil_uplift/multistep.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding src/oil_uplift/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding src/oil_uplift/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "changed status src/oil_uplift/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding src/oil_uplift/submission.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding src/oil_uplift/submission.py",
+      "pass": true
+    },
+    {
+      "check": "changed status src/oil_uplift/submission.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding src/oil_uplift/training.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding src/oil_uplift/training.py",
+      "pass": true
+    },
+    {
+      "check": "changed status src/oil_uplift/training.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding test_033.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding test_033.py",
+      "pass": true
+    },
+    {
+      "check": "changed status test_033.py",
+      "pass": true
+    },
+    {
+      "check": "prior member binding train.py",
+      "pass": true
+    },
+    {
+      "check": "new member binding train.py",
+      "pass": true
+    },
+    {
+      "check": "changed status train.py",
+      "pass": true
+    },
+    {
+      "check": "exactly README changed",
+      "pass": true
+    },
+    {
+      "check": "new ZIP identity size CRC",
+      "pass": true
+    },
+    {
+      "check": "old code ZIP preserved identity",
+      "pass": true
+    },
+    {
+      "check": "old README exact prior public bytes",
+      "pass": true
+    },
+    {
+      "check": "new README exact declared ZIP member",
+      "pass": true
+    },
+    {
+      "check": "minimal deterministic README rewrite",
+      "pass": true
+    },
+    {
+      "check": "published diff equals complete original-byte text diff",
+      "pass": true
+    },
+    {
+      "check": "all runtime commands use one explicit interpreter",
+      "pass": true
+    },
+    {
+      "check": "B zero fits inference retry entries",
+      "pass": true
+    },
+    {
+      "check": "cumulative fit counts unchanged",
+      "pass": true
+    },
+    {
+      "check": "B 81 protected files preserved",
+      "pass": true
+    },
+    {
+      "check": "result/model/private policy identity preserved",
+      "pass": true
+    },
+    {
+      "check": "prior Codex result byte identity",
+      "pass": true
+    },
+    {
+      "check": "B not self-closing or allowing upload",
+      "pass": true
+    },
+    {
+      "check": "R11 original SHA",
+      "pass": true
+    },
+    {
+      "check": "build imports only stdlib",
+      "pass": true
+    },
+    {
+      "check": "no fitted model loads or fitting calls in build AST",
+      "pass": true
+    },
+    {
+      "check": "B recorded exact numbered user authorization",
+      "pass": true
+    },
+    {
+      "check": "actual PowerShell README relative interpreter route",
+      "pass": true
+    }
+  ],
+  "synthetic_tests": 10,
+  "synthetic_successful": true,
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "A_real_prediction_runs": 0,
+  "competition_data_read": false,
+  "private_ZIPs_or_weights_read": false,
+  "A_stdlib_check_python": "3.14.0rc3",
+  "A_runtime_not_B_locked_training_runtime": true,
+  "locked_interpreter_unavailable_no_model_reproduction_attempted": true,
+  "PowerShell_explicit_README_interpreter_routing_verified": true,
+  "probe_pip_installs": 0,
+  "scope": "Public bytes, independent static/receipt checks and pure synthetic command/ZIP tests; B private ZIP identities based on bound receipts, not A direct private extraction"
+}
