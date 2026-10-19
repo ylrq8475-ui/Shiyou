@@ -4,7 +4,7 @@
   "signature": "账户A2（新接手）独立审核与交付",
   "reviews_commit": "4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b",
   "instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
-  "publication_snapshot_commit": "PUBLICATION_SNAPSHOT_PENDING",
+  "publication_snapshot_commit": "65b287a034eabb0de3a8ec53281b3ca896e7e84d",
   "pipeline_lock_sha256": "ce1ab047d126f2586993dc8d2b05aef5f1b9871c59b626d6927d8803904713d1",
   "can_search": true,
   "search_scope": {

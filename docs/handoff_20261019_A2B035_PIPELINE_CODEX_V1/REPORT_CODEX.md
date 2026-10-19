@@ -3,7 +3,7 @@
 任务编号/阶段：A2B-035 / R13审核一：共用管线、双基准与平台台账
 角色：Codex审核；账户A2（新接手）独立审核与交付
 分支：codex/a2b035-pipeline-codex-review-20261019
-完整提交号（40位）：PUBLICATION_SNAPSHOT_PENDING（本审核首个固定快照；最终版由回取后的固定链接及索引绑定）
+完整提交号（40位）：65b287a034eabb0de3a8ec53281b3ca896e7e84d（本审核首个固定快照；最终版由回取后的固定链接及索引绑定）
 目录路径：docs/handoff_20261019_A2B035_PIPELINE_CODEX_V1
 结果文件路径（单个JSON）：docs/handoff_20261019_A2B035_PIPELINE_CODEX_V1/RESULT_CODEX.json
 被审B提交号（40位）：4fbe466d0ca7a7cbcd9d1639e2a200f20e1de47b
