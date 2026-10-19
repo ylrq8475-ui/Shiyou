@@ -498,6 +498,23 @@
         "PLATFORM-APPROVAL P3 未获上传或最终指定授权；R11越过3/5门槛不追认原步骤1通过"
       ],
       "published_at": "2026-10-19T16:17:02.000+08:00"
+    },
+    {
+      "task": "A2B-033-R11-FIX-01/README解释器命令修订（零拟合）",
+      "role": "B",
+      "commit": "c357689ebbc7ba15b35cb9108ca867278bfdd066",
+      "report_path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261019_A2B033_R11_FIX01_B_V1/RESULT_FIX01.json",
+      "reviews_commit": "不适用",
+      "hard_gates": "泄漏／错位／井级隔离／指标：继承原步骤2已审源码和证据；本轮仅文档/ZIP身份检查，模型与预处理拟合0/0、推理0，25项仅README变化，24项含模型/私有配置/算法源码字节不变；result.zip与旧包不变",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "CODEX-033-S2-01 P1：已交README修订和新包SHA证据，待账户A2/Codex只读复核；B不自行关闭或判定允许上传",
+        "HIST-DTYPE P1：历史加载身份继续UNKNOWN，沿用既有例外，不因文档修订关闭",
+        "PLATFORM-B0-BINDING P2：86.2003与旧平台包未独立绑定，状态不变",
+        "PLATFORM-APPROVAL P3：本次未授权平台上传或最终指定；新版代码包SHA256 7767b7ca28bfbf0ad9e427942c8416be35053e1e9a32b8a1eed50478fff72c6b"
+      ],
+      "published_at": "2026-10-19T16:34:38.405632+08:00"
     }
   ]
 }
