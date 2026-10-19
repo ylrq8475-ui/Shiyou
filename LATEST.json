@@ -384,6 +384,22 @@
         "A032-P3-REFERENCE P2 原文新目标前一个月对照与P3同式差0；若需另一对照，缺明确公式",
         "HIST-DTYPE P1 继承历史加载身份缺口，本轮零拟合不关闭，不以同分补造身份"
       ]
+    },
+    {
+      "task": "A2B-033/截止T0−1重训B0′+达标后提交包",
+      "role": "Claude",
+      "commit": "55adffb975204493cdc75567de8d74fc82dd3a73",
+      "report_path": "docs/handoff_20261019_A2B033_CLAUDE_INSTRUCTIONS_R10/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "用户解读决定：k_end测试10/10、训练81/81均为1，认定起点对齐，不重构目标；ALIGN_MATCH=否不作错位证据",
+        "上传平台与指定最终提交另行批准",
+        "A2B-031 Q1层位复核待Codex，排在A2B-033之后；Q2严格N_Q2_all=0"
+      ],
+      "published_at": "2026-10-19T13:55:00+08:00"
     }
   ]
 }
