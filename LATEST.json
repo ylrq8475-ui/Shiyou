@@ -354,6 +354,36 @@
         "HIST-DTYPE P1 原历史缺口未回填"
       ],
       "published_at": "2026-10-16T15:13:40.065563+08:00"
+    },
+    {
+      "role": "Codex",
+      "commit": "ce76e2ba0c3296f22f18a67bf212c05091b14573",
+      "published_at": "2026-10-19T13:45:10+08:00",
+      "task": "A2B-032/T4 合规判定",
+      "report_path": "docs/handoff_20261019_A2B032_T4_AND_T1T3_CODEX_V1/REPORT_CODEX_T4.md",
+      "result_json_path": "docs/handoff_20261019_A2B032_T4_AND_T1T3_CODEX_V1/RESULT_CODEX_T4.json",
+      "reviews_commit": "不适用",
+      "hard_gates": "泄漏：通过（限定同井合法模板前输入边界）；错位／井级隔离／指标：UNKNOWN（P3，T4不审模型实施，无对应实验对象）",
+      "decision_row": "T4允许：同井合法月度历史截止T0−1；M<T0时可用M月，间隔月同边界；模板窗口内字段不允许。本轮不授权训练。",
+      "open_unknowns": [
+        "A032-T4-IMPLEMENTATION P3 尚无新截止点候选实施，本轮只判规则，不是模型验收；层位、首次方案及历史dtype不在本轮关闭范围"
+      ]
+    },
+    {
+      "role": "Codex",
+      "commit": "ce76e2ba0c3296f22f18a67bf212c05091b14573",
+      "published_at": "2026-10-19T13:45:10+08:00",
+      "task": "A2B-032/T1–T3任务对齐审计",
+      "report_path": "docs/handoff_20261019_A2B032_T4_AND_T1T3_CODEX_V1/REPORT_CODEX_T1T3.md",
+      "result_json_path": "docs/handoff_20261019_A2B032_T4_AND_T1T3_CODEX_V1/RESULT_CODEX_T1T3.json",
+      "reviews_commit": "094ebcd2b6b323849fce9c5cb1daf3e6b9228b41",
+      "hard_gates": "泄漏／错位／井级隔离／指标：通过（限固定源码、绑定聚合及独立合成；未重读真实数据、逐井复算或拟合）",
+      "decision_row": "ALIGN_MATCH = 否 | 对齐不一致：起草\"按官方模板对齐重构训练目标\"的方案并重新建立基线（另行批准）；此前所有实验结论待重估。T4：允许模板前合法历史至T0−1。",
+      "open_unknowns": [
+        "A032-ALIGN-INTERPRETATION P2 测试10/10及训练81/81的k_end均1；6/10众数集中度失败不单独证明实际目标错位，不能直接统一改S+1",
+        "A032-P3-REFERENCE P2 原文新目标前一个月对照与P3同式差0；若需另一对照，缺明确公式",
+        "HIST-DTYPE P1 继承历史加载身份缺口，本轮零拟合不关闭，不以同分补造身份"
+      ]
     }
   ]
 }
