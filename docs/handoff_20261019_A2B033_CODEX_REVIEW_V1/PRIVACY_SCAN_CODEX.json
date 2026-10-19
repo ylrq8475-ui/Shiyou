@@ -1,0 +1,157 @@
+{
+  "role": "账户A2（新接手）独立审核与交付",
+  "published_files": 18,
+  "scope": "Generic credential/path/identifier-pattern scan and manual review of public-only provenance; no real marker inventory or raw-data rescan",
+  "records": [
+    {
+      "file": "AGGREGATE_REVIEW_CODEX.json",
+      "sha256": "072150cc33aa8fa94a66efa0659be7210e913f1da3e5c80c83dec3774c67eed0",
+      "bytes": 23441,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "AUDIT_QUEUE.md",
+      "sha256": "04abc0f91f9c1cac60e1c2951b1155226bf477cf636926749115fa4eff250d63",
+      "bytes": 1834,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "BASELINE_SOURCE_IDENTITY_CODEX.json",
+      "sha256": "26ecdb875bfaf96c465e55eaaa2917c5a50f1d7c45345259558203f2cf08e083",
+      "bytes": 3160,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "CLEAN_PUBLIC_REPRODUCTION_CODEX.json",
+      "sha256": "bfe40311d53bbb19747b5214bdc2d995caf03f8a7a7bc20385477da5e6bf91ef",
+      "bytes": 2096,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "COLLABORATION_REPLY_CODEX.md",
+      "sha256": "636043d06924c48bf835c387ca4b38d95c19147d8f541e7db019dba8ec6480fd",
+      "bytes": 2689,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "EVIDENCE_NOTES_CODEX.md",
+      "sha256": "2d7e8703476df40bb4cb7234e3282c5aa75ae455534c8b7c4c54669ba87dc97e",
+      "bytes": 6373,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "PRIVACY_SCAN_CODEX.json",
+      "sha256": null,
+      "bytes": null,
+      "final_serialized_bytes_scanned": true,
+      "identity_binding": "privacy JSON via manifest; manifest via fixed Git blob and external return receipt",
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "PUBLICATION_MANIFEST.json",
+      "sha256": null,
+      "bytes": null,
+      "final_serialized_bytes_scanned": true,
+      "identity_binding": "privacy JSON via manifest; manifest via fixed Git blob and external return receipt",
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "README.md",
+      "sha256": "13bd504a6e0deb4c0b011803e9a3ce1c473e20a4ab3c6d280c789cc9d03a8d6d",
+      "bytes": 2679,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "REPORT_CODEX.md",
+      "sha256": "9f64cf8b49e04de3dbef475731f9844fcdead045a498205788db01aaf84744aa",
+      "bytes": 5400,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "RESULT_CODEX.json",
+      "sha256": "c66d30156fc3091fe23b10be53af8a2304927a1d416d29eedfce09318b88ff28",
+      "bytes": 4514,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "SOURCE_IDENTITY_CODEX.json",
+      "sha256": "3bd72a77f5f0c94bb1c60de742bf4cd3af9b4dbfeb20652bc0ee07605b6e6dc9",
+      "bytes": 13842,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "SYNTHETIC_LOG_CODEX.txt",
+      "sha256": "7b8e6a4c5347d95442b8cb02fdc35bf7e5155eeb9e84400cedf361721c8001fa",
+      "bytes": 3616,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "SYNTHETIC_RESULT_CODEX.json",
+      "sha256": "01412e1d0af732a8f61431c98711f43243737b86a393396bdafa3279b37aabf8",
+      "bytes": 391,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "audit_records.py",
+      "sha256": "d5c93f7f533b65f1b58410c0ab85264010c98e73703f27b62cd3d1d2af2ec8d8",
+      "bytes": 10631,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "hydrate_public_sources.py",
+      "sha256": "80879341e9a894b9b9423628d68348a5564ff62a419742893cb223bdc9621615",
+      "bytes": 2434,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "run_synthetic_review.py",
+      "sha256": "d2765bdd78463b7b8751a1b05637caee407c2190c79cec9ec8ae43e98240101e",
+      "bytes": 2630,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "test_independent_033.py",
+      "sha256": "154e4260bb0e503104be1bf22a223459b3b1da7b69cc141f76fff2e04edb900a",
+      "bytes": 8441,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    }
+  ],
+  "real_data_read": false,
+  "fits": 0
+}

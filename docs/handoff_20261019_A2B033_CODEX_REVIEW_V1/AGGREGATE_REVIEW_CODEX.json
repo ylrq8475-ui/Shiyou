@@ -1,0 +1,1130 @@
+{
+  "checks": [
+    {
+      "check": "published_file_count",
+      "pass": true
+    },
+    {
+      "check": "manifest_coverage",
+      "pass": true
+    },
+    {
+      "check": "manifest/ARITHMETIC_CHECKS.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/CLAUDE_INSTRUCTION_ORIGINAL_R10.md",
+      "pass": true
+    },
+    {
+      "check": "manifest/ENVIRONMENT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/FIT_COUNTS.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/FIT_LEDGER.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/FOLD_1.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/FOLD_2.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/FOLD_3.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/FOLD_4.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/FOLD_5.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/IMPLEMENTATION_PREFIT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/INTEGRITY_AFTER_STEP1.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/PLAN_R10.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "check": "manifest/PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/README.md",
+      "pass": true
+    },
+    {
+      "check": "manifest/RECEIVED_CODEX_T4.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/REPORT_B.md",
+      "pass": true
+    },
+    {
+      "check": "manifest/REQUEST_CODEX_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "manifest/RESULT_A2B033.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/STRUCTURE_GATES.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/SYNTHETIC_LOG.txt",
+      "pass": true
+    },
+    {
+      "check": "manifest/SYNTHETIC_RESULTS.json",
+      "pass": true
+    },
+    {
+      "check": "manifest/core.py",
+      "pass": true
+    },
+    {
+      "check": "manifest/csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "manifest/fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "manifest/predict.py",
+      "pass": true
+    },
+    {
+      "check": "manifest/privacy_check.py",
+      "pass": true
+    },
+    {
+      "check": "manifest/requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "manifest/run_oof.py",
+      "pass": true
+    },
+    {
+      "check": "manifest/test_033.py",
+      "pass": true
+    },
+    {
+      "check": "manifest/train.py",
+      "pass": true
+    },
+    {
+      "check": "privacy_coverage",
+      "pass": true
+    },
+    {
+      "check": "no_scan_exemptions",
+      "pass": true
+    },
+    {
+      "check": "scan_result/ARITHMETIC_CHECKS.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/ARITHMETIC_CHECKS.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/CLAUDE_INSTRUCTION_ORIGINAL_R10.md",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/CLAUDE_INSTRUCTION_ORIGINAL_R10.md",
+      "pass": true
+    },
+    {
+      "check": "scan_result/ENVIRONMENT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/ENVIRONMENT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/FIT_COUNTS.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/FIT_COUNTS.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/FIT_LEDGER.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/FIT_LEDGER.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/FOLD_1.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/FOLD_1.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/FOLD_2.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/FOLD_2.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/FOLD_3.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/FOLD_3.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/FOLD_4.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/FOLD_4.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/FOLD_5.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/FOLD_5.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/IMPLEMENTATION_PREFIT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/IMPLEMENTATION_PREFIT_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/INTEGRITY_AFTER_STEP1.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/INTEGRITY_AFTER_STEP1.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/PLAN_R10.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/PLAN_R10.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "check": "scan_result/PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "check": "metadata_self_binding/PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/README.md",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/README.md",
+      "pass": true
+    },
+    {
+      "check": "scan_result/RECEIVED_CODEX_T4.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/RECEIVED_CODEX_T4.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/REPORT_B.md",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/REPORT_B.md",
+      "pass": true
+    },
+    {
+      "check": "scan_result/REQUEST_CODEX_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/REQUEST_CODEX_REVIEW.md",
+      "pass": true
+    },
+    {
+      "check": "scan_result/RESULT_A2B033.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/RESULT_A2B033.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/SHA256SUMS.json",
+      "pass": true
+    },
+    {
+      "check": "metadata_self_binding/SHA256SUMS.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/STRUCTURE_GATES.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/STRUCTURE_GATES.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/SYNTHETIC_LOG.txt",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/SYNTHETIC_LOG.txt",
+      "pass": true
+    },
+    {
+      "check": "scan_result/SYNTHETIC_RESULTS.json",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/SYNTHETIC_RESULTS.json",
+      "pass": true
+    },
+    {
+      "check": "scan_result/core.py",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/core.py",
+      "pass": true
+    },
+    {
+      "check": "scan_result/csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "scan_result/fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "scan_result/predict.py",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/predict.py",
+      "pass": true
+    },
+    {
+      "check": "scan_result/privacy_check.py",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/privacy_check.py",
+      "pass": true
+    },
+    {
+      "check": "scan_result/requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "scan_result/run_oof.py",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/run_oof.py",
+      "pass": true
+    },
+    {
+      "check": "scan_result/test_033.py",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/test_033.py",
+      "pass": true
+    },
+    {
+      "check": "scan_result/train.py",
+      "pass": true
+    },
+    {
+      "check": "scan_identity/train.py",
+      "pass": true
+    },
+    {
+      "check": "R10_copy",
+      "pass": true
+    },
+    {
+      "check": "T4_copy",
+      "pass": true
+    },
+    {
+      "check": "instruction_identity",
+      "pass": true
+    },
+    {
+      "check": "T4_identity",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/core.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/predict.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/test_033.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/train.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/FROZEN_SOURCES.json",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/PLAN_R10.json",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/run_oof.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/src/oil_uplift/a2b013_safe.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/src/oil_uplift/config.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/src/oil_uplift/exceptions.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/src/oil_uplift/io.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/src/oil_uplift/models.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/src/oil_uplift/multistep.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/src/oil_uplift/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/src/oil_uplift/submission.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/src/oil_uplift/training.py",
+      "pass": true
+    },
+    {
+      "check": "prefit_source/source/src/oil_uplift/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "environment_identity",
+      "pass": true
+    },
+    {
+      "check": "public_original_module_count",
+      "pass": true
+    },
+    {
+      "check": "embedded_original/src/oil_uplift/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "old_git_blob/src/oil_uplift/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "embedded_original/src/oil_uplift/a2b013_safe.py",
+      "pass": true
+    },
+    {
+      "check": "old_git_blob/src/oil_uplift/a2b013_safe.py",
+      "pass": true
+    },
+    {
+      "check": "embedded_original/src/oil_uplift/training.py",
+      "pass": true
+    },
+    {
+      "check": "old_git_blob/src/oil_uplift/training.py",
+      "pass": true
+    },
+    {
+      "check": "embedded_original/src/oil_uplift/multistep.py",
+      "pass": true
+    },
+    {
+      "check": "old_git_blob/src/oil_uplift/multistep.py",
+      "pass": true
+    },
+    {
+      "check": "embedded_original/src/oil_uplift/models.py",
+      "pass": true
+    },
+    {
+      "check": "old_git_blob/src/oil_uplift/models.py",
+      "pass": true
+    },
+    {
+      "check": "embedded_original/src/oil_uplift/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "old_git_blob/src/oil_uplift/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "embedded_original/src/oil_uplift/config.py",
+      "pass": true
+    },
+    {
+      "check": "old_git_blob/src/oil_uplift/config.py",
+      "pass": true
+    },
+    {
+      "check": "embedded_original/src/oil_uplift/io.py",
+      "pass": true
+    },
+    {
+      "check": "old_git_blob/src/oil_uplift/io.py",
+      "pass": true
+    },
+    {
+      "check": "embedded_original/src/oil_uplift/exceptions.py",
+      "pass": true
+    },
+    {
+      "check": "old_git_blob/src/oil_uplift/exceptions.py",
+      "pass": true
+    },
+    {
+      "check": "embedded_original/src/oil_uplift/submission.py",
+      "pass": true
+    },
+    {
+      "check": "old_git_blob/src/oil_uplift/submission.py",
+      "pass": true
+    },
+    {
+      "check": "inner_privacy_count",
+      "pass": true
+    },
+    {
+      "check": "inner_privacy/src/oil_uplift/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "inner_privacy/src/oil_uplift/a2b013_safe.py",
+      "pass": true
+    },
+    {
+      "check": "inner_privacy/src/oil_uplift/training.py",
+      "pass": true
+    },
+    {
+      "check": "inner_privacy/src/oil_uplift/multistep.py",
+      "pass": true
+    },
+    {
+      "check": "inner_privacy/src/oil_uplift/models.py",
+      "pass": true
+    },
+    {
+      "check": "inner_privacy/src/oil_uplift/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "inner_privacy/src/oil_uplift/config.py",
+      "pass": true
+    },
+    {
+      "check": "inner_privacy/src/oil_uplift/io.py",
+      "pass": true
+    },
+    {
+      "check": "inner_privacy/src/oil_uplift/exceptions.py",
+      "pass": true
+    },
+    {
+      "check": "inner_privacy/src/oil_uplift/submission.py",
+      "pass": true
+    },
+    {
+      "check": "model/n_estimators",
+      "pass": true
+    },
+    {
+      "check": "model/min_samples_leaf",
+      "pass": true
+    },
+    {
+      "check": "model/max_features",
+      "pass": true
+    },
+    {
+      "check": "model/random_state",
+      "pass": true
+    },
+    {
+      "check": "model/n_jobs",
+      "pass": true
+    },
+    {
+      "check": "feature_schema_count",
+      "pass": true
+    },
+    {
+      "check": "same_feature_order_hash",
+      "pass": true
+    },
+    {
+      "check": "same_current_dtype_hash",
+      "pass": true
+    },
+    {
+      "check": "target_identity",
+      "pass": true
+    },
+    {
+      "check": "same_split_identity",
+      "pass": true
+    },
+    {
+      "check": "structural_cutoff_checks",
+      "pass": true
+    },
+    {
+      "check": "cohort_unchanged",
+      "pass": true
+    },
+    {
+      "check": "fit_counts_binding",
+      "pass": true
+    },
+    {
+      "check": "fit_count/models_entered",
+      "pass": true
+    },
+    {
+      "check": "fit_count/models_completed",
+      "pass": true
+    },
+    {
+      "check": "fit_count/preprocessors_entered",
+      "pass": true
+    },
+    {
+      "check": "fit_count/preprocessors_completed",
+      "pass": true
+    },
+    {
+      "check": "budget_no_failure_no_retry",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/0",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/1",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/2",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/3",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/4",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/5",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/6",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/7",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/8",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/9",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/10",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/11",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/12",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/13",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/14",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/15",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/16",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/17",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/18",
+      "pass": true
+    },
+    {
+      "check": "ledger_sequence/19",
+      "pass": true
+    },
+    {
+      "check": "ledger_scope/1",
+      "pass": true
+    },
+    {
+      "check": "ledger_time/1",
+      "pass": true
+    },
+    {
+      "check": "ledger_scope/2",
+      "pass": true
+    },
+    {
+      "check": "ledger_time/2",
+      "pass": true
+    },
+    {
+      "check": "ledger_scope/3",
+      "pass": true
+    },
+    {
+      "check": "ledger_time/3",
+      "pass": true
+    },
+    {
+      "check": "ledger_scope/4",
+      "pass": true
+    },
+    {
+      "check": "ledger_time/4",
+      "pass": true
+    },
+    {
+      "check": "ledger_scope/5",
+      "pass": true
+    },
+    {
+      "check": "ledger_time/5",
+      "pass": true
+    },
+    {
+      "check": "equal_well_aggregate",
+      "pass": true
+    },
+    {
+      "check": "total_delta",
+      "pass": true
+    },
+    {
+      "check": "P2_delta",
+      "pass": true
+    },
+    {
+      "check": "positive_folds",
+      "pass": true
+    },
+    {
+      "check": "worst_fold",
+      "pass": true
+    },
+    {
+      "check": "population_std",
+      "pass": true
+    },
+    {
+      "check": "fold_score/0",
+      "pass": true
+    },
+    {
+      "check": "fold_size/0",
+      "pass": true
+    },
+    {
+      "check": "fold_fit_count/0",
+      "pass": true
+    },
+    {
+      "check": "fold_metric_identity/0",
+      "pass": true
+    },
+    {
+      "check": "fold_score/1",
+      "pass": true
+    },
+    {
+      "check": "fold_size/1",
+      "pass": true
+    },
+    {
+      "check": "fold_fit_count/1",
+      "pass": true
+    },
+    {
+      "check": "fold_metric_identity/1",
+      "pass": true
+    },
+    {
+      "check": "fold_score/2",
+      "pass": true
+    },
+    {
+      "check": "fold_size/2",
+      "pass": true
+    },
+    {
+      "check": "fold_fit_count/2",
+      "pass": true
+    },
+    {
+      "check": "fold_metric_identity/2",
+      "pass": true
+    },
+    {
+      "check": "fold_score/3",
+      "pass": true
+    },
+    {
+      "check": "fold_size/3",
+      "pass": true
+    },
+    {
+      "check": "fold_fit_count/3",
+      "pass": true
+    },
+    {
+      "check": "fold_metric_identity/3",
+      "pass": true
+    },
+    {
+      "check": "fold_score/4",
+      "pass": true
+    },
+    {
+      "check": "fold_size/4",
+      "pass": true
+    },
+    {
+      "check": "fold_fit_count/4",
+      "pass": true
+    },
+    {
+      "check": "fold_metric_identity/4",
+      "pass": true
+    },
+    {
+      "check": "prefix_equal_well_aggregate/m1_to_1",
+      "pass": true
+    },
+    {
+      "check": "prefix_equal_well_aggregate/m1_to_2",
+      "pass": true
+    },
+    {
+      "check": "prefix_equal_well_aggregate/m1_to_4",
+      "pass": true
+    },
+    {
+      "check": "prefix_equal_well_aggregate/m1_to_12",
+      "pass": true
+    },
+    {
+      "check": "loss_score_identity",
+      "pass": true
+    },
+    {
+      "check": "gate_stops",
+      "pass": true
+    },
+    {
+      "check": "step2_not_triggered",
+      "pass": true
+    },
+    {
+      "check": "no_package_acceptance/result_zip_sha256",
+      "pass": true
+    },
+    {
+      "check": "no_package_acceptance/submission_code_zip_sha256",
+      "pass": true
+    },
+    {
+      "check": "no_package_acceptance/submission_code_zip_bytes",
+      "pass": true
+    },
+    {
+      "check": "no_package_acceptance/clean_reproduction_predictions_equal",
+      "pass": true
+    },
+    {
+      "check": "no_package_acceptance/linter",
+      "pass": true
+    },
+    {
+      "check": "no_weights_or_predictions",
+      "pass": true
+    },
+    {
+      "check": "no_prohibited_published_file_types",
+      "pass": true
+    },
+    {
+      "check": "script_compiles/core.py",
+      "pass": true
+    },
+    {
+      "check": "script_compiles/run_oof.py",
+      "pass": true
+    },
+    {
+      "check": "script_compiles/fit_ledger.py",
+      "pass": true
+    },
+    {
+      "check": "script_compiles/train.py",
+      "pass": true
+    },
+    {
+      "check": "script_compiles/predict.py",
+      "pass": true
+    },
+    {
+      "check": "script_compiles/csv_projection.py",
+      "pass": true
+    },
+    {
+      "check": "script_compiles/privacy_check.py",
+      "pass": true
+    },
+    {
+      "check": "train_cutoff_filter_assert",
+      "pass": true
+    },
+    {
+      "check": "test_skip_before_pandas",
+      "pass": true
+    },
+    {
+      "check": "trainfold_fit_scope",
+      "pass": true
+    },
+    {
+      "check": "fit_scope_split",
+      "pass": true
+    },
+    {
+      "check": "release_written_only_if_passed",
+      "pass": true
+    },
+    {
+      "check": "registration/任务编号/阶段",
+      "pass": true
+    },
+    {
+      "check": "registration/角色",
+      "pass": true
+    },
+    {
+      "check": "registration/分支",
+      "pass": true
+    },
+    {
+      "check": "registration/完整提交号",
+      "pass": true
+    },
+    {
+      "check": "registration/目录路径",
+      "pass": true
+    },
+    {
+      "check": "registration/结果文件路径",
+      "pass": true
+    },
+    {
+      "check": "registration/关键数字",
+      "pass": true
+    },
+    {
+      "check": "registration/硬门禁结论",
+      "pass": true
+    },
+    {
+      "check": "registration/UNKNOWN 与未关闭项",
+      "pass": true
+    },
+    {
+      "check": "registration/对应决策表行",
+      "pass": true
+    },
+    {
+      "check": "registration/所依据的 Claude 指令存档提交号",
+      "pass": true
+    },
+    {
+      "check": "latest_B_identity",
+      "pass": true
+    }
+  ],
+  "checks_passed": 277,
+  "all_pass": true,
+  "B_published_files_verified": 35,
+  "B_privacy_records_covered": 35,
+  "B_nested_public_source_privacy_records": 10,
+  "historical_public_modules_byte_identical": 10,
+  "A_competition_data_read": false,
+  "A_real_OOF_retraining": false,
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "B_fit_counts_from_bound_records": {
+    "models": 5,
+    "preprocessor_pipelines": 5,
+    "failed": 0,
+    "retried": 0
+  },
+  "submission_upload_approval_ready": false,
+  "scope": "public source, bound execution records, aggregate arithmetic; no independent private-file/dtype/marker or row-OOF recomputation"
+}

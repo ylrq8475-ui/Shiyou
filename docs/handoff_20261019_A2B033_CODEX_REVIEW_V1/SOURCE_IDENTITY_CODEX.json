@@ -1,0 +1,330 @@
+[
+  {
+    "key": "r10",
+    "commit": "55adffb975204493cdc75567de8d74fc82dd3a73",
+    "path": "docs/handoff_20261019_A2B033_CLAUDE_INSTRUCTIONS_R10/INSTRUCTION_ORIGINAL.md",
+    "sha256": "703ed8265078abac88128c8422ce39f815acb62ac22e66a2812c95cb010107c3",
+    "git_blob": "2d7e0fcb90b2335f0b321da352cce91f2058d888",
+    "bytes": 7663
+  },
+  {
+    "key": "index",
+    "commit": "95c7145688c70511df724e869f82231a6b740427",
+    "path": "LATEST.json",
+    "sha256": "a001b10826fca5dbe0ba800190f997e7d755b069401de5ac2af5b81c98282e3c",
+    "git_blob": "01b89a5745ad7d3a90c1b6f995e583e8606cca04",
+    "bytes": 26198
+  },
+  {
+    "key": "T4_report",
+    "commit": "ce76e2ba0c3296f22f18a67bf212c05091b14573",
+    "path": "docs/handoff_20261019_A2B032_T4_AND_T1T3_CODEX_V1/REPORT_CODEX_T4.md",
+    "sha256": "67977b916424ccdff376cba09971d39633b42deaa28d5ecd231908c9c2340c1e",
+    "git_blob": "c0c81e7bb36e4fcdbb41cebd47e9ab0bea9bcfda",
+    "bytes": 5385
+  },
+  {
+    "key": "T4_result",
+    "commit": "ce76e2ba0c3296f22f18a67bf212c05091b14573",
+    "path": "docs/handoff_20261019_A2B032_T4_AND_T1T3_CODEX_V1/RESULT_CODEX_T4.json",
+    "sha256": "e196ecf5dd8d811a5f7312ed82dd94a460daf192c5cf8be21d47dc3e686ff2a5",
+    "git_blob": "41586459c8e5d7007ef04244de870f0c4eef0948",
+    "bytes": 2205
+  },
+  {
+    "key": "V3_prompt",
+    "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+    "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V3/PROMPT_CODEX.md",
+    "sha256": "f77b4e4e978fe378474a3e8520578ec09391f00eab8d6999afcdd87b16917b88",
+    "git_blob": "4818d887feff835f8997876e412c5d4d6c0a39a6",
+    "bytes": 4765
+  },
+  {
+    "key": "V3_registration",
+    "commit": "0536eafab45b71ffd5f8f0160ee7957f1edd661d",
+    "path": "docs/handoff_20261014_THREE_ACCOUNT_PROMPTS_V3/DELIVERY_REGISTRATION_RULES.md",
+    "sha256": "fc8a5d194995b7345a62c28561812e3dfe44f4a3b5d5a6a30bc4b800ad2b0eed",
+    "git_blob": "87e60e9ea027c519a9db9936b573da2188c628ed",
+    "bytes": 4769
+  },
+  {
+    "key": "B033/ARITHMETIC_CHECKS.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/ARITHMETIC_CHECKS.json",
+    "sha256": "817a03a8f96f301573efba91204fb631f6a7153c0447c8772666e98b49969050",
+    "git_blob": "10e251c20063a2ecdc9b78601f22af537d9b9de6",
+    "bytes": 581
+  },
+  {
+    "key": "B033/CLAUDE_INSTRUCTION_ORIGINAL_R10.md",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/CLAUDE_INSTRUCTION_ORIGINAL_R10.md",
+    "sha256": "703ed8265078abac88128c8422ce39f815acb62ac22e66a2812c95cb010107c3",
+    "git_blob": "2d7e0fcb90b2335f0b321da352cce91f2058d888",
+    "bytes": 7663
+  },
+  {
+    "key": "B033/ENVIRONMENT_LOCK.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/ENVIRONMENT_LOCK.json",
+    "sha256": "a3f5d201a877424ad0a4d54c2376a9526c21d24e4c14c91222e47b57634b2276",
+    "git_blob": "caea790d2b29430a63a0d7501bfa608ba2a552dd",
+    "bytes": 985
+  },
+  {
+    "key": "B033/FIT_COUNTS.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/FIT_COUNTS.json",
+    "sha256": "3d15c98ca3f471f303be979308108e20557fa92b143102082cab655149ef1cf1",
+    "git_blob": "defb49f904c739c32a9cd18fbb8ff98e86321537",
+    "bytes": 191
+  },
+  {
+    "key": "B033/FIT_LEDGER.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/FIT_LEDGER.json",
+    "sha256": "68e85d5991568b460998b8fa18e5d7025198f3934a1af0457da6ca76e185eb33",
+    "git_blob": "f58305696e1a0838107149ff088f56df89392706",
+    "bytes": 3468
+  },
+  {
+    "key": "B033/FOLD_1.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/FOLD_1.json",
+    "sha256": "66c37af9d6cbdc0f1301f51702c6393bd3fa04d3ba87360a65fde883db3298a1",
+    "git_blob": "105dde8b1f7a03f0b43c63ee6aa18d618addf5d1",
+    "bytes": 592
+  },
+  {
+    "key": "B033/FOLD_2.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/FOLD_2.json",
+    "sha256": "e4227661a932a05be778c78f270b166d15d55e0fffeb6c034c840e7ee58a0009",
+    "git_blob": "6496424809068c8b884368fd5152e01967d42b0f",
+    "bytes": 593
+  },
+  {
+    "key": "B033/FOLD_3.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/FOLD_3.json",
+    "sha256": "348918e0f5eec78be488bef4022e13d80cf3b0bcf2cde2c2a9bdaf0bf685c664",
+    "git_blob": "8b9deddc38cdb44387f26d6c62288cfaf4ea8012",
+    "bytes": 594
+  },
+  {
+    "key": "B033/FOLD_4.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/FOLD_4.json",
+    "sha256": "c1918b9ee126d67034321e7ab04cdc8371119ded037bfb7d6892e68eec0adfff",
+    "git_blob": "90bb89bd5b90fea1a0fd4af664e050fce020b734",
+    "bytes": 590
+  },
+  {
+    "key": "B033/FOLD_5.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/FOLD_5.json",
+    "sha256": "bc6169c68390573714c29ed550b31f9ee0b23bdda007e1b2f92a139187f28d91",
+    "git_blob": "85d1e3c7ad53558543c759c70ac5b84f9dd527c6",
+    "bytes": 592
+  },
+  {
+    "key": "B033/FROZEN_SOURCES.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/FROZEN_SOURCES.json",
+    "sha256": "4c7b6873ff27bfe47b2c5ff233624533afbbbfdf03cb5063b0f4c5595ac07a60",
+    "git_blob": "f286612fded1e612e61b06b0f57510202627ded5",
+    "bytes": 99486
+  },
+  {
+    "key": "B033/IMPLEMENTATION_PREFIT_LOCK.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/IMPLEMENTATION_PREFIT_LOCK.json",
+    "sha256": "6a91d11c794ced67b3322e5949692dbb669ac99d824f2df06e2e431e43d8392d",
+    "git_blob": "fcc7db04d9469630d295aa2a1b0059d90faed139",
+    "bytes": 24220
+  },
+  {
+    "key": "B033/INTEGRITY_AFTER_STEP1.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/INTEGRITY_AFTER_STEP1.json",
+    "sha256": "289d558c9e0468a0bfe90f89f90aaca447396e9b764c5ec096fa8043b1ae68e5",
+    "git_blob": "e0525652de6c6e1ba6e60a1887d357112d299868",
+    "bytes": 180
+  },
+  {
+    "key": "B033/PLAN_R10.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/PLAN_R10.json",
+    "sha256": "9fc4c96c93d43786535f46748df624801487e1d55b8014314798ee1cd7a25291",
+    "git_blob": "99fe9c66a220a335d622216c23e350fd927e532f",
+    "bytes": 1720
+  },
+  {
+    "key": "B033/PRIVACY_COVERAGE_MAP.md",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/PRIVACY_COVERAGE_MAP.md",
+    "sha256": "f9317d4d6db61f50e06af057919c160235f040139ea00a472d15b7778d4f9baf",
+    "git_blob": "7eb3e9849974d94d0c6f56f173bddb63132508c1",
+    "bytes": 8206
+  },
+  {
+    "key": "B033/PRIVACY_SCAN_RAW.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/PRIVACY_SCAN_RAW.json",
+    "sha256": "00cdb39b4a40a11ec61ca0bb2fff833951ffd868bf7d97cc3fe8a727508597ee",
+    "git_blob": "ecec42f6840ff2f203eaa2a0b8412b169b078dd0",
+    "bytes": 22490
+  },
+  {
+    "key": "B033/README.md",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/README.md",
+    "sha256": "85fdf505cd9ba1a1757214804756463cf2e2dbb4e467b548416949f45ba91dda",
+    "git_blob": "e190fd81d152f289aa01bb9b6b339b6b37d4e414",
+    "bytes": 2910
+  },
+  {
+    "key": "B033/RECEIVED_CODEX_T4.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/RECEIVED_CODEX_T4.json",
+    "sha256": "e196ecf5dd8d811a5f7312ed82dd94a460daf192c5cf8be21d47dc3e686ff2a5",
+    "git_blob": "41586459c8e5d7007ef04244de870f0c4eef0948",
+    "bytes": 2205
+  },
+  {
+    "key": "B033/REPORT_B.md",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/REPORT_B.md",
+    "sha256": "c22b2695c42d0a3f35cd745337abf00c0f737be46088387b2e2277dd0e8cf834",
+    "git_blob": "07e1350c56b23d0dd7c872338396d0c2a2483d2f",
+    "bytes": 7387
+  },
+  {
+    "key": "B033/REQUEST_CODEX_REVIEW.md",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/REQUEST_CODEX_REVIEW.md",
+    "sha256": "5e7f04cf185958e97f248a500a6882a4d92a07ad71660b7238ba9dc8912fc21d",
+    "git_blob": "dba93182ac3c2c4f5c3fa75d096951875c3f1ea3",
+    "bytes": 1263
+  },
+  {
+    "key": "B033/RESULT_A2B033.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/RESULT_A2B033.json",
+    "sha256": "e2b8b5b86211f7a17d4568882ca4fb1dc9826e80af28d488fcb4a199f4f87d00",
+    "git_blob": "870ddcd62797b304adbe20e6e9c84c88e9cf6b1c",
+    "bytes": 3177
+  },
+  {
+    "key": "B033/SHA256SUMS.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/SHA256SUMS.json",
+    "sha256": "53012891e820d48deb40e4138b79cba432330c83f0cfbd194c53832be5d25772",
+    "git_blob": "8728b97c544796119d3efb600bef771b630dfa32",
+    "bytes": 6495
+  },
+  {
+    "key": "B033/SOURCE_RECEIPT.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/SOURCE_RECEIPT.json",
+    "sha256": "5e08ce949e3c5acbc5f385579f219d9f39d7b027a4648b6b88600fb47449d9ef",
+    "git_blob": "52522a4fe673c24043bc036db9a67ba70abf884c",
+    "bytes": 2173
+  },
+  {
+    "key": "B033/STRUCTURE_GATES.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/STRUCTURE_GATES.json",
+    "sha256": "05cef65d7ce3522f996d465cdb8b43eca17d1e1001300b8ca11bbb593cea077a",
+    "git_blob": "f3759250947c4a7fc39311435394d8c4ac78738c",
+    "bytes": 2849
+  },
+  {
+    "key": "B033/SYNTHETIC_LOG.txt",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/SYNTHETIC_LOG.txt",
+    "sha256": "86460ea6567be87d6900987a937c4bf3c24781230436307958cbfa2e1e33cf65",
+    "git_blob": "ddfdb46683070e4c3eda5ae2fbf510ff1848be5f",
+    "bytes": 1031
+  },
+  {
+    "key": "B033/SYNTHETIC_RESULTS.json",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/SYNTHETIC_RESULTS.json",
+    "sha256": "fdb77d28d2d38e048b875e2d1179b8da2e56c217efed6813317b23e2e9d17787",
+    "git_blob": "b41dcf190c182068d116280e9cb08dddc75ca902",
+    "bytes": 309
+  },
+  {
+    "key": "B033/core.py",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/core.py",
+    "sha256": "4a8c230e4eb626cfaa60bb34a3387d383579f48e0d130818de99917c4ad50a1c",
+    "git_blob": "6afa20accf0f7cdbde23fe780222a418d298a343",
+    "bytes": 13450
+  },
+  {
+    "key": "B033/csv_projection.py",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/csv_projection.py",
+    "sha256": "6979f0366b729a8ed32396569aa2a7837d4d409301dbfb09632267a338937c0c",
+    "git_blob": "2f3159d224ebccf14322d3e722319c420428ecb0",
+    "bytes": 6412
+  },
+  {
+    "key": "B033/fit_ledger.py",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/fit_ledger.py",
+    "sha256": "ebaba792fc8db0a7e27f059409991e5a6e3ecf02237a8ed7dd9711ea0266137d",
+    "git_blob": "245f7f467d5cf2065d386bed5356f48da991b45c",
+    "bytes": 2536
+  },
+  {
+    "key": "B033/predict.py",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/predict.py",
+    "sha256": "2c2644dde002f656eb17950a490d5ac9cde846e1e73250f3f731c737e2643a85",
+    "git_blob": "af9fec030266413d4dfebe5fdb3f220c5f52948d",
+    "bytes": 2291
+  },
+  {
+    "key": "B033/privacy_check.py",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/privacy_check.py",
+    "sha256": "4d2d186e7a89c0d26c28eb8be2832610c1bbc86ef5721e53e05a8dfa6279614a",
+    "git_blob": "6462bd16d7ad6a0c409e44fb14a5e3b5d9a0b1b4",
+    "bytes": 11047
+  },
+  {
+    "key": "B033/requirements.txt",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/requirements.txt",
+    "sha256": "bfa4c1e04012a9a7c77d4b27f261b1efc9f610ea5745897743b42d8265919e3d",
+    "git_blob": "3dfdc0c5dd9ba64622f0b4c28a35ae481756a1b8",
+    "bytes": 166
+  },
+  {
+    "key": "B033/run_oof.py",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/run_oof.py",
+    "sha256": "b4040c8749d248314904eeb310e023444f9c4f1fd7eec6c45deed636269d4fe6",
+    "git_blob": "dfbe800223008c56165f6a621382c90345dd55e2",
+    "bytes": 10079
+  },
+  {
+    "key": "B033/test_033.py",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/test_033.py",
+    "sha256": "8a1e4e61267e95fe97a8717581cd07e7e32c7689fc45cf8d98220f7ee14be183",
+    "git_blob": "d3f5a0f3fce57a340f973311f640f1325398f66e",
+    "bytes": 5821
+  },
+  {
+    "key": "B033/train.py",
+    "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+    "path": "docs/handoff_20261019_A2B033_B_V1/train.py",
+    "sha256": "9a2844110779d6e98262e3b7a0c30e2da9b8474c576086071dae0c45c36e0536",
+    "git_blob": "912da25d45d92de51594fb0940cc67080d440db4",
+    "bytes": 2130
+  }
+]

@@ -1,0 +1,35 @@
+test_features_exclude_and_poison_future (B_synthetic_033.Tests.test_features_exclude_and_poison_future) ... ok
+test_full_test_reader_window_poison_invariance (B_synthetic_033.Tests.test_full_test_reader_window_poison_invariance) ... ok
+test_inference_fit_forbidden (B_synthetic_033.Tests.test_inference_fit_forbidden) ... ok
+test_ledger_failure_stops_no_retry (B_synthetic_033.Tests.test_ledger_failure_stops_no_retry) ... ok
+test_ledger_success_not_repeated (B_synthetic_033.Tests.test_ledger_success_not_repeated) ... ok
+test_official_score (B_synthetic_033.Tests.test_official_score) ... ok
+test_original_source_hashes (B_synthetic_033.Tests.test_original_source_hashes) ... ok
+test_seven_model_budget (B_synthetic_033.Tests.test_seven_model_budget) ... ok
+test_template_hash_failure_before_dynamic (B_synthetic_033.Tests.test_template_hash_failure_before_dynamic) ... ok
+test_template_keys_do_not_decode_window_targets (B_synthetic_033.Tests.test_template_keys_do_not_decode_window_targets) ... ok
+test_325_order_identity_changes_are_detectable (A_independent_033.Independent.test_325_order_identity_changes_are_detectable) ... ok
+test_first_month_twice_second_month_weight (A_independent_033.Independent.test_first_month_twice_second_month_weight) ... ok
+test_fit_once_scope_with_only_synthetic_callbacks (A_independent_033.Independent.test_fit_once_scope_with_only_synthetic_callbacks) ... ok
+test_metric_decimal_oracle_and_equal_wells (A_independent_033.Independent.test_metric_decimal_oracle_and_equal_wells) ... ok
+test_metric_near_zero_epsilon (A_independent_033.Independent.test_metric_near_zero_epsilon) ... ok
+test_nan_inf_window_invariance (A_independent_033.Independent.test_nan_inf_window_invariance) ... ok
+test_no_real_prediction_or_packages_in_failed_results (A_independent_033.Independent.test_no_real_prediction_or_packages_in_failed_results) ... ok
+test_numeric_window_invariance (A_independent_033.Independent.test_numeric_window_invariance) ... ok
+test_other_well_change_does_not_change_unchanged_wells (A_independent_033.Independent.test_other_well_change_does_not_change_unchanged_wells) ... ok
+test_positive_control_legal_prefix_changes_prediction (A_independent_033.Independent.test_positive_control_legal_prefix_changes_prediction) ... ok
+test_quoted_multiline_window_invariance (A_independent_033.Independent.test_quoted_multiline_window_invariance) ... ok
+test_retain_gate_positive_fold_count_required (A_independent_033.Independent.test_retain_gate_positive_fold_count_required) ... ok
+test_scale_and_target_same_cutoff (A_independent_033.Independent.test_scale_and_target_same_cutoff) ... ok
+test_scale_uses_raw_last_not_imputation (A_independent_033.Independent.test_scale_uses_raw_last_not_imputation) ... ok
+test_step2_requires_release_file_before_fit (A_independent_033.Independent.test_step2_requires_release_file_before_fit) ... ok
+test_template_date_mutation_blocks_before_dynamic_parse (A_independent_033.Independent.test_template_date_mutation_blocks_before_dynamic_parse) ... ok
+test_template_well_key_mutation_blocks (A_independent_033.Independent.test_template_well_key_mutation_blocks) ... ok
+test_training_cutoff_excludes_first_target_month (A_independent_033.Independent.test_training_cutoff_excludes_first_target_month) ... ok
+test_undecodable_window_invariance (A_independent_033.Independent.test_undecodable_window_invariance) ... ok
+test_weight_sum_unnormalized (A_independent_033.Independent.test_weight_sum_unnormalized) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.927s
+
+OK

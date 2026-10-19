@@ -1,0 +1,82 @@
+[
+  {
+    "path": "src/oil_uplift/__init__.py",
+    "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+    "sha256": "b14e51df20e0d8c8e2abc3646d6cac8e26e015a797f3fa5138fb1f2c20bde30c",
+    "git_blob": "91e3e9f156063caabc0b2d22adc12ef7de14fa2b",
+    "bytes": 82,
+    "matches_embedded_B_source": true
+  },
+  {
+    "path": "src/oil_uplift/a2b013_safe.py",
+    "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+    "sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+    "git_blob": "b5ba909d295c029af7614686a2384997f6e7429b",
+    "bytes": 24524,
+    "matches_embedded_B_source": true
+  },
+  {
+    "path": "src/oil_uplift/training.py",
+    "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+    "sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+    "git_blob": "0c1d97c4595437035455c9f1f385a3ba755f7fd1",
+    "bytes": 19812,
+    "matches_embedded_B_source": true
+  },
+  {
+    "path": "src/oil_uplift/multistep.py",
+    "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+    "sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b",
+    "git_blob": "5fd74b16615807fed8bf9255934fe237b26aaf08",
+    "bytes": 22790,
+    "matches_embedded_B_source": true
+  },
+  {
+    "path": "src/oil_uplift/models.py",
+    "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+    "sha256": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02",
+    "git_blob": "5d078c6b94de8972c43e767feedb50a4938d8b6c",
+    "bytes": 3013,
+    "matches_embedded_B_source": true
+  },
+  {
+    "path": "src/oil_uplift/scoring.py",
+    "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+    "sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235",
+    "git_blob": "0d0b1f9de4c587d6db8e0efd30d0d14c4a848d2e",
+    "bytes": 9223,
+    "matches_embedded_B_source": true
+  },
+  {
+    "path": "src/oil_uplift/config.py",
+    "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+    "sha256": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68",
+    "git_blob": "9a2159c11d102d575e46321a6393a6d125a283b3",
+    "bytes": 2549,
+    "matches_embedded_B_source": true
+  },
+  {
+    "path": "src/oil_uplift/io.py",
+    "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+    "sha256": "cf788f19399b7a867260a5a4f84bb630735a639410fc17092244ebcb9bcd18c3",
+    "git_blob": "3a1ae90897b1b5807cd943ac90767a2a9a6e0708",
+    "bytes": 4910,
+    "matches_embedded_B_source": true
+  },
+  {
+    "path": "src/oil_uplift/exceptions.py",
+    "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+    "sha256": "2b3aef27c352bad4558d98ca964d21f4881468e6a63c4bc3ff7bc919a7ad26c9",
+    "git_blob": "7ac722dad3cdcca058f65b6eb2688838cd3e59ef",
+    "bytes": 548,
+    "matches_embedded_B_source": true
+  },
+  {
+    "path": "src/oil_uplift/submission.py",
+    "commit": "213b1b465c61d799371e2b4326ebc71922c4f7ee",
+    "sha256": "d39b25ce75b452a9bf7dcb439aa1a68bdc3bbb822b9e9a2f56cd0565f1502612",
+    "git_blob": "82d01f8b2396b6375c1f4000d08ba94f83369378",
+    "bytes": 5778,
+    "matches_embedded_B_source": true
+  }
+]
