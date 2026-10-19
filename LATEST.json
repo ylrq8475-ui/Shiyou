@@ -400,6 +400,23 @@
         "A2B-031 Q1层位复核待Codex，排在A2B-033之后；Q2严格N_Q2_all=0"
       ],
       "published_at": "2026-10-19T13:55:00+08:00"
+    },
+    {
+      "task": "A2B-033/截止T0−1重训B0′（步骤1未达一致性门槛停止）",
+      "role": "B",
+      "commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+      "report_path": "docs/handoff_20261019_A2B033_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261019_A2B033_B_V1/RESULT_A2B033.json",
+      "reviews_commit": "不适用",
+      "hard_gates": "泄漏／错位／井级隔离／指标：通过（B自检，Codex终判待完成）；325列同名同序；模型/预处理进入完成5/5，无失败无重试；步骤2未触发",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "CODEX-033-REVIEW P1 独立审核待完成；score76.33261832127738、delta+2.6185109826630395、positive_folds3；按R10弱信号行停止，不因总增量通过而放行",
+        "HIST-DTYPE P1 历史逐文件加载身份未关闭，R5例外沿用，不回填旧锁",
+        "A033-STEP2-ACCEPTANCE P3 未全量/干净复现/保存权重/生成result.zip或submission_code.zip，无linter验收；预备源码不是可上传包",
+        "R10固定来源55adffb975204493cdc75567de8d74fc82dd3a73；T4依据ce76e2ba0c3296f22f18a67bf212c05091b14573"
+      ],
+      "published_at": "2026-10-19T14:26:36.038952+08:00"
     }
   ]
 }
