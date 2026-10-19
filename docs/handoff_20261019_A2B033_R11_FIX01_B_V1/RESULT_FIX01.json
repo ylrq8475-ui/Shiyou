@@ -1,0 +1,46 @@
+{
+  "task": "A2B-033-R11-FIX-01",
+  "role": "账户B执行与交付",
+  "status": "README_ONLY_FIX_READY_FOR_INDEPENDENT_READONLY_REVIEW",
+  "base_B_commit": "47077ee354a784bdf99444dd19adb7a8dac36d80",
+  "review_commit": "3ed4d57337b3805a3b40457ff66dc45c7ecde8e4",
+  "old_code_ZIP": {
+    "sha256": "75943e9244606400d3addd218589069a51519fc2a69af96f8f4633c6f15e241f",
+    "bytes": 2455727,
+    "preserved": true
+  },
+  "new_code_ZIP": {
+    "sha256": "7767b7ca28bfbf0ad9e427942c8416be35053e1e9a32b8a1eed50478fff72c6b",
+    "bytes": 2455821,
+    "members": 25,
+    "less_than_5GB": true,
+    "CRC": "PASS"
+  },
+  "changed_members": [
+    "README.md"
+  ],
+  "unchanged_members": 24,
+  "model_sha256": "92534c2bd5f2f0d5e5167740b2a66e42c877a834dc22f1471a375c7a0e3e3ac1",
+  "model_unchanged": true,
+  "result_ZIP": {
+    "sha256": "9670e0d0bbea8e2720e53d032883f91900df65abe49b0da5c4642f755f3084de",
+    "bytes": 3074,
+    "unchanged": true
+  },
+  "private_config_unchanged": true,
+  "algorithm_source_unchanged": true,
+  "requirements_unchanged": true,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "new_inference_runs": 0,
+  "new_clean_training_reproduction": false,
+  "inherited_original_clean_reproduction_120_rows_exact": true,
+  "inherited_linter": "PASS; result.zip byte-identical; not rerun on real inputs for this documentation change",
+  "hard_gates_B": "Inherited original step2 source and independently reviewed evidence; no new model/data processing in FIX01",
+  "CODEX-033-S2-01": "P1 OPEN_PENDING_A2_CODEX_READONLY_RECHECK",
+  "HIST-DTYPE": "P1 UNKNOWN unchanged under prior exception",
+  "upload_approval_ready": false,
+  "platform_uploads": 0,
+  "Codex_review": "PENDING",
+  "Codex_decision_row": "不适用"
+}
