@@ -5,7 +5,7 @@
   "instruction_commit": "55adffb975204493cdc75567de8d74fc82dd3a73",
   "instruction_sha256": "703ed8265078abac88128c8422ce39f815acb62ac22e66a2812c95cb010107c3",
   "T4_commit": "ce76e2ba0c3296f22f18a67bf212c05091b14573",
-  "publication_snapshot_commit": "PUBLICATION_SNAPSHOT_PENDING",
+  "publication_snapshot_commit": "512b2261d86f4e7c925d25424c3bbae536e8badd",
   "scope": "Fixed public source, bound execution records, independent synthetic tests and aggregate arithmetic; no real OOF retraining or deployment acceptance",
   "score": 76.33261832127738,
   "baseline": 73.71410733861434,

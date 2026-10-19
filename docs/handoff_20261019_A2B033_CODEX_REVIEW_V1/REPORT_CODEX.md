@@ -2,7 +2,7 @@
 任务编号/阶段：A2B-033/R10②审核；步骤1停止决定与步骤2状态  
 角色：Codex 审核；账户A2（新接手）独立审核与交付  
 分支：codex/a2b033-codex-review-20261019  
-完整提交号（40位，结果初始快照）：PUBLICATION_SNAPSHOT_PENDING（最终登记版由固定链接、回取和索引绑定；不混同快照与最终提交）  
+完整提交号（40位，结果初始快照）：512b2261d86f4e7c925d25424c3bbae536e8badd（最终登记版由固定链接、回取和索引绑定；不混同快照与最终提交）  
 被审B提交号（40位）：e846e2094ced5a71e3550294a15432388664cd5a  
 目录路径：docs/handoff_20261019_A2B033_CODEX_REVIEW_V1  
 结果文件路径（单个JSON）：docs/handoff_20261019_A2B033_CODEX_REVIEW_V1/RESULT_CODEX.json  
