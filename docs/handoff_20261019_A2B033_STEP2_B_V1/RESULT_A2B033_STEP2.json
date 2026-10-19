@@ -1,0 +1,61 @@
+{
+  "task": "A2B-033/步骤2",
+  "role": "账户B执行与交付",
+  "status": "LOCAL_COMPLETE_PENDING_CODEX_REVIEW_NO_UPLOAD",
+  "R11_commit": "012e9fe50efac3f051b48804bc724e39b703cc93",
+  "R10_commit": "55adffb975204493cdc75567de8d74fc82dd3a73",
+  "step1_commit": "e846e2094ced5a71e3550294a15432388664cd5a",
+  "step1_score": 76.33261832127738,
+  "step1_delta": 2.6185109826630395,
+  "step1_positive_folds": 3,
+  "original_step1_retain_gate_passed": false,
+  "user_override_recorded": true,
+  "OOF_refits": 0,
+  "step2_model_fits": 2,
+  "step2_preprocessor_pipeline_fits": 2,
+  "cumulative_A2B033_models": 7,
+  "cumulative_A2B033_preprocessor_pipeline_fits": 7,
+  "fit_failures": 0,
+  "fit_retries": 0,
+  "test_fits": 0,
+  "test_window_dynamic_values_decoded": 0,
+  "train_wells": 81,
+  "train_rows": 972,
+  "features": 325,
+  "result_files": 10,
+  "result_rows": 120,
+  "result_zip": {
+    "sha256": "9670e0d0bbea8e2720e53d032883f91900df65abe49b0da5c4642f755f3084de",
+    "bytes": 3074
+  },
+  "submission_code_zip": {
+    "sha256": "75943e9244606400d3addd218589069a51519fc2a69af96f8f4633c6f15e241f",
+    "bytes": 2455727,
+    "members": 25,
+    "less_than_5GB": true
+  },
+  "model_first": {
+    "sha256": "92534c2bd5f2f0d5e5167740b2a66e42c877a834dc22f1471a375c7a0e3e3ac1",
+    "bytes": 2388987
+  },
+  "model_clean": {
+    "sha256": "92534c2bd5f2f0d5e5167740b2a66e42c877a834dc22f1471a375c7a0e3e3ac1",
+    "bytes": 2388987
+  },
+  "reproduction_120_values_exact": true,
+  "reproduction_ZIP_bytes_exact": true,
+  "linter": "PASS",
+  "poison_window_test": "PASS",
+  "hard_gates_B": {
+    "泄漏": "通过（B本地验收，独立终判待完成）",
+    "错位": "通过（B本地验收，独立终判待完成）",
+    "井级隔离": "通过（B本地验收，独立终判待完成）",
+    "指标": "通过（B本地验收，独立终判待完成）"
+  },
+  "Codex_step2_review": "PENDING",
+  "platform_uploads": 0,
+  "existing_model_replaced": false,
+  "HIST_DTYPE": "UNKNOWN P1, R5 exception inherited",
+  "historical_platform_package_binding": "UNKNOWN P2; comparison uses explicitly hashed local deployment artifact",
+  "Codex_decision_row": "不适用"
+}
