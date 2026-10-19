@@ -3,7 +3,7 @@
 任务编号/阶段：A2B-033 / R11③ 用户报分79交接，非新增技术审核
 角色：Codex审核交接；账户A2（新接手）独立审核与交付
 分支：codex/a2b033-platform79-handoff-20261019
-完整提交号（40位）：PUBLICATION_SNAPSHOT_PENDING（本交接首个固定快照；最终回取版由固定链接与索引绑定）
+完整提交号（40位）：505479bf6428a6e1a1b0da24d08b51d708ab3827（本交接首个固定快照；最终回取版由固定链接与索引绑定）
 目录路径：docs/handoff_20261019_A2B033_PLATFORM79_CODEX_HANDOFF_V1
 结果文件路径（单个JSON）：docs/handoff_20261019_A2B033_PLATFORM79_CODEX_HANDOFF_V1/RESULT_CODEX.json
 被审B提交号（40位）：c357689ebbc7ba15b35cb9108ca867278bfdd066（沿用既有包审核来源，不表示核实实际平台上传身份）

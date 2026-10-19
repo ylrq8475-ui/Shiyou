@@ -7,7 +7,7 @@
       "bytes": 6245
     },
     "PRIVACY_SCAN_CODEX.json": {
-      "sha256": "90686c7bd653a6f0de4ffb06bffffa92f939605616f5afe2f2fa1cb5b358da06",
+      "sha256": "e08461975dce5bce8a5b1b28a1dee9c9f6ba643b8bd8816a7c8b1076da68a339",
       "bytes": 2256
     },
     "README.md": {
@@ -15,12 +15,12 @@
       "bytes": 649
     },
     "REPORT_CODEX.md": {
-      "sha256": "5a75e0d57d5ea4e90da5957269e70d26af4eef66e82e437baa04bba62cddc22d",
-      "bytes": 4406
+      "sha256": "864ab613c042b235aba9644c45423472a9c27eea51c3a55d687356dcfcc6164b",
+      "bytes": 4418
     },
     "RESULT_CODEX.json": {
-      "sha256": "680c9853e08d067b1f3cfeba1ed186a01f7bff4b3e3086390b405ced2d8cc944",
-      "bytes": 2814
+      "sha256": "b0a3bde194f0fe402c127ff3899fa188d509e026b9d233cff4230488013b946d",
+      "bytes": 2826
     }
   },
   "self_binding": "Fixed Git blob and external byte-return verification; no circular self hash."

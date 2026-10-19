@@ -3,7 +3,7 @@
   "record_type": "USER_REPORTED_PLATFORM_SCORE_HANDOFF_NOT_NEW_TECHNICAL_REVIEW",
   "role": "Codex",
   "signature": "账户A2（新接手）独立审核与交付",
-  "publication_snapshot_commit": "PUBLICATION_SNAPSHOT_PENDING",
+  "publication_snapshot_commit": "505479bf6428a6e1a1b0da24d08b51d708ab3827",
   "reviews_commit": "c357689ebbc7ba15b35cb9108ca867278bfdd066",
   "reviews_commit_scope": "Prior package source only; actual uploaded package is UNKNOWN",
   "prior_review_commit": "00de1dbfeacd8b8438648190f8e790ee5bda9ed3",
