@@ -1,0 +1,40 @@
+test_calendar_cross_year (B_synthetic.Tests.test_calendar_cross_year) ... ok
+test_equal_wells_prefix (B_synthetic.Tests.test_equal_wells_prefix) ... ok
+test_escaped_quote (B_synthetic.Tests.test_escaped_quote) ... ok
+test_future_value_poison_invariance (B_synthetic.Tests.test_future_value_poison_invariance) ... ok
+test_joint_threshold_7 (B_synthetic.Tests.test_joint_threshold_7) ... ok
+test_joint_threshold_8 (B_synthetic.Tests.test_joint_threshold_8) ... ok
+test_keys_do_not_decode_dynamic_cells (B_synthetic.Tests.test_keys_do_not_decode_dynamic_cells) ... ok
+test_missing_persistence_not_imputed (B_synthetic.Tests.test_missing_persistence_not_imputed) ... ok
+test_mode_mismatch (B_synthetic.Tests.test_mode_mismatch) ... ok
+test_mode_tie_not_selected (B_synthetic.Tests.test_mode_tie_not_selected) ... ok
+test_no_normalization_or_factor_two (B_synthetic.Tests.test_no_normalization_or_factor_two) ... ok
+test_perfect_score (B_synthetic.Tests.test_perfect_score) ... ok
+test_quotes_and_newlines (B_synthetic.Tests.test_quotes_and_newlines) ... ok
+test_segments (B_synthetic.Tests.test_segments) ... ok
+test_window_poison_not_decoded (B_synthetic.Tests.test_window_poison_not_decoded) ... ok
+test_anchor_month_not_allowed_if_inside_template (A_independent.Independent.test_anchor_month_not_allowed_if_inside_template) ... ok
+test_both_zero_score (A_independent.Independent.test_both_zero_score) ... ok
+test_cutoff_boundary_exact (A_independent.Independent.test_cutoff_boundary_exact) ... ok
+test_decimal_official_oracle (A_independent.Independent.test_decimal_official_oracle) ... ok
+test_early_order_weight_halves (A_independent.Independent.test_early_order_weight_halves) ... ok
+test_eleven_months_blocked (A_independent.Independent.test_eleven_months_blocked) ... ok
+test_epsilon_exact_near_zero (A_independent.Independent.test_epsilon_exact_near_zero) ... ok
+test_false_alignment_despite_perfect_endpoint_match (A_independent.Independent.test_false_alignment_despite_perfect_endpoint_match) ... ok
+test_four_month_weight_mass (A_independent.Independent.test_four_month_weight_mass) ... ok
+test_full_weight_not_normalized (A_independent.Independent.test_full_weight_not_normalized) ... ok
+test_gap_months_are_history (A_independent.Independent.test_gap_months_are_history) ... ok
+test_invalid_inf (A_independent.Independent.test_invalid_inf) ... ok
+test_invalid_nan (A_independent.Independent.test_invalid_nan) ... ok
+test_negative_blocked (A_independent.Independent.test_negative_blocked) ... ok
+test_p3_literal_reference_is_same_predictor (A_independent.Independent.test_p3_literal_reference_is_same_predictor) ... ok
+test_template_start_not_missingness_or_poison (A_independent.Independent.test_template_start_not_missingness_or_poison) ... ok
+test_training_and_test_same_cutoff_rule (A_independent.Independent.test_training_and_test_same_cutoff_rule) ... ok
+test_unequal_target_scale_still_equal_wells (A_independent.Independent.test_unequal_target_scale_still_equal_wells) ... ok
+test_uniform_start_shift_breaks_multi_month_segments (A_independent.Independent.test_uniform_start_shift_breaks_multi_month_segments) ... ok
+test_year_rollover_and_leap_month (A_independent.Independent.test_year_rollover_and_leap_month) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.004s
+
+OK

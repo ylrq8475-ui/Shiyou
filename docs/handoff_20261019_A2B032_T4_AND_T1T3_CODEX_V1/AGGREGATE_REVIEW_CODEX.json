@@ -1,0 +1,544 @@
+{
+  "checks": [
+    {
+      "name": "B_file_count",
+      "pass": true
+    },
+    {
+      "name": "manifest_coverage",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/CLAUDE_INSTRUCTION_ORIGINAL_R9.md",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/ENVIRONMENT_LOCK.json",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/PLAN_R9.json",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/README.md",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/READ_BOUNDARY_AND_INTEGRITY.json",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/REPORT_B.md",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/REPRODUCE.md",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/REQUEST_CODEX_REVIEW.md",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/RESULT_A2B032.json",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/SYNTHETIC_LOG.txt",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/SYNTHETIC_RESULTS.json",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/TARGET_ALIGNMENT_DRAFT.md",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/ZERO_FIT_COUNTS.json",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/audit_core.py",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/privacy_check.py",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/run_audit.py",
+      "pass": true
+    },
+    {
+      "name": "B_manifest/test_audit.py",
+      "pass": true
+    },
+    {
+      "name": "privacy_all_files_covered",
+      "pass": true
+    },
+    {
+      "name": "privacy_no_exemptions",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/CLAUDE_INSTRUCTION_ORIGINAL_R9.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/CLAUDE_INSTRUCTION_ORIGINAL_R9.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/ENVIRONMENT_LOCK.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/ENVIRONMENT_LOCK.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/IMPLEMENTATION_PREDIAGNOSTIC_LOCK.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/PLAN_R9.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/PLAN_R9.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/PRIVACY_COVERAGE_MAP.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_metadata_self_binding/PRIVACY_SCAN_RAW.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/README.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/README.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/READ_BOUNDARY_AND_INTEGRITY.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/READ_BOUNDARY_AND_INTEGRITY.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/REPORT_B.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/REPORT_B.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/REPRODUCE.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/REPRODUCE.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/REQUEST_CODEX_REVIEW.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/REQUEST_CODEX_REVIEW.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/RESULT_A2B032.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/RESULT_A2B032.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/SHA256SUMS.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_metadata_self_binding/SHA256SUMS.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/SOURCE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/SYNTHETIC_LOG.txt",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/SYNTHETIC_LOG.txt",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/SYNTHETIC_RESULTS.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/SYNTHETIC_RESULTS.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/TARGET_ALIGNMENT_DRAFT.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/TARGET_ALIGNMENT_DRAFT.md",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/ZERO_FIT_COUNTS.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/ZERO_FIT_COUNTS.json",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/audit_core.py",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/audit_core.py",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/privacy_check.py",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/privacy_check.py",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/run_audit.py",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/run_audit.py",
+      "pass": true
+    },
+    {
+      "name": "privacy_record/test_audit.py",
+      "pass": true
+    },
+    {
+      "name": "privacy_digest/test_audit.py",
+      "pass": true
+    },
+    {
+      "name": "implementation_lock/audit_core.py",
+      "pass": true
+    },
+    {
+      "name": "implementation_lock/run_audit.py",
+      "pass": true
+    },
+    {
+      "name": "implementation_lock/test_audit.py",
+      "pass": true
+    },
+    {
+      "name": "implementation_lock/PLAN_R9.json",
+      "pass": true
+    },
+    {
+      "name": "R9_copy_bytes",
+      "pass": true
+    },
+    {
+      "name": "R9_hash",
+      "pass": true
+    },
+    {
+      "name": "input_identity_records",
+      "pass": true
+    },
+    {
+      "name": "read_boundary_receipt",
+      "pass": true
+    },
+    {
+      "name": "zero_counts",
+      "pass": true
+    },
+    {
+      "name": "T1/k_start/denominator",
+      "pass": true
+    },
+    {
+      "name": "T1/k_end/denominator",
+      "pass": true
+    },
+    {
+      "name": "T2/k_start/denominator",
+      "pass": true
+    },
+    {
+      "name": "T2/k_end/denominator",
+      "pass": true
+    },
+    {
+      "name": "T1/k_start/unique_mode",
+      "pass": true
+    },
+    {
+      "name": "T1/k_end/unique_mode",
+      "pass": true
+    },
+    {
+      "name": "T2/k_start/unique_mode",
+      "pass": true
+    },
+    {
+      "name": "T2/k_end/unique_mode",
+      "pass": true
+    },
+    {
+      "name": "k_end_all_one",
+      "pass": true
+    },
+    {
+      "name": "ALIGN_recomputed",
+      "pass": true
+    },
+    {
+      "name": "template_pre_month",
+      "pass": true
+    },
+    {
+      "name": "no_gap",
+      "pass": true
+    },
+    {
+      "name": "finite_exact_months",
+      "pass": true
+    },
+    {
+      "name": "P1/cohort",
+      "pass": true
+    },
+    {
+      "name": "P1/score_identity",
+      "pass": true
+    },
+    {
+      "name": "P1/prefix_monotone",
+      "pass": true
+    },
+    {
+      "name": "P1/topline",
+      "pass": true
+    },
+    {
+      "name": "P2/cohort",
+      "pass": true
+    },
+    {
+      "name": "P2/score_identity",
+      "pass": true
+    },
+    {
+      "name": "P2/prefix_monotone",
+      "pass": true
+    },
+    {
+      "name": "P2/topline",
+      "pass": true
+    },
+    {
+      "name": "P2_minus_P1",
+      "pass": true
+    },
+    {
+      "name": "P3_trigger",
+      "pass": true
+    },
+    {
+      "name": "P3_identity",
+      "pass": true
+    },
+    {
+      "name": "P3_full_cohort",
+      "pass": true
+    },
+    {
+      "name": "P3_score",
+      "pass": true
+    },
+    {
+      "name": "P3_different_target_not_gain",
+      "pass": true
+    },
+    {
+      "name": "recorded_scorer/P1",
+      "pass": true
+    },
+    {
+      "name": "recorded_scorer/P2",
+      "pass": true
+    },
+    {
+      "name": "recorded_scorer/P3_and_literal_redefined_P1",
+      "pass": true
+    },
+    {
+      "name": "test_window_decode_zero",
+      "pass": true
+    },
+    {
+      "name": "decoder_cell_accounting",
+      "pass": true
+    },
+    {
+      "name": "no_full_test_parse",
+      "pass": true
+    },
+    {
+      "name": "no_fit_calls/run_audit.py",
+      "pass": true
+    },
+    {
+      "name": "no_ML_imports/run_audit.py",
+      "pass": true
+    },
+    {
+      "name": "no_fit_calls/audit_core.py",
+      "pass": true
+    },
+    {
+      "name": "no_ML_imports/audit_core.py",
+      "pass": true
+    },
+    {
+      "name": "no_fit_calls/privacy_check.py",
+      "pass": true
+    },
+    {
+      "name": "no_ML_imports/privacy_check.py",
+      "pass": true
+    },
+    {
+      "name": "template_identity_before_dynamic_access",
+      "pass": true
+    },
+    {
+      "name": "training_testing_disjoint_guard",
+      "pass": true
+    },
+    {
+      "name": "skip_before_dynamic_decode",
+      "pass": true
+    },
+    {
+      "name": "registration/任务编号/阶段",
+      "pass": true
+    },
+    {
+      "name": "registration/角色",
+      "pass": true
+    },
+    {
+      "name": "registration/分支",
+      "pass": true
+    },
+    {
+      "name": "registration/完整提交号",
+      "pass": true
+    },
+    {
+      "name": "registration/目录路径",
+      "pass": true
+    },
+    {
+      "name": "registration/结果文件路径",
+      "pass": true
+    },
+    {
+      "name": "registration/关键数字",
+      "pass": true
+    },
+    {
+      "name": "registration/硬门禁结论",
+      "pass": true
+    },
+    {
+      "name": "registration/UNKNOWN 与未关闭项",
+      "pass": true
+    },
+    {
+      "name": "registration/对应决策表行",
+      "pass": true
+    },
+    {
+      "name": "registration/所依据的 Claude 指令存档提交号",
+      "pass": true
+    },
+    {
+      "name": "latest_B_identity",
+      "pass": true
+    }
+  ],
+  "checks_passed": 132,
+  "all_pass": true,
+  "B_published_files_verified": 22,
+  "B_privacy_record_count": 22,
+  "B_privacy_hashes_bound": 20,
+  "B_privacy_self_metadata_records": 2,
+  "A_real_rows_recomputed": false,
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "B_reported_model_fits": 0,
+  "B_reported_preprocessor_fits": 0,
+  "scope": "Public records, arithmetic, static source and synthetic verification; no private marker rescan or real per-well recomputation"
+}

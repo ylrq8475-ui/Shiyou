@@ -1,0 +1,80 @@
+{
+  "role": "账户A2（新接手）独立审核与交付",
+  "algorithm": "SHA256 original UTF-8 bytes",
+  "directory": "docs/handoff_20261019_A2B032_T4_AND_T1T3_CODEX_V1",
+  "files": {
+    "AGGREGATE_REVIEW_CODEX.json": {
+      "sha256": "d40146117c1754c8bd8c34eb53fa1756339001e9fd69da048b4b4acda7d71f1b",
+      "bytes": 11275
+    },
+    "AUDIT_QUEUE.md": {
+      "sha256": "23764115de9157a35f6950635e698b1d0d96d79f32096a73dbe80a262541cb88",
+      "bytes": 2339
+    },
+    "COLLABORATION_REPLY_CODEX.md": {
+      "sha256": "a3890151fa033e5880879416d1f0db2488a889ac0b91831dd74177d5e1e04ef4",
+      "bytes": 2825
+    },
+    "EVIDENCE_NOTES_CODEX.md": {
+      "sha256": "8d543cfa40fc6f98d18afe37cf836051dcc2edada22f1472ac21b0f0bdc6d9d6",
+      "bytes": 5569
+    },
+    "OFFICIAL_SOURCE_VERIFICATION_CODEX.json": {
+      "sha256": "1fd0a4bd0bb01f6714b451fdbc7b0b4380a9e93d894aefac7aef6afdf98c6abd",
+      "bytes": 1850
+    },
+    "PRIVACY_SCAN_CODEX.json": {
+      "sha256": "ad2d678b558d66d69a5e1d461481ee6c9af13d8e42bb5403c36bb70ebf720c2a",
+      "bytes": 6114
+    },
+    "README.md": {
+      "sha256": "102a88d459c8088c5a7c628f619a29f69f6c161f45855a2400d8c72aab9f494e",
+      "bytes": 2217
+    },
+    "REPORT_CODEX_T1T3.md": {
+      "sha256": "92c300bf1274ad05fd9a39c9403347043379e5e1abd52f99adb84c99726405ce",
+      "bytes": 4921
+    },
+    "REPORT_CODEX_T4.md": {
+      "sha256": "6bcdcc6baf0a601b5327f6d29d798da6cec88370aa67750db77b12831d28227e",
+      "bytes": 5373
+    },
+    "RESULT_CODEX_T1T3.json": {
+      "sha256": "1310bd79dcb9757dff9b44f5ed08f9750fa1ec4eeaa4c3fbe6cb9e832b11acc1",
+      "bytes": 4243
+    },
+    "RESULT_CODEX_T4.json": {
+      "sha256": "cbcd5df6c3b20d72d26dce8e9bff4640b85b909cf1c17d3ae5b8f7c3c5d1edb9",
+      "bytes": 2193
+    },
+    "SOURCE_IDENTITY_CODEX.json": {
+      "sha256": "981c28c5833d4f5d6bb4e7bd3f33e6670161767e73a926de7f17e13eee5d8c59",
+      "bytes": 9225
+    },
+    "SYNTHETIC_LOG_CODEX_R2.txt": {
+      "sha256": "781f9bc1ecda85f313b6a3328f6774ae56bbd5b776aa729150c4b17f3092ee1d",
+      "bytes": 3376
+    },
+    "SYNTHETIC_RESULT_CODEX_R2.json": {
+      "sha256": "110bdb2ed0c2c3dbee639d83c5c9cbc7c2b53622ff5a1257d83659a3de7bc43c",
+      "bytes": 316
+    },
+    "audit_aggregate_records.py": {
+      "sha256": "c7a8bc5b7813d2ad734b3b749dd737ed4940fdbc15afd4b32d67d23bd5975f25",
+      "bytes": 7588
+    },
+    "hydrate_public_sources.py": {
+      "sha256": "99cfcb84998afd29db7602741ef09cb70a304b0fd9a418743fe45199ead04c89",
+      "bytes": 1229
+    },
+    "run_synthetic.py": {
+      "sha256": "cc6172dd3c1346e9ae15de2527c2cc92480bdcf64ebf06fd1f5fe6011a18b0ae",
+      "bytes": 1592
+    },
+    "test_independent_032.py": {
+      "sha256": "d37ac975ef254a65782d237b373a1980c0da7cd6aad628aae9c6b50c1613a937",
+      "bytes": 4859
+    }
+  },
+  "self_binding": "This manifest is bound by fixed Git blob and external remote-return verification, not a fabricated self digest."
+}

@@ -1,0 +1,165 @@
+{
+  "role": "账户A2（新接手）独立审核与交付",
+  "scope": "Generic credential/path/identifier-pattern scan and manual provenance review of public-only audit artifacts; no real private marker inventory loaded, no claim of exhaustive original-value marker rescan",
+  "published_files": 19,
+  "records": [
+    {
+      "file": "AGGREGATE_REVIEW_CODEX.json",
+      "bytes": 11275,
+      "sha256": "d40146117c1754c8bd8c34eb53fa1756339001e9fd69da048b4b4acda7d71f1b",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "AUDIT_QUEUE.md",
+      "bytes": 2339,
+      "sha256": "23764115de9157a35f6950635e698b1d0d96d79f32096a73dbe80a262541cb88",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "COLLABORATION_REPLY_CODEX.md",
+      "bytes": 2825,
+      "sha256": "a3890151fa033e5880879416d1f0db2488a889ac0b91831dd74177d5e1e04ef4",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "EVIDENCE_NOTES_CODEX.md",
+      "bytes": 5569,
+      "sha256": "8d543cfa40fc6f98d18afe37cf836051dcc2edada22f1472ac21b0f0bdc6d9d6",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "OFFICIAL_SOURCE_VERIFICATION_CODEX.json",
+      "bytes": 1850,
+      "sha256": "1fd0a4bd0bb01f6714b451fdbc7b0b4380a9e93d894aefac7aef6afdf98c6abd",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "PRIVACY_SCAN_CODEX.json",
+      "bytes": null,
+      "sha256": null,
+      "identity_binding": "privacy JSON bound by manifest; manifest bound by fixed Git blob and remote byte-return verification",
+      "scan_final_serialized_bytes": true,
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "PUBLICATION_MANIFEST.json",
+      "bytes": null,
+      "sha256": null,
+      "identity_binding": "privacy JSON bound by manifest; manifest bound by fixed Git blob and remote byte-return verification",
+      "scan_final_serialized_bytes": true,
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2217,
+      "sha256": "102a88d459c8088c5a7c628f619a29f69f6c161f45855a2400d8c72aab9f494e",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "REPORT_CODEX_T1T3.md",
+      "bytes": 4921,
+      "sha256": "92c300bf1274ad05fd9a39c9403347043379e5e1abd52f99adb84c99726405ce",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "REPORT_CODEX_T4.md",
+      "bytes": 5373,
+      "sha256": "6bcdcc6baf0a601b5327f6d29d798da6cec88370aa67750db77b12831d28227e",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "RESULT_CODEX_T1T3.json",
+      "bytes": 4243,
+      "sha256": "1310bd79dcb9757dff9b44f5ed08f9750fa1ec4eeaa4c3fbe6cb9e832b11acc1",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "RESULT_CODEX_T4.json",
+      "bytes": 2193,
+      "sha256": "cbcd5df6c3b20d72d26dce8e9bff4640b85b909cf1c17d3ae5b8f7c3c5d1edb9",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "SOURCE_IDENTITY_CODEX.json",
+      "bytes": 9225,
+      "sha256": "981c28c5833d4f5d6bb4e7bd3f33e6670161767e73a926de7f17e13eee5d8c59",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "SYNTHETIC_LOG_CODEX_R2.txt",
+      "bytes": 3376,
+      "sha256": "781f9bc1ecda85f313b6a3328f6774ae56bbd5b776aa729150c4b17f3092ee1d",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "SYNTHETIC_RESULT_CODEX_R2.json",
+      "bytes": 316,
+      "sha256": "110bdb2ed0c2c3dbee639d83c5c9cbc7c2b53622ff5a1257d83659a3de7bc43c",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "audit_aggregate_records.py",
+      "bytes": 7588,
+      "sha256": "c7a8bc5b7813d2ad734b3b749dd737ed4940fdbc15afd4b32d67d23bd5975f25",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "hydrate_public_sources.py",
+      "bytes": 1229,
+      "sha256": "99cfcb84998afd29db7602741ef09cb70a304b0fd9a418743fe45199ead04c89",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "run_synthetic.py",
+      "bytes": 1592,
+      "sha256": "cc6172dd3c1346e9ae15de2527c2cc92480bdcf64ebf06fd1f5fe6011a18b0ae",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "test_independent_032.py",
+      "bytes": 4859,
+      "sha256": "d37ac975ef254a65782d237b373a1980c0da7cd6aad628aae9c6b50c1613a937",
+      "credential_private_path_or_well_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    }
+  ],
+  "raw_data_read": false,
+  "fits": 0
+}

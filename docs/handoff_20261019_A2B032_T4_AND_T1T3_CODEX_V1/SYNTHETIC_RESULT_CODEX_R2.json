@@ -1,0 +1,14 @@
+{
+  "tests_run": 35,
+  "B_tests": 15,
+  "A_tests": 20,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "public_B_source_bytes_unchanged": true,
+  "real_data_accessed": false,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "real_diagnostic_entry_executed": false,
+  "ML_modules_imported": false
+}

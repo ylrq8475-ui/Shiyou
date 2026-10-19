@@ -1,0 +1,127 @@
+{
+  "role": "账户A2（新接手）独立审核与交付",
+  "instruction_commit": "493eabed3a83d646182787fd65dd070f652a4780",
+  "instruction_sha256": "50d8517264c1f225b3984b3f19a45cf3228613bdd8e98851e95831951c500fc6",
+  "rules_commit": "8b112a767a3355a1ea208038915028ba4c4525e4",
+  "publication_snapshot_commit": "PUBLICATION_SNAPSHOT_PENDING",
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "A_competition_data_reads": 0,
+  "new_training_authorized": false,
+  "formal_ZIP_created": false,
+  "platform_submission": false,
+  "model_upgraded": false,
+  "task": "A2B-032/T1–T3审核",
+  "reviews_commit": "094ebcd2b6b323849fce9c5cb1daf3e6b9228b41",
+  "B_result_path": "docs/handoff_20261016_A2B032_B_V1/RESULT_A2B032.json",
+  "B_result_snapshot_commit": "27e271030f78a5cfeae7e16170765502c4c50d1f",
+  "B_files_verified": 22,
+  "B_result_unchanged_since_snapshot": true,
+  "B_model_fits": 0,
+  "B_preprocessor_fits": 0,
+  "A_real_per_well_recomputation": false,
+  "scope": "fixed public source, hash-bound records, aggregate arithmetic and synthetic review",
+  "T1": {
+    "wells": 10,
+    "k_start": {
+      "1": 6,
+      "2": 4
+    },
+    "k_end": {
+      "1": 10
+    },
+    "gap_wells": 0,
+    "unrecognized_wells": 0
+  },
+  "T2": {
+    "wells": 81,
+    "rows": 972,
+    "k_start": {
+      "1": 53,
+      "2": 25,
+      "3": 3
+    },
+    "k_end": {
+      "1": 81
+    }
+  },
+  "ALIGN_MATCH": false,
+  "P1": 50.55669115981399,
+  "P2": 71.30071992041721,
+  "P2_minus_P1": 20.74402876060322,
+  "P3": 62.38494896094084,
+  "P3_minus_redefined_P1": 0,
+  "B0_historical_reference": 73.71410733861434,
+  "B0_newly_reproduced": false,
+  "T4": "允许（同井合法月度历史<=T0−1）",
+  "synthetic_tests": 35,
+  "aggregate_checks": 132,
+  "privacy_files_covered": 22,
+  "hard_gates": {
+    "泄漏": "通过（限本轮固定源码、记录、聚合及合成；非真实逐井重算或部署签署）",
+    "错位": "通过（限本轮固定源码、记录、聚合及合成；非真实逐井重算或部署签署）",
+    "井级隔离": "通过（限本轮固定源码、记录、聚合及合成；非真实逐井重算或部署签署）",
+    "指标": "通过（限本轮固定源码、记录、聚合及合成；非真实逐井重算或部署签署）"
+  },
+  "checklist": [
+    {
+      "item": 1,
+      "verdict": "通过",
+      "scope_limited": true
+    },
+    {
+      "item": 2,
+      "verdict": "通过",
+      "scope_limited": true
+    },
+    {
+      "item": 3,
+      "verdict": "通过",
+      "scope_limited": true
+    },
+    {
+      "item": 4,
+      "verdict": "通过",
+      "scope_limited": true
+    },
+    {
+      "item": 5,
+      "verdict": "通过",
+      "scope_limited": true
+    },
+    {
+      "item": 6,
+      "verdict": "通过",
+      "scope_limited": true
+    },
+    {
+      "item": 7,
+      "verdict": "通过",
+      "scope_limited": true
+    }
+  ],
+  "decision_row": "ALIGN_MATCH = 否 | 对齐不一致：起草\"按官方模板对齐重构训练目标\"的方案并重新建立基线（另行批准）；此前所有实验结论待重估。T4：允许模板前合法历史至T0−1。",
+  "interpretive_caution": "Endpoint k_end is 1 for all test/training wells; 6/10 concentration failure alone does not prove label misalignment or justify uniform S+1 relabeling. Do not override the locked table or automatically retrain.",
+  "open_unknowns": [
+    {
+      "id": "A032-ALIGN-INTERPRETATION",
+      "severity": "P2",
+      "missing": "尚无证明实际目标错位的证据；应在下一方案中解释段长异质性与模板映射"
+    },
+    {
+      "id": "A032-P3-REFERENCE",
+      "severity": "P2",
+      "missing": "若需不同于P3的新目标对照，需明确公式；本轮字面同式差0已核对"
+    },
+    {
+      "id": "HIST-DTYPE",
+      "severity": "P1",
+      "missing": "继承的历史逐文件加载身份缺口；本次零拟合不关闭、不作为新数值复现依据"
+    }
+  ],
+  "closed_in_scope": [
+    "A032-T4",
+    "CODEX-032-REVIEW"
+  ],
+  "verdict": "部分同意；本轮限定审核通过，解释缺口保留，不批准重训或升级"
+}

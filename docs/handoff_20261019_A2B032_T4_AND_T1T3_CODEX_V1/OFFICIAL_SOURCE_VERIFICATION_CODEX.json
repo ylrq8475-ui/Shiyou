@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-19T13:34:42.003119+08:00",
+  "checks": [
+    {
+      "source": "O1/description",
+      "official_url": "https://comp.kunlungpt.cn/api/v1/problems/2082723881348444161",
+      "sha256_current_HTML": "1915f3b4feb2361682e71eaa1f33632d4c34ef6790c710ff365b2a3706eb0f11",
+      "sha256_normalized_text": "62c9a6fb367f0fa6fda3ba07dcf08790416be73bebe011d939371ea56c64f160",
+      "matches_previously_read_complete_text_after_HTML_and_whitespace_normalization": true
+    },
+    {
+      "source": "O1/datasetDescription",
+      "official_url": "https://comp.kunlungpt.cn/api/v1/problems/2082723881348444161",
+      "sha256_current_HTML": "0dbccd1c1c2535e0833d96b22d1ff66f16061f48b0c1258a9de5539962a52ea4",
+      "sha256_normalized_text": "cb6e577c54ee7c10abeed5b4e511c27a9b0568ebe68cb194c0b980de1de007a2",
+      "matches_previously_read_complete_text_after_HTML_and_whitespace_normalization": true
+    },
+    {
+      "source": "O1/scoringDimensions",
+      "official_url": "https://comp.kunlungpt.cn/api/v1/problems/2082723881348444161",
+      "sha256_current_HTML": "60a6122a037da2661d9ffce03d53143d1f374a1dfeb989c4fbddecc09262f507",
+      "sha256_normalized_text": "b8960e8da6f5718bb209078e21f2df196f99a767f1311dd5ec4944e24ba2a165",
+      "matches_previously_read_complete_text_after_HTML_and_whitespace_normalization": true
+    },
+    {
+      "source": "O4",
+      "official_url": "https://comp.kunlungpt.cn/api/v1/notices/2103063178548547586",
+      "pdf_sha256": "e16eb24ded50d323e5f2a67b294d7646d2158b86a5b8c7b8897e59666df59d6c",
+      "bytes": 145597,
+      "matches_previously_read_complete_pdf": true,
+      "signed_url_saved": false,
+      "document_redistributed": false
+    }
+  ],
+  "all_pass": true,
+  "competition_data_accessed": false,
+  "model_fits": 0,
+  "preprocessor_fits": 0
+}
