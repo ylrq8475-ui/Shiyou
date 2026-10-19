@@ -1,0 +1,59 @@
+{
+  "task": "A2B-033/R11③用户报分79交接",
+  "record_type": "USER_REPORTED_PLATFORM_SCORE_HANDOFF_NOT_NEW_TECHNICAL_REVIEW",
+  "role": "Codex",
+  "signature": "账户A2（新接手）独立审核与交付",
+  "publication_snapshot_commit": "PUBLICATION_SNAPSHOT_PENDING",
+  "reviews_commit": "c357689ebbc7ba15b35cb9108ca867278bfdd066",
+  "reviews_commit_scope": "Prior package source only; actual uploaded package is UNKNOWN",
+  "prior_review_commit": "00de1dbfeacd8b8438648190f8e790ee5bda9ed3",
+  "instruction_commit": "012e9fe50efac3f051b48804bc724e39b703cc93",
+  "observed_index_commit": "30c406422b100e40e4aaba9f7def88042625476f",
+  "user_new_score_verbatim": "新的一轮结果降低到79",
+  "new_user_reported_score": 79,
+  "new_score_full_precision_provided": false,
+  "new_score_independently_verified": false,
+  "user_old_reported_score": 86.2003,
+  "conditional_exact_score_delta": -7.2003,
+  "delta_condition": "Only if new score is exactly 79.0000 and both user-reported numbers refer to intended versions; not an independently verified uploaded-packet score difference",
+  "user_prior_upload_approval_verbatim": "我批准上传 给我结果包",
+  "user_upload_approval_statement_present": true,
+  "actual_upload_hash_binding": "UNKNOWN",
+  "submission_id": null,
+  "submission_time": null,
+  "evaluation_status": "NOT_INDEPENDENTLY_VERIFIED",
+  "expected_result_zip_sha256": "9670e0d0bbea8e2720e53d032883f91900df65abe49b0da5c4642f755f3084de",
+  "expected_code_zip_sha256": "7767b7ca28bfbf0ad9e427942c8416be35053e1e9a32b8a1eed50478fff72c6b",
+  "prior_step1_score": 76.33261832127738,
+  "prior_step1_baseline": 73.71410733861434,
+  "prior_step1_positive_folds": 3,
+  "original_research_gate_passed": false,
+  "R11_user_override_preserved": true,
+  "README_P1": "CLOSED_UNCHANGED",
+  "technical_upload_eligibility_prior_decision_preserved": true,
+  "current_platform_decision": "UNKNOWN_UNTIL_EXACT_SCORE_AND_PACKET_BINDING; IF_EXACT_79_AND_MATCHED: R11_S_PRIME_GE_79_CANDIDATE_NOT_AUTOMATIC_FINAL",
+  "open_unknowns": [
+    {
+      "id": "PLATFORM-033-SCORE-BINDING",
+      "severity": "P1",
+      "missing": "Actual uploaded ZIP hashes, full precision score, receipt ID/time/status",
+      "effect": "Blocks causal score attribution and determinate final selection, not newly declaring prior code hard gate failure"
+    },
+    {
+      "id": "HIST-DTYPE",
+      "severity": "P1",
+      "status": "INHERITED_R5_EXCEPTION"
+    },
+    {
+      "id": "PLATFORM-B0-BINDING",
+      "severity": "P2",
+      "status": "OLD_USER_SCORE_NOT_INDEPENDENTLY_BOUND"
+    }
+  ],
+  "A_fits": 0,
+  "A_preprocessor_fits": 0,
+  "A_predictions": 0,
+  "A_uploads": 0,
+  "competition_data_read": false,
+  "next_scope": "Claude evidence/plan review, zero fits; no leaderboard tuning or unapproved training/reupload"
+}

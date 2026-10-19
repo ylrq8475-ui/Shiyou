@@ -1,0 +1,61 @@
+{
+  "role": "账户A2（新接手）独立审核与交付",
+  "published_files": 6,
+  "scope": "Generic credential/path/identifier-pattern scan plus manual public-only provenance review; no real private marker inventory or raw-data rescan",
+  "records": [
+    {
+      "file": "COLLABORATION_REQUEST_CLAUDE.md",
+      "sha256": "f95df68c48c0202cde5ca680491148a8b5ab9ded2e332c45d7564b1c581b197a",
+      "bytes": 6245,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "PRIVACY_SCAN_CODEX.json",
+      "sha256": null,
+      "bytes": null,
+      "final_serialized_bytes_scanned": true,
+      "identity_binding": "privacy JSON via manifest; manifest via fixed Git blob and external return receipt",
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "PUBLICATION_MANIFEST.json",
+      "sha256": null,
+      "bytes": null,
+      "final_serialized_bytes_scanned": true,
+      "identity_binding": "privacy JSON via manifest; manifest via fixed Git blob and external return receipt",
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "README.md",
+      "sha256": "2c3348d487b559a8cee9ba330caad981db91fa3423b50aeb56b4940184640c78",
+      "bytes": 649,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "REPORT_CODEX.md",
+      "sha256": "5a75e0d57d5ea4e90da5957269e70d26af4eef66e82e437baa04bba62cddc22d",
+      "bytes": 4406,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    },
+    {
+      "file": "RESULT_CODEX.json",
+      "sha256": "680c9853e08d067b1f3cfeba1ed186a01f7bff4b3e3086390b405ced2d8cc944",
+      "bytes": 2814,
+      "credential_private_path_or_identifier_pattern_hits": 0,
+      "manual_public_only_provenance_review": true,
+      "result": "PASS"
+    }
+  ],
+  "real_data_read": false,
+  "fits": 0
+}

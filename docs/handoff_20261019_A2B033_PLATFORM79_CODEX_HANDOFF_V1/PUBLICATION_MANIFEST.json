@@ -1,0 +1,27 @@
+{
+  "directory": "docs/handoff_20261019_A2B033_PLATFORM79_CODEX_HANDOFF_V1",
+  "algorithm": "SHA256 original UTF-8 bytes",
+  "files": {
+    "COLLABORATION_REQUEST_CLAUDE.md": {
+      "sha256": "f95df68c48c0202cde5ca680491148a8b5ab9ded2e332c45d7564b1c581b197a",
+      "bytes": 6245
+    },
+    "PRIVACY_SCAN_CODEX.json": {
+      "sha256": "90686c7bd653a6f0de4ffb06bffffa92f939605616f5afe2f2fa1cb5b358da06",
+      "bytes": 2256
+    },
+    "README.md": {
+      "sha256": "2c3348d487b559a8cee9ba330caad981db91fa3423b50aeb56b4940184640c78",
+      "bytes": 649
+    },
+    "REPORT_CODEX.md": {
+      "sha256": "5a75e0d57d5ea4e90da5957269e70d26af4eef66e82e437baa04bba62cddc22d",
+      "bytes": 4406
+    },
+    "RESULT_CODEX.json": {
+      "sha256": "680c9853e08d067b1f3cfeba1ed186a01f7bff4b3e3086390b405ced2d8cc944",
+      "bytes": 2814
+    }
+  },
+  "self_binding": "Fixed Git blob and external byte-return verification; no circular self hash."
+}
