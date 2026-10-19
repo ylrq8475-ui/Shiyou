@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "raw_member_hashes_matched": 100,
+  "train_history_files_loaded": 88,
+  "training_wells": 81,
+  "training_rows": 972,
+  "features": 325,
+  "training_data_only_for_input_contract": true,
+  "test_window_dynamic_values_parsed": 0,
+  "row_target_feature_identity": {
+    "B0": {
+      "wells": 81,
+      "rows": 972,
+      "features": 325,
+      "history_cutoff_assertion": "NY<T0; additional M-1 for legacy B0",
+      "future_sensitive_input_count": 0,
+      "feature_comparisons": 29079,
+      "target_keys_unchanged": true,
+      "identity": {
+        "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+        "feature_dtype_sha256": "a34b2599e3202d8cfac13ba50ffa2d57c5631225b553fef66207de6eb35d102a",
+        "feature_frame_sha256": "af964b79e581fb87bcb736e6eb3e2cab21f878612882c7fd782778f744f44cb7",
+        "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+      },
+      "historical_dtype": "UNKNOWN"
+    },
+    "B0_prime": {
+      "wells": 81,
+      "rows": 972,
+      "features": 325,
+      "history_cutoff_assertion": "NY<T0; additional M-1 for legacy B0",
+      "future_sensitive_input_count": 0,
+      "feature_comparisons": 29079,
+      "target_keys_unchanged": true,
+      "identity": {
+        "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+        "feature_dtype_sha256": "a34b2599e3202d8cfac13ba50ffa2d57c5631225b553fef66207de6eb35d102a",
+        "feature_frame_sha256": "54adfdf0562eecdfc52a6a7b14a30df21ad9f92bb9adedd94db0e5b0e7806fc0",
+        "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+      },
+      "historical_dtype": "UNKNOWN"
+    }
+  },
+  "group_splits": {
+    "sets": 6,
+    "folds_each": 5,
+    "well_overlap": 0,
+    "fixed_shuffled": false,
+    "repeat_seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "fixed_before_fitting": true
+  },
+  "pipeline_lock_sha256": "ce1ab047d126f2586993dc8d2b05aef5f1b9871c59b626d6927d8803904713d1",
+  "environment_lock_sha256": "954d67045713461b7cc303e7d85fa223507a27c1e20d5cf223f2741d32a961d6",
+  "protected_files": 129,
+  "seconds": 9.32070629997179,
+  "model_fits": 0,
+  "preprocessor_fits": 0
+}

@@ -1,0 +1,36 @@
+{
+  "task": "A2B-035/共用管线",
+  "role": "账户B执行与交付",
+  "R13_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+  "R13_sha256": "ec3fe583f40e10da7cdc9fede01ce3c5079f85968f7acb6fb1209eeef7a1bee5",
+  "A2B034_merged_not_separately_run": true,
+  "order": [
+    "prepare config+immutable core and synthetic tests",
+    "prescore row/feature/split/environment identities",
+    "fixed fivefold B0 and B0_prime (10 fits), tolerance1e-6; stop on reproduction/hard-gate failure",
+    "five repeated group splits seeds1..5 for both (50 fits)",
+    "publish anonymous source+aggregates+ledger, append index and request one-time Codex pipeline review",
+    "only after actual Codex release enter broad search under existing user authorization"
+  ],
+  "expected_stage0_models": 60,
+  "expected_stage0_preprocessor_pipelines": 60,
+  "R13_global_fit_cap": null,
+  "stage0_successful_fold_refits": false,
+  "all_input_feature_times": "NY<T0, with additional prior-month cut for historical B0",
+  "metric": {
+    "epsilon": 1e-06,
+    "t_start": 1,
+    "weight": "2**(-t), unnormalized",
+    "average": "equal weight per well"
+  },
+  "repeat_mean": "mean of five complete 81-well OOF scores",
+  "repeat_SE": "sample std of five OOF scores / sqrt(5); split variability only, repeated same81 wells, not independent replication CI",
+  "holdout_predictions_or_models_persisted": false,
+  "platform_candidate_packages_this_stage": 0,
+  "platform_submissions_by_B": 0,
+  "daily_candidate_limit_after_release": 3,
+  "history_platform_unknowns": "record UNKNOWN unless actual receipt, exact score and packet identities are available",
+  "external_resources": "no external data; only named R13 pretrained models, offline; activation requires local weight+license+independence evidence",
+  "geology": "disabled pending actual Codex Q1 field whitelist release",
+  "protected_artifacts": "keep all previous packages, models, configs, scores and locks unchanged"
+}

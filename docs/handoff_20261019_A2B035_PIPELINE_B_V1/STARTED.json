@@ -1,0 +1,15 @@
+{
+  "start_time": "2026-10-19T17:59:16.950432",
+  "pipeline_lock_sha256": "ce1ab047d126f2586993dc8d2b05aef5f1b9871c59b626d6927d8803904713d1",
+  "actual_executable_sha256": "926f48e34093c6a5c63982f26cb2bcdfb1c428aa47794b2145ee66cbb846aff1",
+  "actual_python_version": "3.13.7 (main, Sep 18 2025, 19:43:45) [MSC v.1944 64 bit (AMD64)]",
+  "runner_sha256": "5ea0626b8dad3d5b6c3098ecd7e3340c0e71c5dd3b9bb0e2d2e825ca34750796",
+  "plan_sha256": "a035fb1b715cdfa480ca9532872517fe3be5ff5a66496717960c9bd289663afa",
+  "preflight_sha256": "c5e09257fe12c93c9427cd587ed8224c18fcba46b9fe6adc86f1e41c68905367",
+  "preflight_program_sha256": "2e5e0d7abe824b9c8a9a7094cce9a064767f2f578ea36d23a7119a997b0e6954",
+  "planned_CV_models": 60,
+  "planned_CV_preprocessors": 60,
+  "planned_synthetic_models": 1,
+  "planned_synthetic_preprocessors": 1,
+  "R13_review_gate": "only benchmark allowlist until actual Codex search release"
+}

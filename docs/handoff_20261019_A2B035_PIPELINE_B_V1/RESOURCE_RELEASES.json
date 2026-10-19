@@ -1,0 +1,7 @@
+{
+  "LightGBM": {"enabled": false, "license_checked": false, "status": "Not installed in locked benchmark environment"},
+  "CatBoost": {"enabled": false, "license_checked": false, "status": "Not installed in locked benchmark environment"},
+  "TabPFN_v2": {"enabled": false, "license_checked": false, "sample_independence_passed": false, "status": "Requires explicit v2 weights, local license/attribution and actual adapter synthetic checks"},
+  "Chronos-2": {"enabled": false, "license_checked": false, "status": "Offline adapter and resource activation not yet implemented"},
+  "chronos-bolt-base": {"enabled": false, "license_checked": false, "status": "Offline adapter activation pending; previous separate environment is not benchmark environment"}
+}

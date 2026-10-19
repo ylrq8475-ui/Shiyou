@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "each non-key template-window column poison leaves all predictions exactly unchanged",
+      "cases": 27,
+      "PASS": true
+    },
+    {
+      "name": "invalid UTF8 in all window dynamic cells is never decoded",
+      "PASS": true
+    },
+    {
+      "name": "changing one synthetic legal well affects only that well",
+      "PASS": true
+    },
+    {
+      "name": "window identity key mutation blocks before dynamic access",
+      "cases": 2,
+      "PASS": true
+    },
+    {
+      "name": "both cutoffs and all four target scale modes use legal history only",
+      "cases": 8,
+      "PASS": true
+    },
+    {
+      "name": "config cannot change cutoff rule or evaluation seeds",
+      "PASS": true
+    },
+    {
+      "name": "real ET predictions are exactly query independent; trained-only imputation and inference fit prohibition",
+      "synthetic_model_fits": 1,
+      "synthetic_preprocessor_fits": 1,
+      "blocked_fit_calls": 1,
+      "PASS": true
+    },
+    {
+      "name": "fixed plus 5x5 repeated grouped splits: zero well overlap and complete coverage",
+      "folds": 30,
+      "PASS": true
+    },
+    {
+      "name": "weight grid uses only training-side predictions and rejects forbidden outer-validation overlap",
+      "PASS": true
+    },
+    {
+      "name": "official metric independently checked: t1, epsilon1e-6, unnormalized weights and equal wells",
+      "PASS": true
+    }
+  ],
+  "actual_synthetic_model_fits": 1,
+  "actual_synthetic_preprocessor_fits": 1,
+  "actual_competition_data_fits_in_these_checks": 0,
+  "all_values_are_synthetic": true,
+  "external_adapters_tested": false,
+  "external_adapters_status": "disabled, not claimed PASS"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "files_checked": 129,
+  "all_original_bytes_unchanged": true,
+  "raw_archive_unchanged": true,
+  "old_models_packages_configs_and_original_code_unchanged": true,
+  "environment_dependencies_unchanged": true,
+  "current_python_version_matches_prescore": true,
+  "raw_files_extracted_or_copied": 0,
+  "private_paths_published": false
+}

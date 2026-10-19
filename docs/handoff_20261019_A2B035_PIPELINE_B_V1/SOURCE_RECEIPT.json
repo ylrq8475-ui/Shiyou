@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+      "path": "docs/handoff_20261019_A2B035_CLAUDE_INSTRUCTIONS_R13/INSTRUCTION_ORIGINAL.md",
+      "sha256": "ec3fe583f40e10da7cdc9fede01ce3c5079f85968f7acb6fb1209eeef7a1bee5"
+    },
+    {
+      "commit": "d1e190f510134501839c89b4f22370a74a182fdf",
+      "path": "docs/handoff_20261019_A2B034_CLAUDE_INSTRUCTIONS_R12/INSTRUCTION_ORIGINAL.md",
+      "sha256": "2d429126c0706991643db81542c27ac217162d584085b1fe45717d535112e065"
+    },
+    {
+      "commit": "68b9d368f53c629682210c0bd8c06af08d8f630a",
+      "path": "docs/handoff_20261019_A2B033_PLATFORM79_CODEX_HANDOFF_V1/RESULT_CODEX.json",
+      "sha256": "b0a3bde194f0fe402c127ff3899fa188d509e026b9d233cff4230488013b946d"
+    }
+  ],
+  "legacy_feature_boundary_sources": "Original A2B033 source bytes copied, not old dtype identity proof",
+  "legacy_core_sha256": "4a8c230e4eb626cfaa60bb34a3387d383579f48e0d130818de99917c4ad50a1c",
+  "historical_dtype": "UNKNOWN; existing exception inherited",
+  "account": "账户B执行与交付"
+}
