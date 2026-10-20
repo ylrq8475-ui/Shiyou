@@ -1003,6 +1003,34 @@
         "用户2026-10-29平台指定"
       ],
       "published_at": "2026-10-20T19:10:00+08:00"
+    },
+    {
+      "task": "A2B-035/R16平台回执补充与PLATFORM-B0-BINDING关闭",
+      "role": "Codex",
+      "commit": "9cc17638b8743131d6595e8671f7b7051f8b2686",
+      "report_path": "docs/handoff_20261020_A2B035_R16_PLATFORM_CODEX_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261020_A2B035_R16_PLATFORM_CODEX_V1/RESULT_CODEX.json",
+      "reviews_commit": "6ab552ef1cb007b13f0bc350957b7b82037f1348",
+      "prior_Codex_review_commit": "b299828899812d2921e5a1da0ea865bf97b4beb5",
+      "instruction_commit": "441966be673da9083505168077a4d6ac63805e90",
+      "hard_gates": "继承已审版本；本补充只核对四个所报SHA与既有固定B回执及11项算术/身份检查；A拟合/原始数据/平台操作0。",
+      "decision_row": "PLATFORM-B0-BINDING关闭，限本次B0实际上传包→用户报告86.2003；W报分80.8854；两完整版本S_v排序B0>W；非最终指定。",
+      "key_numbers": {
+        "B0_user_reported_A_score": 86.2003,
+        "W_user_reported_A_score": 80.8854,
+        "W_minus_B0_A_score": -5.3149,
+        "B0_S_v_on_user_report": 79.33838700242435,
+        "W_S_v_on_user_report": 76.78236347078806,
+        "checks": 11,
+        "A_model_fits": 0
+      },
+      "open_unknowns": [
+        "两行平台提交编号/时间/状态UNKNOWN",
+        "四份实际ZIP重哈希执行者为Claude，A核对转交SHA与固定B回执；A未独立查平台",
+        "不追认更早历史上传字节身份",
+        "其余Tab集成/融合/历史dtype等R16事项不在本补充关闭范围"
+      ],
+      "published_at": "2026-10-20T19:09:19.676116+08:00"
     }
   ]
 }
