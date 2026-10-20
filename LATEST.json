@@ -1031,6 +1031,43 @@
         "其余Tab集成/融合/历史dtype等R16事项不在本补充关闭范围"
       ],
       "published_at": "2026-10-20T19:09:19.676116+08:00"
+    },
+    {
+      "task": "A2B-035/R16 两已审包平台回执台账与Codex关闭结论接收",
+      "role": "B",
+      "commit": "f3694f150aa1448c90b6e22412daf31ae243f8c5",
+      "report_path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/RESULT_PLATFORM_RECEIPT16.json",
+      "supplemental_Codex_receipt_path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/CODEX_PLATFORM_CLOSURE_RECEIVED.json",
+      "reviews_commit": "不适用；B接收实际Codex关闭结论，不代签",
+      "based_on_Codex_commit": "b299828899812d2921e5a1da0ea865bf97b4beb5",
+      "Codex_platform_closure_commit": "9cc17638b8743131d6595e8671f7b7051f8b2686",
+      "instruction_commit": "441966be673da9083505168077a4d6ac63805e90",
+      "hard_gates": "继承已审两完整版本；本次拟合0/0、四ZIP本机SHA匹配、两结果各10文件120行结构通过；用户报分及转交Claude只读核验，非B直接平台取证。",
+      "decision_row": "B接收Codex 9cc17638b8743131d6595e8671f7b7051f8b2686已关闭当前上传B0包→86.2003；原结果快照待审状态由后续接收记录更新，不自动最终指定。",
+      "key_numbers": {
+        "B0_A": 86.2003,
+        "B0_W_A": 80.8854,
+        "B0_W_minus_B0_A": -5.3149,
+        "B0_repeated_CV": 72.47647400484871,
+        "B0_W_repeated_CV": 72.6793269415761,
+        "B0_W_minus_B0_CV": 0.20285293672739,
+        "B0_S_v_from_reported_receipt": 79.33838700242435,
+        "B0_W_S_v_from_reported_receipt": 76.78236347078806,
+        "B0_W_minus_B0_S_v": -2.556023531636305,
+        "local_ZIP_hashes_matched": 4,
+        "result_CSV_files_each": 10,
+        "result_rows_each": 120,
+        "model_fits": 0,
+        "preprocessor_fits": 0,
+        "B_platform_uploads": 0
+      },
+      "open_unknowns": [
+        "平台提交编号、提交时间、状态UNKNOWN；分数未由B直接平台获取",
+        "本次关闭限当前上传B0包，不主张更早历史原始ZIP字节同一",
+        "R17用户已指令停止其他搜索（含TabPFN）；下一批仅F70/F50及B0审核二；历史dtype例外继承"
+      ],
+      "published_at": "2026-10-20T19:19:58.900916+08:00"
     }
   ]
 }
