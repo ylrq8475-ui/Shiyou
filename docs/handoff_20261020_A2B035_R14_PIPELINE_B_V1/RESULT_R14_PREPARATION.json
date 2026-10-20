@@ -1,0 +1,81 @@
+{
+  "task": "A2B-035/R14 pipeline increment preparation",
+  "role": "账户B执行与交付",
+  "status": "INCREMENT_IMPLEMENTED_AND_CHECKED_PENDING_CODEX_RELEASE",
+  "R14_instruction_commit": "0f2804776957cefa6c3bab573a403f0cfb86d33e",
+  "R13_instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+  "prior_Codex_release_commit": "3001037a7d465117fd8062e5cbc6b2d168575fef",
+  "increment_lock_sha256": "81d77e8147910352ee29c68d46911a6d00026ff051e325b81624234af6de461a",
+  "H_configs": 6,
+  "feature_counts": [
+    325,
+    328,
+    333
+  ],
+  "synthetic_case_count": 50,
+  "raw_members_verified": 100,
+  "old_protected_files_unchanged": 129,
+  "prior_source_files_original_bytes": 30,
+  "fit_counts": {
+    "competition_model_fits": 0,
+    "competition_preprocessor_fits": 0,
+    "synthetic_ET_fits": 0,
+    "synthetic_external_model_fits": 0,
+    "synthetic_external_preprocessor_fits": 0,
+    "total_new_model_fits": 0,
+    "total_new_preprocessor_fits": 0,
+    "failed_model_fits": 0,
+    "retries": 0,
+    "spies_are_not_fits": true,
+    "pre_fit_import_failures": 1
+  },
+  "planned_CV_fits_each": 270,
+  "new_H_or_T_scores": null,
+  "H_best": null,
+  "T_best": null,
+  "S_v": "UNKNOWN",
+  "new_formal_packages": 0,
+  "platform_uploads": 0,
+  "B0_standalone_rebuild_uploads": 0,
+  "real_test_CSVs_parsed": 0,
+  "test_input_distribution_comparisons": 0,
+  "new_row_OOF_persisted": false,
+  "external_models_competition_enabled": false,
+  "G_enabled": false,
+  "external_probe_environment": "new separate Python3.13.7; pinned original21 packages unchanged; complete32-dependency list in evidence",
+  "hard_gates_B_scope": "leakage/alignment/well-isolation/metric PASS in source preservation, real training-panel identities and synthetic checks only; no new real CV completed; independent release PENDING",
+  "unavailable_error_budgets": {
+    "B0": "UNKNOWN: original row OOF absent; standalone rebuild forbidden; no report-only retraining",
+    "prior_uploaded_candidate": "UNKNOWN: old OOF absent; no report-only retraining",
+    "B0prime_H_best_T_best": "PENDING real training after incremental review; budgets generated in same execution memory"
+  },
+  "open_items": [
+    {
+      "id": "CODEX-035-R14-INCREMENT",
+      "priority": "P1",
+      "missing": "independent incremental pipeline review and signed release bound to new lock; blocks H/T search only"
+    },
+    {
+      "id": "EXT-035",
+      "priority": "P1",
+      "missing": "new isolated environment _cd_fast blocked by application control; administrator handling and actual adapter synthetic checks still missing; Codex external release remains false"
+    },
+    {
+      "id": "G-031",
+      "priority": "P1",
+      "missing": "actual Q1 field whitelist; remains disabled"
+    },
+    {
+      "id": "PLATFORM-035-PROVENANCE",
+      "priority": "P2",
+      "missing": "actual upload identity binding; screenshots show79.4717 and79.3643 but not package SHA; historical86.2003 separate"
+    },
+    {
+      "id": "HIST-DTYPE",
+      "priority": "P1 inherited exception",
+      "missing": "historical identity chain, not retrofilled; authorized new paired work exception retained"
+    }
+  ],
+  "external_native_import_status": "BLOCKED_SYSTEM_POLICY_PRE_FIT",
+  "external_pre_fit_import_failures": 1
+}
