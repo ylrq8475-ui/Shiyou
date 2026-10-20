@@ -1,0 +1,8 @@
+{
+  "phase": "post-CV formal packaging and actual-artifact tests; not a prescore CV lock",
+  "files": {
+    "package17.py": "e30c5dd45497935aeac09283a78f3a43728603c58c3a7f70d71721ee67127fcc",
+    "actual_integration17.py": "56773b16e8d1fce94167c672c81e5bad2d588e625c35878491f5f5811fa50928"
+  },
+  "before_full_pair_training_and_clean_code_ZIP_fits": true
+}

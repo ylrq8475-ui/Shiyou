@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "checks": 56,
+  "scope": "aggregate arithmetic, not independent real retraining",
+  "model_fits": 0,
+  "preprocessor_fits": 0
+}

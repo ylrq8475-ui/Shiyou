@@ -1,0 +1,259 @@
+{
+  "task": "A2B-035/R17 fixed F70 F50 and early B0 audit-II",
+  "role": "账户B执行与交付",
+  "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb",
+  "instruction_sha256": "a92d06ba5aeba497d3b7cda5e51a24a7ba2a65b85b356f258b5453303555472b",
+  "candidate_specs": [
+    {
+      "schema": "A2B035-R17-fixed-v1",
+      "variant": "F70",
+      "B0_weight": 0.7,
+      "B0_prime_weight": 0.3,
+      "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb"
+    },
+    {
+      "schema": "A2B035-R17-fixed-v1",
+      "variant": "F50",
+      "B0_weight": 0.5,
+      "B0_prime_weight": 0.5,
+      "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb"
+    }
+  ],
+  "members": [
+    {
+      "schema": "A2B035-v1",
+      "purpose": "pipeline_benchmark",
+      "cutoff": "M_minus_1",
+      "target": {
+        "transform": "log_ratio",
+        "scale": "last_legal"
+      },
+      "features": "base325",
+      "learner": {
+        "name": "ExtraTrees",
+        "n_estimators": 400,
+        "min_samples_leaf": 6,
+        "max_features": 0.75,
+        "random_state": 20260916,
+        "n_jobs": -1
+      },
+      "evaluation": {
+        "fixed": {
+          "method": "GroupKFold",
+          "n_splits": 5,
+          "shuffle": false
+        },
+        "repeated": {
+          "method": "GroupKFold",
+          "n_splits": 5,
+          "shuffle": true,
+          "seeds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "inner": {
+          "method": "GroupKFold",
+          "n_splits": 5,
+          "shuffle": true,
+          "seed": 20260916
+        }
+      },
+      "fusion": null,
+      "variant": "B0",
+      "split_fingerprints": {
+        "fixed": [
+          "7169bea57c5945945197313c63aa934f1aa2dc1f9e0d2d1eff350c7c75cd7009",
+          "cedbd47320ee1b419307e6ec9e995e5fbba6a2ba258c7a0278313e95c9cf61ed",
+          "0060232297d5fa1d968363dd3fa4ceac8c990578bccef3eb2914a225475bde90",
+          "97f8ba3f9d7afdb62df08fce16c6516507ba5ddc4b21dabe08da9fcceec7ff16",
+          "ff980b9e9f71c3050be0c8dfcc9dda8a08b894fed634d2a9ee34c8756af74bc5"
+        ],
+        "repeat_1": [
+          "9424901a374f6ec20f4c871fb57b8f218c59eeb972d002ee8caa684bce157de6",
+          "58e8b95f21fa193aab5e371529425b43bbfe29991fc5fe1f1e364bf7896aab42",
+          "c0fd57fa11a8f54056404a828257e615cf41957e44b5d74345d42ddb1f144e47",
+          "22a1fbee051838506dae373eaa3fe1eae2c5281b8952df1b02cf592b74e70ed7",
+          "b2f3e15f529607e100cc5ab103d196da90f33220fcca50919c4817581fd41b01"
+        ],
+        "repeat_2": [
+          "2d5b4442556a7356c1728447edd6d3f561f53685fe45cfbe9d1c3f86bc3d0879",
+          "f9484c73cb872afe41837406e9daa29efd02e888c3d1cbaeeb1e60316b539a7c",
+          "3d8f4abeca3fabae7994f4bf1d70eaf796873033156380453330cf28b802bbb4",
+          "d55f87be9e703460ec48cd89c96672f6103672502d273035904befef302b5238",
+          "280e7449e4aa5d470eff8b2c0b0469a4b6def8a3eb3b9a54e2e211708a4862fb"
+        ],
+        "repeat_3": [
+          "4f51e92d460565edad28e069da4035627bbac061b0f62e6630d0b3e51237f749",
+          "8435dddfc1dfcfbd2c87ec81e24d0bf598c3e67e04bc65dda42130150cd7f020",
+          "0ddb140ced9a5b88591e4a64642ca4605d27b7ca243e4ca30fcee58c3e190de2",
+          "63523409c784e2ea984de80c2abd1e97d43116ceabf31fb5fb9ab7b610f8d6d0",
+          "f1848775d35a140c29bf98ec922fc7cc018f34f826cebd4d62d5b02ea1268949"
+        ],
+        "repeat_4": [
+          "9bf082f8d82d50570454e43a550e0d691f0b3f35e837729dc9294115afa264c1",
+          "f71f42cab32f70a6da1489af11447e77ad69ad57808a431288b83db46a7971ac",
+          "820cdf810844dfea9634292094deb05d8f16fc1acb0bbed9e229b1db03310dd9",
+          "098c8f433fffee46fd91039813818182f37b2cbaa2f3311b617e966f3ec45fda",
+          "f893dcf8c54e810d2d8d3a1f0223a3a8542c9734a175cce2838d8b1ab7f0f3f4"
+        ],
+        "repeat_5": [
+          "7ae279c00c08508333818404c9209a1794b3633d2b3be5fb56d6bf16f89e5ed4",
+          "9ce329b8dcbb631550392a704f998e7bad985758b5c540dc8890c013d0f5a47d",
+          "f4c5ff387b44f407a73dde55c06322c7781337842df3336bbd2ec40c5570544f",
+          "05047d121cbe771dfa61295eee079febab1fd241734a5a1864e0fe7c353067ec",
+          "42b1dc3a1591d4063d357bf9517fcf89d665c7296f1654acc546c84d7ee194de"
+        ]
+      }
+    },
+    {
+      "schema": "A2B035-v1",
+      "purpose": "pipeline_benchmark",
+      "cutoff": "T0_minus_1",
+      "target": {
+        "transform": "log_ratio",
+        "scale": "last_legal"
+      },
+      "features": "base325",
+      "learner": {
+        "name": "ExtraTrees",
+        "n_estimators": 400,
+        "min_samples_leaf": 6,
+        "max_features": 0.75,
+        "random_state": 20260916,
+        "n_jobs": -1
+      },
+      "evaluation": {
+        "fixed": {
+          "method": "GroupKFold",
+          "n_splits": 5,
+          "shuffle": false
+        },
+        "repeated": {
+          "method": "GroupKFold",
+          "n_splits": 5,
+          "shuffle": true,
+          "seeds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "inner": {
+          "method": "GroupKFold",
+          "n_splits": 5,
+          "shuffle": true,
+          "seed": 20260916
+        }
+      },
+      "fusion": null,
+      "variant": "B0_prime",
+      "split_fingerprints": {
+        "fixed": [
+          "7169bea57c5945945197313c63aa934f1aa2dc1f9e0d2d1eff350c7c75cd7009",
+          "cedbd47320ee1b419307e6ec9e995e5fbba6a2ba258c7a0278313e95c9cf61ed",
+          "0060232297d5fa1d968363dd3fa4ceac8c990578bccef3eb2914a225475bde90",
+          "97f8ba3f9d7afdb62df08fce16c6516507ba5ddc4b21dabe08da9fcceec7ff16",
+          "ff980b9e9f71c3050be0c8dfcc9dda8a08b894fed634d2a9ee34c8756af74bc5"
+        ],
+        "repeat_1": [
+          "9424901a374f6ec20f4c871fb57b8f218c59eeb972d002ee8caa684bce157de6",
+          "58e8b95f21fa193aab5e371529425b43bbfe29991fc5fe1f1e364bf7896aab42",
+          "c0fd57fa11a8f54056404a828257e615cf41957e44b5d74345d42ddb1f144e47",
+          "22a1fbee051838506dae373eaa3fe1eae2c5281b8952df1b02cf592b74e70ed7",
+          "b2f3e15f529607e100cc5ab103d196da90f33220fcca50919c4817581fd41b01"
+        ],
+        "repeat_2": [
+          "2d5b4442556a7356c1728447edd6d3f561f53685fe45cfbe9d1c3f86bc3d0879",
+          "f9484c73cb872afe41837406e9daa29efd02e888c3d1cbaeeb1e60316b539a7c",
+          "3d8f4abeca3fabae7994f4bf1d70eaf796873033156380453330cf28b802bbb4",
+          "d55f87be9e703460ec48cd89c96672f6103672502d273035904befef302b5238",
+          "280e7449e4aa5d470eff8b2c0b0469a4b6def8a3eb3b9a54e2e211708a4862fb"
+        ],
+        "repeat_3": [
+          "4f51e92d460565edad28e069da4035627bbac061b0f62e6630d0b3e51237f749",
+          "8435dddfc1dfcfbd2c87ec81e24d0bf598c3e67e04bc65dda42130150cd7f020",
+          "0ddb140ced9a5b88591e4a64642ca4605d27b7ca243e4ca30fcee58c3e190de2",
+          "63523409c784e2ea984de80c2abd1e97d43116ceabf31fb5fb9ab7b610f8d6d0",
+          "f1848775d35a140c29bf98ec922fc7cc018f34f826cebd4d62d5b02ea1268949"
+        ],
+        "repeat_4": [
+          "9bf082f8d82d50570454e43a550e0d691f0b3f35e837729dc9294115afa264c1",
+          "f71f42cab32f70a6da1489af11447e77ad69ad57808a431288b83db46a7971ac",
+          "820cdf810844dfea9634292094deb05d8f16fc1acb0bbed9e229b1db03310dd9",
+          "098c8f433fffee46fd91039813818182f37b2cbaa2f3311b617e966f3ec45fda",
+          "f893dcf8c54e810d2d8d3a1f0223a3a8542c9734a175cce2838d8b1ab7f0f3f4"
+        ],
+        "repeat_5": [
+          "7ae279c00c08508333818404c9209a1794b3633d2b3be5fb56d6bf16f89e5ed4",
+          "9ce329b8dcbb631550392a704f998e7bad985758b5c540dc8890c013d0f5a47d",
+          "f4c5ff387b44f407a73dde55c06322c7781337842df3336bbd2ec40c5570544f",
+          "05047d121cbe771dfa61295eee079febab1fd241734a5a1864e0fe7c353067ec",
+          "42b1dc3a1591d4063d357bf9517fcf89d665c7296f1654acc546c84d7ee194de"
+        ]
+      }
+    }
+  ],
+  "boundaries": [
+    "M_minus_1",
+    "T0_minus_1"
+  ],
+  "target_window_unchanged": true,
+  "raw_data_readonly": true,
+  "raw_archive_sha256": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+  "private_policy_sha256": "62a4cf2ef74f59699a87638e84975893da7caf79e16b59db11cd341ed6ac1f2b",
+  "training_wells": 81,
+  "training_rows": 972,
+  "features_before_preprocessing": 325,
+  "model_seed": 20260916,
+  "repeated_split_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "fixed_GroupKFold_shuffle": false,
+  "preprocessor_fit_on_training_fold_only": true,
+  "sample_weight": null,
+  "metric": {
+    "epsilon": 1e-06,
+    "weights": "unnormalized 2^-t t=1..12",
+    "aggregation": "per well then equal mean"
+  },
+  "scope": "only two R17 fixed raw-output blends; no learned blend weights, candidate selection, new feature/model search or test fitting",
+  "CV_model_fits": 60,
+  "CV_preprocessor_fits": 60,
+  "shared_full_pair_model_fits": 2,
+  "two_exact_ZIP_clean_reproductions_model_fits": 4,
+  "B0_exact_uploaded_ZIP_fresh_audit_II_retrain": 1,
+  "planned_total_model_and_top_level_preprocessor_fits_each": 67,
+  "rationale_for_fresh_CV": "old row OOF was never persisted; user R17 stops the parent execution holding Native RAM; current F70/F50 evaluation needs paired OOF, not subtraction of historical aggregate scores",
+  "reuse_policy": "F70 and F50 share each newly computed member OOF in RAM and share main full pair; do not refit members separately for two weights; clean independent code-ZIP reproductions are separately counted",
+  "fixed_reference_check_tolerance": 1e-09,
+  "reference_B0_fixed": 73.71410733861434,
+  "reference_B0_prime_fixed": 76.33261832127738,
+  "stop_on": [
+    "actual leakage",
+    "target or member misalignment",
+    "group overlap",
+    "official metric mismatch",
+    "fixed reference mismatch",
+    "unresolved actual runtime block"
+  ],
+  "retention_or_score_gate": "none added; preserve both complete results for Codex upload review",
+  "stopped_other_search": true,
+  "stopped_R16_receipt_sha256": "0bd5ee8e71ddae4ca0f84d747039a4b3d98c3d20646f76f942ef8a5b80b7a3e5",
+  "heartbeat_R16": "PAUSED",
+  "OOF_disk": false,
+  "new_outputs": "independent R17 only; do not overwrite frozen ZIPs/models/plans/environments",
+  "platform_uploads_by_B": 0,
+  "fusion_delivery_to_user_requires_Codex_can_upload_yes": true,
+  "B0_audit_II_published_without_waiting_for_fusion": true,
+  "historical_dtype": "UNKNOWN, inherited user exception, not backfilled"
+}

@@ -1,0 +1,1822 @@
+{
+  "parts": [
+    {
+      "scope": "paired_CV",
+      "counts": {
+        "R13_fit_cap": null,
+        "models_entered": 60,
+        "models_completed": 60,
+        "preprocessors_entered": 60,
+        "preprocessors_completed": 60,
+        "failures": 0,
+        "retries": 0,
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T20:05:05.679672+08:00",
+            "stage": "R17-B0-fixed-fold1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T20:05:05.748906+08:00",
+            "stage": "R17-B0-fixed-fold1",
+            "event": "preprocessor_completed",
+            "seconds": 0.06862890004413202
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T20:05:05.749668+08:00",
+            "stage": "R17-B0-fixed-fold1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T20:05:05.997612+08:00",
+            "stage": "R17-B0-fixed-fold1",
+            "event": "model_completed",
+            "seconds": 0.24711520003620535
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T20:05:06.026930+08:00",
+            "stage": "R17-B0-fixed-fold2",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T20:05:06.054316+08:00",
+            "stage": "R17-B0-fixed-fold2",
+            "event": "preprocessor_completed",
+            "seconds": 0.026678399997763336
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T20:05:06.055156+08:00",
+            "stage": "R17-B0-fixed-fold2",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T20:05:06.297746+08:00",
+            "stage": "R17-B0-fixed-fold2",
+            "event": "model_completed",
+            "seconds": 0.24166459997650236
+          },
+          {
+            "sequence": 9,
+            "time": "2026-10-20T20:05:06.327171+08:00",
+            "stage": "R17-B0-fixed-fold3",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 10,
+            "time": "2026-10-20T20:05:06.353670+08:00",
+            "stage": "R17-B0-fixed-fold3",
+            "event": "preprocessor_completed",
+            "seconds": 0.02572050003800541
+          },
+          {
+            "sequence": 11,
+            "time": "2026-10-20T20:05:06.355038+08:00",
+            "stage": "R17-B0-fixed-fold3",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 12,
+            "time": "2026-10-20T20:05:06.599983+08:00",
+            "stage": "R17-B0-fixed-fold3",
+            "event": "model_completed",
+            "seconds": 0.2430080000194721
+          },
+          {
+            "sequence": 13,
+            "time": "2026-10-20T20:05:06.654334+08:00",
+            "stage": "R17-B0-fixed-fold4",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 14,
+            "time": "2026-10-20T20:05:06.682121+08:00",
+            "stage": "R17-B0-fixed-fold4",
+            "event": "preprocessor_completed",
+            "seconds": 0.02686759998323396
+          },
+          {
+            "sequence": 15,
+            "time": "2026-10-20T20:05:06.682853+08:00",
+            "stage": "R17-B0-fixed-fold4",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 16,
+            "time": "2026-10-20T20:05:06.934922+08:00",
+            "stage": "R17-B0-fixed-fold4",
+            "event": "model_completed",
+            "seconds": 0.25156499998411164
+          },
+          {
+            "sequence": 17,
+            "time": "2026-10-20T20:05:06.965435+08:00",
+            "stage": "R17-B0-fixed-fold5",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 18,
+            "time": "2026-10-20T20:05:06.992432+08:00",
+            "stage": "R17-B0-fixed-fold5",
+            "event": "preprocessor_completed",
+            "seconds": 0.025964699976611882
+          },
+          {
+            "sequence": 19,
+            "time": "2026-10-20T20:05:06.993481+08:00",
+            "stage": "R17-B0-fixed-fold5",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 20,
+            "time": "2026-10-20T20:05:07.253621+08:00",
+            "stage": "R17-B0-fixed-fold5",
+            "event": "model_completed",
+            "seconds": 0.25850370002444834
+          },
+          {
+            "sequence": 21,
+            "time": "2026-10-20T20:05:07.298179+08:00",
+            "stage": "R17-B0_prime-fixed-fold1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 22,
+            "time": "2026-10-20T20:05:07.321315+08:00",
+            "stage": "R17-B0_prime-fixed-fold1",
+            "event": "preprocessor_completed",
+            "seconds": 0.02237660001264885
+          },
+          {
+            "sequence": 23,
+            "time": "2026-10-20T20:05:07.322513+08:00",
+            "stage": "R17-B0_prime-fixed-fold1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 24,
+            "time": "2026-10-20T20:05:07.556614+08:00",
+            "stage": "R17-B0_prime-fixed-fold1",
+            "event": "model_completed",
+            "seconds": 0.23129480000352487
+          },
+          {
+            "sequence": 25,
+            "time": "2026-10-20T20:05:07.586406+08:00",
+            "stage": "R17-B0_prime-fixed-fold2",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 26,
+            "time": "2026-10-20T20:05:07.612867+08:00",
+            "stage": "R17-B0_prime-fixed-fold2",
+            "event": "preprocessor_completed",
+            "seconds": 0.025533700012601912
+          },
+          {
+            "sequence": 27,
+            "time": "2026-10-20T20:05:07.613655+08:00",
+            "stage": "R17-B0_prime-fixed-fold2",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 28,
+            "time": "2026-10-20T20:05:07.866368+08:00",
+            "stage": "R17-B0_prime-fixed-fold2",
+            "event": "model_completed",
+            "seconds": 0.2514482000260614
+          },
+          {
+            "sequence": 29,
+            "time": "2026-10-20T20:05:07.898769+08:00",
+            "stage": "R17-B0_prime-fixed-fold3",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 30,
+            "time": "2026-10-20T20:05:07.924340+08:00",
+            "stage": "R17-B0_prime-fixed-fold3",
+            "event": "preprocessor_completed",
+            "seconds": 0.024928500002715737
+          },
+          {
+            "sequence": 31,
+            "time": "2026-10-20T20:05:07.925309+08:00",
+            "stage": "R17-B0_prime-fixed-fold3",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 32,
+            "time": "2026-10-20T20:05:08.168933+08:00",
+            "stage": "R17-B0_prime-fixed-fold3",
+            "event": "model_completed",
+            "seconds": 0.24246949999360368
+          },
+          {
+            "sequence": 33,
+            "time": "2026-10-20T20:05:08.199718+08:00",
+            "stage": "R17-B0_prime-fixed-fold4",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 34,
+            "time": "2026-10-20T20:05:08.225628+08:00",
+            "stage": "R17-B0_prime-fixed-fold4",
+            "event": "preprocessor_completed",
+            "seconds": 0.02523169998312369
+          },
+          {
+            "sequence": 35,
+            "time": "2026-10-20T20:05:08.226726+08:00",
+            "stage": "R17-B0_prime-fixed-fold4",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 36,
+            "time": "2026-10-20T20:05:08.484953+08:00",
+            "stage": "R17-B0_prime-fixed-fold4",
+            "event": "model_completed",
+            "seconds": 0.2562762000015937
+          },
+          {
+            "sequence": 37,
+            "time": "2026-10-20T20:05:08.514650+08:00",
+            "stage": "R17-B0_prime-fixed-fold5",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 38,
+            "time": "2026-10-20T20:05:08.539715+08:00",
+            "stage": "R17-B0_prime-fixed-fold5",
+            "event": "preprocessor_completed",
+            "seconds": 0.024303700018208474
+          },
+          {
+            "sequence": 39,
+            "time": "2026-10-20T20:05:08.540621+08:00",
+            "stage": "R17-B0_prime-fixed-fold5",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 40,
+            "time": "2026-10-20T20:05:08.791572+08:00",
+            "stage": "R17-B0_prime-fixed-fold5",
+            "event": "model_completed",
+            "seconds": 0.2492684999597259
+          },
+          {
+            "sequence": 41,
+            "time": "2026-10-20T20:05:08.891123+08:00",
+            "stage": "R17-B0-repeat_1-fold1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 42,
+            "time": "2026-10-20T20:05:08.917701+08:00",
+            "stage": "R17-B0-repeat_1-fold1",
+            "event": "preprocessor_completed",
+            "seconds": 0.025992700015194714
+          },
+          {
+            "sequence": 43,
+            "time": "2026-10-20T20:05:08.919303+08:00",
+            "stage": "R17-B0-repeat_1-fold1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 44,
+            "time": "2026-10-20T20:05:09.174858+08:00",
+            "stage": "R17-B0-repeat_1-fold1",
+            "event": "model_completed",
+            "seconds": 0.2527286999975331
+          },
+          {
+            "sequence": 45,
+            "time": "2026-10-20T20:05:09.204873+08:00",
+            "stage": "R17-B0-repeat_1-fold2",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 46,
+            "time": "2026-10-20T20:05:09.234909+08:00",
+            "stage": "R17-B0-repeat_1-fold2",
+            "event": "preprocessor_completed",
+            "seconds": 0.029311199963558465
+          },
+          {
+            "sequence": 47,
+            "time": "2026-10-20T20:05:09.235948+08:00",
+            "stage": "R17-B0-repeat_1-fold2",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 48,
+            "time": "2026-10-20T20:05:09.486927+08:00",
+            "stage": "R17-B0-repeat_1-fold2",
+            "event": "model_completed",
+            "seconds": 0.24892090004868805
+          },
+          {
+            "sequence": 49,
+            "time": "2026-10-20T20:05:09.520594+08:00",
+            "stage": "R17-B0-repeat_1-fold3",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 50,
+            "time": "2026-10-20T20:05:09.547214+08:00",
+            "stage": "R17-B0-repeat_1-fold3",
+            "event": "preprocessor_completed",
+            "seconds": 0.02582300000358373
+          },
+          {
+            "sequence": 51,
+            "time": "2026-10-20T20:05:09.548348+08:00",
+            "stage": "R17-B0-repeat_1-fold3",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 52,
+            "time": "2026-10-20T20:05:09.781292+08:00",
+            "stage": "R17-B0-repeat_1-fold3",
+            "event": "model_completed",
+            "seconds": 0.23144319996936247
+          },
+          {
+            "sequence": 53,
+            "time": "2026-10-20T20:05:09.811470+08:00",
+            "stage": "R17-B0-repeat_1-fold4",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 54,
+            "time": "2026-10-20T20:05:09.837411+08:00",
+            "stage": "R17-B0-repeat_1-fold4",
+            "event": "preprocessor_completed",
+            "seconds": 0.024933099979534745
+          },
+          {
+            "sequence": 55,
+            "time": "2026-10-20T20:05:09.838210+08:00",
+            "stage": "R17-B0-repeat_1-fold4",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 56,
+            "time": "2026-10-20T20:05:10.093405+08:00",
+            "stage": "R17-B0-repeat_1-fold4",
+            "event": "model_completed",
+            "seconds": 0.2539276999887079
+          },
+          {
+            "sequence": 57,
+            "time": "2026-10-20T20:05:10.135048+08:00",
+            "stage": "R17-B0-repeat_1-fold5",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 58,
+            "time": "2026-10-20T20:05:10.161344+08:00",
+            "stage": "R17-B0-repeat_1-fold5",
+            "event": "preprocessor_completed",
+            "seconds": 0.025387600006069988
+          },
+          {
+            "sequence": 59,
+            "time": "2026-10-20T20:05:10.162342+08:00",
+            "stage": "R17-B0-repeat_1-fold5",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 60,
+            "time": "2026-10-20T20:05:10.404580+08:00",
+            "stage": "R17-B0-repeat_1-fold5",
+            "event": "model_completed",
+            "seconds": 0.24131559999659657
+          },
+          {
+            "sequence": 61,
+            "time": "2026-10-20T20:05:10.507019+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 62,
+            "time": "2026-10-20T20:05:10.536471+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold1",
+            "event": "preprocessor_completed",
+            "seconds": 0.028410499973688275
+          },
+          {
+            "sequence": 63,
+            "time": "2026-10-20T20:05:10.537747+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 64,
+            "time": "2026-10-20T20:05:10.800862+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold1",
+            "event": "model_completed",
+            "seconds": 0.25840160000370815
+          },
+          {
+            "sequence": 65,
+            "time": "2026-10-20T20:05:10.831540+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold2",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 66,
+            "time": "2026-10-20T20:05:10.856949+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold2",
+            "event": "preprocessor_completed",
+            "seconds": 0.02462730003753677
+          },
+          {
+            "sequence": 67,
+            "time": "2026-10-20T20:05:10.858062+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold2",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 68,
+            "time": "2026-10-20T20:05:11.115994+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold2",
+            "event": "model_completed",
+            "seconds": 0.2553844000212848
+          },
+          {
+            "sequence": 69,
+            "time": "2026-10-20T20:05:11.147651+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold3",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 70,
+            "time": "2026-10-20T20:05:11.174052+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold3",
+            "event": "preprocessor_completed",
+            "seconds": 0.02556790004018694
+          },
+          {
+            "sequence": 71,
+            "time": "2026-10-20T20:05:11.175457+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold3",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 72,
+            "time": "2026-10-20T20:05:11.411840+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold3",
+            "event": "model_completed",
+            "seconds": 0.23511710000457242
+          },
+          {
+            "sequence": 73,
+            "time": "2026-10-20T20:05:11.442961+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold4",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 74,
+            "time": "2026-10-20T20:05:11.468621+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold4",
+            "event": "preprocessor_completed",
+            "seconds": 0.024927199992816895
+          },
+          {
+            "sequence": 75,
+            "time": "2026-10-20T20:05:11.469472+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold4",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 76,
+            "time": "2026-10-20T20:05:11.726395+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold4",
+            "event": "model_completed",
+            "seconds": 0.25493379996623844
+          },
+          {
+            "sequence": 77,
+            "time": "2026-10-20T20:05:11.781651+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold5",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 78,
+            "time": "2026-10-20T20:05:11.811344+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold5",
+            "event": "preprocessor_completed",
+            "seconds": 0.02863759995670989
+          },
+          {
+            "sequence": 79,
+            "time": "2026-10-20T20:05:11.812330+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold5",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 80,
+            "time": "2026-10-20T20:05:12.061454+08:00",
+            "stage": "R17-B0_prime-repeat_1-fold5",
+            "event": "model_completed",
+            "seconds": 0.24844599998323247
+          },
+          {
+            "sequence": 81,
+            "time": "2026-10-20T20:05:12.161468+08:00",
+            "stage": "R17-B0-repeat_2-fold1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 82,
+            "time": "2026-10-20T20:05:12.190200+08:00",
+            "stage": "R17-B0-repeat_2-fold1",
+            "event": "preprocessor_completed",
+            "seconds": 0.02753130003111437
+          },
+          {
+            "sequence": 83,
+            "time": "2026-10-20T20:05:12.192014+08:00",
+            "stage": "R17-B0-repeat_2-fold1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 84,
+            "time": "2026-10-20T20:05:12.427931+08:00",
+            "stage": "R17-B0-repeat_2-fold1",
+            "event": "model_completed",
+            "seconds": 0.2352938000112772
+          },
+          {
+            "sequence": 85,
+            "time": "2026-10-20T20:05:12.458906+08:00",
+            "stage": "R17-B0-repeat_2-fold2",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 86,
+            "time": "2026-10-20T20:05:12.484892+08:00",
+            "stage": "R17-B0-repeat_2-fold2",
+            "event": "preprocessor_completed",
+            "seconds": 0.024986800039187074
+          },
+          {
+            "sequence": 87,
+            "time": "2026-10-20T20:05:12.485763+08:00",
+            "stage": "R17-B0-repeat_2-fold2",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 88,
+            "time": "2026-10-20T20:05:12.729560+08:00",
+            "stage": "R17-B0-repeat_2-fold2",
+            "event": "model_completed",
+            "seconds": 0.2428446999983862
+          },
+          {
+            "sequence": 89,
+            "time": "2026-10-20T20:05:12.761746+08:00",
+            "stage": "R17-B0-repeat_2-fold3",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 90,
+            "time": "2026-10-20T20:05:12.788263+08:00",
+            "stage": "R17-B0-repeat_2-fold3",
+            "event": "preprocessor_completed",
+            "seconds": 0.025596800027415156
+          },
+          {
+            "sequence": 91,
+            "time": "2026-10-20T20:05:12.789471+08:00",
+            "stage": "R17-B0-repeat_2-fold3",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 92,
+            "time": "2026-10-20T20:05:13.004435+08:00",
+            "stage": "R17-B0-repeat_2-fold3",
+            "event": "model_completed",
+            "seconds": 0.2134510999894701
+          },
+          {
+            "sequence": 93,
+            "time": "2026-10-20T20:05:13.036025+08:00",
+            "stage": "R17-B0-repeat_2-fold4",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 94,
+            "time": "2026-10-20T20:05:13.061560+08:00",
+            "stage": "R17-B0-repeat_2-fold4",
+            "event": "preprocessor_completed",
+            "seconds": 0.024624600016977638
+          },
+          {
+            "sequence": 95,
+            "time": "2026-10-20T20:05:13.062993+08:00",
+            "stage": "R17-B0-repeat_2-fold4",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 96,
+            "time": "2026-10-20T20:05:13.300839+08:00",
+            "stage": "R17-B0-repeat_2-fold4",
+            "event": "model_completed",
+            "seconds": 0.2365908999927342
+          },
+          {
+            "sequence": 97,
+            "time": "2026-10-20T20:05:13.332662+08:00",
+            "stage": "R17-B0-repeat_2-fold5",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 98,
+            "time": "2026-10-20T20:05:13.359937+08:00",
+            "stage": "R17-B0-repeat_2-fold5",
+            "event": "preprocessor_completed",
+            "seconds": 0.025649300019722432
+          },
+          {
+            "sequence": 99,
+            "time": "2026-10-20T20:05:13.361203+08:00",
+            "stage": "R17-B0-repeat_2-fold5",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 100,
+            "time": "2026-10-20T20:05:13.621263+08:00",
+            "stage": "R17-B0-repeat_2-fold5",
+            "event": "model_completed",
+            "seconds": 0.2578100999817252
+          },
+          {
+            "sequence": 101,
+            "time": "2026-10-20T20:05:13.665175+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 102,
+            "time": "2026-10-20T20:05:13.692848+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold1",
+            "event": "preprocessor_completed",
+            "seconds": 0.02693260001251474
+          },
+          {
+            "sequence": 103,
+            "time": "2026-10-20T20:05:13.693812+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 104,
+            "time": "2026-10-20T20:05:13.936545+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold1",
+            "event": "model_completed",
+            "seconds": 0.2417518000002019
+          },
+          {
+            "sequence": 105,
+            "time": "2026-10-20T20:05:13.967923+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold2",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 106,
+            "time": "2026-10-20T20:05:13.992643+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold2",
+            "event": "preprocessor_completed",
+            "seconds": 0.023959900019690394
+          },
+          {
+            "sequence": 107,
+            "time": "2026-10-20T20:05:13.994279+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold2",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 108,
+            "time": "2026-10-20T20:05:14.254319+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold2",
+            "event": "model_completed",
+            "seconds": 0.25813660002313554
+          },
+          {
+            "sequence": 109,
+            "time": "2026-10-20T20:05:14.291622+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold3",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 110,
+            "time": "2026-10-20T20:05:14.318848+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold3",
+            "event": "preprocessor_completed",
+            "seconds": 0.025941999978385866
+          },
+          {
+            "sequence": 111,
+            "time": "2026-10-20T20:05:14.319966+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold3",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 112,
+            "time": "2026-10-20T20:05:14.556808+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold3",
+            "event": "model_completed",
+            "seconds": 0.23586110002361238
+          },
+          {
+            "sequence": 113,
+            "time": "2026-10-20T20:05:14.587841+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold4",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 114,
+            "time": "2026-10-20T20:05:14.613749+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold4",
+            "event": "preprocessor_completed",
+            "seconds": 0.02510739996796474
+          },
+          {
+            "sequence": 115,
+            "time": "2026-10-20T20:05:14.614993+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold4",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 116,
+            "time": "2026-10-20T20:05:14.865866+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold4",
+            "event": "model_completed",
+            "seconds": 0.2495154999778606
+          },
+          {
+            "sequence": 117,
+            "time": "2026-10-20T20:05:14.897138+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold5",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 118,
+            "time": "2026-10-20T20:05:14.922244+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold5",
+            "event": "preprocessor_completed",
+            "seconds": 0.02416189998621121
+          },
+          {
+            "sequence": 119,
+            "time": "2026-10-20T20:05:14.923527+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold5",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 120,
+            "time": "2026-10-20T20:05:15.183455+08:00",
+            "stage": "R17-B0_prime-repeat_2-fold5",
+            "event": "model_completed",
+            "seconds": 0.25606700003845617
+          },
+          {
+            "sequence": 121,
+            "time": "2026-10-20T20:05:15.281827+08:00",
+            "stage": "R17-B0-repeat_3-fold1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 122,
+            "time": "2026-10-20T20:05:15.309740+08:00",
+            "stage": "R17-B0-repeat_3-fold1",
+            "event": "preprocessor_completed",
+            "seconds": 0.027049999975133687
+          },
+          {
+            "sequence": 123,
+            "time": "2026-10-20T20:05:15.310747+08:00",
+            "stage": "R17-B0-repeat_3-fold1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 124,
+            "time": "2026-10-20T20:05:15.544287+08:00",
+            "stage": "R17-B0-repeat_3-fold1",
+            "event": "model_completed",
+            "seconds": 0.2304706000140868
+          },
+          {
+            "sequence": 125,
+            "time": "2026-10-20T20:05:15.574918+08:00",
+            "stage": "R17-B0-repeat_3-fold2",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 126,
+            "time": "2026-10-20T20:05:15.601436+08:00",
+            "stage": "R17-B0-repeat_3-fold2",
+            "event": "preprocessor_completed",
+            "seconds": 0.025728900043759495
+          },
+          {
+            "sequence": 127,
+            "time": "2026-10-20T20:05:15.602632+08:00",
+            "stage": "R17-B0-repeat_3-fold2",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 128,
+            "time": "2026-10-20T20:05:15.833286+08:00",
+            "stage": "R17-B0-repeat_3-fold2",
+            "event": "model_completed",
+            "seconds": 0.228523799974937
+          },
+          {
+            "sequence": 129,
+            "time": "2026-10-20T20:05:15.863681+08:00",
+            "stage": "R17-B0-repeat_3-fold3",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 130,
+            "time": "2026-10-20T20:05:15.893103+08:00",
+            "stage": "R17-B0-repeat_3-fold3",
+            "event": "preprocessor_completed",
+            "seconds": 0.02843220002250746
+          },
+          {
+            "sequence": 131,
+            "time": "2026-10-20T20:05:15.894021+08:00",
+            "stage": "R17-B0-repeat_3-fold3",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 132,
+            "time": "2026-10-20T20:05:16.135314+08:00",
+            "stage": "R17-B0-repeat_3-fold3",
+            "event": "model_completed",
+            "seconds": 0.24028030002955347
+          },
+          {
+            "sequence": 133,
+            "time": "2026-10-20T20:05:16.166749+08:00",
+            "stage": "R17-B0-repeat_3-fold4",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 134,
+            "time": "2026-10-20T20:05:16.194811+08:00",
+            "stage": "R17-B0-repeat_3-fold4",
+            "event": "preprocessor_completed",
+            "seconds": 0.02723170001991093
+          },
+          {
+            "sequence": 135,
+            "time": "2026-10-20T20:05:16.195972+08:00",
+            "stage": "R17-B0-repeat_3-fold4",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 136,
+            "time": "2026-10-20T20:05:16.431131+08:00",
+            "stage": "R17-B0-repeat_3-fold4",
+            "event": "model_completed",
+            "seconds": 0.23105750000104308
+          },
+          {
+            "sequence": 137,
+            "time": "2026-10-20T20:05:16.462696+08:00",
+            "stage": "R17-B0-repeat_3-fold5",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 138,
+            "time": "2026-10-20T20:05:16.489731+08:00",
+            "stage": "R17-B0-repeat_3-fold5",
+            "event": "preprocessor_completed",
+            "seconds": 0.02621550002368167
+          },
+          {
+            "sequence": 139,
+            "time": "2026-10-20T20:05:16.490940+08:00",
+            "stage": "R17-B0-repeat_3-fold5",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 140,
+            "time": "2026-10-20T20:05:16.744831+08:00",
+            "stage": "R17-B0-repeat_3-fold5",
+            "event": "model_completed",
+            "seconds": 0.25166820001322776
+          },
+          {
+            "sequence": 141,
+            "time": "2026-10-20T20:05:16.789782+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 142,
+            "time": "2026-10-20T20:05:16.817473+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold1",
+            "event": "preprocessor_completed",
+            "seconds": 0.02666319999843836
+          },
+          {
+            "sequence": 143,
+            "time": "2026-10-20T20:05:16.818715+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 144,
+            "time": "2026-10-20T20:05:17.061623+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold1",
+            "event": "model_completed",
+            "seconds": 0.23832629999378696
+          },
+          {
+            "sequence": 145,
+            "time": "2026-10-20T20:05:17.092108+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold2",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 146,
+            "time": "2026-10-20T20:05:17.118836+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold2",
+            "event": "preprocessor_completed",
+            "seconds": 0.02571160002844408
+          },
+          {
+            "sequence": 147,
+            "time": "2026-10-20T20:05:17.119870+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold2",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 148,
+            "time": "2026-10-20T20:05:17.354178+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold2",
+            "event": "model_completed",
+            "seconds": 0.2331389000173658
+          },
+          {
+            "sequence": 149,
+            "time": "2026-10-20T20:05:17.384878+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold3",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 150,
+            "time": "2026-10-20T20:05:17.411011+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold3",
+            "event": "preprocessor_completed",
+            "seconds": 0.025275699968915433
+          },
+          {
+            "sequence": 151,
+            "time": "2026-10-20T20:05:17.412410+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold3",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 152,
+            "time": "2026-10-20T20:05:17.670517+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold3",
+            "event": "model_completed",
+            "seconds": 0.2562333000241779
+          },
+          {
+            "sequence": 153,
+            "time": "2026-10-20T20:05:17.701079+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold4",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 154,
+            "time": "2026-10-20T20:05:17.726207+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold4",
+            "event": "preprocessor_completed",
+            "seconds": 0.024386600009165704
+          },
+          {
+            "sequence": 155,
+            "time": "2026-10-20T20:05:17.727528+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold4",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 156,
+            "time": "2026-10-20T20:05:17.981349+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold4",
+            "event": "model_completed",
+            "seconds": 0.25202270003501326
+          },
+          {
+            "sequence": 157,
+            "time": "2026-10-20T20:05:18.011225+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold5",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 158,
+            "time": "2026-10-20T20:05:18.036846+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold5",
+            "event": "preprocessor_completed",
+            "seconds": 0.024780199979431927
+          },
+          {
+            "sequence": 159,
+            "time": "2026-10-20T20:05:18.038101+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold5",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 160,
+            "time": "2026-10-20T20:05:18.299320+08:00",
+            "stage": "R17-B0_prime-repeat_3-fold5",
+            "event": "model_completed",
+            "seconds": 0.26012659998377785
+          },
+          {
+            "sequence": 161,
+            "time": "2026-10-20T20:05:18.400453+08:00",
+            "stage": "R17-B0-repeat_4-fold1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 162,
+            "time": "2026-10-20T20:05:18.437299+08:00",
+            "stage": "R17-B0-repeat_4-fold1",
+            "event": "preprocessor_completed",
+            "seconds": 0.036032100033480674
+          },
+          {
+            "sequence": 163,
+            "time": "2026-10-20T20:05:18.438742+08:00",
+            "stage": "R17-B0-repeat_4-fold1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 164,
+            "time": "2026-10-20T20:05:18.704588+08:00",
+            "stage": "R17-B0-repeat_4-fold1",
+            "event": "model_completed",
+            "seconds": 0.2648592999903485
+          },
+          {
+            "sequence": 165,
+            "time": "2026-10-20T20:05:18.735982+08:00",
+            "stage": "R17-B0-repeat_4-fold2",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 166,
+            "time": "2026-10-20T20:05:18.760279+08:00",
+            "stage": "R17-B0-repeat_4-fold2",
+            "event": "preprocessor_completed",
+            "seconds": 0.023439899960067123
+          },
+          {
+            "sequence": 167,
+            "time": "2026-10-20T20:05:18.761376+08:00",
+            "stage": "R17-B0-repeat_4-fold2",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 168,
+            "time": "2026-10-20T20:05:18.975846+08:00",
+            "stage": "R17-B0-repeat_4-fold2",
+            "event": "model_completed",
+            "seconds": 0.2137164999730885
+          },
+          {
+            "sequence": 169,
+            "time": "2026-10-20T20:05:19.006178+08:00",
+            "stage": "R17-B0-repeat_4-fold3",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 170,
+            "time": "2026-10-20T20:05:19.032361+08:00",
+            "stage": "R17-B0-repeat_4-fold3",
+            "event": "preprocessor_completed",
+            "seconds": 0.025279800000134856
+          },
+          {
+            "sequence": 171,
+            "time": "2026-10-20T20:05:19.033429+08:00",
+            "stage": "R17-B0-repeat_4-fold3",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 172,
+            "time": "2026-10-20T20:05:19.275328+08:00",
+            "stage": "R17-B0-repeat_4-fold3",
+            "event": "model_completed",
+            "seconds": 0.24085459997877479
+          },
+          {
+            "sequence": 173,
+            "time": "2026-10-20T20:05:19.305947+08:00",
+            "stage": "R17-B0-repeat_4-fold4",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 174,
+            "time": "2026-10-20T20:05:19.332823+08:00",
+            "stage": "R17-B0-repeat_4-fold4",
+            "event": "preprocessor_completed",
+            "seconds": 0.02610570000251755
+          },
+          {
+            "sequence": 175,
+            "time": "2026-10-20T20:05:19.334002+08:00",
+            "stage": "R17-B0-repeat_4-fold4",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 176,
+            "time": "2026-10-20T20:05:19.583212+08:00",
+            "stage": "R17-B0-repeat_4-fold4",
+            "event": "model_completed",
+            "seconds": 0.24605529999826103
+          },
+          {
+            "sequence": 177,
+            "time": "2026-10-20T20:05:19.613882+08:00",
+            "stage": "R17-B0-repeat_4-fold5",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 178,
+            "time": "2026-10-20T20:05:19.641980+08:00",
+            "stage": "R17-B0-repeat_4-fold5",
+            "event": "preprocessor_completed",
+            "seconds": 0.027288899989798665
+          },
+          {
+            "sequence": 179,
+            "time": "2026-10-20T20:05:19.643033+08:00",
+            "stage": "R17-B0-repeat_4-fold5",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 180,
+            "time": "2026-10-20T20:05:19.881859+08:00",
+            "stage": "R17-B0-repeat_4-fold5",
+            "event": "model_completed",
+            "seconds": 0.23735559999477118
+          },
+          {
+            "sequence": 181,
+            "time": "2026-10-20T20:05:19.923542+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 182,
+            "time": "2026-10-20T20:05:19.956990+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold1",
+            "event": "preprocessor_completed",
+            "seconds": 0.03184459998738021
+          },
+          {
+            "sequence": 183,
+            "time": "2026-10-20T20:05:19.958341+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 184,
+            "time": "2026-10-20T20:05:20.207752+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold1",
+            "event": "model_completed",
+            "seconds": 0.24860410002293065
+          },
+          {
+            "sequence": 185,
+            "time": "2026-10-20T20:05:20.240888+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold2",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 186,
+            "time": "2026-10-20T20:05:20.265553+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold2",
+            "event": "preprocessor_completed",
+            "seconds": 0.023829600017052144
+          },
+          {
+            "sequence": 187,
+            "time": "2026-10-20T20:05:20.266956+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold2",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 188,
+            "time": "2026-10-20T20:05:20.507724+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold2",
+            "event": "model_completed",
+            "seconds": 0.23808049998478964
+          },
+          {
+            "sequence": 189,
+            "time": "2026-10-20T20:05:20.539307+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold3",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 190,
+            "time": "2026-10-20T20:05:20.567795+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold3",
+            "event": "preprocessor_completed",
+            "seconds": 0.02772680000634864
+          },
+          {
+            "sequence": 191,
+            "time": "2026-10-20T20:05:20.568973+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold3",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 192,
+            "time": "2026-10-20T20:05:20.822759+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold3",
+            "event": "model_completed",
+            "seconds": 0.2527624000213109
+          },
+          {
+            "sequence": 193,
+            "time": "2026-10-20T20:05:20.854127+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold4",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 194,
+            "time": "2026-10-20T20:05:20.880535+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold4",
+            "event": "preprocessor_completed",
+            "seconds": 0.025603799964301288
+          },
+          {
+            "sequence": 195,
+            "time": "2026-10-20T20:05:20.881488+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold4",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 196,
+            "time": "2026-10-20T20:05:21.129153+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold4",
+            "event": "model_completed",
+            "seconds": 0.24672779999673367
+          },
+          {
+            "sequence": 197,
+            "time": "2026-10-20T20:05:21.163242+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold5",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 198,
+            "time": "2026-10-20T20:05:21.192076+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold5",
+            "event": "preprocessor_completed",
+            "seconds": 0.027799900039099157
+          },
+          {
+            "sequence": 199,
+            "time": "2026-10-20T20:05:21.193283+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold5",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 200,
+            "time": "2026-10-20T20:05:21.443091+08:00",
+            "stage": "R17-B0_prime-repeat_4-fold5",
+            "event": "model_completed",
+            "seconds": 0.24873170000500977
+          },
+          {
+            "sequence": 201,
+            "time": "2026-10-20T20:05:21.538768+08:00",
+            "stage": "R17-B0-repeat_5-fold1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 202,
+            "time": "2026-10-20T20:05:21.577550+08:00",
+            "stage": "R17-B0-repeat_5-fold1",
+            "event": "preprocessor_completed",
+            "seconds": 0.037876500049605966
+          },
+          {
+            "sequence": 203,
+            "time": "2026-10-20T20:05:21.579035+08:00",
+            "stage": "R17-B0-repeat_5-fold1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 204,
+            "time": "2026-10-20T20:05:21.827447+08:00",
+            "stage": "R17-B0-repeat_5-fold1",
+            "event": "model_completed",
+            "seconds": 0.24772699997993186
+          },
+          {
+            "sequence": 205,
+            "time": "2026-10-20T20:05:21.858676+08:00",
+            "stage": "R17-B0-repeat_5-fold2",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 206,
+            "time": "2026-10-20T20:05:21.885222+08:00",
+            "stage": "R17-B0-repeat_5-fold2",
+            "event": "preprocessor_completed",
+            "seconds": 0.0254735000198707
+          },
+          {
+            "sequence": 207,
+            "time": "2026-10-20T20:05:21.886413+08:00",
+            "stage": "R17-B0-repeat_5-fold2",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 208,
+            "time": "2026-10-20T20:05:22.103809+08:00",
+            "stage": "R17-B0-repeat_5-fold2",
+            "event": "model_completed",
+            "seconds": 0.21592310001142323
+          },
+          {
+            "sequence": 209,
+            "time": "2026-10-20T20:05:22.133405+08:00",
+            "stage": "R17-B0-repeat_5-fold3",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 210,
+            "time": "2026-10-20T20:05:22.163745+08:00",
+            "stage": "R17-B0-repeat_5-fold3",
+            "event": "preprocessor_completed",
+            "seconds": 0.02944559999741614
+          },
+          {
+            "sequence": 211,
+            "time": "2026-10-20T20:05:22.166755+08:00",
+            "stage": "R17-B0-repeat_5-fold3",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 212,
+            "time": "2026-10-20T20:05:22.414059+08:00",
+            "stage": "R17-B0-repeat_5-fold3",
+            "event": "model_completed",
+            "seconds": 0.2456015000352636
+          },
+          {
+            "sequence": 213,
+            "time": "2026-10-20T20:05:22.446838+08:00",
+            "stage": "R17-B0-repeat_5-fold4",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 214,
+            "time": "2026-10-20T20:05:22.473664+08:00",
+            "stage": "R17-B0-repeat_5-fold4",
+            "event": "preprocessor_completed",
+            "seconds": 0.025876599946059287
+          },
+          {
+            "sequence": 215,
+            "time": "2026-10-20T20:05:22.476815+08:00",
+            "stage": "R17-B0-repeat_5-fold4",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 216,
+            "time": "2026-10-20T20:05:22.713640+08:00",
+            "stage": "R17-B0-repeat_5-fold4",
+            "event": "model_completed",
+            "seconds": 0.23613289999775589
+          },
+          {
+            "sequence": 217,
+            "time": "2026-10-20T20:05:22.753123+08:00",
+            "stage": "R17-B0-repeat_5-fold5",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 218,
+            "time": "2026-10-20T20:05:22.781143+08:00",
+            "stage": "R17-B0-repeat_5-fold5",
+            "event": "preprocessor_completed",
+            "seconds": 0.02673709997907281
+          },
+          {
+            "sequence": 219,
+            "time": "2026-10-20T20:05:22.782346+08:00",
+            "stage": "R17-B0-repeat_5-fold5",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 220,
+            "time": "2026-10-20T20:05:23.033479+08:00",
+            "stage": "R17-B0-repeat_5-fold5",
+            "event": "model_completed",
+            "seconds": 0.25005050003528595
+          },
+          {
+            "sequence": 221,
+            "time": "2026-10-20T20:05:23.133823+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 222,
+            "time": "2026-10-20T20:05:23.164542+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold1",
+            "event": "preprocessor_completed",
+            "seconds": 0.029499099997337908
+          },
+          {
+            "sequence": 223,
+            "time": "2026-10-20T20:05:23.167954+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 224,
+            "time": "2026-10-20T20:05:23.423879+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold1",
+            "event": "model_completed",
+            "seconds": 0.25425040000118315
+          },
+          {
+            "sequence": 225,
+            "time": "2026-10-20T20:05:23.454370+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold2",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 226,
+            "time": "2026-10-20T20:05:23.480150+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold2",
+            "event": "preprocessor_completed",
+            "seconds": 0.02497670002048835
+          },
+          {
+            "sequence": 227,
+            "time": "2026-10-20T20:05:23.482139+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold2",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 228,
+            "time": "2026-10-20T20:05:23.713281+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold2",
+            "event": "model_completed",
+            "seconds": 0.2277612999896519
+          },
+          {
+            "sequence": 229,
+            "time": "2026-10-20T20:05:23.744871+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold3",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 230,
+            "time": "2026-10-20T20:05:23.772829+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold3",
+            "event": "preprocessor_completed",
+            "seconds": 0.027013799990527332
+          },
+          {
+            "sequence": 231,
+            "time": "2026-10-20T20:05:23.774007+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold3",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 232,
+            "time": "2026-10-20T20:05:24.029761+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold3",
+            "event": "model_completed",
+            "seconds": 0.2546260000090115
+          },
+          {
+            "sequence": 233,
+            "time": "2026-10-20T20:05:24.062280+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold4",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 234,
+            "time": "2026-10-20T20:05:24.088047+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold4",
+            "event": "preprocessor_completed",
+            "seconds": 0.02463879995048046
+          },
+          {
+            "sequence": 235,
+            "time": "2026-10-20T20:05:24.089145+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold4",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 236,
+            "time": "2026-10-20T20:05:24.334855+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold4",
+            "event": "model_completed",
+            "seconds": 0.24436860001878813
+          },
+          {
+            "sequence": 237,
+            "time": "2026-10-20T20:05:24.366595+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold5",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 238,
+            "time": "2026-10-20T20:05:24.391148+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold5",
+            "event": "preprocessor_completed",
+            "seconds": 0.02367889997549355
+          },
+          {
+            "sequence": 239,
+            "time": "2026-10-20T20:05:24.392261+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold5",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 240,
+            "time": "2026-10-20T20:05:24.649371+08:00",
+            "stage": "R17-B0_prime-repeat_5-fold5",
+            "event": "model_completed",
+            "seconds": 0.2564769000164233
+          }
+        ]
+      }
+    },
+    {
+      "scope": "shared_main_full_pair",
+      "counts": {
+        "R13_fit_cap": null,
+        "models_entered": 2,
+        "models_completed": 2,
+        "preprocessors_entered": 2,
+        "preprocessors_completed": 2,
+        "failures": 0,
+        "retries": 0,
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T20:09:19.704119+08:00",
+            "stage": "R17-full-member0",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T20:09:19.771418+08:00",
+            "stage": "R17-full-member0",
+            "event": "preprocessor_completed",
+            "seconds": 0.06669730000430718
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T20:09:19.772454+08:00",
+            "stage": "R17-full-member0",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T20:09:20.067242+08:00",
+            "stage": "R17-full-member0",
+            "event": "model_completed",
+            "seconds": 0.29361980000976473
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T20:09:20.074165+08:00",
+            "stage": "R17-full-member1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T20:09:20.104807+08:00",
+            "stage": "R17-full-member1",
+            "event": "preprocessor_completed",
+            "seconds": 0.030050600005779415
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T20:09:20.105738+08:00",
+            "stage": "R17-full-member1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T20:09:20.424148+08:00",
+            "stage": "R17-full-member1",
+            "event": "model_completed",
+            "seconds": 0.3169181999983266
+          }
+        ]
+      }
+    },
+    {
+      "scope": "F70_independent_clean",
+      "counts": {
+        "R13_fit_cap": null,
+        "models_entered": 2,
+        "models_completed": 2,
+        "preprocessors_entered": 2,
+        "preprocessors_completed": 2,
+        "failures": 0,
+        "retries": 0,
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T20:09:36.555874+08:00",
+            "stage": "R17-full-member0",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T20:09:36.629406+08:00",
+            "stage": "R17-full-member0",
+            "event": "preprocessor_completed",
+            "seconds": 0.0727576999925077
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T20:09:36.630648+08:00",
+            "stage": "R17-full-member0",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T20:09:36.939860+08:00",
+            "stage": "R17-full-member0",
+            "event": "model_completed",
+            "seconds": 0.30753790005110204
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T20:09:36.946233+08:00",
+            "stage": "R17-full-member1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T20:09:36.978015+08:00",
+            "stage": "R17-full-member1",
+            "event": "preprocessor_completed",
+            "seconds": 0.031181400001514703
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T20:09:36.978931+08:00",
+            "stage": "R17-full-member1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T20:09:37.288570+08:00",
+            "stage": "R17-full-member1",
+            "event": "model_completed",
+            "seconds": 0.3087531999917701
+          }
+        ]
+      }
+    },
+    {
+      "scope": "F50_independent_clean",
+      "counts": {
+        "R13_fit_cap": null,
+        "models_entered": 2,
+        "models_completed": 2,
+        "preprocessors_entered": 2,
+        "preprocessors_completed": 2,
+        "failures": 0,
+        "retries": 0,
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T20:09:56.524603+08:00",
+            "stage": "R17-full-member0",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T20:09:56.597203+08:00",
+            "stage": "R17-full-member0",
+            "event": "preprocessor_completed",
+            "seconds": 0.07194250001339242
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T20:09:56.597873+08:00",
+            "stage": "R17-full-member0",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T20:09:56.898377+08:00",
+            "stage": "R17-full-member0",
+            "event": "model_completed",
+            "seconds": 0.2998024999978952
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T20:09:56.905158+08:00",
+            "stage": "R17-full-member1",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T20:09:56.993508+08:00",
+            "stage": "R17-full-member1",
+            "event": "preprocessor_completed",
+            "seconds": 0.030659499985631555
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T20:09:56.994272+08:00",
+            "stage": "R17-full-member1",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T20:09:57.307174+08:00",
+            "stage": "R17-full-member1",
+            "event": "model_completed",
+            "seconds": 0.3119637999916449
+          }
+        ]
+      }
+    },
+    {
+      "scope": "B0_exact_uploaded_ZIP_audit_II",
+      "counts": {
+        "R13_fit_cap": null,
+        "models_entered": 1,
+        "models_completed": 1,
+        "preprocessors_entered": 1,
+        "preprocessors_completed": 1,
+        "failures": 0,
+        "retries": 0,
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T20:07:31.705239+08:00",
+            "stage": "B0-full-R15",
+            "event": "preprocessor_entered"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T20:07:31.771905+08:00",
+            "stage": "B0-full-R15",
+            "event": "preprocessor_completed",
+            "seconds": 0.06595869996817783
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T20:07:31.772854+08:00",
+            "stage": "B0-full-R15",
+            "event": "model_entered"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T20:07:32.091560+08:00",
+            "stage": "B0-full-R15",
+            "event": "model_completed",
+            "seconds": 0.3176625000196509
+          }
+        ]
+      }
+    }
+  ],
+  "models_completed": 67,
+  "top_level_preprocessors_completed": 67,
+  "failures": 0,
+  "model_entered": 67,
+  "preprocessor_entered": 67,
+  "retries": 0
+}

@@ -1,0 +1,17 @@
+{
+  "R16_native_models": 1260,
+  "R16_native_preprocessors": 1260,
+  "R16_completed_Tab_contexts": 1,
+  "R16_completed_Tab_external_preprocessors": 1,
+  "R16_retired_v1_models": 3,
+  "R16_retired_v1_preprocessors": 3,
+  "R16_synthetic_contexts": 3,
+  "R16_synthetic_external_preprocessors": 0,
+  "R16_total_models_or_contexts": 1267,
+  "R16_total_top_level_preprocessors": 1264,
+  "R16_Tab_first_validation_complete": false,
+  "R16_new_fits_after_user_R17_stop": 0,
+  "R16_final_fusion_not_executed": true,
+  "A2B035_before_R16_models_and_preprocessors_each": 3071,
+  "R17_counts_start_from_zero": true
+}

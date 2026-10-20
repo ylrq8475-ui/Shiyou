@@ -1,0 +1,20 @@
+{
+  "R17_CV": 60,
+  "R17_shared_full_pair": 2,
+  "R17_clean_F70": 2,
+  "R17_clean_F50": 2,
+  "R17_B0_audit_II": 1,
+  "R17_total_models": 67,
+  "R17_total_top_level_preprocessors": 67,
+  "R16_total_models_or_contexts": 1267,
+  "R16_total_top_level_preprocessors": 1264,
+  "A2B035_before_R16_models_and_preprocessors_each": 3071,
+  "A2B035_cumulative_models_or_contexts": 4405,
+  "A2B035_cumulative_top_level_preprocessors": 4402,
+  "counter_basis": "top-level preprocessing pipeline per estimator/context; no double count of shared member artifacts copied into both versions",
+  "model_fit_exceptions": 0,
+  "retries": 0,
+  "old_R16_engineering_stop_and_retired_fits_preserved_in_prior_accounting": true,
+  "OOF_disk": false,
+  "platform_uploads": 0
+}

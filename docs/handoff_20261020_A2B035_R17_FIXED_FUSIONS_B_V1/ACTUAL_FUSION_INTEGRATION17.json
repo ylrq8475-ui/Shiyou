@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "actual_shared_full_member_pair_sha256": "1ed4a2e152271d6b856ee870d9c7580162adba582968c6411f2e7a5b3098c19e",
+  "members": [
+    {
+      "cutoff": "M_minus_1",
+      "single_batch_reverse_extra_exact": true,
+      "invalid_window_all_nonkey_prediction_exact": true,
+      "dynamic_window_cells_decoded": 0
+    },
+    {
+      "cutoff": "T0_minus_1",
+      "single_batch_reverse_extra_exact": true,
+      "invalid_window_all_nonkey_prediction_exact": true,
+      "dynamic_window_cells_decoded": 0
+    }
+  ],
+  "F70_and_F50_actual_artifact_fixed_blends": "PASS",
+  "offline_socket_guard": true,
+  "inference_fit_guard": true,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "competition_test_files_parsed_in_this_check": 0,
+  "source_kind": "post-CV integration evidence, not a backdated prescore test",
+  "historical_dtype_not_inferred_from_model": true
+}

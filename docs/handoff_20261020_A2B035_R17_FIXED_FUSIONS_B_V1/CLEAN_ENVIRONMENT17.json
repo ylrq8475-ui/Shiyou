@@ -1,0 +1,32 @@
+{
+  "python_version": "3.13.7",
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "Pygments": "2.19.2",
+    "cloudpickle": "3.1.2",
+    "colorama": "0.4.6",
+    "et_xmlfile": "2.0.0",
+    "iniconfig": "2.1.0",
+    "joblib": "1.6.0",
+    "narwhals": "2.26.0",
+    "numpy": "2.4.3",
+    "openpyxl": "3.1.5",
+    "packaging": "25.0",
+    "pandas": "2.3.3",
+    "pluggy": "1.6.0",
+    "pytest": "8.4.2",
+    "python-dateutil": "2.9.0.post0",
+    "pytz": "2026.3.post1",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.17.1",
+    "six": "1.17.0",
+    "threadpoolctl": "3.7.0",
+    "tzdata": "2026.4"
+  },
+  "isolated_copy_of_previously_verified_dependency_environment": true,
+  "new_prefix_verified": true,
+  "critical_module_imports": "PASS",
+  "interpreter_binary_sha256": "926f48e34093c6a5c63982f26cb2bcdfb1c428aa47794b2145ee66cbb846aff1",
+  "model_fits": 0,
+  "preprocessor_fits": 0
+}

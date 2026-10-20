@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "source_locks": [
+    {
+      "lock": "SOURCE_LOCK17.json",
+      "lock_sha256": "ffacc754f6e4e13ff1a4d89712054f2f73ce7341df8c012eefd4412d92ad7fb3",
+      "files": 39,
+      "all_original_bytes_unchanged": true
+    },
+    {
+      "lock": "ASSEMBLY_IMPLEMENTATION_LOCK17.json",
+      "lock_sha256": "a4702aebeb024fba07d12023d2f9e19e3db887ceb54a03db107983d905eb6f96",
+      "files": 2,
+      "all_original_bytes_unchanged": true
+    },
+    {
+      "lock": "RESEARCH_LOCK16.json",
+      "lock_sha256": "9842a7c64f9e6d6969c462fd1e3d4a1498aece464b7e43f2d1d3fd912809b9df",
+      "files": 48,
+      "all_original_bytes_unchanged": true
+    },
+    {
+      "lock": "RESEARCH_LOCK.json",
+      "lock_sha256": "aafffd62ebc0974ce8fdc446484d554372bbcd2ed762598b85e548c75b174dac",
+      "files": 53,
+      "all_original_bytes_unchanged": true
+    }
+  ],
+  "old_four_formal_ZIPs_original_sources_and_delivered_copies_unchanged": true,
+  "raw_archive_original_bytes_unchanged": true,
+  "raw_manifest_members_verified": 100,
+  "raw_archive_sha256": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+  "private_policy_original_bytes_unchanged": true,
+  "R17_model_fits": 67,
+  "R17_top_level_preprocessor_fits": 67,
+  "fit_failures": 0,
+  "retries": 0,
+  "checks_added_fits": 0,
+  "row_OOF_persisted": false,
+  "raw_data_copied": false,
+  "weights_private_only": true,
+  "formal_result_ZIPs_private_only": true,
+  "B_platform_uploads": 0,
+  "old_heartbeat": "PAUSED",
+  "R16_search_stopped": true
+}

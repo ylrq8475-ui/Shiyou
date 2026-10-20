@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "both cutoffs, every nonkey window column and all invalid UTF8 window cells",
+      "cases": 54,
+      "status": "PASS"
+    },
+    {
+      "name": "F70/F50 exact raw-value fixed weighting, clipping and permutation; reject new weights",
+      "status": "PASS"
+    },
+    {
+      "name": "official metric and fixed plus five repeated group folds",
+      "status": "PASS"
+    }
+  ],
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "test_dataset_rows_read": 0,
+  "all_values_synthetic": true
+}
