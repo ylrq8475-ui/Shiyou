@@ -1,12 +1,36 @@
 {
   "files": {
+    "COLLABORATION_REPLY_CODEX.md": {
+      "sha256": "7bf4a0392ca847f30625e1a90b260f7cefda8e4a1fe6944e6141af4f4c65d9d2",
+      "bytes": 2668
+    },
+    "PLATFORM_LEDGER_APPEND.json": {
+      "sha256": "aeb865327b48037d69d6e9d4ebdbb8629ff91241306a091570197831f23f7df7",
+      "bytes": 2414
+    },
     "PRIVACY_REVIEW.json": {
-      "sha256": "d71a5f9a520c3b771c937ba589569c06e1f0fe46eabdbc32c721a007df3ef746",
-      "bytes": 521
+      "sha256": "0345d0eb2bf4a95b9f239f10e19b817d17e710aed01c2d825f7a18e36d1f2c8a",
+      "bytes": 2528
+    },
+    "README.md": {
+      "sha256": "8e7b4d93c77aa7c3c555f89ab062b7f0fb402c7dff45fc87bc0c56093e9b77a2",
+      "bytes": 478
+    },
+    "REPORT_CODEX.md": {
+      "sha256": "5e3d305fd3e1b3a4aa10f09895b04be3b7393fae7645bc497c462f4534eb1ef4",
+      "bytes": 5232
     },
     "RESULT_CODEX.json": {
       "sha256": "b928c13ba5403a263a65de1ff700925a26a5ef01f3dc43003cd662a9b9fcbbce",
       "bytes": 4502
+    },
+    "USER_RECEIPT_SUPPLEMENT.md": {
+      "sha256": "72b314c11a39a5dfa9cb2cc431e979845b1a8ee48fb8e43d03756f8ac9d229da",
+      "bytes": 1286
+    },
+    "verify_receipts.py": {
+      "sha256": "bf301bfc395a6e03aab318ff8e0e1254f5eb3f8efac5db56b659633bdfa28901",
+      "bytes": 4587
     }
   },
   "self_binding": "Git object; no self-referential hash"

@@ -1,0 +1,1 @@
+本次仅补充本轮两包身份—用户报分绑定及聚合算术；未重训或查平台。读REPORT_CODEX.md及RESULT_CODEX.json，B可据PLATFORM_LEDGER_APPEND.json在自己的台账追加，不覆盖旧记录。verify_receipts.py读取相邻既有R15/R16公开匿名资料，需按其中明确路径恢复资料或仅调整资料位置；不需实际ZIP、赛事数据、私有配置、模型依赖或权重。用户转交记录来源与A独立验证范围已分开。
