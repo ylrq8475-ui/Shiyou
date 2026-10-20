@@ -866,6 +866,23 @@
         "外部资源通过不等于赛事集成/协变量/完整包已通过"
       ],
       "published_at": "2026-10-20T16:23:29.569819+08:00"
+    },
+    {
+      "task": "A2B-035/R16补充（上传B0重建包与B0+W；LGB/CatBoost/TabPFN双截止点；跨截止点融合）",
+      "role": "Claude",
+      "commit": "441966be673da9083505168077a4d6ac63805e90",
+      "report_path": "docs/handoff_20261020_A2B035_CLAUDE_INSTRUCTIONS_R16/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "B0暂缓已由用户解除：上传B0重建包以核实86.2003对应版本",
+        "停止H、T、HX、地质、Chronos",
+        "TabPFN赛事集成须于2026-10-22 24:00前通过Codex复核",
+        "最终包10-28前交Codex审核二，10-29用户指定"
+      ],
+      "published_at": "2026-10-20T16:50:00+08:00"
     }
   ]
 }
