@@ -1,0 +1,17 @@
+{
+  "files": {
+    "ADMISSION_STATUS.json": {
+      "sha256": "67bb71659877bb8a3b161599415cd88c054e1adfed852fb5bd3936c2eccc5b7a",
+      "bytes": 2071
+    },
+    "PRIVACY_REVIEW.json": {
+      "sha256": "fde91d935631a7a347618dc765535d693cc272b93d682495853b98234b3a115b",
+      "bytes": 886
+    },
+    "RESULT_CODEX.json": {
+      "sha256": "20f6fab601534b0e0fc5dabb5390eb98c124c0af5b9b7672984d6c5a1768b507",
+      "bytes": 1821
+    }
+  },
+  "self_binding": "Git object, no self-referential checksum"
+}

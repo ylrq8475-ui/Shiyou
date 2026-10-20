@@ -1,0 +1,49 @@
+{
+  "task": "A2B-035/R14 supplementary admission status check",
+  "reviews_commit": "f252407dba3af7b3800c8242518c8e156ad04a42",
+  "role": "账户A2（新接手）独立审核与交付",
+  "LightGBM_CatBoost": {
+    "decision": "UNKNOWN",
+    "priority": "P1",
+    "status": "not released; bound new environment import blocked before adapter fit",
+    "actual_adapter_synthetic_fits": 0,
+    "evidence": "EXTERNAL_ADMISSION_EVIDENCE.json @ reviewed B commit",
+    "missing": [
+      "successful actual adapter fit/inference synthetic tests",
+      "offline and preprocessing/query independence evidence",
+      "distribution license and attribution evidence"
+    ]
+  },
+  "TabPFN_v2": {
+    "decision": "UNKNOWN",
+    "priority": "P1",
+    "status": "no new dedicated evidence in latest registered handoff",
+    "missing": [
+      "exact v2 dependency and permitted weight SHA",
+      "license and attribution",
+      "offline actual adapter sample independence tests",
+      "no test fit/calibration"
+    ]
+  },
+  "Chronos": {
+    "decision": "UNKNOWN",
+    "priority": "P1",
+    "status": "no new dedicated evidence; adapter incomplete",
+    "missing": [
+      "exact permitted model/version and weight SHA",
+      "license/attribution",
+      "offline actual adapter cutoff and zero-test-fit tests"
+    ]
+  },
+  "Q1": {
+    "decision": "UNKNOWN",
+    "priority": "P1",
+    "status": "G remains disabled",
+    "prior_B_evidence_commit": "c30d44f7a61bff9afe4e1e6820f69821636f6700",
+    "candidate_fields": 13,
+    "final_whitelist": [],
+    "evidence_limit": "R8 public report/dictionary/classification/excerpts re-read; no new historical formation/version evidence; no claim of full R8 official-source online verification or E3 replay",
+    "missing": "historical availability/effective version constraint for intended fields or clear task input timing basis"
+  },
+  "policy": "Recheck promptly under existing IDs when actual evidence is handed off; no per-candidate review added; current internal ET release retained"
+}

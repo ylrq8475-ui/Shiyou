@@ -1,0 +1,19 @@
+{
+  "scope": "A public outputs only; generic token/path scan and manual public/synthetic lineage; no real row values, private policies or weights",
+  "records": [
+    {
+      "path": "ADMISSION_STATUS.json",
+      "sha256": "67bb71659877bb8a3b161599415cd88c054e1adfed852fb5bd3936c2eccc5b7a",
+      "secret_or_absolute_private_path_hits": 0,
+      "review": "public anonymous source lineage plus synthetic-only values; no actual private marker inventory loaded"
+    },
+    {
+      "path": "RESULT_CODEX.json",
+      "sha256": "20f6fab601534b0e0fc5dabb5390eb98c124c0af5b9b7672984d6c5a1768b507",
+      "secret_or_absolute_private_path_hits": 0,
+      "review": "public anonymous source lineage plus synthetic-only values; no actual private marker inventory loaded"
+    }
+  ],
+  "all_pass": true,
+  "self_binding": "final Git object identity; manifest binds this file"
+}
