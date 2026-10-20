@@ -1,0 +1,12 @@
+{
+  "reviews_commit": "f252407dba3af7b3800c8242518c8e156ad04a42",
+  "checks_total": 257,
+  "failed": [],
+  "all_pass": true,
+  "B_synthetic_case_count": 50,
+  "B_preflight_scope": "bound source and aggregate records, not independent raw data replay",
+  "A_raw_reads": 0,
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "B0_standalone_execution": "not observed in reviewed entry paths and bound B zero counts; no claim to global B process inventory"
+}

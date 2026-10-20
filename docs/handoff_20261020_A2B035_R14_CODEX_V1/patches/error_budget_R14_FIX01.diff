@@ -1,0 +1,37 @@
+--- a/source/error_budget.py
++++ b/source/error_budget.py
+@@ -4,7 +4,9 @@
+ 
+ def weights(panel,pred):
+     require('RCYL' in panel and len(panel)==len(pred) and (panel.groupby('WELL_ID',sort=False).horizon.agg(list).map(lambda x:x==list(range(1,13)))).all(),'ERROR_BUDGET_TRAIN_OOF_SHAPE')
+-    y=panel.RCYL.to_numpy(float);e=np.asarray(pred,float)-y;return np.abs(e)/(np.abs(y)+1e-6)*2.**(-panel.horizon.to_numpy(float)),e
++    y=panel.RCYL.to_numpy(float);p=np.asarray(pred,float)
++    require(np.isfinite(y).all() and (y>=0).all() and np.isfinite(p).all() and (p>=0).all(),'ERROR_BUDGET_FINITE_NONNEGATIVE')
++    e=p-y;return np.abs(e)/(np.abs(p)+np.abs(y)+1e-6)*2.**(-panel.horizon.to_numpy(float)),e
+ 
+ def group_labels(panel,metadata,folds):
+     require(metadata.WELL_ID.is_unique and set(metadata.WELL_ID)==set(panel.WELL_ID),'GROUP_METADATA_COHORT')
+@@ -22,6 +24,7 @@
+ 
+ def budget(panel,pred,metadata,folds):
+     w,e=weights(panel,pred);n=panel.WELL_ID.nunique();total=float(w.sum()/n);h=panel.horizon.to_numpy();periods={}
++    require(abs(total-(1.-old.summary(panel,pred)['official_score']/100.))<1e-12,'ERROR_BUDGET_OFFICIAL_MISMATCH')
+     for name,mask in [('month1',h==1),('month2',h==2),('months3_4',(h>=3)&(h<=4)),('months5_12',h>=5)]:
+         v=float(w[mask].sum()/n);periods[name]={'weighted_loss':v,'fraction_of_total_loss':v/total if total>0 else None}
+     directions={}
+@@ -29,9 +32,13 @@
+         directions[name]={d:float(w[mask&sgn].sum()/n) for d,sgn in [('over_prediction',e>0),('under_prediction',e<0)]}
+     labels,rules=group_labels(panel,metadata,folds);groups={}
+     for field in next(iter(labels.values())):
++        support={name:{wid for wid,r in labels.items() if r[field]==name} for name in {r[field] for r in labels.values()}}
++        if any(len(members)<5 for members in support.values()):
++            groups[field]=[{'status':'SUPPRESSED_FAMILY_LT5','reason':'prevent reconstruction of a small remainder from cohort totals'}]
++            continue
+         groups[field]=[]
+-        for name in sorted({r[field] for r in labels.values()}):
+-            members={wid for wid,r in labels.items() if r[field]==name};count=len(members)
++        for name,members in sorted(support.items()):
++            count=len(members)
+             if count<5:groups[field].append({'group':name,'status':'SUPPRESSED_LT5','wells':'<5'});continue
+             mask=panel.WELL_ID.isin(members).to_numpy();sumloss=float(w[mask].sum())
+             groups[field].append({'group':name,'status':'REPORTED','wells':count,'group_mean_weighted_loss':sumloss/count,'contribution_to_total_loss':sumloss/n,'fraction_of_total_loss':sumloss/(total*n) if total else None})

@@ -1,0 +1,10 @@
+test_finite_nonnegative_rejection (__main__.Tests.test_finite_nonnegative_rejection) ... ok
+test_large_groups_still_report (__main__.Tests.test_large_groups_still_report) ... ok
+test_matches_official (__main__.Tests.test_matches_official) ... ok
+test_small_group_complement_suppression (__main__.Tests.test_small_group_complement_suppression) ... ok
+test_zero_truth_and_zero_prediction (__main__.Tests.test_zero_truth_and_zero_prediction) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.025s
+
+OK

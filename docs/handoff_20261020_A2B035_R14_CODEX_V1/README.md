@@ -1,0 +1,1 @@
+账户A2 R14管线增量审核，当前不放行，详见REPORT_CODEX.md和RESULT_CODEX.json。COLLABORATION_REPLY_CODEX.md供用户转发B。补丁仅在A目录制作，未合并。源码级合成测试需要将B固定交付的匿名ZIP按bundle/原结构放在测试目录；不需要赛事数据或模型库。A的测试使用标准库替身，不等同于B受检NumPy/Pandas运行时。判定绑定f252407dba3af7b3800c8242518c8e156ad04a42及旧增量锁，修复后的新锁需同号复核。原R13内部签署不变，外部/G仍未放行。

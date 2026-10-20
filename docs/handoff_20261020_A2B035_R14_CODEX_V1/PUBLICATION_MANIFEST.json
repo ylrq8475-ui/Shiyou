@@ -4,13 +4,81 @@
       "sha256": "67bb71659877bb8a3b161599415cd88c054e1adfed852fb5bd3936c2eccc5b7a",
       "bytes": 2071
     },
+    "AUDIT_QUEUE.md": {
+      "sha256": "4c1be113127cc44b930f304a10817d4f1e1e968411d8b4c87137218d2166554f",
+      "bytes": 1881
+    },
+    "COLLABORATION_REPLY_CODEX.md": {
+      "sha256": "3d1e137054bdabe2ce23302dc8658ebe98566a00620c06ba7c140e23e7d13219",
+      "bytes": 3121
+    },
+    "collect.py": {
+      "sha256": "f14c6b8cff00648fa65e8eb4807ea4403d74ae5c316d9df849510aeda35bd434",
+      "bytes": 1211
+    },
+    "EVIDENCE_REVIEW.json": {
+      "sha256": "77b03bc8f3f15d90553ebd27f0920abd694db516a42349c9cf0d40d88da271d5",
+      "bytes": 464
+    },
+    "PATCH_NOTES.md": {
+      "sha256": "36e140aa99fff4f3c99953a0564a22cf24bc6e9cf714ec05a9344c6662b32989",
+      "bytes": 1376
+    },
+    "PATCH_SYNTHETIC_LOG.txt": {
+      "sha256": "1a5d6a76c241f6103ea534838893b880eb72750993ca0e952c1da39c1dca43be",
+      "bytes": 554
+    },
     "PRIVACY_REVIEW.json": {
-      "sha256": "fde91d935631a7a347618dc765535d693cc272b93d682495853b98234b3a115b",
-      "bytes": 886
+      "sha256": "2078b247faa051065e9f6cf0856e3fdb14c444d9e540713c5436c28179045a06",
+      "bytes": 6186
+    },
+    "PROPOSED_PATCH_TEST_RESULT.json": {
+      "sha256": "e01a8e6eeccc03c51f0fb8c91bda4c3f25715e7341534abf3541dbfb56ca554d",
+      "bytes": 175
+    },
+    "README.md": {
+      "sha256": "6438ff00c8e865d9fe01918f997476d33ccb5191df697df69551c07243040027",
+      "bytes": 548
+    },
+    "REPORT_CODEX.md": {
+      "sha256": "017622e192bbded9e6548a5f138e2a45cde74ba557087505046f89f5e6f9131e",
+      "bytes": 11447
     },
     "RESULT_CODEX.json": {
       "sha256": "20f6fab601534b0e0fc5dabb5390eb98c124c0af5b9b7672984d6c5a1768b507",
       "bytes": 1821
+    },
+    "SOURCE_IDENTITIES.json": {
+      "sha256": "5c45f2222839c247bff9b3790ff1f609dd499181c5e5a4194b37aa9caac1589b",
+      "bytes": 6228
+    },
+    "SOURCE_SYNTHETIC_LOG.txt": {
+      "sha256": "35f9e84591671f151d67e7bd5f11b5b80fbd7896288269026cfb81ba76c5a14e",
+      "bytes": 1110
+    },
+    "SOURCE_SYNTHETIC_RESULT.json": {
+      "sha256": "f20719930bc7fe3384ef7ba1e5c0475bc8999d3e985b74973aca996002e7e108",
+      "bytes": 567
+    },
+    "test_increment_source.py": {
+      "sha256": "bb3caec5fa783df7d92f5a625ac667b78533c5d60721743bac72b08689f5ac0e",
+      "bytes": 15969
+    },
+    "test_proposed_patch.py": {
+      "sha256": "22f1b4456a1929de302b38f7f765ef493f9cd726331bc37fc60d2c2fb6089cb4",
+      "bytes": 2310
+    },
+    "verify_evidence.py": {
+      "sha256": "8ddcf0bf2c9d67e259319f3c2cce84d38ddb3a77655ef8b7609de9a42c3c1f97",
+      "bytes": 3598
+    },
+    "patches/error_budget_R14_FIX01.diff": {
+      "sha256": "cb9ab88c337ee2a1668ec31a0cb42cdbf16d525519415e8ca237b06513961d7e",
+      "bytes": 2724
+    },
+    "patches/error_budget_R14_FIX01.py": {
+      "sha256": "ddac8116b3215c0ede1914df42a548a9548ebfd6fb3f6d31881aba9cb539a7b0",
+      "bytes": 5195
     }
   },
   "self_binding": "Git object, no self-referential checksum"

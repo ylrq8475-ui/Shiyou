@@ -1,0 +1,19 @@
+{
+  "tests": 9,
+  "failures": 0,
+  "errors": 0,
+  "observed_findings": {
+    "complement_disclosure": {
+      "suppressed_synthetic_wells": 1,
+      "exact_loss_reconstructible": true
+    },
+    "wrong_denominator": {
+      "synthetic_budget_total": 0.9997555665498374,
+      "synthetic_official_total": 0.3332519205888594,
+      "official_core_changed": false
+    }
+  },
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "method": "exact selected B AST bodies plus stdlib vector/table/fit spies; not real numpy/pandas/sklearn or B 50-case rerun"
+}

@@ -1,0 +1,14 @@
+test_H_augmented_order_and_separate_wells (__main__.Tests.test_H_augmented_order_and_separate_wells) ... ok
+test_H_exact_calendar_fallback_and_future (__main__.Tests.test_H_exact_calendar_fallback_and_future) ... ok
+test_H_new_fields_window_poison_and_legal_control (__main__.Tests.test_H_new_fields_window_poison_and_legal_control) ... ok
+test_T_actual_evaluate_fit_routing_and_splice (__main__.Tests.test_T_actual_evaluate_fit_routing_and_splice) ... ok
+test_T_actual_fit_preprocessor_selected_rows_only (__main__.Tests.test_T_actual_fit_preprocessor_selected_rows_only) ... ok
+test_config_scope_and_unreleased_gate (__main__.Tests.test_config_scope_and_unreleased_gate) ... ok
+test_cutpoints_ignore_validation_values (__main__.Tests.test_cutpoints_ignore_validation_values) ... ok
+test_detect_small_group_complement_disclosure (__main__.Tests.test_detect_small_group_complement_disclosure) ... ok
+test_detect_wrong_budget_denominator (__main__.Tests.test_detect_wrong_budget_denominator) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.009s
+
+OK
