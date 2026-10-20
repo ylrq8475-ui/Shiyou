@@ -1,0 +1,35 @@
+{
+  "reason": "orchestration serially waited for slow first TabPFN validation, blocking native learners; before any completed full-CV candidate selection",
+  "original_source_lock_sha256": "33a7af1e3c58959b149d2e12ccd0300157b1e1bc8167a428e4e2e1f3912eb040",
+  "retired_fit_counts": {
+    "NATIVE_FITS16.json": {
+      "R13_fit_cap": null,
+      "models_entered": 2,
+      "models_completed": 2,
+      "preprocessors_entered": 2,
+      "preprocessors_completed": 2,
+      "failures": 0,
+      "retries": 0
+    },
+    "TAB_FITS16.json": {
+      "R13_fit_cap": null,
+      "models_entered": 1,
+      "models_completed": 1,
+      "preprocessors_entered": 1,
+      "preprocessors_completed": 1,
+      "failures": 0,
+      "retries": 0
+    }
+  },
+  "retired_models_completed": 3,
+  "retired_preprocessor_pipelines_completed": 3,
+  "native_first_fold_complete": 2,
+  "Tab_model_context_complete_but_validation_not_complete": 1,
+  "old_records_preserved": true,
+  "row_OOF_not_persisted": true,
+  "repair": "separate native execution and local Tab worker via threads/OSpipes; native max logicalcores-1, Tabtorch1; default algorithm grid unchanged; deadline guard before Tab fit and every query",
+  "necessary_rebuild_native_first_folds": 2,
+  "necessary_restart_Tab_incomplete_fold": 1,
+  "not_score_selection_or_extra_hyperparameter_search": true,
+  "old_processes_only_stopped_after_exact_own_commandline_and_PID_match": true
+}

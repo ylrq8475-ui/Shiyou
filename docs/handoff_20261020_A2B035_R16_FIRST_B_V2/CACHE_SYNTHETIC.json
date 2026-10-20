@@ -1,0 +1,13 @@
+{
+  "status": "NOT_EXACT",
+  "max_absolute_difference": 1.7881393432617188e-07,
+  "mode_elapsed_seconds": {
+    "fit_preprocessors": 3.4666409999481402,
+    "fit_with_cache": 1.0700398000190035
+  },
+  "model_context_fit_calls": 2,
+  "preprocessor_fits": 0,
+  "competition_data_read": false,
+  "candidate_scores_seen": false,
+  "seconds": 4.564916000002995
+}

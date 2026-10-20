@@ -1,0 +1,82 @@
+{
+  "task": "A2B035/R16",
+  "role": "账户B执行与交付",
+  "instruction_commit": "441966be673da9083505168077a4d6ac63805e90",
+  "continued_instruction_commits": [
+    "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+    "0f2804776957cefa6c3bab573a403f0cfb86d33e",
+    "9482ad9bb2a0bc64519e6a9effc8adbfee14173a"
+  ],
+  "Codex_resource_admission_commit": "929287843e30906144ca6caca4a4f5fdc6c2ec3d",
+  "two_existing_private_packages_delivered": true,
+  "package_receipt_fits": 0,
+  "stopped": [
+    "H",
+    "T",
+    "HX",
+    "geology",
+    "Chronos"
+  ],
+  "features": 325,
+  "wells": 81,
+  "rows": 972,
+  "target": "unchanged log1p(RCYL/s), last raw legal finite positive scale else1; features/scale both own registered cutoff",
+  "evaluation": "original fixed5 plus repeat5x5 seeds1..5; models seed20260916; grouped wells; training-fold preprocessing only",
+  "learner_grid": "32 LGB+8 Cat+2 Tab unweighted+4 environment controls",
+  "requested_Tab_W": "unimplemented; pinned default fit API lacks sample_weight; no silent approximation",
+  "expected_models_before_fusion": 1380,
+  "expected_models_inner_weight_fusion": 300,
+  "fits_cap": null,
+  "retention": "R13 exploratory ranking; no invented score gates or automatic upgrade",
+  "fusion": "winner per cutoff ranked repeatmean/SE/fixed/name; equal50/50; inner grid0..1 step.1 on outer-training wells inner5fold seed20260916 only, no outervalidation values; reuse memory outerOOF, no outer-model refit",
+  "same_env_controls": "two baselines trained in each actual32/53dependency environment; historical numbers reference only; no across-env delta",
+  "row_level_handling": "RAM only, local child process anonymous-control RPC via OS pipes; no socket or external service; only aggregate results persist",
+  "first_real_integration": "each new learner first fixed fold cached in RAM and reused; actual batch/single/reverse/additional query plus all synthetic nonkey window columns at both cutoff points; evidence immediately produced for incremental publication",
+  "Tab_deadline": "2026-10-22T24:00:00+08:00; must pass Codex competition integration by deadline or stop branch",
+  "platform": "user manual; maximum3completeversions perday including B0,W; S_v UNKNOWN until fullversion A-score binds; no perwell changes",
+  "source_immutability": "old boundary, metric and originalPIPELINE_LOCK remain unchanged; R16 wraps allowed new learner parameters outside original validator",
+  "runtime": "NATIVE reviewed R15 LGB/Cat copy; TAB separate R15 TabPFN copy; no mixing environment folds within a candidate; CPU training jobs sequential, Tabtorchthreads1; outer folds not parallel",
+  "failures": "record exact stage/count; no automatic repeats of successful folds; isolate technical failures without changing remaining candidates",
+  "scheduling_repair": {
+    "reason": "orchestration serially waited for slow first TabPFN validation, blocking native learners; before any completed full-CV candidate selection",
+    "original_source_lock_sha256": "33a7af1e3c58959b149d2e12ccd0300157b1e1bc8167a428e4e2e1f3912eb040",
+    "retired_fit_counts": {
+      "NATIVE_FITS16.json": {
+        "R13_fit_cap": null,
+        "models_entered": 2,
+        "models_completed": 2,
+        "preprocessors_entered": 2,
+        "preprocessors_completed": 2,
+        "failures": 0,
+        "retries": 0
+      },
+      "TAB_FITS16.json": {
+        "R13_fit_cap": null,
+        "models_entered": 1,
+        "models_completed": 1,
+        "preprocessors_entered": 1,
+        "preprocessors_completed": 1,
+        "failures": 0,
+        "retries": 0
+      }
+    },
+    "retired_models_completed": 3,
+    "retired_preprocessor_pipelines_completed": 3,
+    "native_first_fold_complete": 2,
+    "Tab_model_context_complete_but_validation_not_complete": 1,
+    "old_records_preserved": true,
+    "row_OOF_not_persisted": true,
+    "repair": "separate native execution and local Tab worker via threads/OSpipes; native max logicalcores-1, Tabtorch1; default algorithm grid unchanged; deadline guard before Tab fit and every query",
+    "necessary_rebuild_native_first_folds": 2,
+    "necessary_restart_Tab_incomplete_fold": 1,
+    "not_score_selection_or_extra_hyperparameter_search": true,
+    "old_processes_only_stopped_after_exact_own_commandline_and_PID_match": true
+  },
+  "operational_threads": {
+    "native": 19,
+    "TabPFN": 1,
+    "outer_folds": "sequential per stream",
+    "two_disjoint_environment_streams": true
+  },
+  "Tab_runtime": "R16 defaults, single underlying query; native batch and KVcache synthetic exactness failures not enabled"
+}

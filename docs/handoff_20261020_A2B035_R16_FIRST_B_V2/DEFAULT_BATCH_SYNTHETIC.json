@@ -1,0 +1,15 @@
+{
+  "status": "FAIL_EXACT_INDEPENDENCE",
+  "comparison": "default native multiquery vs single/reverse/extra; pure synthetic data",
+  "max_absolute_differences": [
+    1.7881393432617188e-07,
+    7.152557373046875e-07,
+    3.5762786865234375e-07
+  ],
+  "model_context_fit_calls": 1,
+  "preprocessor_fits": 0,
+  "competition_data_read": false,
+  "candidate_scores_seen": false,
+  "seconds": 3.365388400037773,
+  "parameter_changes": false
+}

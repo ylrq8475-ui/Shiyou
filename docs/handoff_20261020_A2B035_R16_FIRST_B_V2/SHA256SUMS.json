@@ -1,0 +1,116 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/B0_PACKAGE_RECEIPT.json",
+      "sha256": "1da27e1e3cf36ad3d2d47e5846e1265a36b5a86305315453b4684b5630b16953",
+      "bytes": 12812
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/B0_W_PACKAGE_RECEIPT.json",
+      "sha256": "146a6e30e44ed375fc62d0bea6595b4ca40da91a3a3c2dabbf7f2edcf80f8b21",
+      "bytes": 12401
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/CACHE_SYNTHETIC.json",
+      "sha256": "21d82fb0e7f488b7fb4e65dc2f9752c294be6147c4c92753f416bd3d12e7bea1",
+      "bytes": 371
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/DEFAULT_BATCH_SYNTHETIC.json",
+      "sha256": "7e27cfb98fa8cffdecc2595267029fcf89fd0de03f6abfd9ac31bd0c93257314",
+      "bytes": 454
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/ENV_NATIVE.json",
+      "sha256": "c87d9b172e87db8dc8499f3c49bc958d8b04f31c6fc789270e60ecde260ead2c",
+      "bytes": 988
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/ENV_TAB.json",
+      "sha256": "eb9c7554830d43fd717bfc96d2f4786609827d5ded0cdd278683c59fcf85c8ad",
+      "bytes": 1594
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/GRID16.json",
+      "sha256": "113e7a8ee70c1ce1c893ad9c5c585dab39be1d95f9422661eb638de83b501042",
+      "bytes": 15122
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/INTEGRATION_CatBoost.json",
+      "sha256": "8e28d28707f484e720b655166e52329e5878165d9d7f7ef654e1a25030b9d68c",
+      "bytes": 2883
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/INTEGRATION_LightGBM.json",
+      "sha256": "6e1639aa98ec3b8ca87ea090e93a5588b340434cfb7bf8d6158ef703328201c0",
+      "bytes": 2928
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/PACKAGE_RECEIPT_COUNTS.json",
+      "sha256": "abd61b0a662fbaff8cf6a917428eb85ba36e029a2292cc2190a3a0bfafc6a43f",
+      "bytes": 113
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/PLAN_R16.json",
+      "sha256": "47410ced3b42ca1b6181b6fefc77665217925c9d3edd4e3855b03708d24ff7de",
+      "bytes": 4582
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/PRE_DATA16.json",
+      "sha256": "3f45934addc814505a54fb2bee45684c9769b99f46dc07c63dfe26cc9efd8a14",
+      "bytes": 2785
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "bf4bf02b5590f5d54e1fc0e8efe4b8bc20af47936d945c4e4b30dfe33e66768e",
+      "bytes": 3276
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/PRIVACY_SCAN_RAW.json",
+      "sha256": "0cd15f6b659542416c5afbf5ea3b89165b0c65b7aeca75243b20f26df0e2aca6",
+      "bytes": 17930
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/R16_COMMON_PIPELINE_SOURCE.zip",
+      "sha256": "a0de1cf8c53065fc69d5d211e886dcd11c2535a8a37c5c6c6f3a8bb1b2fc9669",
+      "bytes": 105641
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/README.md",
+      "sha256": "61509b6a859a238845e8dd678a1b39a492c1b7077d89c5d34024a7e0e7f27a52",
+      "bytes": 258
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/REPORT_B.md",
+      "sha256": "1929d43a193055cc1c8b849b17a4a7fa0a0398884ec9ecc898cf09ec8c872e8d",
+      "bytes": 7087
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/REQUEST_CODEX_INCREMENT_REVIEW.md",
+      "sha256": "9700e60370f42358390b076190e9778551744ec2ccb92262284b65d461c34422",
+      "bytes": 979
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/RESEARCH_LOCK16.json",
+      "sha256": "9842a7c64f9e6d6969c462fd1e3d4a1498aece464b7e43f2d1d3fd912809b9df",
+      "bytes": 5106
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/RESULT_FIRST16.json",
+      "sha256": "0191c59055155f52a436dd63cd4f588f5abbb064d788d006f313883d29f5a538",
+      "bytes": 6725
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/SCHEDULING_REPAIR.json",
+      "sha256": "68108f18daa6c43412372b7c8b0b452cfe8e8c434966efb21511492da3affcf9",
+      "bytes": 1456
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/SYNTHETIC16.json",
+      "sha256": "3e8191f1aa4857529daeeb590e48d16a384d814ba059661139f7cd4931bf75df",
+      "bytes": 570
+    }
+  ],
+  "self": "bound by Git and external byte receipt; final bytes privacy scanned"
+}

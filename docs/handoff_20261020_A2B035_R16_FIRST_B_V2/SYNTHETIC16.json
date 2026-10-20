@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "name": "source syntax and all46 registered configurations",
+      "PASS": true,
+      "models": 0,
+      "preprocessors": 0
+    },
+    {
+      "name": "exact unnormalized2^-t model-only weights and absent unweighted kwarg; recording spies only",
+      "PASS": true,
+      "models": 0,
+      "preprocessors": 0
+    },
+    {
+      "name": "unsafe cutoff rejected",
+      "PASS": true,
+      "models": 0,
+      "preprocessors": 0
+    }
+  ],
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "source_synthetic_rows_only": true
+}

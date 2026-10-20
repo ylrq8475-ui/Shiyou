@@ -1,0 +1,404 @@
+{
+  "version": "B0_W",
+  "result_zip_sha256": "5bc472e9a3e709ea8076e54ef684d074315967c4291cfd7f3ab74cd959ba2e3f",
+  "submission_code_zip_sha256": "b267b82cdecb6f44a78862bfadea2d813ef41d32f0ec2c0016bde86e811ae0ae",
+  "code_bytes": 2117590,
+  "code_under5GB": true,
+  "main_model_sha256": "27fcc67c5205eca5097a1f7ace3a1970692d0a5285c142c738a0e6696e671544",
+  "independent_model_sha256": "27fcc67c5205eca5097a1f7ace3a1970692d0a5285c142c738a0e6696e671544",
+  "main_and_clean_runtime_equal": true,
+  "runtime": {
+    "python_version": "3.13.7",
+    "python_build": [
+      "main",
+      "Sep 18 2025 19:43:45"
+    ],
+    "python_compiler": "MSC v.1944 64 bit (AMD64)",
+    "dependencies": {
+      "PyYAML": "6.0.3",
+      "Pygments": "2.19.2",
+      "cloudpickle": "3.1.2",
+      "colorama": "0.4.6",
+      "et_xmlfile": "2.0.0",
+      "iniconfig": "2.1.0",
+      "joblib": "1.6.0",
+      "narwhals": "2.26.0",
+      "numpy": "2.4.3",
+      "openpyxl": "3.1.5",
+      "packaging": "25.0",
+      "pandas": "2.3.3",
+      "pluggy": "1.6.0",
+      "pytest": "8.4.2",
+      "python-dateutil": "2.9.0.post0",
+      "pytz": "2026.3.post1",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.17.1",
+      "six": "1.17.0",
+      "threadpoolctl": "3.7.0",
+      "tzdata": "2026.4"
+    }
+  },
+  "existing_main_train_counts": {
+    "R13_fit_cap": null,
+    "models_entered": 1,
+    "models_completed": 1,
+    "preprocessors_entered": 1,
+    "preprocessors_completed": 1,
+    "failures": 0,
+    "retries": 0,
+    "events": [
+      {
+        "sequence": 1,
+        "time": "2026-10-20T14:21:39.420066+08:00",
+        "stage": "W-full",
+        "event": "preprocessor_entered"
+      },
+      {
+        "sequence": 2,
+        "time": "2026-10-20T14:21:39.486907+08:00",
+        "stage": "W-full",
+        "event": "preprocessor_completed",
+        "seconds": 0.06595479999668896
+      },
+      {
+        "sequence": 3,
+        "time": "2026-10-20T14:21:39.487750+08:00",
+        "stage": "W-full",
+        "event": "model_entered"
+      },
+      {
+        "sequence": 4,
+        "time": "2026-10-20T14:21:39.784645+08:00",
+        "stage": "W-full",
+        "event": "model_completed",
+        "seconds": 0.29644020000705495
+      }
+    ]
+  },
+  "existing_clean_train_counts": {
+    "R13_fit_cap": null,
+    "models_entered": 1,
+    "models_completed": 1,
+    "preprocessors_entered": 1,
+    "preprocessors_completed": 1,
+    "failures": 0,
+    "retries": 0,
+    "events": [
+      {
+        "sequence": 1,
+        "time": "2026-10-20T14:21:50.547510+08:00",
+        "stage": "W-full",
+        "event": "preprocessor_entered"
+      },
+      {
+        "sequence": 2,
+        "time": "2026-10-20T14:21:50.619577+08:00",
+        "stage": "W-full",
+        "event": "preprocessor_completed",
+        "seconds": 0.07122480001999065
+      },
+      {
+        "sequence": 3,
+        "time": "2026-10-20T14:21:50.620725+08:00",
+        "stage": "W-full",
+        "event": "model_entered"
+      },
+      {
+        "sequence": 4,
+        "time": "2026-10-20T14:21:50.926509+08:00",
+        "stage": "W-full",
+        "event": "model_completed",
+        "seconds": 0.30297520000021905
+      }
+    ]
+  },
+  "existing_main_result_linter": {
+    "status": "PASS",
+    "files": 10,
+    "rows": 120,
+    "columns": [
+      "WELL_ID",
+      "NY",
+      "RCYL"
+    ],
+    "exact_template_keys_dates_order": true,
+    "duplicate_keys": 0,
+    "extra_columns": 0,
+    "NaN_Inf_negative": 0,
+    "flat_ZIP": true,
+    "CRC_passed": true,
+    "result_zip_sha256": "5bc472e9a3e709ea8076e54ef684d074315967c4291cfd7f3ab74cd959ba2e3f",
+    "result_zip_bytes": 2990,
+    "CSV_hashes_anonymous_archive_order": [
+      {
+        "sha256": "0fc82a4c3e0337c8faa680b25129e76f546e3380ba47a794b891cf1ed0fc8795",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "5da330b0ae96dc09e0ccad9c39f561e1ad2dc50d53b72849dcad11b472c15b75",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "6ac2c300e664e2af6ce8f901bb1bf140d68c1bbc77a42ea53a33d56aa21bbb89",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "54a826980160937a3bf5bb016a654a09146bc795c1a91cf0a97694f86620528e",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "bb92d6ebe2da278ac614e561ecbe976789123cf81eb966e0174d2905e8ae7593",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "3eb425e5ea704e6b39fb5cae5cc3194a545865d78fc10869bd12e325b4dbc0c4",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "afe8d08d061f42567342f871f1e7085137978081b746a42cb7ac3d7b6dd1b1b3",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "b2096d6e0fdc00df1a5cd4ed7c53288366264f5249fd3cfbce83d0a4e45b5ab5",
+        "bytes": 482,
+        "rows": 12
+      },
+      {
+        "sha256": "ddbde7b5956e529cac227b9bc75811ae88d76b0fd3f60568dd20ef2a344ac2ef",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "1b897c478dfa794954a31282e8d1b69f495c68cd9c82eedd48c172f295161991",
+        "bytes": 487,
+        "rows": 12
+      }
+    ]
+  },
+  "existing_clean_result_linter": {
+    "status": "PASS",
+    "files": 10,
+    "rows": 120,
+    "columns": [
+      "WELL_ID",
+      "NY",
+      "RCYL"
+    ],
+    "exact_template_keys_dates_order": true,
+    "duplicate_keys": 0,
+    "extra_columns": 0,
+    "NaN_Inf_negative": 0,
+    "flat_ZIP": true,
+    "CRC_passed": true,
+    "result_zip_sha256": "5bc472e9a3e709ea8076e54ef684d074315967c4291cfd7f3ab74cd959ba2e3f",
+    "result_zip_bytes": 2990,
+    "CSV_hashes_anonymous_archive_order": [
+      {
+        "sha256": "0fc82a4c3e0337c8faa680b25129e76f546e3380ba47a794b891cf1ed0fc8795",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "5da330b0ae96dc09e0ccad9c39f561e1ad2dc50d53b72849dcad11b472c15b75",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "6ac2c300e664e2af6ce8f901bb1bf140d68c1bbc77a42ea53a33d56aa21bbb89",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "54a826980160937a3bf5bb016a654a09146bc795c1a91cf0a97694f86620528e",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "bb92d6ebe2da278ac614e561ecbe976789123cf81eb966e0174d2905e8ae7593",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "3eb425e5ea704e6b39fb5cae5cc3194a545865d78fc10869bd12e325b4dbc0c4",
+        "bytes": 486,
+        "rows": 12
+      },
+      {
+        "sha256": "afe8d08d061f42567342f871f1e7085137978081b746a42cb7ac3d7b6dd1b1b3",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "b2096d6e0fdc00df1a5cd4ed7c53288366264f5249fd3cfbce83d0a4e45b5ab5",
+        "bytes": 482,
+        "rows": 12
+      },
+      {
+        "sha256": "ddbde7b5956e529cac227b9bc75811ae88d76b0fd3f60568dd20ef2a344ac2ef",
+        "bytes": 487,
+        "rows": 12
+      },
+      {
+        "sha256": "1b897c478dfa794954a31282e8d1b69f495c68cd9c82eedd48c172f295161991",
+        "bytes": 487,
+        "rows": 12
+      }
+    ]
+  },
+  "existing_independent_raw_retrain_result_bytes_equal": true,
+  "source_receipts_original_byte_sha256": {
+    "main_train": "984243ef89ba9433a618a6c4fb4644c1637305981bbfa9b5bbcc22180771cc65",
+    "clean_train": "984243ef89ba9433a618a6c4fb4644c1637305981bbfa9b5bbcc22180771cc65",
+    "main_counts": "96c7b4e098c8983c9f284e97b67e598df17dd41e023ed580906a7d9059efd66f",
+    "clean_counts": "8407e5f0efdf59110e214bfb6cfd5fc32aab8c458deeb1f80b8b88cac85d0b60",
+    "main_result_lint": "eaf0608c5bb9fce46629a295f19c7a4ade380376987310d3bac56d0c918231f0",
+    "clean_result_lint": "eaf0608c5bb9fce46629a295f19c7a4ade380376987310d3bac56d0c918231f0"
+  },
+  "latest_interface_members_match": true,
+  "latest_interface_exact_ZIP_inference_result_equal": true,
+  "algorithm_private_policy_model_result_unchanged_by_interface": true,
+  "syntax_check_latest_ZIP": [
+    {
+      "path": "config_interface.py",
+      "sha256": "f68479589fdc422a829519b8d6c5fc492e3128c31453848b029b56a23b2b9262",
+      "syntax": "PASS"
+    },
+    {
+      "path": "predict.py",
+      "sha256": "93d58726d127fbd9d8c814fe5de097fb54486c6b0721ca62169a3a29aaf76efc",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/core.py",
+      "sha256": "4a8c230e4eb626cfaa60bb34a3387d383579f48e0d130818de99917c4ad50a1c",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/csv_projection.py",
+      "sha256": "6979f0366b729a8ed32396569aa2a7837d4d409301dbfb09632267a338937c0c",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/cv035.py",
+      "sha256": "fbe904440cbb0fa02141fa6ed99aa58df15af34c297012372d7e17954fd05e3e",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/evaluate.py",
+      "sha256": "9bab77411897a3194523f0d5ab419ab780211afe3fda89a43d433cf143a0e118",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/guard035.py",
+      "sha256": "c1864f63eaf005d7c100d2c568bde3fbe5a4399c0cc1ff5f045115a7890df5a6",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/ledger035.py",
+      "sha256": "a3e3de0cc36642601ae8c75d968584281eef8dbd1787d687cb14662099fb5f33",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/models035.py",
+      "sha256": "e487e6004dfbcedec191b35fcff2a24f5cb442748255009a7d28d0edb6f44fec",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/predict.py",
+      "sha256": "8b48a0e1fef96eb20dfe19cf4d604bfb23382a7de350b02dd859fc6680571d6c",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/src/oil_uplift/__init__.py",
+      "sha256": "b14e51df20e0d8c8e2abc3646d6cac8e26e015a797f3fa5138fb1f2c20bde30c",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/src/oil_uplift/a2b013_safe.py",
+      "sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/src/oil_uplift/config.py",
+      "sha256": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/src/oil_uplift/exceptions.py",
+      "sha256": "2b3aef27c352bad4558d98ca964d21f4881468e6a63c4bc3ff7bc919a7ad26c9",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/src/oil_uplift/io.py",
+      "sha256": "cf788f19399b7a867260a5a4f84bb630735a639410fc17092244ebcb9bcd18c3",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/src/oil_uplift/models.py",
+      "sha256": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/src/oil_uplift/multistep.py",
+      "sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/src/oil_uplift/scoring.py",
+      "sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/src/oil_uplift/submission.py",
+      "sha256": "d39b25ce75b452a9bf7dcb439aa1a68bdc3bbb822b9e9a2f56cd0565f1502612",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/src/oil_uplift/training.py",
+      "sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/synthetic_checks.py",
+      "sha256": "e74739bce4e87d0eee94f7d2547f1b785f12265dbc00c66ad17286d5b1a3dbff",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/base/train.py",
+      "sha256": "3a469299d8779e80ab014d483618204ed266e8cf6ab030df96c833ffd34728c7",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/r14.py",
+      "sha256": "244a87bc086a22098594f285fd6ec9d9f3eefbdef97583fc9051833bc998e8ac",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/routes15.py",
+      "sha256": "069ad760db0bdcbd46eff2d4d7d6729fc8d9401b8e7494d590410d43288b465a",
+      "syntax": "PASS"
+    },
+    {
+      "path": "source/w_entry.py",
+      "sha256": "b0a59b20e69990686843df6635ba8575fdab08181bf4024d1e866cdb607d2524",
+      "syntax": "PASS"
+    },
+    {
+      "path": "train.py",
+      "sha256": "49cb8ca03d49863851af694257e017daa400e25dbdc4a6e9ff2fdebe20baeb77",
+      "syntax": "PASS"
+    }
+  ],
+  "model_fits_for_this_receipt": 0,
+  "preprocessor_fits_for_this_receipt": 0,
+  "user_manual_upload_authorized_by_R16": true,
+  "platform_uploaded": false,
+  "does_not_self_close_Codex_issue": "A035-R15-02"
+}

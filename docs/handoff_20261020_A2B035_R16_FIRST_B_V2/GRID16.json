@@ -1,0 +1,662 @@
+{
+  "variants": [
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "CTRL_NATIVE_B0",
+        "cutoff": "M_minus_1",
+        "learner": "ExtraTrees",
+        "params": {},
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "CTRL_NATIVE_B0P",
+        "cutoff": "T0_minus_1",
+        "learner": "ExtraTrees",
+        "params": {},
+        "W": false
+      }
+    },
+    {
+      "environment": "TAB",
+      "config": {
+        "variant": "CTRL_TAB_B0",
+        "cutoff": "M_minus_1",
+        "learner": "ExtraTrees",
+        "params": {},
+        "W": false
+      }
+    },
+    {
+      "environment": "TAB",
+      "config": {
+        "variant": "CTRL_TAB_B0P",
+        "cutoff": "T0_minus_1",
+        "learner": "ExtraTrees",
+        "params": {},
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n7_m10_t300_U",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n7_m10_t300_W",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n7_m10_t600_U",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n7_m10_t600_W",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n7_m20_t300_U",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n7_m20_t300_W",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n7_m20_t600_U",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n7_m20_t600_W",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n15_m10_t300_U",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n15_m10_t300_W",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n15_m10_t600_U",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n15_m10_t600_W",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n15_m20_t300_U",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n15_m20_t300_W",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n15_m20_t600_U",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0_n15_m20_t600_W",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "CAT_B0_d4_U",
+        "cutoff": "M_minus_1",
+        "learner": "CatBoost",
+        "params": {
+          "depth": 4,
+          "iterations": 800,
+          "learning_rate": 0.05
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "CAT_B0_d4_W",
+        "cutoff": "M_minus_1",
+        "learner": "CatBoost",
+        "params": {
+          "depth": 4,
+          "iterations": 800,
+          "learning_rate": 0.05
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "CAT_B0_d6_U",
+        "cutoff": "M_minus_1",
+        "learner": "CatBoost",
+        "params": {
+          "depth": 6,
+          "iterations": 800,
+          "learning_rate": 0.05
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "CAT_B0_d6_W",
+        "cutoff": "M_minus_1",
+        "learner": "CatBoost",
+        "params": {
+          "depth": 6,
+          "iterations": 800,
+          "learning_rate": 0.05
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "TAB",
+      "config": {
+        "variant": "TAB_B0_U",
+        "cutoff": "M_minus_1",
+        "learner": "TabPFN",
+        "params": {},
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n7_m10_t300_U",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n7_m10_t300_W",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n7_m10_t600_U",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n7_m10_t600_W",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n7_m20_t300_U",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n7_m20_t300_W",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n7_m20_t600_U",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n7_m20_t600_W",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n15_m10_t300_U",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n15_m10_t300_W",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n15_m10_t600_U",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n15_m10_t600_W",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n15_m20_t300_U",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n15_m20_t300_W",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n15_m20_t600_U",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "LGB_B0P_n15_m20_t600_W",
+        "cutoff": "T0_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 15,
+          "min_data_in_leaf": 20,
+          "learning_rate": 0.05,
+          "n_estimators": 600
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "CAT_B0P_d4_U",
+        "cutoff": "T0_minus_1",
+        "learner": "CatBoost",
+        "params": {
+          "depth": 4,
+          "iterations": 800,
+          "learning_rate": 0.05
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "CAT_B0P_d4_W",
+        "cutoff": "T0_minus_1",
+        "learner": "CatBoost",
+        "params": {
+          "depth": 4,
+          "iterations": 800,
+          "learning_rate": 0.05
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "CAT_B0P_d6_U",
+        "cutoff": "T0_minus_1",
+        "learner": "CatBoost",
+        "params": {
+          "depth": 6,
+          "iterations": 800,
+          "learning_rate": 0.05
+        },
+        "W": false
+      }
+    },
+    {
+      "environment": "NATIVE",
+      "config": {
+        "variant": "CAT_B0P_d6_W",
+        "cutoff": "T0_minus_1",
+        "learner": "CatBoost",
+        "params": {
+          "depth": 6,
+          "iterations": 800,
+          "learning_rate": 0.05
+        },
+        "W": true
+      }
+    },
+    {
+      "environment": "TAB",
+      "config": {
+        "variant": "TAB_B0P_U",
+        "cutoff": "T0_minus_1",
+        "learner": "TabPFN",
+        "params": {},
+        "W": false
+      }
+    }
+  ],
+  "TabPFN_W": {
+    "status": "NOT_SUPPORTED",
+    "evidence": "tabpfn2.2.1 TabPFNRegressor.fit(self,X,y); sample_weight is absent",
+    "replacement_resampling_or_parameter_change": false,
+    "two_requested_W_combinations_unexecuted": true
+  }
+}
