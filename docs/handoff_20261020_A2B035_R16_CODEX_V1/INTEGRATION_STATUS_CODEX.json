@@ -1,0 +1,37 @@
+{
+  "task": "R16 actual competition integration incremental status",
+  "role": "账户A2（Codex）独立审核与交付",
+  "reviews_commit": "12a197b396f80bb83e3a4ab18c8a45509b128026",
+  "source_lock_sha256": "9842a7c64f9e6d6969c462fd1e3d4a1498aece464b7e43f2d1d3fd912809b9df",
+  "LightGBM": {
+    "version": "4.6.0",
+    "can_search": true,
+    "can_use_reviewed_path_for_complete_R13_version_upload": true,
+    "integration_receipt_commit": "6ab552ef1cb007b13f0bc350957b7b82037f1348",
+    "actual_B_first_fold_independence": "PASS single/batch/reverse/extra",
+    "both_cutoffs_synthetic_window_mutation": "PASS 54 nonkey-column/cutoff cases",
+    "license": "MIT inherited from independently reviewed R15 official source"
+  },
+  "CatBoost": {
+    "version": "1.2.8",
+    "can_search": true,
+    "can_use_reviewed_path_for_complete_R13_version_upload": true,
+    "integration_receipt_commit": "6ab552ef1cb007b13f0bc350957b7b82037f1348",
+    "actual_B_first_fold_independence": "PASS single/batch/reverse/extra",
+    "both_cutoffs_synthetic_window_mutation": "PASS 54 nonkey-column/cutoff cases",
+    "license": "Apache-2.0 inherited from independently reviewed R15 official source"
+  },
+  "native_environment_sha256": "8157dd8a3303dbab15e9db6c2d8b020ed49e5e835e8c93271063be9de91e1344",
+  "TabPFN": {
+    "Codex_competition_integration_approved": false,
+    "can_upload": false,
+    "may_continue_under_user_R16_authorization_until_deadline": true,
+    "deadline": "2026-10-22T24:00:00+08:00",
+    "missing": "completed actual first validation/integration receipt and same-Tab-environment complete controls",
+    "W": "NOT_SUPPORTED; no substitute",
+    "cache_or_native_multiquery": "NOT_ENABLED"
+  },
+  "no_per_variant_statistical_audit_added": true,
+  "not_final_package_designation": true,
+  "A_native_ML_fits": 0
+}

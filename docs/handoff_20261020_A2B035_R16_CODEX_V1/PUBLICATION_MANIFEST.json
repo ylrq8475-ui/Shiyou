@@ -1,0 +1,17 @@
+{
+  "files": {
+    "INTEGRATION_STATUS_CODEX.json": {
+      "sha256": "4067589a74297dbdfb769065a8a8f021526ca01e8539ad7f9501656b01a5c234",
+      "bytes": 1859
+    },
+    "PRIVACY_REVIEW.json": {
+      "sha256": "b8ac7d25674796c38328abe02586ee9c928af2ef4ba9a17b264b16d6d37c147a",
+      "bytes": 886
+    },
+    "RESULT_CODEX.json": {
+      "sha256": "02b5723a074bed65c7ce299b59fbeddd164d1089889309e8de99902a954dccc1",
+      "bytes": 6870
+    }
+  },
+  "self_binding": "Git object, no self-reference"
+}
