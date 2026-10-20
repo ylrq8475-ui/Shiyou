@@ -1068,6 +1068,71 @@
         "R17用户已指令停止其他搜索（含TabPFN）；下一批仅F70/F50及B0审核二；历史dtype例外继承"
       ],
       "published_at": "2026-10-20T19:19:58.900916+08:00"
+    },
+    {
+      "task": "A2B-035/R17 B0实际上传包提前审核二材料",
+      "role": "B",
+      "commit": "bc6963756f1feaf16154e9edacc96e648c74e63a",
+      "report_path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/RESULT_B0_AUDITII17.json",
+      "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb",
+      "reviews_commit": "不适用；Codex只负责其独立审核部分，B不代签",
+      "hard_gates": "B执行/原源码继承/合成/真实从头复现/linter范围通过；B0审核二或融合新包可上传结论待Codex",
+      "decision_row": "仅Codex填写；不自动指定或上传",
+      "key_numbers": {
+        "user_reported_A": 86.2003,
+        "repeated_CV_mean": 72.47647400484871,
+        "S_v_on_user_report": 79.33838700242435,
+        "new_audit_II_model_fits": 1,
+        "new_audit_II_preprocessor_fits": 1,
+        "reproduction_files": 10,
+        "reproduction_rows": 120,
+        "ZIP_byte_identity": true,
+        "platform_uploads_by_B": 0
+      },
+      "open_unknowns": [
+        "B0审核二“可指定”及F70/F50“可上传”由各自Codex结论决定",
+        "平台编号/时间/状态UNKNOWN；F70/F50尚无平台分数和S_v",
+        "历史dtype P1沿用用户例外，不回填",
+        "所有其他搜索含Tab已停，旧R16 heartbeat已暂停"
+      ],
+      "published_at": "2026-10-20T20:39:51.776480+08:00"
+    },
+    {
+      "task": "A2B-035/R17 F70/F50固定两档融合完整包与CV",
+      "role": "B",
+      "commit": "742e573cac082cc6921f46255e07c566439360e4",
+      "report_path": "docs/handoff_20261020_A2B035_R17_FIXED_FUSIONS_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261020_A2B035_R17_FIXED_FUSIONS_B_V1/RESULT_FIXED_FUSIONS17.json",
+      "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb",
+      "reviews_commit": "不适用；Codex只负责其独立审核部分，B不代签",
+      "hard_gates": "B执行/原源码继承/合成/真实从头复现/linter范围通过；B0审核二或融合新包可上传结论待Codex",
+      "decision_row": "仅Codex填写；不自动指定或上传",
+      "key_numbers": {
+        "CV_models": 60,
+        "CV_top_level_preprocessors": 60,
+        "main_full_pair_models": 2,
+        "independent_clean_full_models": 4,
+        "B0_audit_II_new_models": 1,
+        "R17_total_models": 67,
+        "R17_total_top_level_preprocessors": 67,
+        "fixed_F70": 75.37953967731957,
+        "fixed_F50": 76.0350013572086,
+        "repeated_mean_F70": 74.18091108778239,
+        "repeated_mean_F50": 74.83912910856934,
+        "SE_F70": 0.04617526903001291,
+        "SE_F50": 0.032704263188488326,
+        "complete_private_fusion_versions": 2,
+        "fit_failures": 0,
+        "B_platform_uploads": 0
+      },
+      "open_unknowns": [
+        "B0审核二“可指定”及F70/F50“可上传”由各自Codex结论决定",
+        "平台编号/时间/状态UNKNOWN；F70/F50尚无平台分数和S_v",
+        "历史dtype P1沿用用户例外，不回填",
+        "所有其他搜索含Tab已停，旧R16 heartbeat已暂停"
+      ],
+      "published_at": "2026-10-20T20:39:51.860400+08:00"
     }
   ]
 }
