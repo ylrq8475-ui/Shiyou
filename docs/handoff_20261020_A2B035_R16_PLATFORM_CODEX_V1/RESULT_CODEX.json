@@ -1,0 +1,121 @@
+{
+  "task": "A2B-035/R16 platform binding supplement",
+  "role": "账户A2（Codex）独立审核与交付",
+  "reviews_commit": "6ab552ef1cb007b13f0bc350957b7b82037f1348",
+  "prior_Codex_review_commit": "b299828899812d2921e5a1da0ea865bf97b4beb5",
+  "instruction_commit": "441966be673da9083505168077a4d6ac63805e90",
+  "checks": [
+    {
+      "check": "B0:reported_vs_fixed_B:result_zip_sha256",
+      "pass": true
+    },
+    {
+      "check": "B0:reported_vs_fixed_B:submission_code_zip_sha256",
+      "pass": true
+    },
+    {
+      "check": "B0:B_result_linter",
+      "pass": true
+    },
+    {
+      "check": "B0_W:reported_vs_fixed_B:result_zip_sha256",
+      "pass": true
+    },
+    {
+      "check": "B0_W:reported_vs_fixed_B:submission_code_zip_sha256",
+      "pass": true
+    },
+    {
+      "check": "B0_W:B_result_linter",
+      "pass": true
+    },
+    {
+      "check": "A_score_delta",
+      "pass": true
+    },
+    {
+      "check": "S_v_delta_identity",
+      "pass": true
+    },
+    {
+      "check": "R16_B0_numerical_condition",
+      "pass": true
+    },
+    {
+      "check": "complete_version_rank",
+      "pass": true
+    },
+    {
+      "check": "unknown_metadata_preserved",
+      "pass": true
+    }
+  ],
+  "all_checks_pass": true,
+  "ledger": [
+    {
+      "result_filename": "result3.zip",
+      "code_filename": "submission_code3.zip",
+      "result_zip_sha256": "2b4f57169d653d0ca5fc994d2822f6e167e72c5696a1220f83f7c1eaac4a1df1",
+      "submission_code_zip_sha256": "a75ce0e1820001ef2e854a0cee6540a04caa5b1ecadec3d3c433f30ab42e420a",
+      "platform_score": "86.2003",
+      "version": "B0",
+      "platform_submission_id": "UNKNOWN",
+      "platform_submission_time": "UNKNOWN",
+      "platform_status": "UNKNOWN",
+      "package_hash_verifier": "Claude, according to current user-forwarded account",
+      "platform_score_source": "current user report, bound by explicit user description to the provided actual-uploaded package",
+      "A_independently_read_actual_uploaded_ZIPs": false,
+      "A_independently_queried_platform": false,
+      "B_repeated_CV_mean": "72.47647400484871",
+      "S_v_from_user_report": "79.338387002424355",
+      "B_receipt_commit": "6ab552ef1cb007b13f0bc350957b7b82037f1348",
+      "B_repeated_CV_commit": "42a5c66406f56af86520c3d65eb71d1fbb616fea"
+    },
+    {
+      "result_filename": "result4.zip",
+      "code_filename": "submission_code4.zip",
+      "result_zip_sha256": "5bc472e9a3e709ea8076e54ef684d074315967c4291cfd7f3ab74cd959ba2e3f",
+      "submission_code_zip_sha256": "b267b82cdecb6f44a78862bfadea2d813ef41d32f0ec2c0016bde86e811ae0ae",
+      "platform_score": "80.8854",
+      "version": "B0_W",
+      "platform_submission_id": "UNKNOWN",
+      "platform_submission_time": "UNKNOWN",
+      "platform_status": "UNKNOWN",
+      "package_hash_verifier": "Claude, according to current user-forwarded account",
+      "platform_score_source": "current user report, bound by explicit user description to the provided actual-uploaded package",
+      "A_independently_read_actual_uploaded_ZIPs": false,
+      "A_independently_queried_platform": false,
+      "B_repeated_CV_mean": "72.6793269415761",
+      "S_v_from_user_report": "76.78236347078805",
+      "B_receipt_commit": "6ab552ef1cb007b13f0bc350957b7b82037f1348",
+      "B_repeated_CV_commit": "42a5c66406f56af86520c3d65eb71d1fbb616fea"
+    }
+  ],
+  "deltas_W_minus_B0": {
+    "A_score": "-5.3149",
+    "repeated_CV": "0.20285293672739",
+    "S_v_from_user_report": "-2.556023531636305"
+  },
+  "PLATFORM_B0_BINDING": {
+    "status": "CLOSED",
+    "scope": "current R16 actual-uploaded B0 package -> user-reported 86.2003; based on user-forwarded Claude file-hash verification matched to fixed B receipts",
+    "not_proven": [
+      "platform backend row identity/status/time",
+      "byte identity of any earlier historical upload",
+      "organizer semantic interpretation",
+      "generalization to B leaderboard or final designation"
+    ]
+  },
+  "A_actual_model_fits": 0,
+  "A_actual_preprocessor_fits": 0,
+  "A_raw_competition_reads": 0,
+  "A_platform_operations": 0,
+  "B_ledger_directly_modified": false,
+  "final_model_designation": false,
+  "remaining_unknowns": [
+    "platform submission IDs, times and statuses for both rows",
+    "earlier historical actual-uploaded bytes",
+    "test-side error mechanism",
+    "other prior R16 open items unchanged"
+  ]
+}

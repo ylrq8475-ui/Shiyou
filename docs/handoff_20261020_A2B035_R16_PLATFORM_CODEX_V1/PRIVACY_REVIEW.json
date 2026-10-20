@@ -1,0 +1,12 @@
+{
+  "all_pass": true,
+  "records": [
+    {
+      "path": "RESULT_CODEX.json",
+      "sha256": "b928c13ba5403a263a65de1ff700925a26a5ef01f3dc43003cd662a9b9fcbbce",
+      "generic_secret_or_private_path_hits": 0,
+      "origin": "user-forwarded anonymous metadata, existing public aggregate records, or A audit prose/code; no raw values or per-well results"
+    }
+  ],
+  "limits": "no private marker inventory or actual ZIP loaded; public/synthetic lineage and manual no-row review; own metadata bound by Git"
+}
