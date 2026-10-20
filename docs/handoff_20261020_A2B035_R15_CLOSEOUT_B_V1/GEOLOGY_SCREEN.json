@@ -1,0 +1,163 @@
+{
+  "scope": "training wells and same-run fixed B0 OOF only; no G enters model",
+  "residual": "per well mean of log((observed+1e-6)/(prediction+1e-6)) for months1,2",
+  "static_field_source": "R8 E2 class(a), historical availability remains UNKNOWN",
+  "results": [
+    {
+      "field": "effective_thickness_sum",
+      "status": "REPORTED",
+      "valid_training_wells": 81,
+      "spearman": -0.1225185754281597,
+      "tertile_groups": [
+        {
+          "tertile": 1,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.28181152023495637
+        },
+        {
+          "tertile": 2,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.935401898772484
+        },
+        {
+          "tertile": 3,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.21673442253234984
+        }
+      ],
+      "groups_status": "all>=5",
+      "worth_criterion_met": false
+    },
+    {
+      "field": "sandstone_thickness_sum",
+      "status": "REPORTED",
+      "valid_training_wells": 81,
+      "spearman": -0.21104812670528159,
+      "tertile_groups": [
+        {
+          "tertile": 1,
+          "wells": 27,
+          "mean_log_ratio_residual": 0.1417851249232405
+        },
+        {
+          "tertile": 2,
+          "wells": 27,
+          "mean_log_ratio_residual": -1.1388801798740706
+        },
+        {
+          "tertile": 3,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.43685278658895993
+        }
+      ],
+      "groups_status": "all>=5",
+      "worth_criterion_met": false
+    },
+    {
+      "field": "permeability_mean",
+      "status": "REPORTED",
+      "valid_training_wells": 81,
+      "spearman": 0.0008581752484191509,
+      "tertile_groups": [
+        {
+          "tertile": 1,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.7248512048625331
+        },
+        {
+          "tertile": 2,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.456962966088307
+        },
+        {
+          "tertile": 3,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.25213367058895036
+        }
+      ],
+      "groups_status": "all>=5",
+      "worth_criterion_met": false
+    },
+    {
+      "field": "porosity_mean",
+      "status": "REPORTED",
+      "valid_training_wells": 81,
+      "spearman": 0.029561878952122853,
+      "tertile_groups": [
+        {
+          "tertile": 1,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.8267050420781339
+        },
+        {
+          "tertile": 2,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.15552643484746953
+        },
+        {
+          "tertile": 3,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.45171636461418685
+        }
+      ],
+      "groups_status": "all>=5",
+      "worth_criterion_met": false
+    },
+    {
+      "field": "original_oil_saturation_mean",
+      "status": "REPORTED",
+      "valid_training_wells": 81,
+      "spearman": 0.08626919602529358,
+      "tertile_groups": [
+        {
+          "tertile": 1,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.8374920044054941
+        },
+        {
+          "tertile": 2,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.4872641935966399
+        },
+        {
+          "tertile": 3,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.10919164353765616
+        }
+      ],
+      "groups_status": "all>=5",
+      "worth_criterion_met": false
+    },
+    {
+      "field": "kh_sum",
+      "status": "REPORTED",
+      "valid_training_wells": 81,
+      "spearman": -0.05783649503161698,
+      "tertile_groups": [
+        {
+          "tertile": 1,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.5808884538616221
+        },
+        {
+          "tertile": 2,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.848781173200138
+        },
+        {
+          "tertile": 3,
+          "wells": 27,
+          "mean_log_ratio_residual": -0.004278214478030266
+        }
+      ],
+      "groups_status": "all>=5",
+      "worth_criterion_met": false
+    }
+  ],
+  "decision": "不再投入",
+  "decision_rule": "abs(Spearman)>=0.2 for kh or effective thickness",
+  "nontraining_layer_rows_dynamic_values_decoded": 0,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "G_model_enabled": false
+}

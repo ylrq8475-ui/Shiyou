@@ -1,0 +1,15 @@
+{
+  "training_wells": 81,
+  "wells_with_comparable_legal_adjacent_pairs": 81,
+  "inconsistent_wells": 81,
+  "decreasing_cumulative_wells": 0,
+  "insufficient_wells": 0,
+  "legal_adjacent_pairs": 2699,
+  "tolerance": "absolute0.05 + relative1e-6 times max absolute adjacent cumulative/current monthly",
+  "LJCYL_enabled_for_HX": false,
+  "decision": "include only if >=65 comparable wells, no inconsistent/decreasing wells; otherwise disable conservatively",
+  "future_or_test_values_used": false,
+  "interpretation": "inconsistency is a provenance/definition warning; not alone proof of future leakage",
+  "model_fits": 0,
+  "preprocessor_fits": 0
+}

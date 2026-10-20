@@ -1,0 +1,28 @@
+{
+  "scope": "training-only supplementary zero-fit audit, not a new candidate or threshold change",
+  "wells": 81,
+  "official_dictionary_units": {
+    "LJCYL": "t",
+    "YCYL": "t"
+  },
+  "source_dictionary": "FIELD_DICTIONARY.json @ c30d44f7a61bff9afe4e1e6820f69821636f6700",
+  "legal_history_static_cumulative_wells": 6,
+  "whole_training_history_static_cumulative_wells": 0,
+  "comparable_adjacent_pairs": 2699,
+  "same_month_YCYL_delta_agreement_pairs": 82,
+  "previous_month_YCYL_delta_agreement_pairs": 72,
+  "within_well_current_month_agreement_fraction_bins": {
+    "none": 58,
+    "below_half": 23,
+    "half_to_90pct": 0,
+    "90pct_to_below_all": 0,
+    "all": 0
+  },
+  "LJCYL_remains_disabled": true,
+  "candidate_retrained": false,
+  "interpretation": "counts describe a source/definition mismatch; no claim of verified future provenance or universal feature uselessness; original strict prereg exclusion unchanged",
+  "test_data_read": false,
+  "NCYL_used": false,
+  "model_fits": 0,
+  "preprocessor_fits": 0
+}

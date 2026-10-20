@@ -1,0 +1,30 @@
+{
+  "versions": [
+    {
+      "version": "B0",
+      "models_sha256": "9d74de91129abf36334d080e388fa98a7f5b5d2999e4f4c43adb4c32eac1ce73",
+      "result_zip_sha256": "2b4f57169d653d0ca5fc994d2822f6e167e72c5696a1220f83f7c1eaac4a1df1",
+      "submission_code_zip_sha256": "a75ce0e1820001ef2e854a0cee6540a04caa5b1ecadec3d3c433f30ab42e420a",
+      "code_bytes": 2479466,
+      "code_under5GB": true,
+      "exact_ZIP_inference_result_bytes_equal": true,
+      "invalid_config_rejects_before_train": true,
+      "models_result_private_policy_algorithm_sources_unchanged": true,
+      "upload_eligible": false
+    },
+    {
+      "version": "B0_W",
+      "models_sha256": "27fcc67c5205eca5097a1f7ace3a1970692d0a5285c142c738a0e6696e671544",
+      "result_zip_sha256": "5bc472e9a3e709ea8076e54ef684d074315967c4291cfd7f3ab74cd959ba2e3f",
+      "submission_code_zip_sha256": "b267b82cdecb6f44a78862bfadea2d813ef41d32f0ec2c0016bde86e811ae0ae",
+      "code_bytes": 2117590,
+      "code_under5GB": true,
+      "exact_ZIP_inference_result_bytes_equal": true,
+      "invalid_config_rejects_before_train": true,
+      "models_result_private_policy_algorithm_sources_unchanged": true,
+      "upload_eligible": false
+    }
+  ],
+  "weights_and_result_archives_not_uploaded": true,
+  "all_upload_eligible": false
+}

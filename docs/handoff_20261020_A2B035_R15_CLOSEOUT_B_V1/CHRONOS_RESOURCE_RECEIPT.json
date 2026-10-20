@@ -1,0 +1,33 @@
+{
+  "model": "amazon/chronos-2",
+  "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+  "package": "chronos-forecasting2.3.2",
+  "license": "Apache-2.0",
+  "license_sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+  "files": [
+    {
+      "path": "config.json",
+      "bytes": 1067,
+      "actual_sha256": "ef1143bfdc9c0376d9a056eefca46cb4b1ec3d0ffacd541ff56feb40fb708031",
+      "expected_LFS_sha256": null,
+      "official_LFS_match": null
+    },
+    {
+      "path": "README.md",
+      "bytes": 7773,
+      "actual_sha256": "c7b29bc88f5bc3ebc6e7213b6353be80090d671fefa4aa74ed20498838c16558",
+      "expected_LFS_sha256": null,
+      "official_LFS_match": null
+    },
+    {
+      "path": "model.safetensors",
+      "bytes": 477930472,
+      "actual_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42",
+      "expected_LFS_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42",
+      "official_LFS_match": true
+    }
+  ],
+  "seconds": 589.9401150000049,
+  "weights_publish": false,
+  "competition_data_read": false
+}
