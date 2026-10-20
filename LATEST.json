@@ -657,6 +657,24 @@
         "FINAL-035 P3 未穷尽全部模型交互；最终版本选择、截止前干净复现和Codex第二次审核/用户指定尚未完成"
       ],
       "published_at": "2026-10-19T19:32:14.005897+08:00"
+    },
+    {
+      "task": "A2B-035/首批搜索与2026-10-20平台降分路线审核",
+      "role": "Codex",
+      "commit": "f9831ac8211ab798abaee1cb2a878e2ca30d2e94",
+      "report_path": "docs/handoff_20261020_A2B035_SCORE_ROUTE_CODEX_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261020_A2B035_SCORE_ROUTE_CODEX_V1/RESULT_CODEX.json",
+      "reviews_commit": "6601551152ce4b21d8447fef6ad455e1277023e4",
+      "instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+      "hard_gates": "继承已审内部管线；本批公开源码/聚合/身份核对通过，未发现新增违规；A拟合0；非最终包指定审核",
+      "decision_row": "R13内部搜索授权保持；截图79.4717→79.3643，下降0.1074；本地最佳重复增益+0.076543。若绑定对应包，综合分下降0.015429；不据此最终指定。建议转向误差预算与互补学习器。",
+      "open_unknowns": [
+        "实际上传包绑定UNKNOWN；历史86.2003单独保留",
+        "选择乐观性大小与测试侧降分机制UNKNOWN",
+        "多样性拒绝聚合未保存P2",
+        "外部/G原准入限制、历史dtype例外继承"
+      ],
+      "published_at": "2026-10-20T10:36:57.923639+08:00"
     }
   ]
 }
