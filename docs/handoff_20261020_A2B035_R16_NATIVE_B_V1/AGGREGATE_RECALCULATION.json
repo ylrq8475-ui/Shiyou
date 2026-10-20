@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": 1848,
+  "records": 42,
+  "six_split_sets_each": 6,
+  "validation_wells_each_set": 81,
+  "all_zero_overlap": true,
+  "OOF_recomputed_from_aggregate_fold_scores_and_support": true,
+  "score_and_weighted_loss_formula_identity": true,
+  "repeat_mean_and_SE_independently_recalculated": true,
+  "scope": "aggregate arithmetic only, not independent model rerun",
+  "model_fits": 0,
+  "preprocessor_fits": 0
+}

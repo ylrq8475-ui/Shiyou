@@ -1,0 +1,231 @@
+{
+  "task": "A2B-035/R16随训交付",
+  "role": "账户B执行与交付",
+  "published_files": 15,
+  "scan_records": 15,
+  "marker_counts": {
+    "well": 98,
+    "date": 78,
+    "month": 78,
+    "candidate": 2
+  },
+  "test_CSVs_parsed": 0,
+  "model_fits_by_scanner": 0,
+  "preprocessor_fits_by_scanner": 0,
+  "all_pass": true,
+  "exemptions": 0,
+  "records": [
+    {
+      "record_id": "A035-PRIVACY-001",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/AGGREGATE_RECALCULATION.json",
+      "sha256": "082179a382c57e4504d47661d551a2d4c26352289c962202867538f1a7270467",
+      "bytes": 437,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-002",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/ALL_NATIVE_RESULTS.json",
+      "sha256": "847c4b78d9859a3104dba830f3bec83f5f8a476839d627adc983cfcb2cc4e1fe",
+      "bytes": 2733577,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-003",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/ENVIRONMENT_NATIVE.json",
+      "sha256": "c87d9b172e87db8dc8499f3c49bc958d8b04f31c6fc789270e60ecde260ead2c",
+      "bytes": 988,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-004",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/INTEGRITY_NATIVE.json",
+      "sha256": "82889d5cc8e1a898a42dc35d6f6533df87888e6905176411804e6db124c97ce5",
+      "bytes": 328,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-005",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/MODEL_COMPARISON_ALL.json",
+      "sha256": "3359ddfad0a19463a4aacb45fc13711212b47b1b6f8a790a3b2ae1b3036ea87a",
+      "bytes": 28823,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-006",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/NATIVE_FIT_EVENTS.json",
+      "sha256": "b816909491d04130ca4249e9cce1207dc9eeb2edd40458f1657fe48fc2cd404c",
+      "bytes": 956236,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-007",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "d9cc0a490c8c523b2623b0466505297d372ca46ed446c3bc8e994929d62e23cb",
+      "bytes": 2387,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-008",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": null,
+      "bytes": null,
+      "binding": "final serialization scanned, SHA manifest or external Git receipt binds exact bytes",
+      "result": "PASS",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0
+    },
+    {
+      "record_id": "A035-PRIVACY-009",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/README.md",
+      "sha256": "74ee17482d42c6710f712bb270206f114aab68312018f38a9ecfc79ebec7dc27",
+      "bytes": 251,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-010",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/REPORT_B.md",
+      "sha256": "aeea1f1c961ae9ce96fa6f9d8c2ec6805eec89823cc63e0f4db9c8e71c779b15",
+      "bytes": 7489,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-011",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/REQUEST_CODEX_INCREMENT_REVIEW.md",
+      "sha256": "b913a0828c20a265bc924408abe64d75baba4babaa7960a34578dc8bf72eac82",
+      "bytes": 490,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-012",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/RESULT_NATIVE16.json",
+      "sha256": "4f5e3d33f07d75bbab204252d335befa3380ea9e740555727f265d3c3e1e828d",
+      "bytes": 30575,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-013",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/SCHEDULING_REPAIR.json",
+      "sha256": "68108f18daa6c43412372b7c8b0b452cfe8e8c434966efb21511492da3affcf9",
+      "bytes": 1456,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-014",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/SHA256SUMS.json",
+      "sha256": null,
+      "bytes": null,
+      "binding": "final serialization scanned, SHA manifest or external Git receipt binds exact bytes",
+      "result": "PASS",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0
+    },
+    {
+      "record_id": "A035-PRIVACY-015",
+      "path": "docs/handoff_20261020_A2B035_R16_NATIVE_B_V1/SOURCE_AND_REPRODUCTION.md",
+      "sha256": "bbf159756d9d655032510459042b302c287bbcbad638e8d4f5a97bedbe6fc941",
+      "bytes": 664,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    }
+  ]
+}

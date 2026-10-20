@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "actual_R16_lock_files": 48,
+  "R16_sources_original_bytes_unchanged": true,
+  "R15_research_lock_files": 53,
+  "R15_sources_unchanged": true,
+  "four_delivered_formal_ZIPs_unchanged": true,
+  "raw_data_copy_or_extract": false,
+  "platform_uploads": 0,
+  "model_or_preprocessor_fits_for_this_check": 0
+}
