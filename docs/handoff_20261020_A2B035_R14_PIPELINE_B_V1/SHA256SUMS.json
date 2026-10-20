@@ -1,0 +1,106 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/ENVIRONMENT_ACTUAL.json",
+      "sha256": "a93a499b212ff00f93a161a3b064c77fc74f310bef53394531a108abc9df3726",
+      "bytes": 899
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/EXTERNAL_ADMISSION_EVIDENCE.json",
+      "sha256": "7f42fcd13e1c7bd9273b0b95f426aada760ffe25378d17cea84b85837aeee901",
+      "bytes": 2855
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/EXTERNAL_SYNTHETIC_FITS.json",
+      "sha256": "c4e1b019af2dbf514a99f83372685959beb4425bb6ef282a8d9004b5bdf5726e",
+      "bytes": 194
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/FIT_ACCOUNTING.json",
+      "sha256": "d4bebcde0c50664938b2a2096a0a3c5f8b712940efed3e9cac2d1dcddf883367",
+      "bytes": 350
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/INCREMENT_LOCK.json",
+      "sha256": "81d77e8147910352ee29c68d46911a6d00026ff051e325b81624234af6de461a",
+      "bytes": 5088
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/PACKAGED_RETEST.json",
+      "sha256": "6cd9830a7bd0bdf0f0f258437fbf7471f812964fe820ff738e4e218bc88a22cf",
+      "bytes": 414
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/PLAN_R14.json",
+      "sha256": "851374b36489ce301591d719dba0a3803214687bc60c406f98b984d5e7ecbcfc",
+      "bytes": 3173
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/PREFLIGHT_R14.json",
+      "sha256": "c9b624a89d4780a1afedd37723c3e933d090f7d154ad56a3b31eaece1f99c3b6",
+      "bytes": 8495
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/PRE_FIT_DEBUG_RECORD.json",
+      "sha256": "0adf5d086da2766c209e08aadfd98f4992cc29450e83e549fd1abe1490338d69",
+      "bytes": 589
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "818db5c2a407120b4eee558d3208162f9578219fd0d3026271dc366cebd9e208",
+      "bytes": 3153
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": "cc6960864be69c637e3700e3444252ce5dcb6cf0780e34f531aab151b8007bc6",
+      "bytes": 19102
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/R14_INCREMENT_REVIEW_ANONYMOUS.zip",
+      "sha256": "35e73009db74188bcfcbaf01c682b8814b36cf3a4a56daccdb9801b448e4eea5",
+      "bytes": 111406
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/R14_INSTRUCTION_ORIGINAL.md",
+      "sha256": "d7f45e8e0a3c3f2882af76f064f840638a5ce8f6998df75bed2c048ae29ee396",
+      "bytes": 5712
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/README.md",
+      "sha256": "955f65e3f08b76e8598f3a0e8140cda53c09f326deabcfb6c3da01eff2dd7320",
+      "bytes": 1775
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/RECEIVED_IDENTITY.json",
+      "sha256": "61b3041b9b6145a17fbeef23d2df1c82ca839f4d5aa4eb72817a355ebe345d89",
+      "bytes": 4391
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/REPORT_B.md",
+      "sha256": "7fe20ca70c25b9614a32f7b3672a8e7ec90a6b2711881f16b92c5186a916bbd1",
+      "bytes": 8027
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/REQUEST_CODEX_INCREMENT_REVIEW.md",
+      "sha256": "85264ce3898a30b4afeb5bab0160fde4895273e60155c1315505834ed6be7fdc",
+      "bytes": 1422
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/RESULT_R14_PREPARATION.json",
+      "sha256": "26bef1da34d85991651b623033fdf5e08c58c212b6353125f5162e4b4ed8131e",
+      "bytes": 3274
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/SOURCE_BUNDLE_MANIFEST.json",
+      "sha256": "198d14d2132b55efc70e57c913bc47dc24545ddc1e72aca8ce917283c3dddb27",
+      "bytes": 7486
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/SYNTHETIC_R14.json",
+      "sha256": "28a1a6b30690a9e45def2c82c205f68de45cffa84c8a7ab9dfe70d34bd120a59",
+      "bytes": 1887
+    }
+  ],
+  "self": "bound by Git and external byte receipt; final bytes privacy scanned"
+}

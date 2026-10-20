@@ -1,0 +1,10 @@
+{
+  "models_entered": 0,
+  "models_completed": 0,
+  "preprocessors_entered": 0,
+  "preprocessors_completed": 0,
+  "failures": 0,
+  "retries": 0,
+  "pre_fit_import_failures": 1,
+  "events": []
+}

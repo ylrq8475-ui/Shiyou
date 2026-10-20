@@ -1,0 +1,61 @@
+{
+  "task": "A2B-035/R14",
+  "role": "账户B执行与交付",
+  "R14_instruction_commit": "0f2804776957cefa6c3bab573a403f0cfb86d33e",
+  "R13_instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+  "prior_pipeline_approval_commit": "3001037a7d465117fd8062e5cbc6b2d168575fef",
+  "H_configs": [
+    "configs/H_base325_original.json",
+    "configs/H_base325_first_batch_best.json",
+    "configs/H_base325_M3_original.json",
+    "configs/H_base325_M3_first_batch_best.json",
+    "configs/H_base325_M3_R_original.json",
+    "configs/H_base325_M3_R_first_batch_best.json"
+  ],
+  "H_fit_count": 180,
+  "T_sequence": "after all H, B0prime base and repeat-best H base; specialist parameters inherit each base; horizons1,2 only",
+  "T_base_B0prime_necessary_CV_fits": 30,
+  "T_specialist_fit_count": 60,
+  "planned_search_model_and_preprocessor_fits_each": 270,
+  "diagnostic_extra_fits": 0,
+  "B0_standalone_rebuild_and_upload": "DEFERRED_FORBIDDEN",
+  "fixed_and_repeat_split_policy": {
+    "fixed": {
+      "method": "GroupKFold",
+      "n_splits": 5,
+      "shuffle": false
+    },
+    "repeated": {
+      "method": "GroupKFold",
+      "n_splits": 5,
+      "shuffle": true,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "inner": {
+      "method": "GroupKFold",
+      "n_splits": 5,
+      "shuffle": true,
+      "seed": 20260916
+    }
+  },
+  "H_ranking": "repeat mean descending; repeat SE ascending; fixed score descending; lexical variant",
+  "T_leaf_unit": "month rows; effective train rows128 or130; independent train wells64 or65",
+  "B0prime_retraining_reason": "T base OOF required; old aggregate scores cannot supply predictions; no report-only refit",
+  "B0_error_budget": "UNKNOWN old OOF absent; do not retrain for report",
+  "prior_uploaded_candidate_error_budget": "UNKNOWN old OOF absent; do not retrain for report",
+  "data_scope": "88 train CSV to build original81 cohort; no real test feature reading or distribution analysis during preparation/search",
+  "groups": "legal-history mean finite nonnegative RCYL tertiles from outer-train wells; M ratio <0.5, [0.5,2], >2, missing; operating fraction <0.8/rest/missing; raw chosen scale fallback; publish group only when >=5 validation wells over entire OOF split",
+  "small_groups": "suppress counts/metrics for groups<5; report <5 only; no fold group outputs",
+  "correlation": "Pearson signed row residual prediction minus RCYL, one split at a time; same-well repeats not independent",
+  "equal_blend": "actual arithmetic mean of aligned OOF predictions; compare to each and better member; zero extra fits",
+  "candidate_policy": "daily<=3 complete versions; rank by S_v when actual score+uploaded ZIP binding exists; otherwise repeat mean provisional, no fabricated S_v; retain selection and rejection aggregates",
+  "external_models": "LGB/Cat: R13 scope continues but existing EXT-035 release is false; isolated license/dependency and true adapter tests required before Codex release; no external weights or G enabled",
+  "pretraining_gate": "actual Codex incremental approval bound to INCREMENT_LOCK SHA, cannot self-sign",
+  "platform_uploads_by_B": 0
+}

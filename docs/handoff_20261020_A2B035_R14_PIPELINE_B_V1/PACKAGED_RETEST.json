@@ -1,0 +1,13 @@
+{
+  "anonymous_bundle_sha256": "35e73009db74188bcfcbaf01c682b8814b36cf3a4a56daccdb9801b448e4eea5",
+  "members_original_bytes_verified": 45,
+  "new_extraction_directory": true,
+  "separate_process": true,
+  "same_locked_interpreter": true,
+  "synthetic_cases": 50,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "real_data_read": false,
+  "private_policy_read_only_for_synthetic_schema": true,
+  "status": "PASS"
+}

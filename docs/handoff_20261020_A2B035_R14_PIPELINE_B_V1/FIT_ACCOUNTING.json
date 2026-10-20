@@ -1,0 +1,13 @@
+{
+  "competition_model_fits": 0,
+  "competition_preprocessor_fits": 0,
+  "synthetic_ET_fits": 0,
+  "synthetic_external_model_fits": 0,
+  "synthetic_external_preprocessor_fits": 0,
+  "total_new_model_fits": 0,
+  "total_new_preprocessor_fits": 0,
+  "failed_model_fits": 0,
+  "retries": 0,
+  "spies_are_not_fits": true,
+  "pre_fit_import_failures": 1
+}
