@@ -1,0 +1,111 @@
+{
+  "tab_license": {
+    "url": "https://huggingface.co/Prior-Labs/TabPFN-v2-reg/raw/4972a65a1b30806315c6f92499959ffbfc69a673/LICENSE.txt",
+    "bytes": 11483,
+    "sha256": "08b1851b4b6136b5fb0cb124d3258e0d91e3e1623f1be5904b77e4d270d112d8",
+    "status": "FETCHED"
+  },
+  "tab_tree": {
+    "url": "https://huggingface.co/api/models/Prior-Labs/TabPFN-v2-reg/tree/4972a65a1b30806315c6f92499959ffbfc69a673?recursive=false",
+    "bytes": 2379,
+    "sha256": "a01c606a535b6abb9a7bbe7347dcd241a2d7b9677b73712fc7d44a72f9b7dc96",
+    "status": "FETCHED",
+    "lfs_files": [
+      {
+        "path": "tabpfn-v2-regressor-09gpqh39.ckpt",
+        "lfs": {
+          "oid": "86a5b6832fdaeae3bb50eb2fbc349198b43baa965dcda9ef3b8e10fb809c1551",
+          "size": 44398487,
+          "pointerSize": 133
+        },
+        "size": 44398487
+      },
+      {
+        "path": "tabpfn-v2-regressor-2noar4o2.ckpt",
+        "lfs": {
+          "oid": "e2d4a06eeb4521dee71fc68d819e277ffb97614cc3695dc9ac3030dd9da36c21",
+          "size": 44398487,
+          "pointerSize": 133
+        },
+        "size": 44398487
+      },
+      {
+        "path": "tabpfn-v2-regressor-5wof9ojf.ckpt",
+        "lfs": {
+          "oid": "ed278fb0d67a90de2f686db5c5a1cf46f572fedf1533bbbcb13c8f9d7551091b",
+          "size": 23988347,
+          "pointerSize": 133
+        },
+        "size": 23988347
+      },
+      {
+        "path": "tabpfn-v2-regressor-v2_default.ckpt",
+        "lfs": {
+          "oid": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736",
+          "size": 44390977,
+          "pointerSize": 133
+        },
+        "size": 44390977
+      },
+      {
+        "path": "tabpfn-v2-regressor-wyl4o83o.ckpt",
+        "lfs": {
+          "oid": "3fbafef1701600f9602a1ea6770714f08c439b8e17f8276853439cb60a43b2e8",
+          "size": 23198551,
+          "pointerSize": 133
+        },
+        "size": 23198551
+      },
+      {
+        "path": "tabpfn-v2-regressor.ckpt",
+        "lfs": {
+          "oid": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736",
+          "size": 44390977,
+          "pointerSize": 133
+        },
+        "size": 44390977
+      }
+    ]
+  },
+  "chronos_tree": {
+    "url": "https://huggingface.co/api/models/amazon/chronos-2/tree/29ec3766d36d6f73f0696f85560a422f50e8498c?recursive=false",
+    "bytes": 598,
+    "sha256": "55f43f808ffb851c2b8badbf4c5235aaa85a68a9b0697fc2f4dfc4c7ac905ec8",
+    "status": "FETCHED",
+    "lfs_files": [
+      {
+        "path": "model.safetensors",
+        "lfs": {
+          "oid": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42",
+          "size": 477930472,
+          "pointerSize": 134
+        },
+        "size": 477930472
+      }
+    ]
+  },
+  "chronos_readme": {
+    "url": "https://huggingface.co/amazon/chronos-2/raw/29ec3766d36d6f73f0696f85560a422f50e8498c/README.md",
+    "bytes": 7773,
+    "sha256": "c7b29bc88f5bc3ebc6e7213b6353be80090d671fefa4aa74ed20498838c16558",
+    "status": "FETCHED"
+  },
+  "chronos_license": {
+    "url": "https://raw.githubusercontent.com/amazon-science/chronos-forecasting/main/LICENSE",
+    "bytes": 10142,
+    "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+    "status": "FETCHED"
+  },
+  "lgb_license": {
+    "url": "https://raw.githubusercontent.com/microsoft/LightGBM/v4.6.0/LICENSE",
+    "bytes": 1083,
+    "sha256": "b5cb7ff7859e7d282d98fc43ab081b0dda5dc659dc3385cf65740c759a7e6a6c",
+    "status": "FETCHED"
+  },
+  "cat_license": {
+    "url": "https://raw.githubusercontent.com/catboost/catboost/v1.2.8/LICENSE",
+    "bytes": 11370,
+    "sha256": "8362a19526dda0e75fab0466a4ce4c426f9e84f833bbf18406345643cad00e9d",
+    "status": "FETCHED"
+  }
+}

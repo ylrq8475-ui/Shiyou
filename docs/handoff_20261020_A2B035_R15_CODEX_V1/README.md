@@ -1,0 +1,1 @@
+账户A2 R15增量审核。先读REPORT_CODEX.md，RESULT_CODEX.json为单一结果，RESOURCE_ADMISSION_CODEX.json限定外部研究资源/调用方式。W路径可进入用户手动完整版本评测，B0不上传；最终包指定另审。A实际拟合0。复核资料按first/sources、first/bundle、close/sources、close/bundle取自两个固定B提交；测试需相邻的上一轮A标准库夹具和公开B R14源码（固定链接见报告），不需要赛事数据、模型依赖或权重。附fixture_r14.py为夹具原文，当前脚本按原审计目录结构引用；其他目录运行时只调整资料路径，不改被测函数。无逐候选审批新增。

@@ -1,0 +1,482 @@
+{
+  "reviews_commit": "42a5c66406f56af86520c3d65eb71d1fbb616fea",
+  "also_reviews_commit": "51055b6458f17fc19f46c4b7a03da2f9a7a557e6",
+  "checks_total": 5732,
+  "failed": [],
+  "all_checks_pass": true,
+  "limitations": [
+    "Original private runner not held by A; only declared DATA-path redaction and bound public/executed identities checked"
+  ],
+  "pairs": [
+    {
+      "variant": "B0_W",
+      "reference": "B0_U",
+      "fixed_delta": -0.20417149542917912,
+      "repeat_delta": 0.2028529367273876,
+      "seed_deltas": [
+        0.3634431406010492,
+        -0.15945539109615936,
+        -0.10486676995192568,
+        0.4551711039575679,
+        0.45997260012640595
+      ],
+      "positive_seeds": 3,
+      "early_score_gain": 0.23634244076340571
+    },
+    {
+      "variant": "H_base325_original_W",
+      "reference": "B0_U",
+      "fixed_delta": -2.298348479350807,
+      "repeat_delta": -0.2151218496867358,
+      "seed_deltas": [
+        -0.2839868704948856,
+        -0.026395436437624653,
+        0.23048964984077713,
+        -0.7254070935171768,
+        -0.2703094978247691
+      ],
+      "positive_seeds": 1,
+      "early_score_gain": -0.17237895262984304
+    },
+    {
+      "variant": "T_B0PRIME_T_BASE",
+      "reference": "B0PRIME_T_BASE",
+      "fixed_delta": -1.0942736294719566,
+      "repeat_delta": -1.1119389876211443,
+      "seed_deltas": [
+        -0.2671546676448884,
+        -0.8850690320400929,
+        -1.0185514418355552,
+        -2.2015819220142134,
+        -1.1873378745709715
+      ],
+      "positive_seeds": 0,
+      "early_score_gain": -1.1119389876211472
+    },
+    {
+      "variant": "T_H_base325_original_W",
+      "reference": "H_base325_original_W",
+      "fixed_delta": -0.3360760724111742,
+      "repeat_delta": -0.24361005671818248,
+      "seed_deltas": [
+        -0.48288931942640545,
+        -0.5835643280658473,
+        0.24716616805260117,
+        -0.269461438472419,
+        -0.12930136567884176
+      ],
+      "positive_seeds": 1,
+      "early_score_gain": -0.24361005671818453
+    },
+    {
+      "variant": "B0_HX",
+      "reference": "B0_U",
+      "fixed_delta": 0.08821225635220742,
+      "repeat_delta": -0.12053638158130867,
+      "seed_deltas": [
+        0.0694749968103281,
+        -0.5122178701970626,
+        -0.11813926211259229,
+        0.05840787390977198,
+        -0.10020764631698853
+      ],
+      "positive_seeds": 2,
+      "early_score_gain": -0.11532639399799871
+    }
+  ],
+  "diagnosis": {
+    "B0_U": {
+      "repeated_mean": 72.47647400484871,
+      "mean_total_loss": 0.27523525995151293,
+      "mean_top10pct_loss_fraction": 0.28336976413158543,
+      "buckets": {
+        "month1": 0.13834157197697056,
+        "month2": 0.06954287216683555,
+        "months3_4": 0.051358578797736344,
+        "months5_12": 0.015992237009970444
+      },
+      "direction_full": {
+        "over_prediction": 0.144387028571734,
+        "under_prediction": 0.1308482313797789
+      },
+      "groups": {
+        "production_tertile": {
+          "middle": {
+            "mean_loss": 0.28971636014724256,
+            "mean_total_contribution": 0.0914230431218657
+          },
+          "low": {
+            "mean_loss": 0.2690536719873656,
+            "mean_total_contribution": 0.09231610109883814
+          },
+          "high": {
+            "mean_loss": 0.26896805246274863,
+            "mean_total_contribution": 0.09149611573080907
+          }
+        },
+        "scale_fallback": {
+          "fallback": {
+            "mean_loss": 0.3065464411883817,
+            "mean_total_contribution": 0.05298333551404128
+          },
+          "positive_raw_scale": {
+            "mean_loss": 0.26869262506619707,
+            "mean_total_contribution": 0.22225192443747163
+          }
+        },
+        "M_anomaly": {
+          "missing": {
+            "mean_loss": 0.27523525995151293,
+            "mean_total_contribution": 0.27523525995151293
+          }
+        },
+        "M_operating_fraction": {
+          "missing": {
+            "mean_loss": 0.27523525995151293,
+            "mean_total_contribution": 0.27523525995151293
+          }
+        }
+      }
+    },
+    "B0_W": {
+      "repeated_mean": 72.6793269415761,
+      "mean_total_loss": 0.273206730584239,
+      "mean_top10pct_loss_fraction": 0.28270643791270733,
+      "buckets": {
+        "month1": 0.1372073917772449,
+        "month2": 0.06831362795892716,
+        "months3_4": 0.051302308887615194,
+        "months5_12": 0.016383401960451772
+      },
+      "direction_full": {
+        "over_prediction": 0.1546090172758097,
+        "under_prediction": 0.11859771330842932
+      },
+      "groups": {
+        "production_tertile": {
+          "middle": {
+            "mean_loss": 0.28335801479298867,
+            "mean_total_contribution": 0.08937432371618885
+          },
+          "low": {
+            "mean_loss": 0.2735584426308771,
+            "mean_total_contribution": 0.09386901931925289
+          },
+          "high": {
+            "mean_loss": 0.26447631819575124,
+            "mean_total_contribution": 0.08996338754879729
+          }
+        },
+        "scale_fallback": {
+          "fallback": {
+            "mean_loss": 0.311597686855456,
+            "mean_total_contribution": 0.0538563903206961
+          },
+          "positive_raw_scale": {
+            "mean_loss": 0.2651847397215967,
+            "mean_total_contribution": 0.21935034026354291
+          }
+        },
+        "M_anomaly": {
+          "missing": {
+            "mean_loss": 0.273206730584239,
+            "mean_total_contribution": 0.273206730584239
+          }
+        },
+        "M_operating_fraction": {
+          "missing": {
+            "mean_loss": 0.273206730584239,
+            "mean_total_contribution": 0.273206730584239
+          }
+        }
+      }
+    },
+    "B0PRIME_T_BASE": {
+      "repeated_mean": 75.39352260217446,
+      "mean_total_loss": 0.24606477397825544,
+      "mean_top10pct_loss_fraction": 0.3043934566663873,
+      "buckets": {
+        "month1": 0.12156779673702318,
+        "month2": 0.061928403870362615,
+        "months3_4": 0.04662188152725548,
+        "months5_12": 0.015946691843614132
+      },
+      "direction_full": {
+        "over_prediction": 0.14989917676896736,
+        "under_prediction": 0.09616559720928805
+      },
+      "groups": {
+        "production_tertile": {
+          "middle": {
+            "mean_loss": 0.25209312820450314,
+            "mean_total_contribution": 0.07775560396278319
+          },
+          "low": {
+            "mean_loss": 0.24144431591509036,
+            "mean_total_contribution": 0.08225100206528
+          },
+          "high": {
+            "mean_loss": 0.24526120876544397,
+            "mean_total_contribution": 0.08605816795019222
+          }
+        },
+        "scale_fallback": {
+          "fallback": {
+            "mean_loss": 0.5037799753752231,
+            "mean_total_contribution": 0.037317035212979494
+          },
+          "positive_raw_scale": {
+            "mean_loss": 0.22544755786649798,
+            "mean_total_contribution": 0.20874773876527591
+          }
+        },
+        "M_anomaly": {
+          "0.5_to_2": {
+            "mean_loss": 0.21035755553022104,
+            "mean_total_contribution": 0.111671294911105
+          },
+          "missing": {
+            "mean_loss": 0.271332800722875,
+            "mean_total_contribution": 0.04689702728543519
+          },
+          "above_2": {
+            "mean_loss": 0.21765298247138465,
+            "mean_total_contribution": 0.051054403295756896
+          },
+          "below_0.5": {
+            "mean_loss": 0.5903611854725249,
+            "mean_total_contribution": 0.03644204848595833
+          }
+        },
+        "M_operating_fraction": {
+          "other": {
+            "mean_loss": 0.16059770786638122,
+            "mean_total_contribution": 0.02974031627155208
+          },
+          "below_0.8": {
+            "mean_loss": 0.2654891071854995,
+            "mean_total_contribution": 0.2163244577067033
+          }
+        }
+      }
+    },
+    "H_base325_original_W": {
+      "repeated_mean": 72.26135215516197,
+      "mean_total_loss": 0.2773864784483803,
+      "mean_top10pct_loss_fraction": 0.27427722419409656,
+      "buckets": {
+        "month1": 0.14066966326535812,
+        "month2": 0.06893857040474642,
+        "months3_4": 0.05112451134548262,
+        "months5_12": 0.016653733432793145
+      },
+      "direction_full": {
+        "over_prediction": 0.15641623116226652,
+        "under_prediction": 0.1209702472861138
+      },
+      "groups": {
+        "production_tertile": {
+          "middle": {
+            "mean_loss": 0.292266274128011,
+            "mean_total_contribution": 0.09014599467495542
+          },
+          "low": {
+            "mean_loss": 0.2900618109301107,
+            "mean_total_contribution": 0.09883531971481836
+          },
+          "high": {
+            "mean_loss": 0.2523216601669771,
+            "mean_total_contribution": 0.08840516405860653
+          }
+        },
+        "scale_fallback": {
+          "fallback": {
+            "mean_loss": 0.3192173092090585,
+            "mean_total_contribution": 0.055173362085516285
+          },
+          "positive_raw_scale": {
+            "mean_loss": 0.2686457078416714,
+            "mean_total_contribution": 0.222213116362864
+          }
+        },
+        "M_anomaly": {
+          "0.5_to_2": {
+            "mean_loss": 0.23798136501519465,
+            "mean_total_contribution": 0.126335786366091
+          },
+          "missing": {
+            "mean_loss": 0.3192173092090585,
+            "mean_total_contribution": 0.055173362085516285
+          },
+          "above_2": {
+            "mean_loss": 0.24127975805168794,
+            "mean_total_contribution": 0.05659648645656877
+          },
+          "below_0.5": {
+            "mean_loss": 0.6363496653513088,
+            "mean_total_contribution": 0.039280843540204245
+          }
+        },
+        "M_operating_fraction": {
+          "other": {
+            "mean_loss": 0.15285289367540333,
+            "mean_total_contribution": 0.02830609142137099
+          },
+          "below_0.8": {
+            "mean_loss": 0.30568956589678414,
+            "mean_total_contribution": 0.24908038702700935
+          }
+        }
+      }
+    },
+    "T_B0PRIME_T_BASE": {
+      "repeated_mean": 74.28158361455331,
+      "mean_total_loss": 0.25718416385446685,
+      "mean_top10pct_loss_fraction": 0.30253536977590767,
+      "buckets": {
+        "month1": 0.12815568835314362,
+        "month2": 0.06645990213045364,
+        "months3_4": 0.04662188152725548,
+        "months5_12": 0.015946691843614132
+      },
+      "direction_full": {
+        "over_prediction": 0.15600218278341763,
+        "under_prediction": 0.10118198107104925
+      },
+      "groups": {
+        "production_tertile": {
+          "middle": {
+            "mean_loss": 0.2568890245998247,
+            "mean_total_contribution": 0.07927497948327282
+          },
+          "low": {
+            "mean_loss": 0.2560955809160655,
+            "mean_total_contribution": 0.08726201016525065
+          },
+          "high": {
+            "mean_loss": 0.2584273745618319,
+            "mean_total_contribution": 0.09064717420594341
+          }
+        },
+        "scale_fallback": {
+          "fallback": {
+            "mean_loss": 0.5377506481546481,
+            "mean_total_contribution": 0.03983338134478875
+          },
+          "positive_raw_scale": {
+            "mean_loss": 0.23473884511045237,
+            "mean_total_contribution": 0.21735078250967813
+          }
+        },
+        "M_anomaly": {
+          "0.5_to_2": {
+            "mean_loss": 0.2194427372019524,
+            "mean_total_contribution": 0.11649429258869079
+          },
+          "missing": {
+            "mean_loss": 0.3074424121556345,
+            "mean_total_contribution": 0.053138194693566454
+          },
+          "above_2": {
+            "mean_loss": 0.21334733375068526,
+            "mean_total_contribution": 0.05004443631188914
+          },
+          "below_0.5": {
+            "mean_loss": 0.6076172922171921,
+            "mean_total_contribution": 0.0375072402603205
+          }
+        },
+        "M_operating_fraction": {
+          "other": {
+            "mean_loss": 0.16571108408962584,
+            "mean_total_contribution": 0.030687237794375155
+          },
+          "below_0.8": {
+            "mean_loss": 0.277973500164658,
+            "mean_total_contribution": 0.2264969260600917
+          }
+        }
+      }
+    },
+    "B0_HX": {
+      "repeated_mean": 72.35593762326741,
+      "mean_total_loss": 0.27644062376732603,
+      "mean_top10pct_loss_fraction": 0.28224238740216906,
+      "buckets": {
+        "month1": 0.1395272700713664,
+        "month2": 0.0695104380124197,
+        "months3_4": 0.0513830174916226,
+        "months5_12": 0.016019898191917337
+      },
+      "direction_full": {
+        "over_prediction": 0.14453413474403423,
+        "under_prediction": 0.13190648902329183
+      },
+      "groups": {
+        "production_tertile": {
+          "middle": {
+            "mean_loss": 0.2895516642629627,
+            "mean_total_contribution": 0.091358577979271
+          },
+          "low": {
+            "mean_loss": 0.2686471924276948,
+            "mean_total_contribution": 0.09218724455676305
+          },
+          "high": {
+            "mean_loss": 0.27298522900451966,
+            "mean_total_contribution": 0.09289480123129198
+          }
+        },
+        "scale_fallback": {
+          "fallback": {
+            "mean_loss": 0.30669654901943216,
+            "mean_total_contribution": 0.05300928007743272
+          },
+          "positive_raw_scale": {
+            "mean_loss": 0.2701184901325576,
+            "mean_total_contribution": 0.2234313436898933
+          }
+        },
+        "M_anomaly": {
+          "missing": {
+            "mean_loss": 0.27644062376732603,
+            "mean_total_contribution": 0.27644062376732603
+          }
+        },
+        "M_operating_fraction": {
+          "missing": {
+            "mean_loss": 0.27644062376732603,
+            "mean_total_contribution": 0.27644062376732603
+          }
+        }
+      }
+    }
+  },
+  "fit_counts": {
+    "research_models": 540,
+    "research_preprocessor_pipelines": 540,
+    "B0_rebuild_models_including_lost_artifact": 3,
+    "B0_rebuild_preprocessor_pipelines": 3,
+    "W_private_full_and_independent_models": 2,
+    "W_private_full_and_independent_preprocessor_pipelines": 2,
+    "LGB_Cat_synthetic_models": 2,
+    "LGB_Cat_synthetic_preprocessor_pipelines": 2,
+    "TabPFN_synthetic_context_fit_calls": 1,
+    "TabPFN_external_synthetic_preprocessor_pipeline_fit_calls": 1,
+    "models_completed_total": 548,
+    "preprocessor_pipeline_fits_total": 548,
+    "synthetic_spies_counted_as_fits": 0,
+    "model_fit_exceptions": 0,
+    "postfit_artifact_failure": 1,
+    "necessary_artifact_fit_retry": 1,
+    "config_interface_update_fits": 0,
+    "geology_fits": 0,
+    "Chronos_fits": 0,
+    "A2B035_prior_cumulative_models": 2523,
+    "A2B035_cumulative_models_including_this_batch": 3071,
+    "preprocessor_count_basis": "one top-level preprocessing pipeline fit per model context; inner sklearn/TabPFN primitive transforms are not counted as separate pipelines"
+  },
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "A_competition_raw_reads": 0
+}

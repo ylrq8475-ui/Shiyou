@@ -1,0 +1,15 @@
+test_HX_cutoff_and_no_cumulative_when_disabled (__main__.Tests.test_HX_cutoff_and_no_cumulative_when_disabled) ... ok
+test_HX_vocab_train_only_and_unknown_query (__main__.Tests.test_HX_vocab_train_only_and_unknown_query) ... ok
+test_R14_complement_suppressed (__main__.Tests.test_R14_complement_suppressed) ... ok
+test_R14_cutpoints_train_only (__main__.Tests.test_R14_cutpoints_train_only) ... ok
+test_R14_official_identity_and_zero (__main__.Tests.test_R14_official_identity_and_zero) ... ok
+test_R14_reject_invalid (__main__.Tests.test_R14_reject_invalid) ... ok
+test_T_new_evaluate_preserves_late (__main__.Tests.test_T_new_evaluate_preserves_late) ... ok
+test_TabPFN_nested_adapter_always_single_query (__main__.Tests.test_TabPFN_nested_adapter_always_single_query) ... ok
+test_W_actual_fit_weights_by_row (__main__.Tests.test_W_actual_fit_weights_by_row) ... ok
+test_config_interface_actual_prepare (__main__.Tests.test_config_interface_actual_prepare) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.022s
+
+OK

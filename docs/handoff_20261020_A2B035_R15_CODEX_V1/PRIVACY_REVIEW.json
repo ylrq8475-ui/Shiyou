@@ -2,6 +2,72 @@
   "all_pass": true,
   "records": [
     {
+      "path": "audit_evidence.py",
+      "sha256": "5b1636a0087edf08b990b4fe79bc76772d66831df650c96299ebaec662023b17",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "AUDIT_QUEUE.md",
+      "sha256": "a6599a8b92342a38ae2c5901f148525b0ac931425ce97ae3cf672ba557f4bc2b",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "COLLABORATION_REPLY_CODEX.md",
+      "sha256": "5fd8d83c205f454f2796e83d1efeb4055d320fcb0b45723a6067d9638160472b",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "collect.py",
+      "sha256": "185dcb00eb65eab188167ef39be9fe9a394bc5f2f85bc3008e550da99fd24435",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "ENSEMBLE_DIAGNOSIS.json",
+      "sha256": "1bf6752c0289e26073a8b8d5302acf791ca18cad6c5bbbe5bf8e269a18755abe",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "EVIDENCE_AND_ARITHMETIC.json",
+      "sha256": "f8bd8b99e81d0bd869c88a169e663b91b4fb601ed4c9acca105670bcc942b556",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "fixture_r14.py",
+      "sha256": "bb3caec5fa783df7d92f5a625ac667b78533c5d60721743bac72b08689f5ac0e",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "OFFICIAL_METADATA_CHECK.json",
+      "sha256": "5fc18c9edb24b184be8076326ad62529f38384ece62f458ab091432134b56d80",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "public_model_metadata.py",
+      "sha256": "07c2e6f5986c86c716c605812e13370ec3ac50662cadbb2c2b013478cc820e6c",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "README.md",
+      "sha256": "71dd3e7df9d4611847cad87b32b0de363e8337aef2b82a0c40e54fd2bca26d54",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "REPORT_CODEX.md",
+      "sha256": "10e7ca6a3602096f2de048c63c557fc57f637c3a74e826036fc8d25ec521d93a",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
       "path": "RESOURCE_ADMISSION_CODEX.json",
       "sha256": "365b53423a32d1637d83f3ab1b4ee5003128e029ffd9591356d3fdb286e22756",
       "secret_or_absolute_private_path_hits": 0,
@@ -10,6 +76,30 @@
     {
       "path": "RESULT_CODEX.json",
       "sha256": "ecca1933db2800beb785468b2d8ca2ac450fb09142fa90d62258ce5bc915ada1",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "SOURCE_IDENTITIES.json",
+      "sha256": "7db9b31df4c02138c0a35d57c6c64fe5af7d83c178a9c5d37852294dbd2b813d",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "SOURCE_TEST_LOG.txt",
+      "sha256": "d6454d21b89d5be3b6b7953ddb1b675da6a6dbb131012b20565e9876a65a8ea1",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "SOURCE_TEST_RESULT.json",
+      "sha256": "4dc4a9b7a0d23ab61a87ec441294ede932e49850b00dceff7fa3654e79a96767",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "test_source_increment.py",
+      "sha256": "64b201feb5674068430c69a0835411e563cc08f3b2ad98bb358b55dccf989129",
       "secret_or_absolute_private_path_hits": 0,
       "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
     }
