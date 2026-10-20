@@ -1,0 +1,331 @@
+{
+  "task": "A2B-035/R17 early B0 audit-II",
+  "role": "账户B执行与交付",
+  "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb",
+  "scope": "the unchanged actual-uploaded B0 ZIP pair, not fusion acceptance",
+  "key_numbers": {
+    "user_reported_A": 86.2003,
+    "repeated_CV_mean": 72.47647400484871,
+    "S_v_on_user_report": 79.33838700242435,
+    "new_audit_II_model_fits": 1,
+    "new_audit_II_preprocessor_fits": 1,
+    "reproduction_files": 10,
+    "reproduction_rows": 120,
+    "ZIP_byte_identity": true,
+    "platform_uploads_by_B": 0
+  },
+  "package_identity": {
+    "result_zip_sha256": "2b4f57169d653d0ca5fc994d2822f6e167e72c5696a1220f83f7c1eaac4a1df1",
+    "submission_code_zip_sha256": "a75ce0e1820001ef2e854a0cee6540a04caa5b1ecadec3d3c433f30ab42e420a",
+    "code_bytes": 2479466,
+    "code_under_5GB": true
+  },
+  "clean_reproduction_receipt": {
+    "status": "PASS",
+    "object": "exact actual-upload B0 code ZIP, unchanged bytes; fresh train invocation from extracted exact ZIP",
+    "submission_code_zip_sha256": "a75ce0e1820001ef2e854a0cee6540a04caa5b1ecadec3d3c433f30ab42e420a",
+    "result_zip_sha256": "2b4f57169d653d0ca5fc994d2822f6e167e72c5696a1220f83f7c1eaac4a1df1",
+    "reproduced_result_zip_sha256": "2b4f57169d653d0ca5fc994d2822f6e167e72c5696a1220f83f7c1eaac4a1df1",
+    "result_zip_bytes_identical": true,
+    "new_training_directory": true,
+    "packaged_weights_loaded_in_train": false,
+    "new_model_sha256": "9d74de91129abf36334d080e388fa98a7f5b5d2999e4f4c43adb4c32eac1ce73",
+    "new_runtime": {
+      "python_version": "3.13.7",
+      "python_build": [
+        "main",
+        "Sep 18 2025 19:43:45"
+      ],
+      "python_compiler": "MSC v.1944 64 bit (AMD64)",
+      "dependencies": {
+        "PyYAML": "6.0.3",
+        "Pygments": "2.19.2",
+        "cloudpickle": "3.1.2",
+        "colorama": "0.4.6",
+        "et_xmlfile": "2.0.0",
+        "iniconfig": "2.1.0",
+        "joblib": "1.6.0",
+        "narwhals": "2.26.0",
+        "numpy": "2.4.3",
+        "openpyxl": "3.1.5",
+        "packaging": "25.0",
+        "pandas": "2.3.3",
+        "pluggy": "1.6.0",
+        "pytest": "8.4.2",
+        "python-dateutil": "2.9.0.post0",
+        "pytz": "2026.3.post1",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.17.1",
+        "six": "1.17.0",
+        "threadpoolctl": "3.7.0",
+        "tzdata": "2026.4"
+      }
+    },
+    "fit_counts": {
+      "R13_fit_cap": null,
+      "models_entered": 1,
+      "models_completed": 1,
+      "preprocessors_entered": 1,
+      "preprocessors_completed": 1,
+      "failures": 0,
+      "retries": 0,
+      "events": [
+        {
+          "sequence": 1,
+          "time": "2026-10-20T20:07:31.705239+08:00",
+          "stage": "B0-full-R15",
+          "event": "preprocessor_entered"
+        },
+        {
+          "sequence": 2,
+          "time": "2026-10-20T20:07:31.771905+08:00",
+          "stage": "B0-full-R15",
+          "event": "preprocessor_completed",
+          "seconds": 0.06595869996817783
+        },
+        {
+          "sequence": 3,
+          "time": "2026-10-20T20:07:31.772854+08:00",
+          "stage": "B0-full-R15",
+          "event": "model_entered"
+        },
+        {
+          "sequence": 4,
+          "time": "2026-10-20T20:07:32.091560+08:00",
+          "stage": "B0-full-R15",
+          "event": "model_completed",
+          "seconds": 0.3176625000196509
+        }
+      ]
+    },
+    "linter": {
+      "status": "PASS",
+      "files": 10,
+      "rows": 120,
+      "columns": [
+        "WELL_ID",
+        "NY",
+        "RCYL"
+      ],
+      "exact_template_keys_dates_order": true,
+      "duplicate_keys": 0,
+      "extra_columns": 0,
+      "NaN_Inf_negative": 0,
+      "flat_ZIP": true,
+      "CRC_passed": true,
+      "result_zip_sha256": "2b4f57169d653d0ca5fc994d2822f6e167e72c5696a1220f83f7c1eaac4a1df1",
+      "result_zip_bytes": 3071,
+      "CSV_hashes_anonymous_archive_order": [
+        {
+          "sha256": "8e6e5756a806158ac1c13458e24f11f0458e6b2da8fa46f0cfb02b28ade97094",
+          "bytes": 486,
+          "rows": 12
+        },
+        {
+          "sha256": "ff7cb6ecccaa8feb119915c60c1bbaacffc53b748baa20036131fc6ab4dd4c59",
+          "bytes": 487,
+          "rows": 12
+        },
+        {
+          "sha256": "d87dbe1d26cff5bc8260bf96b60412f3b06dc39bb0994c5e40d05a9ac4da1459",
+          "bytes": 483,
+          "rows": 12
+        },
+        {
+          "sha256": "6cb220a3888518ed05b4c16acad9d2adcd0dfdd8c7b19c4fa789c5225b42c973",
+          "bytes": 486,
+          "rows": 12
+        },
+        {
+          "sha256": "264008aca2e1ea4cccdf290839f83a98a72fc41e441cef77e964441ffad03e9c",
+          "bytes": 486,
+          "rows": 12
+        },
+        {
+          "sha256": "98e71c4f9ec80c77178799b110a8e2765d3f80f6f215435945789186a3be7dcb",
+          "bytes": 486,
+          "rows": 12
+        },
+        {
+          "sha256": "2e3c7bc604e5e8f2c1b9f86e10c54c4c086383062814df302eb2bfd0a245181d",
+          "bytes": 484,
+          "rows": 12
+        },
+        {
+          "sha256": "40411e165bc89fcc7750d2ea6d720a5df744422464b8dc81888439fd81b490e1",
+          "bytes": 484,
+          "rows": 12
+        },
+        {
+          "sha256": "5ff2ceaee2d727d849e71d59eecb6aa52fb77ec1d15084a6c71895b0675db2cc",
+          "bytes": 484,
+          "rows": 12
+        },
+        {
+          "sha256": "9c4149144cbfab1ef341458f3a662cddcc695d366cea79b73409b0d204595a8b",
+          "bytes": 486,
+          "rows": 12
+        }
+      ]
+    },
+    "boundary": {
+      "template_rows": 120,
+      "test_wells": 10,
+      "template_key_sha256": "6f27b2b7eb8880428aac42935a34fce881a8af8d089838df3983767887c87c58",
+      "test_window_rows_skipped": 120,
+      "test_window_dynamic_values_decoded": 0,
+      "test_window_RCYL_parsed": 0,
+      "template_key_hash_verified_before_dynamic_access": true
+    },
+    "source_base_matches_R17_boundary_harness": [
+      {
+        "path": "BASELINE_ALLOWLIST.json",
+        "sha256": "d8a4203e336aa27b386533916f9c1475b58acb9ba0c763940b357e9e86d83074"
+      },
+      {
+        "path": "core.py",
+        "sha256": "4a8c230e4eb626cfaa60bb34a3387d383579f48e0d130818de99917c4ad50a1c"
+      },
+      {
+        "path": "csv_projection.py",
+        "sha256": "6979f0366b729a8ed32396569aa2a7837d4d409301dbfb09632267a338937c0c"
+      },
+      {
+        "path": "cv035.py",
+        "sha256": "fbe904440cbb0fa02141fa6ed99aa58df15af34c297012372d7e17954fd05e3e"
+      },
+      {
+        "path": "DATA_CONTRACT.json",
+        "sha256": "b3149f6538aff2f6e8de003d7179e95d1616f9247d0b0b82554b2f2ac8d5d8c8"
+      },
+      {
+        "path": "ENVIRONMENT_LOCK.json",
+        "sha256": "954d67045713461b7cc303e7d85fa223507a27c1e20d5cf223f2741d32a961d6"
+      },
+      {
+        "path": "evaluate.py",
+        "sha256": "9bab77411897a3194523f0d5ab419ab780211afe3fda89a43d433cf143a0e118"
+      },
+      {
+        "path": "FROZEN_SOURCES.json",
+        "sha256": "4c7b6873ff27bfe47b2c5ff233624533afbbbfdf03cb5063b0f4c5595ac07a60"
+      },
+      {
+        "path": "guard035.py",
+        "sha256": "c1864f63eaf005d7c100d2c568bde3fbe5a4399c0cc1ff5f045115a7890df5a6"
+      },
+      {
+        "path": "ledger035.py",
+        "sha256": "a3e3de0cc36642601ae8c75d968584281eef8dbd1787d687cb14662099fb5f33"
+      },
+      {
+        "path": "models035.py",
+        "sha256": "e487e6004dfbcedec191b35fcff2a24f5cb442748255009a7d28d0edb6f44fec"
+      },
+      {
+        "path": "PIPELINE_APPROVAL.json",
+        "sha256": "82fdd80d1193817a0c76663713c72b5440d9a8968d368cec5566fc8832adcfc8"
+      },
+      {
+        "path": "PIPELINE_LOCK.json",
+        "sha256": "ce1ab047d126f2586993dc8d2b05aef5f1b9871c59b626d6927d8803904713d1"
+      },
+      {
+        "path": "predict.py",
+        "sha256": "8b48a0e1fef96eb20dfe19cf4d604bfb23382a7de350b02dd859fc6680571d6c"
+      },
+      {
+        "path": "requirements.txt",
+        "sha256": "44f9e68064630e1be9fa8614521f5df4ce8fb640a4bd18827224aa89841e4bce"
+      },
+      {
+        "path": "RESOURCE_RELEASES.json",
+        "sha256": "e542a3acc6f7014ac06bc3cf7f87c0f43ec610c05ae26ec7dc64aa42d100200f"
+      },
+      {
+        "path": "synthetic_checks.py",
+        "sha256": "e74739bce4e87d0eee94f7d2547f1b785f12265dbc00c66ad17286d5b1a3dbff"
+      },
+      {
+        "path": "train.py",
+        "sha256": "3a469299d8779e80ab014d483618204ed266e8cf6ab030df96c833ffd34728c7"
+      },
+      {
+        "path": "configs/B0.json",
+        "sha256": "3fb71b01ba78d83a46bc7afda260928bf032ae2fdc5aa02003e24a3c04d701b6"
+      },
+      {
+        "path": "configs/B0_prime.json",
+        "sha256": "392cf4f2537e09f5bb023fc4bff3b05b96ee91b7f6969def2e636a9e6d46842d"
+      },
+      {
+        "path": "src/oil_uplift/a2b013_safe.py",
+        "sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48"
+      },
+      {
+        "path": "src/oil_uplift/config.py",
+        "sha256": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68"
+      },
+      {
+        "path": "src/oil_uplift/exceptions.py",
+        "sha256": "2b3aef27c352bad4558d98ca964d21f4881468e6a63c4bc3ff7bc919a7ad26c9"
+      },
+      {
+        "path": "src/oil_uplift/io.py",
+        "sha256": "cf788f19399b7a867260a5a4f84bb630735a639410fc17092244ebcb9bcd18c3"
+      },
+      {
+        "path": "src/oil_uplift/models.py",
+        "sha256": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02"
+      },
+      {
+        "path": "src/oil_uplift/multistep.py",
+        "sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b"
+      },
+      {
+        "path": "src/oil_uplift/scoring.py",
+        "sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235"
+      },
+      {
+        "path": "src/oil_uplift/submission.py",
+        "sha256": "d39b25ce75b452a9bf7dcb439aa1a68bdc3bbb822b9e9a2f56cd0565f1502612"
+      },
+      {
+        "path": "src/oil_uplift/training.py",
+        "sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc"
+      },
+      {
+        "path": "src/oil_uplift/__init__.py",
+        "sha256": "b14e51df20e0d8c8e2abc3646d6cac8e26e015a797f3fa5138fb1f2c20bde30c"
+      }
+    ],
+    "boundary_mutation_evidence_sha256": "d3366ea2d5bfa7ed8a99a44c17c4f0ee898d5cf8fb37d0c9242b888c246043f5",
+    "stages": [
+      {
+        "stage": "B0_auditII_train",
+        "exit_code": 0,
+        "seconds": 8.513823000015691,
+        "stderr_bytes": 0
+      },
+      {
+        "stage": "B0_auditII_predict",
+        "exit_code": 0,
+        "seconds": 3.582052499987185,
+        "stderr_bytes": 0
+      }
+    ],
+    "B0_original_ZIPs_unchanged": true,
+    "platform_uploads": 0,
+    "Codex_audit_II_decision": "PENDING; B does not self-approve final designation"
+  },
+  "previously_approved_receipts_reused_as_reference_not_new_fits": true,
+  "three_compliance_bottom_lines_B_self_check": "PASS in bound code/receipt/synthetic scope, Codex final audit pending",
+  "immutable_actual_uploaded_ZIPs": true,
+  "PLATFORM_B0_BINDING_closed_by_Codex": "9cc17638b8743131d6595e8671f7b7051f8b2686; current uploaded B0 only",
+  "submission_id_time_status": "UNKNOWN",
+  "B0_final_package_can_designate": "PENDING_CODEX_AUDIT_II",
+  "final_platform_designation_by_user": "2026-10-29, not performed by B",
+  "does_not_wait_for_fusion_acceptance": true,
+  "historical_dtype": "UNKNOWN; no backfill",
+  "model_weights_private_only": true
+}
