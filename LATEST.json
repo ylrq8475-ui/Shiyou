@@ -751,6 +751,23 @@
       ],
       "admission_status_path": "docs/handoff_20261020_A2B035_R14_CODEX_V1/ADMISSION_STATUS.json",
       "published_at": "2026-10-20T12:17:11.214644+08:00"
+    },
+    {
+      "task": "A2B-035/R15补充（B0+W、H+W、HX井史新字段、地质价值筛查、TabPFN限期、B0重新打包不上传、随训取证）",
+      "role": "Claude",
+      "commit": "9482ad9bb2a0bc64519e6a9effc8adbfee14173a",
+      "report_path": "docs/handoff_20261020_A2B035_CLAUDE_INSTRUCTIONS_R15/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "顺序：B0+W→H(+W)→HX→地质筛查→TabPFN（10-22 24:00截止）；T在H后",
+        "随训取证：新代码路径即交Codex增量复核，未复核路径版本不得上传",
+        "B0重新打包不上传",
+        "比值截断[0.2,5]已撤回"
+      ],
+      "published_at": "2026-10-20T13:55:00+08:00"
     }
   ]
 }
