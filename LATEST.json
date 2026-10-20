@@ -730,6 +730,27 @@
         "HIST-DTYPE P1 继承用户例外，不回填历史"
       ],
       "published_at": "2026-10-20T11:24:03.953225+08:00"
+    },
+    {
+      "task": "A2B-035/R14 H/T与误差预算管线增量审核",
+      "role": "Codex",
+      "commit": "39b22d881f3b86c7c5d65d5e4deb3a90c3675054",
+      "report_path": "docs/handoff_20261020_A2B035_R14_CODEX_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261020_A2B035_R14_CODEX_V1/RESULT_CODEX.json",
+      "reviews_commit": "f252407dba3af7b3800c8242518c8e156ad04a42",
+      "instruction_commit": "0f2804776957cefa6c3bab573a403f0cfb86d33e",
+      "R13_instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+      "hard_gates": "原内部管线签署继承；H/T源码与合成路由通过，误差预算官方分母及小组补集披露两项P1失败；A真实拟合0；本轮B真实H/T拟合0",
+      "decision_row": "管线增量是否可用于搜索：否。当前增量锁不放行，A035-R14-01/02及CODEX-035-R14-INCREMENT未关闭；修复后同编号复核；旧R13内部授权有效；B0独立重建上传继续暂缓。",
+      "open_unknowns": [
+        "A035-R14-01 P1 诊断公式缺abs(pred)，未影响原指标核心",
+        "A035-R14-02 P1 小组抑制可被总量补集反推；未有真实预算发布",
+        "EXT-035 P1 实际适配器实测未齐，TabPFN/Chronos无新增专项证据",
+        "G-031 P1 Q1无新增历史可得性证据，白名单0",
+        "实际上传包绑定与历史dtype既有例外继承"
+      ],
+      "admission_status_path": "docs/handoff_20261020_A2B035_R14_CODEX_V1/ADMISSION_STATUS.json",
+      "published_at": "2026-10-20T12:17:11.214644+08:00"
     }
   ]
 }
