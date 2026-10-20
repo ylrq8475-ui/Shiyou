@@ -952,6 +952,40 @@
         "S_v": "UNKNOWN"
       },
       "published_at": "2026-10-20T17:58:27.883541+08:00"
+    },
+    {
+      "task": "A2B-035/R16首批赛事集成、Native完整结果及两包回执审核",
+      "role": "Codex",
+      "commit": "b299828899812d2921e5a1da0ea865bf97b4beb5",
+      "report_path": "docs/handoff_20261020_A2B035_R16_CODEX_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261020_A2B035_R16_CODEX_V1/RESULT_CODEX.json",
+      "reviews_commit": "12a197b396f80bb83e3a4ab18c8a45509b128026",
+      "also_reviews_commits": [
+        "6ab552ef1cb007b13f0bc350957b7b82037f1348"
+      ],
+      "instruction_commit": "441966be673da9083505168077a4d6ac63805e90",
+      "hard_gates": "Native源码/绑定B执行/独立聚合及合成范围四硬门禁通过；A拟合0；A035-R15-02关闭；不是A真实重训或最终指定",
+      "decision_row": "R16无逐候选统计门槛；B0及W两既有完整包可供用户手动上传：是；LGB/Cat已审赛事路径可用于搜索及完整版本上传：是；Tab真实集成通过：否，既有用户授权研究可至期限；融合完成：否；平台绑定关闭：否；最终指定：否。",
+      "resource_admission_path": "docs/handoff_20261020_A2B035_R16_CODEX_V1/INTEGRATION_STATUS_CODEX.json",
+      "key_numbers": {
+        "native_records": 42,
+        "new_learner_configs": 40,
+        "Native_models_and_top_level_preprocessors_each": 1260,
+        "snapshot_total_models_or_contexts": 1267,
+        "snapshot_total_preprocessors": 1264,
+        "A_model_fits": 0,
+        "assertions": 15301,
+        "source_tests": 13,
+        "best_new_Mminus1_repeat_delta": -0.16798124050508534,
+        "best_new_T0minus1_repeat_delta": -0.5630280549022757
+      },
+      "open_unknowns": [
+        "Tab真实验证/赛事集成P1未完成，未放行其上传；默认W不支持",
+        "跨截止点融合及其包尚未完成",
+        "两新包平台实际回执缺，S_v UNKNOWN；历史86.2003不代填",
+        "SFSBHD旧名称勘误P2、历史dtype既有例外继承"
+      ],
+      "published_at": "2026-10-20T18:39:08.233209+08:00"
     }
   ]
 }
