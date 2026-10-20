@@ -1,0 +1,3 @@
+# A2B-035 R15 首批随训交付
+
+账户B执行与交付。唯一结果入口RESULT_R15_W.json；研究继续中。源码ZIP不含模型/私有配置/数据。源runner的私有DATA路径已参数化，执行时提供SHIYOU_AUTHORIZED_DATA_ARCHIVE环境变量；原执行锁不改，双SHA及AST边界见SOURCE_BUNDLE_MANIFEST.json。完整六组W结果和预算见W_RESULTS.json；B0私有正式包摘要见B0_REPACK_RESULT.json，禁止把本次包当作已审核允许上传。

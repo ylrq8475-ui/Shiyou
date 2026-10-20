@@ -1,0 +1,3542 @@
+{
+  "task": "R15/B0+W",
+  "role": "账户B执行与交付",
+  "records": [
+    {
+      "config": {
+        "schema": "A2B035-R15-v1",
+        "variant": "B0_U",
+        "base": {
+          "schema": "A2B035-v1",
+          "purpose": "pipeline_benchmark",
+          "cutoff": "M_minus_1",
+          "target": {
+            "transform": "log_ratio",
+            "scale": "last_legal"
+          },
+          "features": "base325",
+          "learner": {
+            "name": "ExtraTrees",
+            "n_estimators": 400,
+            "min_samples_leaf": 6,
+            "max_features": 0.75,
+            "random_state": 20260916,
+            "n_jobs": -1
+          },
+          "evaluation": {
+            "fixed": {
+              "method": "GroupKFold",
+              "n_splits": 5,
+              "shuffle": false
+            },
+            "repeated": {
+              "method": "GroupKFold",
+              "n_splits": 5,
+              "shuffle": true,
+              "seeds": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            "inner": {
+              "method": "GroupKFold",
+              "n_splits": 5,
+              "shuffle": true,
+              "seed": 20260916
+            }
+          },
+          "fusion": null,
+          "variant": "B0",
+          "split_fingerprints": {
+            "fixed": [
+              "7169bea57c5945945197313c63aa934f1aa2dc1f9e0d2d1eff350c7c75cd7009",
+              "cedbd47320ee1b419307e6ec9e995e5fbba6a2ba258c7a0278313e95c9cf61ed",
+              "0060232297d5fa1d968363dd3fa4ceac8c990578bccef3eb2914a225475bde90",
+              "97f8ba3f9d7afdb62df08fce16c6516507ba5ddc4b21dabe08da9fcceec7ff16",
+              "ff980b9e9f71c3050be0c8dfcc9dda8a08b894fed634d2a9ee34c8756af74bc5"
+            ],
+            "repeat_1": [
+              "9424901a374f6ec20f4c871fb57b8f218c59eeb972d002ee8caa684bce157de6",
+              "58e8b95f21fa193aab5e371529425b43bbfe29991fc5fe1f1e364bf7896aab42",
+              "c0fd57fa11a8f54056404a828257e615cf41957e44b5d74345d42ddb1f144e47",
+              "22a1fbee051838506dae373eaa3fe1eae2c5281b8952df1b02cf592b74e70ed7",
+              "b2f3e15f529607e100cc5ab103d196da90f33220fcca50919c4817581fd41b01"
+            ],
+            "repeat_2": [
+              "2d5b4442556a7356c1728447edd6d3f561f53685fe45cfbe9d1c3f86bc3d0879",
+              "f9484c73cb872afe41837406e9daa29efd02e888c3d1cbaeeb1e60316b539a7c",
+              "3d8f4abeca3fabae7994f4bf1d70eaf796873033156380453330cf28b802bbb4",
+              "d55f87be9e703460ec48cd89c96672f6103672502d273035904befef302b5238",
+              "280e7449e4aa5d470eff8b2c0b0469a4b6def8a3eb3b9a54e2e211708a4862fb"
+            ],
+            "repeat_3": [
+              "4f51e92d460565edad28e069da4035627bbac061b0f62e6630d0b3e51237f749",
+              "8435dddfc1dfcfbd2c87ec81e24d0bf598c3e67e04bc65dda42130150cd7f020",
+              "0ddb140ced9a5b88591e4a64642ca4605d27b7ca243e4ca30fcee58c3e190de2",
+              "63523409c784e2ea984de80c2abd1e97d43116ceabf31fb5fb9ab7b610f8d6d0",
+              "f1848775d35a140c29bf98ec922fc7cc018f34f826cebd4d62d5b02ea1268949"
+            ],
+            "repeat_4": [
+              "9bf082f8d82d50570454e43a550e0d691f0b3f35e837729dc9294115afa264c1",
+              "f71f42cab32f70a6da1489af11447e77ad69ad57808a431288b83db46a7971ac",
+              "820cdf810844dfea9634292094deb05d8f16fc1acb0bbed9e229b1db03310dd9",
+              "098c8f433fffee46fd91039813818182f37b2cbaa2f3311b617e966f3ec45fda",
+              "f893dcf8c54e810d2d8d3a1f0223a3a8542c9734a175cce2838d8b1ab7f0f3f4"
+            ],
+            "repeat_5": [
+              "7ae279c00c08508333818404c9209a1794b3633d2b3be5fb56d6bf16f89e5ed4",
+              "9ce329b8dcbb631550392a704f998e7bad985758b5c540dc8890c013d0f5a47d",
+              "f4c5ff387b44f407a73dde55c06322c7781337842df3336bbd2ec40c5570544f",
+              "05047d121cbe771dfa61295eee079febab1fd241734a5a1864e0fe7c353067ec",
+              "42b1dc3a1591d4063d357bf9517fcf89d665c7296f1654acc546c84d7ee194de"
+            ]
+          }
+        },
+        "W": false,
+        "HX": false,
+        "T": false
+      },
+      "results": {
+        "fixed": {
+          "score": 73.71410733861434,
+          "weighted_losses": {
+            "m1_to_1": 0.13285967837214752,
+            "m1_to_2": 0.1981686955169049,
+            "m1_to_4": 0.2475324480364633,
+            "m1_to_12": 0.2628589266138566
+          },
+          "fold_scores": [
+            71.45331390948151,
+            77.53642908897099,
+            75.12924056181326,
+            64.6268639962143,
+            79.96598872591244
+          ],
+          "worst_fold": 64.6268639962143,
+          "fold_std_population": 5.355071462864169,
+          "folds": [
+            {
+              "fold": 1,
+              "score": 71.45331390948151,
+              "weighted_losses": {
+                "m1_to_1": 0.15281961837123023,
+                "m1_to_2": 0.2182358028988089,
+                "m1_to_4": 0.2692522923152951,
+                "m1_to_12": 0.2854668609051849
+              },
+              "train_wells": 64,
+              "effective_train_month_rows": 768,
+              "validation_wells": 17,
+              "well_overlap": 0,
+              "split_sha256": "7169bea57c5945945197313c63aa934f1aa2dc1f9e0d2d1eff350c7c75cd7009",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 2,
+              "score": 77.53642908897099,
+              "weighted_losses": {
+                "m1_to_1": 0.10803740815766888,
+                "m1_to_2": 0.16873414245001336,
+                "m1_to_4": 0.2129660176048732,
+                "m1_to_12": 0.22463570911029002
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "cedbd47320ee1b419307e6ec9e995e5fbba6a2ba258c7a0278313e95c9cf61ed",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 3,
+              "score": 75.12924056181326,
+              "weighted_losses": {
+                "m1_to_1": 0.10482921826147718,
+                "m1_to_2": 0.1741562450552835,
+                "m1_to_4": 0.23070689004079603,
+                "m1_to_12": 0.24870759438186735
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "0060232297d5fa1d968363dd3fa4ceac8c990578bccef3eb2914a225475bde90",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 4,
+              "score": 64.6268639962143,
+              "weighted_losses": {
+                "m1_to_1": 0.19569612192253596,
+                "m1_to_2": 0.2800080302178919,
+                "m1_to_4": 0.3363828077562352,
+                "m1_to_12": 0.35373136003785716
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "97f8ba3f9d7afdb62df08fce16c6516507ba5ddc4b21dabe08da9fcceec7ff16",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 5,
+              "score": 79.96598872591244,
+              "weighted_losses": {
+                "m1_to_1": 0.10166852889788267,
+                "m1_to_2": 0.14845506275115775,
+                "m1_to_4": 0.18699674219769014,
+                "m1_to_12": 0.2003401127408756
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "ff980b9e9f71c3050be0c8dfcc9dda8a08b894fed634d2a9ee34c8756af74bc5",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            }
+          ]
+        },
+        "repeat_1": {
+          "score": 72.72544757191915,
+          "weighted_losses": {
+            "m1_to_1": 0.13658153816664492,
+            "m1_to_2": 0.20536190278579255,
+            "m1_to_4": 0.2568881747102652,
+            "m1_to_12": 0.27274552428080856
+          },
+          "fold_scores": [
+            75.52516548704693,
+            70.02436420076421,
+            72.66120596872157,
+            70.02219816896522,
+            75.21932166440233
+          ],
+          "worst_fold": 70.02219816896522,
+          "fold_std_population": 2.394127829652683,
+          "folds": [
+            {
+              "fold": 1,
+              "score": 75.52516548704693,
+              "weighted_losses": {
+                "m1_to_1": 0.11627550534766284,
+                "m1_to_2": 0.1753461118044631,
+                "m1_to_4": 0.23076643072928557,
+                "m1_to_12": 0.2447483451295308
+              },
+              "train_wells": 64,
+              "effective_train_month_rows": 768,
+              "validation_wells": 17,
+              "well_overlap": 0,
+              "split_sha256": "9424901a374f6ec20f4c871fb57b8f218c59eeb972d002ee8caa684bce157de6",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 2,
+              "score": 70.02436420076421,
+              "weighted_losses": {
+                "m1_to_1": 0.14645222486302478,
+                "m1_to_2": 0.22593240198264186,
+                "m1_to_4": 0.2833936501468218,
+                "m1_to_12": 0.2997563579923578
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "58e8b95f21fa193aab5e371529425b43bbfe29991fc5fe1f1e364bf7896aab42",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 3,
+              "score": 72.66120596872157,
+              "weighted_losses": {
+                "m1_to_1": 0.13179139312158372,
+                "m1_to_2": 0.20614633913533661,
+                "m1_to_4": 0.2567588589768502,
+                "m1_to_12": 0.27338794031278424
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "c0fd57fa11a8f54056404a828257e615cf41957e44b5d74345d42ddb1f144e47",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 4,
+              "score": 70.02219816896522,
+              "weighted_losses": {
+                "m1_to_1": 0.15350792395156554,
+                "m1_to_2": 0.23023511452885098,
+                "m1_to_4": 0.28222774636964426,
+                "m1_to_12": 0.2997780183103479
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "22a1fbee051838506dae373eaa3fe1eae2c5281b8952df1b02cf592b74e70ed7",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 5,
+              "score": 75.21932166440233,
+              "weighted_losses": {
+                "m1_to_1": 0.13614977060057415,
+                "m1_to_2": 0.1910255334140033,
+                "m1_to_4": 0.23292679632753543,
+                "m1_to_12": 0.24780678335597672
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "b2f3e15f529607e100cc5ab103d196da90f33220fcca50919c4817581fd41b01",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            }
+          ]
+        },
+        "repeat_2": {
+          "score": 72.8214991495526,
+          "weighted_losses": {
+            "m1_to_1": 0.13727835754514137,
+            "m1_to_2": 0.20525894633943395,
+            "m1_to_4": 0.25580237444339654,
+            "m1_to_12": 0.27178500850447407
+          },
+          "fold_scores": [
+            72.53204958141367,
+            68.36761622419397,
+            73.04927053298601,
+            74.84312733257408,
+            75.3335226746039
+          ],
+          "worst_fold": 68.36761622419397,
+          "fold_std_population": 2.4645450377405886,
+          "folds": [
+            {
+              "fold": 1,
+              "score": 72.53204958141367,
+              "weighted_losses": {
+                "m1_to_1": 0.13546122944044436,
+                "m1_to_2": 0.2033243894685411,
+                "m1_to_4": 0.25775108778510186,
+                "m1_to_12": 0.2746795041858631
+              },
+              "train_wells": 64,
+              "effective_train_month_rows": 768,
+              "validation_wells": 17,
+              "well_overlap": 0,
+              "split_sha256": "2d5b4442556a7356c1728447edd6d3f561f53685fe45cfbe9d1c3f86bc3d0879",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 2,
+              "score": 68.36761622419397,
+              "weighted_losses": {
+                "m1_to_1": 0.15782225988802484,
+                "m1_to_2": 0.24058294328535076,
+                "m1_to_4": 0.29721481241083947,
+                "m1_to_12": 0.3163238377580604
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "f9484c73cb872afe41837406e9daa29efd02e888c3d1cbaeeb1e60316b539a7c",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 3,
+              "score": 73.04927053298601,
+              "weighted_losses": {
+                "m1_to_1": 0.1571987438322144,
+                "m1_to_2": 0.21473191147955162,
+                "m1_to_4": 0.257529131181082,
+                "m1_to_12": 0.2695072946701398
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "3d8f4abeca3fabae7994f4bf1d70eaf796873033156380453330cf28b802bbb4",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 4,
+              "score": 74.84312733257408,
+              "weighted_losses": {
+                "m1_to_1": 0.12431080984167803,
+                "m1_to_2": 0.19197267225814366,
+                "m1_to_4": 0.23727574299242432,
+                "m1_to_12": 0.2515687266742592
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "d55f87be9e703460ec48cd89c96672f6103672502d273035904befef302b5238",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 5,
+              "score": 75.3335226746039,
+              "weighted_losses": {
+                "m1_to_1": 0.11171231522988864,
+                "m1_to_2": 0.17580372501001357,
+                "m1_to_4": 0.22911930326367846,
+                "m1_to_12": 0.246664773253961
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "280e7449e4aa5d470eff8b2c0b0469a4b6def8a3eb3b9a54e2e211708a4862fb",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            }
+          ]
+        },
+        "repeat_3": {
+          "score": 72.09785488289351,
+          "weighted_losses": {
+            "m1_to_1": 0.14092078002780878,
+            "m1_to_2": 0.21115994294514723,
+            "m1_to_4": 0.26294580041224697,
+            "m1_to_12": 0.2790214511710648
+          },
+          "fold_scores": [
+            61.003790356141884,
+            76.1034052292743,
+            81.45358272732511,
+            72.65274745115295,
+            69.96912768349534
+          ],
+          "worst_fold": 61.003790356141884,
+          "fold_std_population": 6.802875497248215,
+          "folds": [
+            {
+              "fold": 1,
+              "score": 61.003790356141884,
+              "weighted_losses": {
+                "m1_to_1": 0.20151419958707237,
+                "m1_to_2": 0.30453367041534607,
+                "m1_to_4": 0.37241446087087177,
+                "m1_to_12": 0.38996209643858115
+              },
+              "train_wells": 64,
+              "effective_train_month_rows": 768,
+              "validation_wells": 17,
+              "well_overlap": 0,
+              "split_sha256": "4f51e92d460565edad28e069da4035627bbac061b0f62e6630d0b3e51237f749",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 2,
+              "score": 76.1034052292743,
+              "weighted_losses": {
+                "m1_to_1": 0.11669493582134098,
+                "m1_to_2": 0.16985407701210292,
+                "m1_to_4": 0.2243130350692483,
+                "m1_to_12": 0.238965947707257
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "8435dddfc1dfcfbd2c87ec81e24d0bf598c3e67e04bc65dda42130150cd7f020",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 3,
+              "score": 81.45358272732511,
+              "weighted_losses": {
+                "m1_to_1": 0.10419165863348406,
+                "m1_to_2": 0.14371085711186793,
+                "m1_to_4": 0.17300973816214682,
+                "m1_to_12": 0.18546417272674892
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "0ddb140ced9a5b88591e4a64642ca4605d27b7ca243e4ca30fcee58c3e190de2",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 4,
+              "score": 72.65274745115295,
+              "weighted_losses": {
+                "m1_to_1": 0.13371637509729054,
+                "m1_to_2": 0.20593248703642797,
+                "m1_to_4": 0.2563164884572961,
+                "m1_to_12": 0.2734725254884705
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "63523409c784e2ea984de80c2abd1e97d43116ceabf31fb5fb9ab7b610f8d6d0",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 5,
+              "score": 69.96912768349534,
+              "weighted_losses": {
+                "m1_to_1": 0.14469964227740195,
+                "m1_to_2": 0.22593276518310393,
+                "m1_to_4": 0.2818334882230079,
+                "m1_to_12": 0.3003087231650466
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "f1848775d35a140c29bf98ec922fc7cc018f34f826cebd4d62d5b02ea1268949",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            }
+          ]
+        },
+        "repeat_4": {
+          "score": 72.30838983776125,
+          "weighted_losses": {
+            "m1_to_1": 0.1393190752712546,
+            "m1_to_2": 0.20912025978288307,
+            "m1_to_4": 0.26075507515115537,
+            "m1_to_12": 0.2769161016223874
+          },
+          "fold_scores": [
+            63.90939820691909,
+            75.89470366975038,
+            65.27782377948785,
+            79.40109211098435,
+            77.58386839859224
+          ],
+          "worst_fold": 63.90939820691909,
+          "fold_std_population": 6.49485264240293,
+          "folds": [
+            {
+              "fold": 1,
+              "score": 63.90939820691909,
+              "weighted_losses": {
+                "m1_to_1": 0.2019147740738409,
+                "m1_to_2": 0.2946181452050778,
+                "m1_to_4": 0.3454447754213918,
+                "m1_to_12": 0.360906017930809
+              },
+              "train_wells": 64,
+              "effective_train_month_rows": 768,
+              "validation_wells": 17,
+              "well_overlap": 0,
+              "split_sha256": "9bf082f8d82d50570454e43a550e0d691f0b3f35e837729dc9294115afa264c1",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 2,
+              "score": 75.89470366975038,
+              "weighted_losses": {
+                "m1_to_1": 0.1110381388335932,
+                "m1_to_2": 0.17533788918223903,
+                "m1_to_4": 0.22401257229320626,
+                "m1_to_12": 0.2410529633024961
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "f71f42cab32f70a6da1489af11447e77ad69ad57808a431288b83db46a7971ac",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 3,
+              "score": 65.27782377948785,
+              "weighted_losses": {
+                "m1_to_1": 0.17208958437619987,
+                "m1_to_2": 0.25722001835370134,
+                "m1_to_4": 0.3279791987714948,
+                "m1_to_12": 0.3472217622051216
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "820cdf810844dfea9634292094deb05d8f16fc1acb0bbed9e229b1db03310dd9",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 4,
+              "score": 79.40109211098435,
+              "weighted_losses": {
+                "m1_to_1": 0.09315127989529895,
+                "m1_to_2": 0.14120405431396338,
+                "m1_to_4": 0.18889612281994841,
+                "m1_to_12": 0.2059890788901565
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "098c8f433fffee46fd91039813818182f37b2cbaa2f3311b617e966f3ec45fda",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 5,
+              "score": 77.58386839859224,
+              "weighted_losses": {
+                "m1_to_1": 0.11448936800217832,
+                "m1_to_2": 0.1718775740205468,
+                "m1_to_4": 0.21214960018284565,
+                "m1_to_12": 0.22416131601407757
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "f893dcf8c54e810d2d8d3a1f0223a3a8542c9734a175cce2838d8b1ab7f0f3f4",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            }
+          ]
+        },
+        "repeat_5": {
+          "score": 72.42917858211703,
+          "weighted_losses": {
+            "m1_to_1": 0.13760810887400318,
+            "m1_to_2": 0.20852116886577374,
+            "m1_to_4": 0.25982368999064825,
+            "m1_to_12": 0.2757082141788298
+          },
+          "fold_scores": [
+            66.27086589069388,
+            71.8231388219443,
+            80.54051648337037,
+            72.65381401973316,
+            71.24245223805737
+          ],
+          "worst_fold": 66.27086589069388,
+          "fold_std_population": 4.593801338286225,
+          "folds": [
+            {
+              "fold": 1,
+              "score": 66.27086589069388,
+              "weighted_losses": {
+                "m1_to_1": 0.1800953303133218,
+                "m1_to_2": 0.27014568429474256,
+                "m1_to_4": 0.3205468425995801,
+                "m1_to_12": 0.3372913410930612
+              },
+              "train_wells": 64,
+              "effective_train_month_rows": 768,
+              "validation_wells": 17,
+              "well_overlap": 0,
+              "split_sha256": "7ae279c00c08508333818404c9209a1794b3633d2b3be5fb56d6bf16f89e5ed4",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 2,
+              "score": 71.8231388219443,
+              "weighted_losses": {
+                "m1_to_1": 0.12514072428746253,
+                "m1_to_2": 0.19465936581422755,
+                "m1_to_4": 0.26161357363219473,
+                "m1_to_12": 0.281768611780557
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "9ce329b8dcbb631550392a704f998e7bad985758b5c540dc8890c013d0f5a47d",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 3,
+              "score": 80.54051648337037,
+              "weighted_losses": {
+                "m1_to_1": 0.09025598745130894,
+                "m1_to_2": 0.13860708001605346,
+                "m1_to_4": 0.18200623109195346,
+                "m1_to_12": 0.19459483516629644
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "f4c5ff387b44f407a73dde55c06322c7781337842df3336bbd2ec40c5570544f",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 4,
+              "score": 72.65381401973316,
+              "weighted_losses": {
+                "m1_to_1": 0.1365269796447176,
+                "m1_to_2": 0.21511033800098728,
+                "m1_to_4": 0.26062823861051126,
+                "m1_to_12": 0.27346185980266835
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "05047d121cbe771dfa61295eee079febab1fd241734a5a1864e0fe7c353067ec",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 5,
+              "score": 71.24245223805737,
+              "weighted_losses": {
+                "m1_to_1": 0.15336607133324764,
+                "m1_to_2": 0.2202318439885472,
+                "m1_to_4": 0.2705283669809434,
+                "m1_to_12": 0.2875754776194263
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "42b1dc3a1591d4063d357bf9517fcf89d665c7296f1654acc546c84d7ee194de",
+              "training_sample_weight": "none",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            }
+          ]
+        },
+        "repeated_summary": {
+          "repeat_scores": [
+            72.72544757191915,
+            72.8214991495526,
+            72.09785488289351,
+            72.30838983776125,
+            72.42917858211703
+          ],
+          "mean": 72.47647400484871,
+          "sample_std": 0.29785557377892413,
+          "standard_error": 0.13320506208937566,
+          "weighted_loss_means": {
+            "m1_to_1": 0.13834157197697056,
+            "m1_to_2": 0.20788444414380608,
+            "m1_to_4": 0.25924302294154244,
+            "m1_to_12": 0.27523525995151293
+          },
+          "SE_interpretation": "split variability from the same81 wells; not independent data replicates or significance evidence"
+        }
+      },
+      "error_budget": {
+        "fixed": {
+          "wells": 81,
+          "total_weighted_loss": 0.2628589266138566,
+          "horizon_buckets": {
+            "month1": {
+              "weighted_loss": 0.13285967837214752,
+              "fraction_of_total_loss": 0.5054409986514181
+            },
+            "month2": {
+              "weighted_loss": 0.06530901714475737,
+              "fraction_of_total_loss": 0.24845653136481538
+            },
+            "months3_4": {
+              "weighted_loss": 0.04936375251955844,
+              "fraction_of_total_loss": 0.18779561019844868
+            },
+            "months5_12": {
+              "weighted_loss": 0.015326478577393287,
+              "fraction_of_total_loss": 0.05830685978531783
+            }
+          },
+          "direction_contributions": {
+            "month1": {
+              "over_prediction": 0.07266210739744906,
+              "under_prediction": 0.06019757097469847
+            },
+            "month2": {
+              "over_prediction": 0.033698594030682635,
+              "under_prediction": 0.03161042311407473
+            },
+            "full": {
+              "over_prediction": 0.14161535719506235,
+              "under_prediction": 0.12124356941879424
+            }
+          },
+          "groups": {
+            "production_tertile": [
+              {
+                "group": "high",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.2676808803409361,
+                "contribution_to_total_loss": 0.09253166234007669,
+                "fraction_of_total_loss": 0.3520202396474325
+              },
+              {
+                "group": "low",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.2566459487381825,
+                "contribution_to_total_loss": 0.0887171180823347,
+                "fraction_of_total_loss": 0.33750848497019603
+              },
+              {
+                "group": "middle",
+                "status": "REPORTED",
+                "wells": 25,
+                "group_mean_weighted_loss": 0.26441687366028255,
+                "contribution_to_total_loss": 0.08161014619144523,
+                "fraction_of_total_loss": 0.31047127538237135
+              }
+            ],
+            "M_anomaly": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2628589266138566,
+                "contribution_to_total_loss": 0.2628589266138566,
+                "fraction_of_total_loss": 0.9999999999999998
+              }
+            ],
+            "M_operating_fraction": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2628589266138566,
+                "contribution_to_total_loss": 0.2628589266138566,
+                "fraction_of_total_loss": 0.9999999999999998
+              }
+            ],
+            "scale_fallback": [
+              {
+                "group": "fallback",
+                "status": "REPORTED",
+                "wells": 14,
+                "group_mean_weighted_loss": 0.29052769375975657,
+                "contribution_to_total_loss": 0.050214663118970264,
+                "fraction_of_total_loss": 0.19103274812019716
+              },
+              {
+                "group": "positive_raw_scale",
+                "status": "REPORTED",
+                "wells": 67,
+                "group_mean_weighted_loss": 0.25707739318038497,
+                "contribution_to_total_loss": 0.21264426349488633,
+                "fraction_of_total_loss": 0.8089672518798027
+              }
+            ]
+          },
+          "cutpoint_evidence": [
+            {
+              "fold": 1,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 64,
+              "validation_wells": 17,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 2,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 3,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 4,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 5,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            }
+          ],
+          "group_members_vary_across_repeat_splits": true,
+          "top10pct_wells": 9,
+          "top10pct_loss_fraction": 0.2945680802224715,
+          "fits": {
+            "model": 0,
+            "preprocessor": 0
+          },
+          "scope": "training OOF only; no test features or distributions"
+        },
+        "repeat_1": {
+          "wells": 81,
+          "total_weighted_loss": 0.2727455242808085,
+          "horizon_buckets": {
+            "month1": {
+              "weighted_loss": 0.13658153816664492,
+              "fraction_of_total_loss": 0.5007654608697656
+            },
+            "month2": {
+              "weighted_loss": 0.06878036461914762,
+              "fraction_of_total_loss": 0.25217779393635054
+            },
+            "months3_4": {
+              "weighted_loss": 0.051526271924472636,
+              "fraction_of_total_loss": 0.18891702094962018
+            },
+            "months5_12": {
+              "weighted_loss": 0.015857349570543328,
+              "fraction_of_total_loss": 0.05813972424426367
+            }
+          },
+          "direction_contributions": {
+            "month1": {
+              "over_prediction": 0.07324530208987673,
+              "under_prediction": 0.06333623607676821
+            },
+            "month2": {
+              "over_prediction": 0.03457581909528259,
+              "under_prediction": 0.03420454552386502
+            },
+            "full": {
+              "over_prediction": 0.14338339642731618,
+              "under_prediction": 0.12936212785349233
+            }
+          },
+          "groups": {
+            "production_tertile": [
+              {
+                "group": "high",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.27344821209237513,
+                "contribution_to_total_loss": 0.094525307883784,
+                "fraction_of_total_loss": 0.3465696023171559
+              },
+              {
+                "group": "low",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.261306649612244,
+                "contribution_to_total_loss": 0.09032822455731891,
+                "fraction_of_total_loss": 0.33118132660655647
+              },
+              {
+                "group": "middle",
+                "status": "REPORTED",
+                "wells": 25,
+                "group_mean_weighted_loss": 0.28477005356064616,
+                "contribution_to_total_loss": 0.0878919918397056,
+                "fraction_of_total_loss": 0.3222490710762877
+              }
+            ],
+            "M_anomaly": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2727455242808085,
+                "contribution_to_total_loss": 0.2727455242808085,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "M_operating_fraction": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2727455242808085,
+                "contribution_to_total_loss": 0.2727455242808085,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "scale_fallback": [
+              {
+                "group": "fallback",
+                "status": "REPORTED",
+                "wells": 14,
+                "group_mean_weighted_loss": 0.30269454411909297,
+                "contribution_to_total_loss": 0.0523175755267568,
+                "fraction_of_total_loss": 0.19181827333266377
+              },
+              {
+                "group": "positive_raw_scale",
+                "status": "REPORTED",
+                "wells": 67,
+                "group_mean_weighted_loss": 0.26648752013549537,
+                "contribution_to_total_loss": 0.22042794875405172,
+                "fraction_of_total_loss": 0.8081817266673363
+              }
+            ]
+          },
+          "cutpoint_evidence": [
+            {
+              "fold": 1,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 64,
+              "validation_wells": 17,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 2,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 3,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 4,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 5,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            }
+          ],
+          "group_members_vary_across_repeat_splits": true,
+          "top10pct_wells": 9,
+          "top10pct_loss_fraction": 0.28951894741701145,
+          "fits": {
+            "model": 0,
+            "preprocessor": 0
+          },
+          "scope": "training OOF only; no test features or distributions"
+        },
+        "repeat_2": {
+          "wells": 81,
+          "total_weighted_loss": 0.27178500850447407,
+          "horizon_buckets": {
+            "month1": {
+              "weighted_loss": 0.13727835754514137,
+              "fraction_of_total_loss": 0.5050990792337301
+            },
+            "month2": {
+              "weighted_loss": 0.06798058879429264,
+              "fraction_of_total_loss": 0.25012633760913844
+            },
+            "months3_4": {
+              "weighted_loss": 0.05054342810396256,
+              "fraction_of_total_loss": 0.1859684181334473
+            },
+            "months5_12": {
+              "weighted_loss": 0.015982634061077527,
+              "fraction_of_total_loss": 0.05880616502368424
+            }
+          },
+          "direction_contributions": {
+            "month1": {
+              "over_prediction": 0.07340278598772178,
+              "under_prediction": 0.06387557155741956
+            },
+            "month2": {
+              "over_prediction": 0.03447648268353246,
+              "under_prediction": 0.03350410611076017
+            },
+            "full": {
+              "over_prediction": 0.14325488878790446,
+              "under_prediction": 0.12853011971656958
+            }
+          },
+          "groups": {
+            "production_tertile": [
+              {
+                "group": "high",
+                "status": "REPORTED",
+                "wells": 29,
+                "group_mean_weighted_loss": 0.23589578820711807,
+                "contribution_to_total_loss": 0.0844565167655114,
+                "fraction_of_total_loss": 0.3107475177907802
+              },
+              {
+                "group": "low",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.2673884023858793,
+                "contribution_to_total_loss": 0.09243055884943975,
+                "fraction_of_total_loss": 0.34008703923019423
+              },
+              {
+                "group": "middle",
+                "status": "REPORTED",
+                "wells": 24,
+                "group_mean_weighted_loss": 0.3202805235021398,
+                "contribution_to_total_loss": 0.09489793288952292,
+                "fraction_of_total_loss": 0.3491654429790255
+              }
+            ],
+            "M_anomaly": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.27178500850447407,
+                "contribution_to_total_loss": 0.27178500850447407,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "M_operating_fraction": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.27178500850447407,
+                "contribution_to_total_loss": 0.27178500850447407,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "scale_fallback": [
+              {
+                "group": "fallback",
+                "status": "REPORTED",
+                "wells": 14,
+                "group_mean_weighted_loss": 0.3112271984671572,
+                "contribution_to_total_loss": 0.053792355290619764,
+                "fraction_of_total_loss": 0.19792245196531597
+              },
+              {
+                "group": "positive_raw_scale",
+                "status": "REPORTED",
+                "wells": 67,
+                "group_mean_weighted_loss": 0.2635433568704806,
+                "contribution_to_total_loss": 0.2179926532138543,
+                "fraction_of_total_loss": 0.802077548034684
+              }
+            ]
+          },
+          "cutpoint_evidence": [
+            {
+              "fold": 1,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 64,
+              "validation_wells": 17,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 2,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 3,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 4,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 5,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            }
+          ],
+          "group_members_vary_across_repeat_splits": true,
+          "top10pct_wells": 9,
+          "top10pct_loss_fraction": 0.2843691168783731,
+          "fits": {
+            "model": 0,
+            "preprocessor": 0
+          },
+          "scope": "training OOF only; no test features or distributions"
+        },
+        "repeat_3": {
+          "wells": 81,
+          "total_weighted_loss": 0.2790214511710648,
+          "horizon_buckets": {
+            "month1": {
+              "weighted_loss": 0.14092078002780878,
+              "fraction_of_total_loss": 0.5050535700260977
+            },
+            "month2": {
+              "weighted_loss": 0.07023916291733848,
+              "fraction_of_total_loss": 0.25173391731188316
+            },
+            "months3_4": {
+              "weighted_loss": 0.05178585746709975,
+              "fraction_of_total_loss": 0.18559812247320887
+            },
+            "months5_12": {
+              "weighted_loss": 0.016075650758817783,
+              "fraction_of_total_loss": 0.05761439018881021
+            }
+          },
+          "direction_contributions": {
+            "month1": {
+              "over_prediction": 0.07344578081484641,
+              "under_prediction": 0.06747499921296235
+            },
+            "month2": {
+              "over_prediction": 0.03439013968275185,
+              "under_prediction": 0.03584902323458663
+            },
+            "full": {
+              "over_prediction": 0.14250676738279452,
+              "under_prediction": 0.13651468378827025
+            }
+          },
+          "groups": {
+            "production_tertile": [
+              {
+                "group": "high",
+                "status": "REPORTED",
+                "wells": 27,
+                "group_mean_weighted_loss": 0.26903447453245705,
+                "contribution_to_total_loss": 0.08967815817748569,
+                "fraction_of_total_loss": 0.32140237892499907
+              },
+              {
+                "group": "low",
+                "status": "REPORTED",
+                "wells": 27,
+                "group_mean_weighted_loss": 0.27949313320173413,
+                "contribution_to_total_loss": 0.09316437773391138,
+                "fraction_of_total_loss": 0.33389682887425526
+              },
+              {
+                "group": "middle",
+                "status": "REPORTED",
+                "wells": 27,
+                "group_mean_weighted_loss": 0.2885367457790032,
+                "contribution_to_total_loss": 0.09617891525966772,
+                "fraction_of_total_loss": 0.34470079220074573
+              }
+            ],
+            "M_anomaly": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2790214511710648,
+                "contribution_to_total_loss": 0.2790214511710648,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "M_operating_fraction": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2790214511710648,
+                "contribution_to_total_loss": 0.2790214511710648,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "scale_fallback": [
+              {
+                "group": "fallback",
+                "status": "REPORTED",
+                "wells": 14,
+                "group_mean_weighted_loss": 0.30003629986424646,
+                "contribution_to_total_loss": 0.05185812590246235,
+                "fraction_of_total_loss": 0.18585712920928343
+              },
+              {
+                "group": "positive_raw_scale",
+                "status": "REPORTED",
+                "wells": 67,
+                "group_mean_weighted_loss": 0.2746302887575641,
+                "contribution_to_total_loss": 0.22716332526860242,
+                "fraction_of_total_loss": 0.8141428707907165
+              }
+            ]
+          },
+          "cutpoint_evidence": [
+            {
+              "fold": 1,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 64,
+              "validation_wells": 17,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 2,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 3,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 4,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 5,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            }
+          ],
+          "group_members_vary_across_repeat_splits": true,
+          "top10pct_wells": 9,
+          "top10pct_loss_fraction": 0.2757938199929517,
+          "fits": {
+            "model": 0,
+            "preprocessor": 0
+          },
+          "scope": "training OOF only; no test features or distributions"
+        },
+        "repeat_4": {
+          "wells": 81,
+          "total_weighted_loss": 0.2769161016223874,
+          "horizon_buckets": {
+            "month1": {
+              "weighted_loss": 0.1393190752712546,
+              "fraction_of_total_loss": 0.5031093333143734
+            },
+            "month2": {
+              "weighted_loss": 0.0698011845116285,
+              "fraction_of_total_loss": 0.2520661821493207
+            },
+            "months3_4": {
+              "weighted_loss": 0.05163481536827225,
+              "fraction_of_total_loss": 0.18646375225476527
+            },
+            "months5_12": {
+              "weighted_loss": 0.016161026471232073,
+              "fraction_of_total_loss": 0.05836073228154071
+            }
+          },
+          "direction_contributions": {
+            "month1": {
+              "over_prediction": 0.07599553880052687,
+              "under_prediction": 0.06332353647072769
+            },
+            "month2": {
+              "over_prediction": 0.036031954091413576,
+              "under_prediction": 0.03376923042021494
+            },
+            "full": {
+              "over_prediction": 0.148949361855306,
+              "under_prediction": 0.12796673976708142
+            }
+          },
+          "groups": {
+            "production_tertile": [
+              {
+                "group": "high",
+                "status": "REPORTED",
+                "wells": 27,
+                "group_mean_weighted_loss": 0.2845023031986366,
+                "contribution_to_total_loss": 0.0948341010662122,
+                "fraction_of_total_loss": 0.34246510228405336
+              },
+              {
+                "group": "low",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.2685647421929946,
+                "contribution_to_total_loss": 0.09283719483214628,
+                "fraction_of_total_loss": 0.33525387035363646
+              },
+              {
+                "group": "middle",
+                "status": "REPORTED",
+                "wells": 26,
+                "group_mean_weighted_loss": 0.27803189475562856,
+                "contribution_to_total_loss": 0.08924480572402893,
+                "fraction_of_total_loss": 0.3222810273623103
+              }
+            ],
+            "M_anomaly": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2769161016223874,
+                "contribution_to_total_loss": 0.2769161016223874,
+                "fraction_of_total_loss": 1.0000000000000002
+              }
+            ],
+            "M_operating_fraction": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2769161016223874,
+                "contribution_to_total_loss": 0.2769161016223874,
+                "fraction_of_total_loss": 1.0000000000000002
+              }
+            ],
+            "scale_fallback": [
+              {
+                "group": "fallback",
+                "status": "REPORTED",
+                "wells": 14,
+                "group_mean_weighted_loss": 0.3117520956581505,
+                "contribution_to_total_loss": 0.05388307826190255,
+                "fraction_of_total_loss": 0.19458268387505842
+              },
+              {
+                "group": "positive_raw_scale",
+                "status": "REPORTED",
+                "wells": 67,
+                "group_mean_weighted_loss": 0.2696369386895414,
+                "contribution_to_total_loss": 0.2230330233604849,
+                "fraction_of_total_loss": 0.8054173161249418
+              }
+            ]
+          },
+          "cutpoint_evidence": [
+            {
+              "fold": 1,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 64,
+              "validation_wells": 17,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 2,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 3,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 4,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 5,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            }
+          ],
+          "group_members_vary_across_repeat_splits": true,
+          "top10pct_wells": 9,
+          "top10pct_loss_fraction": 0.27938412023351467,
+          "fits": {
+            "model": 0,
+            "preprocessor": 0
+          },
+          "scope": "training OOF only; no test features or distributions"
+        },
+        "repeat_5": {
+          "wells": 81,
+          "total_weighted_loss": 0.2757082141788298,
+          "horizon_buckets": {
+            "month1": {
+              "weighted_loss": 0.13760810887400318,
+              "fraction_of_total_loss": 0.49910775884518205
+            },
+            "month2": {
+              "weighted_loss": 0.07091305999177054,
+              "fraction_of_total_loss": 0.25720329081590193
+            },
+            "months3_4": {
+              "weighted_loss": 0.051302521124874524,
+              "fraction_of_total_loss": 0.1860754177298421
+            },
+            "months5_12": {
+              "weighted_loss": 0.015884524188181506,
+              "fraction_of_total_loss": 0.05761353260907377
+            }
+          },
+          "direction_contributions": {
+            "month1": {
+              "over_prediction": 0.07324465565883598,
+              "under_prediction": 0.06436345321516722
+            },
+            "month2": {
+              "over_prediction": 0.03544636121626436,
+              "under_prediction": 0.03546669877550618
+            },
+            "full": {
+              "over_prediction": 0.14384072840534884,
+              "under_prediction": 0.13186748577348095
+            }
+          },
+          "groups": {
+            "production_tertile": [
+              {
+                "group": "high",
+                "status": "REPORTED",
+                "wells": 27,
+                "group_mean_weighted_loss": 0.28195948428315626,
+                "contribution_to_total_loss": 0.09398649476105209,
+                "fraction_of_total_loss": 0.3408911665580286
+              },
+              {
+                "group": "low",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.26851543254397586,
+                "contribution_to_total_loss": 0.09282014952137436,
+                "fraction_of_total_loss": 0.33666080569209805
+              },
+              {
+                "group": "middle",
+                "status": "REPORTED",
+                "wells": 26,
+                "group_mean_weighted_loss": 0.27696258313879496,
+                "contribution_to_total_loss": 0.08890156989640333,
+                "fraction_of_total_loss": 0.32244802774987336
+              }
+            ],
+            "M_anomaly": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2757082141788298,
+                "contribution_to_total_loss": 0.2757082141788298,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "M_operating_fraction": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2757082141788298,
+                "contribution_to_total_loss": 0.2757082141788298,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "scale_fallback": [
+              {
+                "group": "fallback",
+                "status": "REPORTED",
+                "wells": 14,
+                "group_mean_weighted_loss": 0.3070220678332614,
+                "contribution_to_total_loss": 0.05306554258846493,
+                "fraction_of_total_loss": 0.1924699369096257
+              },
+              {
+                "group": "positive_raw_scale",
+                "status": "REPORTED",
+                "wells": 67,
+                "group_mean_weighted_loss": 0.2691650208779037,
+                "contribution_to_total_loss": 0.22264267159036483,
+                "fraction_of_total_loss": 0.8075300630903742
+              }
+            ]
+          },
+          "cutpoint_evidence": [
+            {
+              "fold": 1,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 64,
+              "validation_wells": 17,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 2,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 3,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 4,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 5,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            }
+          ],
+          "group_members_vary_across_repeat_splits": true,
+          "top10pct_wells": 9,
+          "top10pct_loss_fraction": 0.2877828161360763,
+          "fits": {
+            "model": 0,
+            "preprocessor": 0
+          },
+          "scope": "training OOF only; no test features or distributions"
+        }
+      },
+      "upload_eligible": false,
+      "review": "PENDING_CODEX_INCREMENTAL"
+    },
+    {
+      "config": {
+        "schema": "A2B035-R15-v1",
+        "variant": "B0_W",
+        "base": {
+          "schema": "A2B035-v1",
+          "purpose": "pipeline_benchmark",
+          "cutoff": "M_minus_1",
+          "target": {
+            "transform": "log_ratio",
+            "scale": "last_legal"
+          },
+          "features": "base325",
+          "learner": {
+            "name": "ExtraTrees",
+            "n_estimators": 400,
+            "min_samples_leaf": 6,
+            "max_features": 0.75,
+            "random_state": 20260916,
+            "n_jobs": -1
+          },
+          "evaluation": {
+            "fixed": {
+              "method": "GroupKFold",
+              "n_splits": 5,
+              "shuffle": false
+            },
+            "repeated": {
+              "method": "GroupKFold",
+              "n_splits": 5,
+              "shuffle": true,
+              "seeds": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            "inner": {
+              "method": "GroupKFold",
+              "n_splits": 5,
+              "shuffle": true,
+              "seed": 20260916
+            }
+          },
+          "fusion": null,
+          "variant": "B0",
+          "split_fingerprints": {
+            "fixed": [
+              "7169bea57c5945945197313c63aa934f1aa2dc1f9e0d2d1eff350c7c75cd7009",
+              "cedbd47320ee1b419307e6ec9e995e5fbba6a2ba258c7a0278313e95c9cf61ed",
+              "0060232297d5fa1d968363dd3fa4ceac8c990578bccef3eb2914a225475bde90",
+              "97f8ba3f9d7afdb62df08fce16c6516507ba5ddc4b21dabe08da9fcceec7ff16",
+              "ff980b9e9f71c3050be0c8dfcc9dda8a08b894fed634d2a9ee34c8756af74bc5"
+            ],
+            "repeat_1": [
+              "9424901a374f6ec20f4c871fb57b8f218c59eeb972d002ee8caa684bce157de6",
+              "58e8b95f21fa193aab5e371529425b43bbfe29991fc5fe1f1e364bf7896aab42",
+              "c0fd57fa11a8f54056404a828257e615cf41957e44b5d74345d42ddb1f144e47",
+              "22a1fbee051838506dae373eaa3fe1eae2c5281b8952df1b02cf592b74e70ed7",
+              "b2f3e15f529607e100cc5ab103d196da90f33220fcca50919c4817581fd41b01"
+            ],
+            "repeat_2": [
+              "2d5b4442556a7356c1728447edd6d3f561f53685fe45cfbe9d1c3f86bc3d0879",
+              "f9484c73cb872afe41837406e9daa29efd02e888c3d1cbaeeb1e60316b539a7c",
+              "3d8f4abeca3fabae7994f4bf1d70eaf796873033156380453330cf28b802bbb4",
+              "d55f87be9e703460ec48cd89c96672f6103672502d273035904befef302b5238",
+              "280e7449e4aa5d470eff8b2c0b0469a4b6def8a3eb3b9a54e2e211708a4862fb"
+            ],
+            "repeat_3": [
+              "4f51e92d460565edad28e069da4035627bbac061b0f62e6630d0b3e51237f749",
+              "8435dddfc1dfcfbd2c87ec81e24d0bf598c3e67e04bc65dda42130150cd7f020",
+              "0ddb140ced9a5b88591e4a64642ca4605d27b7ca243e4ca30fcee58c3e190de2",
+              "63523409c784e2ea984de80c2abd1e97d43116ceabf31fb5fb9ab7b610f8d6d0",
+              "f1848775d35a140c29bf98ec922fc7cc018f34f826cebd4d62d5b02ea1268949"
+            ],
+            "repeat_4": [
+              "9bf082f8d82d50570454e43a550e0d691f0b3f35e837729dc9294115afa264c1",
+              "f71f42cab32f70a6da1489af11447e77ad69ad57808a431288b83db46a7971ac",
+              "820cdf810844dfea9634292094deb05d8f16fc1acb0bbed9e229b1db03310dd9",
+              "098c8f433fffee46fd91039813818182f37b2cbaa2f3311b617e966f3ec45fda",
+              "f893dcf8c54e810d2d8d3a1f0223a3a8542c9734a175cce2838d8b1ab7f0f3f4"
+            ],
+            "repeat_5": [
+              "7ae279c00c08508333818404c9209a1794b3633d2b3be5fb56d6bf16f89e5ed4",
+              "9ce329b8dcbb631550392a704f998e7bad985758b5c540dc8890c013d0f5a47d",
+              "f4c5ff387b44f407a73dde55c06322c7781337842df3336bbd2ec40c5570544f",
+              "05047d121cbe771dfa61295eee079febab1fd241734a5a1864e0fe7c353067ec",
+              "42b1dc3a1591d4063d357bf9517fcf89d665c7296f1654acc546c84d7ee194de"
+            ]
+          }
+        },
+        "W": true,
+        "HX": false,
+        "T": false
+      },
+      "results": {
+        "fixed": {
+          "score": 73.50993584318516,
+          "weighted_losses": {
+            "m1_to_1": 0.13474969129695566,
+            "m1_to_2": 0.19948554636698768,
+            "m1_to_4": 0.2490649063194621,
+            "m1_to_12": 0.2649006415681485
+          },
+          "fold_scores": [
+            72.23728076484522,
+            75.90564150936706,
+            74.79638648682936,
+            65.66605895302945,
+            79.02385244425092
+          ],
+          "worst_fold": 65.66605895302945,
+          "fold_std_population": 4.493159855715286,
+          "folds": [
+            {
+              "fold": 1,
+              "score": 72.23728076484522,
+              "weighted_losses": {
+                "m1_to_1": 0.15355527652372875,
+                "m1_to_2": 0.21334685938066203,
+                "m1_to_4": 0.26164906350647704,
+                "m1_to_12": 0.2776271923515477
+              },
+              "train_wells": 64,
+              "effective_train_month_rows": 768,
+              "validation_wells": 17,
+              "well_overlap": 0,
+              "split_sha256": "7169bea57c5945945197313c63aa934f1aa2dc1f9e0d2d1eff350c7c75cd7009",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 2,
+              "score": 75.90564150936706,
+              "weighted_losses": {
+                "m1_to_1": 0.11456572975257384,
+                "m1_to_2": 0.1812165040210721,
+                "m1_to_4": 0.2274655352502295,
+                "m1_to_12": 0.24094358490632947
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "cedbd47320ee1b419307e6ec9e995e5fbba6a2ba258c7a0278313e95c9cf61ed",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 3,
+              "score": 74.79638648682936,
+              "weighted_losses": {
+                "m1_to_1": 0.10480197015177617,
+                "m1_to_2": 0.17526624312891181,
+                "m1_to_4": 0.23379645306467572,
+                "m1_to_12": 0.2520361351317064
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "0060232297d5fa1d968363dd3fa4ceac8c990578bccef3eb2914a225475bde90",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 4,
+              "score": 65.66605895302945,
+              "weighted_losses": {
+                "m1_to_1": 0.19024844580255224,
+                "m1_to_2": 0.2720557030169989,
+                "m1_to_4": 0.3258766334241957,
+                "m1_to_12": 0.34333941046970556
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "97f8ba3f9d7afdb62df08fce16c6516507ba5ddc4b21dabe08da9fcceec7ff16",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 5,
+              "score": 79.02385244425092,
+              "weighted_losses": {
+                "m1_to_1": 0.10940168517747398,
+                "m1_to_2": 0.1546760902239387,
+                "m1_to_4": 0.1957503365275441,
+                "m1_to_12": 0.2097614755574908
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "ff980b9e9f71c3050be0c8dfcc9dda8a08b894fed634d2a9ee34c8756af74bc5",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            }
+          ]
+        },
+        "repeat_1": {
+          "score": 73.0888907125202,
+          "weighted_losses": {
+            "m1_to_1": 0.13356584148644637,
+            "m1_to_2": 0.2016608337511855,
+            "m1_to_4": 0.25281622096868517,
+            "m1_to_12": 0.2691110928747981
+          },
+          "fold_scores": [
+            77.46397373300448,
+            68.69316590579058,
+            73.34680467376461,
+            70.84149181500666,
+            74.82557474625435
+          ],
+          "worst_fold": 68.69316590579058,
+          "fold_std_population": 3.0522839540513096,
+          "folds": [
+            {
+              "fold": 1,
+              "score": 77.46397373300448,
+              "weighted_losses": {
+                "m1_to_1": 0.10292212211142049,
+                "m1_to_2": 0.15906027650831908,
+                "m1_to_4": 0.2123336647710625,
+                "m1_to_12": 0.2253602626699554
+              },
+              "train_wells": 64,
+              "effective_train_month_rows": 768,
+              "validation_wells": 17,
+              "well_overlap": 0,
+              "split_sha256": "9424901a374f6ec20f4c871fb57b8f218c59eeb972d002ee8caa684bce157de6",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 2,
+              "score": 68.69316590579058,
+              "weighted_losses": {
+                "m1_to_1": 0.1513648736535557,
+                "m1_to_2": 0.2354465580226915,
+                "m1_to_4": 0.2954027972719936,
+                "m1_to_12": 0.31306834094209424
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "58e8b95f21fa193aab5e371529425b43bbfe29991fc5fe1f1e364bf7896aab42",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 3,
+              "score": 73.34680467376461,
+              "weighted_losses": {
+                "m1_to_1": 0.1281239649213035,
+                "m1_to_2": 0.19961718760294925,
+                "m1_to_4": 0.2492952815265804,
+                "m1_to_12": 0.2665319532623537
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "c0fd57fa11a8f54056404a828257e615cf41957e44b5d74345d42ddb1f144e47",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 4,
+              "score": 70.84149181500666,
+              "weighted_losses": {
+                "m1_to_1": 0.14939060487237238,
+                "m1_to_2": 0.22442340821507195,
+                "m1_to_4": 0.27395222385712825,
+                "m1_to_12": 0.29158508184993326
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "22a1fbee051838506dae373eaa3fe1eae2c5281b8952df1b02cf592b74e70ed7",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 5,
+              "score": 74.82557474625435,
+              "weighted_losses": {
+                "m1_to_1": 0.1379428743345188,
+                "m1_to_2": 0.1924192732345747,
+                "m1_to_4": 0.23562729717901265,
+                "m1_to_12": 0.2517442525374565
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "b2f3e15f529607e100cc5ab103d196da90f33220fcca50919c4817581fd41b01",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            }
+          ]
+        },
+        "repeat_2": {
+          "score": 72.66204375845643,
+          "weighted_losses": {
+            "m1_to_1": 0.1388129016923686,
+            "m1_to_2": 0.20568310255094763,
+            "m1_to_4": 0.2568751199395688,
+            "m1_to_12": 0.27337956241543565
+          },
+          "fold_scores": [
+            72.16045975294855,
+            69.32973413230478,
+            70.23844797529276,
+            73.04058819727308,
+            78.57233773480726
+          ],
+          "worst_fold": 69.32973413230478,
+          "fold_std_population": 3.2343272780093377,
+          "folds": [
+            {
+              "fold": 1,
+              "score": 72.16045975294855,
+              "weighted_losses": {
+                "m1_to_1": 0.13877321666085138,
+                "m1_to_2": 0.2046661623944512,
+                "m1_to_4": 0.26072727233593135,
+                "m1_to_12": 0.27839540247051436
+              },
+              "train_wells": 64,
+              "effective_train_month_rows": 768,
+              "validation_wells": 17,
+              "well_overlap": 0,
+              "split_sha256": "2d5b4442556a7356c1728447edd6d3f561f53685fe45cfbe9d1c3f86bc3d0879",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 2,
+              "score": 69.32973413230478,
+              "weighted_losses": {
+                "m1_to_1": 0.15265071843978711,
+                "m1_to_2": 0.22755919835625513,
+                "m1_to_4": 0.28679845487360733,
+                "m1_to_12": 0.30670265867695223
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "f9484c73cb872afe41837406e9daa29efd02e888c3d1cbaeeb1e60316b539a7c",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 3,
+              "score": 70.23844797529276,
+              "weighted_losses": {
+                "m1_to_1": 0.17531512628329082,
+                "m1_to_2": 0.2386213795198212,
+                "m1_to_4": 0.28378896128868225,
+                "m1_to_12": 0.29761552024707255
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "3d8f4abeca3fabae7994f4bf1d70eaf796873033156380453330cf28b802bbb4",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 4,
+              "score": 73.04058819727308,
+              "weighted_losses": {
+                "m1_to_1": 0.13144157723186026,
+                "m1_to_2": 0.20573267621719388,
+                "m1_to_4": 0.2542951233608397,
+                "m1_to_12": 0.2695941180272692
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "d55f87be9e703460ec48cd89c96672f6103672502d273035904befef302b5238",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 5,
+              "score": 78.57233773480726,
+              "weighted_losses": {
+                "m1_to_1": 0.09588635016052331,
+                "m1_to_2": 0.15189965502679767,
+                "m1_to_4": 0.1985250283140106,
+                "m1_to_12": 0.21427662265192732
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "280e7449e4aa5d470eff8b2c0b0469a4b6def8a3eb3b9a54e2e211708a4862fb",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            }
+          ]
+        },
+        "repeat_3": {
+          "score": 71.99298811294159,
+          "weighted_losses": {
+            "m1_to_1": 0.14119009542411318,
+            "m1_to_2": 0.21048266944246366,
+            "m1_to_4": 0.26335572043131356,
+            "m1_to_12": 0.2800701188705841
+          },
+          "fold_scores": [
+            62.67405489464168,
+            74.75647291180302,
+            78.70635539259206,
+            71.14134912970724,
+            73.26914156210773
+          ],
+          "worst_fold": 62.67405489464168,
+          "fold_std_population": 5.326061878346059,
+          "folds": [
+            {
+              "fold": 1,
+              "score": 62.67405489464168,
+              "weighted_losses": {
+                "m1_to_1": 0.19442473931241872,
+                "m1_to_2": 0.2924421786765695,
+                "m1_to_4": 0.3567636213835731,
+                "m1_to_12": 0.37325945105358327
+              },
+              "train_wells": 64,
+              "effective_train_month_rows": 768,
+              "validation_wells": 17,
+              "well_overlap": 0,
+              "split_sha256": "4f51e92d460565edad28e069da4035627bbac061b0f62e6630d0b3e51237f749",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 2,
+              "score": 74.75647291180302,
+              "weighted_losses": {
+                "m1_to_1": 0.1263112706675925,
+                "m1_to_2": 0.17831555232855759,
+                "m1_to_4": 0.23518857114618372,
+                "m1_to_12": 0.2524352708819698
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "8435dddfc1dfcfbd2c87ec81e24d0bf598c3e67e04bc65dda42130150cd7f020",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 3,
+              "score": 78.70635539259206,
+              "weighted_losses": {
+                "m1_to_1": 0.11550368344402014,
+                "m1_to_2": 0.160855327142105,
+                "m1_to_4": 0.19832703444094643,
+                "m1_to_12": 0.21293644607407944
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "0ddb140ced9a5b88591e4a64642ca4605d27b7ca243e4ca30fcee58c3e190de2",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 4,
+              "score": 71.14134912970724,
+              "weighted_losses": {
+                "m1_to_1": 0.13944055764361776,
+                "m1_to_2": 0.21449989831958674,
+                "m1_to_4": 0.2695835303934791,
+                "m1_to_12": 0.2885865087029276
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "63523409c784e2ea984de80c2abd1e97d43116ceabf31fb5fb9ab7b610f8d6d0",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 5,
+              "score": 73.26914156210773,
+              "weighted_losses": {
+                "m1_to_1": 0.12694306080989765,
+                "m1_to_2": 0.2011779214183679,
+                "m1_to_4": 0.25107785098286894,
+                "m1_to_12": 0.2673085843789227
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "f1848775d35a140c29bf98ec922fc7cc018f34f826cebd4d62d5b02ea1268949",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            }
+          ]
+        },
+        "repeat_4": {
+          "score": 72.76356094171882,
+          "weighted_losses": {
+            "m1_to_1": 0.13479629222421965,
+            "m1_to_2": 0.20414974491510657,
+            "m1_to_4": 0.25585319821400543,
+            "m1_to_12": 0.2723643905828118
+          },
+          "fold_scores": [
+            64.36458516140777,
+            77.12239347458572,
+            64.77526520540485,
+            78.16819375742494,
+            79.91230309604023
+          ],
+          "worst_fold": 64.36458516140777,
+          "fold_std_population": 6.835415754470034,
+          "folds": [
+            {
+              "fold": 1,
+              "score": 64.36458516140777,
+              "weighted_losses": {
+                "m1_to_1": 0.20211256415524023,
+                "m1_to_2": 0.2898824605109807,
+                "m1_to_4": 0.3402421926167131,
+                "m1_to_12": 0.3563541483859222
+              },
+              "train_wells": 64,
+              "effective_train_month_rows": 768,
+              "validation_wells": 17,
+              "well_overlap": 0,
+              "split_sha256": "9bf082f8d82d50570454e43a550e0d691f0b3f35e837729dc9294115afa264c1",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 2,
+              "score": 77.12239347458572,
+              "weighted_losses": {
+                "m1_to_1": 0.09872653272418137,
+                "m1_to_2": 0.16342392580562828,
+                "m1_to_4": 0.21153230177696236,
+                "m1_to_12": 0.22877606525414282
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "f71f42cab32f70a6da1489af11447e77ad69ad57808a431288b83db46a7971ac",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 3,
+              "score": 64.77526520540485,
+              "weighted_losses": {
+                "m1_to_1": 0.1711959017402622,
+                "m1_to_2": 0.2597124756633862,
+                "m1_to_4": 0.3322083522471374,
+                "m1_to_12": 0.3522473479459515
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "820cdf810844dfea9634292094deb05d8f16fc1acb0bbed9e229b1db03310dd9",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 4,
+              "score": 78.16819375742494,
+              "weighted_losses": {
+                "m1_to_1": 0.09980056526657041,
+                "m1_to_2": 0.1515884315167573,
+                "m1_to_4": 0.2006058763269663,
+                "m1_to_12": 0.21831806242575047
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "098c8f433fffee46fd91039813818182f37b2cbaa2f3311b617e966f3ec45fda",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 5,
+              "score": 79.91230309604023,
+              "weighted_losses": {
+                "m1_to_1": 0.09793863023915522,
+                "m1_to_2": 0.15078313635403837,
+                "m1_to_4": 0.1894029559520789,
+                "m1_to_12": 0.20087696903959754
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "f893dcf8c54e810d2d8d3a1f0223a3a8542c9734a175cce2838d8b1ab7f0f3f4",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            }
+          ]
+        },
+        "repeat_5": {
+          "score": 72.88915118224344,
+          "weighted_losses": {
+            "m1_to_1": 0.13767182805907668,
+            "m1_to_2": 0.20562874802115697,
+            "m1_to_4": 0.25521638356536336,
+            "m1_to_12": 0.2711084881775656
+          },
+          "fold_scores": [
+            66.99838502096756,
+            69.95033957735231,
+            79.60923993395897,
+            73.33631724789728,
+            74.9196470161208
+          ],
+          "worst_fold": 66.99838502096756,
+          "fold_std_population": 4.307971518332345,
+          "folds": [
+            {
+              "fold": 1,
+              "score": 66.99838502096756,
+              "weighted_losses": {
+                "m1_to_1": 0.1762509174292724,
+                "m1_to_2": 0.2632913842251628,
+                "m1_to_4": 0.3136370505452782,
+                "m1_to_12": 0.3300161497903243
+              },
+              "train_wells": 64,
+              "effective_train_month_rows": 768,
+              "validation_wells": 17,
+              "well_overlap": 0,
+              "split_sha256": "7ae279c00c08508333818404c9209a1794b3633d2b3be5fb56d6bf16f89e5ed4",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 2,
+              "score": 69.95033957735231,
+              "weighted_losses": {
+                "m1_to_1": 0.13250734355813581,
+                "m1_to_2": 0.20857273150215438,
+                "m1_to_4": 0.27817827098276715,
+                "m1_to_12": 0.300496604226477
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "9ce329b8dcbb631550392a704f998e7bad985758b5c540dc8890c013d0f5a47d",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 3,
+              "score": 79.60923993395897,
+              "weighted_losses": {
+                "m1_to_1": 0.09815650007985162,
+                "m1_to_2": 0.14416759938358698,
+                "m1_to_4": 0.19072572039331553,
+                "m1_to_12": 0.20390760066041022
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "f4c5ff387b44f407a73dde55c06322c7781337842df3336bbd2ec40c5570544f",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 4,
+              "score": 73.33631724789728,
+              "weighted_losses": {
+                "m1_to_1": 0.139350018665994,
+                "m1_to_2": 0.2119513696818579,
+                "m1_to_4": 0.25354334478981216,
+                "m1_to_12": 0.26663682752102713
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "05047d121cbe771dfa61295eee079febab1fd241734a5a1864e0fe7c353067ec",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            },
+            {
+              "fold": 5,
+              "score": 74.9196470161208,
+              "weighted_losses": {
+                "m1_to_1": 0.1396831674764922,
+                "m1_to_2": 0.19655674055027253,
+                "m1_to_4": 0.23634623942939906,
+                "m1_to_12": 0.25080352983879195
+              },
+              "train_wells": 65,
+              "effective_train_month_rows": 780,
+              "validation_wells": 16,
+              "well_overlap": 0,
+              "split_sha256": "42b1dc3a1591d4063d357bf9517fcf89d665c7296f1654acc546c84d7ee194de",
+              "training_sample_weight": "2^-horizon unnormalized",
+              "preprocessor_fit_count": 1,
+              "model_fit_count": 1,
+              "T_late_horizons_unchanged": null,
+              "HX_measure_type_vocabulary_source": null
+            }
+          ]
+        },
+        "repeated_summary": {
+          "repeat_scores": [
+            73.0888907125202,
+            72.66204375845643,
+            71.99298811294159,
+            72.76356094171882,
+            72.88915118224344
+          ],
+          "mean": 72.6793269415761,
+          "sample_std": 0.4153985307303573,
+          "standard_error": 0.18577187049332286,
+          "weighted_loss_means": {
+            "m1_to_1": 0.1372073917772449,
+            "m1_to_2": 0.20552101973617204,
+            "m1_to_4": 0.25682332862378726,
+            "m1_to_12": 0.27320673058423905
+          },
+          "SE_interpretation": "split variability from the same81 wells; not independent data replicates or significance evidence"
+        }
+      },
+      "error_budget": {
+        "fixed": {
+          "wells": 81,
+          "total_weighted_loss": 0.2649006415681485,
+          "horizon_buckets": {
+            "month1": {
+              "weighted_loss": 0.13474969129695566,
+              "fraction_of_total_loss": 0.5086801243638734
+            },
+            "month2": {
+              "weighted_loss": 0.06473585507003199,
+              "fraction_of_total_loss": 0.2443778719704535
+            },
+            "months3_4": {
+              "weighted_loss": 0.04957935995247447,
+              "fraction_of_total_loss": 0.18716209843425258
+            },
+            "months5_12": {
+              "weighted_loss": 0.015835735248686384,
+              "fraction_of_total_loss": 0.059779905231420405
+            }
+          },
+          "direction_contributions": {
+            "month1": {
+              "over_prediction": 0.07931010036677162,
+              "under_prediction": 0.055439590930184045
+            },
+            "month2": {
+              "over_prediction": 0.03634511374397428,
+              "under_prediction": 0.028390741326057692
+            },
+            "full": {
+              "over_prediction": 0.1550463489755064,
+              "under_prediction": 0.10985429259264208
+            }
+          },
+          "groups": {
+            "production_tertile": [
+              {
+                "group": "high",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.27015297861950544,
+                "contribution_to_total_loss": 0.09338621483143397,
+                "fraction_of_total_loss": 0.35253298851452336
+              },
+              {
+                "group": "low",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.25251527890637293,
+                "contribution_to_total_loss": 0.08728923221454866,
+                "fraction_of_total_loss": 0.3295168773386779
+              },
+              {
+                "group": "middle",
+                "status": "REPORTED",
+                "wells": 25,
+                "group_mean_weighted_loss": 0.27288963025181734,
+                "contribution_to_total_loss": 0.08422519452216584,
+                "fraction_of_total_loss": 0.3179501341467986
+              }
+            ],
+            "M_anomaly": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2649006415681485,
+                "contribution_to_total_loss": 0.2649006415681485,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "M_operating_fraction": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2649006415681485,
+                "contribution_to_total_loss": 0.2649006415681485,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "scale_fallback": [
+              {
+                "group": "fallback",
+                "status": "REPORTED",
+                "wells": 14,
+                "group_mean_weighted_loss": 0.2975065027868905,
+                "contribution_to_total_loss": 0.05142087702489465,
+                "fraction_of_total_loss": 0.1941138259254313
+              },
+              {
+                "group": "positive_raw_scale",
+                "status": "REPORTED",
+                "wells": 67,
+                "group_mean_weighted_loss": 0.2580874765373666,
+                "contribution_to_total_loss": 0.21347976454325385,
+                "fraction_of_total_loss": 0.8058861740745686
+              }
+            ]
+          },
+          "cutpoint_evidence": [
+            {
+              "fold": 1,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 64,
+              "validation_wells": 17,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 2,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 3,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 4,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 5,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            }
+          ],
+          "group_members_vary_across_repeat_splits": true,
+          "top10pct_wells": 9,
+          "top10pct_loss_fraction": 0.28771892377795893,
+          "fits": {
+            "model": 0,
+            "preprocessor": 0
+          },
+          "scope": "training OOF only; no test features or distributions"
+        },
+        "repeat_1": {
+          "wells": 81,
+          "total_weighted_loss": 0.2691110928747981,
+          "horizon_buckets": {
+            "month1": {
+              "weighted_loss": 0.13356584148644637,
+              "fraction_of_total_loss": 0.49632231826499573
+            },
+            "month2": {
+              "weighted_loss": 0.06809499226473911,
+              "fraction_of_total_loss": 0.2530367348937927
+            },
+            "months3_4": {
+              "weighted_loss": 0.05115538721749972,
+              "fraction_of_total_loss": 0.19009022136928178
+            },
+            "months5_12": {
+              "weighted_loss": 0.016294871906112934,
+              "fraction_of_total_loss": 0.06055072547192991
+            }
+          },
+          "direction_contributions": {
+            "month1": {
+              "over_prediction": 0.07697832986470483,
+              "under_prediction": 0.056587511621741506
+            },
+            "month2": {
+              "over_prediction": 0.03697781341732543,
+              "under_prediction": 0.031117178847413697
+            },
+            "full": {
+              "over_prediction": 0.15280354476590416,
+              "under_prediction": 0.11630754810889397
+            }
+          },
+          "groups": {
+            "production_tertile": [
+              {
+                "group": "high",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.2649132142946375,
+                "contribution_to_total_loss": 0.0915749382746895,
+                "fraction_of_total_loss": 0.3402867466236111
+              },
+              {
+                "group": "low",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.265891566022406,
+                "contribution_to_total_loss": 0.0919131339336712,
+                "fraction_of_total_loss": 0.3415434605530478
+              },
+              {
+                "group": "middle",
+                "status": "REPORTED",
+                "wells": 25,
+                "group_mean_weighted_loss": 0.2774185869592573,
+                "contribution_to_total_loss": 0.08562302066643743,
+                "fraction_of_total_loss": 0.3181697928233411
+              }
+            ],
+            "M_anomaly": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2691110928747981,
+                "contribution_to_total_loss": 0.2691110928747981,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "M_operating_fraction": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2691110928747981,
+                "contribution_to_total_loss": 0.2691110928747981,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "scale_fallback": [
+              {
+                "group": "fallback",
+                "status": "REPORTED",
+                "wells": 14,
+                "group_mean_weighted_loss": 0.30778353718613827,
+                "contribution_to_total_loss": 0.05319715457538192,
+                "fraction_of_total_loss": 0.19767730124797006
+              },
+              {
+                "group": "positive_raw_scale",
+                "status": "REPORTED",
+                "wells": 67,
+                "group_mean_weighted_loss": 0.2610302836157121,
+                "contribution_to_total_loss": 0.2159139382994162,
+                "fraction_of_total_loss": 0.80232269875203
+              }
+            ]
+          },
+          "cutpoint_evidence": [
+            {
+              "fold": 1,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 64,
+              "validation_wells": 17,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 2,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 3,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 4,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 5,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            }
+          ],
+          "group_members_vary_across_repeat_splits": true,
+          "top10pct_wells": 9,
+          "top10pct_loss_fraction": 0.29072154379190657,
+          "fits": {
+            "model": 0,
+            "preprocessor": 0
+          },
+          "scope": "training OOF only; no test features or distributions"
+        },
+        "repeat_2": {
+          "wells": 81,
+          "total_weighted_loss": 0.2733795624154356,
+          "horizon_buckets": {
+            "month1": {
+              "weighted_loss": 0.1388129016923686,
+              "fraction_of_total_loss": 0.5077662004646288
+            },
+            "month2": {
+              "weighted_loss": 0.06687020085857899,
+              "fraction_of_total_loss": 0.24460570595603293
+            },
+            "months3_4": {
+              "weighted_loss": 0.051192017388621176,
+              "fraction_of_total_loss": 0.187256197706646
+            },
+            "months5_12": {
+              "weighted_loss": 0.016504442475866812,
+              "fraction_of_total_loss": 0.060371895872692115
+            }
+          },
+          "direction_contributions": {
+            "month1": {
+              "over_prediction": 0.07906506869432141,
+              "under_prediction": 0.0597478329980472
+            },
+            "month2": {
+              "over_prediction": 0.03646180468698379,
+              "under_prediction": 0.030408396171595197
+            },
+            "full": {
+              "over_prediction": 0.15469528142865552,
+              "under_prediction": 0.11868428098678006
+            }
+          },
+          "groups": {
+            "production_tertile": [
+              {
+                "group": "high",
+                "status": "REPORTED",
+                "wells": 29,
+                "group_mean_weighted_loss": 0.2329778932709259,
+                "contribution_to_total_loss": 0.08341183833156607,
+                "fraction_of_total_loss": 0.3051136580751819
+              },
+              {
+                "group": "low",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.26996550897171184,
+                "contribution_to_total_loss": 0.09332141050873989,
+                "fraction_of_total_loss": 0.3413620597099572
+              },
+              {
+                "group": "middle",
+                "status": "REPORTED",
+                "wells": 24,
+                "group_mean_weighted_loss": 0.32618130831606246,
+                "contribution_to_total_loss": 0.09664631357512961,
+                "fraction_of_total_loss": 0.3535242822148608
+              }
+            ],
+            "M_anomaly": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2733795624154356,
+                "contribution_to_total_loss": 0.2733795624154356,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "M_operating_fraction": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2733795624154356,
+                "contribution_to_total_loss": 0.2733795624154356,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "scale_fallback": [
+              {
+                "group": "fallback",
+                "status": "REPORTED",
+                "wells": 14,
+                "group_mean_weighted_loss": 0.3124702717099508,
+                "contribution_to_total_loss": 0.05400720745604087,
+                "fraction_of_total_loss": 0.1975539318991591
+              },
+              {
+                "group": "positive_raw_scale",
+                "status": "REPORTED",
+                "wells": 67,
+                "group_mean_weighted_loss": 0.2652113545031488,
+                "contribution_to_total_loss": 0.2193723549593947,
+                "fraction_of_total_loss": 0.8024460681008408
+              }
+            ]
+          },
+          "cutpoint_evidence": [
+            {
+              "fold": 1,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 64,
+              "validation_wells": 17,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 2,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 3,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 4,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 5,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            }
+          ],
+          "group_members_vary_across_repeat_splits": true,
+          "top10pct_wells": 9,
+          "top10pct_loss_fraction": 0.27930379314540443,
+          "fits": {
+            "model": 0,
+            "preprocessor": 0
+          },
+          "scope": "training OOF only; no test features or distributions"
+        },
+        "repeat_3": {
+          "wells": 81,
+          "total_weighted_loss": 0.28007011887058403,
+          "horizon_buckets": {
+            "month1": {
+              "weighted_loss": 0.14119009542411318,
+              "fraction_of_total_loss": 0.5041240957567305
+            },
+            "month2": {
+              "weighted_loss": 0.06929257401835048,
+              "fraction_of_total_loss": 0.24741152072124298
+            },
+            "months3_4": {
+              "weighted_loss": 0.05287305098884983,
+              "fraction_of_total_loss": 0.18878504855165085
+            },
+            "months5_12": {
+              "weighted_loss": 0.01671439843927055,
+              "fraction_of_total_loss": 0.05967933497037579
+            }
+          },
+          "direction_contributions": {
+            "month1": {
+              "over_prediction": 0.07955712400647937,
+              "under_prediction": 0.06163297141763381
+            },
+            "month2": {
+              "over_prediction": 0.0369845375417317,
+              "under_prediction": 0.032308036476618784
+            },
+            "full": {
+              "over_prediction": 0.156230604237778,
+              "under_prediction": 0.12383951463280607
+            }
+          },
+          "groups": {
+            "production_tertile": [
+              {
+                "group": "high",
+                "status": "REPORTED",
+                "wells": 27,
+                "group_mean_weighted_loss": 0.26914082702703535,
+                "contribution_to_total_loss": 0.08971360900901178,
+                "fraction_of_total_loss": 0.32032552908818884
+              },
+              {
+                "group": "low",
+                "status": "REPORTED",
+                "wells": 27,
+                "group_mean_weighted_loss": 0.2812291440253726,
+                "contribution_to_total_loss": 0.09374304800845754,
+                "fraction_of_total_loss": 0.33471277973704405
+              },
+              {
+                "group": "middle",
+                "status": "REPORTED",
+                "wells": 27,
+                "group_mean_weighted_loss": 0.2898403855593442,
+                "contribution_to_total_loss": 0.09661346185311473,
+                "fraction_of_total_loss": 0.34496169117476716
+              }
+            ],
+            "M_anomaly": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.28007011887058403,
+                "contribution_to_total_loss": 0.28007011887058403,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "M_operating_fraction": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.28007011887058403,
+                "contribution_to_total_loss": 0.28007011887058403,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "scale_fallback": [
+              {
+                "group": "fallback",
+                "status": "REPORTED",
+                "wells": 14,
+                "group_mean_weighted_loss": 0.31177723355666753,
+                "contribution_to_total_loss": 0.053887423083868465,
+                "fraction_of_total_loss": 0.19240689903362732
+              },
+              {
+                "group": "positive_raw_scale",
+                "status": "REPORTED",
+                "wells": 67,
+                "group_mean_weighted_loss": 0.27344475162274573,
+                "contribution_to_total_loss": 0.2261826957867156,
+                "fraction_of_total_loss": 0.8075931009663727
+              }
+            ]
+          },
+          "cutpoint_evidence": [
+            {
+              "fold": 1,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 64,
+              "validation_wells": 17,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 2,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 3,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 4,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 5,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            }
+          ],
+          "group_members_vary_across_repeat_splits": true,
+          "top10pct_wells": 9,
+          "top10pct_loss_fraction": 0.27108677804276643,
+          "fits": {
+            "model": 0,
+            "preprocessor": 0
+          },
+          "scope": "training OOF only; no test features or distributions"
+        },
+        "repeat_4": {
+          "wells": 81,
+          "total_weighted_loss": 0.27236439058281176,
+          "horizon_buckets": {
+            "month1": {
+              "weighted_loss": 0.13479629222421965,
+              "fraction_of_total_loss": 0.49491158493876297
+            },
+            "month2": {
+              "weighted_loss": 0.06935345269088691,
+              "fraction_of_total_loss": 0.2546348020843795
+            },
+            "months3_4": {
+              "weighted_loss": 0.05170345329889889,
+              "fraction_of_total_loss": 0.1898319130054506
+            },
+            "months5_12": {
+              "weighted_loss": 0.016511192368806313,
+              "fraction_of_total_loss": 0.060621699971406956
+            }
+          },
+          "direction_contributions": {
+            "month1": {
+              "over_prediction": 0.07761560878696667,
+              "under_prediction": 0.057180683437252994
+            },
+            "month2": {
+              "over_prediction": 0.03771124712437628,
+              "under_prediction": 0.03164220556651065
+            },
+            "full": {
+              "over_prediction": 0.1554303190572637,
+              "under_prediction": 0.11693407152554808
+            }
+          },
+          "groups": {
+            "production_tertile": [
+              {
+                "group": "high",
+                "status": "REPORTED",
+                "wells": 27,
+                "group_mean_weighted_loss": 0.2834818108762648,
+                "contribution_to_total_loss": 0.09449393695875492,
+                "fraction_of_total_loss": 0.34693939525851586
+              },
+              {
+                "group": "low",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.27517944157019386,
+                "contribution_to_total_loss": 0.0951237575798201,
+                "fraction_of_total_loss": 0.3492518143663055
+              },
+              {
+                "group": "middle",
+                "status": "REPORTED",
+                "wells": 26,
+                "group_mean_weighted_loss": 0.25778778383012224,
+                "contribution_to_total_loss": 0.08274669604423678,
+                "fraction_of_total_loss": 0.3038087903751788
+              }
+            ],
+            "M_anomaly": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.27236439058281176,
+                "contribution_to_total_loss": 0.27236439058281176,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "M_operating_fraction": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.27236439058281176,
+                "contribution_to_total_loss": 0.27236439058281176,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "scale_fallback": [
+              {
+                "group": "fallback",
+                "status": "REPORTED",
+                "wells": 14,
+                "group_mean_weighted_loss": 0.3178355403602072,
+                "contribution_to_total_loss": 0.05493453784003582,
+                "fraction_of_total_loss": 0.20169500764209886
+              },
+              {
+                "group": "positive_raw_scale",
+                "status": "REPORTED",
+                "wells": 67,
+                "group_mean_weighted_loss": 0.26286295630096795,
+                "contribution_to_total_loss": 0.21742985274277593,
+                "fraction_of_total_loss": 0.7983049923579012
+              }
+            ]
+          },
+          "cutpoint_evidence": [
+            {
+              "fold": 1,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 64,
+              "validation_wells": 17,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 2,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 3,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 4,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 5,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            }
+          ],
+          "group_members_vary_across_repeat_splits": true,
+          "top10pct_wells": 9,
+          "top10pct_loss_fraction": 0.2850988969272029,
+          "fits": {
+            "model": 0,
+            "preprocessor": 0
+          },
+          "scope": "training OOF only; no test features or distributions"
+        },
+        "repeat_5": {
+          "wells": 81,
+          "total_weighted_loss": 0.2711084881775656,
+          "horizon_buckets": {
+            "month1": {
+              "weighted_loss": 0.13767182805907668,
+              "fraction_of_total_loss": 0.5078108361140907
+            },
+            "month2": {
+              "weighted_loss": 0.06795691996208032,
+              "fraction_of_total_loss": 0.25066319545690935
+            },
+            "months3_4": {
+              "weighted_loss": 0.049587635544206365,
+              "fraction_of_total_loss": 0.1829069826531155
+            },
+            "months5_12": {
+              "weighted_loss": 0.015892104612202248,
+              "fraction_of_total_loss": 0.05861898577588442
+            }
+          },
+          "direction_contributions": {
+            "month1": {
+              "over_prediction": 0.07889840735125496,
+              "under_prediction": 0.058773420707821704
+            },
+            "month2": {
+              "over_prediction": 0.03692969095881357,
+              "under_prediction": 0.03102722900326675
+            },
+            "full": {
+              "over_prediction": 0.15388533688944717,
+              "under_prediction": 0.1172231512881184
+            }
+          },
+          "groups": {
+            "production_tertile": [
+              {
+                "group": "high",
+                "status": "REPORTED",
+                "wells": 27,
+                "group_mean_weighted_loss": 0.2718678455098926,
+                "contribution_to_total_loss": 0.09062261516996421,
+                "fraction_of_total_loss": 0.33426697843045733
+              },
+              {
+                "group": "low",
+                "status": "REPORTED",
+                "wells": 28,
+                "group_mean_weighted_loss": 0.2755265525647011,
+                "contribution_to_total_loss": 0.09524374656557569,
+                "fraction_of_total_loss": 0.3513123001268581
+              },
+              {
+                "group": "middle",
+                "status": "REPORTED",
+                "wells": 26,
+                "group_mean_weighted_loss": 0.265562009300157,
+                "contribution_to_total_loss": 0.0852421264420257,
+                "fraction_of_total_loss": 0.3144207214426846
+              }
+            ],
+            "M_anomaly": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2711084881775656,
+                "contribution_to_total_loss": 0.2711084881775656,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "M_operating_fraction": [
+              {
+                "group": "missing",
+                "status": "REPORTED",
+                "wells": 81,
+                "group_mean_weighted_loss": 0.2711084881775656,
+                "contribution_to_total_loss": 0.2711084881775656,
+                "fraction_of_total_loss": 1.0
+              }
+            ],
+            "scale_fallback": [
+              {
+                "group": "fallback",
+                "status": "REPORTED",
+                "wells": 14,
+                "group_mean_weighted_loss": 0.30812185146431625,
+                "contribution_to_total_loss": 0.053255628648153426,
+                "fraction_of_total_loss": 0.19643659630927177
+              },
+              {
+                "group": "positive_raw_scale",
+                "status": "REPORTED",
+                "wells": 67,
+                "group_mean_weighted_loss": 0.26337435256540875,
+                "contribution_to_total_loss": 0.2178528595294122,
+                "fraction_of_total_loss": 0.8035634036907283
+              }
+            ]
+          },
+          "cutpoint_evidence": [
+            {
+              "fold": 1,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 64,
+              "validation_wells": 17,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 2,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 3,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 4,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            },
+            {
+              "fold": 5,
+              "cutpoints_source": "outer training wells only; legal-history mean nonnegative finite RCYL tertiles",
+              "training_wells": 65,
+              "validation_wells": 16,
+              "outer_validation_used_for_cutpoints": 0
+            }
+          ],
+          "group_members_vary_across_repeat_splits": true,
+          "top10pct_wells": 9,
+          "top10pct_loss_fraction": 0.28732117765625637,
+          "fits": {
+            "model": 0,
+            "preprocessor": 0
+          },
+          "scope": "training OOF only; no test features or distributions"
+        }
+      },
+      "upload_eligible": false,
+      "review": "PENDING_CODEX_INCREMENTAL"
+    }
+  ],
+  "paired_error_and_blend": {
+    "fixed": [
+      {
+        "a": "B0_U",
+        "b": "B0_W",
+        "signed_row_error_Pearson": 0.8907456840096708,
+        "equal_blend_score": 73.78810786218517,
+        "equal_blend_gain_over_a": 0.07400052357083098,
+        "equal_blend_gain_over_b": 0.2781720190000101,
+        "equal_blend_gain_over_better_member": 0.07400052357083098,
+        "row_error_definition": "prediction minus observed RCYL; aligned row keys asserted by caller",
+        "fits_added": 0
+      }
+    ],
+    "repeat_1": [
+      {
+        "a": "B0_U",
+        "b": "B0_W",
+        "signed_row_error_Pearson": 0.9456538261365356,
+        "equal_blend_score": 73.13100997315561,
+        "equal_blend_gain_over_a": 0.40556240123646603,
+        "equal_blend_gain_over_b": 0.04211926063541682,
+        "equal_blend_gain_over_better_member": 0.04211926063541682,
+        "row_error_definition": "prediction minus observed RCYL; aligned row keys asserted by caller",
+        "fits_added": 0
+      }
+    ],
+    "repeat_2": [
+      {
+        "a": "B0_U",
+        "b": "B0_W",
+        "signed_row_error_Pearson": 0.8580405522644385,
+        "equal_blend_score": 72.82551270339272,
+        "equal_blend_gain_over_a": 0.004013553840124473,
+        "equal_blend_gain_over_b": 0.16346894493628383,
+        "equal_blend_gain_over_better_member": 0.004013553840124473,
+        "row_error_definition": "prediction minus observed RCYL; aligned row keys asserted by caller",
+        "fits_added": 0
+      }
+    ],
+    "repeat_3": [
+      {
+        "a": "B0_U",
+        "b": "B0_W",
+        "signed_row_error_Pearson": 0.9341804506523727,
+        "equal_blend_score": 72.37971535625029,
+        "equal_blend_gain_over_a": 0.28186047335677245,
+        "equal_blend_gain_over_b": 0.3867272433086981,
+        "equal_blend_gain_over_better_member": 0.28186047335677245,
+        "row_error_definition": "prediction minus observed RCYL; aligned row keys asserted by caller",
+        "fits_added": 0
+      }
+    ],
+    "repeat_4": [
+      {
+        "a": "B0_U",
+        "b": "B0_W",
+        "signed_row_error_Pearson": 0.8694376336991733,
+        "equal_blend_score": 72.72733437839557,
+        "equal_blend_gain_over_a": 0.41894454063431397,
+        "equal_blend_gain_over_b": -0.03622656332325391,
+        "equal_blend_gain_over_better_member": -0.03622656332325391,
+        "row_error_definition": "prediction minus observed RCYL; aligned row keys asserted by caller",
+        "fits_added": 0
+      }
+    ],
+    "repeat_5": [
+      {
+        "a": "B0_U",
+        "b": "B0_W",
+        "signed_row_error_Pearson": 0.8942094490183281,
+        "equal_blend_score": 73.00884695836882,
+        "equal_blend_gain_over_a": 0.5796683762517887,
+        "equal_blend_gain_over_b": 0.11969577612538274,
+        "equal_blend_gain_over_better_member": 0.11969577612538274,
+        "row_error_definition": "prediction minus observed RCYL; aligned row keys asserted by caller",
+        "fits_added": 0
+      }
+    ]
+  },
+  "delta_fixed": -0.20417149542917912,
+  "delta_repeated_mean": 0.20285293672738192,
+  "model_fits": 60,
+  "preprocessor_fits": 60,
+  "source_lock_sha256": "aafffd62ebc0974ce8fdc446484d554372bbcd2ed762598b85e548c75b174dac",
+  "upload_eligible": false
+}

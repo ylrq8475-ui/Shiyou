@@ -1,0 +1,106 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/B0_ARCHIVE_COMPARISON.json",
+      "sha256": "6a467a89645ba79a469163a024381aa9657fec5459a25f3ef0e065615ed9b33f",
+      "bytes": 653
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/B0_REPACK_RESULT.json",
+      "sha256": "86690bcb5940316ae050fd60c83839ffffdc26a2bb777c2b03f271ac1ec6d7e2",
+      "bytes": 8313
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/CLONED_ENV_IMPORT.json",
+      "sha256": "6e79c5188da5a180a5323b893e4e8fbd7255ec14f611be165e778d5f741dee92",
+      "bytes": 591
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/CORE_REPAIRED_SYNTHETIC.json",
+      "sha256": "b66790fba222204e4a52f87fbd9a465771525e9a5d0fda3ce490b67d3907bc6b",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/EXTERNAL_ADMISSION_EVIDENCE.json",
+      "sha256": "1ec1f85a03cb338b9f6ca8c1fef8efbd5c75b7376d4b4ac14b716d36e5d6bff3",
+      "bytes": 5078
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/EXTERNAL_SYNTHETIC_FITS.json",
+      "sha256": "32f4d2cb20cc71da4a9ff2d13b66cd360edec102892e897a517b3d5174ec71f9",
+      "bytes": 1591
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/PLAN_R15.json",
+      "sha256": "b093da6f3508143eba937331080ea8f9de43330d8ace73d077310cbf7e51940e",
+      "bytes": 2711
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "84bf0b60807369c340167611dc2313ceaea6ee5dab7500970ff6b39cc5a776c8",
+      "bytes": 2999
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": "499a61e3a138780c854a6650e463bda17e8b4db31329e2afbd870417d936922a",
+      "bytes": 21447
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/R15_INSTRUCTION_ORIGINAL.md",
+      "sha256": "f83584568f70028fb758b5339ba7224ae11035e53bc2fa6f8b2e84ee745f1f11",
+      "bytes": 6585
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/R15_W_INCREMENT_ANONYMOUS.zip",
+      "sha256": "7668056c0abe7aa085f7b5225f15f444eb9a29daa2d8772a33ff6f4d720c0df9",
+      "bytes": 131905
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/README.md",
+      "sha256": "9f90ea83fa5904c284678ff08fadfddd3635eb9dcbeb2048a073cb291b18ea03",
+      "bytes": 481
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/REPORT_B.md",
+      "sha256": "97b2350bff6c8b876e99da9eeaee91fa35a681aed59f5ef6ac191ef919fd7d82",
+      "bytes": 5462
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/REQUEST_CODEX_INCREMENT_REVIEW.md",
+      "sha256": "11bb649125f45664f4ffec4b47ac268f999c1e7908ea630b39a30dec5c1963e5",
+      "bytes": 1138
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/RESEARCH_ENVIRONMENT.json",
+      "sha256": "5854800326f7d2f9c3cf3fd992e9345af71d1e73943aa22440633e88cd3905ed",
+      "bytes": 709
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/RESEARCH_LOCK.json",
+      "sha256": "aafffd62ebc0974ce8fdc446484d554372bbcd2ed762598b85e548c75b174dac",
+      "bytes": 5720
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/RESULT_R15_W.json",
+      "sha256": "314c5f13d089dc430bb7b804df324faf69f3ff02ff4ae51a03a087372bda749b",
+      "bytes": 2712
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/SOURCE_BUNDLE_MANIFEST.json",
+      "sha256": "9586f8cb7982a3a5f9fb48239d056ddcc91d0076b77d190889bd31aaf04b0af5",
+      "bytes": 9915
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/SYNTHETIC_R15.json",
+      "sha256": "603691016f08246370e7641b5a9c54cae776f2f1e556eef4253710bbf0130a76",
+      "bytes": 545
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/W_RESULTS.json",
+      "sha256": "6088e10e6ed6153e07ff0e04949d0e5078c68c04d1e633a3b6ec63d81eb71082",
+      "bytes": 137565
+    }
+  ],
+  "self": "bound by Git and external byte receipt; final bytes privacy scanned"
+}

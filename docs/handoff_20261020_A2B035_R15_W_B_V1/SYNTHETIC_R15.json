@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": [
+    "A035-R14-01 official score identity",
+    "A035-R14-02 suppress entire9+1 dimension and complement",
+    "zero target does not create epsilon-scale blowup",
+    "negative and nonfinite budget predictions rejected",
+    "actual fit path passes exact unnormalized2^-horizon to estimator fit only, train rows only",
+    "HX months, per-type counts, last finite cumulative and no NCYL"
+  ],
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "fit_spies_only": true,
+  "old_official_metric_code_changed": false
+}

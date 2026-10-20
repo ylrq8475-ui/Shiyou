@@ -1,0 +1,65 @@
+{
+  "task": "A2B-035/R15",
+  "role": "账户B执行与交付",
+  "instruction_commits": {
+    "R15": "9482ad9bb2a0bc64519e6a9effc8adbfee14173a",
+    "R14": "0f2804776957cefa6c3bab573a403f0cfb86d33e",
+    "R13": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937"
+  },
+  "research_authorization": "R15 same-batch incremental evidence; new paths may be researched under explicit user approval; no platform upload before Codex review",
+  "sequence": [
+    "B0_U",
+    "B0_W",
+    "H12_unweighted_and_weighted",
+    "B0prime_T_base",
+    "T_B0prime_and_repeat_best_H",
+    "B0_HX",
+    "training_only_geology",
+    "TabPFN_v2_admission"
+  ],
+  "fixed_and_repeats": {
+    "fixed": {
+      "method": "GroupKFold",
+      "n_splits": 5,
+      "shuffle": false
+    },
+    "repeated": {
+      "method": "GroupKFold",
+      "n_splits": 5,
+      "shuffle": true,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "inner": {
+      "method": "GroupKFold",
+      "n_splits": 5,
+      "shuffle": true,
+      "seed": 20260916
+    }
+  },
+  "prespecified_H_ranking": "repeat mean descending, SE ascending, fixed score descending, lexical variant; exploratory selection, not independent confirmation",
+  "base_fixed_expected": 73.71410733861434,
+  "base_fixed_tolerance": 1e-09,
+  "planned_research_model_fits": 540,
+  "planned_preprocessor_pipeline_fits": 540,
+  "fit_cap_R13": null,
+  "training_weight": "2^-t by month row, t1..12, no normalization; preprocessing unweighted fit on train rows only",
+  "T": "B0prime original and best H of12; early heads inherit W and tree params; later10 months unchanged",
+  "HX": "only B0 initial, unweighted; per-type CSLB counts DictVectorizer fitted on outer train wells only; no NCYL",
+  "LJCYL_policy": "<=M-1 legal adjacent-month increments; tolerance absolute0.05+relative1e-6; enable only comparable>=65wells and inconsistent/decreasing0; otherwise disable before HX scores",
+  "geology": "fixed B0 same-run OOF; per-well early log((truth+eps)/(pred+eps)) mean; R8(a) numeric fields;kh=sum permeability*effective thickness; no model integration; each group>=5 with complement suppression; absSpearman>=0.2 for kh/effective thickness =>worth seeking approval",
+  "P1_repairs": [
+    "A035-R14-01 denominator addsabs(pred), finite/nonnegative checks and budget=1-score/100 assertion",
+    "A035-R14-02 suppress whole grouping dimension including complement counts when any group<5"
+  ],
+  "no_test_distributions": true,
+  "row_OOF_persisted": false,
+  "platform_uploads_by_B": 0,
+  "B0_repackage_upload": false,
+  "batches": "publish evidence after W, then H/T, then HX/geology; retain versions unreviewed=false for upload; no routine new authorization"
+}

@@ -1,0 +1,63 @@
+{
+  "R13_fit_cap": null,
+  "models_entered": 2,
+  "models_completed": 2,
+  "preprocessors_entered": 2,
+  "preprocessors_completed": 2,
+  "failures": 0,
+  "retries": 0,
+  "events": [
+    {
+      "sequence": 1,
+      "time": "2026-10-20T13:52:06.822198+08:00",
+      "stage": "synthetic-LightGBM",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 2,
+      "time": "2026-10-20T13:52:06.860047+08:00",
+      "stage": "synthetic-LightGBM",
+      "event": "preprocessor_completed",
+      "seconds": 0.03721189999487251
+    },
+    {
+      "sequence": 3,
+      "time": "2026-10-20T13:52:06.860538+08:00",
+      "stage": "synthetic-LightGBM",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 4,
+      "time": "2026-10-20T13:52:06.913058+08:00",
+      "stage": "synthetic-LightGBM",
+      "event": "model_completed",
+      "seconds": 0.052043900010176
+    },
+    {
+      "sequence": 5,
+      "time": "2026-10-20T13:52:07.016684+08:00",
+      "stage": "synthetic-CatBoost",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 6,
+      "time": "2026-10-20T13:52:07.020022+08:00",
+      "stage": "synthetic-CatBoost",
+      "event": "preprocessor_completed",
+      "seconds": 0.0027425999869592488
+    },
+    {
+      "sequence": 7,
+      "time": "2026-10-20T13:52:07.020582+08:00",
+      "stage": "synthetic-CatBoost",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 8,
+      "time": "2026-10-20T13:52:07.299653+08:00",
+      "stage": "synthetic-CatBoost",
+      "event": "model_completed",
+      "seconds": 0.27853589999722317
+    }
+  ]
+}

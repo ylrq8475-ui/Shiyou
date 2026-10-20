@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "H exact333 feature order and120 template rows",
+      "cases": 1,
+      "PASS": true
+    },
+    {
+      "name": "all dynamic window columns poisoned individually and invalid UTF8 together leave H unchanged",
+      "cases": 21,
+      "PASS": true
+    },
+    {
+      "name": "H scale T0-2 differs from M raw feature T0-1",
+      "cases": 1,
+      "PASS": true
+    },
+    {
+      "name": "fallback matches frozen training._target_scale incl missing calendar month",
+      "cases": 8,
+      "PASS": true
+    },
+    {
+      "name": "H per-well legal prefix mutation affects only its well",
+      "cases": 1,
+      "PASS": true
+    },
+    {
+      "name": "window keys fail before dynamic values enter feature flow",
+      "cases": 2,
+      "PASS": true
+    },
+    {
+      "name": "actual T evaluate routing: only early train rows reach fit; same base late outputs retained; outer well isolation",
+      "cases": 5,
+      "PASS": true
+    },
+    {
+      "name": "actual fit forwards only selected training month rows to both preprocessing and model recording spies",
+      "cases": 1,
+      "PASS": true
+    },
+    {
+      "name": "training-fold cutpoints, <5 suppression, additive error budgets and actual blend/correlation aggregates",
+      "cases": 5,
+      "PASS": true
+    },
+    {
+      "name": "unsafe boundary, unauthorized learner, scale override and T horizon change blocked",
+      "cases": 4,
+      "PASS": true
+    }
+  ],
+  "assertion_case_count": 49,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "fit_spies_only": true,
+  "real_test_data_read": false,
+  "synthetic_test_wells": 10,
+  "recording_spy_fit_routings": 5,
+  "new_candidate_scores_produced": 0,
+  "external_models_checked": false
+}

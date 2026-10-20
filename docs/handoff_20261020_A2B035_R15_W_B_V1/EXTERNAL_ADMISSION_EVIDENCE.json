@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "role": "账户B执行与交付",
+  "probe_type": "synthetic admission evidence only",
+  "environment": {
+    "python_version": "3.13.7",
+    "python_build": [
+      "main",
+      "Sep 18 2025 19:43:45"
+    ],
+    "python_compiler": "MSC v.1944 64 bit (AMD64)",
+    "dependencies": {
+      "catboost": "1.2.8",
+      "cloudpickle": "3.1.2",
+      "colorama": "0.4.6",
+      "contourpy": "1.4.0",
+      "cycler": "0.12.1",
+      "et_xmlfile": "2.0.0",
+      "fonttools": "4.67.0",
+      "graphviz": "0.21",
+      "iniconfig": "2.1.0",
+      "joblib": "1.6.0",
+      "kiwisolver": "1.5.1",
+      "lightgbm": "4.6.0",
+      "matplotlib": "3.11.2",
+      "narwhals": "2.26.0",
+      "numpy": "2.4.3",
+      "openpyxl": "3.1.5",
+      "packaging": "25.0",
+      "pandas": "2.3.3",
+      "pillow": "13.0.0",
+      "plotly": "7.1.0",
+      "pluggy": "1.6.0",
+      "Pygments": "2.19.2",
+      "pyparsing": "3.3.3",
+      "pytest": "8.4.2",
+      "python-dateutil": "2.9.0.post0",
+      "pytz": "2026.3.post1",
+      "PyYAML": "6.0.3",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.17.1",
+      "six": "1.17.0",
+      "threadpoolctl": "3.7.0",
+      "tzdata": "2026.4"
+    },
+    "system_site_packages": false,
+    "new_isolated_environment": true,
+    "old_environment_modified": false,
+    "old_folds_reused": false,
+    "original21_dependency_versions_unchanged": true
+  },
+  "adapters": [
+    {
+      "learner": "LightGBM",
+      "version": "4.6.0",
+      "license": "MIT",
+      "official_license_url": "https://github.com/lightgbm-org/LightGBM/blob/v4.6.0/LICENSE",
+      "actual_common_adapter_exercised": true,
+      "temporary_gate_override": "synthetic-only admission probe; old release file remains false, no competition data opened",
+      "resource_gate_calls": 1,
+      "synthetic_model_fits": 1,
+      "synthetic_preprocessor_fits": 1,
+      "single_row_batch_and_reordered_queries_exact": true,
+      "imputation_training_rows_only": true,
+      "inference_fit_guard_active": true,
+      "network_connect_disabled_during_fit_and_inference": true,
+      "pretrained_weights": false,
+      "installed_RECORD_SHA256_entries_verified": 18,
+      "native_modules": [
+        {
+          "package_relative_path": "lightgbm/bin/lib_lightgbm.dll",
+          "sha256": "d2a41567e16b127b2486b417cc25813588fe015a0481e06fe8ce662ebed1ec61",
+          "bytes": 4059648
+        }
+      ],
+      "installed_license_metadata": [
+        {
+          "package_relative_path": "lightgbm-4.6.0.dist-info/licenses/LICENSE",
+          "sha256": "904dc4d8749877f1dba1cda48200d2462dccbeb7c134d5e4ef6fa75e0198c8fe",
+          "bytes": 1104
+        }
+      ],
+      "admission": "PENDING_CODEX; not activated for competition search"
+    },
+    {
+      "learner": "CatBoost",
+      "version": "1.2.8",
+      "license": "Apache-2.0",
+      "official_license_url": "https://github.com/catboost/catboost/blob/v1.2.8/LICENSE",
+      "actual_common_adapter_exercised": true,
+      "temporary_gate_override": "synthetic-only admission probe; old release file remains false, no competition data opened",
+      "resource_gate_calls": 1,
+      "synthetic_model_fits": 1,
+      "synthetic_preprocessor_fits": 1,
+      "single_row_batch_and_reordered_queries_exact": true,
+      "imputation_training_rows_only": true,
+      "inference_fit_guard_active": true,
+      "network_connect_disabled_during_fit_and_inference": true,
+      "pretrained_weights": false,
+      "installed_RECORD_SHA256_entries_verified": 50,
+      "native_modules": [
+        {
+          "package_relative_path": "catboost/_catboost.pyd",
+          "sha256": "79850fd21f8eecfdc22614ed6462bb310e5c3a73dc53a927e73f760b2a968e03",
+          "bytes": 362140160
+        },
+        {
+          "package_relative_path": "catboost/hnsw/_hnsw.pyd",
+          "sha256": "2b43f045e910616585022bb55ce733c93b5e60f973f02937cacc4c4f24604e05",
+          "bytes": 7059968
+        }
+      ],
+      "installed_license_metadata": [
+        {
+          "package_relative_path": "../../share/jupyter/labextensions/catboost-widget/static/479.d43617224b25ecf15b1d.js.LICENSE.txt",
+          "sha256": "99b8afca26f4f995419fd5646383cda95b92d0d5198974937e64935b0abb6c5b",
+          "bytes": 1282
+        },
+        {
+          "package_relative_path": "../../share/jupyter/labextensions/catboost-widget/static/486.bafd26b008c3405f7750.js.LICENSE.txt",
+          "sha256": "d33efbdf4d309bfa4448199551371ff81d5f57661b781faf79d256554e038595",
+          "bytes": 336
+        },
+        {
+          "package_relative_path": "../../share/jupyter/labextensions/catboost-widget/static/755.297bcad6e07632169fc2.js.LICENSE.txt",
+          "sha256": "90df5fb90a66efeeba4a18886bb6c62bdc1389f8ea14d8e1531acd42f160d344",
+          "bytes": 475
+        }
+      ],
+      "admission": "PENDING_CODEX; not activated for competition search"
+    }
+  ],
+  "competition_data_read": false,
+  "competition_model_fits": 0,
+  "synthetic_model_fits": 2,
+  "synthetic_preprocessor_fits": 2,
+  "external_competition_release": false,
+  "seconds": 1.2931766999536194
+}

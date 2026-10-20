@@ -1,0 +1,659 @@
+{
+  "task": "A2B-035/R15随训交付",
+  "role": "账户B执行与交付",
+  "published_files": 21,
+  "scan_records": 21,
+  "marker_counts": {
+    "well": 98,
+    "date": 78,
+    "month": 78,
+    "candidate": 2
+  },
+  "test_CSVs_parsed": 0,
+  "model_fits_by_scanner": 0,
+  "preprocessor_fits_by_scanner": 0,
+  "all_pass": true,
+  "exemptions": 0,
+  "records": [
+    {
+      "record_id": "A035-PRIVACY-001",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/B0_ARCHIVE_COMPARISON.json",
+      "sha256": "6a467a89645ba79a469163a024381aa9657fec5459a25f3ef0e065615ed9b33f",
+      "bytes": 653,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-002",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/B0_REPACK_RESULT.json",
+      "sha256": "86690bcb5940316ae050fd60c83839ffffdc26a2bb777c2b03f271ac1ec6d7e2",
+      "bytes": 8313,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-003",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/CLONED_ENV_IMPORT.json",
+      "sha256": "6e79c5188da5a180a5323b893e4e8fbd7255ec14f611be165e778d5f741dee92",
+      "bytes": 591,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-004",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/CORE_REPAIRED_SYNTHETIC.json",
+      "sha256": "b66790fba222204e4a52f87fbd9a465771525e9a5d0fda3ce490b67d3907bc6b",
+      "bytes": 1759,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-005",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/EXTERNAL_ADMISSION_EVIDENCE.json",
+      "sha256": "1ec1f85a03cb338b9f6ca8c1fef8efbd5c75b7376d4b4ac14b716d36e5d6bff3",
+      "bytes": 5078,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-006",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/EXTERNAL_SYNTHETIC_FITS.json",
+      "sha256": "32f4d2cb20cc71da4a9ff2d13b66cd360edec102892e897a517b3d5174ec71f9",
+      "bytes": 1591,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-007",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/PLAN_R15.json",
+      "sha256": "b093da6f3508143eba937331080ea8f9de43330d8ace73d077310cbf7e51940e",
+      "bytes": 2711,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-008",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "84bf0b60807369c340167611dc2313ceaea6ee5dab7500970ff6b39cc5a776c8",
+      "bytes": 2999,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-009",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": null,
+      "bytes": null,
+      "binding": "final serialization scanned, SHA manifest or external Git receipt binds exact bytes",
+      "result": "PASS",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0
+    },
+    {
+      "record_id": "A035-PRIVACY-010",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/R15_INSTRUCTION_ORIGINAL.md",
+      "sha256": "f83584568f70028fb758b5339ba7224ae11035e53bc2fa6f8b2e84ee745f1f11",
+      "bytes": 6585,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-011",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/R15_W_INCREMENT_ANONYMOUS.zip",
+      "sha256": "7668056c0abe7aa085f7b5225f15f444eb9a29daa2d8772a33ff6f4d720c0df9",
+      "bytes": 131905,
+      "result": "PASS",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "source_ZIP_members": [
+        {
+          "path": "source/b0_entry.py",
+          "sha256": "1b021b42e402212db3f18c119d63365e234b96a2b6ae2685682fb85f5735d543",
+          "bytes": 3369,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/BASELINE_ALLOWLIST.json",
+          "sha256": "d8a4203e336aa27b386533916f9c1475b58acb9ba0c763940b357e9e86d83074",
+          "bytes": 224,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/configs/B0.json",
+          "sha256": "3fb71b01ba78d83a46bc7afda260928bf032ae2fdc5aa02003e24a3c04d701b6",
+          "bytes": 3202,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/configs/B0_prime.json",
+          "sha256": "392cf4f2537e09f5bb023fc4bff3b05b96ee91b7f6969def2e636a9e6d46842d",
+          "bytes": 3209,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/core.py",
+          "sha256": "4a8c230e4eb626cfaa60bb34a3387d383579f48e0d130818de99917c4ad50a1c",
+          "bytes": 13450,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/csv_projection.py",
+          "sha256": "6979f0366b729a8ed32396569aa2a7837d4d409301dbfb09632267a338937c0c",
+          "bytes": 6412,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/cv035.py",
+          "sha256": "fbe904440cbb0fa02141fa6ed99aa58df15af34c297012372d7e17954fd05e3e",
+          "bytes": 5896,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/DATA_CONTRACT.json",
+          "sha256": "b3149f6538aff2f6e8de003d7179e95d1616f9247d0b0b82554b2f2ac8d5d8c8",
+          "bytes": 3749,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/ENVIRONMENT_LOCK.json",
+          "sha256": "954d67045713461b7cc303e7d85fa223507a27c1e20d5cf223f2741d32a961d6",
+          "bytes": 1114,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/evaluate.py",
+          "sha256": "9bab77411897a3194523f0d5ab419ab780211afe3fda89a43d433cf143a0e118",
+          "bytes": 1630,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/FROZEN_SOURCES.json",
+          "sha256": "4c7b6873ff27bfe47b2c5ff233624533afbbbfdf03cb5063b0f4c5595ac07a60",
+          "bytes": 99486,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/guard035.py",
+          "sha256": "c1864f63eaf005d7c100d2c568bde3fbe5a4399c0cc1ff5f045115a7890df5a6",
+          "bytes": 12842,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/ledger035.py",
+          "sha256": "a3e3de0cc36642601ae8c75d968584281eef8dbd1787d687cb14662099fb5f33",
+          "bytes": 1481,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/models035.py",
+          "sha256": "e487e6004dfbcedec191b35fcff2a24f5cb442748255009a7d28d0edb6f44fec",
+          "bytes": 5534,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/PIPELINE_APPROVAL.json",
+          "sha256": "82fdd80d1193817a0c76663713c72b5440d9a8968d368cec5566fc8832adcfc8",
+          "bytes": 1247,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/PIPELINE_LOCK.json",
+          "sha256": "ce1ab047d126f2586993dc8d2b05aef5f1b9871c59b626d6927d8803904713d1",
+          "bytes": 3094,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/predict.py",
+          "sha256": "8b48a0e1fef96eb20dfe19cf4d604bfb23382a7de350b02dd859fc6680571d6c",
+          "bytes": 2568,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/requirements.txt",
+          "sha256": "44f9e68064630e1be9fa8614521f5df4ce8fb640a4bd18827224aa89841e4bce",
+          "bytes": 349,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/RESOURCE_RELEASES.json",
+          "sha256": "e542a3acc6f7014ac06bc3cf7f87c0f43ec610c05ae26ec7dc64aa42d100200f",
+          "bytes": 755,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/src/oil_uplift/__init__.py",
+          "sha256": "b14e51df20e0d8c8e2abc3646d6cac8e26e015a797f3fa5138fb1f2c20bde30c",
+          "bytes": 82,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/src/oil_uplift/a2b013_safe.py",
+          "sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+          "bytes": 24524,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/src/oil_uplift/config.py",
+          "sha256": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68",
+          "bytes": 2549,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/src/oil_uplift/exceptions.py",
+          "sha256": "2b3aef27c352bad4558d98ca964d21f4881468e6a63c4bc3ff7bc919a7ad26c9",
+          "bytes": 548,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/src/oil_uplift/io.py",
+          "sha256": "cf788f19399b7a867260a5a4f84bb630735a639410fc17092244ebcb9bcd18c3",
+          "bytes": 4910,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/src/oil_uplift/models.py",
+          "sha256": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02",
+          "bytes": 3013,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/src/oil_uplift/multistep.py",
+          "sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b",
+          "bytes": 22790,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/src/oil_uplift/scoring.py",
+          "sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235",
+          "bytes": 9223,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/src/oil_uplift/submission.py",
+          "sha256": "d39b25ce75b452a9bf7dcb439aa1a68bdc3bbb822b9e9a2f56cd0565f1502612",
+          "bytes": 5778,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/src/oil_uplift/training.py",
+          "sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+          "bytes": 19812,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/synthetic_checks.py",
+          "sha256": "e74739bce4e87d0eee94f7d2547f1b785f12265dbc00c66ad17286d5b1a3dbff",
+          "bytes": 7908,
+          "result": "PASS"
+        },
+        {
+          "path": "source/base/train.py",
+          "sha256": "3a469299d8779e80ab014d483618204ed266e8cf6ab030df96c833ffd34728c7",
+          "bytes": 1661,
+          "result": "PASS"
+        },
+        {
+          "path": "source/check15.py",
+          "sha256": "159f6fe622bc0bcea29c174a12d14cabacb09885032a5ab74384f31a4b475e4d",
+          "bytes": 3020,
+          "result": "PASS"
+        },
+        {
+          "path": "source/check_r14.py",
+          "sha256": "737c1316a267aa9257b25807d7fcb029dfec2bd379d66db81da7867696d51642",
+          "bytes": 9890,
+          "result": "PASS"
+        },
+        {
+          "path": "source/diagnostics15.py",
+          "sha256": "adc36f4c107270ac0291453b7b1bc83672870d71e70214755f86376a738109d5",
+          "bytes": 5254,
+          "result": "PASS"
+        },
+        {
+          "path": "source/error_budget.py",
+          "sha256": "4d652fb55296af027a1b9948bbc34b8a6f41c02268fc1a5a4a0adb4f13f70960",
+          "bytes": 5217,
+          "result": "PASS"
+        },
+        {
+          "path": "source/r14.py",
+          "sha256": "244a87bc086a22098594f285fd6ec9d9f3eefbdef97583fc9051833bc998e8ac",
+          "bytes": 10475,
+          "result": "PASS"
+        },
+        {
+          "path": "source/routes15.py",
+          "sha256": "069ad760db0bdcbd46eff2d4d7d6729fc8d9401b8e7494d590410d43288b465a",
+          "bytes": 7329,
+          "result": "PASS"
+        },
+        {
+          "path": "source/run15.py",
+          "sha256": "a23b9e2ef4f1dbae4c3600d9a481493d1700217f8bd53bea8c3979b3abbe1eac",
+          "bytes": 8012,
+          "result": "PASS"
+        },
+        {
+          "path": "source/w_entry.py",
+          "sha256": "b0a59b20e69990686843df6635ba8575fdab08181bf4024d1e866cdb607d2524",
+          "bytes": 3270,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/B0_U.json",
+          "sha256": "3158951bb633d6cce96f51571333b4fabb54dd4e5a964d6e2539f7a9071206f7",
+          "bytes": 3485,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/B0_W.json",
+          "sha256": "74fa8fdd923fa4b7710666dd50b1667750349bcd762b80d15b3fb383bb0be2fd",
+          "bytes": 3484,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/H_base325_best_U.json",
+          "sha256": "77b4b01c0789cb8bd8f5ae8c257224e147585f4e3f2a978c5511f89845c8bbce",
+          "bytes": 1004,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/H_base325_best_W.json",
+          "sha256": "dc337f127bb3b6284589e29484f0ac08835591cdae2f46f4a71d2e2efc9cd672",
+          "bytes": 1003,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/H_base325_M3_best_U.json",
+          "sha256": "81ee33233cea1b9f31de910b48035b40e9b73d34bad66c20b0a810bceba15d32",
+          "bytes": 1013,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/H_base325_M3_best_W.json",
+          "sha256": "bf5f458764a5fc50c56bd43d7bade0558948f766f591b6e1a05fd73dc9533ba2",
+          "bytes": 1012,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/H_base325_M3_original_U.json",
+          "sha256": "daa4d3b63a7e04e0d596b655ee56183b054aabbdf22c0f25859ea53e3be67218",
+          "bytes": 1021,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/H_base325_M3_original_W.json",
+          "sha256": "16b81af46b1e9c04d53812ec4a8220b5defd80949acc19ed00927ceafd6e9ae5",
+          "bytes": 1020,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/H_base325_M3_R_best_U.json",
+          "sha256": "0029a6b26404a0f5e07566b6478044090a4bc0d95346d7eb88c829e0c1fad5d1",
+          "bytes": 1019,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/H_base325_M3_R_best_W.json",
+          "sha256": "a0c7a682e24c412d6987db72c7e782b55b44251899ce52093fe23a8a41713be6",
+          "bytes": 1018,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/H_base325_M3_R_original_U.json",
+          "sha256": "653360ae1c33d1b49f0c375408f2c4e782fe6aa03b5dd6ab8e305da2c810a2cd",
+          "bytes": 1027,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/H_base325_M3_R_original_W.json",
+          "sha256": "d8b52c3e8df5f0e8bc05507779e56f7375991c50c3621e21dc6cc1ae294799ba",
+          "bytes": 1026,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/H_base325_original_U.json",
+          "sha256": "f5d7f75465710c9d8e00c409206c3c8b09997c377ffc3e7e32b6e5d7c3a06b2a",
+          "bytes": 1012,
+          "result": "PASS"
+        },
+        {
+          "path": "configs/H_base325_original_W.json",
+          "sha256": "3b30611c85c4ed5c9781927e4616668e5b0c7a1ae8edf26c34d3984c605847dc",
+          "bytes": 1011,
+          "result": "PASS"
+        },
+        {
+          "path": "tests_r15/check_core_repaired.py",
+          "sha256": "4e9fa4e46eb3d21301418cb3b633b4435db40347ea1ce6d548866a0311d6aa75",
+          "bytes": 9680,
+          "result": "PASS"
+        },
+        {
+          "path": "PLAN_R15.json",
+          "sha256": "b093da6f3508143eba937331080ea8f9de43330d8ace73d077310cbf7e51940e",
+          "bytes": 2711,
+          "result": "PASS"
+        },
+        {
+          "path": "RESEARCH_LOCK.json",
+          "sha256": "aafffd62ebc0974ce8fdc446484d554372bbcd2ed762598b85e548c75b174dac",
+          "bytes": 5720,
+          "result": "PASS"
+        },
+        {
+          "path": "external_probe.py",
+          "sha256": "e9f12f53013eecfbb6acdbd71d577d3ab840313ef167f91292fa8009143b7ec1",
+          "bytes": 5808,
+          "result": "PASS"
+        }
+      ]
+    },
+    {
+      "record_id": "A035-PRIVACY-012",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/README.md",
+      "sha256": "9f90ea83fa5904c284678ff08fadfddd3635eb9dcbeb2048a073cb291b18ea03",
+      "bytes": 481,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-013",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/REPORT_B.md",
+      "sha256": "97b2350bff6c8b876e99da9eeaee91fa35a681aed59f5ef6ac191ef919fd7d82",
+      "bytes": 5462,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-014",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/REQUEST_CODEX_INCREMENT_REVIEW.md",
+      "sha256": "11bb649125f45664f4ffec4b47ac268f999c1e7908ea630b39a30dec5c1963e5",
+      "bytes": 1138,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-015",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/RESEARCH_ENVIRONMENT.json",
+      "sha256": "5854800326f7d2f9c3cf3fd992e9345af71d1e73943aa22440633e88cd3905ed",
+      "bytes": 709,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-016",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/RESEARCH_LOCK.json",
+      "sha256": "aafffd62ebc0974ce8fdc446484d554372bbcd2ed762598b85e548c75b174dac",
+      "bytes": 5720,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-017",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/RESULT_R15_W.json",
+      "sha256": "314c5f13d089dc430bb7b804df324faf69f3ff02ff4ae51a03a087372bda749b",
+      "bytes": 2712,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-018",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/SHA256SUMS.json",
+      "sha256": null,
+      "bytes": null,
+      "binding": "final serialization scanned, SHA manifest or external Git receipt binds exact bytes",
+      "result": "PASS",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0
+    },
+    {
+      "record_id": "A035-PRIVACY-019",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/SOURCE_BUNDLE_MANIFEST.json",
+      "sha256": "9586f8cb7982a3a5f9fb48239d056ddcc91d0076b77d190889bd31aaf04b0af5",
+      "bytes": 9915,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-020",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/SYNTHETIC_R15.json",
+      "sha256": "603691016f08246370e7641b5a9c54cae776f2f1e556eef4253710bbf0130a76",
+      "bytes": 545,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-021",
+      "path": "docs/handoff_20261020_A2B035_R15_W_B_V1/W_RESULTS.json",
+      "sha256": "6088e10e6ed6153e07ff0e04949d0e5078c68c04d1e633a3b6ec63d81eb71082",
+      "bytes": 137565,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    }
+  ]
+}

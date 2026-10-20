@@ -1,0 +1,16 @@
+{
+  "old_rows": 120,
+  "new_rows": 120,
+  "raw_keys_exact_equal": false,
+  "calendar_keys_equal": true,
+  "same_well_set": true,
+  "raw_key_intersection": 0,
+  "canonical_key_intersection": 120,
+  "canonicalization_for_comparison_only_not_output": true,
+  "new_ZIP_kept_original_template_keys": true,
+  "archive_sha256": "e41463cac0ec58827f240293a6a35385b27745a3354197efdcfa3d78ad72f796",
+  "new_result_sha256": "2b4f57169d653d0ca5fc994d2822f6e167e72c5696a1220f83f7c1eaac4a1df1",
+  "clean_retrain_result_zip_bytes_identical": true,
+  "max_absolute_prediction_difference": 4.960151915867073e-07,
+  "equal_after_6decimal_rounding": true
+}

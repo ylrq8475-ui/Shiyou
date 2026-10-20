@@ -1,0 +1,18 @@
+{
+  "clone_source": "prior reviewed Python3.13.7 venv; original unchanged",
+  "clone_copied": true,
+  "new_environment": "task local reviewed_env_copy",
+  "required_import_exit_code": 0,
+  "required_import_passed": true,
+  "system_policy_changed": false,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "modules": [
+    {
+      "relative_path": "Lib/site-packages/sklearn/linear_model/_cd_fast.cp313-win_amd64.pyd",
+      "sha256": "01a18aaa82e946f0c7785d5aa4885d29c5fba57cee54755bedfcab454b31bf20",
+      "bytes": 318976
+    }
+  ],
+  "no_DLL_relocation_workaround": true
+}
