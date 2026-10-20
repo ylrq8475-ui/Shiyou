@@ -1,0 +1,91 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/B0_AUDIT_II_RECEIPT.json",
+      "sha256": "62994901d008dd08b4aead401adb4c03cd634b82f4c141446792ca27b6d0c24d",
+      "bytes": 9205
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/B0_CODE_MEMBER_MANIFEST.json",
+      "sha256": "e23c6c83a9aea1e2910d46756c68c9f097f9af0a56063567e0db6659fdec22aa",
+      "bytes": 8400
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/B0_EXACT_CODE_REVIEW_SOURCE.zip",
+      "sha256": "279944e788bc93cef3d6366b5a721ee64eec3932a19ee99dfb9df25a2a5b15c3",
+      "bytes": 96576
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/B0_PRIOR_APPROVED_RECEIPT.json",
+      "sha256": "1da27e1e3cf36ad3d2d47e5846e1265a36b5a86305315453b4684b5630b16953",
+      "bytes": 12812
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/B0_README_ORIGINAL.md",
+      "sha256": "3d01885bc367e193d808a27fcb7d8900150a20d02f3a518ec91aecd8043a1c53",
+      "bytes": 2066
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/CLEAN_ENVIRONMENT17.json",
+      "sha256": "9eee5610e105a3f7642afe0728672af2cd59681ad331ef1192dc9b8ad8291530",
+      "bytes": 878
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/COMPLIANCE_SELF_CHECK.md",
+      "sha256": "c4bd4cb8309175751e8590dd7943a135e1a275ed888f04c1e9fa6e680ca4dca3",
+      "bytes": 1630
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/FIT_COUNTS.json",
+      "sha256": "327d913c1c3e01906ebbf3594b03756a8e2092f5131f88c6396b9c4da8fa493d",
+      "bytes": 304
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/INSTRUCTION_ORIGINAL_R17.md",
+      "sha256": "a92d06ba5aeba497d3b7cda5e51a24a7ba2a65b85b356f258b5453303555472b",
+      "bytes": 5097
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "34904e5171919aae0956a10c073de61ce18d22fe8de382ae672a287865bb7266",
+      "bytes": 2833
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": "05433cbb86ce6c3d2ac5ba35d4962f8fe56ccb96192df146aad8224e33815421",
+      "bytes": 16529
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/REPORT_B.md",
+      "sha256": "71ecd6f9b929f28aca6b256e129fa6639068deafb62cbf0539a32690e1f7f6d2",
+      "bytes": 3434
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/REQUEST_CODEX_AUDIT_II.md",
+      "sha256": "67fb10c98b197afd23eb7a07bb700a2359d8f49ace73100e920d086bc4fe3751",
+      "bytes": 517
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/RESULT_B0_AUDITII17.json",
+      "sha256": "740be419f25d99a92ac39674705add686b2c17b02261bd8e097d880b5b11ed68",
+      "bytes": 11336
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/SOURCE_BUNDLE_MANIFEST.json",
+      "sha256": "cd7adfe1ef963f42e849bba361dea81d194e40d81e8dc4da75252a69c33eff54",
+      "bytes": 9676
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/SYNTHETIC17.json",
+      "sha256": "d3366ea2d5bfa7ed8a99a44c17c4f0ee898d5cf8fb37d0c9242b888c246043f5",
+      "bytes": 545
+    },
+    {
+      "path": "docs/handoff_20261020_A2B035_R17_B0_AUDITII_B_V1/requirements_B0.txt",
+      "sha256": "44f9e68064630e1be9fa8614521f5df4ce8fb640a4bd18827224aa89841e4bce",
+      "bytes": 349
+    }
+  ],
+  "self": "bound by Git and external byte receipt; final bytes privacy scanned"
+}

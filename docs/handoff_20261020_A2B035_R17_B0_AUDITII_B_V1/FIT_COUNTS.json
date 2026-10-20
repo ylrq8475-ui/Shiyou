@@ -1,0 +1,9 @@
+{
+  "this_B0_audit_II_model_fits": 1,
+  "this_B0_audit_II_preprocessor_fits": 1,
+  "prior_R15_main_and_clean_each": 2,
+  "prior_receipts_not_counted_as_new": true,
+  "weights_loaded_to_prove_historical_dtype": false,
+  "fusion_CV_or_package_fits_not_in_this_phase_count": true,
+  "platform_uploads": 0
+}
