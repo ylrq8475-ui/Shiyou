@@ -883,6 +883,35 @@
         "最终包10-28前交Codex审核二，10-29用户指定"
       ],
       "published_at": "2026-10-20T16:50:00+08:00"
+    },
+    {
+      "task": "A2B-035/R16 两上传包回执+LGB/Cat首批赛事集成与调度修订",
+      "role": "B",
+      "commit": "6ab552ef1cb007b13f0bc350957b7b82037f1348",
+      "report_path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261020_A2B035_R16_FIRST_B_V2/RESULT_FIRST16.json",
+      "reviews_commit": "不适用；Codex只复核所负责增量，B不代签",
+      "instruction_commit": "441966be673da9083505168077a4d6ac63805e90",
+      "continued_instruction_commits": [
+        "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+        "0f2804776957cefa6c3bab573a403f0cfb86d33e",
+        "9482ad9bb2a0bc64519e6a9effc8adbfee14173a"
+      ],
+      "hard_gates": "本批B执行/合成范围通过；外部学习器赛事集成待Codex；A035-R15-02已补既有回执，B不自关闭。",
+      "decision_row": "仅Codex填写；B0/W由用户按R16手动评测；新外部版本未复核不上传。",
+      "open_unknowns": [
+        "平台实际提交编号/时间/分数与历史86.2003绑定UNKNOWN，S_v UNKNOWN",
+        "TabPFN W默认API不支持；缓存/原生多查询未通过逐值一致，未启用",
+        "TabPFN完整CV及跨截止点最终融合以实际后续结果为准，不把首批当完整完成",
+        "历史dtype保留UNKNOWN，H/T/HX/地质/Chronos停止"
+      ],
+      "key_numbers": {
+        "package_sets": 2,
+        "package_receipt_model_fits": 0,
+        "native_successful_model_fits": "see frozen snapshot",
+        "platform_uploads": 0
+      },
+      "published_at": "2026-10-20T17:30:52.992345+08:00"
     }
   ]
 }
