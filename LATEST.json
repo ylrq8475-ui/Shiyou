@@ -691,6 +691,45 @@
         "R13其余规定继续有效"
       ],
       "published_at": "2026-10-20T10:50:00+08:00"
+    },
+    {
+      "task": "A2B-035/R14管线增量实现与外部环境准入补证",
+      "role": "B",
+      "commit": "f252407dba3af7b3800c8242518c8e156ad04a42",
+      "report_path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261020_A2B035_R14_PIPELINE_B_V1/RESULT_R14_PREPARATION.json",
+      "reviews_commit": "不适用；请求Codex按R14只复核新增管线",
+      "instruction_commit": "0f2804776957cefa6c3bab573a403f0cfb86d33e",
+      "R13_instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+      "hard_gates": "泄漏/错位/井级隔离/指标：B在源码保留、真实训练输入身份与合成检查范围自检通过；真实模型/预处理拟合0；不是增量独立签署或新CV验收。",
+      "decision_row": "不适用；H/T尚未产生真实分数；待Codex给出管线增量是否可用于搜索。B0独立重建上传0，外部/G未启用，平台上传0。",
+      "key_numbers": {
+        "H_configs": 6,
+        "features": [
+          325,
+          328,
+          333
+        ],
+        "synthetic_cases": 50,
+        "model_fits": 0,
+        "preprocessor_fits": 0,
+        "pre_fit_external_import_failures": 1,
+        "published_files_byte_verified": 21,
+        "anonymous_source_members": 45,
+        "old_protected_files_unchanged": 129,
+        "raw_members_verified": 100,
+        "planned_CV_fits_each": 270,
+        "increment_lock_sha256": "81d77e8147910352ee29c68d46911a6d00026ff051e325b81624234af6de461a"
+      },
+      "open_unknowns": [
+        "CODEX-035-R14-INCREMENT P1 待独立H/T增量签署，旧内部签署不冒用于新代码",
+        "EXT-035 P1 新隔离环境已装LGB4.6.0/Cat1.2.8及32依赖，但sklearn _cd_fast被应用控制阻止；实际适配器合成尚未执行。需管理员处理及Codex准入",
+        "G-031 P1 实际字段白名单缺，禁用",
+        "B0/此前候选逐行OOF未持久化，预算报表UNKNOWN，不为补报表重训；B0独立重建上传暂缓",
+        "PLATFORM-035-PROVENANCE P2 实际上传包绑定UNKNOWN，S_v UNKNOWN",
+        "HIST-DTYPE P1 继承用户例外，不回填历史"
+      ],
+      "published_at": "2026-10-20T11:24:03.953225+08:00"
     }
   ]
 }
