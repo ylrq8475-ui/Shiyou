@@ -1,0 +1,60 @@
+{
+  "task": "A2B-035/R15 first incremental evidence",
+  "role": "账户B执行与交付",
+  "status": "W_CHECKPOINT_SNAPSHOT_LATER_RESULTS_DELIVERED_SEPARATELY",
+  "R15_commit": "9482ad9bb2a0bc64519e6a9effc8adbfee14173a",
+  "R14_commit": "0f2804776957cefa6c3bab573a403f0cfb86d33e",
+  "R13_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+  "baseline_fixed": 73.71410733861434,
+  "weighted_fixed": 73.50993584318516,
+  "baseline_repeated_mean": 72.47647400484871,
+  "weighted_repeated_mean": 72.6793269415761,
+  "fixed_delta": -0.20417149542917912,
+  "repeat_delta": 0.20285293672738192,
+  "W_research_fits": 60,
+  "W_research_preprocessor_pipeline_fits": 60,
+  "B0_repack_model_fits": 3,
+  "B0_repack_preprocessor_pipeline_fits": 3,
+  "external_synthetic_fits_each": 2,
+  "snapshot_total_fits_each": 65,
+  "P1_repairs_B_self_checked": [
+    "A035-R14-01",
+    "A035-R14-02"
+  ],
+  "Codex_P1_closed": false,
+  "new_path_upload_eligible": false,
+  "formal_B0_package_created": true,
+  "B0_uploaded": false,
+  "B0_archive_comparison": {
+    "old_rows": 120,
+    "new_rows": 120,
+    "raw_keys_exact_equal": false,
+    "calendar_keys_equal": true,
+    "same_well_set": true,
+    "raw_key_intersection": 0,
+    "canonical_key_intersection": 120,
+    "canonicalization_for_comparison_only_not_output": true,
+    "new_ZIP_kept_original_template_keys": true,
+    "archive_sha256": "e41463cac0ec58827f240293a6a35385b27745a3354197efdcfa3d78ad72f796",
+    "new_result_sha256": "2b4f57169d653d0ca5fc994d2822f6e167e72c5696a1220f83f7c1eaac4a1df1",
+    "clean_retrain_result_zip_bytes_identical": true,
+    "max_absolute_prediction_difference": 4.960151915867073e-07,
+    "equal_after_6decimal_rounding": true
+  },
+  "external_actual_adapter_synthetic": "PASS on new32dependency copy, not old blocked environment; competition release pendingCodex",
+  "row_OOF_persisted": false,
+  "test_input_distribution_comparisons": 0,
+  "S_v": "UNKNOWN",
+  "source_lock_sha256": "aafffd62ebc0974ce8fdc446484d554372bbcd2ed762598b85e548c75b174dac",
+  "source_runner_private_path_parameterization": [
+    {
+      "path": "source/run15.py",
+      "original_sha256": "d99f1f7ee9d8e5473229c2513d15ac684a6cdd6b79c1baaf4ccdc84f9b16ca82",
+      "public_sha256": "a23b9e2ef4f1dbae4c3600d9a481493d1700217f8bd53bea8c3979b3abbe1eac",
+      "change": "only DATA path assignment replaced with SHIYOU_AUTHORIZED_DATA_ARCHIVE environment input; original private account-specific path not published",
+      "all_other_AST_equal": true
+    }
+  ],
+  "main_research_continues": "later R15 branches and separate deliveries, including TabPFN",
+  "scope": "W checkpoint plus parallel B0 and environment evidence; not a current whole-task completion report"
+}
