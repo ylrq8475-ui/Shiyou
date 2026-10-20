@@ -833,6 +833,39 @@
         "G历史白名单未放行；实际上传包绑定/历史dtype例外继续保留"
       ],
       "published_at": "2026-10-20T15:13:01.619709+08:00"
+    },
+    {
+      "task": "A2B-035/R15随训增量、R14修复关闭及受限外部准入审核",
+      "role": "Codex",
+      "commit": "929287843e30906144ca6caca4a4f5fdc6c2ec3d",
+      "report_path": "docs/handoff_20261020_A2B035_R15_CODEX_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261020_A2B035_R15_CODEX_V1/RESULT_CODEX.json",
+      "reviews_commit": "42a5c66406f56af86520c3d65eb71d1fbb616fea",
+      "also_reviews_commits": [
+        "51055b6458f17fc19f46c4b7a03da2f9a7a557e6"
+      ],
+      "instruction_commit": "9482ad9bb2a0bc64519e6a9effc8adbfee14173a",
+      "hard_gates": "W/H/T/HX及修复预算在源码/绑定B执行/独立聚合合成范围通过；R14两项P1新版本关闭；A真实拟合0；外部仅已测资源及调用方式研究准入",
+      "decision_row": "对应路径可用于研究：是；W路径可进入R13完整版本用户手动评测：是，最终指定另审；B0重建包不上传。外部首次赛事集成路径未交付，不自动认定其包可上传。R13无逐候选门槛，S_v仍UNKNOWN。",
+      "resource_admission_path": "docs/handoff_20261020_A2B035_R15_CODEX_V1/RESOURCE_ADMISSION_CODEX.json",
+      "key_numbers": {
+        "variant_records": 18,
+        "B_research_fits": 540,
+        "B_total_fits_each": 548,
+        "A_model_fits": 0,
+        "assertions": 5732,
+        "source_tests": 10,
+        "B0_W_repeated_delta": 0.20285293672738192,
+        "B0_W_fixed_delta": -0.20417149542917912
+      },
+      "open_unknowns": [
+        "A035-R15-01 P2 SFSBHD输出命名勘误，不影响触发结论",
+        "A035-R15-02 P2 W既有复训/结果/linter回执补齐供最终审核，不设新候选门禁",
+        "G历史字段白名单0，本轮价值筛查不再投入",
+        "平台包绑定与历史dtype例外继承",
+        "外部资源通过不等于赛事集成/协变量/完整包已通过"
+      ],
+      "published_at": "2026-10-20T16:23:29.569819+08:00"
     }
   ]
 }
