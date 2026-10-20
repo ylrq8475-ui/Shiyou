@@ -1,0 +1,12 @@
+{
+  "decimal_arithmetic": true,
+  "B0_W_minus_B0_A_exact": "-5.3149",
+  "B0_W_minus_B0_CV_exact": "0.20285293672739",
+  "B0_S_v_exact": "79.338387002424355",
+  "B0_W_S_v_exact": "76.78236347078805",
+  "B0_W_minus_B0_S_v_exact": "-2.556023531636305",
+  "formula": "0.5 * reported A + 0.5 * matched repeated CV mean",
+  "score_independently_retrieved_from_platform": false,
+  "model_fits": 0,
+  "preprocessor_fits": 0
+}

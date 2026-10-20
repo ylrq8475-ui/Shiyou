@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "version": "R16-B0",
+      "B_delivered_filename": "submission_code.zip",
+      "user_reported_uploaded_filename": "submission_code3.zip",
+      "sha256": "a75ce0e1820001ef2e854a0cee6540a04caa5b1ecadec3d3c433f30ab42e420a",
+      "B_local_hash_recomputed": true,
+      "matches_Codex_review_and_forwarded_Claude_SHA": true,
+      "bytes": 2479466
+    },
+    {
+      "version": "R16-B0",
+      "B_delivered_filename": "result.zip",
+      "user_reported_uploaded_filename": "result3.zip",
+      "sha256": "2b4f57169d653d0ca5fc994d2822f6e167e72c5696a1220f83f7c1eaac4a1df1",
+      "B_local_hash_recomputed": true,
+      "matches_Codex_review_and_forwarded_Claude_SHA": true,
+      "bytes": 3071
+    },
+    {
+      "version": "R16-B0_W",
+      "B_delivered_filename": "submission_code.zip",
+      "user_reported_uploaded_filename": "submission_code4.zip",
+      "sha256": "b267b82cdecb6f44a78862bfadea2d813ef41d32f0ec2c0016bde86e811ae0ae",
+      "B_local_hash_recomputed": true,
+      "matches_Codex_review_and_forwarded_Claude_SHA": true,
+      "bytes": 2117590
+    },
+    {
+      "version": "R16-B0_W",
+      "B_delivered_filename": "result.zip",
+      "user_reported_uploaded_filename": "result4.zip",
+      "sha256": "5bc472e9a3e709ea8076e54ef684d074315967c4291cfd7f3ab74cd959ba2e3f",
+      "B_local_hash_recomputed": true,
+      "matches_Codex_review_and_forwarded_Claude_SHA": true,
+      "bytes": 2990
+    }
+  ],
+  "raw_ZIP_bytes_published": false,
+  "private_local_paths_excluded": true
+}

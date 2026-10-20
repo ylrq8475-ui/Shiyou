@@ -1,0 +1,189 @@
+{
+  "task": "A2B-035/R16随训交付",
+  "role": "账户B执行与交付",
+  "published_files": 12,
+  "scan_records": 12,
+  "marker_counts": {
+    "well": 98,
+    "date": 78,
+    "month": 78,
+    "candidate": 2
+  },
+  "test_CSVs_parsed": 0,
+  "model_fits_by_scanner": 0,
+  "preprocessor_fits_by_scanner": 0,
+  "all_pass": true,
+  "exemptions": 0,
+  "records": [
+    {
+      "record_id": "A035-PRIVACY-001",
+      "path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/AGGREGATE_RECALCULATION.json",
+      "sha256": "a40adb9a6bbc45d58f0fcd5571760dd8eaeeb5bee64cbebc447534b97df5a408",
+      "bytes": 418,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-002",
+      "path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/CODEX_PLATFORM_CLOSURE_RECEIVED.json",
+      "sha256": "935cc6f469fea36bf556487a941c03366665b2a007dd8b5e586161960a880085",
+      "bytes": 3286,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-003",
+      "path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/FIT_COUNTS.json",
+      "sha256": "a1c15f97df3a689a1451593172bd8a23a6d3f572f3dfdae88a5dc62904157ab2",
+      "bytes": 275,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-004",
+      "path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/PACKAGE_HASH_RECHECK.json",
+      "sha256": "c50734b52be3032a5cd364e2bbc8de148bda2e7cb66d59a0c840ffedf99ee5e5",
+      "bytes": 1538,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-005",
+      "path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "a07ad12e0e1c495455b5b413f273205e4cad7337b154b87161b6b142c3c3e7c8",
+      "bytes": 2186,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-006",
+      "path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": null,
+      "bytes": null,
+      "binding": "final serialization scanned, SHA manifest or external Git receipt binds exact bytes",
+      "result": "PASS",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0
+    },
+    {
+      "record_id": "A035-PRIVACY-007",
+      "path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/REPORT_B.md",
+      "sha256": "433e99cb8c7d0a745ba6d6b0b739024d780e4846f36d9d70ae3f0589a86367b7",
+      "bytes": 5342,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-008",
+      "path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/REQUEST_CODEX_BINDING_REVIEW.md",
+      "sha256": "b645306508a9108395fd8b743fb67cf1549f1595070c89deee41a84220cb468f",
+      "bytes": 744,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-009",
+      "path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/RESULT_PLATFORM_RECEIPT16.json",
+      "sha256": "80385d65fb5529e7d4181700e15d164b063f784674e6eab17a353e58b4c9fa63",
+      "bytes": 8303,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-010",
+      "path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/RESULT_ZIP_STRUCTURAL_CHECK.json",
+      "sha256": "13fe0d08bd517ec8a7d3c4d7a1cfab4d6c92960e735ae15dc47069f9cdfc9445",
+      "bytes": 1120,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-011",
+      "path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/SHA256SUMS.json",
+      "sha256": null,
+      "bytes": null,
+      "binding": "final serialization scanned, SHA manifest or external Git receipt binds exact bytes",
+      "result": "PASS",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0
+    },
+    {
+      "record_id": "A035-PRIVACY-012",
+      "path": "docs/handoff_20261020_A2B035_R16_PLATFORM_RECEIPT_B_V1/USER_FORWARDED_RECEIPT.md",
+      "sha256": "69546c4781acfa75f28e81b7e0f1b2f3ef1a5fecaee68de4a5ec2a59178c0000",
+      "bytes": 1204,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    }
+  ]
+}

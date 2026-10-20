@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "scope": "already approved local output ZIPs; standard-library read-only checks, no inference or fitting",
+  "versions": [
+    {
+      "version": "R16-B0",
+      "CSV_files": 10,
+      "rows": 120,
+      "columns": [
+        "WELL_ID",
+        "NY",
+        "RCYL"
+      ],
+      "rows_per_file": 12,
+      "duplicate_keys": 0,
+      "nonfinite_or_negative_predictions": 0,
+      "zip_integrity": "PASS",
+      "B_local_result_structural_check": "PASS",
+      "raw_rows_or_keys_written": false,
+      "template_alignment": "inherited approved package receipt, not re-read raw dataset for this step"
+    },
+    {
+      "version": "R16-B0_W",
+      "CSV_files": 10,
+      "rows": 120,
+      "columns": [
+        "WELL_ID",
+        "NY",
+        "RCYL"
+      ],
+      "rows_per_file": 12,
+      "duplicate_keys": 0,
+      "nonfinite_or_negative_predictions": 0,
+      "zip_integrity": "PASS",
+      "B_local_result_structural_check": "PASS",
+      "raw_rows_or_keys_written": false,
+      "template_alignment": "inherited approved package receipt, not re-read raw dataset for this step"
+    }
+  ]
+}

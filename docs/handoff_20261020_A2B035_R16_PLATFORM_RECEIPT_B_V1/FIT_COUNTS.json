@@ -1,0 +1,10 @@
+{
+  "scope": "only this receipt recording/publication, not counts of still-running research",
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "inference_calls": 0,
+  "repacking": 0,
+  "prediction_changes": 0,
+  "platform_uploads": 0,
+  "formal_ZIPs_or_weights_published": 0
+}
