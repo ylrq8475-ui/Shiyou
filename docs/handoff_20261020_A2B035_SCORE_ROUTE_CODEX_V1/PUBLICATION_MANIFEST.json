@@ -1,0 +1,13 @@
+{
+  "files": {
+    "PRIVACY_REVIEW.json": {
+      "sha256": "eddcb734e250af63102ee531b206fb00fb94f31ebffcff4fa1b5c8035f4d7225",
+      "bytes": 481
+    },
+    "RESULT_CODEX.json": {
+      "sha256": "4f7d4c5d3b087f27399ec2b810058aab0f77bcac482b34cf1ccf41467b5a3813",
+      "bytes": 2867
+    }
+  },
+  "self_binding": "Git commit; no self-referential SHA"
+}

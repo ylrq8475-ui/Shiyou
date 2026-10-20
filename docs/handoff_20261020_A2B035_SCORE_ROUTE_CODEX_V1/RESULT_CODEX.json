@@ -1,0 +1,77 @@
+{
+  "task": "A2B-035/search and platform outcome review",
+  "role": "账户A2（新接手）独立审核与交付",
+  "reviews_commit": "6601551152ce4b21d8447fef6ad455e1277023e4",
+  "instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+  "scope": "anonymous evidence arithmetic/source review and user screenshot interpretation; no training; not final package certification",
+  "hard_gates": "Inherited internal pipeline; no new violation found in reviewed source and bound aggregate evidence",
+  "platform_scores": {
+    "latest": {
+      "time": "2026-10-20 10:21:18",
+      "score": 79.3643,
+      "status": "评测成功"
+    },
+    "previous": {
+      "time": "2026-10-19 17:08:30",
+      "score": 79.4717,
+      "status": "评测成功"
+    },
+    "delta": -0.10739999999999839,
+    "actual_uploaded_package_hashes": "UNKNOWN; screenshot lacks package hashes; user associates latest delivery"
+  },
+  "best_pair": {
+    "variant": "ET_last_legal_B_t800_l10_f100",
+    "reference": "B0_prime",
+    "repeat_mean": 75.470065335251,
+    "fixed_score": 76.47252329257977,
+    "repeat_delta": 0.07654273307652489,
+    "seed_deltas": [
+      0.05711778706012183,
+      0.18854200500662444,
+      0.11337511987248661,
+      0.158772178848281,
+      -0.13509342540488944
+    ],
+    "positive_seeds": 4,
+    "paired_seed_SE_descriptive": 0.05737130619325325,
+    "fixed_delta": 0.13990497130238566,
+    "fixed_fold_deltas": [
+      -0.04669851107144041,
+      -0.33886136783337406,
+      -0.5007723476837356,
+      0.6460193266632928,
+      0.951500474085563
+    ],
+    "positive_fixed_folds": 2,
+    "prefix_score_gains": {
+      "m1_to_1": 0.05396760426589431,
+      "m1_to_2": 0.07934365713937908,
+      "m1_to_4": 0.0721604861744779,
+      "m1_to_12": 0.07654273307652115
+    }
+  },
+  "conditional_S_v": {
+    "condition": "only if screenshot rows bind respectively to B0prime and selected current candidate packages",
+    "previous": 77.43261130108723,
+    "latest": 77.4171826676255,
+    "delta": -0.015428633461738173,
+    "actual_version_binding": "UNKNOWN"
+  },
+  "recommendation": "Continue permitted research; reduce homogeneous ET grid priority; train-only error budget and complementary learners; current new routes not selected for submitted candidate",
+  "checks": {
+    "arithmetic_identity_event_assertions": 16764,
+    "failures": 0,
+    "synthetic_tests": 5,
+    "A_model_fits": 0,
+    "A_preprocessor_fits": 0
+  },
+  "open_items": [
+    "Actual platform package binding UNKNOWN",
+    "Selection optimism magnitude UNKNOWN",
+    "Test-side causal error attribution UNKNOWN",
+    "Rejected diversity aggregates absent",
+    "External models and geology remain unreleased",
+    "Historical dtype exception inherited"
+  ],
+  "final_package_approval": "NOT_REVIEWED"
+}

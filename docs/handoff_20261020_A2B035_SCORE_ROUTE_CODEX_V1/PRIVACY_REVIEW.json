@@ -1,0 +1,12 @@
+{
+  "scope": "A artifacts; generic secret/path scan plus manual public-source review; no raw private-marker inventory loaded; screenshot image not published",
+  "records": [
+    {
+      "file": "RESULT_CODEX.json",
+      "sha256": "4f7d4c5d3b087f27399ec2b810058aab0f77bcac482b34cf1ccf41467b5a3813",
+      "credential_and_private_absolute_path_hits": 0,
+      "review": "public anonymous source lineage and manual no-per-well-value review"
+    }
+  ],
+  "all_pass": true
+}
