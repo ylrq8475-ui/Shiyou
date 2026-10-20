@@ -1,0 +1,17 @@
+{
+  "files": {
+    "PRIVACY_REVIEW.json": {
+      "sha256": "6143243a53ae6ae96e5df7919ded262a8b584b5e7ba8206f504aba05f570d3af",
+      "bytes": 834
+    },
+    "RESOURCE_ADMISSION_CODEX.json": {
+      "sha256": "365b53423a32d1637d83f3ab1b4ee5003128e029ffd9591356d3fdb286e22756",
+      "bytes": 2359
+    },
+    "RESULT_CODEX.json": {
+      "sha256": "ecca1933db2800beb785468b2d8ca2ac450fb09142fa90d62258ce5bc915ada1",
+      "bytes": 4026
+    }
+  },
+  "self_binding": "Git object, no self-referential checksum"
+}

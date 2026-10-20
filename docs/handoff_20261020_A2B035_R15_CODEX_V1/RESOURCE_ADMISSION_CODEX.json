@@ -1,0 +1,48 @@
+{
+  "task": "R15 resource and tested adapter admission",
+  "role": "账户A2（新接手）独立审核与交付",
+  "reviews_commit": "42a5c66406f56af86520c3d65eb71d1fbb616fea",
+  "research_admission": true,
+  "license_and_offline_records_verified": true,
+  "LGB_Cat": {
+    "versions": {
+      "LightGBM": "4.6.0",
+      "CatBoost": "1.2.8"
+    },
+    "environment_record_commit": "51055b6458f17fc19f46c4b7a03da2f9a7a557e6",
+    "B_actual_common_adapter_tests": "PASS",
+    "old_blocked_directory_not_declared_repaired": true
+  },
+  "TabPFN": {
+    "package": "2.2.1",
+    "model": "Prior-Labs/TabPFN-v2-reg",
+    "revision": "4972a65a1b30806315c6f92499959ffbfc69a673",
+    "weight_sha256": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736",
+    "probe_sha256": "e0de88295588282706ab6e5c511a1820972fbab96746d7f35eebae0d0cbeaeec",
+    "license": "Prior Labs License v1.1, not plain Apache-2.0",
+    "scope": "pinned local model_path CPU seed20260916; training-only preprocessing/context fit; underlying predict exactly one query row; no joint test processing",
+    "sklearn": "1.6.1 in dedicated environment",
+    "distribution_requirements": "full applicable license/attribution, model naming provision when applicable; no weight publication on GitHub"
+  },
+  "Chronos": {
+    "model": "amazon/chronos-2",
+    "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+    "weight_sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42",
+    "probe_sha256": "5e6de42711d54fb109240e90393728ce96ee68908a461ccd483b72b7fd1cc50a",
+    "license": "Apache-2.0",
+    "scope": "one legal univariate history per call; CPU float32,batch_size1,cross_learning=False,horizon12,no fit/finetune on test",
+    "untested_scope": [
+      "covariate adapter",
+      "multiple-series joint execution",
+      "competition input/median forecast integration"
+    ]
+  },
+  "next_integration": "R13/R15 user authorization permits research; preserve these constraints and submit actual first competition integration plus same-environment control before any version from new path is uploaded; no per-variant review",
+  "Q1": {
+    "decision": "UNKNOWN",
+    "whitelist": [],
+    "current_value_screen": "不再投入",
+    "G_enabled": false
+  },
+  "automatic_model_upgrade_or_platform_upload": false
+}

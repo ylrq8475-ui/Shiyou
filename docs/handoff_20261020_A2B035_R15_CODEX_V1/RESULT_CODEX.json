@@ -1,0 +1,90 @@
+{
+  "task": "A2B-035/R15 incremental review and R14 repair retest",
+  "role": "账户A2（新接手）独立审核与交付",
+  "reviews_commit": "42a5c66406f56af86520c3d65eb71d1fbb616fea",
+  "also_reviews_commits": [
+    "51055b6458f17fc19f46c4b7a03da2f9a7a557e6"
+  ],
+  "instruction_commit": "9482ad9bb2a0bc64519e6a9effc8adbfee14173a",
+  "R14_instruction_commit": "0f2804776957cefa6c3bab573a403f0cfb86d33e",
+  "R13_instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+  "can_search": true,
+  "research_lock_sha256": "aafffd62ebc0974ce8fdc446484d554372bbcd2ed762598b85e548c75b174dac",
+  "closed_issues": [
+    "A035-R14-01 in new R15 implementation",
+    "A035-R14-02 in new R15 implementation",
+    "CODEX-035-R14-INCREMENT new R15 internal research scope"
+  ],
+  "path_decisions": {
+    "W_H_T_HX_internal": {
+      "search": true,
+      "scope": "reviewed R15 ET code, HX excludes LJCYL/NCYL, fixed/repeated grouped splits, repaired diagnostics"
+    },
+    "B0_repackage": {
+      "technical_review": "PASS in source and bound B records",
+      "upload": false,
+      "reason": "explicit R15 no-upload instruction"
+    },
+    "B0_W_current_complete_version": {
+      "path_can_enter_user_manual_platform_evaluation": true,
+      "final_designation_approved": false,
+      "result_sha256": "5bc472e9a3e709ea8076e54ef684d074315967c4291cfd7f3ab74cd959ba2e3f",
+      "code_sha256": "b267b82cdecb6f44a78862bfadea2d813ef41d32f0ec2c0016bde86e811ae0ae",
+      "runtime_receipts": "B clean full-retrain claim recorded; independent structured run/linter receipts to supplement as P2, mandatory before final audit; no new per-candidate gate"
+    },
+    "external_resources_and_tested_call_adapters": {
+      "research_admission": true,
+      "competition_integrated_pipeline_or_final_package_automatically_approved": false,
+      "first_new_competition_path_requires_same_batch_increment_review_before_upload": true
+    },
+    "G": {
+      "search": false,
+      "whitelist": [],
+      "screen_decision": "不再投入 under current kh/effective-thickness criterion"
+    }
+  },
+  "numeric_results": {
+    "B0_fixed": 73.71410733861434,
+    "B0_W_fixed_delta": -0.20417149542917912,
+    "B0_W_repeated_delta": 0.20285293672738192,
+    "B0_W_positive_seeds": 3,
+    "T_B0prime_repeated_delta": -1.1119389876211443,
+    "HX_repeated_delta": -0.12053638158130298,
+    "new_bound_platform_score": null,
+    "S_v": "UNKNOWN"
+  },
+  "checks": {
+    "anonymous_published_files": 50,
+    "anonymous_source_members": 72,
+    "arithmetic_identity_assertions": 5732,
+    "A_stdlib_source_tests": 10,
+    "A_actual_model_fits": 0,
+    "A_actual_preprocessor_fits": 0,
+    "A_competition_raw_reads": 0,
+    "B_research_fits": 540,
+    "B_total_model_and_top_level_preprocessor_fits_each": 548
+  },
+  "open_items": [
+    {
+      "id": "A035-R15-01",
+      "priority": "P2",
+      "reason": "SFSBHD output name must mean irreducible water saturation, not original oil saturation; trigger decision unaffected"
+    },
+    {
+      "id": "A035-R15-02",
+      "priority": "P2",
+      "reason": "append existing W independent training/result/linter runtime receipts before final package review; not a new variant upload gate"
+    },
+    "G historical availability UNKNOWN, no whitelist",
+    "Actual platform package binding and historical dtype exception inherited"
+  ],
+  "scope_limits": [
+    "Original private runner not held by A; only declared DATA-path redaction and bound public/executed identities checked",
+    "No actual foundation model rerun by A; B pinned actual probes and official public metadata independently cross-checked",
+    "No formal ZIP/weights uploaded to GitHub; no portal operation; no model upgrade"
+  ],
+  "probe_source_sha256": {
+    "tabpfn_probe15.py": "e0de88295588282706ab6e5c511a1820972fbab96746d7f35eebae0d0cbeaeec",
+    "chronos_probe15.py": "5e6de42711d54fb109240e90393728ce96ee68908a461ccd483b72b7fd1cc50a"
+  }
+}

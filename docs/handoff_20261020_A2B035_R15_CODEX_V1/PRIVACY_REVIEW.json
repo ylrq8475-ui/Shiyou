@@ -1,0 +1,19 @@
+{
+  "all_pass": true,
+  "records": [
+    {
+      "path": "RESOURCE_ADMISSION_CODEX.json",
+      "sha256": "365b53423a32d1637d83f3ab1b4ee5003128e029ffd9591356d3fdb286e22756",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    },
+    {
+      "path": "RESULT_CODEX.json",
+      "sha256": "ecca1933db2800beb785468b2d8ca2ac450fb09142fa90d62258ce5bc915ada1",
+      "secret_or_absolute_private_path_hits": 0,
+      "source": "public anonymous B evidence or synthetic-only A tests; manual no-real-row review"
+    }
+  ],
+  "scope": "A public/synthetic artifacts; no raw private-marker inventory loaded; not an independent rescan of original competition values",
+  "self_binding": "Git object; manifest binds this record"
+}
