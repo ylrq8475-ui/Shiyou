@@ -1,12 +1,48 @@
 {
   "files": {
+    "ARITHMETIC_REVIEW.json": {
+      "sha256": "6ce08a603620bb065cb5f72d0d0b02f2909ab48a00169fdfa82415c5d1d44476",
+      "bytes": 16773
+    },
+    "audit_results.py": {
+      "sha256": "f331919787d671db2a24fc633f3fcfd5492d27666074592129d2972a995052e5",
+      "bytes": 7346
+    },
+    "COLLABORATION_REPLY_TO_CLAUDE.md": {
+      "sha256": "39ee56977a7c54eac9079b4765f0aaf6d0985f03e10d1ad604ecde5a5e9b2062",
+      "bytes": 4357
+    },
+    "collect.py": {
+      "sha256": "8011502263cb5149820476b663a87aa49e5c1fafae0e5be1dad83ce1d2e059af",
+      "bytes": 1437
+    },
     "PRIVACY_REVIEW.json": {
-      "sha256": "eddcb734e250af63102ee531b206fb00fb94f31ebffcff4fa1b5c8035f4d7225",
-      "bytes": 481
+      "sha256": "437ec96c176eb37d903f5efbd28ba6d5c5281d295a12ab7be860738d1c7bbf8b",
+      "bytes": 3001
+    },
+    "README.md": {
+      "sha256": "81f1d89228c1e6310612e555aacf132a294c9e0b2f629aaff01f3eea1637b46d",
+      "bytes": 560
+    },
+    "REPORT_CODEX.md": {
+      "sha256": "2dc61d421a1c472459ee9a644a1735b0dbff558f0d43d4d85da9e72cbebb8315",
+      "bytes": 15594
     },
     "RESULT_CODEX.json": {
       "sha256": "4f7d4c5d3b087f27399ec2b810058aab0f77bcac482b34cf1ccf41467b5a3813",
       "bytes": 2867
+    },
+    "SOURCE_IDENTITIES.json": {
+      "sha256": "a294de68b3d2d8761a1c0ffe1672b877deb19242112f9afe394e0d0ac26f3b4d",
+      "bytes": 14097
+    },
+    "SYNTHETIC_LOG.txt": {
+      "sha256": "c365a580f77e1e7067f6bc5b2951ce4bb04cfab6090af985d6c51cd83ce74910",
+      "bytes": 545
+    },
+    "test_mechanism_arithmetic.py": {
+      "sha256": "399e8cd899432ee36b42120b3d7f5eab0d8f29b0b3d24f5e4b6bc72a7bdc9987",
+      "bytes": 1205
     }
   },
   "self_binding": "Git commit; no self-referential SHA"

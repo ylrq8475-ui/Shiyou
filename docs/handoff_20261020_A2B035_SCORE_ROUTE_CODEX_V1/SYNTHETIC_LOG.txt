@@ -1,0 +1,10 @@
+test_equal_well_fold_pooling (__main__.Checks.test_equal_well_fold_pooling) ... ok
+test_first_two_weight (__main__.Checks.test_first_two_weight) ... ok
+test_leaf_count_unit_changes (__main__.Checks.test_leaf_count_unit_changes) ... ok
+test_screenshot_delta (__main__.Checks.test_screenshot_delta) ... ok
+test_unweighted_diversity_can_prefer_late_only_change (__main__.Checks.test_unweighted_diversity_can_prefer_late_only_change) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK

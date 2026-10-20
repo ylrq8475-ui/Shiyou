@@ -1,0 +1,1 @@
+账户A2独立审核。先读REPORT_CODEX.md，再将COLLABORATION_REPLY_TO_CLAUDE.md由用户转发。SOURCE_IDENTITIES.json绑定B固定23份发布文件；audit_results.py只读匿名聚合。复核需在本目录旁按脚本ROOT准备sources和bundle，以及上一轮已公开共用管线source_runtime；不需要赛事数据或机器学习库。collect.py使用账户A自己的既有Git对象库提取固定公开交付，不执行B脚本。测试可用Python标准库执行，A实际未训练。最终发布链接由handoff-index固定提交绑定。

@@ -2,8 +2,62 @@
   "scope": "A artifacts; generic secret/path scan plus manual public-source review; no raw private-marker inventory loaded; screenshot image not published",
   "records": [
     {
+      "file": "ARITHMETIC_REVIEW.json",
+      "sha256": "6ce08a603620bb065cb5f72d0d0b02f2909ab48a00169fdfa82415c5d1d44476",
+      "credential_and_private_absolute_path_hits": 0,
+      "review": "public anonymous source lineage and manual no-per-well-value review"
+    },
+    {
+      "file": "audit_results.py",
+      "sha256": "f331919787d671db2a24fc633f3fcfd5492d27666074592129d2972a995052e5",
+      "credential_and_private_absolute_path_hits": 0,
+      "review": "public anonymous source lineage and manual no-per-well-value review"
+    },
+    {
+      "file": "COLLABORATION_REPLY_TO_CLAUDE.md",
+      "sha256": "39ee56977a7c54eac9079b4765f0aaf6d0985f03e10d1ad604ecde5a5e9b2062",
+      "credential_and_private_absolute_path_hits": 0,
+      "review": "public anonymous source lineage and manual no-per-well-value review"
+    },
+    {
+      "file": "collect.py",
+      "sha256": "8011502263cb5149820476b663a87aa49e5c1fafae0e5be1dad83ce1d2e059af",
+      "credential_and_private_absolute_path_hits": 0,
+      "review": "public anonymous source lineage and manual no-per-well-value review"
+    },
+    {
+      "file": "README.md",
+      "sha256": "81f1d89228c1e6310612e555aacf132a294c9e0b2f629aaff01f3eea1637b46d",
+      "credential_and_private_absolute_path_hits": 0,
+      "review": "public anonymous source lineage and manual no-per-well-value review"
+    },
+    {
+      "file": "REPORT_CODEX.md",
+      "sha256": "2dc61d421a1c472459ee9a644a1735b0dbff558f0d43d4d85da9e72cbebb8315",
+      "credential_and_private_absolute_path_hits": 0,
+      "review": "public anonymous source lineage and manual no-per-well-value review"
+    },
+    {
       "file": "RESULT_CODEX.json",
       "sha256": "4f7d4c5d3b087f27399ec2b810058aab0f77bcac482b34cf1ccf41467b5a3813",
+      "credential_and_private_absolute_path_hits": 0,
+      "review": "public anonymous source lineage and manual no-per-well-value review"
+    },
+    {
+      "file": "SOURCE_IDENTITIES.json",
+      "sha256": "a294de68b3d2d8761a1c0ffe1672b877deb19242112f9afe394e0d0ac26f3b4d",
+      "credential_and_private_absolute_path_hits": 0,
+      "review": "public anonymous source lineage and manual no-per-well-value review"
+    },
+    {
+      "file": "SYNTHETIC_LOG.txt",
+      "sha256": "c365a580f77e1e7067f6bc5b2951ce4bb04cfab6090af985d6c51cd83ce74910",
+      "credential_and_private_absolute_path_hits": 0,
+      "review": "public anonymous source lineage and manual no-per-well-value review"
+    },
+    {
+      "file": "test_mechanism_arithmetic.py",
+      "sha256": "399e8cd899432ee36b42120b3d7f5eab0d8f29b0b3d24f5e4b6bc72a7bdc9987",
       "credential_and_private_absolute_path_hits": 0,
       "review": "public anonymous source lineage and manual no-per-well-value review"
     }
