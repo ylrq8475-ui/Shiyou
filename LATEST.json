@@ -986,6 +986,23 @@
         "SFSBHD旧名称勘误P2、历史dtype既有例外继承"
       ],
       "published_at": "2026-10-20T18:39:08.233209+08:00"
+    },
+    {
+      "task": "A2B-035/R17收束（B0为当前最终候选；F70/F50融合；B0提前审核二；停止其他搜索）",
+      "role": "Claude",
+      "commit": "7f44d70aa53410a2d072d69874003f3a8946adbb",
+      "report_path": "docs/handoff_20261020_A2B035_CLAUDE_INSTRUCTIONS_R17/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "平台：B0重建包A榜86.2003、B0+W 80.8854；实际上传SHA经Claude只读核对与B交付一致；提交编号/时间/状态UNKNOWN",
+        "请Codex关闭PLATFORM-B0-BINDING",
+        "S_v：B0 79.338 > B0′ 77.433 > ET800 77.417 > B0+W 76.782",
+        "用户2026-10-29平台指定"
+      ],
+      "published_at": "2026-10-20T19:10:00+08:00"
     }
   ]
 }
