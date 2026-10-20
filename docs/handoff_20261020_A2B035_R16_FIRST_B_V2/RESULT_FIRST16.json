@@ -1,0 +1,188 @@
+{
+  "task": "A2B035/R16 first real integration and existing upload packages",
+  "role": "账户B执行与交付",
+  "R16_commit": "441966be673da9083505168077a4d6ac63805e90",
+  "Codex_resource_review": "929287843e30906144ca6caca4a4f5fdc6c2ec3d",
+  "research_lock_sha256": "9842a7c64f9e6d6969c462fd1e3d4a1498aece464b7e43f2d1d3fd912809b9df",
+  "package_receipt_fits": 0,
+  "packages": [
+    {
+      "version": "B0",
+      "result_zip_sha256": "2b4f57169d653d0ca5fc994d2822f6e167e72c5696a1220f83f7c1eaac4a1df1",
+      "submission_code_zip_sha256": "a75ce0e1820001ef2e854a0cee6540a04caa5b1ecadec3d3c433f30ab42e420a",
+      "existing_independent_raw_retrain_result_bytes_equal": true,
+      "result_linter": "PASS",
+      "model_runtime_bound_to_existing_receipts": true,
+      "syntax_check_latest_ZIP": "PASS",
+      "user_manual_upload_authorized_by_R16": true,
+      "platform_uploaded": false
+    },
+    {
+      "version": "B0_W",
+      "result_zip_sha256": "5bc472e9a3e709ea8076e54ef684d074315967c4291cfd7f3ab74cd959ba2e3f",
+      "submission_code_zip_sha256": "b267b82cdecb6f44a78862bfadea2d813ef41d32f0ec2c0016bde86e811ae0ae",
+      "existing_independent_raw_retrain_result_bytes_equal": true,
+      "result_linter": "PASS",
+      "model_runtime_bound_to_existing_receipts": true,
+      "syntax_check_latest_ZIP": "PASS",
+      "user_manual_upload_authorized_by_R16": true,
+      "platform_uploaded": false
+    }
+  ],
+  "first_actual_integrations": [
+    {
+      "actual_learner": "LightGBM",
+      "status": "PASS",
+      "config": {
+        "variant": "LGB_B0_n7_m10_t300_U",
+        "cutoff": "M_minus_1",
+        "learner": "LightGBM",
+        "params": {
+          "num_leaves": 7,
+          "min_data_in_leaf": 10,
+          "learning_rate": 0.05,
+          "n_estimators": 300
+        },
+        "W": false
+      },
+      "environment_hash": "8157dd8a3303dbab15e9db6c2d8b020ed49e5e835e8c93271063be9de91e1344",
+      "actual_fold": {
+        "score": 70.94450572442229,
+        "weighted_losses": {
+          "m1_to_1": 0.1500731640297649,
+          "m1_to_2": 0.21842059494804913,
+          "m1_to_4": 0.2730679884162759,
+          "m1_to_12": 0.2905549427557771
+        },
+        "fold": 1,
+        "training_wells": 64,
+        "validation_wells": 17,
+        "well_overlap": 0,
+        "split_sha256": "7169bea57c5945945197313c63aa934f1aa2dc1f9e0d2d1eff350c7c75cd7009",
+        "environment": "NATIVE",
+        "training_weights": "none",
+        "model_fits": 1,
+        "preprocessor_fits": 1,
+        "seconds": 13.400505499972496
+      },
+      "both_cutoffs_covered": true,
+      "synthetic_window_column_cutoff_cases": 54,
+      "validation_rows_single_batch_reverse_extra_exact": true,
+      "actual_learner_poison_prediction_exact": true,
+      "new_path_upload_eligible": false
+    },
+    {
+      "actual_learner": "CatBoost",
+      "status": "PASS",
+      "config": {
+        "variant": "CAT_B0_d4_U",
+        "cutoff": "M_minus_1",
+        "learner": "CatBoost",
+        "params": {
+          "depth": 4,
+          "iterations": 800,
+          "learning_rate": 0.05
+        },
+        "W": false
+      },
+      "environment_hash": "8157dd8a3303dbab15e9db6c2d8b020ed49e5e835e8c93271063be9de91e1344",
+      "actual_fold": {
+        "score": 69.95770989492533,
+        "weighted_losses": {
+          "m1_to_1": 0.16398165719940372,
+          "m1_to_2": 0.2297356770551983,
+          "m1_to_4": 0.2835842156146974,
+          "m1_to_12": 0.30042290105074665
+        },
+        "fold": 1,
+        "training_wells": 64,
+        "validation_wells": 17,
+        "well_overlap": 0,
+        "split_sha256": "7169bea57c5945945197313c63aa934f1aa2dc1f9e0d2d1eff350c7c75cd7009",
+        "environment": "NATIVE",
+        "training_weights": "none",
+        "model_fits": 1,
+        "preprocessor_fits": 1,
+        "seconds": 14.247038599976804
+      },
+      "both_cutoffs_covered": true,
+      "synthetic_window_column_cutoff_cases": 54,
+      "validation_rows_single_batch_reverse_extra_exact": true,
+      "actual_learner_poison_prediction_exact": true,
+      "new_path_upload_eligible": false
+    }
+  ],
+  "snapshot_fit_counts": {
+    "NATIVE_FITS16.json": {
+      "R13_fit_cap": null,
+      "models_entered": 157,
+      "models_completed": 156,
+      "preprocessors_entered": 157,
+      "preprocessors_completed": 157,
+      "failures": 0,
+      "retries": 0
+    },
+    "TAB_FITS16.json": {
+      "R13_fit_cap": null,
+      "models_entered": 1,
+      "models_completed": 1,
+      "preprocessors_entered": 1,
+      "preprocessors_completed": 1,
+      "failures": 0,
+      "retries": 0
+    }
+  },
+  "phase": "research is running; only first actual folds and package evidence in this snapshot",
+  "full_CV_complete": false,
+  "model_scores_not_used_to_change_prescore_grid": true,
+  "TabPFN_W": "NOT_SUPPORTED_BY_PINNED_DEFAULT_FIT_API; no sample-resampling substitute",
+  "stopped": [
+    "H",
+    "T",
+    "HX",
+    "geology",
+    "Chronos"
+  ],
+  "new_external_versions_upload_eligible": false,
+  "platform_uploads": 0,
+  "row_OOF_persisted": false,
+  "S_v": "UNKNOWN",
+  "retired_v1_execution": {
+    "reason": "orchestration serially waited for slow first TabPFN validation, blocking native learners; before any completed full-CV candidate selection",
+    "original_source_lock_sha256": "33a7af1e3c58959b149d2e12ccd0300157b1e1bc8167a428e4e2e1f3912eb040",
+    "retired_fit_counts": {
+      "NATIVE_FITS16.json": {
+        "R13_fit_cap": null,
+        "models_entered": 2,
+        "models_completed": 2,
+        "preprocessors_entered": 2,
+        "preprocessors_completed": 2,
+        "failures": 0,
+        "retries": 0
+      },
+      "TAB_FITS16.json": {
+        "R13_fit_cap": null,
+        "models_entered": 1,
+        "models_completed": 1,
+        "preprocessors_entered": 1,
+        "preprocessors_completed": 1,
+        "failures": 0,
+        "retries": 0
+      }
+    },
+    "retired_models_completed": 3,
+    "retired_preprocessor_pipelines_completed": 3,
+    "native_first_fold_complete": 2,
+    "Tab_model_context_complete_but_validation_not_complete": 1,
+    "old_records_preserved": true,
+    "row_OOF_not_persisted": true,
+    "repair": "separate native execution and local Tab worker via threads/OSpipes; native max logicalcores-1, Tabtorch1; default algorithm grid unchanged; deadline guard before Tab fit and every query",
+    "necessary_rebuild_native_first_folds": 2,
+    "necessary_restart_Tab_incomplete_fold": 1,
+    "not_score_selection_or_extra_hyperparameter_search": true,
+    "old_processes_only_stopped_after_exact_own_commandline_and_PID_match": true
+  },
+  "extra_synthetic_context_fits": 3,
+  "extra_synthetic_preprocessors": 0,
+  "Tab_native_batch_and_cache_NOT_enabled": true
+}
