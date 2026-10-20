@@ -1,0 +1,163 @@
+{
+  "paired_diagnoses": {
+    "CAT_B0_d6_W": {
+      "reference": "CTRL_NATIVE_B0",
+      "score_contributions": {
+        "month1": -0.025589395569552975,
+        "month2": 0.04528748864202764,
+        "months3_4": -0.12099433699211959,
+        "months5_12": -0.0666849965854352
+      },
+      "direction_loss_change_points": {
+        "over_prediction": 0.7811889605639999,
+        "under_prediction": -0.6132077200589212
+      },
+      "group_loss_change_points": {
+        "production_tertile": {
+          "high": 0.25035461943538895,
+          "low": 0.18246665520356697,
+          "middle": 0.017295829937524765
+        },
+        "scale_fallback": {
+          "fallback": 1.7548188816040367,
+          "positive_raw_scale": -0.1635967740529154
+        }
+      },
+      "early_direction_loss_change_points": {
+        "month1": {
+          "over_prediction": 0.2852771843626631,
+          "under_prediction": -0.2596877887931101
+        },
+        "month2": {
+          "over_prediction": 0.32763311598380945,
+          "under_prediction": -0.37292060462583776
+        }
+      },
+      "early2_score_gain": 0.019698093072474665
+    },
+    "CAT_B0P_d6_U": {
+      "reference": "CTRL_NATIVE_B0P",
+      "score_contributions": {
+        "month1": -0.219899102781225,
+        "month2": -0.07610360707080363,
+        "months3_4": -0.1822658134554199,
+        "months5_12": -0.08475953159483296
+      },
+      "direction_loss_change_points": {
+        "over_prediction": -0.44762090527877274,
+        "under_prediction": 1.0106489601810542
+      },
+      "group_loss_change_points": {
+        "production_tertile": {
+          "high": 1.4826001928961468,
+          "low": 0.6779533388232839,
+          "middle": -0.5783947417094232
+        },
+        "scale_fallback": {
+          "fallback": 3.147209704253495,
+          "positive_raw_scale": 0.3562935229541847
+        }
+      },
+      "early_direction_loss_change_points": {
+        "month1": {
+          "over_prediction": -0.4992256418305849,
+          "under_prediction": 0.7191247446118133
+        },
+        "month2": {
+          "over_prediction": 0.06750803564578925,
+          "under_prediction": 0.008595571425014381
+        }
+      },
+      "early2_score_gain": -0.2960027098520286
+    },
+    "LGB_B0_n7_m10_t300_W": {
+      "reference": "CTRL_NATIVE_B0",
+      "score_contributions": {
+        "month1": -1.119314448965858,
+        "month2": -0.06551916497014171,
+        "months3_4": -0.10602698611274428,
+        "months5_12": -0.11149302704770263
+      },
+      "direction_loss_change_points": {
+        "over_prediction": 1.9290754516638753,
+        "under_prediction": -0.5267218245674304
+      },
+      "group_loss_change_points": {
+        "production_tertile": {
+          "high": 2.12193562421274,
+          "low": 0.56977157279679,
+          "middle": 1.4448187537470902
+        },
+        "scale_fallback": {
+          "fallback": 1.3560742855343144,
+          "positive_raw_scale": 1.4120239372736043
+        }
+      },
+      "early_direction_loss_change_points": {
+        "month1": {
+          "over_prediction": 1.0112569897716237,
+          "under_prediction": 0.10805745919423293
+        },
+        "month2": {
+          "over_prediction": 0.5986992249788908,
+          "under_prediction": -0.5331800600087495
+        }
+      },
+      "early2_score_gain": -1.1848336139359996
+    },
+    "LGB_B0P_n7_m10_t300_U": {
+      "reference": "CTRL_NATIVE_B0P",
+      "score_contributions": {
+        "month1": -1.1274509379422495,
+        "month2": -0.3472975346565176,
+        "months3_4": -0.16105868086385422,
+        "months5_12": -0.02532851423988937
+      },
+      "direction_loss_change_points": {
+        "over_prediction": -0.09613362507806256,
+        "under_prediction": 1.7572692927805735
+      },
+      "group_loss_change_points": {
+        "production_tertile": {
+          "high": 2.3276247128964562,
+          "low": 1.769071367279551,
+          "middle": 0.7834863122417601
+        },
+        "scale_fallback": {
+          "fallback": 2.936003718536351,
+          "positive_raw_scale": 1.5591462236358045
+        }
+      },
+      "early_direction_loss_change_points": {
+        "month1": {
+          "over_prediction": -0.23975018901843392,
+          "under_prediction": 1.3672011269606856
+        },
+        "month2": {
+          "over_prediction": 0.14482847719402975,
+          "under_prediction": 0.20246905746248883
+        }
+      },
+      "early2_score_gain": -1.4747484725987672
+    }
+  },
+  "W_U_summary": {
+    "B0": {
+      "pairs": 10,
+      "positive_pairs": 10,
+      "minimum_delta": 0.5649369356941918,
+      "maximum_delta": 1.2136612070993067,
+      "all_early2_positive": true
+    },
+    "B0P": {
+      "pairs": 10,
+      "positive_pairs": 0,
+      "minimum_delta": -1.8440625224931324,
+      "maximum_delta": -0.8773600447991612,
+      "all_early2_positive": false
+    }
+  },
+  "tree_increase_pairs": 16,
+  "tree_increase_positive_pairs": 1,
+  "evidence_boundary": "association from already published grouped OOF budgets; not causal attribution, no new tuning or fits"
+}

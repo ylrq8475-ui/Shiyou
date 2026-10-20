@@ -1,0 +1,18 @@
+test_01_all_locked_configs_valid (__main__.Tests.test_01_all_locked_configs_valid) ... ok
+test_02_reject_unsafe_cutoff_and_unregistered_params (__main__.Tests.test_02_reject_unsafe_cutoff_and_unregistered_params) ... ok
+test_03_Tab_weighted_not_silently_approximated (__main__.Tests.test_03_Tab_weighted_not_silently_approximated) ... ok
+test_04_constructor_exact_grid_and_seed (__main__.Tests.test_04_constructor_exact_grid_and_seed) ... ok
+test_05_estimator_version_mismatch_blocks (__main__.Tests.test_05_estimator_version_mismatch_blocks) ... ok
+test_06_actual_fit_weight_and_fold_scope (__main__.Tests.test_06_actual_fit_weight_and_fold_scope) ... ok
+test_07_predict_tab_underlying_single_row_and_every_query_deadline (__main__.Tests.test_07_predict_tab_underlying_single_row_and_every_query_deadline) ... ok
+test_08_predict_native_batch_single_reverse (__main__.Tests.test_08_predict_native_batch_single_reverse) ... ok
+test_09_deadline_missing_approval_blocks (__main__.Tests.test_09_deadline_missing_approval_blocks) ... ok
+test_10_deadline_predeadline_continues (__main__.Tests.test_10_deadline_predeadline_continues) ... ok
+test_11_fusion_grid_uses_only_supplied_inner_labels (__main__.Tests.test_11_fusion_grid_uses_only_supplied_inner_labels) ... ok
+test_12_source_well_disjoint_and_test_never_loaded_for_search (__main__.Tests.test_12_source_well_disjoint_and_test_never_loaded_for_search) ... ok
+test_13_integration_covers_both_boundaries_and_all_nonkeys (__main__.Tests.test_13_integration_covers_both_boundaries_and_all_nonkeys) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.010s
+
+OK
