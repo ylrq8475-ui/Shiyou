@@ -675,6 +675,22 @@
         "外部/G原准入限制、历史dtype例外继承"
       ],
       "published_at": "2026-10-20T10:36:57.923639+08:00"
+    },
+    {
+      "task": "A2B-035/R14补充（混合尺度H、前两月单独建模T、训练侧误差预算）",
+      "role": "Claude",
+      "commit": "0f2804776957cefa6c3bab573a403f0cfb86d33e",
+      "report_path": "docs/handoff_20261020_A2B035_CLAUDE_INSTRUCTIONS_R14/INSTRUCTION_ORIGINAL.md",
+      "result_json_path": "不适用",
+      "reviews_commit": "不适用",
+      "hard_gates": "不适用",
+      "decision_row": "不适用",
+      "open_unknowns": [
+        "B0独立重建上传：用户暂缓，不得执行",
+        "误差分析仅限训练侧；不做测试井输入分布比较（复现核查公告情形B(1)）",
+        "R13其余规定继续有效"
+      ],
+      "published_at": "2026-10-20T10:50:00+08:00"
     }
   ]
 }
