@@ -768,6 +768,34 @@
         "比值截断[0.2,5]已撤回"
       ],
       "published_at": "2026-10-20T13:55:00+08:00"
+    },
+    {
+      "task": "A2B-035/R15 首批随训证据：P1修复、B0+W、B0重建与环境",
+      "role": "B",
+      "commit": "51055b6458f17fc19f46c4b7a03da2f9a7a557e6",
+      "report_path": "docs/handoff_20261020_A2B035_R15_W_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261020_A2B035_R15_W_B_V1/RESULT_R15_W.json",
+      "reviews_commit": "不适用；请Codex只复核所负责增量；B不代签",
+      "instruction_commit": "9482ad9bb2a0bc64519e6a9effc8adbfee14173a",
+      "R14_instruction_commit": "0f2804776957cefa6c3bab573a403f0cfb86d33e",
+      "R13_instruction_commit": "ee2fa7a97530b57cc4a0aaa2a0bfd22530ed3937",
+      "hard_gates": "泄漏/错位/井级隔离/指标：B本批自检通过；A035-R14-01/02修复后待Codex原编号复核；新路径upload_eligible=false，未上传平台。",
+      "decision_row": "不适用；对应路径是否可用于搜索/上传仅Codex填写；不恢复旧逐候选统计门槛。",
+      "key_numbers": {
+        "baseline_fixed": 73.71410733861434,
+        "weighted_fixed": 73.50993584318516,
+        "baseline_repeated_mean": 72.47647400484871,
+        "weighted_repeated_mean": 72.6793269415761,
+        "fixed_delta": -0.20417149542917912,
+        "repeat_delta": 0.20285293672738192,
+        "snapshot_total_fits_each": 65
+      },
+      "open_unknowns": [
+        "A035-R14-01/02及W/HX/环境/TabPFN专项待独立增量复核，B不自关闭",
+        "B0重建包不上传；W完整包未复核也不上传",
+        "G历史白名单未放行；实际上传包绑定/历史dtype例外继续保留"
+      ],
+      "published_at": "2026-10-20T14:34:41.240862+08:00"
     }
   ]
 }
