@@ -1133,6 +1133,68 @@
         "所有其他搜索含Tab已停，旧R16 heartbeat已暂停"
       ],
       "published_at": "2026-10-20T20:39:51.860400+08:00"
+    },
+    {
+      "task": "A2B-035/R17 B0提前审核二",
+      "role": "Codex",
+      "commit": "ff5a2f35d664b7efe9cafa6250e39cc5c4ecf237",
+      "report_path": "docs/handoff_20261021_A2B035_R17_CODEX_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261021_A2B035_R17_CODEX_V1/RESULT_CODEX.json",
+      "reviews_commit": "bc6963756f1feaf16154e9edacc96e648c74e63a",
+      "review_component": "B0",
+      "also_covered_B_commits": [
+        "742e573cac082cc6921f46255e07c566439360e4"
+      ],
+      "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb",
+      "hard_gates": "已审源码/绑定B执行复现记录/独立聚合合成范围泄漏、错位、井级隔离、指标通过；A真实拟合0；非A原始数据重训。",
+      "decision_row": "PLATFORM-B0-BINDING保持限定关闭；B0最终包是否可指定：是，仅当前已上传SHA及已验证Windows环境；非A/B已指定。",
+      "package_release_path": "docs/handoff_20261021_A2B035_R17_CODEX_V1/PACKAGE_RELEASES_CODEX.json",
+      "key_numbers": {
+        "B_model_and_top_level_preprocessor_fits_each": 67,
+        "A_model_fits": 0,
+        "identity_arithmetic_checks": 1262,
+        "synthetic_source_tests": 12,
+        "F70_repeat": 74.18091108778239,
+        "F50_repeat": 74.83912910856934
+      },
+      "open_unknowns": [
+        "平台编号/时间/状态缺项，F70/F50分数/S_v UNKNOWN",
+        "历史dtype P1用户例外继承，不追认旧历史字节",
+        "只认证已验证Windows环境；Linux未经实测",
+        "真实复训与ZIP字节一致为B绑定回执，A未读取真实包/原始数据/模型"
+      ],
+      "published_at": "2026-10-21T15:47:31.265074+08:00"
+    },
+    {
+      "task": "A2B-035/R17 F70/F50固定融合上传审核",
+      "role": "Codex",
+      "commit": "ff5a2f35d664b7efe9cafa6250e39cc5c4ecf237",
+      "report_path": "docs/handoff_20261021_A2B035_R17_CODEX_V1/REPORT_CODEX.md",
+      "result_json_path": "docs/handoff_20261021_A2B035_R17_CODEX_V1/RESULT_CODEX.json",
+      "reviews_commit": "742e573cac082cc6921f46255e07c566439360e4",
+      "review_component": "F70_F50",
+      "also_covered_B_commits": [
+        "bc6963756f1feaf16154e9edacc96e648c74e63a"
+      ],
+      "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb",
+      "hard_gates": "已审源码/绑定B执行复现记录/独立聚合合成范围泄漏、错位、井级隔离、指标通过；A真实拟合0；非A原始数据重训。",
+      "decision_row": "F70可上传：是；F50可上传：是，仅明确SHA对应完整包供用户手动评测；未作融合审核二，不自动指定。",
+      "package_release_path": "docs/handoff_20261021_A2B035_R17_CODEX_V1/PACKAGE_RELEASES_CODEX.json",
+      "key_numbers": {
+        "B_model_and_top_level_preprocessor_fits_each": 67,
+        "A_model_fits": 0,
+        "identity_arithmetic_checks": 1262,
+        "synthetic_source_tests": 12,
+        "F70_repeat": 74.18091108778239,
+        "F50_repeat": 74.83912910856934
+      },
+      "open_unknowns": [
+        "平台编号/时间/状态缺项，F70/F50分数/S_v UNKNOWN",
+        "历史dtype P1用户例外继承，不追认旧历史字节",
+        "只认证已验证Windows环境；Linux未经实测",
+        "真实复训与ZIP字节一致为B绑定回执，A未读取真实包/原始数据/模型"
+      ],
+      "published_at": "2026-10-21T15:47:31.265074+08:00"
     }
   ]
 }
