@@ -1,0 +1,27 @@
+{
+  "executed_diagnostic_sha256": "d57ba06cf54b6f0d465965bb9116fc9c42c07f98eacd3bcec0efca53e006ed6d",
+  "executed_supplement_sha256": "35b83e6daf428add49d45b2174dd6af5465e08e92199012fed65f121abbc60c4",
+  "method_scope": "training legal prefixes and existing fold coverage counts; no fitting, OOF, predictions or test reads",
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "diagnostic_source_publication": "Exact executable sources retained locally; public materials include hashes and detailed methods, not an independent full source replay claim",
+  "checks": {
+    "schema": "all88 training history CSVs concatenated, date/key/month uniqueness checked",
+    "legal_data": "only81 complete wells at each frozen cutoff enter input-quality statistics; raw full histories used for structure and construction of existing legal target panel",
+    "missing": "raw numeric coercion and finite/missing counts; latest and terminal missing runs separately counted",
+    "windows": "calendar span of last3/6/12 observed rows compared with row count; no reindexing",
+    "duplicates": "column pandas hash with equals verification, missing positions preserved; includes constants and two step columns; exact excess means sum(group_size-1)",
+    "correlation": "Spearman on81 distinct well histories, at least20 pairwise observations; abs>=.995; excludes identical pairs; no target correlation",
+    "outliers": "robust median/MAD threshold6 only as descriptive flag; no deletion or replacement",
+    "folds": "30 frozen group folds examined manually for all-missing columns, validation-only missingness and unseen categories; no sklearn preprocessing fit",
+    "scale": "fallback determined from original last RCYL finite and positive, not scale==1",
+    "supplement": "observed pump domain flags and terminal missing co-occurrence; not score-dependent feature selection"
+  },
+  "limitations": [
+    "No test feature distribution comparison or test-window parsing",
+    "No fitted model or OOF available in this diagnosis, so no error causation or platform gain assessment",
+    "Physical threshold flags need measurement/unit and business interpretation; percentage range is not automatic invalidity",
+    "Co-missing fields do not prove a common acquisition source or a missingness mechanism",
+    "Old historical loaded-dtype identity remains UNKNOWN; current frozen panel identity is independently matched, not backfilled"
+  ]
+}

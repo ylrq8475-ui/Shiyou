@@ -1,0 +1,46 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261021_A2B035_R17_FEATURE_QUALITY_B_V1/METHODS_AND_LIMITATIONS.json",
+      "sha256": "fce3a3e6860d78ed30abfcc93b448b42b3d368199ee17ee1cc8d42b8c37e9225",
+      "bytes": 2421
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_R17_FEATURE_QUALITY_B_V1/PLAN_QUALITY.json",
+      "sha256": "6ca00b27ed56c85ab67d2e6b6a7cd9ed7b5e76c8deb1ea792efbb4e60f91c763",
+      "bytes": 4809
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_R17_FEATURE_QUALITY_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "951bc56d1f9490cdb0e70a054c1183e2cbb8696f2a03ec0d12e80facea77430f",
+      "bytes": 1759
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_R17_FEATURE_QUALITY_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": "e1e6e1a82a54766d35189dc0d9e04598b409b99a7f7b74e48a7423f5eeb224a8",
+      "bytes": 4398
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_R17_FEATURE_QUALITY_B_V1/REPORT_B.md",
+      "sha256": "5b5462109e6163c8d0e5b915f2b57e77f8621cf54eed356be4eb4336fdd5d066",
+      "bytes": 6987
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_R17_FEATURE_QUALITY_B_V1/RESULT_FEATURE_QUALITY.json",
+      "sha256": "e493374a689d56009a2e610c6eb860ae331f44d245aaf29dc375d833500fb608",
+      "bytes": 359456
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_R17_FEATURE_QUALITY_B_V1/SUPPLEMENT_FEATURE_QUALITY.json",
+      "sha256": "0e268ec01705d9d67e5609389256f7b00cce81b8114c32233b50587bc7d4e6cc",
+      "bytes": 6756
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_R17_FEATURE_QUALITY_B_V1/SYNTHETIC_QUALITY.json",
+      "sha256": "06694f563bc5496fab57a8c8a85f3a2ca8c9706bacc4a9a6b8af918df834f360",
+      "bytes": 352
+    }
+  ],
+  "self": "bound by Git and external byte receipt; final bytes privacy scanned"
+}

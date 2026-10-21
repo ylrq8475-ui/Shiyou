@@ -1,0 +1,12 @@
+{
+  "passed": 5,
+  "tests": [
+    "duplicate columns align missing positions",
+    "parse failure distinguished from blank and zero",
+    "three records spanning four calendar months is flagged",
+    "scale fallback is not scale equals one",
+    "training constant does not imply validation constant"
+  ],
+  "model_fits": 0,
+  "preprocessor_fits": 0
+}

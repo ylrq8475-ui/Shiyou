@@ -1,0 +1,282 @@
+{
+  "task": "A2B-035/R17 feature quality supplemental counts",
+  "scope": "legal training prefixes only; follow-up to observed missingness and domain flags; no score, no candidate selection",
+  "diagnostic_source_sha256": "35b83e6daf428add49d45b2174dd6af5465e08e92199012fed65f121abbc60c4",
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "test_CSV_reads": 0,
+  "variants": {
+    "B0": {
+      "BX_domain_flags": {
+        "wells_with_any_outside_0_100": 50,
+        "wells_last_outside_0_100": 5,
+        "wells_last_missing": 15
+      },
+      "terminal_missing_run_counts": {
+        "CCJHWND": {
+          "last_observed": 53,
+          "missing_1": 18,
+          "missing_2_3": 3,
+          "missing_4_6": 3,
+          "missing_7_12": 3,
+          "missing_over_12": 1,
+          "all_history_missing": 0
+        },
+        "CCYND": {
+          "last_observed": 53,
+          "missing_1": 18,
+          "missing_2_3": 3,
+          "missing_4_6": 3,
+          "missing_7_12": 3,
+          "missing_over_12": 1,
+          "all_history_missing": 0
+        },
+        "LY": {
+          "last_observed": 61,
+          "missing_1": 9,
+          "missing_2_3": 3,
+          "missing_4_6": 3,
+          "missing_7_12": 4,
+          "missing_over_12": 1,
+          "all_history_missing": 0
+        },
+        "CMD": {
+          "last_observed": 61,
+          "missing_1": 9,
+          "missing_2_3": 3,
+          "missing_4_6": 4,
+          "missing_7_12": 3,
+          "missing_over_12": 1,
+          "all_history_missing": 0
+        },
+        "XXDL": {
+          "last_observed": 64,
+          "missing_1": 6,
+          "missing_2_3": 3,
+          "missing_4_6": 3,
+          "missing_7_12": 3,
+          "missing_over_12": 1,
+          "all_history_missing": 1
+        }
+      },
+      "recent_missing_coincidence": [
+        {
+          "fields": [
+            "CCJHWND",
+            "CCYND"
+          ],
+          "both_missing_wells": 28,
+          "missing_mask_disagreements": 0
+        },
+        {
+          "fields": [
+            "CCJHWND",
+            "YY"
+          ],
+          "both_missing_wells": 15,
+          "missing_mask_disagreements": 13
+        },
+        {
+          "fields": [
+            "CCJHWND",
+            "TY"
+          ],
+          "both_missing_wells": 15,
+          "missing_mask_disagreements": 13
+        },
+        {
+          "fields": [
+            "CCJHWND",
+            "BX"
+          ],
+          "both_missing_wells": 15,
+          "missing_mask_disagreements": 13
+        },
+        {
+          "fields": [
+            "CCYND",
+            "YY"
+          ],
+          "both_missing_wells": 15,
+          "missing_mask_disagreements": 13
+        },
+        {
+          "fields": [
+            "CCYND",
+            "TY"
+          ],
+          "both_missing_wells": 15,
+          "missing_mask_disagreements": 13
+        },
+        {
+          "fields": [
+            "CCYND",
+            "BX"
+          ],
+          "both_missing_wells": 15,
+          "missing_mask_disagreements": 13
+        },
+        {
+          "fields": [
+            "YY",
+            "TY"
+          ],
+          "both_missing_wells": 15,
+          "missing_mask_disagreements": 0
+        },
+        {
+          "fields": [
+            "YY",
+            "BX"
+          ],
+          "both_missing_wells": 15,
+          "missing_mask_disagreements": 0
+        },
+        {
+          "fields": [
+            "TY",
+            "BX"
+          ],
+          "both_missing_wells": 15,
+          "missing_mask_disagreements": 0
+        }
+      ]
+    },
+    "B0_prime": {
+      "BX_domain_flags": {
+        "wells_with_any_outside_0_100": 52,
+        "wells_last_outside_0_100": 14,
+        "wells_last_missing": 10
+      },
+      "terminal_missing_run_counts": {
+        "CCJHWND": {
+          "last_observed": 50,
+          "missing_1": 19,
+          "missing_2_3": 7,
+          "missing_4_6": 1,
+          "missing_7_12": 4,
+          "missing_over_12": 0,
+          "all_history_missing": 0
+        },
+        "CCYND": {
+          "last_observed": 50,
+          "missing_1": 19,
+          "missing_2_3": 7,
+          "missing_4_6": 1,
+          "missing_7_12": 4,
+          "missing_over_12": 0,
+          "all_history_missing": 0
+        },
+        "LY": {
+          "last_observed": 64,
+          "missing_1": 10,
+          "missing_2_3": 4,
+          "missing_4_6": 1,
+          "missing_7_12": 2,
+          "missing_over_12": 0,
+          "all_history_missing": 0
+        },
+        "CMD": {
+          "last_observed": 64,
+          "missing_1": 10,
+          "missing_2_3": 4,
+          "missing_4_6": 1,
+          "missing_7_12": 2,
+          "missing_over_12": 0,
+          "all_history_missing": 0
+        },
+        "XXDL": {
+          "last_observed": 70,
+          "missing_1": 6,
+          "missing_2_3": 1,
+          "missing_4_6": 1,
+          "missing_7_12": 2,
+          "missing_over_12": 0,
+          "all_history_missing": 1
+        }
+      },
+      "recent_missing_coincidence": [
+        {
+          "fields": [
+            "CCJHWND",
+            "CCYND"
+          ],
+          "both_missing_wells": 31,
+          "missing_mask_disagreements": 0
+        },
+        {
+          "fields": [
+            "CCJHWND",
+            "YY"
+          ],
+          "both_missing_wells": 10,
+          "missing_mask_disagreements": 21
+        },
+        {
+          "fields": [
+            "CCJHWND",
+            "TY"
+          ],
+          "both_missing_wells": 10,
+          "missing_mask_disagreements": 21
+        },
+        {
+          "fields": [
+            "CCJHWND",
+            "BX"
+          ],
+          "both_missing_wells": 10,
+          "missing_mask_disagreements": 21
+        },
+        {
+          "fields": [
+            "CCYND",
+            "YY"
+          ],
+          "both_missing_wells": 10,
+          "missing_mask_disagreements": 21
+        },
+        {
+          "fields": [
+            "CCYND",
+            "TY"
+          ],
+          "both_missing_wells": 10,
+          "missing_mask_disagreements": 21
+        },
+        {
+          "fields": [
+            "CCYND",
+            "BX"
+          ],
+          "both_missing_wells": 10,
+          "missing_mask_disagreements": 21
+        },
+        {
+          "fields": [
+            "YY",
+            "TY"
+          ],
+          "both_missing_wells": 10,
+          "missing_mask_disagreements": 0
+        },
+        {
+          "fields": [
+            "YY",
+            "BX"
+          ],
+          "both_missing_wells": 10,
+          "missing_mask_disagreements": 0
+        },
+        {
+          "fields": [
+            "TY",
+            "BX"
+          ],
+          "both_missing_wells": 10,
+          "missing_mask_disagreements": 0
+        }
+      ]
+    }
+  }
+}
