@@ -1279,6 +1279,31 @@
         "历史dtype与Windows范围限制继承"
       ],
       "published_at": "2026-10-21T21:39:11.690488+08:00"
+    },
+    {
+      "task": "A2B-035/LIGHT_DUAL 轻量双模型",
+      "role": "B",
+      "commit": "172c451cc99bf53e3b8de0d19a1d54a369031f38",
+      "report_path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/RESULT_LIGHT_DUAL.json",
+      "authorization": "direct human request; no fabricated Claude archive",
+      "reviews_commit": "不适用；A2/Codex仅负责其独立复核",
+      "hard_gates": "B边界/输入/合成/分组/指标范围通过；独立复核待完成",
+      "decision_row": "固定与最差重复损失预算未通过，私有研究保存，不替换不上传",
+      "key_numbers": {
+        "repeat_mean_delta": 0.44460700677219905,
+        "positive_repeats": 4,
+        "worst_repeat_delta": -0.45733295234782645,
+        "models_fitted": 92,
+        "preprocessors_fitted": 92,
+        "combined_model_bytes": 162705
+      },
+      "open_unknowns": [
+        "平台分数未知，无正式包或上传放行",
+        "固定五折下降，重复方向并不全部稳定",
+        "历史dtype缺口及Windows运行范围继承"
+      ],
+      "published_at": "2026-10-21T22:38:26.854412+08:00"
     }
   ]
 }
