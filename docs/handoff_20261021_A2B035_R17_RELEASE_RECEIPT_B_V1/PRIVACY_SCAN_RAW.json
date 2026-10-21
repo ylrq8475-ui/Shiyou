@@ -1,0 +1,91 @@
+{
+  "task": "A2B-035/R17收束交付",
+  "role": "账户B执行与交付",
+  "published_files": 5,
+  "scan_records": 5,
+  "marker_counts": {
+    "well": 98,
+    "date": 78,
+    "month": 78,
+    "candidate": 2
+  },
+  "test_CSVs_parsed": 0,
+  "model_fits_by_scanner": 0,
+  "preprocessor_fits_by_scanner": 0,
+  "all_pass": true,
+  "exemptions": 0,
+  "records": [
+    {
+      "record_id": "A035-PRIVACY-001",
+      "path": "docs/handoff_20261021_A2B035_R17_RELEASE_RECEIPT_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "ec4941bb0b11ba6e611e99fc0dee4ec1379ca927e7b27509a1a0bdd7a6a1c4b2",
+      "bytes": 1239,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-002",
+      "path": "docs/handoff_20261021_A2B035_R17_RELEASE_RECEIPT_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": null,
+      "bytes": null,
+      "binding": "final serialization scanned, SHA manifest or external Git receipt binds exact bytes",
+      "result": "PASS",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0
+    },
+    {
+      "record_id": "A035-PRIVACY-003",
+      "path": "docs/handoff_20261021_A2B035_R17_RELEASE_RECEIPT_B_V1/REPORT_B.md",
+      "sha256": "560d2f8d2f031811477fe0891e0c7984de3fc6e4f363ea18b2220dfd81abd54d",
+      "bytes": 3074,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-004",
+      "path": "docs/handoff_20261021_A2B035_R17_RELEASE_RECEIPT_B_V1/RESULT_RELEASE_RECEIPT17.json",
+      "sha256": "3a1c38cd4f49ffdb672e6137b221856f5f4b742ef30549b89466b914650a4046",
+      "bytes": 3149,
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0,
+      "result": "PASS"
+    },
+    {
+      "record_id": "A035-PRIVACY-005",
+      "path": "docs/handoff_20261021_A2B035_R17_RELEASE_RECEIPT_B_V1/SHA256SUMS.json",
+      "sha256": null,
+      "bytes": null,
+      "binding": "final serialization scanned, SHA manifest or external Git receipt binds exact bytes",
+      "result": "PASS",
+      "private_marker_hits": {
+        "well": 0,
+        "date": 0,
+        "month": 0,
+        "candidate": 0
+      },
+      "credential_or_private_path_hits": 0
+    }
+  ]
+}
