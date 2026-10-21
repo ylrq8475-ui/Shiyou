@@ -1,0 +1,17 @@
+{
+  "files": {
+    "PACKAGE_RELEASES_CODEX.json": {
+      "sha256": "36c178454ee46eb17fee8660010e20abe8b17401c18a389cdfde551252d0263d",
+      "bytes": 2417
+    },
+    "PRIVACY_REVIEW.json": {
+      "sha256": "b12f7538ee0bb6cdd4108af6c41892526268e10169eaaf63c461012dc7646d80",
+      "bytes": 861
+    },
+    "RESULT_CODEX.json": {
+      "sha256": "ec566d5cf13c47ccb334ca6179b8ec4ba5274d10b051d64b3da96715c2bfff54",
+      "bytes": 7683
+    }
+  },
+  "self_binding": "Git object, no self-referential hash"
+}

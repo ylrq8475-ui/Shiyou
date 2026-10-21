@@ -1,0 +1,58 @@
+{
+  "task": "A2B-035/R17 exact-package-only releases",
+  "role": "Codex",
+  "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb",
+  "B0": {
+    "version": "B0",
+    "code_zip_sha256": "a75ce0e1820001ef2e854a0cee6540a04caa5b1ecadec3d3c433f30ab42e420a",
+    "result_zip_sha256": "2b4f57169d653d0ca5fc994d2822f6e167e72c5696a1220f83f7c1eaac4a1df1",
+    "code_bytes": 2479466,
+    "can_designate": true,
+    "already_designated_by_A": false,
+    "scope": "current actual-uploaded rebuild only; R17 audit II, verified Windows/Python3.13.7/build/compiler/21-dependency environment",
+    "clean_from_raw_reproduction": "PASS, bound B new execution; not A real retraining",
+    "A_score": 86.2003,
+    "score_source": "user report; hash verification forwarded from Claude",
+    "platform_id_time_status": "UNKNOWN"
+  },
+  "fixed_fusions": [
+    {
+      "version": "F70",
+      "configuration": {
+        "schema": "A2B035-R17-fixed-v1",
+        "variant": "F70",
+        "B0_weight": 0.7,
+        "B0_prime_weight": 0.3,
+        "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb"
+      },
+      "submission_code_zip_sha256": "aaea9b3f1a0d3c4f18023525faee94032d17c498064882ab1c86659835a9ed45",
+      "result_zip_sha256": "f256974f264f602776550b3e70a33809044f018e6be5a61fc0de6b9dcc1949ab",
+      "code_bytes": 4859581,
+      "can_upload": true,
+      "final_audit_II_complete": false,
+      "already_uploaded_by_A": false,
+      "actual_platform_A_score": "UNKNOWN",
+      "S_v": "UNKNOWN"
+    },
+    {
+      "version": "F50",
+      "configuration": {
+        "schema": "A2B035-R17-fixed-v1",
+        "variant": "F50",
+        "B0_weight": 0.5,
+        "B0_prime_weight": 0.5,
+        "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb"
+      },
+      "submission_code_zip_sha256": "c4dee40d162540424f2d014cb97f3dfa6cf952de085a1e788783d81aae6526a9",
+      "result_zip_sha256": "424bc9a3ddbb4926deca51a0d6831af94062c0eb61f15565eb1659de7a058883",
+      "code_bytes": 4859581,
+      "can_upload": true,
+      "final_audit_II_complete": false,
+      "already_uploaded_by_A": false,
+      "actual_platform_A_score": "UNKNOWN",
+      "S_v": "UNKNOWN"
+    }
+  ],
+  "scope": "exact hashes and tested runtime only; user manual upload/designation; changed ZIPs are not covered; fusion final audit II remains separate",
+  "A_model_fits": 0
+}
