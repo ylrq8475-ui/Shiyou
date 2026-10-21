@@ -1223,6 +1223,35 @@
         "其他搜索停止，旧heartbeat暂停，历史dtype例外与Windows范围不变"
       ],
       "published_at": "2026-10-21T16:04:29.091509+08:00"
+    },
+    {
+      "task": "A2B-035/R17 附加训练特征质量诊断（零拟合）",
+      "role": "B",
+      "commit": "7e7514a010f82156327ddf7596d3e484c647f5b8",
+      "report_path": "docs/handoff_20261021_A2B035_R17_FEATURE_QUALITY_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261021_A2B035_R17_FEATURE_QUALITY_B_V1/RESULT_FEATURE_QUALITY.json",
+      "reviews_commit": "不适用；本次用户授权诊断，不自签模型审核",
+      "hard_gates": "两臂冻结面板及30个分组切分身份匹配；原始归档/策略/30源码前后不变；模型0、预处理0、测试CSV0；非新上传签署",
+      "decision_row": "不适用；只报告质量与建议，不恢复搜索或改变既有模型",
+      "key_numbers": {
+        "training_wells": 88,
+        "complete_wells": 81,
+        "raw_training_history_records": 6864,
+        "model_fits": 0,
+        "preprocessor_fits": 0,
+        "test_CSV_reads": 0,
+        "B0_latest_chemical_missing_wells": 28,
+        "B0_prime_latest_chemical_missing_wells": 31,
+        "B0_BX_domain_flag_records": 275,
+        "B0_prime_BX_domain_flag_records": 289
+      },
+      "open_unknowns": [
+        "缺失及BX测量口径/来源待核，异常标记不等于错误值",
+        "预处理变化是否提分未知，旧精确删列负结果保留且不重跑",
+        "未评估测试分布，不归因真实预测误差",
+        "其他搜索停止，既有包和审核资格不自动改变"
+      ],
+      "published_at": "2026-10-21T20:57:24.393389+08:00"
     }
   ]
 }
