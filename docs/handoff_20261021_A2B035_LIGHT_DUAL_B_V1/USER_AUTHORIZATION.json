@@ -1,0 +1,6 @@
+{
+  "role": "账户B执行与交付",
+  "verbatim": "换模型  模型不要太大 要兼顾特征获取和 时序 可以分为两个模型进行训练 继续",
+  "scope": "one fixed small two-model candidate; validation, private research save and anonymous handoff; no platform submission or existing-model replacement",
+  "source": "direct human request, not a fabricated Claude instruction"
+}

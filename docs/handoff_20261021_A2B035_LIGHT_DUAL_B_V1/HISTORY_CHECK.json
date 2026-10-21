@@ -1,0 +1,45 @@
+{
+  "scope": "authorized local plans/completion evidence and previously fetched public history; not a claim about inaccessible machines",
+  "comparisons": [
+    {
+      "task": "A2B-021",
+      "mechanism": "early-month HGB branches and fixed fusions, not Ridge time plus residual HGB",
+      "equivalent": false
+    },
+    {
+      "task": "A2B-024",
+      "mechanism": "two cutoff ExtraTrees alternatives",
+      "equivalent": false
+    },
+    {
+      "task": "R16",
+      "mechanism": "LightGBM/CatBoost/TabPFN and cutoff fusions; stopped R17",
+      "equivalent": false
+    },
+    {
+      "task": "FEATURE_FRESHNESS",
+      "mechanism": "same335 features with ExtraTrees400, completed negative retention decision",
+      "equivalent": false
+    }
+  ],
+  "evidence": [
+    {
+      "path": "A2B021_20261009_v1/PLAN.json",
+      "sha256": "a99eb630f56c4c0ecf82e8fcc78ea210a08a13d897b9371b9ef042f9a9f82244"
+    },
+    {
+      "path": "A2B024_20261012_v1/PLAN_R2.json",
+      "sha256": "f77e2dd7e66697e428806c514cabdc4a780ab3b18aac85867b66606eead00804"
+    },
+    {
+      "path": "A2B035_R16_20261020_v2/PLAN_R16.json",
+      "sha256": "47410ced3b42ca1b6181b6fefc77665217925c9d3edd4e3855b03708d24ff7de"
+    },
+    {
+      "path": "A2B035_FEATURE_FRESHNESS_20261021_v2/execution/RESULT_FRESHNESS.json",
+      "sha256": "b4466196242d81506dcefd4e717f06b3bd85c239d388fa995ee5f8e5cf5afb38"
+    }
+  ],
+  "exact_two_stage_Ridge_HGB_sequence_residual_execution_found": false,
+  "no_restart_of_old_search": true
+}

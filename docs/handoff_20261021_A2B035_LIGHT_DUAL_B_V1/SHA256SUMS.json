@@ -1,0 +1,111 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/ENVIRONMENT_LOCK.json",
+      "sha256": "5854800326f7d2f9c3cf3fd992e9345af71d1e73943aa22440633e88cd3905ed",
+      "bytes": 709
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/ERROR_GROUPS.json",
+      "sha256": "9d21dd647f4a4f280460a3428750eeb64018f3af6cf8c00bda44ddd232a3ce1c",
+      "bytes": 129136
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/FIT_EVENTS.json",
+      "sha256": "9751079529dabef157659a76ad73d0fe862dbb54549610e32c8b14dae4639fd9",
+      "bytes": 67505
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/HISTORY_CHECK.json",
+      "sha256": "9404349ce83832b7d1062b6faf58508d9c3ea5655c896a81839487015c89e6d9",
+      "bytes": 1503
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/IMPLEMENTATION_LOCK.json",
+      "sha256": "e6a27bf8acd08378ecb4cdc22cffa99661e62d33a90d67487aa958fdcd15f4f0",
+      "bytes": 4119
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/INTEGRITY_AND_ARITHMETIC.json",
+      "sha256": "72050f7419597294a8f7c493869177ee96506c632d11ea2a66426b6242cea111",
+      "bytes": 683
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/MODEL_REGISTRY_ANONYMOUS.json",
+      "sha256": "561eab87a4b6be50e3b0e91a765489171fde282ccdf245804d2152ec5346c166",
+      "bytes": 618
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/PLAN.json",
+      "sha256": "fdf2ebcf1d237aca26375d688bd77bb344563bfe17d3ae83968e7e6a3e63b050",
+      "bytes": 4437
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/POSTHOC_INTERPRETATION.json",
+      "sha256": "cee972b81c6c97ce17a2d98bc36c6ea7000a6accd806f503b670114445a228c0",
+      "bytes": 3878
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/PRE_DATA_LOCK.json",
+      "sha256": "17574298564193a9025fe2c07aaa23e53bd24426eb12eda5fa6fd0f7db825172",
+      "bytes": 4197
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "998ce7d47301e21753a41d6729077597919cbb78748546e311e9966fd3d0eef8",
+      "bytes": 3183
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": "25bb53ac252b3788465684fe6435f3fba65a52897ac5e68bc64bc4be17e9d059",
+      "bytes": 17131
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/README_REPRODUCTION.md",
+      "sha256": "10ec936f2ce7601cd5c76867560149dc2b4eb6122d889c5a6e6987a7ee374aba",
+      "bytes": 940
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/REPORT_B.md",
+      "sha256": "953c1420fd7cab455340cf49c1587036dcef24ba38c400ef413ecbc30f5bf891",
+      "bytes": 8663
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/REQUEST_CODEX_REVIEW.md",
+      "sha256": "432249315d1b8882b7da4bd4b9c12a9b9041d52a6983a92fe290ba477f1f75b0",
+      "bytes": 507
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/RESULT_LIGHT_DUAL.json",
+      "sha256": "2b6fa63a7dbf0568fdff33e40d36159b349c8ce8f205f0be6e1b6daf6d6f6434",
+      "bytes": 62508
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/SOURCE_MEMBER_MANIFEST.json",
+      "sha256": "59273ede8aa3a110ff0dd4821b7435f590b12271dd8129062cecde15744d71ae",
+      "bytes": 7275
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/SOURCE_REVIEW.zip",
+      "sha256": "659488c30521e318e6f71997dc34c1be7f8a062c8340aaa8f8c264a06c572152",
+      "bytes": 100665
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/STRUCTURE.json",
+      "sha256": "124d7b47f2b611d3b4cc54d6d6690deb1b1fac115f5bcb121dc65bf2c6741158",
+      "bytes": 1112
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/SYNTHETIC.json",
+      "sha256": "399136866d1c2983415f9aec27392101cdc89e7dffc0cb20528f75923910d779",
+      "bytes": 883
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_LIGHT_DUAL_B_V1/USER_AUTHORIZATION.json",
+      "sha256": "0d82b5c9b403b223221f4e47607194fbe0623c34db06d79199251dc844b91dae",
+      "bytes": 396
+    }
+  ],
+  "self": "bound by Git and external byte receipt; final bytes privacy scanned"
+}

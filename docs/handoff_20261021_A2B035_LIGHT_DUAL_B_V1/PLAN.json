@@ -1,0 +1,106 @@
+{
+  "task": "A2B-035/LIGHT_DUAL",
+  "role": "账户B执行与交付",
+  "spec": {
+    "name": "RIDGE_HGB_RESIDUAL_120",
+    "candidate_count": 1,
+    "temporal_model": {
+      "class": "Ridge",
+      "parameters": {
+        "alpha": 100.0,
+        "copy_X": true,
+        "fit_intercept": true,
+        "max_iter": null,
+        "positive": false,
+        "random_state": null,
+        "solver": "svd",
+        "tol": 0.0001
+      },
+      "input_columns": 195,
+      "input": "12 calendar months ending M-1, log1p(RCYL/s), SCTS/calendar_days and separate finite masks; each interacts with normalized horizon powers0..3, plus horizon powers1..3"
+    },
+    "feature_model": {
+      "class": "HistGradientBoostingRegressor",
+      "parameters": {
+        "categorical_features": null,
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 5.0,
+        "learning_rate": 0.05,
+        "loss": "squared_error",
+        "max_bins": 255,
+        "max_depth": 3,
+        "max_features": 1.0,
+        "max_iter": 120,
+        "max_leaf_nodes": 7,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "quantile": null,
+        "random_state": 20260916,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "input_columns": 335,
+      "input": "original325 plus frozen10 missing-memory fields",
+      "training_target": "log1p(RCYL/s) minus same-outer-training-fitted Ridge prediction on those training rows"
+    },
+    "composition": "z=Ridge(time)+HGB(feature residual); RCYL=max(0,expm1(z)*s)",
+    "residual_scope": "ordinary additive residual training; no validation prediction or label enters either fit; not nested/cross-fitted stacking",
+    "history_cutoff": "M_minus_1",
+    "target_window": "M+1..M+12",
+    "scale": "raw last legal RCYL if finite and >0 else1",
+    "weights": "no sample weights; no tuned blend or routing",
+    "model_size_budget_bytes": 2097152,
+    "baseline": "fresh same-runtime B0, ExtraTrees400 original325",
+    "not_a_claim": "branch names describe intended roles, not a causal decomposition or proven importance"
+  },
+  "hypothesis": "a regularized temporal trajectory plus shallow nonlinear feature correction may generalize with smaller artifacts than ExtraTrees; this is a single architecture trial, not a causal isolation of learner vs new time inputs",
+  "evaluation": "fresh paired B0 fixed5 then five repeated grouped5 seeds1..5; same81 wells, not independent confirmation",
+  "success_model_cap": 92,
+  "success_CV_models": 90,
+  "success_full_candidate_models": 2,
+  "model_entry_cap": 94,
+  "fault_retry_cap": 2,
+  "preprocessors": "one top-level pipeline per model fit, independently counted; 92 on successful run",
+  "baseline_gate": {
+    "fixed": 73.71410733861434,
+    "tolerance": 1e-09,
+    "all_six_R17_scores": "also matched before same-split candidate; mismatch stops"
+  },
+  "recommendation_all_required": {
+    "fixed_delta_min": -0.2,
+    "repeat_mean_delta_min": 0.2,
+    "positive_repeats_min": 4,
+    "worst_repeat_delta_min": -0.2,
+    "model_bytes_max": 2097152,
+    "all_hard_gates": "PASS"
+  },
+  "threshold_provenance": "B engineering criteria locked before scores; not user-quoted thresholds or significance evidence",
+  "full_model_policy": "save exactly two branch artifacts after structurally valid CV, even if negative, as private research output requested by user; status explicitly research-only when screening fails",
+  "temporal_only_scores": "descriptive ablation from same fitted Ridge, not an additional selectable candidate; no score-based path/weight/parameter changes",
+  "stops": [
+    "actual leakage or target misalignment",
+    "well overlap or metric failure",
+    "baseline mismatch",
+    "fit entry budget exhausted",
+    "actual system-policy loading block"
+  ],
+  "parallelism": "folds and branches sequential; OMP/BLAS1; B0 ExtraTrees n_jobs=-1; Ridge svd; HGB one OpenMP thread",
+  "unchanged": [
+    "raw inputs and selected81 well queue",
+    "M-1 input and scale cutoff",
+    "M+1..M+12 targets",
+    "original325 lag/rolling/trend",
+    "original log1p(RCYL/s) and inverse",
+    "old environments, models, ZIPs and locks"
+  ],
+  "OOF_persisted": false,
+  "test_reads": 0,
+  "formal_packages": 0,
+  "platform_uploads": 0,
+  "no_score_based_early_stop": true
+}

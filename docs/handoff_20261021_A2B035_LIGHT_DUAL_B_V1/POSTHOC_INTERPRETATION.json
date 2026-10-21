@@ -1,0 +1,87 @@
+{
+  "timing": "post-score descriptive interpretation; no candidate/parameter/weight changes",
+  "additional_model_fits": 0,
+  "additional_preprocessor_fits": 0,
+  "temporal_only_fixed": 73.2362275868241,
+  "temporal_only_repeat_mean": 73.60390612696,
+  "dual_repeat_mean": 72.92108101162091,
+  "fixed_fold_candidate_minus_B0": [
+    -3.644434827764556,
+    -6.488043622158344,
+    0.19165120632506216,
+    1.2438219193945628,
+    0.08255973895495572
+  ],
+  "fixed_state_decomposition": {
+    "scale_state": {
+      "status": "REPORTED",
+      "rows": [
+        {
+          "group": "fallback",
+          "wells": 14,
+          "B0_mean_weighted_loss": 0.29052769375975657,
+          "candidate_mean_weighted_loss": 0.2702157179276303,
+          "candidate_minus_B0_group_score": 2.0311975832126294,
+          "net_total_score_contribution": 0.351071187221936,
+          "B0_total_loss_share": 0.1910327481201972,
+          "B0_over_prediction_loss": 0.1625845556609147,
+          "B0_under_prediction_loss": 0.1279431380988418,
+          "candidate_total_loss_share": 0.1666064162710749,
+          "candidate_over_prediction_loss": 0.13354881984647174,
+          "candidate_under_prediction_loss": 0.13666689808115853
+        },
+        {
+          "group": "positive",
+          "wells": 67,
+          "B0_mean_weighted_loss": 0.25707739318038497,
+          "candidate_mean_weighted_loss": 0.28243744248735725,
+          "candidate_minus_B0_group_score": -2.536004930697228,
+          "net_total_score_contribution": -2.097683090823633,
+          "B0_total_loss_share": 0.8089672518798028,
+          "B0_over_prediction_loss": 0.13723373363503352,
+          "B0_under_prediction_loss": 0.11984365954535149,
+          "candidate_total_loss_share": 0.8333935837289249,
+          "candidate_over_prediction_loss": 0.15480628797883345,
+          "candidate_under_prediction_loss": 0.12763115450852383
+        }
+      ],
+      "dimensions_overlap_do_not_sum": true
+    },
+    "operating_fraction": {
+      "status": "REPORTED",
+      "rows": [
+        {
+          "group": "below_0.8",
+          "wells": 32,
+          "B0_mean_weighted_loss": 0.3262614908853663,
+          "candidate_mean_weighted_loss": 0.3234608075568723,
+          "candidate_minus_B0_group_score": 0.2800683328494036,
+          "net_total_score_contribution": 0.11064427964420882,
+          "B0_total_loss_share": 0.49035210695837894,
+          "B0_over_prediction_loss": 0.19459494961459195,
+          "B0_under_prediction_loss": 0.13166654127077437,
+          "candidate_total_loss_share": 0.45585290249479365,
+          "candidate_over_prediction_loss": 0.20255564349981697,
+          "candidate_under_prediction_loss": 0.12090516405705533
+        },
+        {
+          "group": "other",
+          "wells": 49,
+          "B0_mean_weighted_loss": 0.22145317035491147,
+          "candidate_mean_weighted_loss": 0.25215475215958866,
+          "candidate_minus_B0_group_score": -3.070158180467719,
+          "net_total_score_contribution": -1.857256183245904,
+          "B0_total_loss_share": 0.5096478930416211,
+          "B0_over_prediction_loss": 0.10701643969659405,
+          "B0_under_prediction_loss": 0.1144367306583174,
+          "candidate_total_loss_share": 0.5441470975052062,
+          "candidate_over_prediction_loss": 0.1175494730701694,
+          "candidate_under_prediction_loss": 0.13460527908941927
+        }
+      ],
+      "dimensions_overlap_do_not_sum": true
+    }
+  },
+  "interpretation": "the locked feature residual did not improve temporal-only aggregate scores; this does not isolate a causal feature effect or authorize post-score selection of Ridge alone",
+  "next_mechanism_not_executed": "cross-fitted residual or stronger residual shrinkage would be a new candidate, not silently applied"
+}

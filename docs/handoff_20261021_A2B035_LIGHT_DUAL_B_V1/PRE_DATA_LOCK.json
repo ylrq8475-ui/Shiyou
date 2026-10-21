@@ -1,0 +1,79 @@
+{
+  "control_identity": {
+    "feature_order_sha256": "398a6f98fcc15397b0427ce72a976741509a0db5a3c42a2284c3322d4ccc2bb6",
+    "feature_dtype_sha256": "a34b2599e3202d8cfac13ba50ffa2d57c5631225b553fef66207de6eb35d102a",
+    "feature_frame_sha256": "af964b79e581fb87bcb736e6eb3e2cab21f878612882c7fd782778f744f44cb7",
+    "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+  },
+  "feature_identity": {
+    "feature_order_sha256": "d3f9e0746ad65d66494758d428e35cb7eb464ca5cd3306d6d68bc726dd0abccb",
+    "feature_dtype_sha256": "a577c4d67cebb3efb1d74b0708ca91c5605712e3ecaee76ba1e28199c11828ce",
+    "feature_frame_sha256": "cfd3d0e29adee6bc40d29a507c4888faa6c9b2d5e469a1fc539f556e8dadfd7e",
+    "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+  },
+  "temporal_identity": {
+    "feature_order_sha256": "7d45376c2a5d532bdcf24736e37b51980e2335717b85de4fba67644abba1f168",
+    "feature_dtype_sha256": "01ed8da7379d2c5cf7b28e35302bbfdea3e54c3d5376f8de248d6d97d92d8e6e",
+    "feature_frame_sha256": "fb5ce395ad427c6cccc48421ac4eb91c8cad8fb3ab1c8cf9b2bbaddc734f571e",
+    "label_key_frame_sha256": "4e7db99d009ade76143f37ceed1a5370f0997e328cd77ee97e1f530aca4fbcda"
+  },
+  "split_fingerprints": {
+    "fixed": [
+      "7169bea57c5945945197313c63aa934f1aa2dc1f9e0d2d1eff350c7c75cd7009",
+      "cedbd47320ee1b419307e6ec9e995e5fbba6a2ba258c7a0278313e95c9cf61ed",
+      "0060232297d5fa1d968363dd3fa4ceac8c990578bccef3eb2914a225475bde90",
+      "97f8ba3f9d7afdb62df08fce16c6516507ba5ddc4b21dabe08da9fcceec7ff16",
+      "ff980b9e9f71c3050be0c8dfcc9dda8a08b894fed634d2a9ee34c8756af74bc5"
+    ],
+    "repeat_1": [
+      "9424901a374f6ec20f4c871fb57b8f218c59eeb972d002ee8caa684bce157de6",
+      "58e8b95f21fa193aab5e371529425b43bbfe29991fc5fe1f1e364bf7896aab42",
+      "c0fd57fa11a8f54056404a828257e615cf41957e44b5d74345d42ddb1f144e47",
+      "22a1fbee051838506dae373eaa3fe1eae2c5281b8952df1b02cf592b74e70ed7",
+      "b2f3e15f529607e100cc5ab103d196da90f33220fcca50919c4817581fd41b01"
+    ],
+    "repeat_2": [
+      "2d5b4442556a7356c1728447edd6d3f561f53685fe45cfbe9d1c3f86bc3d0879",
+      "f9484c73cb872afe41837406e9daa29efd02e888c3d1cbaeeb1e60316b539a7c",
+      "3d8f4abeca3fabae7994f4bf1d70eaf796873033156380453330cf28b802bbb4",
+      "d55f87be9e703460ec48cd89c96672f6103672502d273035904befef302b5238",
+      "280e7449e4aa5d470eff8b2c0b0469a4b6def8a3eb3b9a54e2e211708a4862fb"
+    ],
+    "repeat_3": [
+      "4f51e92d460565edad28e069da4035627bbac061b0f62e6630d0b3e51237f749",
+      "8435dddfc1dfcfbd2c87ec81e24d0bf598c3e67e04bc65dda42130150cd7f020",
+      "0ddb140ced9a5b88591e4a64642ca4605d27b7ca243e4ca30fcee58c3e190de2",
+      "63523409c784e2ea984de80c2abd1e97d43116ceabf31fb5fb9ab7b610f8d6d0",
+      "f1848775d35a140c29bf98ec922fc7cc018f34f826cebd4d62d5b02ea1268949"
+    ],
+    "repeat_4": [
+      "9bf082f8d82d50570454e43a550e0d691f0b3f35e837729dc9294115afa264c1",
+      "f71f42cab32f70a6da1489af11447e77ad69ad57808a431288b83db46a7971ac",
+      "820cdf810844dfea9634292094deb05d8f16fc1acb0bbed9e229b1db03310dd9",
+      "098c8f433fffee46fd91039813818182f37b2cbaa2f3311b617e966f3ec45fda",
+      "f893dcf8c54e810d2d8d3a1f0223a3a8542c9734a175cce2838d8b1ab7f0f3f4"
+    ],
+    "repeat_5": [
+      "7ae279c00c08508333818404c9209a1794b3633d2b3be5fb56d6bf16f89e5ed4",
+      "9ce329b8dcbb631550392a704f998e7bad985758b5c540dc8890c013d0f5a47d",
+      "f4c5ff387b44f407a73dde55c06322c7781337842df3336bbd2ec40c5570544f",
+      "05047d121cbe771dfa61295eee079febab1fd241734a5a1864e0fe7c353067ec",
+      "42b1dc3a1591d4063d357bf9517fcf89d665c7296f1654acc546c84d7ee194de"
+    ]
+  },
+  "raw_archive_sha256": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+  "policy_sha256": "62a4cf2ef74f59699a87638e84975893da7caf79e16b59db11cd341ed6ac1f2b",
+  "wells": 81,
+  "rows": 972,
+  "baseline_features": 325,
+  "feature_branch_columns": 335,
+  "temporal_branch_columns": 195,
+  "test_CSV_reads": 0,
+  "audit": {
+    "real_future_mutation_feature_checks": 3888,
+    "temporal_features": 195,
+    "feature_model_features": 335,
+    "original_features_unchanged": true
+  },
+  "historical_dtype": "UNKNOWN; unchanged old evidence gap"
+}

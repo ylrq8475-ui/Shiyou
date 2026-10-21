@@ -1,0 +1,17 @@
+{
+  "assertions_passed": 232,
+  "all_current_execution_sources_match_prescore_lock": true,
+  "frozen_base_matches_R17_bytes": true,
+  "control335_and_temporal195_input_hashes_locked": true,
+  "baseline_all_six_scores_reproduced_within1e_9": true,
+  "raw_archive_and_private_policy_rehashed_before_and_after": true,
+  "each_saved_branch_rehashed": true,
+  "reload_predictions_exact": true,
+  "test_data_reads": 0,
+  "test_predictions": 0,
+  "fit_failures": 0,
+  "fit_retries": 0,
+  "historical_dtype": "UNKNOWN, no backfill",
+  "independent_environment_retraining": false,
+  "old_models_ZIPs": "not accessed or overwritten by training; no assertion of a new complete old-ZIP audit"
+}

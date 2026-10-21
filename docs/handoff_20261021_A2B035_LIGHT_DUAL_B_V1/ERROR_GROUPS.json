@@ -1,0 +1,2762 @@
+{
+  "fixed": {
+    "groups": {
+      "scale_state": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "fallback",
+            "wells": 14,
+            "B0_mean_weighted_loss": 0.29052769375975657,
+            "candidate_mean_weighted_loss": 0.2702157179276303,
+            "candidate_minus_B0_group_score": 2.0311975832126294,
+            "net_total_score_contribution": 0.351071187221936,
+            "B0_total_loss_share": 0.1910327481201972,
+            "B0_over_prediction_loss": 0.1625845556609147,
+            "B0_under_prediction_loss": 0.1279431380988418,
+            "candidate_total_loss_share": 0.1666064162710749,
+            "candidate_over_prediction_loss": 0.13354881984647174,
+            "candidate_under_prediction_loss": 0.13666689808115853
+          },
+          {
+            "group": "positive",
+            "wells": 67,
+            "B0_mean_weighted_loss": 0.25707739318038497,
+            "candidate_mean_weighted_loss": 0.28243744248735725,
+            "candidate_minus_B0_group_score": -2.536004930697228,
+            "net_total_score_contribution": -2.097683090823633,
+            "B0_total_loss_share": 0.8089672518798028,
+            "B0_over_prediction_loss": 0.13723373363503352,
+            "B0_under_prediction_loss": 0.11984365954535149,
+            "candidate_total_loss_share": 0.8333935837289249,
+            "candidate_over_prediction_loss": 0.15480628797883345,
+            "candidate_under_prediction_loss": 0.12763115450852383
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "BX_state": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing",
+            "wells": 15,
+            "B0_mean_weighted_loss": 0.3008688509218975,
+            "candidate_mean_weighted_loss": 0.2943420395648349,
+            "candidate_minus_B0_group_score": 0.6526811357062623,
+            "net_total_score_contribution": 0.12086687698264117,
+            "B0_total_loss_share": 0.21196333178470939,
+            "B0_over_prediction_loss": 0.15821569891042916,
+            "B0_under_prediction_loss": 0.1426531520114684,
+            "candidate_total_loss_share": 0.19444493437336083,
+            "candidate_over_prediction_loss": 0.13089556115131418,
+            "candidate_under_prediction_loss": 0.1634464784135207
+          },
+          {
+            "group": "outside_0_100",
+            "wells": 5,
+            "B0_mean_weighted_loss": 0.17749262536752147,
+            "candidate_mean_weighted_loss": 0.17908878832359135,
+            "candidate_minus_B0_group_score": -0.15961629560698742,
+            "net_total_score_contribution": -0.009852857753517743,
+            "B0_total_loss_share": 0.04168142600431725,
+            "B0_over_prediction_loss": 0.08636326772650413,
+            "B0_under_prediction_loss": 0.09112935764101736,
+            "candidate_total_loss_share": 0.03943587506116895,
+            "candidate_over_prediction_loss": 0.0679951777954582,
+            "candidate_under_prediction_loss": 0.11109361052813313
+          },
+          {
+            "group": "within_0_100",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2605094617222347,
+            "candidate_mean_weighted_loss": 0.28517629774670944,
+            "candidate_minus_B0_group_score": -2.4666836024474725,
+            "net_total_score_contribution": -1.8576259228308127,
+            "B0_total_loss_share": 0.7463552422109735,
+            "B0_over_prediction_loss": 0.1420621657460835,
+            "B0_under_prediction_loss": 0.11844729597615117,
+            "candidate_total_loss_share": 0.7661191905654701,
+            "candidate_over_prediction_loss": 0.1629228764948433,
+            "candidate_under_prediction_loss": 0.12225342125186621
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "recent_ratio": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "0.5_to_2",
+            "wells": 63,
+            "B0_mean_weighted_loss": 0.25419060159273493,
+            "candidate_mean_weighted_loss": 0.2810681959846939,
+            "candidate_minus_B0_group_score": -2.687759439195897,
+            "net_total_score_contribution": -2.090479563819031,
+            "B0_total_loss_share": 0.752128922481767,
+            "B0_over_prediction_loss": 0.13779927340045753,
+            "B0_under_prediction_loss": 0.11639132819227735,
+            "candidate_total_loss_share": 0.7798396906355153,
+            "candidate_over_prediction_loss": 0.15721583782910906,
+            "candidate_under_prediction_loss": 0.12385235815558478
+          },
+          {
+            "group": "below_0.5",
+            "wells": 8,
+            "B0_mean_weighted_loss": 0.23887974490058556,
+            "candidate_mean_weighted_loss": 0.20436229374990444,
+            "candidate_minus_B0_group_score": 3.4517451150681113,
+            "net_total_score_contribution": 0.34091309778450485,
+            "B0_total_loss_share": 0.08975560209681493,
+            "B0_over_prediction_loss": 0.06711491303083972,
+            "B0_under_prediction_loss": 0.17176483186974587,
+            "candidate_total_loss_share": 0.07200187981816616,
+            "candidate_over_prediction_loss": 0.08350584572749264,
+            "candidate_under_prediction_loss": 0.12085644802241184
+          },
+          {
+            "group": "unknown",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.33665271961754023,
+            "candidate_mean_weighted_loss": 0.3364134000604809,
+            "candidate_minus_B0_group_score": 0.02393195570593032,
+            "net_total_score_contribution": 0.0029545624328309035,
+            "B0_total_loss_share": 0.15811547542141818,
+            "B0_over_prediction_loss": 0.2252570404324509,
+            "B0_under_prediction_loss": 0.11139567918508937,
+            "candidate_total_loss_share": 0.14815842954631844,
+            "candidate_over_prediction_loss": 0.16690602233786303,
+            "candidate_under_prediction_loss": 0.1695073777226179
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "operating_fraction": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "below_0.8",
+            "wells": 32,
+            "B0_mean_weighted_loss": 0.3262614908853663,
+            "candidate_mean_weighted_loss": 0.3234608075568723,
+            "candidate_minus_B0_group_score": 0.2800683328494036,
+            "net_total_score_contribution": 0.11064427964420882,
+            "B0_total_loss_share": 0.49035210695837894,
+            "B0_over_prediction_loss": 0.19459494961459195,
+            "B0_under_prediction_loss": 0.13166654127077437,
+            "candidate_total_loss_share": 0.45585290249479365,
+            "candidate_over_prediction_loss": 0.20255564349981697,
+            "candidate_under_prediction_loss": 0.12090516405705533
+          },
+          {
+            "group": "other",
+            "wells": 49,
+            "B0_mean_weighted_loss": 0.22145317035491147,
+            "candidate_mean_weighted_loss": 0.25215475215958866,
+            "candidate_minus_B0_group_score": -3.070158180467719,
+            "net_total_score_contribution": -1.857256183245904,
+            "B0_total_loss_share": 0.5096478930416211,
+            "B0_over_prediction_loss": 0.10701643969659405,
+            "B0_under_prediction_loss": 0.1144367306583174,
+            "candidate_total_loss_share": 0.5441470975052062,
+            "candidate_over_prediction_loss": 0.1175494730701694,
+            "candidate_under_prediction_loss": 0.13460527908941927
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CCJHWND": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 18,
+            "B0_mean_weighted_loss": 0.30737756718387566,
+            "candidate_mean_weighted_loss": 0.2951056055193269,
+            "candidate_minus_B0_group_score": 1.2271961664548747,
+            "net_total_score_contribution": 0.2727102592121944,
+            "B0_total_loss_share": 0.25985849870415056,
+            "B0_over_prediction_loss": 0.1363744381039609,
+            "B0_under_prediction_loss": 0.17100312907991472,
+            "candidate_total_loss_share": 0.23393922329240469,
+            "candidate_over_prediction_loss": 0.1648903966388476,
+            "candidate_under_prediction_loss": 0.13021520888047927
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.33665271961754023,
+            "candidate_mean_weighted_loss": 0.3364134000604809,
+            "candidate_minus_B0_group_score": 0.02393195570593032,
+            "net_total_score_contribution": 0.0029545624328309035,
+            "B0_total_loss_share": 0.15811547542141818,
+            "B0_over_prediction_loss": 0.2252570404324509,
+            "B0_under_prediction_loss": 0.11139567918508937,
+            "candidate_total_loss_share": 0.14815842954631844,
+            "candidate_over_prediction_loss": 0.16690602233786303,
+            "candidate_under_prediction_loss": 0.1695073777226179
+          },
+          {
+            "group": "observed_now",
+            "wells": 53,
+            "B0_mean_weighted_loss": 0.23381603113655136,
+            "candidate_mean_weighted_loss": 0.2647225244846616,
+            "candidate_minus_B0_group_score": -3.090649334811024,
+            "net_total_score_contribution": -2.0222767252467198,
+            "B0_total_loss_share": 0.5820260258744313,
+            "B0_over_prediction_loss": 0.12761384231328765,
+            "B0_under_prediction_loss": 0.10620218882326368,
+            "candidate_total_loss_share": 0.6179023471612768,
+            "candidate_over_prediction_loss": 0.14348334735008597,
+            "candidate_under_prediction_loss": 0.12123917713457565
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CCYND": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 18,
+            "B0_mean_weighted_loss": 0.30737756718387566,
+            "candidate_mean_weighted_loss": 0.2951056055193269,
+            "candidate_minus_B0_group_score": 1.2271961664548747,
+            "net_total_score_contribution": 0.2727102592121944,
+            "B0_total_loss_share": 0.25985849870415056,
+            "B0_over_prediction_loss": 0.1363744381039609,
+            "B0_under_prediction_loss": 0.17100312907991472,
+            "candidate_total_loss_share": 0.23393922329240469,
+            "candidate_over_prediction_loss": 0.1648903966388476,
+            "candidate_under_prediction_loss": 0.13021520888047927
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.33665271961754023,
+            "candidate_mean_weighted_loss": 0.3364134000604809,
+            "candidate_minus_B0_group_score": 0.02393195570593032,
+            "net_total_score_contribution": 0.0029545624328309035,
+            "B0_total_loss_share": 0.15811547542141818,
+            "B0_over_prediction_loss": 0.2252570404324509,
+            "B0_under_prediction_loss": 0.11139567918508937,
+            "candidate_total_loss_share": 0.14815842954631844,
+            "candidate_over_prediction_loss": 0.16690602233786303,
+            "candidate_under_prediction_loss": 0.1695073777226179
+          },
+          {
+            "group": "observed_now",
+            "wells": 53,
+            "B0_mean_weighted_loss": 0.23381603113655136,
+            "candidate_mean_weighted_loss": 0.2647225244846616,
+            "candidate_minus_B0_group_score": -3.090649334811024,
+            "net_total_score_contribution": -2.0222767252467198,
+            "B0_total_loss_share": 0.5820260258744313,
+            "B0_over_prediction_loss": 0.12761384231328765,
+            "B0_under_prediction_loss": 0.10620218882326368,
+            "candidate_total_loss_share": 0.6179023471612768,
+            "candidate_over_prediction_loss": 0.14348334735008597,
+            "candidate_under_prediction_loss": 0.12123917713457565
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_LY": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 9,
+            "B0_mean_weighted_loss": 0.24870822042026608,
+            "candidate_mean_weighted_loss": 0.18234153477157017,
+            "candidate_minus_B0_group_score": 6.636668564869591,
+            "net_total_score_contribution": 0.7374076183188435,
+            "B0_total_loss_share": 0.1051295729969939,
+            "B0_over_prediction_loss": 0.05175764912861205,
+            "B0_under_prediction_loss": 0.19695057129165403,
+            "candidate_total_loss_share": 0.07227385081916457,
+            "candidate_over_prediction_loss": 0.062285113583359135,
+            "candidate_under_prediction_loss": 0.12005642118821107
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3327249078529,
+            "candidate_mean_weighted_loss": 0.3277397762181047,
+            "candidate_minus_B0_group_score": 0.49851316347953034,
+            "net_total_score_contribution": 0.06769931849722018,
+            "B0_total_loss_share": 0.17189777273869553,
+            "B0_over_prediction_loss": 0.20678609198921424,
+            "B0_under_prediction_loss": 0.12593881586368574,
+            "candidate_total_loss_share": 0.15877236634797293,
+            "candidate_over_prediction_loss": 0.15392608867767518,
+            "candidate_under_prediction_loss": 0.17381368754042958
+          },
+          {
+            "group": "observed_now",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2523479522222638,
+            "candidate_mean_weighted_loss": 0.28623143190649963,
+            "candidate_minus_B0_group_score": -3.3883479684235827,
+            "net_total_score_contribution": -2.5517188404177595,
+            "B0_total_loss_share": 0.7229726542643107,
+            "B0_over_prediction_loss": 0.1431209521108391,
+            "B0_under_prediction_loss": 0.10922700011142467,
+            "candidate_total_loss_share": 0.7689537828328624,
+            "candidate_over_prediction_loss": 0.16373691433979976,
+            "candidate_under_prediction_loss": 0.12249451756669984
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CMD": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 9,
+            "B0_mean_weighted_loss": 0.24870822042026608,
+            "candidate_mean_weighted_loss": 0.18234153477157017,
+            "candidate_minus_B0_group_score": 6.636668564869591,
+            "net_total_score_contribution": 0.7374076183188435,
+            "B0_total_loss_share": 0.1051295729969939,
+            "B0_over_prediction_loss": 0.05175764912861205,
+            "B0_under_prediction_loss": 0.19695057129165403,
+            "candidate_total_loss_share": 0.07227385081916457,
+            "candidate_over_prediction_loss": 0.062285113583359135,
+            "candidate_under_prediction_loss": 0.12005642118821107
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3327249078529,
+            "candidate_mean_weighted_loss": 0.3277397762181047,
+            "candidate_minus_B0_group_score": 0.49851316347953034,
+            "net_total_score_contribution": 0.06769931849722018,
+            "B0_total_loss_share": 0.17189777273869553,
+            "B0_over_prediction_loss": 0.20678609198921424,
+            "B0_under_prediction_loss": 0.12593881586368574,
+            "candidate_total_loss_share": 0.15877236634797293,
+            "candidate_over_prediction_loss": 0.15392608867767518,
+            "candidate_under_prediction_loss": 0.17381368754042958
+          },
+          {
+            "group": "observed_now",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2523479522222638,
+            "candidate_mean_weighted_loss": 0.28623143190649963,
+            "candidate_minus_B0_group_score": -3.3883479684235827,
+            "net_total_score_contribution": -2.5517188404177595,
+            "B0_total_loss_share": 0.7229726542643107,
+            "B0_over_prediction_loss": 0.1431209521108391,
+            "B0_under_prediction_loss": 0.10922700011142467,
+            "candidate_total_loss_share": 0.7689537828328624,
+            "candidate_over_prediction_loss": 0.16373691433979976,
+            "candidate_under_prediction_loss": 0.12249451756669984
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_XXDL": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 6,
+            "B0_mean_weighted_loss": 0.23705237556176292,
+            "candidate_mean_weighted_loss": 0.21938333073750513,
+            "candidate_minus_B0_group_score": 1.7669044824257796,
+            "net_total_score_contribution": 0.13088181351302072,
+            "B0_total_loss_share": 0.06680174591366382,
+            "B0_over_prediction_loss": 0.06596526754566402,
+            "B0_under_prediction_loss": 0.17108710801609886,
+            "candidate_total_loss_share": 0.05797062140485332,
+            "candidate_over_prediction_loss": 0.09224089401471254,
+            "candidate_under_prediction_loss": 0.12714243672279257
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.32201545649699576,
+            "candidate_mean_weighted_loss": 0.32538751592237075,
+            "candidate_minus_B0_group_score": -0.3372059425374996,
+            "net_total_score_contribution": -0.04579339960385797,
+            "B0_total_loss_share": 0.16636488117607398,
+            "B0_over_prediction_loss": 0.21717525585288822,
+            "B0_under_prediction_loss": 0.10484020064410754,
+            "candidate_total_loss_share": 0.15763282223242583,
+            "candidate_over_prediction_loss": 0.15511273133519185,
+            "candidate_under_prediction_loss": 0.1702747845871789
+          },
+          {
+            "group": "observed_now",
+            "wells": 64,
+            "B0_mean_weighted_loss": 0.2551107622013259,
+            "candidate_mean_weighted_loss": 0.27829321934482265,
+            "candidate_minus_B0_group_score": -2.318245714349676,
+            "net_total_score_contribution": -1.831700317510855,
+            "B0_total_loss_share": 0.7668333729102623,
+            "B0_over_prediction_loss": 0.13572069551787963,
+            "B0_under_prediction_loss": 0.11939006668344622,
+            "candidate_total_loss_share": 0.7843965563627207,
+            "candidate_over_prediction_loss": 0.15596905255714152,
+            "candidate_under_prediction_loss": 0.12232416678768113
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "production_tertile": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "high",
+            "wells": 28,
+            "B0_mean_weighted_loss": 0.2676808803409361,
+            "candidate_mean_weighted_loss": 0.2555175864370615,
+            "candidate_minus_B0_group_score": 1.2163293903874606,
+            "net_total_score_contribution": 0.4204595423561592,
+            "B0_total_loss_share": 0.35202023964743256,
+            "B0_over_prediction_loss": 0.11572520271509441,
+            "B0_under_prediction_loss": 0.15195567762584175,
+            "candidate_total_loss_share": 0.315088031865821,
+            "candidate_over_prediction_loss": 0.1494067396939124,
+            "candidate_under_prediction_loss": 0.10611084674314918
+          },
+          {
+            "group": "low",
+            "wells": 28,
+            "B0_mean_weighted_loss": 0.2566459487381825,
+            "candidate_mean_weighted_loss": 0.27518681745518114,
+            "candidate_minus_B0_group_score": -1.8540868716998615,
+            "net_total_score_contribution": -0.6409189186122978,
+            "B0_total_loss_share": 0.3375084849701961,
+            "B0_over_prediction_loss": 0.13082294030770172,
+            "B0_under_prediction_loss": 0.1258230084304808,
+            "candidate_total_loss_share": 0.33934287622401954,
+            "candidate_over_prediction_loss": 0.09748854717067323,
+            "candidate_under_prediction_loss": 0.17769827028450796
+          },
+          {
+            "group": "middle",
+            "wells": 25,
+            "B0_mean_weighted_loss": 0.26441687366028255,
+            "candidate_mean_weighted_loss": 0.3138642155462786,
+            "candidate_minus_B0_group_score": -4.944734188599603,
+            "net_total_score_contribution": -1.5261525273455565,
+            "B0_total_loss_share": 0.3104712753823714,
+            "B0_over_prediction_loss": 0.18269983712647037,
+            "B0_under_prediction_loss": 0.08171703653381211,
+            "candidate_total_loss_share": 0.3455690919101594,
+            "candidate_over_prediction_loss": 0.2131454696089619,
+            "candidate_under_prediction_loss": 0.10071874593731668
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      }
+    },
+    "grouping": "prediction-time inputs only; production tertiles from outer training wells only; members vary across splits",
+    "model_fits": 0,
+    "preprocessor_fits": 0,
+    "does_not_prove_causation": true
+  },
+  "repeat_1": {
+    "groups": {
+      "scale_state": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "fallback",
+            "wells": 14,
+            "B0_mean_weighted_loss": 0.30269454411909297,
+            "candidate_mean_weighted_loss": 0.23445684403193093,
+            "candidate_minus_B0_group_score": 6.823770008716204,
+            "net_total_score_contribution": 1.1794170385435416,
+            "B0_total_loss_share": 0.19181827333266377,
+            "B0_over_prediction_loss": 0.16257979058542732,
+            "B0_under_prediction_loss": 0.1401147535336656,
+            "candidate_total_loss_share": 0.15345110025760703,
+            "candidate_over_prediction_loss": 0.10969012566151856,
+            "candidate_under_prediction_loss": 0.12476671837041235
+          },
+          {
+            "group": "positive",
+            "wells": 67,
+            "B0_mean_weighted_loss": 0.26648752013549537,
+            "candidate_mean_weighted_loss": 0.27027021717925415,
+            "candidate_minus_B0_group_score": -0.3782697043758776,
+            "net_total_score_contribution": -0.31288975547140496,
+            "B0_total_loss_share": 0.8081817266673363,
+            "B0_over_prediction_loss": 0.13937220958830793,
+            "B0_under_prediction_loss": 0.12711531054718747,
+            "candidate_total_loss_share": 0.846548899742393,
+            "candidate_over_prediction_loss": 0.15096741654014306,
+            "candidate_under_prediction_loss": 0.11930280063911108
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "BX_state": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing",
+            "wells": 15,
+            "B0_mean_weighted_loss": 0.31232564260855317,
+            "candidate_mean_weighted_loss": 0.2609737199182775,
+            "candidate_minus_B0_group_score": 5.135192269027566,
+            "net_total_score_contribution": 0.9509615313014012,
+            "B0_total_loss_share": 0.2120587757289794,
+            "B0_over_prediction_loss": 0.15820339742607512,
+            "B0_under_prediction_loss": 0.15412224518247797,
+            "candidate_total_loss_share": 0.1830067427842754,
+            "candidate_over_prediction_loss": 0.10862744622545058,
+            "candidate_under_prediction_loss": 0.15234627369282697
+          },
+          {
+            "group": "outside_0_100",
+            "wells": 5,
+            "B0_mean_weighted_loss": 0.22022920842582053,
+            "candidate_mean_weighted_loss": 0.20377958468433316,
+            "candidate_minus_B0_group_score": 1.644962374148737,
+            "net_total_score_contribution": 0.1015408872931319,
+            "B0_total_loss_share": 0.04984278153669901,
+            "B0_over_prediction_loss": 0.0907580968439293,
+            "B0_under_prediction_loss": 0.1294711115818912,
+            "candidate_total_loss_share": 0.04763319725665652,
+            "candidate_over_prediction_loss": 0.07014571173220421,
+            "candidate_under_prediction_loss": 0.13363387295212892
+          },
+          {
+            "group": "within_0_100",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2673173243522638,
+            "candidate_mean_weighted_loss": 0.26978683025018413,
+            "candidate_minus_B0_group_score": -0.24695058979203321,
+            "net_total_score_contribution": -0.1859751355223954,
+            "B0_total_loss_share": 0.7380984427343217,
+            "B0_over_prediction_loss": 0.14405268303281704,
+            "B0_under_prediction_loss": 0.12326464131944675,
+            "candidate_total_loss_share": 0.7693600599590682,
+            "candidate_over_prediction_loss": 0.15853013795750925,
+            "candidate_under_prediction_loss": 0.11125669229267486
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "recent_ratio": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "0.5_to_2",
+            "wells": 63,
+            "B0_mean_weighted_loss": 0.2640087752295477,
+            "candidate_mean_weighted_loss": 0.2676486886752304,
+            "candidate_minus_B0_group_score": -0.36399134456827076,
+            "net_total_score_contribution": -0.28310437910865505,
+            "B0_total_loss_share": 0.7528635311370313,
+            "B0_over_prediction_loss": 0.14197530369693204,
+            "B0_under_prediction_loss": 0.12203347153261565,
+            "candidate_total_loss_share": 0.7882876555890537,
+            "candidate_over_prediction_loss": 0.15474382439634793,
+            "candidate_under_prediction_loss": 0.11290486427888245
+          },
+          {
+            "group": "below_0.5",
+            "wells": 8,
+            "B0_mean_weighted_loss": 0.2394955742884048,
+            "candidate_mean_weighted_loss": 0.21668396781595878,
+            "candidate_minus_B0_group_score": 2.281160647244601,
+            "net_total_score_contribution": 0.22529981701181243,
+            "B0_total_loss_share": 0.08672510371236423,
+            "B0_over_prediction_loss": 0.05736515529125638,
+            "B0_under_prediction_loss": 0.18213041899714838,
+            "candidate_total_loss_share": 0.081039326464982,
+            "candidate_over_prediction_loss": 0.0566360060835448,
+            "candidate_under_prediction_loss": 0.16004796173241398
+          },
+          {
+            "group": "unknown",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3543870032976749,
+            "candidate_mean_weighted_loss": 0.2795161238389876,
+            "candidate_minus_B0_group_score": 7.487087945868732,
+            "net_total_score_contribution": 0.9243318451689791,
+            "B0_total_loss_share": 0.1604113651506045,
+            "B0_over_prediction_loss": 0.22106897353758442,
+            "B0_under_prediction_loss": 0.13331802976009044,
+            "candidate_total_loss_share": 0.13067301794596448,
+            "candidate_over_prediction_loss": 0.14485296818125665,
+            "candidate_under_prediction_loss": 0.134663155657731
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "operating_fraction": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "below_0.8",
+            "wells": 32,
+            "B0_mean_weighted_loss": 0.34094355059280074,
+            "candidate_mean_weighted_loss": 0.31043694703338964,
+            "candidate_minus_B0_group_score": 3.050660355941109,
+            "net_total_score_contribution": 1.2051991529643888,
+            "B0_total_loss_share": 0.4938440281926145,
+            "B0_over_prediction_loss": 0.19299146348741136,
+            "B0_under_prediction_loss": 0.14795208710538935,
+            "candidate_total_loss_share": 0.46441093636976194,
+            "candidate_over_prediction_loss": 0.18603880219135777,
+            "candidate_under_prediction_loss": 0.12439814484203182
+          },
+          {
+            "group": "other",
+            "wells": 49,
+            "B0_mean_weighted_loss": 0.22820803770971154,
+            "candidate_mean_weighted_loss": 0.2338064910691549,
+            "candidate_minus_B0_group_score": -0.5598453359443367,
+            "net_total_score_contribution": -0.3386718698922531,
+            "B0_total_loss_share": 0.5061559718073855,
+            "B0_over_prediction_loss": 0.11098629140847854,
+            "B0_under_prediction_loss": 0.11722174630123301,
+            "candidate_total_loss_share": 0.5355890636302382,
+            "candidate_over_prediction_loss": 0.11627014280259988,
+            "candidate_under_prediction_loss": 0.11753634826655505
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CCJHWND": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 18,
+            "B0_mean_weighted_loss": 0.31712472461495994,
+            "candidate_mean_weighted_loss": 0.28247141776172024,
+            "candidate_minus_B0_group_score": 3.46533068532397,
+            "net_total_score_contribution": 0.7700734856275488,
+            "B0_total_loss_share": 0.2583806323178787,
+            "B0_over_prediction_loss": 0.13731067075289777,
+            "B0_under_prediction_loss": 0.17981405386206212,
+            "candidate_total_loss_share": 0.2376982974856617,
+            "candidate_over_prediction_loss": 0.14263020878289756,
+            "candidate_under_prediction_loss": 0.13984120897882268
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3543870032976749,
+            "candidate_mean_weighted_loss": 0.2795161238389876,
+            "candidate_minus_B0_group_score": 7.487087945868732,
+            "net_total_score_contribution": 0.9243318451689791,
+            "B0_total_loss_share": 0.1604113651506045,
+            "B0_over_prediction_loss": 0.22106897353758442,
+            "B0_under_prediction_loss": 0.13331802976009044,
+            "candidate_total_loss_share": 0.13067301794596448,
+            "candidate_over_prediction_loss": 0.14485296818125665,
+            "candidate_under_prediction_loss": 0.134663155657731
+          },
+          {
+            "group": "observed_now",
+            "wells": 53,
+            "B0_mean_weighted_loss": 0.24226929039055586,
+            "candidate_mean_weighted_loss": 0.25492176621426826,
+            "candidate_minus_B0_group_score": -1.2652475823712401,
+            "net_total_score_contribution": -0.8278780477243918,
+            "B0_total_loss_share": 0.5812080025315167,
+            "B0_over_prediction_loss": 0.13078817550348315,
+            "B0_under_prediction_loss": 0.11148111488707274,
+            "candidate_total_loss_share": 0.6316286845683738,
+            "candidate_over_prediction_loss": 0.1440491552367193,
+            "candidate_under_prediction_loss": 0.110872610977549
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CCYND": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 18,
+            "B0_mean_weighted_loss": 0.31712472461495994,
+            "candidate_mean_weighted_loss": 0.28247141776172024,
+            "candidate_minus_B0_group_score": 3.46533068532397,
+            "net_total_score_contribution": 0.7700734856275488,
+            "B0_total_loss_share": 0.2583806323178787,
+            "B0_over_prediction_loss": 0.13731067075289777,
+            "B0_under_prediction_loss": 0.17981405386206212,
+            "candidate_total_loss_share": 0.2376982974856617,
+            "candidate_over_prediction_loss": 0.14263020878289756,
+            "candidate_under_prediction_loss": 0.13984120897882268
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3543870032976749,
+            "candidate_mean_weighted_loss": 0.2795161238389876,
+            "candidate_minus_B0_group_score": 7.487087945868732,
+            "net_total_score_contribution": 0.9243318451689791,
+            "B0_total_loss_share": 0.1604113651506045,
+            "B0_over_prediction_loss": 0.22106897353758442,
+            "B0_under_prediction_loss": 0.13331802976009044,
+            "candidate_total_loss_share": 0.13067301794596448,
+            "candidate_over_prediction_loss": 0.14485296818125665,
+            "candidate_under_prediction_loss": 0.134663155657731
+          },
+          {
+            "group": "observed_now",
+            "wells": 53,
+            "B0_mean_weighted_loss": 0.24226929039055586,
+            "candidate_mean_weighted_loss": 0.25492176621426826,
+            "candidate_minus_B0_group_score": -1.2652475823712401,
+            "net_total_score_contribution": -0.8278780477243918,
+            "B0_total_loss_share": 0.5812080025315167,
+            "B0_over_prediction_loss": 0.13078817550348315,
+            "B0_under_prediction_loss": 0.11148111488707274,
+            "candidate_total_loss_share": 0.6316286845683738,
+            "candidate_over_prediction_loss": 0.1440491552367193,
+            "candidate_under_prediction_loss": 0.110872610977549
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_LY": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 9,
+            "B0_mean_weighted_loss": 0.2541821254031413,
+            "candidate_mean_weighted_loss": 0.21189769939295305,
+            "candidate_minus_B0_group_score": 4.2284426010188225,
+            "net_total_score_contribution": 0.46982695566875804,
+            "B0_total_loss_share": 0.10354875099269985,
+            "B0_over_prediction_loss": 0.04436889738614626,
+            "B0_under_prediction_loss": 0.20981322801699495,
+            "candidate_total_loss_share": 0.08915543169985671,
+            "candidate_over_prediction_loss": 0.039377741780857366,
+            "candidate_under_prediction_loss": 0.17251995761209568
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3499088577999787,
+            "candidate_mean_weighted_loss": 0.2753706967809722,
+            "candidate_minus_B0_group_score": 7.453816101900651,
+            "net_total_score_contribution": 1.0122466311223106,
+            "B0_total_loss_share": 0.17422279242537547,
+            "B0_over_prediction_loss": 0.20296367200238452,
+            "B0_under_prediction_loss": 0.1469451857975942,
+            "candidate_total_loss_share": 0.14160854643676557,
+            "candidate_over_prediction_loss": 0.13429719493801565,
+            "candidate_under_prediction_loss": 0.14107350184295656
+          },
+          {
+            "group": "observed_now",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.26156968692323695,
+            "candidate_mean_weighted_loss": 0.2697433345627834,
+            "candidate_minus_B0_group_score": -0.8173647639546422,
+            "net_total_score_contribution": -0.615546303718928,
+            "B0_total_loss_share": 0.7222284565819248,
+            "B0_over_prediction_loss": 0.14724810888706663,
+            "B0_under_prediction_loss": 0.11432157803617027,
+            "candidate_total_loss_share": 0.7692360218633778,
+            "candidate_over_prediction_loss": 0.1609640958541796,
+            "candidate_under_prediction_loss": 0.10877923870860381
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CMD": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 9,
+            "B0_mean_weighted_loss": 0.2541821254031413,
+            "candidate_mean_weighted_loss": 0.21189769939295305,
+            "candidate_minus_B0_group_score": 4.2284426010188225,
+            "net_total_score_contribution": 0.46982695566875804,
+            "B0_total_loss_share": 0.10354875099269985,
+            "B0_over_prediction_loss": 0.04436889738614626,
+            "B0_under_prediction_loss": 0.20981322801699495,
+            "candidate_total_loss_share": 0.08915543169985671,
+            "candidate_over_prediction_loss": 0.039377741780857366,
+            "candidate_under_prediction_loss": 0.17251995761209568
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3499088577999787,
+            "candidate_mean_weighted_loss": 0.2753706967809722,
+            "candidate_minus_B0_group_score": 7.453816101900651,
+            "net_total_score_contribution": 1.0122466311223106,
+            "B0_total_loss_share": 0.17422279242537547,
+            "B0_over_prediction_loss": 0.20296367200238452,
+            "B0_under_prediction_loss": 0.1469451857975942,
+            "candidate_total_loss_share": 0.14160854643676557,
+            "candidate_over_prediction_loss": 0.13429719493801565,
+            "candidate_under_prediction_loss": 0.14107350184295656
+          },
+          {
+            "group": "observed_now",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.26156968692323695,
+            "candidate_mean_weighted_loss": 0.2697433345627834,
+            "candidate_minus_B0_group_score": -0.8173647639546422,
+            "net_total_score_contribution": -0.615546303718928,
+            "B0_total_loss_share": 0.7222284565819248,
+            "B0_over_prediction_loss": 0.14724810888706663,
+            "B0_under_prediction_loss": 0.11432157803617027,
+            "candidate_total_loss_share": 0.7692360218633778,
+            "candidate_over_prediction_loss": 0.1609640958541796,
+            "candidate_under_prediction_loss": 0.10877923870860381
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_XXDL": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 6,
+            "B0_mean_weighted_loss": 0.23210707795238417,
+            "candidate_mean_weighted_loss": 0.21950231598481665,
+            "candidate_minus_B0_group_score": 1.260476196756752,
+            "net_total_score_contribution": 0.09336860716716681,
+            "B0_total_loss_share": 0.06303720998061331,
+            "B0_over_prediction_loss": 0.06803189267785073,
+            "B0_under_prediction_loss": 0.16407518527453344,
+            "candidate_total_loss_share": 0.06157003685208646,
+            "candidate_over_prediction_loss": 0.05894827625765079,
+            "candidate_under_prediction_loss": 0.16055403972716584
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3373635402317178,
+            "candidate_mean_weighted_loss": 0.2687709844762283,
+            "candidate_minus_B0_group_score": 6.859255575548945,
+            "net_total_score_contribution": 0.9315038435930665,
+            "B0_total_loss_share": 0.16797636507755748,
+            "B0_over_prediction_loss": 0.21516748493815155,
+            "B0_under_prediction_loss": 0.12219605529356624,
+            "candidate_total_loss_share": 0.13821466438141033,
+            "candidate_over_prediction_loss": 0.14321221412976362,
+            "candidate_under_prediction_loss": 0.1255587703464647
+          },
+          {
+            "group": "observed_now",
+            "wells": 64,
+            "B0_mean_weighted_loss": 0.26544915713253575,
+            "candidate_mean_weighted_loss": 0.2674532131610883,
+            "candidate_minus_B0_group_score": -0.20040560285525255,
+            "net_total_score_contribution": -0.15834516768810078,
+            "B0_total_loss_share": 0.7689864249418292,
+            "B0_over_prediction_loss": 0.13810970969102876,
+            "B0_under_prediction_loss": 0.127339447441507,
+            "candidate_total_loss_share": 0.8002152987665033,
+            "candidate_over_prediction_loss": 0.15189772897621154,
+            "candidate_under_prediction_loss": 0.11555548418487671
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "production_tertile": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "high",
+            "wells": 28,
+            "B0_mean_weighted_loss": 0.27344821209237513,
+            "candidate_mean_weighted_loss": 0.26803150591184804,
+            "candidate_minus_B0_group_score": 0.5416706180527087,
+            "net_total_score_contribution": 0.18724416426513388,
+            "B0_total_loss_share": 0.3465696023171559,
+            "B0_over_prediction_loss": 0.11178294535204616,
+            "B0_under_prediction_loss": 0.16166526674032897,
+            "candidate_total_loss_share": 0.35085117396082394,
+            "candidate_over_prediction_loss": 0.14946539288030383,
+            "candidate_under_prediction_loss": 0.1185661130315442
+          },
+          {
+            "group": "low",
+            "wells": 28,
+            "B0_mean_weighted_loss": 0.261306649612244,
+            "candidate_mean_weighted_loss": 0.23195928729017273,
+            "candidate_minus_B0_group_score": 2.9347362322071247,
+            "net_total_score_contribution": 1.0144767222444382,
+            "B0_total_loss_share": 0.33118132660655647,
+            "B0_over_prediction_loss": 0.12582145116662688,
+            "B0_under_prediction_loss": 0.13548519844561713,
+            "candidate_total_loss_share": 0.3036329180034491,
+            "candidate_over_prediction_loss": 0.08923111683711885,
+            "candidate_under_prediction_loss": 0.1427281704530539
+          },
+          {
+            "group": "middle",
+            "wells": 25,
+            "B0_mean_weighted_loss": 0.28477005356064616,
+            "candidate_mean_weighted_loss": 0.2956303263120192,
+            "candidate_minus_B0_group_score": -1.0860272751373024,
+            "net_total_score_contribution": -0.335193603437439,
+            "B0_total_loss_share": 0.3222490710762877,
+            "B0_over_prediction_loss": 0.1984452803235907,
+            "B0_under_prediction_loss": 0.08632477323705545,
+            "candidate_total_loss_share": 0.34551590803572707,
+            "candidate_over_prediction_loss": 0.19867905581452036,
+            "candidate_under_prediction_loss": 0.09695127049749881
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      }
+    },
+    "grouping": "prediction-time inputs only; production tertiles from outer training wells only; members vary across splits",
+    "model_fits": 0,
+    "preprocessor_fits": 0,
+    "does_not_prove_causation": true
+  },
+  "repeat_2": {
+    "groups": {
+      "scale_state": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "fallback",
+            "wells": 14,
+            "B0_mean_weighted_loss": 0.3112271984671572,
+            "candidate_mean_weighted_loss": 0.23242316860348397,
+            "candidate_minus_B0_group_score": 7.880402986367321,
+            "net_total_score_contribution": 1.3620449606066976,
+            "B0_total_loss_share": 0.19792245196531597,
+            "B0_over_prediction_loss": 0.17557198478046754,
+            "B0_under_prediction_loss": 0.13565521368668967,
+            "candidate_total_loss_share": 0.15013755342354804,
+            "candidate_over_prediction_loss": 0.10325502251441677,
+            "candidate_under_prediction_loss": 0.1291681460890672
+          },
+          {
+            "group": "positive",
+            "wells": 67,
+            "B0_mean_weighted_loss": 0.2635433568704806,
+            "candidate_mean_weighted_loss": 0.27491089724327555,
+            "candidate_minus_B0_group_score": -1.136754037279497,
+            "net_total_score_contribution": -0.9402780308361273,
+            "B0_total_loss_share": 0.802077548034684,
+            "B0_over_prediction_loss": 0.13650206275960772,
+            "B0_under_prediction_loss": 0.12704129411087287,
+            "candidate_total_loss_share": 0.849862446576452,
+            "candidate_over_prediction_loss": 0.146685705874435,
+            "candidate_under_prediction_loss": 0.12822519136884056
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "BX_state": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing",
+            "wells": 15,
+            "B0_mean_weighted_loss": 0.31562423427568687,
+            "candidate_mean_weighted_loss": 0.2601979438911492,
+            "candidate_minus_B0_group_score": 5.542629038453767,
+            "net_total_score_contribution": 1.0264127848988458,
+            "B0_total_loss_share": 0.21505576262243756,
+            "B0_over_prediction_loss": 0.17053310672498792,
+            "B0_under_prediction_loss": 0.145091127550699,
+            "candidate_total_loss_share": 0.18008477629271133,
+            "candidate_over_prediction_loss": 0.1026213502803021,
+            "candidate_under_prediction_loss": 0.1575765936108471
+          },
+          {
+            "group": "outside_0_100",
+            "wells": 5,
+            "B0_mean_weighted_loss": 0.20414242547319614,
+            "candidate_mean_weighted_loss": 0.17163575578769236,
+            "candidate_minus_B0_group_score": 3.250666968550378,
+            "net_total_score_contribution": 0.20065845484878878,
+            "B0_total_loss_share": 0.04636526627354965,
+            "B0_over_prediction_loss": 0.08125463048671566,
+            "B0_under_prediction_loss": 0.12288779498648046,
+            "candidate_total_loss_share": 0.03959676009557225,
+            "candidate_over_prediction_loss": 0.05937060903491372,
+            "candidate_under_prediction_loss": 0.11226514675277861
+          },
+          {
+            "group": "within_0_100",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.26654934503870686,
+            "candidate_mean_weighted_loss": 0.2772427301384023,
+            "candidate_minus_B0_group_score": -1.0693385099695418,
+            "net_total_score_contribution": -0.8053043099770624,
+            "B0_total_loss_share": 0.7385789711040128,
+            "B0_over_prediction_loss": 0.141629118664129,
+            "B0_under_prediction_loss": 0.12492022637457785,
+            "candidate_total_loss_share": 0.7803184636117165,
+            "candidate_over_prediction_loss": 0.15471048048212915,
+            "candidate_under_prediction_loss": 0.12253224965627309
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "recent_ratio": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "0.5_to_2",
+            "wells": 63,
+            "B0_mean_weighted_loss": 0.2620790812549055,
+            "candidate_mean_weighted_loss": 0.2703111440057966,
+            "candidate_minus_B0_group_score": -0.8232062750891112,
+            "net_total_score_contribution": -0.6402715472915309,
+            "B0_total_loss_share": 0.7500019465463874,
+            "B0_over_prediction_loss": 0.1370652652346551,
+            "B0_under_prediction_loss": 0.12501381602025033,
+            "candidate_total_loss_share": 0.7857536032487447,
+            "candidate_over_prediction_loss": 0.14867128827101703,
+            "candidate_under_prediction_loss": 0.12163985573477963
+          },
+          {
+            "group": "below_0.5",
+            "wells": 8,
+            "B0_mean_weighted_loss": 0.24961405306209308,
+            "candidate_mean_weighted_loss": 0.21191197373581738,
+            "candidate_minus_B0_group_score": 3.77020793262757,
+            "net_total_score_contribution": 0.3723662155681551,
+            "B0_total_loss_share": 0.09070860804375805,
+            "B0_over_prediction_loss": 0.06428418722241777,
+            "B0_under_prediction_loss": 0.18532986583967528,
+            "candidate_total_loss_share": 0.07822172061421315,
+            "candidate_over_prediction_loss": 0.06793682421009296,
+            "candidate_under_prediction_loss": 0.1439751495257244
+          },
+          {
+            "group": "unknown",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3506691145306612,
+            "candidate_mean_weighted_loss": 0.2948056613496511,
+            "candidate_minus_B0_group_score": 5.58634531810101,
+            "net_total_score_contribution": 0.6896722614939519,
+            "B0_total_loss_share": 0.15928944540985454,
+            "B0_over_prediction_loss": 0.24542607842576505,
+            "B0_under_prediction_loss": 0.10524303610489619,
+            "candidate_total_loss_share": 0.13602467613704208,
+            "candidate_over_prediction_loss": 0.13637268540341624,
+            "candidate_under_prediction_loss": 0.15843297594623473
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "operating_fraction": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "below_0.8",
+            "wells": 32,
+            "B0_mean_weighted_loss": 0.342628507843021,
+            "candidate_mean_weighted_loss": 0.3135883756305253,
+            "candidate_minus_B0_group_score": 2.904013221249574,
+            "net_total_score_contribution": 1.1472644824689675,
+            "B0_total_loss_share": 0.4980385461682173,
+            "B0_over_prediction_loss": 0.19509588019232837,
+            "B0_under_prediction_loss": 0.1475326276506927,
+            "candidate_total_loss_share": 0.4630115396313712,
+            "candidate_over_prediction_loss": 0.18350276957937633,
+            "candidate_under_prediction_loss": 0.13008560605114897
+          },
+          {
+            "group": "other",
+            "wells": 49,
+            "B0_mean_weighted_loss": 0.22551986607930052,
+            "candidate_mean_weighted_loss": 0.23751278480758015,
+            "candidate_minus_B0_group_score": -1.1992918728279622,
+            "net_total_score_contribution": -0.7254975526983969,
+            "B0_total_loss_share": 0.5019614538317826,
+            "B0_over_prediction_loss": 0.10939954746256644,
+            "B0_under_prediction_loss": 0.1161203186167341,
+            "candidate_total_loss_share": 0.5369884603686287,
+            "candidate_over_prediction_loss": 0.11023314249487627,
+            "candidate_under_prediction_loss": 0.12727964231270392
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CCJHWND": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 18,
+            "B0_mean_weighted_loss": 0.3125993883117125,
+            "candidate_mean_weighted_loss": 0.2881252249674857,
+            "candidate_minus_B0_group_score": 2.4474163344226807,
+            "net_total_score_contribution": 0.5438702965383735,
+            "B0_total_loss_share": 0.25559368089573115,
+            "B0_over_prediction_loss": 0.13744546947273112,
+            "B0_under_prediction_loss": 0.1751539188389814,
+            "candidate_total_loss_share": 0.23929612620273324,
+            "candidate_over_prediction_loss": 0.14329399775502968,
+            "candidate_under_prediction_loss": 0.14483122721245603
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3506691145306612,
+            "candidate_mean_weighted_loss": 0.2948056613496511,
+            "candidate_minus_B0_group_score": 5.58634531810101,
+            "net_total_score_contribution": 0.6896722614939519,
+            "B0_total_loss_share": 0.15928944540985454,
+            "B0_over_prediction_loss": 0.24542607842576505,
+            "B0_under_prediction_loss": 0.10524303610489619,
+            "candidate_total_loss_share": 0.13602467613704208,
+            "candidate_over_prediction_loss": 0.13637268540341624,
+            "candidate_under_prediction_loss": 0.15843297594623473
+          },
+          {
+            "group": "observed_now",
+            "wells": 53,
+            "B0_mean_weighted_loss": 0.24303972743292382,
+            "candidate_mean_weighted_loss": 0.2554461096761695,
+            "candidate_minus_B0_group_score": -1.2406382243245666,
+            "net_total_score_contribution": -0.8117756282617535,
+            "B0_total_loss_share": 0.5851168736944143,
+            "B0_over_prediction_loss": 0.12595031617081986,
+            "B0_under_prediction_loss": 0.11708941126210395,
+            "candidate_total_loss_share": 0.6246791976602246,
+            "candidate_over_prediction_loss": 0.13831120368234495,
+            "candidate_under_prediction_loss": 0.11713490599382458
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CCYND": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 18,
+            "B0_mean_weighted_loss": 0.3125993883117125,
+            "candidate_mean_weighted_loss": 0.2881252249674857,
+            "candidate_minus_B0_group_score": 2.4474163344226807,
+            "net_total_score_contribution": 0.5438702965383735,
+            "B0_total_loss_share": 0.25559368089573115,
+            "B0_over_prediction_loss": 0.13744546947273112,
+            "B0_under_prediction_loss": 0.1751539188389814,
+            "candidate_total_loss_share": 0.23929612620273324,
+            "candidate_over_prediction_loss": 0.14329399775502968,
+            "candidate_under_prediction_loss": 0.14483122721245603
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3506691145306612,
+            "candidate_mean_weighted_loss": 0.2948056613496511,
+            "candidate_minus_B0_group_score": 5.58634531810101,
+            "net_total_score_contribution": 0.6896722614939519,
+            "B0_total_loss_share": 0.15928944540985454,
+            "B0_over_prediction_loss": 0.24542607842576505,
+            "B0_under_prediction_loss": 0.10524303610489619,
+            "candidate_total_loss_share": 0.13602467613704208,
+            "candidate_over_prediction_loss": 0.13637268540341624,
+            "candidate_under_prediction_loss": 0.15843297594623473
+          },
+          {
+            "group": "observed_now",
+            "wells": 53,
+            "B0_mean_weighted_loss": 0.24303972743292382,
+            "candidate_mean_weighted_loss": 0.2554461096761695,
+            "candidate_minus_B0_group_score": -1.2406382243245666,
+            "net_total_score_contribution": -0.8117756282617535,
+            "B0_total_loss_share": 0.5851168736944143,
+            "B0_over_prediction_loss": 0.12595031617081986,
+            "B0_under_prediction_loss": 0.11708941126210395,
+            "candidate_total_loss_share": 0.6246791976602246,
+            "candidate_over_prediction_loss": 0.13831120368234495,
+            "candidate_under_prediction_loss": 0.11713490599382458
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_LY": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 9,
+            "B0_mean_weighted_loss": 0.2611933806437334,
+            "candidate_mean_weighted_loss": 0.18613159554643766,
+            "candidate_minus_B0_group_score": 7.506178509729572,
+            "net_total_score_contribution": 0.8340198344143969,
+            "B0_total_loss_share": 0.106781043214585,
+            "B0_over_prediction_loss": 0.042191531703989864,
+            "B0_under_prediction_loss": 0.21900184893974353,
+            "candidate_total_loss_share": 0.07729377006685678,
+            "candidate_over_prediction_loss": 0.04796789265291801,
+            "candidate_under_prediction_loss": 0.13816370289351967
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.34777449671120964,
+            "candidate_mean_weighted_loss": 0.2912503195680292,
+            "candidate_minus_B0_group_score": 5.652417714318042,
+            "net_total_score_contribution": 0.767612282191339,
+            "B0_total_loss_share": 0.1737720399507091,
+            "B0_over_prediction_loss": 0.2251789267149414,
+            "B0_under_prediction_loss": 0.1225955699962682,
+            "candidate_total_loss_share": 0.14782264775359913,
+            "candidate_over_prediction_loss": 0.12638467002442277,
+            "candidate_under_prediction_loss": 0.16486564954360647
+          },
+          {
+            "group": "observed_now",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2596446852335327,
+            "candidate_mean_weighted_loss": 0.2753117475505242,
+            "candidate_minus_B0_group_score": -1.5667062316991498,
+            "net_total_score_contribution": -1.1798651868351622,
+            "B0_total_loss_share": 0.7194469168347059,
+            "B0_over_prediction_loss": 0.14339268873147537,
+            "B0_under_prediction_loss": 0.11625199650205728,
+            "candidate_total_loss_share": 0.774883582179544,
+            "candidate_over_prediction_loss": 0.15494377384662406,
+            "candidate_under_prediction_loss": 0.12036797370390019
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CMD": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 9,
+            "B0_mean_weighted_loss": 0.2611933806437334,
+            "candidate_mean_weighted_loss": 0.18613159554643766,
+            "candidate_minus_B0_group_score": 7.506178509729572,
+            "net_total_score_contribution": 0.8340198344143969,
+            "B0_total_loss_share": 0.106781043214585,
+            "B0_over_prediction_loss": 0.042191531703989864,
+            "B0_under_prediction_loss": 0.21900184893974353,
+            "candidate_total_loss_share": 0.07729377006685678,
+            "candidate_over_prediction_loss": 0.04796789265291801,
+            "candidate_under_prediction_loss": 0.13816370289351967
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.34777449671120964,
+            "candidate_mean_weighted_loss": 0.2912503195680292,
+            "candidate_minus_B0_group_score": 5.652417714318042,
+            "net_total_score_contribution": 0.767612282191339,
+            "B0_total_loss_share": 0.1737720399507091,
+            "B0_over_prediction_loss": 0.2251789267149414,
+            "B0_under_prediction_loss": 0.1225955699962682,
+            "candidate_total_loss_share": 0.14782264775359913,
+            "candidate_over_prediction_loss": 0.12638467002442277,
+            "candidate_under_prediction_loss": 0.16486564954360647
+          },
+          {
+            "group": "observed_now",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2596446852335327,
+            "candidate_mean_weighted_loss": 0.2753117475505242,
+            "candidate_minus_B0_group_score": -1.5667062316991498,
+            "net_total_score_contribution": -1.1798651868351622,
+            "B0_total_loss_share": 0.7194469168347059,
+            "B0_over_prediction_loss": 0.14339268873147537,
+            "B0_under_prediction_loss": 0.11625199650205728,
+            "candidate_total_loss_share": 0.774883582179544,
+            "candidate_over_prediction_loss": 0.15494377384662406,
+            "candidate_under_prediction_loss": 0.12036797370390019
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_XXDL": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 6,
+            "B0_mean_weighted_loss": 0.25182774882438025,
+            "candidate_mean_weighted_loss": 0.2054445641629342,
+            "candidate_minus_B0_group_score": 4.6383184661446055,
+            "net_total_score_contribution": 0.34357914564034114,
+            "B0_total_loss_share": 0.06863479123800674,
+            "B0_over_prediction_loss": 0.0640721121560226,
+            "B0_under_prediction_loss": 0.18775563666835768,
+            "candidate_total_loss_share": 0.05687583510392846,
+            "candidate_over_prediction_loss": 0.07466488119609944,
+            "candidate_under_prediction_loss": 0.13077968296683473
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3349712432393294,
+            "candidate_mean_weighted_loss": 0.28933248640568915,
+            "candidate_minus_B0_group_score": 4.563875683364027,
+            "net_total_score_contribution": 0.6197855866296826,
+            "B0_total_loss_share": 0.16737465459078685,
+            "B0_over_prediction_loss": 0.23296557713311364,
+            "B0_under_prediction_loss": 0.10200566610621574,
+            "candidate_total_loss_share": 0.14684926109284888,
+            "candidate_over_prediction_loss": 0.12668487519776217,
+            "candidate_under_prediction_loss": 0.162647611207927
+          },
+          {
+            "group": "observed_now",
+            "wells": 64,
+            "B0_mean_weighted_loss": 0.2627958675044296,
+            "candidate_mean_weighted_loss": 0.26965046469231335,
+            "candidate_minus_B0_group_score": -0.6854597187883726,
+            "net_total_score_contribution": -0.5415978024994549,
+            "B0_total_loss_share": 0.7639905541712064,
+            "B0_over_prediction_loss": 0.1352592495378106,
+            "B0_under_prediction_loss": 0.12753661796661903,
+            "candidate_total_loss_share": 0.7962749038032227,
+            "candidate_over_prediction_loss": 0.1473748389755781,
+            "candidate_under_prediction_loss": 0.12227562571673523
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "production_tertile": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "high",
+            "wells": 29,
+            "B0_mean_weighted_loss": 0.23589578820711807,
+            "candidate_mean_weighted_loss": 0.23755765501380785,
+            "candidate_minus_B0_group_score": -0.16618668066897824,
+            "net_total_score_contribution": -0.05949893505432555,
+            "B0_total_loss_share": 0.3107475177907802,
+            "B0_over_prediction_loss": 0.08532659517766969,
+            "B0_under_prediction_loss": 0.15056919302944838,
+            "candidate_total_loss_share": 0.3178695365742278,
+            "candidate_over_prediction_loss": 0.11793974564002109,
+            "candidate_under_prediction_loss": 0.11961790937378677
+          },
+          {
+            "group": "low",
+            "wells": 28,
+            "B0_mean_weighted_loss": 0.2673884023858793,
+            "candidate_mean_weighted_loss": 0.2569989664891327,
+            "candidate_minus_B0_group_score": 1.0389435896746624,
+            "net_total_score_contribution": 0.3591409939616117,
+            "B0_total_loss_share": 0.34008703923019423,
+            "B0_over_prediction_loss": 0.14472582879792734,
+            "B0_under_prediction_loss": 0.12266257358795195,
+            "candidate_total_loss_share": 0.33202538535980014,
+            "candidate_over_prediction_loss": 0.09411092330958193,
+            "candidate_under_prediction_loss": 0.16288804317955075
+          },
+          {
+            "group": "middle",
+            "wells": 24,
+            "B0_mean_weighted_loss": 0.3202805235021398,
+            "candidate_mean_weighted_loss": 0.316158809110504,
+            "candidate_minus_B0_group_score": 0.41217143916358334,
+            "net_total_score_contribution": 0.12212487086328395,
+            "B0_total_loss_share": 0.3491654429790255,
+            "B0_over_prediction_loss": 0.21153548022191151,
+            "B0_under_prediction_loss": 0.10874504328022831,
+            "candidate_total_loss_share": 0.3501050780659721,
+            "candidate_over_prediction_loss": 0.21742308885666972,
+            "candidate_under_prediction_loss": 0.09873572025383426
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      }
+    },
+    "grouping": "prediction-time inputs only; production tertiles from outer training wells only; members vary across splits",
+    "model_fits": 0,
+    "preprocessor_fits": 0,
+    "does_not_prove_causation": true
+  },
+  "repeat_3": {
+    "groups": {
+      "scale_state": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "fallback",
+            "wells": 14,
+            "B0_mean_weighted_loss": 0.30003629986424646,
+            "candidate_mean_weighted_loss": 0.2269433989567034,
+            "candidate_minus_B0_group_score": 7.309290090754306,
+            "net_total_score_contribution": 1.2633340897600036,
+            "B0_total_loss_share": 0.18585712920928343,
+            "B0_over_prediction_loss": 0.14403272693140626,
+            "B0_under_prediction_loss": 0.15600357293284023,
+            "candidate_total_loss_share": 0.1471426859159189,
+            "candidate_over_prediction_loss": 0.09397565560821698,
+            "candidate_under_prediction_loss": 0.1329677433484864
+          },
+          {
+            "group": "positive",
+            "wells": 67,
+            "B0_mean_weighted_loss": 0.2746302887575641,
+            "candidate_mean_weighted_loss": 0.27485806644779437,
+            "candidate_minus_B0_group_score": -0.02277776902302464,
+            "net_total_score_contribution": -0.01884087067336606,
+            "B0_total_loss_share": 0.8141428707907165,
+            "B0_over_prediction_loss": 0.14218791016368162,
+            "B0_under_prediction_loss": 0.1324423785938825,
+            "candidate_total_loss_share": 0.8528573140840813,
+            "candidate_over_prediction_loss": 0.1522125539728914,
+            "candidate_under_prediction_loss": 0.122645512474903
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "BX_state": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing",
+            "wells": 15,
+            "B0_mean_weighted_loss": 0.3093989485419063,
+            "candidate_mean_weighted_loss": 0.2614092415600575,
+            "candidate_minus_B0_group_score": 4.798970698184879,
+            "net_total_score_contribution": 0.8886982774416444,
+            "B0_total_loss_share": 0.2053465830005555,
+            "B0_over_prediction_loss": 0.14094144176001946,
+            "B0_under_prediction_loss": 0.1684575067818869,
+            "candidate_total_loss_share": 0.18159558460966302,
+            "candidate_over_prediction_loss": 0.09396060560686872,
+            "candidate_under_prediction_loss": 0.1674486359531888
+          },
+          {
+            "group": "outside_0_100",
+            "wells": 5,
+            "B0_mean_weighted_loss": 0.196258875541969,
+            "candidate_mean_weighted_loss": 0.21038402068150125,
+            "candidate_minus_B0_group_score": -1.4125145139532251,
+            "net_total_score_contribution": -0.08719225394772995,
+            "B0_total_loss_share": 0.0434186882513124,
+            "B0_over_prediction_loss": 0.07453334963519175,
+            "B0_under_prediction_loss": 0.12172552590677728,
+            "candidate_total_loss_share": 0.04871647357758172,
+            "candidate_over_prediction_loss": 0.08136939025346678,
+            "candidate_under_prediction_loss": 0.1290146304280345
+          },
+          {
+            "group": "within_0_100",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.27833539244291483,
+            "candidate_mean_weighted_loss": 0.2724531034522574,
+            "candidate_minus_B0_group_score": 0.5882288990657458,
+            "net_total_score_contribution": 0.4429871955927222,
+            "B0_total_loss_share": 0.751234728748132,
+            "B0_over_prediction_loss": 0.14846327513819846,
+            "B0_under_prediction_loss": 0.1298721173047164,
+            "candidate_total_loss_share": 0.7696879418127552,
+            "candidate_over_prediction_loss": 0.15897777474308844,
+            "candidate_under_prediction_loss": 0.11347532870916896
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "recent_ratio": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "0.5_to_2",
+            "wells": 63,
+            "B0_mean_weighted_loss": 0.27235655096912836,
+            "candidate_mean_weighted_loss": 0.2730020398056396,
+            "candidate_minus_B0_group_score": -0.0645488836511221,
+            "net_total_score_contribution": -0.05020468728420607,
+            "B0_total_loss_share": 0.7591992375027699,
+            "B0_over_prediction_loss": 0.14365197117377587,
+            "B0_under_prediction_loss": 0.1287045797953525,
+            "candidate_total_loss_share": 0.796525217829119,
+            "candidate_over_prediction_loss": 0.15472373889750843,
+            "candidate_under_prediction_loss": 0.11827830090813121
+          },
+          {
+            "group": "below_0.5",
+            "wells": 8,
+            "B0_mean_weighted_loss": 0.2655139285388285,
+            "candidate_mean_weighted_loss": 0.1798132833284921,
+            "candidate_minus_B0_group_score": 8.570064521033638,
+            "net_total_score_contribution": 0.8464261255341865,
+            "B0_total_loss_share": 0.09398416419352913,
+            "B0_over_prediction_loss": 0.059852810731211355,
+            "B0_under_prediction_loss": 0.20566111780761714,
+            "candidate_total_loss_share": 0.06662003350098304,
+            "candidate_over_prediction_loss": 0.07397627610645043,
+            "candidate_under_prediction_loss": 0.10583700722204172
+          },
+          {
+            "group": "unknown",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3318163405490533,
+            "candidate_mean_weighted_loss": 0.2955063263012838,
+            "candidate_minus_B0_group_score": 3.6310014247769473,
+            "net_total_score_contribution": 0.44827178083666014,
+            "B0_total_loss_share": 0.14681659830370097,
+            "B0_over_prediction_loss": 0.20141514882087855,
+            "B0_under_prediction_loss": 0.1304011917281747,
+            "candidate_total_loss_share": 0.13685474866989797,
+            "candidate_over_prediction_loss": 0.11744945353041265,
+            "candidate_under_prediction_loss": 0.17805687277087118
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "operating_fraction": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "below_0.8",
+            "wells": 32,
+            "B0_mean_weighted_loss": 0.3397409189372431,
+            "candidate_mean_weighted_loss": 0.3118595073481728,
+            "candidate_minus_B0_group_score": 2.7881411589070315,
+            "net_total_score_contribution": 1.1014878652472224,
+            "B0_total_loss_share": 0.4810333903667713,
+            "B0_over_prediction_loss": 0.18948960931258668,
+            "B0_under_prediction_loss": 0.15025130962465635,
+            "candidate_total_loss_share": 0.46217032340554093,
+            "candidate_over_prediction_loss": 0.18184415621552347,
+            "candidate_under_prediction_loss": 0.13001535113264928
+          },
+          {
+            "group": "other",
+            "wells": 49,
+            "B0_mean_weighted_loss": 0.2393679212013157,
+            "candidate_mean_weighted_loss": 0.2370039551480519,
+            "candidate_minus_B0_group_score": 0.23639660532638052,
+            "net_total_score_contribution": 0.14300535383941537,
+            "B0_total_loss_share": 0.5189666096332288,
+            "B0_over_prediction_loss": 0.11182409510211391,
+            "B0_under_prediction_loss": 0.12754382609920176,
+            "candidate_total_loss_share": 0.5378296765944592,
+            "candidate_over_prediction_loss": 0.11622218971024509,
+            "candidate_under_prediction_loss": 0.12078176543780679
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CCJHWND": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 18,
+            "B0_mean_weighted_loss": 0.31732139622177513,
+            "candidate_mean_weighted_loss": 0.28006567070131605,
+            "candidate_minus_B0_group_score": 3.725572552045908,
+            "net_total_score_contribution": 0.8279050115657575,
+            "B0_total_loss_share": 0.2527256077663674,
+            "B0_over_prediction_loss": 0.13348024089483246,
+            "B0_under_prediction_loss": 0.18384115532694278,
+            "candidate_total_loss_share": 0.2334669833243137,
+            "candidate_over_prediction_loss": 0.15053658936754694,
+            "candidate_under_prediction_loss": 0.12952908133376917
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3318163405490533,
+            "candidate_mean_weighted_loss": 0.2955063263012838,
+            "candidate_minus_B0_group_score": 3.6310014247769473,
+            "net_total_score_contribution": 0.44827178083666014,
+            "B0_total_loss_share": 0.14681659830370097,
+            "B0_over_prediction_loss": 0.20141514882087855,
+            "B0_under_prediction_loss": 0.1304011917281747,
+            "candidate_total_loss_share": 0.13685474866989797,
+            "candidate_over_prediction_loss": 0.11744945353041265,
+            "candidate_under_prediction_loss": 0.17805687277087118
+          },
+          {
+            "group": "observed_now",
+            "wells": 53,
+            "B0_mean_weighted_loss": 0.256052622780637,
+            "candidate_mean_weighted_loss": 0.25653684342942534,
+            "candidate_minus_B0_group_score": -0.048422064878833604,
+            "net_total_score_contribution": -0.03168357331578001,
+            "B0_total_loss_share": 0.6004577939299316,
+            "B0_over_prediction_loss": 0.1344575912017092,
+            "B0_under_prediction_loss": 0.1215950315789278,
+            "candidate_total_loss_share": 0.6296782680057884,
+            "candidate_over_prediction_loss": 0.14395749341092057,
+            "candidate_under_prediction_loss": 0.1125793500185048
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CCYND": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 18,
+            "B0_mean_weighted_loss": 0.31732139622177513,
+            "candidate_mean_weighted_loss": 0.28006567070131605,
+            "candidate_minus_B0_group_score": 3.725572552045908,
+            "net_total_score_contribution": 0.8279050115657575,
+            "B0_total_loss_share": 0.2527256077663674,
+            "B0_over_prediction_loss": 0.13348024089483246,
+            "B0_under_prediction_loss": 0.18384115532694278,
+            "candidate_total_loss_share": 0.2334669833243137,
+            "candidate_over_prediction_loss": 0.15053658936754694,
+            "candidate_under_prediction_loss": 0.12952908133376917
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3318163405490533,
+            "candidate_mean_weighted_loss": 0.2955063263012838,
+            "candidate_minus_B0_group_score": 3.6310014247769473,
+            "net_total_score_contribution": 0.44827178083666014,
+            "B0_total_loss_share": 0.14681659830370097,
+            "B0_over_prediction_loss": 0.20141514882087855,
+            "B0_under_prediction_loss": 0.1304011917281747,
+            "candidate_total_loss_share": 0.13685474866989797,
+            "candidate_over_prediction_loss": 0.11744945353041265,
+            "candidate_under_prediction_loss": 0.17805687277087118
+          },
+          {
+            "group": "observed_now",
+            "wells": 53,
+            "B0_mean_weighted_loss": 0.256052622780637,
+            "candidate_mean_weighted_loss": 0.25653684342942534,
+            "candidate_minus_B0_group_score": -0.048422064878833604,
+            "net_total_score_contribution": -0.03168357331578001,
+            "B0_total_loss_share": 0.6004577939299316,
+            "B0_over_prediction_loss": 0.1344575912017092,
+            "B0_under_prediction_loss": 0.1215950315789278,
+            "candidate_total_loss_share": 0.6296782680057884,
+            "candidate_over_prediction_loss": 0.14395749341092057,
+            "candidate_under_prediction_loss": 0.1125793500185048
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_LY": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 9,
+            "B0_mean_weighted_loss": 0.2638108628817112,
+            "candidate_mean_weighted_loss": 0.17795603934569368,
+            "candidate_minus_B0_group_score": 8.585482353601751,
+            "net_total_score_contribution": 0.9539424837335279,
+            "B0_total_loss_share": 0.10505399486291422,
+            "B0_over_prediction_loss": 0.03644924457000635,
+            "B0_under_prediction_loss": 0.22736161831170484,
+            "candidate_total_loss_share": 0.0741734243371277,
+            "candidate_over_prediction_loss": 0.046166771146739845,
+            "candidate_under_prediction_loss": 0.1317892681989538
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3322567849210963,
+            "candidate_mean_weighted_loss": 0.2846384862963802,
+            "candidate_minus_B0_group_score": 4.761829862471606,
+            "net_total_score_contribution": 0.6466682529282427,
+            "B0_total_loss_share": 0.16171262671752362,
+            "B0_over_prediction_loss": 0.18491687316231634,
+            "B0_under_prediction_loss": 0.14733991175877995,
+            "candidate_total_loss_share": 0.14500380377837035,
+            "candidate_over_prediction_loss": 0.11487585154091594,
+            "candidate_under_prediction_loss": 0.16976263475546427
+          },
+          {
+            "group": "observed_now",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2716658220457178,
+            "candidate_mean_weighted_loss": 0.2763945956397483,
+            "candidate_minus_B0_group_score": -0.47287735940304554,
+            "net_total_score_contribution": -0.35611751757513305,
+            "B0_total_loss_share": 0.7332333784195622,
+            "B0_over_prediction_loss": 0.15050687462443965,
+            "B0_under_prediction_loss": 0.12115894742127814,
+            "candidate_total_loss_share": 0.780822771884502,
+            "candidate_over_prediction_loss": 0.161225655531607,
+            "candidate_under_prediction_loss": 0.1151689401081413
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CMD": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 9,
+            "B0_mean_weighted_loss": 0.2638108628817112,
+            "candidate_mean_weighted_loss": 0.17795603934569368,
+            "candidate_minus_B0_group_score": 8.585482353601751,
+            "net_total_score_contribution": 0.9539424837335279,
+            "B0_total_loss_share": 0.10505399486291422,
+            "B0_over_prediction_loss": 0.03644924457000635,
+            "B0_under_prediction_loss": 0.22736161831170484,
+            "candidate_total_loss_share": 0.0741734243371277,
+            "candidate_over_prediction_loss": 0.046166771146739845,
+            "candidate_under_prediction_loss": 0.1317892681989538
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3322567849210963,
+            "candidate_mean_weighted_loss": 0.2846384862963802,
+            "candidate_minus_B0_group_score": 4.761829862471606,
+            "net_total_score_contribution": 0.6466682529282427,
+            "B0_total_loss_share": 0.16171262671752362,
+            "B0_over_prediction_loss": 0.18491687316231634,
+            "B0_under_prediction_loss": 0.14733991175877995,
+            "candidate_total_loss_share": 0.14500380377837035,
+            "candidate_over_prediction_loss": 0.11487585154091594,
+            "candidate_under_prediction_loss": 0.16976263475546427
+          },
+          {
+            "group": "observed_now",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2716658220457178,
+            "candidate_mean_weighted_loss": 0.2763945956397483,
+            "candidate_minus_B0_group_score": -0.47287735940304554,
+            "net_total_score_contribution": -0.35611751757513305,
+            "B0_total_loss_share": 0.7332333784195622,
+            "B0_over_prediction_loss": 0.15050687462443965,
+            "B0_under_prediction_loss": 0.12115894742127814,
+            "candidate_total_loss_share": 0.780822771884502,
+            "candidate_over_prediction_loss": 0.161225655531607,
+            "candidate_under_prediction_loss": 0.1151689401081413
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_XXDL": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 6,
+            "B0_mean_weighted_loss": 0.26123075844325105,
+            "candidate_mean_weighted_loss": 0.2041056934906512,
+            "candidate_minus_B0_group_score": 5.712506495259986,
+            "net_total_score_contribution": 0.4231486292785175,
+            "B0_total_loss_share": 0.06935103544955908,
+            "B0_over_prediction_loss": 0.05637699038506172,
+            "B0_under_prediction_loss": 0.2048537680581893,
+            "candidate_total_loss_share": 0.056715198759459406,
+            "candidate_over_prediction_loss": 0.08076385758642696,
+            "candidate_under_prediction_loss": 0.12334183590422422
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.324111723202038,
+            "candidate_mean_weighted_loss": 0.2843323368672603,
+            "candidate_minus_B0_group_score": 3.9779386334777733,
+            "net_total_score_contribution": 0.5402138884969815,
+            "B0_total_loss_share": 0.15774834551953976,
+            "B0_over_prediction_loss": 0.20556518526733364,
+            "B0_under_prediction_loss": 0.11854653793470425,
+            "candidate_total_loss_share": 0.1448478416232711,
+            "candidate_over_prediction_loss": 0.11474190296551513,
+            "candidate_under_prediction_loss": 0.16959043390174514
+          },
+          {
+            "group": "observed_now",
+            "wells": 64,
+            "B0_mean_weighted_loss": 0.2729394381089738,
+            "candidate_mean_weighted_loss": 0.26938137767050474,
+            "candidate_minus_B0_group_score": 0.35580604384690684,
+            "net_total_score_contribution": 0.28113070131113627,
+            "B0_total_loss_share": 0.7729006190309012,
+            "B0_over_prediction_loss": 0.1397432684024268,
+            "B0_under_prediction_loss": 0.133196169706547,
+            "candidate_total_loss_share": 0.7984369596172697,
+            "candidate_over_prediction_loss": 0.15261181588374267,
+            "candidate_under_prediction_loss": 0.11676956178676202
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "production_tertile": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "high",
+            "wells": 27,
+            "B0_mean_weighted_loss": 0.26903447453245705,
+            "candidate_mean_weighted_loss": 0.2695318522618153,
+            "candidate_minus_B0_group_score": -0.04973777293582615,
+            "net_total_score_contribution": -0.016579257645275385,
+            "B0_total_loss_share": 0.32140237892499907,
+            "B0_over_prediction_loss": 0.11935482187580664,
+            "B0_under_prediction_loss": 0.14967965265665045,
+            "candidate_total_loss_share": 0.33702874918481535,
+            "candidate_over_prediction_loss": 0.1410571238637314,
+            "candidate_under_prediction_loss": 0.12847472839808396
+          },
+          {
+            "group": "low",
+            "wells": 27,
+            "B0_mean_weighted_loss": 0.27949313320173413,
+            "candidate_mean_weighted_loss": 0.23278675477542296,
+            "candidate_minus_B0_group_score": 4.670637842631117,
+            "net_total_score_contribution": 1.556879280877039,
+            "B0_total_loss_share": 0.33389682887425526,
+            "B0_over_prediction_loss": 0.12567829180838508,
+            "B0_under_prediction_loss": 0.15381484139334908,
+            "candidate_total_loss_share": 0.2910818448000849,
+            "candidate_over_prediction_loss": 0.07079359930970137,
+            "candidate_under_prediction_loss": 0.1619931554657216
+          },
+          {
+            "group": "middle",
+            "wells": 27,
+            "B0_mean_weighted_loss": 0.2885367457790032,
+            "candidate_mean_weighted_loss": 0.2974109499033569,
+            "candidate_minus_B0_group_score": -0.8874204124353746,
+            "net_total_score_contribution": -0.2958068041451249,
+            "B0_total_loss_share": 0.34470079220074573,
+            "B0_over_prediction_loss": 0.18248718846419187,
+            "B0_under_prediction_loss": 0.1060495573148113,
+            "candidate_total_loss_share": 0.37188940601509984,
+            "candidate_over_prediction_loss": 0.21459002848207687,
+            "candidate_under_prediction_loss": 0.08282092142128006
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      }
+    },
+    "grouping": "prediction-time inputs only; production tertiles from outer training wells only; members vary across splits",
+    "model_fits": 0,
+    "preprocessor_fits": 0,
+    "does_not_prove_causation": true
+  },
+  "repeat_4": {
+    "groups": {
+      "scale_state": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "fallback",
+            "wells": 14,
+            "B0_mean_weighted_loss": 0.3117520956581505,
+            "candidate_mean_weighted_loss": 0.24700779425502747,
+            "candidate_minus_B0_group_score": 6.474430140312301,
+            "net_total_score_contribution": 1.119037308202126,
+            "B0_total_loss_share": 0.1945826838750584,
+            "B0_over_prediction_loss": 0.16219918603617775,
+            "B0_under_prediction_loss": 0.1495529096219727,
+            "candidate_total_loss_share": 0.15166716919385242,
+            "candidate_over_prediction_loss": 0.13653601629623335,
+            "candidate_under_prediction_loss": 0.1104717779587941
+          },
+          {
+            "group": "positive",
+            "wells": 67,
+            "B0_mean_weighted_loss": 0.2696369386895414,
+            "candidate_mean_weighted_loss": 0.28869454930216026,
+            "candidate_minus_B0_group_score": -1.9057610612618847,
+            "net_total_score_contribution": -1.576370260549954,
+            "B0_total_loss_share": 0.8054173161249417,
+            "B0_over_prediction_loss": 0.14618074187721342,
+            "B0_under_prediction_loss": 0.12345619681232803,
+            "candidate_total_loss_share": 0.8483328308061474,
+            "candidate_over_prediction_loss": 0.1622884274053168,
+            "candidate_under_prediction_loss": 0.1264061218968435
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "BX_state": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing",
+            "wells": 15,
+            "B0_mean_weighted_loss": 0.32023108724111005,
+            "candidate_mean_weighted_loss": 0.2659596663181035,
+            "candidate_minus_B0_group_score": 5.427142092300652,
+            "net_total_score_contribution": 1.0050263133890096,
+            "B0_total_loss_share": 0.21415169737462408,
+            "B0_over_prediction_loss": 0.15780004579265308,
+            "B0_under_prediction_loss": 0.16243104144845694,
+            "candidate_total_loss_share": 0.17496852318190997,
+            "candidate_over_prediction_loss": 0.13369263477274418,
+            "candidate_under_prediction_loss": 0.13226703154535938
+          },
+          {
+            "group": "outside_0_100",
+            "wells": 5,
+            "B0_mean_weighted_loss": 0.24001121123975055,
+            "candidate_mean_weighted_loss": 0.24668325798948257,
+            "candidate_minus_B0_group_score": -0.6672046749732014,
+            "net_total_score_contribution": -0.04118547376377786,
+            "B0_total_loss_share": 0.053501789097313734,
+            "B0_over_prediction_loss": 0.11241059498101144,
+            "B0_under_prediction_loss": 0.12760061625873914,
+            "candidate_total_loss_share": 0.0540956779169387,
+            "candidate_over_prediction_loss": 0.10410023917648523,
+            "candidate_under_prediction_loss": 0.14258301881299734
+          },
+          {
+            "group": "within_0_100",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2692898666655406,
+            "candidate_mean_weighted_loss": 0.2881611907884616,
+            "candidate_minus_B0_group_score": -1.8871324122920974,
+            "net_total_score_contribution": -1.421173791973061,
+            "B0_total_loss_share": 0.7323465135280622,
+            "B0_over_prediction_loss": 0.14976794505713006,
+            "B0_under_prediction_loss": 0.11952192160841058,
+            "candidate_total_loss_share": 0.7709357989011513,
+            "candidate_over_prediction_loss": 0.16817931388245744,
+            "candidate_under_prediction_loss": 0.11998187690600416
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "recent_ratio": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "0.5_to_2",
+            "wells": 63,
+            "B0_mean_weighted_loss": 0.26721450637773564,
+            "candidate_mean_weighted_loss": 0.28733071289216655,
+            "candidate_minus_B0_group_score": -2.011620651443091,
+            "net_total_score_contribution": -1.564593840011293,
+            "B0_total_loss_share": 0.7505287837825702,
+            "B0_over_prediction_loss": 0.14854555689400872,
+            "B0_under_prediction_loss": 0.11866894948372683,
+            "candidate_total_loss_share": 0.7939177057229142,
+            "candidate_over_prediction_loss": 0.16593314120350425,
+            "candidate_under_prediction_loss": 0.12139757168866233
+          },
+          {
+            "group": "below_0.5",
+            "wells": 8,
+            "B0_mean_weighted_loss": 0.2521377190716126,
+            "candidate_mean_weighted_loss": 0.19518156664255282,
+            "candidate_minus_B0_group_score": 5.695615242905977,
+            "net_total_score_contribution": 0.5625299005339237,
+            "B0_total_loss_share": 0.08992792628022354,
+            "B0_over_prediction_loss": 0.06196894593571097,
+            "B0_under_prediction_loss": 0.1901687731359016,
+            "candidate_total_loss_share": 0.06848282611781759,
+            "candidate_over_prediction_loss": 0.05269352432884223,
+            "candidate_under_prediction_loss": 0.14248804231371062
+          },
+          {
+            "group": "unknown",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3578588577043139,
+            "candidate_mean_weighted_loss": 0.3137356477468208,
+            "candidate_minus_B0_group_score": 4.4123209957493135,
+            "net_total_score_contribution": 0.5447309871295448,
+            "B0_total_loss_share": 0.15954328993720643,
+            "B0_over_prediction_loss": 0.22107766584715471,
+            "B0_under_prediction_loss": 0.1367811918571592,
+            "candidate_total_loss_share": 0.13759946815926802,
+            "candidate_over_prediction_loss": 0.19094927738519876,
+            "candidate_under_prediction_loss": 0.12278637036162203
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "operating_fraction": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "below_0.8",
+            "wells": 32,
+            "B0_mean_weighted_loss": 0.345757735916071,
+            "candidate_mean_weighted_loss": 0.3230959867071451,
+            "candidate_minus_B0_group_score": 2.2661749208925883,
+            "net_total_score_contribution": 0.8952789810933682,
+            "B0_total_loss_share": 0.4932744898425335,
+            "B0_over_prediction_loss": 0.19609745429398612,
+            "B0_under_prediction_loss": 0.1496602816220849,
+            "candidate_total_loss_share": 0.45345524493205236,
+            "candidate_over_prediction_loss": 0.20595264131542385,
+            "candidate_under_prediction_loss": 0.11714334539172126
+          },
+          {
+            "group": "other",
+            "wells": 49,
+            "B0_mean_weighted_loss": 0.2319582996346757,
+            "candidate_mean_weighted_loss": 0.2543178030242139,
+            "candidate_minus_B0_group_score": -2.235950338953821,
+            "net_total_score_contribution": -1.3526119334412003,
+            "B0_total_loss_share": 0.5067255101574666,
+            "B0_over_prediction_loss": 0.11815877087494346,
+            "B0_under_prediction_loss": 0.11379952875973222,
+            "candidate_total_loss_share": 0.5465447550679475,
+            "candidate_over_prediction_loss": 0.1264151906573455,
+            "candidate_under_prediction_loss": 0.12790261236686837
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CCJHWND": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 18,
+            "B0_mean_weighted_loss": 0.3220175367602934,
+            "candidate_mean_weighted_loss": 0.2839243959075612,
+            "candidate_minus_B0_group_score": 3.809314085273219,
+            "net_total_score_contribution": 0.8465142411718264,
+            "B0_total_loss_share": 0.2584156435618884,
+            "B0_over_prediction_loss": 0.135897282781123,
+            "B0_under_prediction_loss": 0.18612025397917042,
+            "candidate_total_loss_share": 0.22414450853391102,
+            "candidate_over_prediction_loss": 0.1497024363954053,
+            "candidate_under_prediction_loss": 0.13422195951215588
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3578588577043139,
+            "candidate_mean_weighted_loss": 0.3137356477468208,
+            "candidate_minus_B0_group_score": 4.4123209957493135,
+            "net_total_score_contribution": 0.5447309871295448,
+            "B0_total_loss_share": 0.15954328993720643,
+            "B0_over_prediction_loss": 0.22107766584715471,
+            "B0_under_prediction_loss": 0.1367811918571592,
+            "candidate_total_loss_share": 0.13759946815926802,
+            "candidate_over_prediction_loss": 0.19094927738519876,
+            "candidate_under_prediction_loss": 0.12278637036162203
+          },
+          {
+            "group": "observed_now",
+            "wells": 53,
+            "B0_mean_weighted_loss": 0.24632641495632,
+            "candidate_mean_weighted_loss": 0.27457827017001535,
+            "candidate_minus_B0_group_score": -2.825185521369536,
+            "net_total_score_contribution": -1.8485781806492025,
+            "B0_total_loss_share": 0.5820410665009051,
+            "B0_over_prediction_loss": 0.13977302946694387,
+            "B0_under_prediction_loss": 0.10655338548937617,
+            "candidate_total_loss_share": 0.6382560233068209,
+            "candidate_over_prediction_loss": 0.15435268368555113,
+            "candidate_under_prediction_loss": 0.12022558648446427
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CCYND": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 18,
+            "B0_mean_weighted_loss": 0.3220175367602934,
+            "candidate_mean_weighted_loss": 0.2839243959075612,
+            "candidate_minus_B0_group_score": 3.809314085273219,
+            "net_total_score_contribution": 0.8465142411718264,
+            "B0_total_loss_share": 0.2584156435618884,
+            "B0_over_prediction_loss": 0.135897282781123,
+            "B0_under_prediction_loss": 0.18612025397917042,
+            "candidate_total_loss_share": 0.22414450853391102,
+            "candidate_over_prediction_loss": 0.1497024363954053,
+            "candidate_under_prediction_loss": 0.13422195951215588
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3578588577043139,
+            "candidate_mean_weighted_loss": 0.3137356477468208,
+            "candidate_minus_B0_group_score": 4.4123209957493135,
+            "net_total_score_contribution": 0.5447309871295448,
+            "B0_total_loss_share": 0.15954328993720643,
+            "B0_over_prediction_loss": 0.22107766584715471,
+            "B0_under_prediction_loss": 0.1367811918571592,
+            "candidate_total_loss_share": 0.13759946815926802,
+            "candidate_over_prediction_loss": 0.19094927738519876,
+            "candidate_under_prediction_loss": 0.12278637036162203
+          },
+          {
+            "group": "observed_now",
+            "wells": 53,
+            "B0_mean_weighted_loss": 0.24632641495632,
+            "candidate_mean_weighted_loss": 0.27457827017001535,
+            "candidate_minus_B0_group_score": -2.825185521369536,
+            "net_total_score_contribution": -1.8485781806492025,
+            "B0_total_loss_share": 0.5820410665009051,
+            "B0_over_prediction_loss": 0.13977302946694387,
+            "B0_under_prediction_loss": 0.10655338548937617,
+            "candidate_total_loss_share": 0.6382560233068209,
+            "candidate_over_prediction_loss": 0.15435268368555113,
+            "candidate_under_prediction_loss": 0.12022558648446427
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_LY": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 9,
+            "B0_mean_weighted_loss": 0.259377761212925,
+            "candidate_mean_weighted_loss": 0.18439262650926166,
+            "candidate_minus_B0_group_score": 7.498513470366333,
+            "net_total_score_contribution": 0.8331681633740371,
+            "B0_total_loss_share": 0.1040739454189637,
+            "B0_over_prediction_loss": 0.043936022620316845,
+            "B0_under_prediction_loss": 0.21544173859260815,
+            "candidate_total_loss_share": 0.07278450749905213,
+            "candidate_over_prediction_loss": 0.05702696099305672,
+            "candidate_under_prediction_loss": 0.1273656655162049
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3510956153943954,
+            "candidate_mean_weighted_loss": 0.30770360016402615,
+            "candidate_minus_B0_group_score": 4.339201523036923,
+            "net_total_score_contribution": 0.5892742809062489,
+            "B0_total_loss_share": 0.1721808562014592,
+            "B0_over_prediction_loss": 0.2030598076118183,
+            "B0_under_prediction_loss": 0.14803580778257708,
+            "candidate_total_loss_share": 0.14844929876815446,
+            "candidate_over_prediction_loss": 0.1759517433080372,
+            "candidate_under_prediction_loss": 0.13175185685598897
+          },
+          {
+            "group": "observed_now",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2661270919862083,
+            "candidate_mean_weighted_loss": 0.291088043974221,
+            "candidate_minus_B0_group_score": -2.4960951988012683,
+            "net_total_score_contribution": -1.8797753966281154,
+            "B0_total_loss_share": 0.7237451983795771,
+            "B0_over_prediction_loss": 0.15468551185191692,
+            "B0_under_prediction_loss": 0.11144158013429137,
+            "candidate_total_loss_share": 0.7787661937327933,
+            "candidate_over_prediction_loss": 0.16944454162258316,
+            "candidate_under_prediction_loss": 0.12164350235163786
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CMD": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 9,
+            "B0_mean_weighted_loss": 0.259377761212925,
+            "candidate_mean_weighted_loss": 0.18439262650926166,
+            "candidate_minus_B0_group_score": 7.498513470366333,
+            "net_total_score_contribution": 0.8331681633740371,
+            "B0_total_loss_share": 0.1040739454189637,
+            "B0_over_prediction_loss": 0.043936022620316845,
+            "B0_under_prediction_loss": 0.21544173859260815,
+            "candidate_total_loss_share": 0.07278450749905213,
+            "candidate_over_prediction_loss": 0.05702696099305672,
+            "candidate_under_prediction_loss": 0.1273656655162049
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3510956153943954,
+            "candidate_mean_weighted_loss": 0.30770360016402615,
+            "candidate_minus_B0_group_score": 4.339201523036923,
+            "net_total_score_contribution": 0.5892742809062489,
+            "B0_total_loss_share": 0.1721808562014592,
+            "B0_over_prediction_loss": 0.2030598076118183,
+            "B0_under_prediction_loss": 0.14803580778257708,
+            "candidate_total_loss_share": 0.14844929876815446,
+            "candidate_over_prediction_loss": 0.1759517433080372,
+            "candidate_under_prediction_loss": 0.13175185685598897
+          },
+          {
+            "group": "observed_now",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2661270919862083,
+            "candidate_mean_weighted_loss": 0.291088043974221,
+            "candidate_minus_B0_group_score": -2.4960951988012683,
+            "net_total_score_contribution": -1.8797753966281154,
+            "B0_total_loss_share": 0.7237451983795771,
+            "B0_over_prediction_loss": 0.15468551185191692,
+            "B0_under_prediction_loss": 0.11144158013429137,
+            "candidate_total_loss_share": 0.7787661937327933,
+            "candidate_over_prediction_loss": 0.16944454162258316,
+            "candidate_under_prediction_loss": 0.12164350235163786
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_XXDL": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 6,
+            "B0_mean_weighted_loss": 0.24665582753042994,
+            "candidate_mean_weighted_loss": 0.19647975891937386,
+            "candidate_minus_B0_group_score": 5.017606861105609,
+            "net_total_score_contribution": 0.37167458230411915,
+            "B0_total_loss_share": 0.06597955818475958,
+            "B0_over_prediction_loss": 0.06761270234750949,
+            "B0_under_prediction_loss": 0.17904312518292045,
+            "candidate_total_loss_share": 0.051703739486787734,
+            "candidate_over_prediction_loss": 0.07011100544125469,
+            "candidate_under_prediction_loss": 0.12636875347811918
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.34114613995735765,
+            "candidate_mean_weighted_loss": 0.30093066453194095,
+            "candidate_minus_B0_group_score": 4.02154754254167,
+            "net_total_score_contribution": 0.5461360860241775,
+            "B0_total_loss_share": 0.1673015323808522,
+            "B0_over_prediction_loss": 0.21287466700788624,
+            "B0_under_prediction_loss": 0.12827147294947142,
+            "candidate_total_loss_share": 0.14518174666720754,
+            "candidate_over_prediction_loss": 0.18535619031362102,
+            "candidate_under_prediction_loss": 0.11557447421831997
+          },
+          {
+            "group": "observed_now",
+            "wells": 64,
+            "B0_mean_weighted_loss": 0.26871346447968547,
+            "candidate_mean_weighted_loss": 0.2861176259288677,
+            "candidate_minus_B0_group_score": -1.740416144918222,
+            "net_total_score_contribution": -1.375143620676126,
+            "B0_total_loss_share": 0.7667189094343884,
+            "B0_over_prediction_loss": 0.1455875118610622,
+            "B0_under_prediction_loss": 0.12312595261862323,
+            "candidate_total_loss_share": 0.8031145138460047,
+            "candidate_over_prediction_loss": 0.16133194903447085,
+            "candidate_under_prediction_loss": 0.12478567689439685
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "production_tertile": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "high",
+            "wells": 27,
+            "B0_mean_weighted_loss": 0.2845023031986366,
+            "candidate_mean_weighted_loss": 0.2887670893385329,
+            "candidate_minus_B0_group_score": -0.42647861398962816,
+            "net_total_score_contribution": -0.14215953799654274,
+            "B0_total_loss_share": 0.3424651022840533,
+            "B0_over_prediction_loss": 0.1161842466635617,
+            "B0_under_prediction_loss": 0.16831805653507492,
+            "candidate_total_loss_share": 0.34195136937947285,
+            "candidate_over_prediction_loss": 0.15834655157482466,
+            "candidate_under_prediction_loss": 0.13042053776370824
+          },
+          {
+            "group": "low",
+            "wells": 28,
+            "B0_mean_weighted_loss": 0.2685647421929946,
+            "candidate_mean_weighted_loss": 0.2662132192421269,
+            "candidate_minus_B0_group_score": 0.23515229508677127,
+            "net_total_score_contribution": 0.08128721311641476,
+            "B0_total_loss_share": 0.3352538703536364,
+            "B0_over_prediction_loss": 0.14546262581073188,
+            "B0_under_prediction_loss": 0.12310211638226272,
+            "candidate_total_loss_share": 0.32691928192961467,
+            "candidate_over_prediction_loss": 0.1095981175250967,
+            "candidate_under_prediction_loss": 0.15661510171703016
+          },
+          {
+            "group": "middle",
+            "wells": 26,
+            "B0_mean_weighted_loss": 0.27803189475562856,
+            "candidate_mean_weighted_loss": 0.29038316814981474,
+            "candidate_minus_B0_group_score": -1.235127339418618,
+            "net_total_score_contribution": -0.39646062746770455,
+            "B0_total_loss_share": 0.32228102736231024,
+            "B0_over_prediction_loss": 0.1867296202947357,
+            "B0_under_prediction_loss": 0.09130227446089291,
+            "candidate_total_loss_share": 0.33112934869091243,
+            "candidate_over_prediction_loss": 0.20925864158001997,
+            "candidate_under_prediction_loss": 0.08112452656979478
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      }
+    },
+    "grouping": "prediction-time inputs only; production tertiles from outer training wells only; members vary across splits",
+    "model_fits": 0,
+    "preprocessor_fits": 0,
+    "does_not_prove_causation": true
+  },
+  "repeat_5": {
+    "groups": {
+      "scale_state": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "fallback",
+            "wells": 14,
+            "B0_mean_weighted_loss": 0.3070220678332614,
+            "candidate_mean_weighted_loss": 0.21750075574033761,
+            "candidate_minus_B0_group_score": 8.95213120929238,
+            "net_total_score_contribution": 1.5472819374085596,
+            "B0_total_loss_share": 0.1924699369096257,
+            "B0_over_prediction_loss": 0.1677401038853694,
+            "B0_under_prediction_loss": 0.1392819639478921,
+            "candidate_total_loss_share": 0.13708344466416778,
+            "candidate_over_prediction_loss": 0.11578403970014975,
+            "candidate_under_prediction_loss": 0.10171671604018785
+          },
+          {
+            "group": "positive",
+            "wells": 67,
+            "B0_mean_weighted_loss": 0.2691650208779037,
+            "candidate_mean_weighted_loss": 0.28608678386797176,
+            "candidate_minus_B0_group_score": -1.6921762990068034,
+            "net_total_score_contribution": -1.3997013831290843,
+            "B0_total_loss_share": 0.8075300630903742,
+            "B0_over_prediction_loss": 0.1388468290513147,
+            "B0_under_prediction_loss": 0.13031819182658905,
+            "candidate_total_loss_share": 0.8629165553358323,
+            "candidate_over_prediction_loss": 0.1516631140686729,
+            "candidate_under_prediction_loss": 0.13442366979929882
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "BX_state": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing",
+            "wells": 15,
+            "B0_mean_weighted_loss": 0.31713292567743917,
+            "candidate_mean_weighted_loss": 0.2463315870778306,
+            "candidate_minus_B0_group_score": 7.080133859960858,
+            "net_total_score_contribution": 1.3111358999927516,
+            "B0_total_loss_share": 0.2130089585644474,
+            "B0_over_prediction_loss": 0.16295854277671365,
+            "B0_under_prediction_loss": 0.15417438290072544,
+            "candidate_total_loss_share": 0.16634416332065294,
+            "candidate_over_prediction_loss": 0.11431509906245833,
+            "candidate_under_prediction_loss": 0.13201648801537222
+          },
+          {
+            "group": "outside_0_100",
+            "wells": 5,
+            "B0_mean_weighted_loss": 0.19569273199066056,
+            "candidate_mean_weighted_loss": 0.16775995978331382,
+            "candidate_minus_B0_group_score": 2.7932772207346748,
+            "net_total_score_contribution": 0.1724245197984367,
+            "B0_total_loss_share": 0.04381370466965208,
+            "B0_over_prediction_loss": 0.056020071926386514,
+            "B0_under_prediction_loss": 0.13967266006427403,
+            "candidate_total_loss_share": 0.03776195937070332,
+            "candidate_over_prediction_loss": 0.05349637987239623,
+            "candidate_under_prediction_loss": 0.11426357991091755
+          },
+          {
+            "group": "within_0_100",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2720804557929561,
+            "candidate_mean_weighted_loss": 0.28982051630220995,
+            "candidate_minus_B0_group_score": -1.7740060509253863,
+            "net_total_score_contribution": -1.3359798655117108,
+            "B0_total_loss_share": 0.7431773367659005,
+            "B0_over_prediction_loss": 0.14633804097623962,
+            "B0_under_prediction_loss": 0.12574241481671644,
+            "candidate_total_loss_share": 0.7958938773086439,
+            "candidate_over_prediction_loss": 0.16065896414925124,
+            "candidate_under_prediction_loss": 0.12916155215295866
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "recent_ratio": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "0.5_to_2",
+            "wells": 63,
+            "B0_mean_weighted_loss": 0.2681471528427418,
+            "candidate_mean_weighted_loss": 0.2861741996786163,
+            "candidate_minus_B0_group_score": -1.8027046835874472,
+            "net_total_score_contribution": -1.4021036427902367,
+            "B0_total_loss_share": 0.7564478892173683,
+            "B0_over_prediction_loss": 0.14118697673907613,
+            "B0_under_prediction_loss": 0.12696017610366575,
+            "candidate_total_loss_share": 0.8116470777120272,
+            "candidate_over_prediction_loss": 0.15569870092473573,
+            "candidate_under_prediction_loss": 0.1304754987538805
+          },
+          {
+            "group": "below_0.5",
+            "wells": 8,
+            "B0_mean_weighted_loss": 0.24382484629871887,
+            "candidate_mean_weighted_loss": 0.1640151053540765,
+            "candidate_minus_B0_group_score": 7.980974094464235,
+            "net_total_score_contribution": 0.7882443550088134,
+            "B0_total_loss_share": 0.0873440291680549,
+            "B0_over_prediction_loss": 0.05118153298953518,
+            "B0_under_prediction_loss": 0.19264331330918363,
+            "candidate_total_loss_share": 0.05907041706554629,
+            "candidate_over_prediction_loss": 0.057235918579467505,
+            "candidate_under_prediction_loss": 0.10677918677460899
+          },
+          {
+            "group": "unknown",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3488495949002724,
+            "candidate_mean_weighted_loss": 0.28717296769333966,
+            "candidate_minus_B0_group_score": 6.167662720693273,
+            "net_total_score_contribution": 0.7614398420608979,
+            "B0_total_loss_share": 0.15620808161457675,
+            "B0_over_prediction_loss": 0.2346867202355179,
+            "B0_under_prediction_loss": 0.11416287466475458,
+            "candidate_total_loss_share": 0.12928250522242682,
+            "candidate_over_prediction_loss": 0.1515499691509091,
+            "candidate_under_prediction_loss": 0.1356229985424306
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "operating_fraction": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "below_0.8",
+            "wells": 32,
+            "B0_mean_weighted_loss": 0.3423800776439292,
+            "candidate_mean_weighted_loss": 0.3033820145696423,
+            "candidate_minus_B0_group_score": 3.899806307428688,
+            "net_total_score_contribution": 1.540664220218741,
+            "B0_total_loss_share": 0.4905957033050636,
+            "B0_over_prediction_loss": 0.19699631614400706,
+            "B0_under_prediction_loss": 0.1453837614999221,
+            "candidate_total_loss_share": 0.4370549186217133,
+            "candidate_over_prediction_loss": 0.19465983702577824,
+            "candidate_under_prediction_loss": 0.10872217754386404
+          },
+          {
+            "group": "other",
+            "wells": 49,
+            "B0_mean_weighted_loss": 0.23216740538529546,
+            "candidate_mean_weighted_loss": 0.25519593129163837,
+            "candidate_minus_B0_group_score": -2.3028525906342914,
+            "net_total_score_contribution": -1.3930836659392627,
+            "B0_total_loss_share": 0.5094042966949364,
+            "B0_over_prediction_loss": 0.10912687518826587,
+            "B0_under_prediction_loss": 0.12304053019702958,
+            "candidate_total_loss_share": 0.5629450813782868,
+            "candidate_over_prediction_loss": 0.11333245741996484,
+            "candidate_under_prediction_loss": 0.1418634738716735
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CCJHWND": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 18,
+            "B0_mean_weighted_loss": 0.32333397952668286,
+            "candidate_mean_weighted_loss": 0.28459052989707845,
+            "candidate_minus_B0_group_score": 3.874344962960441,
+            "net_total_score_contribution": 0.8609655473245424,
+            "B0_total_loss_share": 0.2606088312035903,
+            "B0_over_prediction_loss": 0.13751843014778692,
+            "B0_under_prediction_loss": 0.18581554937889588,
+            "candidate_total_loss_share": 0.23061584986136577,
+            "candidate_over_prediction_loss": 0.153934875062912,
+            "candidate_under_prediction_loss": 0.13065565483416644
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3488495949002724,
+            "candidate_mean_weighted_loss": 0.28717296769333966,
+            "candidate_minus_B0_group_score": 6.167662720693273,
+            "net_total_score_contribution": 0.7614398420608979,
+            "B0_total_loss_share": 0.15620808161457675,
+            "B0_over_prediction_loss": 0.2346867202355179,
+            "B0_under_prediction_loss": 0.11416287466475458,
+            "candidate_total_loss_share": 0.12928250522242682,
+            "candidate_over_prediction_loss": 0.1515499691509091,
+            "candidate_under_prediction_loss": 0.1356229985424306
+          },
+          {
+            "group": "observed_now",
+            "wells": 53,
+            "B0_mean_weighted_loss": 0.24573316543400367,
+            "candidate_mean_weighted_loss": 0.26827294121581174,
+            "candidate_minus_B0_group_score": -2.2539775781808076,
+            "net_total_score_contribution": -1.4748248351059605,
+            "B0_total_loss_share": 0.5831830871818329,
+            "B0_over_prediction_loss": 0.12884717086448888,
+            "B0_under_prediction_loss": 0.11688599456951482,
+            "candidate_total_loss_share": 0.6401016449162074,
+            "candidate_over_prediction_loss": 0.14143542935399384,
+            "candidate_under_prediction_loss": 0.12683751186181794
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CCYND": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 18,
+            "B0_mean_weighted_loss": 0.32333397952668286,
+            "candidate_mean_weighted_loss": 0.28459052989707845,
+            "candidate_minus_B0_group_score": 3.874344962960441,
+            "net_total_score_contribution": 0.8609655473245424,
+            "B0_total_loss_share": 0.2606088312035903,
+            "B0_over_prediction_loss": 0.13751843014778692,
+            "B0_under_prediction_loss": 0.18581554937889588,
+            "candidate_total_loss_share": 0.23061584986136577,
+            "candidate_over_prediction_loss": 0.153934875062912,
+            "candidate_under_prediction_loss": 0.13065565483416644
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 10,
+            "B0_mean_weighted_loss": 0.3488495949002724,
+            "candidate_mean_weighted_loss": 0.28717296769333966,
+            "candidate_minus_B0_group_score": 6.167662720693273,
+            "net_total_score_contribution": 0.7614398420608979,
+            "B0_total_loss_share": 0.15620808161457675,
+            "B0_over_prediction_loss": 0.2346867202355179,
+            "B0_under_prediction_loss": 0.11416287466475458,
+            "candidate_total_loss_share": 0.12928250522242682,
+            "candidate_over_prediction_loss": 0.1515499691509091,
+            "candidate_under_prediction_loss": 0.1356229985424306
+          },
+          {
+            "group": "observed_now",
+            "wells": 53,
+            "B0_mean_weighted_loss": 0.24573316543400367,
+            "candidate_mean_weighted_loss": 0.26827294121581174,
+            "candidate_minus_B0_group_score": -2.2539775781808076,
+            "net_total_score_contribution": -1.4748248351059605,
+            "B0_total_loss_share": 0.5831830871818329,
+            "B0_over_prediction_loss": 0.12884717086448888,
+            "B0_under_prediction_loss": 0.11688599456951482,
+            "candidate_total_loss_share": 0.6401016449162074,
+            "candidate_over_prediction_loss": 0.14143542935399384,
+            "candidate_under_prediction_loss": 0.12683751186181794
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_LY": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 9,
+            "B0_mean_weighted_loss": 0.2537956111512129,
+            "candidate_mean_weighted_loss": 0.17402297274868467,
+            "candidate_minus_B0_group_score": 7.977263840252824,
+            "net_total_score_contribution": 0.8863626489169804,
+            "B0_total_loss_share": 0.10228027639337582,
+            "B0_over_prediction_loss": 0.035271765416262674,
+            "B0_under_prediction_loss": 0.21852384573495023,
+            "candidate_total_loss_share": 0.07050912019165399,
+            "candidate_over_prediction_loss": 0.046055144720713675,
+            "candidate_under_prediction_loss": 0.127967828027971
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3489270786338605,
+            "candidate_mean_weighted_loss": 0.2757836252230929,
+            "candidate_minus_B0_group_score": 7.314345341076761,
+            "net_total_score_contribution": 0.9933061574301774,
+            "B0_total_loss_share": 0.1718670550601935,
+            "B0_over_prediction_loss": 0.21518854475092383,
+            "B0_under_prediction_loss": 0.13373853388293677,
+            "candidate_total_loss_share": 0.13657064618582604,
+            "candidate_over_prediction_loss": 0.14056148538366922,
+            "candidate_under_prediction_loss": 0.13522213983942372
+          },
+          {
+            "group": "observed_now",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2657378193959316,
+            "candidate_mean_weighted_loss": 0.28873767979224013,
+            "candidate_minus_B0_group_score": -2.2999860396308525,
+            "net_total_score_contribution": -1.732088252067679,
+            "B0_total_loss_share": 0.7258526685464306,
+            "B0_over_prediction_loss": 0.14699310032502835,
+            "B0_under_prediction_loss": 0.1187447190709033,
+            "candidate_total_loss_share": 0.79292023362252,
+            "candidate_over_prediction_loss": 0.16101200912617045,
+            "candidate_under_prediction_loss": 0.12772567066606968
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_CMD": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 9,
+            "B0_mean_weighted_loss": 0.2537956111512129,
+            "candidate_mean_weighted_loss": 0.17402297274868467,
+            "candidate_minus_B0_group_score": 7.977263840252824,
+            "net_total_score_contribution": 0.8863626489169804,
+            "B0_total_loss_share": 0.10228027639337582,
+            "B0_over_prediction_loss": 0.035271765416262674,
+            "B0_under_prediction_loss": 0.21852384573495023,
+            "candidate_total_loss_share": 0.07050912019165399,
+            "candidate_over_prediction_loss": 0.046055144720713675,
+            "candidate_under_prediction_loss": 0.127967828027971
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3489270786338605,
+            "candidate_mean_weighted_loss": 0.2757836252230929,
+            "candidate_minus_B0_group_score": 7.314345341076761,
+            "net_total_score_contribution": 0.9933061574301774,
+            "B0_total_loss_share": 0.1718670550601935,
+            "B0_over_prediction_loss": 0.21518854475092383,
+            "B0_under_prediction_loss": 0.13373853388293677,
+            "candidate_total_loss_share": 0.13657064618582604,
+            "candidate_over_prediction_loss": 0.14056148538366922,
+            "candidate_under_prediction_loss": 0.13522213983942372
+          },
+          {
+            "group": "observed_now",
+            "wells": 61,
+            "B0_mean_weighted_loss": 0.2657378193959316,
+            "candidate_mean_weighted_loss": 0.28873767979224013,
+            "candidate_minus_B0_group_score": -2.2999860396308525,
+            "net_total_score_contribution": -1.732088252067679,
+            "B0_total_loss_share": 0.7258526685464306,
+            "B0_over_prediction_loss": 0.14699310032502835,
+            "B0_under_prediction_loss": 0.1187447190709033,
+            "candidate_total_loss_share": 0.79292023362252,
+            "candidate_over_prediction_loss": 0.16101200912617045,
+            "candidate_under_prediction_loss": 0.12772567066606968
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "age_XXDL": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "missing_1_month",
+            "wells": 6,
+            "B0_mean_weighted_loss": 0.25012769796899065,
+            "candidate_mean_weighted_loss": 0.17846566791258078,
+            "candidate_minus_B0_group_score": 7.166203005640987,
+            "net_total_score_contribution": 0.5308298522697027,
+            "B0_total_loss_share": 0.0672013987052088,
+            "B0_over_prediction_loss": 0.05398749628061578,
+            "B0_under_prediction_loss": 0.19614020168837484,
+            "candidate_total_loss_share": 0.04820611528151275,
+            "candidate_over_prediction_loss": 0.07315501512762455,
+            "candidate_under_prediction_loss": 0.10531065278495622
+          },
+          {
+            "group": "missing_2plus_months",
+            "wells": 11,
+            "B0_mean_weighted_loss": 0.3413252208217386,
+            "candidate_mean_weighted_loss": 0.2776526509367247,
+            "candidate_minus_B0_group_score": 6.36725698850139,
+            "net_total_score_contribution": 0.8646892206606827,
+            "B0_total_loss_share": 0.168122694145956,
+            "B0_over_prediction_loss": 0.23754078930832542,
+            "B0_under_prediction_loss": 0.10378443151341327,
+            "candidate_total_loss_share": 0.1374962053057416,
+            "candidate_over_prediction_loss": 0.14782176358903498,
+            "candidate_under_prediction_loss": 0.12983088734768972
+          },
+          {
+            "group": "observed_now",
+            "wells": 64,
+            "B0_mean_weighted_loss": 0.2668284645567522,
+            "candidate_mean_weighted_loss": 0.2826226864334277,
+            "candidate_minus_B0_group_score": -1.5794221876675507,
+            "net_total_score_contribution": -1.2479385186509042,
+            "B0_total_loss_share": 0.764675907148835,
+            "B0_over_prediction_loss": 0.13615977094934345,
+            "B0_under_prediction_loss": 0.13066869360740876,
+            "candidate_total_loss_share": 0.8142976794127456,
+            "candidate_over_prediction_loss": 0.15183493293996952,
+            "candidate_under_prediction_loss": 0.13078775349345823
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      },
+      "production_tertile": {
+        "status": "REPORTED",
+        "rows": [
+          {
+            "group": "high",
+            "wells": 27,
+            "B0_mean_weighted_loss": 0.28195948428315626,
+            "candidate_mean_weighted_loss": 0.268385001750903,
+            "candidate_minus_B0_group_score": 1.357448253225324,
+            "net_total_score_contribution": 0.452482751075108,
+            "B0_total_loss_share": 0.3408911665580286,
+            "B0_over_prediction_loss": 0.12339462618082384,
+            "B0_under_prediction_loss": 0.1585648581023324,
+            "candidate_total_loss_share": 0.32622572837128005,
+            "candidate_over_prediction_loss": 0.15235328684010802,
+            "candidate_under_prediction_loss": 0.11603171491079503
+          },
+          {
+            "group": "low",
+            "wells": 28,
+            "B0_mean_weighted_loss": 0.26851543254397586,
+            "candidate_mean_weighted_loss": 0.2645903364787229,
+            "candidate_minus_B0_group_score": 0.39250960652529865,
+            "net_total_score_contribution": 0.1356823331198563,
+            "B0_total_loss_share": 0.33666080569209805,
+            "B0_over_prediction_loss": 0.13798179916016548,
+            "B0_under_prediction_loss": 0.13053363338381033,
+            "candidate_total_loss_share": 0.3335248617954824,
+            "candidate_over_prediction_loss": 0.08500799959686452,
+            "candidate_under_prediction_loss": 0.1795823368818584
+          },
+          {
+            "group": "middle",
+            "wells": 26,
+            "B0_mean_weighted_loss": 0.27696258313879496,
+            "candidate_mean_weighted_loss": 0.29068848580154644,
+            "candidate_minus_B0_group_score": -1.3725902662751477,
+            "net_total_score_contribution": -0.4405845299154795,
+            "B0_total_loss_share": 0.32244802774987336,
+            "B0_over_prediction_loss": 0.1713828352871683,
+            "B0_under_prediction_loss": 0.10557974785162663,
+            "candidate_total_loss_share": 0.34024940983323754,
+            "candidate_over_prediction_loss": 0.20340932557723307,
+            "candidate_under_prediction_loss": 0.08727916022431341
+          }
+        ],
+        "dimensions_overlap_do_not_sum": true
+      }
+    },
+    "grouping": "prediction-time inputs only; production tertiles from outer training wells only; members vary across splits",
+    "model_fits": 0,
+    "preprocessor_fits": 0,
+    "does_not_prove_causation": true
+  }
+}

@@ -1,0 +1,2406 @@
+{
+  "R13_fit_cap": null,
+  "models_entered": 92,
+  "models_completed": 92,
+  "preprocessors_entered": 92,
+  "preprocessors_completed": 92,
+  "failures": 0,
+  "retries": 0,
+  "events": [
+    {
+      "sequence": 1,
+      "time": "2026-10-21T22:20:33.688395+08:00",
+      "stage": "fixed-B0-fold1",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 2,
+      "time": "2026-10-21T22:20:33.749067+08:00",
+      "stage": "fixed-B0-fold1",
+      "event": "preprocessor_completed",
+      "seconds": 0.059974900097586215
+    },
+    {
+      "sequence": 3,
+      "time": "2026-10-21T22:20:33.749938+08:00",
+      "stage": "fixed-B0-fold1",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 4,
+      "time": "2026-10-21T22:20:33.984386+08:00",
+      "stage": "fixed-B0-fold1",
+      "event": "model_completed",
+      "seconds": 0.23344049998559058
+    },
+    {
+      "sequence": 5,
+      "time": "2026-10-21T22:20:34.015071+08:00",
+      "stage": "fixed-B0-fold2",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 6,
+      "time": "2026-10-21T22:20:34.042258+08:00",
+      "stage": "fixed-B0-fold2",
+      "event": "preprocessor_completed",
+      "seconds": 0.02658309997059405
+    },
+    {
+      "sequence": 7,
+      "time": "2026-10-21T22:20:34.043065+08:00",
+      "stage": "fixed-B0-fold2",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 8,
+      "time": "2026-10-21T22:20:34.269627+08:00",
+      "stage": "fixed-B0-fold2",
+      "event": "model_completed",
+      "seconds": 0.2261160999769345
+    },
+    {
+      "sequence": 9,
+      "time": "2026-10-21T22:20:34.300456+08:00",
+      "stage": "fixed-B0-fold3",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 10,
+      "time": "2026-10-21T22:20:34.326937+08:00",
+      "stage": "fixed-B0-fold3",
+      "event": "preprocessor_completed",
+      "seconds": 0.025814399938099086
+    },
+    {
+      "sequence": 11,
+      "time": "2026-10-21T22:20:34.327892+08:00",
+      "stage": "fixed-B0-fold3",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 12,
+      "time": "2026-10-21T22:20:34.587442+08:00",
+      "stage": "fixed-B0-fold3",
+      "event": "model_completed",
+      "seconds": 0.25846429995726794
+    },
+    {
+      "sequence": 13,
+      "time": "2026-10-21T22:20:34.620455+08:00",
+      "stage": "fixed-B0-fold4",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 14,
+      "time": "2026-10-21T22:20:34.649026+08:00",
+      "stage": "fixed-B0-fold4",
+      "event": "preprocessor_completed",
+      "seconds": 0.02789249992929399
+    },
+    {
+      "sequence": 15,
+      "time": "2026-10-21T22:20:34.650098+08:00",
+      "stage": "fixed-B0-fold4",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 16,
+      "time": "2026-10-21T22:20:34.899112+08:00",
+      "stage": "fixed-B0-fold4",
+      "event": "model_completed",
+      "seconds": 0.24808899988420308
+    },
+    {
+      "sequence": 17,
+      "time": "2026-10-21T22:20:34.930519+08:00",
+      "stage": "fixed-B0-fold5",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 18,
+      "time": "2026-10-21T22:20:34.958616+08:00",
+      "stage": "fixed-B0-fold5",
+      "event": "preprocessor_completed",
+      "seconds": 0.02749109989963472
+    },
+    {
+      "sequence": 19,
+      "time": "2026-10-21T22:20:34.959556+08:00",
+      "stage": "fixed-B0-fold5",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 20,
+      "time": "2026-10-21T22:20:35.211133+08:00",
+      "stage": "fixed-B0-fold5",
+      "event": "model_completed",
+      "seconds": 0.25092989997938275
+    },
+    {
+      "sequence": 21,
+      "time": "2026-10-21T22:20:35.250469+08:00",
+      "stage": "fixed-dual-fold1-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 22,
+      "time": "2026-10-21T22:20:35.259378+08:00",
+      "stage": "fixed-dual-fold1-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008223199984058738
+    },
+    {
+      "sequence": 23,
+      "time": "2026-10-21T22:20:35.260358+08:00",
+      "stage": "fixed-dual-fold1-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 24,
+      "time": "2026-10-21T22:20:35.287352+08:00",
+      "stage": "fixed-dual-fold1-temporal",
+      "event": "model_completed",
+      "seconds": 0.026442699949257076
+    },
+    {
+      "sequence": 25,
+      "time": "2026-10-21T22:20:35.292657+08:00",
+      "stage": "fixed-dual-fold1-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 26,
+      "time": "2026-10-21T22:20:35.318548+08:00",
+      "stage": "fixed-dual-fold1-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.025143400067463517
+    },
+    {
+      "sequence": 27,
+      "time": "2026-10-21T22:20:35.319352+08:00",
+      "stage": "fixed-dual-fold1-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 28,
+      "time": "2026-10-21T22:20:35.726172+08:00",
+      "stage": "fixed-dual-fold1-feature",
+      "event": "model_completed",
+      "seconds": 0.40640279999934137
+    },
+    {
+      "sequence": 29,
+      "time": "2026-10-21T22:20:35.752370+08:00",
+      "stage": "fixed-dual-fold2-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 30,
+      "time": "2026-10-21T22:20:35.761306+08:00",
+      "stage": "fixed-dual-fold2-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008293000049889088
+    },
+    {
+      "sequence": 31,
+      "time": "2026-10-21T22:20:35.762196+08:00",
+      "stage": "fixed-dual-fold2-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 32,
+      "time": "2026-10-21T22:20:35.780822+08:00",
+      "stage": "fixed-dual-fold2-temporal",
+      "event": "model_completed",
+      "seconds": 0.018138400046154857
+    },
+    {
+      "sequence": 33,
+      "time": "2026-10-21T22:20:35.785863+08:00",
+      "stage": "fixed-dual-fold2-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 34,
+      "time": "2026-10-21T22:20:35.814674+08:00",
+      "stage": "fixed-dual-fold2-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.028237499995157123
+    },
+    {
+      "sequence": 35,
+      "time": "2026-10-21T22:20:35.815615+08:00",
+      "stage": "fixed-dual-fold2-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 36,
+      "time": "2026-10-21T22:20:36.216665+08:00",
+      "stage": "fixed-dual-fold2-feature",
+      "event": "model_completed",
+      "seconds": 0.4004515999695286
+    },
+    {
+      "sequence": 37,
+      "time": "2026-10-21T22:20:36.237679+08:00",
+      "stage": "fixed-dual-fold3-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 38,
+      "time": "2026-10-21T22:20:36.246263+08:00",
+      "stage": "fixed-dual-fold3-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.007946299971081316
+    },
+    {
+      "sequence": 39,
+      "time": "2026-10-21T22:20:36.246950+08:00",
+      "stage": "fixed-dual-fold3-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 40,
+      "time": "2026-10-21T22:20:36.269600+08:00",
+      "stage": "fixed-dual-fold3-temporal",
+      "event": "model_completed",
+      "seconds": 0.022041700081899762
+    },
+    {
+      "sequence": 41,
+      "time": "2026-10-21T22:20:36.274760+08:00",
+      "stage": "fixed-dual-fold3-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 42,
+      "time": "2026-10-21T22:20:36.302942+08:00",
+      "stage": "fixed-dual-fold3-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.027597300009801984
+    },
+    {
+      "sequence": 43,
+      "time": "2026-10-21T22:20:36.303849+08:00",
+      "stage": "fixed-dual-fold3-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 44,
+      "time": "2026-10-21T22:20:36.712424+08:00",
+      "stage": "fixed-dual-fold3-feature",
+      "event": "model_completed",
+      "seconds": 0.40799139998853207
+    },
+    {
+      "sequence": 45,
+      "time": "2026-10-21T22:20:36.732547+08:00",
+      "stage": "fixed-dual-fold4-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 46,
+      "time": "2026-10-21T22:20:36.741258+08:00",
+      "stage": "fixed-dual-fold4-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.007994199986569583
+    },
+    {
+      "sequence": 47,
+      "time": "2026-10-21T22:20:36.741951+08:00",
+      "stage": "fixed-dual-fold4-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 48,
+      "time": "2026-10-21T22:20:36.761434+08:00",
+      "stage": "fixed-dual-fold4-temporal",
+      "event": "model_completed",
+      "seconds": 0.01892000006046146
+    },
+    {
+      "sequence": 49,
+      "time": "2026-10-21T22:20:36.767068+08:00",
+      "stage": "fixed-dual-fold4-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 50,
+      "time": "2026-10-21T22:20:36.794539+08:00",
+      "stage": "fixed-dual-fold4-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.026832400006242096
+    },
+    {
+      "sequence": 51,
+      "time": "2026-10-21T22:20:36.795531+08:00",
+      "stage": "fixed-dual-fold4-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 52,
+      "time": "2026-10-21T22:20:37.204322+08:00",
+      "stage": "fixed-dual-fold4-feature",
+      "event": "model_completed",
+      "seconds": 0.4081215999322012
+    },
+    {
+      "sequence": 53,
+      "time": "2026-10-21T22:20:37.225910+08:00",
+      "stage": "fixed-dual-fold5-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 54,
+      "time": "2026-10-21T22:20:37.235509+08:00",
+      "stage": "fixed-dual-fold5-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008822800009511411
+    },
+    {
+      "sequence": 55,
+      "time": "2026-10-21T22:20:37.236303+08:00",
+      "stage": "fixed-dual-fold5-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 56,
+      "time": "2026-10-21T22:20:37.254913+08:00",
+      "stage": "fixed-dual-fold5-temporal",
+      "event": "model_completed",
+      "seconds": 0.018040900002233684
+    },
+    {
+      "sequence": 57,
+      "time": "2026-10-21T22:20:37.260085+08:00",
+      "stage": "fixed-dual-fold5-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 58,
+      "time": "2026-10-21T22:20:37.288257+08:00",
+      "stage": "fixed-dual-fold5-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.027369200019165874
+    },
+    {
+      "sequence": 59,
+      "time": "2026-10-21T22:20:37.289171+08:00",
+      "stage": "fixed-dual-fold5-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 60,
+      "time": "2026-10-21T22:20:37.703635+08:00",
+      "stage": "fixed-dual-fold5-feature",
+      "event": "model_completed",
+      "seconds": 0.41386079997755587
+    },
+    {
+      "sequence": 61,
+      "time": "2026-10-21T22:20:37.763880+08:00",
+      "stage": "repeat_1-B0-fold1",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 62,
+      "time": "2026-10-21T22:20:37.789340+08:00",
+      "stage": "repeat_1-B0-fold1",
+      "event": "preprocessor_completed",
+      "seconds": 0.024616100010462105
+    },
+    {
+      "sequence": 63,
+      "time": "2026-10-21T22:20:37.790225+08:00",
+      "stage": "repeat_1-B0-fold1",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 64,
+      "time": "2026-10-21T22:20:38.018374+08:00",
+      "stage": "repeat_1-B0-fold1",
+      "event": "model_completed",
+      "seconds": 0.2275947000598535
+    },
+    {
+      "sequence": 65,
+      "time": "2026-10-21T22:20:38.048985+08:00",
+      "stage": "repeat_1-B0-fold2",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 66,
+      "time": "2026-10-21T22:20:38.075224+08:00",
+      "stage": "repeat_1-B0-fold2",
+      "event": "preprocessor_completed",
+      "seconds": 0.025538999936543405
+    },
+    {
+      "sequence": 67,
+      "time": "2026-10-21T22:20:38.076317+08:00",
+      "stage": "repeat_1-B0-fold2",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 68,
+      "time": "2026-10-21T22:20:38.326481+08:00",
+      "stage": "repeat_1-B0-fold2",
+      "event": "model_completed",
+      "seconds": 0.24962169991340488
+    },
+    {
+      "sequence": 69,
+      "time": "2026-10-21T22:20:38.357004+08:00",
+      "stage": "repeat_1-B0-fold3",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 70,
+      "time": "2026-10-21T22:20:38.381338+08:00",
+      "stage": "repeat_1-B0-fold3",
+      "event": "preprocessor_completed",
+      "seconds": 0.02354099997319281
+    },
+    {
+      "sequence": 71,
+      "time": "2026-10-21T22:20:38.382146+08:00",
+      "stage": "repeat_1-B0-fold3",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 72,
+      "time": "2026-10-21T22:20:38.613407+08:00",
+      "stage": "repeat_1-B0-fold3",
+      "event": "model_completed",
+      "seconds": 0.23081720003392547
+    },
+    {
+      "sequence": 73,
+      "time": "2026-10-21T22:20:38.643788+08:00",
+      "stage": "repeat_1-B0-fold4",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 74,
+      "time": "2026-10-21T22:20:38.668126+08:00",
+      "stage": "repeat_1-B0-fold4",
+      "event": "preprocessor_completed",
+      "seconds": 0.02366430009715259
+    },
+    {
+      "sequence": 75,
+      "time": "2026-10-21T22:20:38.669601+08:00",
+      "stage": "repeat_1-B0-fold4",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 76,
+      "time": "2026-10-21T22:20:38.920801+08:00",
+      "stage": "repeat_1-B0-fold4",
+      "event": "model_completed",
+      "seconds": 0.2506494000554085
+    },
+    {
+      "sequence": 77,
+      "time": "2026-10-21T22:20:38.952818+08:00",
+      "stage": "repeat_1-B0-fold5",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 78,
+      "time": "2026-10-21T22:20:38.981208+08:00",
+      "stage": "repeat_1-B0-fold5",
+      "event": "preprocessor_completed",
+      "seconds": 0.02747620001900941
+    },
+    {
+      "sequence": 79,
+      "time": "2026-10-21T22:20:38.982650+08:00",
+      "stage": "repeat_1-B0-fold5",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 80,
+      "time": "2026-10-21T22:20:39.233483+08:00",
+      "stage": "repeat_1-B0-fold5",
+      "event": "model_completed",
+      "seconds": 0.25018350000027567
+    },
+    {
+      "sequence": 81,
+      "time": "2026-10-21T22:20:39.268758+08:00",
+      "stage": "repeat_1-dual-fold1-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 82,
+      "time": "2026-10-21T22:20:39.277495+08:00",
+      "stage": "repeat_1-dual-fold1-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.007911000051535666
+    },
+    {
+      "sequence": 83,
+      "time": "2026-10-21T22:20:39.278390+08:00",
+      "stage": "repeat_1-dual-fold1-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 84,
+      "time": "2026-10-21T22:20:39.310463+08:00",
+      "stage": "repeat_1-dual-fold1-temporal",
+      "event": "model_completed",
+      "seconds": 0.03070620005019009
+    },
+    {
+      "sequence": 85,
+      "time": "2026-10-21T22:20:39.315487+08:00",
+      "stage": "repeat_1-dual-fold1-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 86,
+      "time": "2026-10-21T22:20:39.343663+08:00",
+      "stage": "repeat_1-dual-fold1-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.027546799974516034
+    },
+    {
+      "sequence": 87,
+      "time": "2026-10-21T22:20:39.344495+08:00",
+      "stage": "repeat_1-dual-fold1-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 88,
+      "time": "2026-10-21T22:20:39.749672+08:00",
+      "stage": "repeat_1-dual-fold1-feature",
+      "event": "model_completed",
+      "seconds": 0.40464930003508925
+    },
+    {
+      "sequence": 89,
+      "time": "2026-10-21T22:20:39.776816+08:00",
+      "stage": "repeat_1-dual-fold2-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 90,
+      "time": "2026-10-21T22:20:39.785609+08:00",
+      "stage": "repeat_1-dual-fold2-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008132299990393221
+    },
+    {
+      "sequence": 91,
+      "time": "2026-10-21T22:20:39.786362+08:00",
+      "stage": "repeat_1-dual-fold2-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 92,
+      "time": "2026-10-21T22:20:39.806216+08:00",
+      "stage": "repeat_1-dual-fold2-temporal",
+      "event": "model_completed",
+      "seconds": 0.019321100087836385
+    },
+    {
+      "sequence": 93,
+      "time": "2026-10-21T22:20:39.811342+08:00",
+      "stage": "repeat_1-dual-fold2-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 94,
+      "time": "2026-10-21T22:20:39.841312+08:00",
+      "stage": "repeat_1-dual-fold2-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.029223600053228438
+    },
+    {
+      "sequence": 95,
+      "time": "2026-10-21T22:20:39.842242+08:00",
+      "stage": "repeat_1-dual-fold2-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 96,
+      "time": "2026-10-21T22:20:40.260747+08:00",
+      "stage": "repeat_1-dual-fold2-feature",
+      "event": "model_completed",
+      "seconds": 0.4178908000467345
+    },
+    {
+      "sequence": 97,
+      "time": "2026-10-21T22:20:40.281453+08:00",
+      "stage": "repeat_1-dual-fold3-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 98,
+      "time": "2026-10-21T22:20:40.290344+08:00",
+      "stage": "repeat_1-dual-fold3-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008146400097757578
+    },
+    {
+      "sequence": 99,
+      "time": "2026-10-21T22:20:40.291213+08:00",
+      "stage": "repeat_1-dual-fold3-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 100,
+      "time": "2026-10-21T22:20:40.310386+08:00",
+      "stage": "repeat_1-dual-fold3-temporal",
+      "event": "model_completed",
+      "seconds": 0.01866529998369515
+    },
+    {
+      "sequence": 101,
+      "time": "2026-10-21T22:20:40.315809+08:00",
+      "stage": "repeat_1-dual-fold3-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 102,
+      "time": "2026-10-21T22:20:40.343455+08:00",
+      "stage": "repeat_1-dual-fold3-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.0269681999925524
+    },
+    {
+      "sequence": 103,
+      "time": "2026-10-21T22:20:40.344516+08:00",
+      "stage": "repeat_1-dual-fold3-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 104,
+      "time": "2026-10-21T22:20:40.743669+08:00",
+      "stage": "repeat_1-dual-fold3-feature",
+      "event": "model_completed",
+      "seconds": 0.3985755000030622
+    },
+    {
+      "sequence": 105,
+      "time": "2026-10-21T22:20:40.765917+08:00",
+      "stage": "repeat_1-dual-fold4-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 106,
+      "time": "2026-10-21T22:20:40.774768+08:00",
+      "stage": "repeat_1-dual-fold4-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008079799939878285
+    },
+    {
+      "sequence": 107,
+      "time": "2026-10-21T22:20:40.775538+08:00",
+      "stage": "repeat_1-dual-fold4-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 108,
+      "time": "2026-10-21T22:20:40.794965+08:00",
+      "stage": "repeat_1-dual-fold4-temporal",
+      "event": "model_completed",
+      "seconds": 0.018882400006987154
+    },
+    {
+      "sequence": 109,
+      "time": "2026-10-21T22:20:40.800495+08:00",
+      "stage": "repeat_1-dual-fold4-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 110,
+      "time": "2026-10-21T22:20:40.828808+08:00",
+      "stage": "repeat_1-dual-fold4-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.02758760005235672
+    },
+    {
+      "sequence": 111,
+      "time": "2026-10-21T22:20:40.829799+08:00",
+      "stage": "repeat_1-dual-fold4-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 112,
+      "time": "2026-10-21T22:20:41.230164+08:00",
+      "stage": "repeat_1-dual-fold4-feature",
+      "event": "model_completed",
+      "seconds": 0.3995848000049591
+    },
+    {
+      "sequence": 113,
+      "time": "2026-10-21T22:20:41.250613+08:00",
+      "stage": "repeat_1-dual-fold5-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 114,
+      "time": "2026-10-21T22:20:41.259711+08:00",
+      "stage": "repeat_1-dual-fold5-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008368599927052855
+    },
+    {
+      "sequence": 115,
+      "time": "2026-10-21T22:20:41.260718+08:00",
+      "stage": "repeat_1-dual-fold5-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 116,
+      "time": "2026-10-21T22:20:41.279944+08:00",
+      "stage": "repeat_1-dual-fold5-temporal",
+      "event": "model_completed",
+      "seconds": 0.01855869998689741
+    },
+    {
+      "sequence": 117,
+      "time": "2026-10-21T22:20:41.286374+08:00",
+      "stage": "repeat_1-dual-fold5-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 118,
+      "time": "2026-10-21T22:20:41.314356+08:00",
+      "stage": "repeat_1-dual-fold5-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.027254899963736534
+    },
+    {
+      "sequence": 119,
+      "time": "2026-10-21T22:20:41.315428+08:00",
+      "stage": "repeat_1-dual-fold5-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 120,
+      "time": "2026-10-21T22:20:41.750620+08:00",
+      "stage": "repeat_1-dual-fold5-feature",
+      "event": "model_completed",
+      "seconds": 0.4345644999993965
+    },
+    {
+      "sequence": 121,
+      "time": "2026-10-21T22:20:41.815542+08:00",
+      "stage": "repeat_2-B0-fold1",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 122,
+      "time": "2026-10-21T22:20:41.842934+08:00",
+      "stage": "repeat_2-B0-fold1",
+      "event": "preprocessor_completed",
+      "seconds": 0.02627779997419566
+    },
+    {
+      "sequence": 123,
+      "time": "2026-10-21T22:20:41.843995+08:00",
+      "stage": "repeat_2-B0-fold1",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 124,
+      "time": "2026-10-21T22:20:42.072417+08:00",
+      "stage": "repeat_2-B0-fold1",
+      "event": "model_completed",
+      "seconds": 0.22768350003752857
+    },
+    {
+      "sequence": 125,
+      "time": "2026-10-21T22:20:42.103328+08:00",
+      "stage": "repeat_2-B0-fold2",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 126,
+      "time": "2026-10-21T22:20:42.129982+08:00",
+      "stage": "repeat_2-B0-fold2",
+      "event": "preprocessor_completed",
+      "seconds": 0.025925700087100267
+    },
+    {
+      "sequence": 127,
+      "time": "2026-10-21T22:20:42.131347+08:00",
+      "stage": "repeat_2-B0-fold2",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 128,
+      "time": "2026-10-21T22:20:42.380617+08:00",
+      "stage": "repeat_2-B0-fold2",
+      "event": "model_completed",
+      "seconds": 0.2487033000215888
+    },
+    {
+      "sequence": 129,
+      "time": "2026-10-21T22:20:42.411168+08:00",
+      "stage": "repeat_2-B0-fold3",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 130,
+      "time": "2026-10-21T22:20:42.437008+08:00",
+      "stage": "repeat_2-B0-fold3",
+      "event": "preprocessor_completed",
+      "seconds": 0.025080000050365925
+    },
+    {
+      "sequence": 131,
+      "time": "2026-10-21T22:20:42.437929+08:00",
+      "stage": "repeat_2-B0-fold3",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 132,
+      "time": "2026-10-21T22:20:42.652633+08:00",
+      "stage": "repeat_2-B0-fold3",
+      "event": "model_completed",
+      "seconds": 0.21421000000555068
+    },
+    {
+      "sequence": 133,
+      "time": "2026-10-21T22:20:42.683654+08:00",
+      "stage": "repeat_2-B0-fold4",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 134,
+      "time": "2026-10-21T22:20:42.711415+08:00",
+      "stage": "repeat_2-B0-fold4",
+      "event": "preprocessor_completed",
+      "seconds": 0.02692209999077022
+    },
+    {
+      "sequence": 135,
+      "time": "2026-10-21T22:20:42.712334+08:00",
+      "stage": "repeat_2-B0-fold4",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 136,
+      "time": "2026-10-21T22:20:42.953269+08:00",
+      "stage": "repeat_2-B0-fold4",
+      "event": "model_completed",
+      "seconds": 0.2404001000104472
+    },
+    {
+      "sequence": 137,
+      "time": "2026-10-21T22:20:42.983841+08:00",
+      "stage": "repeat_2-B0-fold5",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 138,
+      "time": "2026-10-21T22:20:43.010184+08:00",
+      "stage": "repeat_2-B0-fold5",
+      "event": "preprocessor_completed",
+      "seconds": 0.025601499946787953
+    },
+    {
+      "sequence": 139,
+      "time": "2026-10-21T22:20:43.011268+08:00",
+      "stage": "repeat_2-B0-fold5",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 140,
+      "time": "2026-10-21T22:20:43.258116+08:00",
+      "stage": "repeat_2-B0-fold5",
+      "event": "model_completed",
+      "seconds": 0.24539390008430928
+    },
+    {
+      "sequence": 141,
+      "time": "2026-10-21T22:20:43.297723+08:00",
+      "stage": "repeat_2-dual-fold1-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 142,
+      "time": "2026-10-21T22:20:43.307850+08:00",
+      "stage": "repeat_2-dual-fold1-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.009355099988169968
+    },
+    {
+      "sequence": 143,
+      "time": "2026-10-21T22:20:43.308991+08:00",
+      "stage": "repeat_2-dual-fold1-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 144,
+      "time": "2026-10-21T22:20:43.340004+08:00",
+      "stage": "repeat_2-dual-fold1-temporal",
+      "event": "model_completed",
+      "seconds": 0.03035380004439503
+    },
+    {
+      "sequence": 145,
+      "time": "2026-10-21T22:20:43.345242+08:00",
+      "stage": "repeat_2-dual-fold1-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 146,
+      "time": "2026-10-21T22:20:43.373051+08:00",
+      "stage": "repeat_2-dual-fold1-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.027136399992741644
+    },
+    {
+      "sequence": 147,
+      "time": "2026-10-21T22:20:43.374083+08:00",
+      "stage": "repeat_2-dual-fold1-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 148,
+      "time": "2026-10-21T22:20:43.818979+08:00",
+      "stage": "repeat_2-dual-fold1-feature",
+      "event": "model_completed",
+      "seconds": 0.44434010004624724
+    },
+    {
+      "sequence": 149,
+      "time": "2026-10-21T22:20:43.845612+08:00",
+      "stage": "repeat_2-dual-fold2-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 150,
+      "time": "2026-10-21T22:20:43.854540+08:00",
+      "stage": "repeat_2-dual-fold2-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008155800052918494
+    },
+    {
+      "sequence": 151,
+      "time": "2026-10-21T22:20:43.855341+08:00",
+      "stage": "repeat_2-dual-fold2-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 152,
+      "time": "2026-10-21T22:20:43.874749+08:00",
+      "stage": "repeat_2-dual-fold2-temporal",
+      "event": "model_completed",
+      "seconds": 0.01880279998295009
+    },
+    {
+      "sequence": 153,
+      "time": "2026-10-21T22:20:43.880010+08:00",
+      "stage": "repeat_2-dual-fold2-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 154,
+      "time": "2026-10-21T22:20:43.908951+08:00",
+      "stage": "repeat_2-dual-fold2-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.028114299988374114
+    },
+    {
+      "sequence": 155,
+      "time": "2026-10-21T22:20:43.909955+08:00",
+      "stage": "repeat_2-dual-fold2-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 156,
+      "time": "2026-10-21T22:20:44.347461+08:00",
+      "stage": "repeat_2-dual-fold2-feature",
+      "event": "model_completed",
+      "seconds": 0.43690390000119805
+    },
+    {
+      "sequence": 157,
+      "time": "2026-10-21T22:20:44.369947+08:00",
+      "stage": "repeat_2-dual-fold3-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 158,
+      "time": "2026-10-21T22:20:44.379061+08:00",
+      "stage": "repeat_2-dual-fold3-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008338300045579672
+    },
+    {
+      "sequence": 159,
+      "time": "2026-10-21T22:20:44.379906+08:00",
+      "stage": "repeat_2-dual-fold3-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 160,
+      "time": "2026-10-21T22:20:44.398910+08:00",
+      "stage": "repeat_2-dual-fold3-temporal",
+      "event": "model_completed",
+      "seconds": 0.01845800003502518
+    },
+    {
+      "sequence": 161,
+      "time": "2026-10-21T22:20:44.404012+08:00",
+      "stage": "repeat_2-dual-fold3-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 162,
+      "time": "2026-10-21T22:20:44.431857+08:00",
+      "stage": "repeat_2-dual-fold3-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.027189700049348176
+    },
+    {
+      "sequence": 163,
+      "time": "2026-10-21T22:20:44.432831+08:00",
+      "stage": "repeat_2-dual-fold3-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 164,
+      "time": "2026-10-21T22:20:44.850552+08:00",
+      "stage": "repeat_2-dual-fold3-feature",
+      "event": "model_completed",
+      "seconds": 0.4171315000858158
+    },
+    {
+      "sequence": 165,
+      "time": "2026-10-21T22:20:44.871682+08:00",
+      "stage": "repeat_2-dual-fold4-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 166,
+      "time": "2026-10-21T22:20:44.880487+08:00",
+      "stage": "repeat_2-dual-fold4-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008022600086405873
+    },
+    {
+      "sequence": 167,
+      "time": "2026-10-21T22:20:44.881345+08:00",
+      "stage": "repeat_2-dual-fold4-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 168,
+      "time": "2026-10-21T22:20:44.900964+08:00",
+      "stage": "repeat_2-dual-fold4-temporal",
+      "event": "model_completed",
+      "seconds": 0.01899699994828552
+    },
+    {
+      "sequence": 169,
+      "time": "2026-10-21T22:20:44.906241+08:00",
+      "stage": "repeat_2-dual-fold4-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 170,
+      "time": "2026-10-21T22:20:44.934624+08:00",
+      "stage": "repeat_2-dual-fold4-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.02771530009340495
+    },
+    {
+      "sequence": 171,
+      "time": "2026-10-21T22:20:44.935622+08:00",
+      "stage": "repeat_2-dual-fold4-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 172,
+      "time": "2026-10-21T22:20:45.347829+08:00",
+      "stage": "repeat_2-dual-fold4-feature",
+      "event": "model_completed",
+      "seconds": 0.41158219997305423
+    },
+    {
+      "sequence": 173,
+      "time": "2026-10-21T22:20:45.370454+08:00",
+      "stage": "repeat_2-dual-fold5-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 174,
+      "time": "2026-10-21T22:20:45.379487+08:00",
+      "stage": "repeat_2-dual-fold5-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008209999999962747
+    },
+    {
+      "sequence": 175,
+      "time": "2026-10-21T22:20:45.380313+08:00",
+      "stage": "repeat_2-dual-fold5-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 176,
+      "time": "2026-10-21T22:20:45.400101+08:00",
+      "stage": "repeat_2-dual-fold5-temporal",
+      "event": "model_completed",
+      "seconds": 0.018959600012749434
+    },
+    {
+      "sequence": 177,
+      "time": "2026-10-21T22:20:45.405176+08:00",
+      "stage": "repeat_2-dual-fold5-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 178,
+      "time": "2026-10-21T22:20:45.434565+08:00",
+      "stage": "repeat_2-dual-fold5-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.028539399965666234
+    },
+    {
+      "sequence": 179,
+      "time": "2026-10-21T22:20:45.435592+08:00",
+      "stage": "repeat_2-dual-fold5-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 180,
+      "time": "2026-10-21T22:20:45.866535+08:00",
+      "stage": "repeat_2-dual-fold5-feature",
+      "event": "model_completed",
+      "seconds": 0.43026930000633
+    },
+    {
+      "sequence": 181,
+      "time": "2026-10-21T22:20:45.925352+08:00",
+      "stage": "repeat_3-B0-fold1",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 182,
+      "time": "2026-10-21T22:20:45.950991+08:00",
+      "stage": "repeat_3-B0-fold1",
+      "event": "preprocessor_completed",
+      "seconds": 0.024666700046509504
+    },
+    {
+      "sequence": 183,
+      "time": "2026-10-21T22:20:45.951978+08:00",
+      "stage": "repeat_3-B0-fold1",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 184,
+      "time": "2026-10-21T22:20:46.177906+08:00",
+      "stage": "repeat_3-B0-fold1",
+      "event": "model_completed",
+      "seconds": 0.22522300004493445
+    },
+    {
+      "sequence": 185,
+      "time": "2026-10-21T22:20:46.208667+08:00",
+      "stage": "repeat_3-B0-fold2",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 186,
+      "time": "2026-10-21T22:20:46.234254+08:00",
+      "stage": "repeat_3-B0-fold2",
+      "event": "preprocessor_completed",
+      "seconds": 0.024818799924105406
+    },
+    {
+      "sequence": 187,
+      "time": "2026-10-21T22:20:46.235310+08:00",
+      "stage": "repeat_3-B0-fold2",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 188,
+      "time": "2026-10-21T22:20:46.459683+08:00",
+      "stage": "repeat_3-B0-fold2",
+      "event": "model_completed",
+      "seconds": 0.2238003999227658
+    },
+    {
+      "sequence": 189,
+      "time": "2026-10-21T22:20:46.490910+08:00",
+      "stage": "repeat_3-B0-fold3",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 190,
+      "time": "2026-10-21T22:20:46.516949+08:00",
+      "stage": "repeat_3-B0-fold3",
+      "event": "preprocessor_completed",
+      "seconds": 0.02512360003311187
+    },
+    {
+      "sequence": 191,
+      "time": "2026-10-21T22:20:46.518303+08:00",
+      "stage": "repeat_3-B0-fold3",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 192,
+      "time": "2026-10-21T22:20:46.772198+08:00",
+      "stage": "repeat_3-B0-fold3",
+      "event": "model_completed",
+      "seconds": 0.25196110003162175
+    },
+    {
+      "sequence": 193,
+      "time": "2026-10-21T22:20:46.802926+08:00",
+      "stage": "repeat_3-B0-fold4",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 194,
+      "time": "2026-10-21T22:20:46.830067+08:00",
+      "stage": "repeat_3-B0-fold4",
+      "event": "preprocessor_completed",
+      "seconds": 0.02635319996625185
+    },
+    {
+      "sequence": 195,
+      "time": "2026-10-21T22:20:46.831324+08:00",
+      "stage": "repeat_3-B0-fold4",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 196,
+      "time": "2026-10-21T22:20:47.062771+08:00",
+      "stage": "repeat_3-B0-fold4",
+      "event": "model_completed",
+      "seconds": 0.2307837000116706
+    },
+    {
+      "sequence": 197,
+      "time": "2026-10-21T22:20:47.092518+08:00",
+      "stage": "repeat_3-B0-fold5",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 198,
+      "time": "2026-10-21T22:20:47.117952+08:00",
+      "stage": "repeat_3-B0-fold5",
+      "event": "preprocessor_completed",
+      "seconds": 0.02428319992031902
+    },
+    {
+      "sequence": 199,
+      "time": "2026-10-21T22:20:47.118972+08:00",
+      "stage": "repeat_3-B0-fold5",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 200,
+      "time": "2026-10-21T22:20:47.381691+08:00",
+      "stage": "repeat_3-B0-fold5",
+      "event": "model_completed",
+      "seconds": 0.2619613000424579
+    },
+    {
+      "sequence": 201,
+      "time": "2026-10-21T22:20:47.417856+08:00",
+      "stage": "repeat_3-dual-fold1-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 202,
+      "time": "2026-10-21T22:20:47.428575+08:00",
+      "stage": "repeat_3-dual-fold1-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.009912399924360216
+    },
+    {
+      "sequence": 203,
+      "time": "2026-10-21T22:20:47.429826+08:00",
+      "stage": "repeat_3-dual-fold1-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 204,
+      "time": "2026-10-21T22:20:47.477667+08:00",
+      "stage": "repeat_3-dual-fold1-temporal",
+      "event": "model_completed",
+      "seconds": 0.04596989997662604
+    },
+    {
+      "sequence": 205,
+      "time": "2026-10-21T22:20:47.482795+08:00",
+      "stage": "repeat_3-dual-fold1-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 206,
+      "time": "2026-10-21T22:20:47.511093+08:00",
+      "stage": "repeat_3-dual-fold1-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.0276453000260517
+    },
+    {
+      "sequence": 207,
+      "time": "2026-10-21T22:20:47.512149+08:00",
+      "stage": "repeat_3-dual-fold1-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 208,
+      "time": "2026-10-21T22:20:47.966439+08:00",
+      "stage": "repeat_3-dual-fold1-feature",
+      "event": "model_completed",
+      "seconds": 0.4535387000069022
+    },
+    {
+      "sequence": 209,
+      "time": "2026-10-21T22:20:47.995401+08:00",
+      "stage": "repeat_3-dual-fold2-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 210,
+      "time": "2026-10-21T22:20:48.009645+08:00",
+      "stage": "repeat_3-dual-fold2-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.013340800069272518
+    },
+    {
+      "sequence": 211,
+      "time": "2026-10-21T22:20:48.010637+08:00",
+      "stage": "repeat_3-dual-fold2-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 212,
+      "time": "2026-10-21T22:20:48.029893+08:00",
+      "stage": "repeat_3-dual-fold2-temporal",
+      "event": "model_completed",
+      "seconds": 0.0185641999123618
+    },
+    {
+      "sequence": 213,
+      "time": "2026-10-21T22:20:48.035189+08:00",
+      "stage": "repeat_3-dual-fold2-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 214,
+      "time": "2026-10-21T22:20:48.063821+08:00",
+      "stage": "repeat_3-dual-fold2-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.027760199969634414
+    },
+    {
+      "sequence": 215,
+      "time": "2026-10-21T22:20:48.064894+08:00",
+      "stage": "repeat_3-dual-fold2-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 216,
+      "time": "2026-10-21T22:20:48.467518+08:00",
+      "stage": "repeat_3-dual-fold2-feature",
+      "event": "model_completed",
+      "seconds": 0.40194939996581525
+    },
+    {
+      "sequence": 217,
+      "time": "2026-10-21T22:20:48.487247+08:00",
+      "stage": "repeat_3-dual-fold3-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 218,
+      "time": "2026-10-21T22:20:48.496731+08:00",
+      "stage": "repeat_3-dual-fold3-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008636999991722405
+    },
+    {
+      "sequence": 219,
+      "time": "2026-10-21T22:20:48.498084+08:00",
+      "stage": "repeat_3-dual-fold3-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 220,
+      "time": "2026-10-21T22:20:48.516870+08:00",
+      "stage": "repeat_3-dual-fold3-temporal",
+      "event": "model_completed",
+      "seconds": 0.018020099960267544
+    },
+    {
+      "sequence": 221,
+      "time": "2026-10-21T22:20:48.521952+08:00",
+      "stage": "repeat_3-dual-fold3-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 222,
+      "time": "2026-10-21T22:20:48.550006+08:00",
+      "stage": "repeat_3-dual-fold3-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.02719799999613315
+    },
+    {
+      "sequence": 223,
+      "time": "2026-10-21T22:20:48.551112+08:00",
+      "stage": "repeat_3-dual-fold3-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 224,
+      "time": "2026-10-21T22:20:48.961623+08:00",
+      "stage": "repeat_3-dual-fold3-feature",
+      "event": "model_completed",
+      "seconds": 0.40980030002538115
+    },
+    {
+      "sequence": 225,
+      "time": "2026-10-21T22:20:48.983898+08:00",
+      "stage": "repeat_3-dual-fold4-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 226,
+      "time": "2026-10-21T22:20:48.993135+08:00",
+      "stage": "repeat_3-dual-fold4-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008382400032132864
+    },
+    {
+      "sequence": 227,
+      "time": "2026-10-21T22:20:48.994340+08:00",
+      "stage": "repeat_3-dual-fold4-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 228,
+      "time": "2026-10-21T22:20:49.013386+08:00",
+      "stage": "repeat_3-dual-fold4-temporal",
+      "event": "model_completed",
+      "seconds": 0.018298699986189604
+    },
+    {
+      "sequence": 229,
+      "time": "2026-10-21T22:20:49.018672+08:00",
+      "stage": "repeat_3-dual-fold4-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 230,
+      "time": "2026-10-21T22:20:49.046194+08:00",
+      "stage": "repeat_3-dual-fold4-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.02678730001207441
+    },
+    {
+      "sequence": 231,
+      "time": "2026-10-21T22:20:49.047331+08:00",
+      "stage": "repeat_3-dual-fold4-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 232,
+      "time": "2026-10-21T22:20:49.459191+08:00",
+      "stage": "repeat_3-dual-fold4-feature",
+      "event": "model_completed",
+      "seconds": 0.4111062000738457
+    },
+    {
+      "sequence": 233,
+      "time": "2026-10-21T22:20:49.481492+08:00",
+      "stage": "repeat_3-dual-fold5-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 234,
+      "time": "2026-10-21T22:20:49.490407+08:00",
+      "stage": "repeat_3-dual-fold5-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.00802579999435693
+    },
+    {
+      "sequence": 235,
+      "time": "2026-10-21T22:20:49.491354+08:00",
+      "stage": "repeat_3-dual-fold5-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 236,
+      "time": "2026-10-21T22:20:49.511302+08:00",
+      "stage": "repeat_3-dual-fold5-temporal",
+      "event": "model_completed",
+      "seconds": 0.019277999992482364
+    },
+    {
+      "sequence": 237,
+      "time": "2026-10-21T22:20:49.516365+08:00",
+      "stage": "repeat_3-dual-fold5-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 238,
+      "time": "2026-10-21T22:20:49.544598+08:00",
+      "stage": "repeat_3-dual-fold5-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.027423199964687228
+    },
+    {
+      "sequence": 239,
+      "time": "2026-10-21T22:20:49.545713+08:00",
+      "stage": "repeat_3-dual-fold5-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 240,
+      "time": "2026-10-21T22:20:49.945693+08:00",
+      "stage": "repeat_3-dual-fold5-feature",
+      "event": "model_completed",
+      "seconds": 0.3993551000021398
+    },
+    {
+      "sequence": 241,
+      "time": "2026-10-21T22:20:50.004542+08:00",
+      "stage": "repeat_4-B0-fold1",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 242,
+      "time": "2026-10-21T22:20:50.030538+08:00",
+      "stage": "repeat_4-B0-fold1",
+      "event": "preprocessor_completed",
+      "seconds": 0.025216700043529272
+    },
+    {
+      "sequence": 243,
+      "time": "2026-10-21T22:20:50.031591+08:00",
+      "stage": "repeat_4-B0-fold1",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 244,
+      "time": "2026-10-21T22:20:50.263569+08:00",
+      "stage": "repeat_4-B0-fold1",
+      "event": "model_completed",
+      "seconds": 0.2312335999449715
+    },
+    {
+      "sequence": 245,
+      "time": "2026-10-21T22:20:50.294395+08:00",
+      "stage": "repeat_4-B0-fold2",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 246,
+      "time": "2026-10-21T22:20:50.320693+08:00",
+      "stage": "repeat_4-B0-fold2",
+      "event": "preprocessor_completed",
+      "seconds": 0.025123300030827522
+    },
+    {
+      "sequence": 247,
+      "time": "2026-10-21T22:20:50.321740+08:00",
+      "stage": "repeat_4-B0-fold2",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 248,
+      "time": "2026-10-21T22:20:50.540933+08:00",
+      "stage": "repeat_4-B0-fold2",
+      "event": "model_completed",
+      "seconds": 0.2180917999939993
+    },
+    {
+      "sequence": 249,
+      "time": "2026-10-21T22:20:50.571555+08:00",
+      "stage": "repeat_4-B0-fold3",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 250,
+      "time": "2026-10-21T22:20:50.597992+08:00",
+      "stage": "repeat_4-B0-fold3",
+      "event": "preprocessor_completed",
+      "seconds": 0.02550270000938326
+    },
+    {
+      "sequence": 251,
+      "time": "2026-10-21T22:20:50.599223+08:00",
+      "stage": "repeat_4-B0-fold3",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 252,
+      "time": "2026-10-21T22:20:50.855844+08:00",
+      "stage": "repeat_4-B0-fold3",
+      "event": "model_completed",
+      "seconds": 0.255600200034678
+    },
+    {
+      "sequence": 253,
+      "time": "2026-10-21T22:20:50.891467+08:00",
+      "stage": "repeat_4-B0-fold4",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 254,
+      "time": "2026-10-21T22:20:50.920891+08:00",
+      "stage": "repeat_4-B0-fold4",
+      "event": "preprocessor_completed",
+      "seconds": 0.028281499980948865
+    },
+    {
+      "sequence": 255,
+      "time": "2026-10-21T22:20:50.922044+08:00",
+      "stage": "repeat_4-B0-fold4",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 256,
+      "time": "2026-10-21T22:20:51.158069+08:00",
+      "stage": "repeat_4-B0-fold4",
+      "event": "model_completed",
+      "seconds": 0.23531959997490048
+    },
+    {
+      "sequence": 257,
+      "time": "2026-10-21T22:20:51.193014+08:00",
+      "stage": "repeat_4-B0-fold5",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 258,
+      "time": "2026-10-21T22:20:51.220898+08:00",
+      "stage": "repeat_4-B0-fold5",
+      "event": "preprocessor_completed",
+      "seconds": 0.026699100038968027
+    },
+    {
+      "sequence": 259,
+      "time": "2026-10-21T22:20:51.221974+08:00",
+      "stage": "repeat_4-B0-fold5",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 260,
+      "time": "2026-10-21T22:20:51.456270+08:00",
+      "stage": "repeat_4-B0-fold5",
+      "event": "model_completed",
+      "seconds": 0.23360109992790967
+    },
+    {
+      "sequence": 261,
+      "time": "2026-10-21T22:20:51.494607+08:00",
+      "stage": "repeat_4-dual-fold1-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 262,
+      "time": "2026-10-21T22:20:51.503973+08:00",
+      "stage": "repeat_4-dual-fold1-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008322800043970346
+    },
+    {
+      "sequence": 263,
+      "time": "2026-10-21T22:20:51.504994+08:00",
+      "stage": "repeat_4-dual-fold1-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 264,
+      "time": "2026-10-21T22:20:51.540027+08:00",
+      "stage": "repeat_4-dual-fold1-temporal",
+      "event": "model_completed",
+      "seconds": 0.03424470010213554
+    },
+    {
+      "sequence": 265,
+      "time": "2026-10-21T22:20:51.545268+08:00",
+      "stage": "repeat_4-dual-fold1-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 266,
+      "time": "2026-10-21T22:20:51.572663+08:00",
+      "stage": "repeat_4-dual-fold1-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.026694500003941357
+    },
+    {
+      "sequence": 267,
+      "time": "2026-10-21T22:20:51.573700+08:00",
+      "stage": "repeat_4-dual-fold1-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 268,
+      "time": "2026-10-21T22:20:51.988298+08:00",
+      "stage": "repeat_4-dual-fold1-feature",
+      "event": "model_completed",
+      "seconds": 0.4139869000064209
+    },
+    {
+      "sequence": 269,
+      "time": "2026-10-21T22:20:52.024658+08:00",
+      "stage": "repeat_4-dual-fold2-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 270,
+      "time": "2026-10-21T22:20:52.035253+08:00",
+      "stage": "repeat_4-dual-fold2-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.009525400004349649
+    },
+    {
+      "sequence": 271,
+      "time": "2026-10-21T22:20:52.036418+08:00",
+      "stage": "repeat_4-dual-fold2-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 272,
+      "time": "2026-10-21T22:20:52.059674+08:00",
+      "stage": "repeat_4-dual-fold2-temporal",
+      "event": "model_completed",
+      "seconds": 0.02247890003491193
+    },
+    {
+      "sequence": 273,
+      "time": "2026-10-21T22:20:52.066267+08:00",
+      "stage": "repeat_4-dual-fold2-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 274,
+      "time": "2026-10-21T22:20:52.094761+08:00",
+      "stage": "repeat_4-dual-fold2-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.027476999908685684
+    },
+    {
+      "sequence": 275,
+      "time": "2026-10-21T22:20:52.096374+08:00",
+      "stage": "repeat_4-dual-fold2-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 276,
+      "time": "2026-10-21T22:20:52.514480+08:00",
+      "stage": "repeat_4-dual-fold2-feature",
+      "event": "model_completed",
+      "seconds": 0.4171876000473276
+    },
+    {
+      "sequence": 277,
+      "time": "2026-10-21T22:20:52.535175+08:00",
+      "stage": "repeat_4-dual-fold3-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 278,
+      "time": "2026-10-21T22:20:52.544421+08:00",
+      "stage": "repeat_4-dual-fold3-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008453299989923835
+    },
+    {
+      "sequence": 279,
+      "time": "2026-10-21T22:20:52.545655+08:00",
+      "stage": "repeat_4-dual-fold3-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 280,
+      "time": "2026-10-21T22:20:52.565715+08:00",
+      "stage": "repeat_4-dual-fold3-temporal",
+      "event": "model_completed",
+      "seconds": 0.019348699948750436
+    },
+    {
+      "sequence": 281,
+      "time": "2026-10-21T22:20:52.570980+08:00",
+      "stage": "repeat_4-dual-fold3-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 282,
+      "time": "2026-10-21T22:20:52.599693+08:00",
+      "stage": "repeat_4-dual-fold3-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.027993900002911687
+    },
+    {
+      "sequence": 283,
+      "time": "2026-10-21T22:20:52.600818+08:00",
+      "stage": "repeat_4-dual-fold3-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 284,
+      "time": "2026-10-21T22:20:53.049512+08:00",
+      "stage": "repeat_4-dual-fold3-feature",
+      "event": "model_completed",
+      "seconds": 0.44800500001292676
+    },
+    {
+      "sequence": 285,
+      "time": "2026-10-21T22:20:53.071139+08:00",
+      "stage": "repeat_4-dual-fold4-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 286,
+      "time": "2026-10-21T22:20:53.080880+08:00",
+      "stage": "repeat_4-dual-fold4-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008786299964413047
+    },
+    {
+      "sequence": 287,
+      "time": "2026-10-21T22:20:53.082100+08:00",
+      "stage": "repeat_4-dual-fold4-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 288,
+      "time": "2026-10-21T22:20:53.102088+08:00",
+      "stage": "repeat_4-dual-fold4-temporal",
+      "event": "model_completed",
+      "seconds": 0.019174700020812452
+    },
+    {
+      "sequence": 289,
+      "time": "2026-10-21T22:20:53.107577+08:00",
+      "stage": "repeat_4-dual-fold4-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 290,
+      "time": "2026-10-21T22:20:53.134886+08:00",
+      "stage": "repeat_4-dual-fold4-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.02647639997303486
+    },
+    {
+      "sequence": 291,
+      "time": "2026-10-21T22:20:53.136030+08:00",
+      "stage": "repeat_4-dual-fold4-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 292,
+      "time": "2026-10-21T22:20:53.569754+08:00",
+      "stage": "repeat_4-dual-fold4-feature",
+      "event": "model_completed",
+      "seconds": 0.43296829995233566
+    },
+    {
+      "sequence": 293,
+      "time": "2026-10-21T22:20:53.591946+08:00",
+      "stage": "repeat_4-dual-fold5-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 294,
+      "time": "2026-10-21T22:20:53.602211+08:00",
+      "stage": "repeat_4-dual-fold5-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.009217899991199374
+    },
+    {
+      "sequence": 295,
+      "time": "2026-10-21T22:20:53.603341+08:00",
+      "stage": "repeat_4-dual-fold5-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 296,
+      "time": "2026-10-21T22:20:53.621937+08:00",
+      "stage": "repeat_4-dual-fold5-temporal",
+      "event": "model_completed",
+      "seconds": 0.017861100030131638
+    },
+    {
+      "sequence": 297,
+      "time": "2026-10-21T22:20:53.627540+08:00",
+      "stage": "repeat_4-dual-fold5-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 298,
+      "time": "2026-10-21T22:20:53.654964+08:00",
+      "stage": "repeat_4-dual-fold5-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.02645850006956607
+    },
+    {
+      "sequence": 299,
+      "time": "2026-10-21T22:20:53.656298+08:00",
+      "stage": "repeat_4-dual-fold5-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 300,
+      "time": "2026-10-21T22:20:54.088495+08:00",
+      "stage": "repeat_4-dual-fold5-feature",
+      "event": "model_completed",
+      "seconds": 0.431329199927859
+    },
+    {
+      "sequence": 301,
+      "time": "2026-10-21T22:20:54.150500+08:00",
+      "stage": "repeat_5-B0-fold1",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 302,
+      "time": "2026-10-21T22:20:54.176702+08:00",
+      "stage": "repeat_5-B0-fold1",
+      "event": "preprocessor_completed",
+      "seconds": 0.02534599998034537
+    },
+    {
+      "sequence": 303,
+      "time": "2026-10-21T22:20:54.177879+08:00",
+      "stage": "repeat_5-B0-fold1",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 304,
+      "time": "2026-10-21T22:20:54.398356+08:00",
+      "stage": "repeat_5-B0-fold1",
+      "event": "model_completed",
+      "seconds": 0.21978849999140948
+    },
+    {
+      "sequence": 305,
+      "time": "2026-10-21T22:20:54.430145+08:00",
+      "stage": "repeat_5-B0-fold2",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 306,
+      "time": "2026-10-21T22:20:54.455161+08:00",
+      "stage": "repeat_5-B0-fold2",
+      "event": "preprocessor_completed",
+      "seconds": 0.02406989992596209
+    },
+    {
+      "sequence": 307,
+      "time": "2026-10-21T22:20:54.456795+08:00",
+      "stage": "repeat_5-B0-fold2",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 308,
+      "time": "2026-10-21T22:20:54.678628+08:00",
+      "stage": "repeat_5-B0-fold2",
+      "event": "model_completed",
+      "seconds": 0.2209957999875769
+    },
+    {
+      "sequence": 309,
+      "time": "2026-10-21T22:20:54.709571+08:00",
+      "stage": "repeat_5-B0-fold3",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 310,
+      "time": "2026-10-21T22:20:54.736841+08:00",
+      "stage": "repeat_5-B0-fold3",
+      "event": "preprocessor_completed",
+      "seconds": 0.026078499970026314
+    },
+    {
+      "sequence": 311,
+      "time": "2026-10-21T22:20:54.737952+08:00",
+      "stage": "repeat_5-B0-fold3",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 312,
+      "time": "2026-10-21T22:20:54.983952+08:00",
+      "stage": "repeat_5-B0-fold3",
+      "event": "model_completed",
+      "seconds": 0.24531739996746182
+    },
+    {
+      "sequence": 313,
+      "time": "2026-10-21T22:20:55.014051+08:00",
+      "stage": "repeat_5-B0-fold4",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 314,
+      "time": "2026-10-21T22:20:55.039130+08:00",
+      "stage": "repeat_5-B0-fold4",
+      "event": "preprocessor_completed",
+      "seconds": 0.024159400025382638
+    },
+    {
+      "sequence": 315,
+      "time": "2026-10-21T22:20:55.040560+08:00",
+      "stage": "repeat_5-B0-fold4",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 316,
+      "time": "2026-10-21T22:20:55.281765+08:00",
+      "stage": "repeat_5-B0-fold4",
+      "event": "model_completed",
+      "seconds": 0.2392515999963507
+    },
+    {
+      "sequence": 317,
+      "time": "2026-10-21T22:20:55.312137+08:00",
+      "stage": "repeat_5-B0-fold5",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 318,
+      "time": "2026-10-21T22:20:55.338045+08:00",
+      "stage": "repeat_5-B0-fold5",
+      "event": "preprocessor_completed",
+      "seconds": 0.02500670007430017
+    },
+    {
+      "sequence": 319,
+      "time": "2026-10-21T22:20:55.339152+08:00",
+      "stage": "repeat_5-B0-fold5",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 320,
+      "time": "2026-10-21T22:20:55.576478+08:00",
+      "stage": "repeat_5-B0-fold5",
+      "event": "model_completed",
+      "seconds": 0.23657920002005994
+    },
+    {
+      "sequence": 321,
+      "time": "2026-10-21T22:20:55.612323+08:00",
+      "stage": "repeat_5-dual-fold1-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 322,
+      "time": "2026-10-21T22:20:55.622176+08:00",
+      "stage": "repeat_5-dual-fold1-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008779500029049814
+    },
+    {
+      "sequence": 323,
+      "time": "2026-10-21T22:20:55.623420+08:00",
+      "stage": "repeat_5-dual-fold1-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 324,
+      "time": "2026-10-21T22:20:55.667253+08:00",
+      "stage": "repeat_5-dual-fold1-temporal",
+      "event": "model_completed",
+      "seconds": 0.042847500066272914
+    },
+    {
+      "sequence": 325,
+      "time": "2026-10-21T22:20:55.672540+08:00",
+      "stage": "repeat_5-dual-fold1-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 326,
+      "time": "2026-10-21T22:20:55.699740+08:00",
+      "stage": "repeat_5-dual-fold1-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.026415799977257848
+    },
+    {
+      "sequence": 327,
+      "time": "2026-10-21T22:20:55.700997+08:00",
+      "stage": "repeat_5-dual-fold1-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 328,
+      "time": "2026-10-21T22:20:56.127205+08:00",
+      "stage": "repeat_5-dual-fold1-feature",
+      "event": "model_completed",
+      "seconds": 0.4254762000637129
+    },
+    {
+      "sequence": 329,
+      "time": "2026-10-21T22:20:56.155103+08:00",
+      "stage": "repeat_5-dual-fold2-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 330,
+      "time": "2026-10-21T22:20:56.166505+08:00",
+      "stage": "repeat_5-dual-fold2-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.010399900027550757
+    },
+    {
+      "sequence": 331,
+      "time": "2026-10-21T22:20:56.167641+08:00",
+      "stage": "repeat_5-dual-fold2-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 332,
+      "time": "2026-10-21T22:20:56.186478+08:00",
+      "stage": "repeat_5-dual-fold2-temporal",
+      "event": "model_completed",
+      "seconds": 0.018146299989894032
+    },
+    {
+      "sequence": 333,
+      "time": "2026-10-21T22:20:56.191986+08:00",
+      "stage": "repeat_5-dual-fold2-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 334,
+      "time": "2026-10-21T22:20:56.218945+08:00",
+      "stage": "repeat_5-dual-fold2-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.02595060004387051
+    },
+    {
+      "sequence": 335,
+      "time": "2026-10-21T22:20:56.220049+08:00",
+      "stage": "repeat_5-dual-fold2-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 336,
+      "time": "2026-10-21T22:20:56.641199+08:00",
+      "stage": "repeat_5-dual-fold2-feature",
+      "event": "model_completed",
+      "seconds": 0.42042610002681613
+    },
+    {
+      "sequence": 337,
+      "time": "2026-10-21T22:20:56.661931+08:00",
+      "stage": "repeat_5-dual-fold3-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 338,
+      "time": "2026-10-21T22:20:56.671225+08:00",
+      "stage": "repeat_5-dual-fold3-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008358699968084693
+    },
+    {
+      "sequence": 339,
+      "time": "2026-10-21T22:20:56.672219+08:00",
+      "stage": "repeat_5-dual-fold3-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 340,
+      "time": "2026-10-21T22:20:56.690882+08:00",
+      "stage": "repeat_5-dual-fold3-temporal",
+      "event": "model_completed",
+      "seconds": 0.017941099940799177
+    },
+    {
+      "sequence": 341,
+      "time": "2026-10-21T22:20:56.697011+08:00",
+      "stage": "repeat_5-dual-fold3-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 342,
+      "time": "2026-10-21T22:20:56.723744+08:00",
+      "stage": "repeat_5-dual-fold3-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.0258936999598518
+    },
+    {
+      "sequence": 343,
+      "time": "2026-10-21T22:20:56.725034+08:00",
+      "stage": "repeat_5-dual-fold3-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 344,
+      "time": "2026-10-21T22:20:57.140715+08:00",
+      "stage": "repeat_5-dual-fold3-feature",
+      "event": "model_completed",
+      "seconds": 0.4148538999725133
+    },
+    {
+      "sequence": 345,
+      "time": "2026-10-21T22:20:57.163328+08:00",
+      "stage": "repeat_5-dual-fold4-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 346,
+      "time": "2026-10-21T22:20:57.172930+08:00",
+      "stage": "repeat_5-dual-fold4-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.008351199910975993
+    },
+    {
+      "sequence": 347,
+      "time": "2026-10-21T22:20:57.174026+08:00",
+      "stage": "repeat_5-dual-fold4-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 348,
+      "time": "2026-10-21T22:20:57.193245+08:00",
+      "stage": "repeat_5-dual-fold4-temporal",
+      "event": "model_completed",
+      "seconds": 0.018536100047640502
+    },
+    {
+      "sequence": 349,
+      "time": "2026-10-21T22:20:57.199519+08:00",
+      "stage": "repeat_5-dual-fold4-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 350,
+      "time": "2026-10-21T22:20:57.227502+08:00",
+      "stage": "repeat_5-dual-fold4-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.027124500018544495
+    },
+    {
+      "sequence": 351,
+      "time": "2026-10-21T22:20:57.229005+08:00",
+      "stage": "repeat_5-dual-fold4-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 352,
+      "time": "2026-10-21T22:20:57.637176+08:00",
+      "stage": "repeat_5-dual-fold4-feature",
+      "event": "model_completed",
+      "seconds": 0.40734189993236214
+    },
+    {
+      "sequence": 353,
+      "time": "2026-10-21T22:20:57.659667+08:00",
+      "stage": "repeat_5-dual-fold5-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 354,
+      "time": "2026-10-21T22:20:57.669764+08:00",
+      "stage": "repeat_5-dual-fold5-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.009014100069180131
+    },
+    {
+      "sequence": 355,
+      "time": "2026-10-21T22:20:57.670857+08:00",
+      "stage": "repeat_5-dual-fold5-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 356,
+      "time": "2026-10-21T22:20:57.690135+08:00",
+      "stage": "repeat_5-dual-fold5-temporal",
+      "event": "model_completed",
+      "seconds": 0.01833200000692159
+    },
+    {
+      "sequence": 357,
+      "time": "2026-10-21T22:20:57.696146+08:00",
+      "stage": "repeat_5-dual-fold5-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 358,
+      "time": "2026-10-21T22:20:57.723615+08:00",
+      "stage": "repeat_5-dual-fold5-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.026513499906286597
+    },
+    {
+      "sequence": 359,
+      "time": "2026-10-21T22:20:57.724886+08:00",
+      "stage": "repeat_5-dual-fold5-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 360,
+      "time": "2026-10-21T22:20:58.143798+08:00",
+      "stage": "repeat_5-dual-fold5-feature",
+      "event": "model_completed",
+      "seconds": 0.41803910001181066
+    },
+    {
+      "sequence": 361,
+      "time": "2026-10-21T22:20:58.199575+08:00",
+      "stage": "dual-full-temporal",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 362,
+      "time": "2026-10-21T22:20:58.210527+08:00",
+      "stage": "dual-full-temporal",
+      "event": "preprocessor_completed",
+      "seconds": 0.009954100009053946
+    },
+    {
+      "sequence": 363,
+      "time": "2026-10-21T22:20:58.211496+08:00",
+      "stage": "dual-full-temporal",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 364,
+      "time": "2026-10-21T22:20:58.268900+08:00",
+      "stage": "dual-full-temporal",
+      "event": "model_completed",
+      "seconds": 0.05664500000420958
+    },
+    {
+      "sequence": 365,
+      "time": "2026-10-21T22:20:58.274266+08:00",
+      "stage": "dual-full-feature",
+      "event": "preprocessor_entered"
+    },
+    {
+      "sequence": 366,
+      "time": "2026-10-21T22:20:58.305114+08:00",
+      "stage": "dual-full-feature",
+      "event": "preprocessor_completed",
+      "seconds": 0.03007490001618862
+    },
+    {
+      "sequence": 367,
+      "time": "2026-10-21T22:20:58.306312+08:00",
+      "stage": "dual-full-feature",
+      "event": "model_entered"
+    },
+    {
+      "sequence": 368,
+      "time": "2026-10-21T22:20:58.736456+08:00",
+      "stage": "dual-full-feature",
+      "event": "model_completed",
+      "seconds": 0.4294592998921871
+    }
+  ],
+  "local_success_model_cap": 92,
+  "local_entry_cap": 94,
+  "fault_retry_cap": 2
+}

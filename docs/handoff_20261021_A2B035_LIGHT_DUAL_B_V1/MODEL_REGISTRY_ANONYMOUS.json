@@ -1,0 +1,23 @@
+{
+  "artifacts": [
+    {
+      "branch": "temporal",
+      "file": "temporal_model.joblib",
+      "sha256": "319a0e6758d6af52507f9da0ddce05ebf94a58d6a4504f72d9dbd1179473d5bb",
+      "bytes": 6456
+    },
+    {
+      "branch": "feature",
+      "file": "feature_model.joblib",
+      "sha256": "03ce99095113e4e952a4d70ba8d05ce8564a4017160b7479cd9076e9e1319d4d",
+      "bytes": 156249
+    }
+  ],
+  "combined_bytes": 162705,
+  "status": "RESEARCH_ONLY_NOT_RECOMMENDED",
+  "size_budget": 2097152,
+  "size_pass": true,
+  "private_only": true,
+  "can_upload": "NOT_REVIEWED_NOT_REQUESTED",
+  "final_model_designation": false
+}

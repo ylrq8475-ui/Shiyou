@@ -1,0 +1,211 @@
+{
+  "archive": "SOURCE_REVIEW.zip",
+  "sha256": "659488c30521e318e6f71997dc34c1be7f8a062c8340aaa8f8c264a06c572152",
+  "members": [
+    {
+      "path": "run_research.py",
+      "sha256": "897f77e63fb12505cee3bd784e6f4d6a7b0fbcdfe9432e894694ae91e9d70c93",
+      "bytes": 17102,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/BASELINE_ALLOWLIST.json",
+      "sha256": "d8a4203e336aa27b386533916f9c1475b58acb9ba0c763940b357e9e86d83074",
+      "bytes": 224,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/configs/B0.json",
+      "sha256": "3fb71b01ba78d83a46bc7afda260928bf032ae2fdc5aa02003e24a3c04d701b6",
+      "bytes": 3202,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/configs/B0_prime.json",
+      "sha256": "392cf4f2537e09f5bb023fc4bff3b05b96ee91b7f6969def2e636a9e6d46842d",
+      "bytes": 3209,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/core.py",
+      "sha256": "4a8c230e4eb626cfaa60bb34a3387d383579f48e0d130818de99917c4ad50a1c",
+      "bytes": 13450,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/csv_projection.py",
+      "sha256": "6979f0366b729a8ed32396569aa2a7837d4d409301dbfb09632267a338937c0c",
+      "bytes": 6412,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/cv035.py",
+      "sha256": "fbe904440cbb0fa02141fa6ed99aa58df15af34c297012372d7e17954fd05e3e",
+      "bytes": 5896,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/DATA_CONTRACT.json",
+      "sha256": "b3149f6538aff2f6e8de003d7179e95d1616f9247d0b0b82554b2f2ac8d5d8c8",
+      "bytes": 3749,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/ENVIRONMENT_LOCK.json",
+      "sha256": "954d67045713461b7cc303e7d85fa223507a27c1e20d5cf223f2741d32a961d6",
+      "bytes": 1114,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/evaluate.py",
+      "sha256": "9bab77411897a3194523f0d5ab419ab780211afe3fda89a43d433cf143a0e118",
+      "bytes": 1630,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/FROZEN_SOURCES.json",
+      "sha256": "4c7b6873ff27bfe47b2c5ff233624533afbbbfdf03cb5063b0f4c5595ac07a60",
+      "bytes": 99486,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/guard035.py",
+      "sha256": "c1864f63eaf005d7c100d2c568bde3fbe5a4399c0cc1ff5f045115a7890df5a6",
+      "bytes": 12842,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/ledger035.py",
+      "sha256": "a3e3de0cc36642601ae8c75d968584281eef8dbd1787d687cb14662099fb5f33",
+      "bytes": 1481,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/models035.py",
+      "sha256": "e487e6004dfbcedec191b35fcff2a24f5cb442748255009a7d28d0edb6f44fec",
+      "bytes": 5534,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/PIPELINE_APPROVAL.json",
+      "sha256": "82fdd80d1193817a0c76663713c72b5440d9a8968d368cec5566fc8832adcfc8",
+      "bytes": 1247,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/PIPELINE_LOCK.json",
+      "sha256": "ce1ab047d126f2586993dc8d2b05aef5f1b9871c59b626d6927d8803904713d1",
+      "bytes": 3094,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/predict.py",
+      "sha256": "8b48a0e1fef96eb20dfe19cf4d604bfb23382a7de350b02dd859fc6680571d6c",
+      "bytes": 2568,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/requirements.txt",
+      "sha256": "44f9e68064630e1be9fa8614521f5df4ce8fb640a4bd18827224aa89841e4bce",
+      "bytes": 349,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/RESOURCE_RELEASES.json",
+      "sha256": "e542a3acc6f7014ac06bc3cf7f87c0f43ec610c05ae26ec7dc64aa42d100200f",
+      "bytes": 755,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/src/oil_uplift/__init__.py",
+      "sha256": "b14e51df20e0d8c8e2abc3646d6cac8e26e015a797f3fa5138fb1f2c20bde30c",
+      "bytes": 82,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/src/oil_uplift/a2b013_safe.py",
+      "sha256": "7ee2de734da8d692deeccc7155fd938925d7d78aff006b2e95b64eae75272a48",
+      "bytes": 24524,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/src/oil_uplift/config.py",
+      "sha256": "b037233960dbb55a323b51b9617e4319d1b35bcfd6dbc8dca9f0bfc21c9f2d68",
+      "bytes": 2549,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/src/oil_uplift/exceptions.py",
+      "sha256": "2b3aef27c352bad4558d98ca964d21f4881468e6a63c4bc3ff7bc919a7ad26c9",
+      "bytes": 548,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/src/oil_uplift/io.py",
+      "sha256": "cf788f19399b7a867260a5a4f84bb630735a639410fc17092244ebcb9bcd18c3",
+      "bytes": 4910,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/src/oil_uplift/models.py",
+      "sha256": "fe491f1b502a0c74c8dc0717ef2abeee80e44bad625000b6bc9431693d3abd02",
+      "bytes": 3013,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/src/oil_uplift/multistep.py",
+      "sha256": "ca5538f023c73b2ef10d05e3d5c815af6b92de502b7e795f5e2d29a499472f0b",
+      "bytes": 22790,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/src/oil_uplift/scoring.py",
+      "sha256": "b9f7a2ac39d4bbfd0b4df5b6a53324efe47c18ec7861fc507146d83861264235",
+      "bytes": 9223,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/src/oil_uplift/submission.py",
+      "sha256": "d39b25ce75b452a9bf7dcb439aa1a68bdc3bbb822b9e9a2f56cd0565f1502612",
+      "bytes": 5778,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/src/oil_uplift/training.py",
+      "sha256": "dc8825f9923292726de5faff4726d39b22d62b7873186acaf4bacc1e100029cc",
+      "bytes": 19812,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/synthetic_checks.py",
+      "sha256": "e74739bce4e87d0eee94f7d2547f1b785f12265dbc00c66ad17286d5b1a3dbff",
+      "bytes": 7908,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/base/train.py",
+      "sha256": "3a469299d8779e80ab014d483618204ed266e8cf6ab030df96c833ffd34728c7",
+      "bytes": 1661,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/freshness.py",
+      "sha256": "4e93309639093d329f6db803e8beae0bb6cbc7fdeaedf4f4a61ba9451932f056",
+      "bytes": 7697,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/light_dual.py",
+      "sha256": "05e52234e88b7f69369fdc708c24b614faa9a3698606b649d84bac76d09a15ff",
+      "bytes": 7750,
+      "identity": "exact executed source"
+    },
+    {
+      "path": "source/synthetic_dual.py",
+      "sha256": "03d4606c96ec11dadd249e883aa51c53c375d5d208dc8b3f221c4e889fa320ea",
+      "bytes": 3305,
+      "identity": "exact executed source"
+    }
+  ],
+  "excluded": "weights, policy, raw data, row OOF; not a formal submission ZIP"
+}

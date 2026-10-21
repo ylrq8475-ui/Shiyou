@@ -1,0 +1,49 @@
+{
+  "leakage": "PASS",
+  "target_alignment": "PASS",
+  "well_isolation": "PASS",
+  "official_metric": "PASS",
+  "six_B0_reproductions": "PASS",
+  "real_future_mutation_checks": 3888,
+  "query_independence": [
+    {
+      "split": "fixed",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-10,
+      "fits_in_check": 0
+    },
+    {
+      "split": "repeat_1",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-10,
+      "fits_in_check": 0
+    },
+    {
+      "split": "repeat_2",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-10,
+      "fits_in_check": 0
+    },
+    {
+      "split": "repeat_3",
+      "max_absolute_difference": 1.7763568394002505e-15,
+      "tolerance": 1e-10,
+      "fits_in_check": 0
+    },
+    {
+      "split": "repeat_4",
+      "max_absolute_difference": 8.881784197001252e-16,
+      "tolerance": 1e-10,
+      "fits_in_check": 0
+    },
+    {
+      "split": "repeat_5",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-10,
+      "fits_in_check": 0
+    }
+  ],
+  "no_fit_in_predict": "PASS",
+  "model_size": "PASS",
+  "independent_review": "PENDING"
+}
