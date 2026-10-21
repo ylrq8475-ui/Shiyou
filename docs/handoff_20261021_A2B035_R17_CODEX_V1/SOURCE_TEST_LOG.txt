@@ -1,0 +1,17 @@
+test_01_exact_raw_value_blends_and_clipping (__main__.Tests.test_01_exact_raw_value_blends_and_clipping) ... ok
+test_02_forbid_alternative_weights_and_bad_values (__main__.Tests.test_02_forbid_alternative_weights_and_bad_values) ... ok
+test_03_no_geology_or_changed_member_config (__main__.Tests.test_03_no_geology_or_changed_member_config) ... ok
+test_04_train_pair_loads_train_only_and_fits_two_members (__main__.Tests.test_04_train_pair_loads_train_only_and_fits_two_members) ... ok
+test_05_predict_pair_is_separate_per_well_and_checks_keys (__main__.Tests.test_05_predict_pair_is_separate_per_well_and_checks_keys) ... ok
+test_06_official_metric_matches_independent_unequal_scale_wells (__main__.Tests.test_06_official_metric_matches_independent_unequal_scale_wells) ... ok
+test_07_official_t_starts_1_and_not_normalized (__main__.Tests.test_07_official_t_starts_1_and_not_normalized) ... ok
+test_08_metric_epsilon_duplicate_nonfinite_and_zero (__main__.Tests.test_08_metric_epsilon_duplicate_nonfinite_and_zero) ... ok
+test_09_exact_linter_template_dates_and_flat_zip (__main__.Tests.test_09_exact_linter_template_dates_and_flat_zip) ... ok
+test_10_linter_negative_nan_wrong_columns_date_or_extra_dir (__main__.Tests.test_10_linter_negative_nan_wrong_columns_date_or_extra_dir) ... ok
+test_11_actual_entry_config_guards_and_no_learned_weight_path (__main__.Tests.test_11_actual_entry_config_guards_and_no_learned_weight_path) ... ok
+test_12_B0_exact_source_is_same_as_prior_approved (__main__.Tests.test_12_B0_exact_source_is_same_as_prior_approved) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.252s
+
+OK

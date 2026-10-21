@@ -1,16 +1,68 @@
 {
   "files": {
+    "audit_evidence.py": {
+      "sha256": "a0a3a314e0f891b103d9e10b5d2eb4df35ba63c954b5868630d33d30d326a5eb",
+      "bytes": 13688
+    },
+    "AUDIT_QUEUE.md": {
+      "sha256": "51564b9aacfe05da384e4f1b4f1c3a09ee809dfa2a4d957a02a0bd7560655246",
+      "bytes": 1961
+    },
+    "COLLABORATION_REPLY_CODEX.md": {
+      "sha256": "ac11f5901b8c7dcdde36c5688be73777f4c4bed1f50337bd6d3689c4a4884058",
+      "bytes": 3530
+    },
+    "collect.py": {
+      "sha256": "33814c5230bd796c55ef3128fcee40c05072ed2cadb62805499189cfd53bae4d",
+      "bytes": 2235
+    },
+    "EVIDENCE_AND_ARITHMETIC.json": {
+      "sha256": "3baf992d0949526d6fc3012893c50e5fcfffc3f04b8ae94dcc058144b1a68388",
+      "bytes": 3203
+    },
+    "FINAL_SIGNOFF_B0.md": {
+      "sha256": "699705c1775cb293ac8e327f3c77b33f448d961584502689bc38700c780fabf8",
+      "bytes": 1676
+    },
+    "fixture_r14.py": {
+      "sha256": "bb3caec5fa783df7d92f5a625ac667b78533c5d60721743bac72b08689f5ac0e",
+      "bytes": 15969
+    },
     "PACKAGE_RELEASES_CODEX.json": {
       "sha256": "36c178454ee46eb17fee8660010e20abe8b17401c18a389cdfde551252d0263d",
       "bytes": 2417
     },
     "PRIVACY_REVIEW.json": {
-      "sha256": "b12f7538ee0bb6cdd4108af6c41892526268e10169eaaf63c461012dc7646d80",
-      "bytes": 861
+      "sha256": "5c8b38999ff56787a32c9231cbc8f21261fbe1950253162fe09c50d171116323",
+      "bytes": 4848
+    },
+    "README.md": {
+      "sha256": "c7610754ad305cde4f9f01750c4a0f085becde69d51b492896f5ee8c72941da8",
+      "bytes": 836
+    },
+    "REPORT_CODEX.md": {
+      "sha256": "966e59b5d1d80912f1c7f1c26c470fffa5021dd1dab339a4f8cc4e9c8167f9de",
+      "bytes": 11001
     },
     "RESULT_CODEX.json": {
       "sha256": "ec566d5cf13c47ccb334ca6179b8ec4ba5274d10b051d64b3da96715c2bfff54",
       "bytes": 7683
+    },
+    "SOURCE_IDENTITIES.json": {
+      "sha256": "0b9a0fbb96cc61b56397ea6a2b743f09861bd0e727490592ca644bc936b031f0",
+      "bytes": 13269
+    },
+    "SOURCE_TEST_LOG.txt": {
+      "sha256": "55ce6ee8883fec378fb602a00e62d97f54bf09fd02ba88d92ebb4b8fd2ca0320",
+      "bytes": 1678
+    },
+    "SOURCE_TEST_RESULT.json": {
+      "sha256": "81ae03e1e13a0a10c5648ca387d98267649e28edd6b2c025667f40287258f188",
+      "bytes": 287
+    },
+    "test_source_and_linter.py": {
+      "sha256": "0aa7eab65fecea458440d8ac25ef99fe4c92a684eda581d9ee71a6c0a4d1764d",
+      "bytes": 11530
     }
   },
   "self_binding": "Git object, no self-referential hash"

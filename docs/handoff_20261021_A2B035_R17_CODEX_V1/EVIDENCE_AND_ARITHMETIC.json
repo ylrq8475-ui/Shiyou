@@ -1,0 +1,94 @@
+{
+  "reviews_commits": {
+    "B0": "bc6963756f1feaf16154e9edacc96e648c74e63a",
+    "F70_F50": "742e573cac082cc6921f46255e07c566439360e4"
+  },
+  "checks_total": 1262,
+  "failed": [],
+  "all_checks_pass": true,
+  "source_lock_unheld": [],
+  "limits": [
+    "package17.py and actual_integration17.py assembly/harness source not included; hashes and bound execution receipts only, not claimed independently source-replayed"
+  ],
+  "package_identities": [
+    {
+      "version": "F70",
+      "configuration": {
+        "schema": "A2B035-R17-fixed-v1",
+        "variant": "F70",
+        "B0_weight": 0.7,
+        "B0_prime_weight": 0.3,
+        "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb"
+      },
+      "submission_code_zip_sha256": "aaea9b3f1a0d3c4f18023525faee94032d17c498064882ab1c86659835a9ed45",
+      "result_zip_sha256": "f256974f264f602776550b3e70a33809044f018e6be5a61fc0de6b9dcc1949ab",
+      "code_bytes": 4859581
+    },
+    {
+      "version": "F50",
+      "configuration": {
+        "schema": "A2B035-R17-fixed-v1",
+        "variant": "F50",
+        "B0_weight": 0.5,
+        "B0_prime_weight": 0.5,
+        "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb"
+      },
+      "submission_code_zip_sha256": "c4dee40d162540424f2d014cb97f3dfa6cf952de085a1e788783d81aae6526a9",
+      "result_zip_sha256": "424bc9a3ddbb4926deca51a0d6831af94062c0eb61f15565eb1659de7a058883",
+      "code_bytes": 4859581
+    }
+  ],
+  "comparison": {
+    "B0": {
+      "fixed": 73.71410733861434,
+      "repeat_mean": 72.47647400484871,
+      "repeat_SE": 0.13320506208937566,
+      "delta_repeat_to_B0": 0.0,
+      "delta_repeat_to_B0_prime": -2.9170485973257456,
+      "early2_score_gain_to_B0": 0.0,
+      "positive_seeds_to_B0": 0
+    },
+    "B0_prime": {
+      "fixed": 76.33261832127738,
+      "repeat_mean": 75.39352260217446,
+      "repeat_SE": 0.24340183767040807,
+      "delta_repeat_to_B0": 2.9170485973257456,
+      "delta_repeat_to_B0_prime": 0.0,
+      "early2_score_gain_to_B0": 2.438824353642027,
+      "positive_seeds_to_B0": 5
+    },
+    "F70": {
+      "fixed": 75.37953967731957,
+      "repeat_mean": 74.18091108778239,
+      "repeat_SE": 0.04617526903001291,
+      "delta_repeat_to_B0": 1.70443708293368,
+      "delta_repeat_to_B0_prime": -1.2126115143920657,
+      "early2_score_gain_to_B0": 1.362756785616845,
+      "positive_seeds_to_B0": 5
+    },
+    "F50": {
+      "fixed": 76.0350013572086,
+      "repeat_mean": 74.83912910856934,
+      "repeat_SE": 0.032704263188488326,
+      "delta_repeat_to_B0": 2.362655103720627,
+      "delta_repeat_to_B0_prime": -0.5543934936051187,
+      "early2_score_gain_to_B0": 1.905140601512148,
+      "positive_seeds_to_B0": 5
+    }
+  },
+  "A_score_strictly_above_to_exceed_B0_S_v": {
+    "F70": "84.49586291706632",
+    "F50": "83.83764489627937"
+  },
+  "B_fit_stages": {
+    "paired_CV": 60,
+    "shared_main_full_pair": 2,
+    "F70_independent_clean": 2,
+    "F50_independent_clean": 2,
+    "B0_exact_uploaded_ZIP_audit_II": 1
+  },
+  "A_model_fits": 0,
+  "A_preprocessor_fits": 0,
+  "A_raw_data_reads": 0,
+  "platform_operations": 0
+}
