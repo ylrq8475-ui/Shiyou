@@ -1195,6 +1195,34 @@
         "真实复训与ZIP字节一致为B绑定回执，A未读取真实包/原始数据/模型"
       ],
       "published_at": "2026-10-21T15:47:31.265074+08:00"
+    },
+    {
+      "task": "A2B-035/R17 A2审核接收与两套融合包本机领取",
+      "role": "B",
+      "commit": "44bb37d957d387c7f167eaeec98e7a3f0c50cc9d",
+      "report_path": "docs/handoff_20261021_A2B035_R17_RELEASE_RECEIPT_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261021_A2B035_R17_RELEASE_RECEIPT_B_V1/RESULT_RELEASE_RECEIPT17.json",
+      "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb",
+      "based_on_Codex_commit": "ff5a2f35d664b7efe9cafa6250e39cc5c4ecf237",
+      "reviews_commit": "不适用；只接收A2/Codex已发布结论，B不代签",
+      "hard_gates": "继承A2准确SHA/Windows范围通过；本次模型0/预处理0；四ZIP源与交付副本全匹配",
+      "decision_row": "继承A2：B0可指定，F70/F50可上传；用户手动操作，融合最终入选仍需审核二",
+      "key_numbers": {
+        "delivered_versions": 2,
+        "delivered_ZIPs": 4,
+        "source_and_destination_hashes_matched": 8,
+        "model_fits": 0,
+        "preprocessor_fits": 0,
+        "repackages": 0,
+        "platform_uploads_by_B": 0
+      },
+      "open_unknowns": [
+        "F70/F50平台分数与S_v UNKNOWN",
+        "平台提交编号/时间/状态UNKNOWN",
+        "融合审核二未执行；不自动替换B0",
+        "其他搜索停止，旧heartbeat暂停，历史dtype例外与Windows范围不变"
+      ],
+      "published_at": "2026-10-21T16:04:29.091509+08:00"
     }
   ]
 }
