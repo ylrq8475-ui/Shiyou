@@ -1,0 +1,85 @@
+{
+  "task": "A2B-035/FEATURE_FRESHNESS single-candidate controlled research",
+  "role": "账户B执行与交付",
+  "authorization": "direct current user request, not a fabricated Claude R18",
+  "spec": {
+    "name": "B0_FRESH10_ET400",
+    "control": "B0",
+    "history_cutoff": "M_minus_1",
+    "fields": [
+      "CCJHWND",
+      "CCYND",
+      "LY",
+      "CMD",
+      "XXDL"
+    ],
+    "calendar_window_months": 12,
+    "new_columns": [
+      "fresh__CCJHWND__last_valid_12",
+      "fresh__CCJHWND__age_months_cap12",
+      "fresh__CCYND__last_valid_12",
+      "fresh__CCYND__age_months_cap12",
+      "fresh__LY__last_valid_12",
+      "fresh__LY__age_months_cap12",
+      "fresh__CMD__last_valid_12",
+      "fresh__CMD__age_months_cap12",
+      "fresh__XXDL__last_valid_12",
+      "fresh__XXDL__age_months_cap12"
+    ],
+    "feature_count": 335,
+    "method": "append last finite observation in cutoff-11..cutoff and calendar age; absent value NaN and age12; finite zero is valid; original325 and scale untouched",
+    "model": {
+      "name": "ExtraTrees",
+      "n_estimators": 400,
+      "min_samples_leaf": 6,
+      "max_features": 0.75,
+      "random_state": 20260916,
+      "n_jobs": -1
+    },
+    "target": "original log1p(RCYL/s), original last legal raw RCYL finite>0 else1",
+    "no_replacement_of_original_values": true
+  },
+  "candidate_count": 1,
+  "control": "fresh B0 fits; no old score subtraction or OOF reuse",
+  "evaluation": "fixed5 plus repeat seeds1,2,3,4,5 each5 grouped by WELL_ID; same81 wells exploratory, not independent confirmation",
+  "successful_CV_models": 60,
+  "successful_full_candidate_models": 1,
+  "successful_model_cap": 61,
+  "model_entry_cap_with_fault_retries": 63,
+  "fault_retry_cap": 2,
+  "preprocessor_pipeline_count": "one per entered model; separately counted",
+  "no_score_based_early_stopping": true,
+  "baseline_fixed_reproduction_gate": {
+    "score": 73.71410733861434,
+    "tolerance": 1e-09,
+    "failure": "stop before candidate evaluation"
+  },
+  "retention_recommendation_all_required": {
+    "fixed_delta_min": -0.2,
+    "repeat_mean_delta_min": 0.2,
+    "positive_repeats_min": 4,
+    "worst_repeat_delta_min": -0.2,
+    "all_structure_and_integrity_checks": "PASS"
+  },
+  "threshold_provenance": "B prespecified engineering recommendation criteria, not user-quoted criteria or a statistical test",
+  "full_model_delivery": "Always fit one full candidate after structurally valid CV, as user requested; if criteria fail label RESEARCH_ONLY_NOT_RECOMMENDED; no automatic deployment",
+  "error_groups": "five new-field freshness groups age0/age1/age2plus; scale, last legal production ratio, operating fraction, BX flags, training-fold production tertiles; whole dimension suppressed if any group<5; no row outputs",
+  "metric": "original unnormalized2^-t, epsilon1e-6, per well then equal mean",
+  "model_parallelism": "one fold at a time, ExtraTrees n_jobs=-1, BLAS/OpenMP1, sequential deterministic predict",
+  "unchanged": [
+    "raw data",
+    "original325",
+    "scale and target",
+    "lag rolling trend",
+    "M-1 cutoff and M+1..M+12 targets",
+    "all old packages/weights/locks/environments"
+  ],
+  "not_authorized_here": [
+    "other learners/candidates",
+    "test distribution analysis",
+    "formal result ZIP",
+    "platform upload",
+    "replacement of B0/F70/F50"
+  ],
+  "OOF_persistence": false
+}

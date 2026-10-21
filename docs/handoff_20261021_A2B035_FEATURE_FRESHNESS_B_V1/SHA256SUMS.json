@@ -1,0 +1,111 @@
+{
+  "algorithm": "SHA256 original bytes",
+  "files": [
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/ENVIRONMENT_LOCK.json",
+      "sha256": "5854800326f7d2f9c3cf3fd992e9345af71d1e73943aa22440633e88cd3905ed",
+      "bytes": 709
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/ERROR_GROUPS.json",
+      "sha256": "3a048f64951c7246d0544afb5bff2be24160ab723695becb98ffde61fca908b0",
+      "bytes": 129432
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/FIT_EVENTS.json",
+      "sha256": "3ea15e00e4263c3e467eeb47bb1099896a07a09156359a6727cb41f4fd1311cd",
+      "bytes": 43137
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/GROUP_CONFOUNDING_CHECK.json",
+      "sha256": "98d92b98b1e2cc198a979bd40d847b8f2fdc66ee236525fb7f8b4f67960d2624",
+      "bytes": 266
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/HISTORY_CHECK.json",
+      "sha256": "92ad137249f5cc6b73509be836287354b802b9702aa79ed8c9941ac89d2ca72e",
+      "bytes": 1272
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/IMPLEMENTATION_LOCK.json",
+      "sha256": "8c73884b0cac4ff4a8a4438d7248d02f42aca27183728f7054d76db3e7755d9e",
+      "bytes": 4025
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/INTEGRITY_AND_ARITHMETIC.json",
+      "sha256": "2e21be4b8c138d124c8a496c231d56c1d774b3c33d1b0bf7091a550c567d0f8d",
+      "bytes": 985
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/MODEL_REGISTRY_ANONYMOUS.json",
+      "sha256": "4f8954d5c546ca518995bf40d5fe52fb53ea2e4b40a2d253826860bf4bb17466",
+      "bytes": 502
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/PLAN.json",
+      "sha256": "11296bd02920ae481aefb08868012bc9ee1d0670c5da2b19bf1d8eac186c0e47",
+      "bytes": 3378
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/PREPARATION_INCIDENTS.json",
+      "sha256": "942c9f546b63cd4ddae32b4a39e0a350f47f3a0fb989e37e880eeca2416f3ccc",
+      "bytes": 1117
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/PRE_DATA_LOCK.json",
+      "sha256": "98c55e21a7a3224aa2059f12ae9f8fdc56e5f3f047338ccaa6508357d444b354",
+      "bytes": 4445
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/PRIVACY_COVERAGE_MAP.md",
+      "sha256": "ab4a1e92fe56f2f69cf88e79c1bdc6b6a966a707948249433d7793fd75ae6f1f",
+      "bytes": 3349
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/PRIVACY_SCAN_RAW.json",
+      "sha256": "f412f1ddc397c2faa71123bf6814df5b75227c75e3b71930d3cf71471ca96d5f",
+      "bytes": 17097
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/README_REPRODUCTION.md",
+      "sha256": "3af94d161fa13bc34fee5806bd815dfa4b19a9677eaf88cc79f6d28748bb5b2c",
+      "bytes": 647
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/REPORT_B.md",
+      "sha256": "6cfafd63c080105f4abef8853d425eaa7267fa481913c964918e62fe86184192",
+      "bytes": 7442
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/REQUEST_CODEX_REVIEW.md",
+      "sha256": "5ac6bfe4eaf72ff90be31f6ac92b097b27c5877eab8992fc624a99093070a6c3",
+      "bytes": 501
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/RESULT_FRESHNESS.json",
+      "sha256": "b4466196242d81506dcefd4e717f06b3bd85c239d388fa995ee5f8e5cf5afb38",
+      "bytes": 40557
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/SOURCE_MEMBER_MANIFEST.json",
+      "sha256": "a66570452c7fa99b8e2f85dc72543582ecdaf15f7f0221dbef0f59a595942dc1",
+      "bytes": 7400
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/SOURCE_REVIEW.zip",
+      "sha256": "9701dd98c5adac067aa8e4ba4b9087358bc79bc05d2964e6ef7454432772dfcf",
+      "bytes": 96629
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/SYNTHETIC.json",
+      "sha256": "1ad65adf25304f0b384f22db2fd0103d02f3f38de34e22664e8f47ab89659c66",
+      "bytes": 930
+    },
+    {
+      "path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/USER_AUTHORIZATION.json",
+      "sha256": "7293786ff0b4f098fa3072fc62e76eef93a248f97cad09b399778f1367f93806",
+      "bytes": 426
+    }
+  ],
+  "self": "bound by Git and external byte receipt; final bytes privacy scanned"
+}

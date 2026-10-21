@@ -1,0 +1,29 @@
+{
+  "scope": "before any successful or entered model/preprocessor fit and before candidate scores",
+  "v1_preserved": true,
+  "v1_model_entries": 0,
+  "v1_preprocessor_entries": 0,
+  "incidents": [
+    {
+      "phase": "initial prepare",
+      "problem": "synthetic test module name shadowed by frozen base",
+      "fix": "unique synthetic_freshness module name",
+      "fits_entered": 0
+    },
+    {
+      "phase": "synthetic numerical assertion",
+      "problem": "exact round trip of log/exponential differs at floating-point precision",
+      "fix": "assert exact equality against the frozen floating-point formulas; no scoring tolerance changed",
+      "fits_entered": 0
+    },
+    {
+      "phase": "first training entry before fitting",
+      "problem": "estimator factory referenced through module that does not export it",
+      "fix": "new independent v2 with explicit models035 import and nonfitting factory parameter probe; original v1 locks unchanged",
+      "fits_entered": 0
+    }
+  ],
+  "v2_synthetic_checks": 15,
+  "successful_fit_retries": 0,
+  "not_score_selected_environment_or_parameters": true
+}

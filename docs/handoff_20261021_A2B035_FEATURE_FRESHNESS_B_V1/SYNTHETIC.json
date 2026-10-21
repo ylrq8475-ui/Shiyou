@@ -1,0 +1,23 @@
+{
+  "tests": [
+    "current finite value age0",
+    "one missing month uses only earlier finite value",
+    "finite zero retained as observed",
+    "oldest allowed month is cutoff minus11",
+    "older observations excluded, not unlimited forward fill",
+    "infinite input not treated as observed",
+    "future dynamic strings filtered before numeric parsing",
+    "input row order does not alter age or value",
+    "age is calendar months, not observed row count",
+    "all missing remains NaN with capped missing age",
+    "duplicate month rejected",
+    "exactly ten additional named features",
+    "original target and inverse floating-point formulas preserved exactly",
+    "official metric identity on synthetic perfect prediction",
+    "actual locked learner factory constructs original parameters without fitting"
+  ],
+  "passed": 15,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "no_real_values_in_test_output": true
+}

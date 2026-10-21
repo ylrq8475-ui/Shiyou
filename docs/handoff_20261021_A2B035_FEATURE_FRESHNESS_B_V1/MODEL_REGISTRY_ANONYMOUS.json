@@ -1,0 +1,15 @@
+{
+  "model": "B0_FRESH10_ET400",
+  "status": "RESEARCH_ONLY_NOT_RECOMMENDED",
+  "SHA256": "9591de8b2d10a35c304d1f4b7b95b2ed1d22310fde50194a5bb7b3a2ae02f7c2",
+  "bytes": 2394352,
+  "features_before_preprocessing": 335,
+  "full_fits": 1,
+  "control_models": 30,
+  "candidate_CV_models": 30,
+  "total_new_models": 61,
+  "no_automatic_deployment": true,
+  "formal_ZIP": false,
+  "can_upload": "NOT_REVIEWED; no submission package; not requested by this delivery",
+  "private_weights_not_published": true
+}

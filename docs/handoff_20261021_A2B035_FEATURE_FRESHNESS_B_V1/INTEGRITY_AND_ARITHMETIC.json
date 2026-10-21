@@ -1,0 +1,20 @@
+{
+  "source_plan_environment_input_locks_unchanged": true,
+  "frozen_old_pipeline_source_unchanged": true,
+  "aggregate_assertions": 218,
+  "raw_archive_sha256": "813f0ebe71f6dddf64e8fbc6f365e15058c9952de16304f2f46392e96eca09c7",
+  "private_policy_sha256": "62a4cf2ef74f59699a87638e84975893da7caf79e16b59db11cd341ed6ac1f2b",
+  "both_input_frame_identities_match_prescore": true,
+  "baseline_all_six_scores_reproduced_within_1e_9": true,
+  "raw_archive_and_private_policy_rehashed_before_and_after_training": true,
+  "saved_model_reloaded_prediction_array_exact": true,
+  "reload_scope": "full training feature rows solely for artifact equality; not a validation score",
+  "test_reads": 0,
+  "new_models": 61,
+  "new_preprocessors": 61,
+  "model_failures": 0,
+  "model_retries": 0,
+  "prior_implementation_failures_before_fits": 3,
+  "historical_dtype": "UNKNOWN, no backfill",
+  "old_formal_packages": "not accessed or overwritten by this run; package bytes are not re-audited here"
+}

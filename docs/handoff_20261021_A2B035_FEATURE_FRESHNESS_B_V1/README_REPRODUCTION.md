@@ -1,0 +1,1 @@
+账户B执行与交付。SOURCE_REVIEW.zip含本次精确执行源码，raw data与private policy需留在获授权本机，环境按ENVIRONMENT_LOCK恢复到已验证Windows。新建独立输出目录后运行run_research.py prepare --base <frozen-base-source> --data <authorized-raw-archive> --policy <private-policy> --reference <frozen-R17-root>，再用相同参数运行train。train会执行60次配对CV及1次全量候选拟合，属于训练，不是只读审核命令，不得在未获执行批准时运行。已完成目录拒绝覆盖，不重启成功折。没有测试预测或平台命令；模型为335特征的私有研究版。

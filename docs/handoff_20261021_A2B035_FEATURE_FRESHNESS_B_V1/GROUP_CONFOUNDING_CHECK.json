@@ -1,0 +1,8 @@
+{
+  "task": "post-training descriptive group overlap check",
+  "chemical_long_missing_and_recent_ratio_unknown_same_members": true,
+  "same_group_size": 10,
+  "model_fits": 0,
+  "preprocessor_fits": 0,
+  "not_causal_or_independent_subgroup_evidence": true
+}

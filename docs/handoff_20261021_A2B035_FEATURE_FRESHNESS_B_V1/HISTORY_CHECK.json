@@ -1,0 +1,36 @@
+{
+  "scope": "available authorized local training sources/completion reports and latest published handoff index; not a claim about inaccessible machines",
+  "index_commit": "8359dda61a99c759333f74972a1a6a20800ebc26",
+  "comparisons": [
+    {
+      "task": "A2B-022",
+      "mechanism": "exact duplicate/constant removal",
+      "completed": true,
+      "equivalent": false,
+      "conclusion": "negative; no repeat"
+    },
+    {
+      "task": "A2B-023",
+      "mechanism": "target ratio removal",
+      "completed": true,
+      "equivalent": false
+    },
+    {
+      "task": "A2B035-R14/R15 H,T,HX",
+      "mechanism": "scale mixing, early heads, production/measure history",
+      "completed": true,
+      "equivalent": false,
+      "conclusion": "stopped; do not resume"
+    },
+    {
+      "task": "R17 feature quality diagnosis",
+      "mechanism": "last missing run and freshness counts",
+      "completed": true,
+      "model_fits": 0,
+      "equivalent_training": false
+    }
+  ],
+  "equivalent_completed_training_found": false,
+  "keyword_search": "freshness,staleness,last_valid_12,missing_run,continuous missingness and observation recency; only diagnostic material, unrelated dependency sources excluded",
+  "does_not_treat_diagnostic_plan_as_execution": true
+}
