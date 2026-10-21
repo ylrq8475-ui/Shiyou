@@ -1,0 +1,69 @@
+{
+  "task": "A2B-035/R17 A2 review received and exact fusion packages delivered locally",
+  "role": "账户B执行与交付",
+  "instruction_commit": "7f44d70aa53410a2d072d69874003f3a8946adbb",
+  "review_commit": "ff5a2f35d664b7efe9cafa6250e39cc5c4ecf237",
+  "review_index_commit": "4a43ac586114878dda561ca0161dac94ee0c14a0",
+  "review_source": "published A2/Codex exact-package releases, fetched through Git; B does not self-sign",
+  "B0_can_designate_inherited": true,
+  "PLATFORM_B0_BINDING": "CLOSED limited current actual uploaded B0 to user-reported 86.2003; inherited Codex decision",
+  "F70_can_upload_inherited": true,
+  "F50_can_upload_inherited": true,
+  "fusion_audit_II_complete": false,
+  "files": [
+    {
+      "version": "F70",
+      "filename": "submission_code.zip",
+      "bytes": 4859581,
+      "expected_sha256": "aaea9b3f1a0d3c4f18023525faee94032d17c498064882ab1c86659835a9ed45",
+      "source_sha256": "aaea9b3f1a0d3c4f18023525faee94032d17c498064882ab1c86659835a9ed45",
+      "delivered_sha256": "aaea9b3f1a0d3c4f18023525faee94032d17c498064882ab1c86659835a9ed45",
+      "matches_review": true
+    },
+    {
+      "version": "F70",
+      "filename": "result.zip",
+      "bytes": 3081,
+      "expected_sha256": "f256974f264f602776550b3e70a33809044f018e6be5a61fc0de6b9dcc1949ab",
+      "source_sha256": "f256974f264f602776550b3e70a33809044f018e6be5a61fc0de6b9dcc1949ab",
+      "delivered_sha256": "f256974f264f602776550b3e70a33809044f018e6be5a61fc0de6b9dcc1949ab",
+      "matches_review": true
+    },
+    {
+      "version": "F50",
+      "filename": "submission_code.zip",
+      "bytes": 4859581,
+      "expected_sha256": "c4dee40d162540424f2d014cb97f3dfa6cf952de085a1e788783d81aae6526a9",
+      "source_sha256": "c4dee40d162540424f2d014cb97f3dfa6cf952de085a1e788783d81aae6526a9",
+      "delivered_sha256": "c4dee40d162540424f2d014cb97f3dfa6cf952de085a1e788783d81aae6526a9",
+      "matches_review": true
+    },
+    {
+      "version": "F50",
+      "filename": "result.zip",
+      "bytes": 3082,
+      "expected_sha256": "424bc9a3ddbb4926deca51a0d6831af94062c0eb61f15565eb1659de7a058883",
+      "source_sha256": "424bc9a3ddbb4926deca51a0d6831af94062c0eb61f15565eb1659de7a058883",
+      "delivered_sha256": "424bc9a3ddbb4926deca51a0d6831af94062c0eb61f15565eb1659de7a058883",
+      "matches_review": true
+    }
+  ],
+  "key_numbers": {
+    "delivered_versions": 2,
+    "delivered_ZIPs": 4,
+    "source_and_destination_hashes_matched": 8,
+    "model_fits": 0,
+    "preprocessor_fits": 0,
+    "repackages": 0,
+    "platform_uploads_by_B": 0
+  },
+  "private_packages_uploaded_to_GitHub": false,
+  "raw_data_or_weights_loaded": false,
+  "other_search": "STOPPED; not resumed",
+  "heartbeat_R16": "PAUSED; not resumed",
+  "scope": "exact hashes and verified Windows environment; not Linux certification or platform score guarantee",
+  "F70_F50_platform_A_scores": "UNKNOWN",
+  "F70_F50_S_v": "UNKNOWN",
+  "platform_submission_id_time_status": "UNKNOWN",
+  "next": "User manually uploads each matched ZIP pair under existing daily limit; report metadata/scores; final selected fusion still requires audit II; B0 not replaced automatically"
+}
