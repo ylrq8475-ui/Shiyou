@@ -1252,6 +1252,33 @@
         "其他搜索停止，既有包和审核资格不自动改变"
       ],
       "published_at": "2026-10-21T20:57:24.393389+08:00"
+    },
+    {
+      "task": "A2B-035/FEATURE_FRESHNESS 单候选受控训练",
+      "role": "B",
+      "commit": "c2eb838b0ed685d256df81bfb202e6aff083798a",
+      "report_path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261021_A2B035_FEATURE_FRESHNESS_B_V1/RESULT_FRESHNESS.json",
+      "authorization": "user current direct request; not fabricated Claude R18",
+      "reviews_commit": "不适用；Codex只负责其独立复核，B不代签",
+      "hard_gates": "B源码/合成/当前输入锁/井隔离/指标算术范围通过；独立审核待完成；非正式包放行",
+      "decision_row": "B预注册工程条件未达，私有研究模型按用户要求保存；不替换、不上传、不追加候选",
+      "key_numbers": {
+        "repeat_mean_delta": 0.044988961881034586,
+        "positive_repeats": 4,
+        "worst_repeat_delta": -0.2150474522166519,
+        "model_fits": 61,
+        "preprocessor_fits": 61,
+        "failures": 0,
+        "retries": 0
+      },
+      "open_unknowns": [
+        "新候选平台分数未知，无正式提交包或上传资格",
+        "未达保留条件，不继续微调；其他旧搜索仍停止",
+        "缺测与生产状态分组混杂，不证明因果",
+        "历史dtype与Windows范围限制继承"
+      ],
+      "published_at": "2026-10-21T21:39:11.690488+08:00"
     }
   ]
 }
