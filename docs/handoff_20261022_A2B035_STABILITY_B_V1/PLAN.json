@@ -1,0 +1,163 @@
+{
+  "task": "A2B-035/STABILITY_20261022",
+  "role": "账户B执行与交付",
+  "spec": {
+    "B0": "original frozen325 ExtraTrees400; contemporaneous paired OOF reference",
+    "E0": {
+      "purpose": "compact capacity control and eligible candidate",
+      "features": 325,
+      "model": {
+        "bootstrap": false,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": 8,
+        "max_features": 0.75,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 6,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 200,
+        "n_jobs": -1,
+        "oob_score": false,
+        "random_state": 20260916,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "E1": {
+      "purpose": "production-state representation, same estimator as E0",
+      "features": 346,
+      "new_features": [
+        "state__op_last",
+        "state__op_mean3",
+        "state__op_mean6",
+        "state__op_last_minus_previous3",
+        "state__op_zero_share6",
+        "state__op_slope6",
+        "state__oil_liquid_last",
+        "state__oil_liquid_median3",
+        "state__oil_liquid_median6",
+        "state__oil_liquid_valid_count6",
+        "state__oil_log_short_long_median_gap",
+        "state__oil_log_last_minus_median6",
+        "state__oil_log_adjacent_abs_median6",
+        "state__oil_log_slope6",
+        "state__oil_zero_share6",
+        "state__oil_valid_count6",
+        "state__liquid_log_short_long_median_gap",
+        "state__liquid_log_slope6",
+        "state__liquid_valid_count6",
+        "state__op_valid_count6",
+        "state__oil_liquid_log_slope_difference6"
+      ],
+      "model": {
+        "bootstrap": false,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": 8,
+        "max_features": 0.75,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 6,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 200,
+        "n_jobs": -1,
+        "oob_score": false,
+        "random_state": 20260916,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "T1": {
+      "purpose": "stronger temporal shrinkage; only alpha changes100 to1000 from previous temporal-only branch",
+      "features": 195,
+      "model": {
+        "alpha": 1000.0,
+        "copy_X": true,
+        "fit_intercept": true,
+        "max_iter": null,
+        "positive": false,
+        "random_state": null,
+        "solver": "svd",
+        "tol": 0.0001
+      }
+    },
+    "F75": {
+      "purpose": "fixed global complementarity, no per-well routing",
+      "members": [
+        "B0",
+        "T1"
+      ],
+      "weights": [
+        0.75,
+        0.25
+      ],
+      "space": "raw RCYL after individual inverse transforms",
+      "weight_selection": "none"
+    },
+    "cutoff": "M-1",
+    "target_window": "M+1..M+12",
+    "target": "log1p(RCYL/s); raw last legal RCYL finite>0 else1; no scale change",
+    "state_scope": "6 calendar months up to cutoff; raw zeros valid; no RCYL/operating-fraction target correction; oil/liquid is an empirical ratio, not certified volumetric water cut",
+    "minimum_valid": "3-month statistics require2;6-month statistics require4;slope requires3;latest requires actual latest; differences require both sides",
+    "no_weights_calibration_geology_or_first_plan": true
+  },
+  "eligible_candidates": [
+    "E0",
+    "E1",
+    "T1",
+    "F75"
+  ],
+  "research_CV": "fixed5 and5repeated group5, seeds1..5; four actual learners x30=120 fits; F75 no extra fits",
+  "successful_fit_budget": {
+    "research": 120,
+    "conditional_confirmation_max": 15,
+    "conditional_full_max": 2,
+    "total_max": 137
+  },
+  "entry_budget_with_fault_retries": 139,
+  "fault_retry_cap": 2,
+  "preprocessors": "one top-level train-fitted pipeline per actual learner; separately counted; no diagnostic preprocessing fit",
+  "baseline_reproduction": "all6 exact B0 reference scores within1e-9; fail stops before same-split new candidate",
+  "research_screen_all_required": {
+    "fixed_delta_min": 0.2,
+    "repeat_mean_delta_min": 0.2,
+    "positive_repeat_min": 4,
+    "worst_repeat_delta_min": -0.2,
+    "min_paired_fixed_fold_delta_min": -1.0,
+    "all_structure_checks": "PASS"
+  },
+  "selection": "among passing candidates maximize repeat_mean_delta - sample_std(repeat_deltas); tie fixed_delta then stable candidate order E0,E1,T1,F75; choose only one",
+  "confirmation": {
+    "seed": 20261022,
+    "folds": 5,
+    "only_if_research_pass": true,
+    "delta_min": 0.2,
+    "positive_fold_min": 4,
+    "min_paired_fold_delta_min": -1.0,
+    "no_parameter_or_weight_updates": true,
+    "not_independent_wells": true
+  },
+  "saving": "only selected candidate after confirmation all pass; one full model or twoF75 components; max4MiB combined; pending independent review, never auto replace",
+  "threshold_provenance": "B prespecified engineering stable-improvement criteria, not user-quoted values or significance claim",
+  "error_analysis": "six-split same-well error recurrence and paired state losses; topquartile errors>=4/6 exploratory stable-hard group; raw labels only retrospective diagnosis; group/cell privacy suppression; fixedOOF pairedwell bootstrap2000 descriptive only",
+  "stops": [
+    "actual leak/target misalignment/well overlap/metric failure",
+    "runtime environment/input/source drift",
+    "baseline mismatch",
+    "entry budget exhausted"
+  ],
+  "no_score_based_research_early_stop": true,
+  "no_test_access": true,
+  "raw_read_only": true,
+  "OOF_persistence": false,
+  "old_artifacts_untouched": true,
+  "platform_actions": 0,
+  "parallelism": "one model and fold at a time, ETn_jobs=-1, OMP/BLAS1, no new heavy dependencies or outside weights"
+}

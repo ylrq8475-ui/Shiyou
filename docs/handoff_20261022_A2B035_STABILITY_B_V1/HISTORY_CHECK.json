@@ -1,0 +1,29 @@
+{
+  "scope": "available local plans, actual completion aggregates and previous public deliveries",
+  "equivalent_complete_config_found": false,
+  "mechanisms": [
+    {
+      "name": "capacity",
+      "difference": "E0 ET200 plus max_depth8 joint capacity strategy; old grid400/800 without this depth; cannot separate effects of two capacity knobs"
+    },
+    {
+      "name": "state",
+      "difference": "21 calendar six-month M-1 features; R13 R-block was related response family mainly atM;R15 HX was measure/history counts, not sameblock"
+    },
+    {
+      "name": "temporal",
+      "difference": "previous Ridgealpha100 descriptive results reused without retraining; newalpha1000 only differs in shrinkage; temporal frame identity exactly matched"
+    },
+    {
+      "name": "fusion",
+      "difference": "fixed global .75B0+.25T1, no grid/inner weight fitting/per-well routing"
+    }
+  ],
+  "prior_Ridge_result_sha256": "2b6fa63a7dbf0568fdff33e40d36159b349c8ce8f205f0be6e1b6daf6d6f6434",
+  "baseline_reference_sha256": "baa893dfdb4833a3864e6c9814586e2db99b1be9db3a1974466106c67c3ab512",
+  "B0_refits_reason": "same-run RAM-only OOF needed for new paired error recurrence, ablation and fixed fusion; no prior row OOF persisted, not a new claim of old B0 discovery",
+  "notes_sha256": {
+    "DOMAIN_EVIDENCE.md": "6f18f01f96f02c0d184bca41a4c5d14308e9e36c94a75cba3b94098ac3f88e34",
+    "ERROR_HISTORY_AUDIT.md": "ebd621b8f9d7b578e165fd66f3d185c126a62a371381dc9af8c283d7be9c5844"
+  }
+}

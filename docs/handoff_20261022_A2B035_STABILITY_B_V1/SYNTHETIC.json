@@ -1,0 +1,104 @@
+{
+  "feature_and_boundary": {
+    "tests": [
+      "zero oil retained as finite observed",
+      "oil ratio uses supplied raw legal scale",
+      "operating days normalized by actual month days",
+      "absent calendar month is missing plus explicit mask",
+      "sequence sorted by calendar, not CSV order",
+      "future strings never enter numeric parsing",
+      "observation older than12 month excluded",
+      "infinite observation has missing mask",
+      "duplicate month rejected",
+      "negative oil rejected",
+      "invalid operating days rejected",
+      "195 time features and forecast horizon basis",
+      "horizon interaction exact at month12",
+      "frozen target expression unchanged",
+      "nonnegative inverse of additive log output",
+      "locked small model construction, no fit",
+      "official metric equal-well reference",
+      "exact21state columns",
+      "zero valid and oil-liquid ratio unchanged",
+      "calendar operating fraction",
+      "future dynamic invalid strings excluded",
+      "order invariant calendar features",
+      "insufficient histories remain missing",
+      "zero liquid no division",
+      "candidate factory fixed without fitting"
+    ],
+    "passed": 25,
+    "model_fits": 0,
+    "preprocessor_fits": 0
+  },
+  "diagnostic": {
+    "passed": true,
+    "check_count": 15,
+    "model_fits": 0,
+    "preprocessing_fits": 0,
+    "checks": [
+      {
+        "check": "official_formula_and_unnormalized_weights",
+        "passed": true
+      },
+      {
+        "check": "identity_predictions_have_zero_paired_delta",
+        "passed": true
+      },
+      {
+        "check": "identity_bootstrap_interval_is_zero",
+        "passed": true
+      },
+      {
+        "check": "perfect_candidate_has_positive_delta",
+        "passed": true
+      },
+      {
+        "check": "constant_loss_rank_is_explicitly_undefined",
+        "passed": true
+      },
+      {
+        "check": "persistent_hard_top_quartile_count",
+        "passed": true
+      },
+      {
+        "check": "json_contains_no_synthetic_identifiers",
+        "passed": true
+      },
+      {
+        "check": "no_nonfinite_json",
+        "passed": true
+      },
+      {
+        "check": "no_fitting",
+        "passed": true
+      },
+      {
+        "check": "positive_raw_one_is_not_fallback",
+        "passed": true
+      },
+      {
+        "check": "partition_contributions_sum_to_total",
+        "passed": true
+      },
+      {
+        "check": "rare_or_empty_group_suppresses_entire_dimension",
+        "passed": true
+      },
+      {
+        "check": "target_horizon_misalignment_rejected",
+        "passed": true
+      },
+      {
+        "check": "nonfinite_prediction_rejected",
+        "passed": true
+      },
+      {
+        "check": "metadata_row_order_is_aligned_by_identity_in_memory",
+        "passed": true
+      }
+    ]
+  },
+  "model_fits": 0,
+  "preprocessor_fits": 0
+}

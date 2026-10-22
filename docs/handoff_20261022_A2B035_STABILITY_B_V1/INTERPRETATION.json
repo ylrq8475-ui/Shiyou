@@ -1,0 +1,68 @@
+{
+  "scope": "posthoc description from locked completed aggregates only; zero additional fits",
+  "comparison": [
+    {
+      "candidate": "E0",
+      "fixed_score": 73.3898392497986,
+      "fixed_delta": -0.3242680888157423,
+      "repeat_mean_score": 72.43978051026453,
+      "repeat_mean_delta": -0.036693494584184805,
+      "positive_repeats": 2,
+      "worst_repeat_delta": -0.13858670339097046,
+      "research_pass": false
+    },
+    {
+      "candidate": "E1",
+      "fixed_score": 73.37457485830132,
+      "fixed_delta": -0.3395324803130251,
+      "repeat_mean_score": 72.298065753644,
+      "repeat_mean_delta": -0.1784082512047064,
+      "positive_repeats": 2,
+      "worst_repeat_delta": -0.41997375143753857,
+      "research_pass": false
+    },
+    {
+      "candidate": "T1",
+      "fixed_score": 72.66146186771127,
+      "fixed_delta": -1.052645470903073,
+      "repeat_mean_score": 72.86228910400999,
+      "repeat_mean_delta": 0.3858150991612746,
+      "positive_repeats": 4,
+      "worst_repeat_delta": -0.14066664372862192,
+      "research_pass": false
+    },
+    {
+      "candidate": "F75",
+      "fixed_score": 74.09194504585045,
+      "fixed_delta": 0.377837707236111,
+      "repeat_mean_score": 73.07823992121997,
+      "repeat_mean_delta": 0.6017659163712665,
+      "positive_repeats": 5,
+      "worst_repeat_delta": 0.5198534309319172,
+      "research_pass": true
+    }
+  ],
+  "persistent_hard": {
+    "wells": 21,
+    "population": 81,
+    "mean6_loss_share": 0.5051158187729119,
+    "B0_mean6_overprediction_loss_share": 0.6028275571900419,
+    "F75_net_score_contribution": 0.49024954921425196,
+    "T1_net_score_contribution": 1.9344700723938473,
+    "T1_other_net_score_contribution": -1.7883984015766317
+  },
+  "state_feature_ablation_E1_minus_E0": {
+    "fixed": -0.015264391497282759,
+    "repeat_mean": -0.1417147566205216
+  },
+  "mean6_B0_loss_rank_correlations": {
+    "B0": 0.9999999999999999,
+    "E0": 0.9910832580548027,
+    "E1": 0.986574074074074,
+    "T1": 0.592430743751882,
+    "F75": 0.9703176753989761
+  },
+  "conclusion": "F75 promising research signal but confirmation failed prespecified engineering screen; no saved full model or replacement",
+  "causal_claim": false,
+  "new_training": 0
+}
