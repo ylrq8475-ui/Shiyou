@@ -1304,6 +1304,33 @@
         "历史dtype缺口及Windows运行范围继承"
       ],
       "published_at": "2026-10-21T22:38:26.854412+08:00"
+    },
+    {
+      "task": "A2B-035/STABILITY 数据知识与共同误差",
+      "role": "B",
+      "commit": "36f4c39cb22a9e7d354531a105a883a14fafb752",
+      "report_path": "docs/handoff_20261022_A2B035_STABILITY_B_V1/REPORT_B.md",
+      "result_json_path": "docs/handoff_20261022_A2B035_STABILITY_B_V1/RESULT_STABILITY.json",
+      "authorization": "direct human request; no fabricated Claude archive",
+      "reviews_commit": "不适用，独立复核待完成",
+      "hard_gates": "B边界、输入、分组、指标、合成范围通过",
+      "decision_row": "F75研究通过但确认失败，不全量保存或替换",
+      "key_numbers": {
+        "models": 130,
+        "preprocessors": 130,
+        "F75_fixed_delta": 0.377837707236111,
+        "F75_repeat_mean_delta": 0.6017659163712665,
+        "F75_positive_repeats": 5,
+        "confirmation_delta": 0.13198481466815792,
+        "confirmation_positive_folds": 3
+      },
+      "open_unknowns": [
+        "未通过预注册确认",
+        "平台成绩未知且未生成正式包",
+        "历史dtype缺口继承",
+        "共同错误为描述非因果"
+      ],
+      "published_at": "2026-10-22T21:59:55.429805+08:00"
     }
   ]
 }
